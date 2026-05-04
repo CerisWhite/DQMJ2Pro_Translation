@@ -9,7 +9,7 @@ Frizz ＆ Zap
 Anti-metal
 Über Frizz ＆ Zap
 Frizz ＆ Zam
-Swift Wind
+Tornado
 Über Frizz ＆ Zam
 Bang ＆ Woosh
 Giant Slayer
@@ -33,16 +33,16 @@ Woosh ＆ Zam
 Robbin's Old Lady
 Über Woosh ＆ Zam
 Crack ＆ Zap
-Great godbird
+Prism Peacock
 Über Crack ＆ Zap
 Crack ＆ Zam
 Dark Robot Slime
 Über Crack ＆ Zam
 Fire
-Stormsgate Citadel
+Slime Blaster
 Über Fire
 Ice
-Diamagon
+Diamond Slime
 Über Ice
 Breath
 Thornella
@@ -99,16 +99,16 @@ Cleric
 Aquapothecary
 All-Rounder
 Mime
-Green Finger
-Slime Force
-Naturalist
+Trickster
+Slimer
+Brute Road
 Graveheart
-Diabolist
+Sorcerer
 Dragon Lore
 Bird Brain
-Ecology
+Green Finger
 Hive Mind
-Materialist
+Stonehead
 Wulfspade
 Über Wulfspade
 Hawkhart
@@ -223,7 +223,7 @@ Aquarion
 Sagittar
 Leonyx
 Wormonger
-Bjørn the Behemoose
+Bjørn
 Missing Lynx
 Khalamari
 Ruin
