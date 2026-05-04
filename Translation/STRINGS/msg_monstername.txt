@@ -29,33 +29,33 @@ king cureslime
 darkonium slime
 Mottle King Slime
 
-スライムファミリー
-スライダーガール
-スラ・ブラスター
-スライダークロボ
-ダイヤモンドスライム
-はぐれメタルキング
-ジャミ
-にじくじゃく
+Slime Gang
+Slider Girl
+Slime Blaster
+Dark Mecha-Slime
+Diamond Slime
+Liquid Metal King Slime
+Kon the Knight
+Prism Peacock
 
 Goresby-Purrvis
-エグドラシル
-トーポ
-ガマデウス
-バルザック
+Yggdrasil
+Munchie
+Mossferatu
+Baalzack
 
-ギガデーモン
-カンダタワイフ
-ドラゴンキッズ
+Pruslas
+Robbin's Old Lady
+Small Fry
 komodo
 gasbagon
 argon lizard
 
 green dragon
-ドラゴンマッド
+Drag-goof
 jargon
 metal dragon
-ダッシュラン
+Drag Racer
 hacksaurus
 red dragon
 dragurn
@@ -67,7 +67,7 @@ drakulard
 dragonlord
 
 Dragovian lord
-シュプリンガー
+Mandrake Marshal
 skelegon
 dragonthorn
 nardragon
@@ -83,17 +83,17 @@ abyss diver
 megalodon
 alabast dragon
 
-リザードフライ
-フェアリードラゴン
-アイアンタートル
-ドラゴンライダー
-アンドレアル
-デンタザウルス
-ずしおうまる
-セルゲイナス
-トライワインダー
-じげんりゅう
-魔王ジェイム
+Dragonfry
+Damselfly
+Armoured Wartoise
+Dragon Rider
+Rashaverak
+Tortoceratops
+Sintaur
+Bilhaw
+Tri Winder
+Dimensional Dragon
+Xiphos
 platypunk
 great sabrecub
 scissor beatle
@@ -107,7 +107,7 @@ Hades condor
 frogface
 crabid
 bullfinch
-パオーム
+Eyevory Tusk-tusk
 giant moth
 treeface
 yabby
@@ -116,9 +116,9 @@ scorpion
 heligator
 great sabrecat
 garuda
-おおにわとり
+Bantamweight
 firebird
-長老ピピット
+Elder Pippit
 king squid
 khalamari
 leopold
@@ -129,25 +129,25 @@ wild boarfish
 eveel
 riptide
 beetlebully
-ズッキーニャ
-ぐんたいアリ
-はなカワセミ
-サボテンボール
-よろいムカデ
-いわとびあくま
-キラーエイプ
-ぬしさま
+Cruelcumber
+Army Ant
+Florajay
+Cactiball
+Sentripede
+Rockin' Rockhopper
+Whackanape
+Lleviathan
 ピピット
-メダパニシックル
-炎の戦士
-ブリザードマン
-ウパソルジャー
+Compos Mantis
+Flamethrower
+Blizzybody
+Wooper Trooper
 mischievous mole
 bodkin archer
 hammerhood
 satyr
 jumping jackal
-マポレーナ
+Genie Sanguini
 chainine
 puppeteer
 beetleboy
@@ -162,9 +162,9 @@ weartiger
 
 gigantes
 cockateer
-ヒヒュルデの使い
+Monkey Zombie
 notso macho
-キングモーモン
+King Sanguini
 boss troll
 atlas
 Don Mole
@@ -174,22 +174,22 @@ rhapthorne
 rhapthorne Ⅱ
 Ace of Spades
 brownie
-少年レオソード
+Leokid
 
-ポンポコだぬき
-おにこぞう
-キャットフライ
-シードッグ
-ダークホーン
-リカント
-ガマキャノン
-タイガーランス
-イノブタマン
-れんごく天馬
-ポンポコあにき
-キマイラロード
-ゴレオン将軍
-ゴンズ
+Boppin' Badger
+Pickayune
+Vampire Cat
+Sea Dog
+Damned Ram
+Bewarewolf
+Mortoad
+Tigertaur
+Half Hog
+Tantamount
+Squign
+Alphyn
+Goreham-Hogg
+Slon the Rook
 bag o' laughs
 wax murderer
 firespirit
@@ -212,7 +212,7 @@ boe
 king kelp
 mimic
 diemon
-キラーマジンガ
+Uberkilling Machine
 gold golem
 living statue
 trap box
@@ -222,22 +222,22 @@ ruin
 psaro
 estark
 anchorman
-ばくだんベビー
-エビルチャリオット
-ミステリドール
-ブッチョマン
-とっしんこぞう
-クラウンヘッド
-デビルアーマー
-あばれこまいぬ
-くもの大王
-アイアンブルドー
-ギリメカラ
-プロトキラー
-メガボーグ
-どぐう戦士
-シールドオーガ
-タイムマスター
+Ticking Timeburrm
+Corrupt Carter
+Pocus Poppet
+Axecutioner
+Chariot Chappie
+Moai Minstrel
+Harmour
+Foo Dog
+Cumulus Rex
+Octagoon
+Wishmaster
+Automaton
+Scytheborg
+Terracotta Warrior
+Escudogre
+The Time Being
 dracky
 lips
 winky
@@ -245,14 +245,14 @@ imp
 lump wizard
 night emperor
 dancing devil
-あくまのきし
+knight aberrant
 merman
 lesser demon
 gryphon
-ウィングデビル
+Aggrosculpture
 octavian sentry
 silvapithecus
-邪神レオソード
+Malevolynx
 archdemon
 moosifer
 buffalogre
@@ -273,27 +273,27 @@ lethal armour
 great dracky
 wrecktor
 demon-at-arms
-ヘルボックル
-ヌボーン
-きりさきピエロ
-じごくのもんばん
-ジェネラルダンテ
-ランプの魔王
-デーモンレスラー
-ゲルニック将軍
-ほうらい大王
-イブール
-ライオネック
-アクバー
-エビルプリースト
-ケルベロス
+Tree Feller
+Gruffon
+Prickly Prankster
+Grim Keeper
+Captain Catastrophe
+High Djinks
+Juggular
+Hootingham-Gore
+Baron von Bellycose
+King Korol
+Hyperanemon
+Blackmar
+Aamon
+Cerberwretch
 ghost
 stump chump
-スモールグール
+Drooling Ghoul
 muddy hand
-ジャンバラヤン
+Swingin' Hipster
 funghoul
-ポムポムボム
+Discombombulator
 walking corpse
 demonrider
 skeleton
@@ -315,15 +315,15 @@ hellhound
 skeleton soldier
 phantom swordsman
 wight king
-ダーククラブ
-じごくのメンドーサ
+Dark Crab
+Cobra Cardinal
 slime XY
 slime X
 chimaera X
-ドラゴンコープス
+Grotwyrm
 conklave X
 skeleton X
-暗黒皇帝ガナサダイ
+King Godwyn II
 green dragon X
 
 goodybag X
@@ -344,20 +344,20 @@ cluboon ace
 diamagon ace
 Wildcard
 
-ドーク
-マガルギ
-邪獣ヒヒュルデ
-ヒヒュドラード
-ゾーマズデビル
-ガーディス
+Darck
+Magarugi
+Baboon Beast
+Evil Beast
+Zoma's Devil
+Gadis
 stormsgate citadel
 meddle slime
 
 dracolord
-サンディ
+Stella
 greygnarl
 barbarus
-エルギオス
+Corvus
 bjorn
 conklave
 mental pitcher
@@ -367,7 +367,7 @@ swarmtroop
 wormonger
 killerpillar
 missing lynx
-ワルぼう
+Rottney
 hyper heyedra
 bad egg
 heyedra
@@ -376,7 +376,7 @@ baramos
 magmalice
 fright knight
 hargon
-タイタニス
+Titanis
 mottle slime
 rubble slime
 magic slime
@@ -413,11 +413,11 @@ drohl drone
 night knight
 dierantula
 exorsus
-タウラス
+Taurus
 dual duellers
 dorsal fiend
 thornella
-カプリゴン
+Kapurigon
 mortella
 Rigor Mortex
 canzar
@@ -425,10 +425,10 @@ aquarion
 sagittar
 
 leonyx
-エリスグール
+Schwarzman Tank
 ultra slime
 trauminator
-フォロボス
+Tyrannosaurus Wrecks
 teeny sanguini
 pink sanguini
 shogum
@@ -474,13 +474,13 @@ schleiman tank
 dhoulmagus
 barbarus
 nokturnus
-スライダーヒーロー
-死神スライダーク
+Ultra Slime
+Nemeslime
 estark
-じげんりゅう
-サンディ
-邪獣ヒヒュルデ
-ヒヒュドラード
+Dimensional Dragon
+Stella
+Baboon Beast
+Evil Beast
 Don Mole
 canzar
 restless armour
@@ -511,5 +511,5 @@ diamagon ace
 mumboh-jumboe
 atlas
 
-強
-最強
+X
+XY
