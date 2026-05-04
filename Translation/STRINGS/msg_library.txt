@@ -46,7 +46,7 @@ Increases damage dealt by attacks,{315}skills and abilities.
 Attacks strike all enemies and damage{315}dealt by skills and abilities increases.
 Monster can launch multiple attacks{315}in succession.
 Monster can deal heavy damage to{315}large monsters.
-ふつうサイズのモンスターに{315}大ダメージをあたえられる
+Can deal heavy damage to{315}standard-sized monsters.
 Can paralyse enemies when attacking.
 Can poison enemies when attacking.
 Can confuse enemies when attacking.
@@ -54,8 +54,8 @@ Can put enemies to sleep with a{315}successful attack.
 Monster will have a slim chance of{315}being revived after dying.
 Can dazzle enemies and immobilise them{315}at the start of a battle.
 Monster may occasionally become{315}flustered and unable to act.
-HPがすくないとき　うんが　よくなる
-HPがおおいとき　うんが　わるくなる
+Luck increases when HP is low.
+Luck decreases when HP is high.
 Can increase tension of all allies at the{315}start of a battle.
 When an enemy's tension increases{315}in battle, all foes' tension will{315}automatically decrease.
 Bounce is constantly activated and{315}cannot be cancelled.
@@ -63,8 +63,8 @@ Counter is constantly activated and{315}cannot be cancelled.
 Attacks often miss the mark, but can{315}deliver critical hits.
 Enables monster to survive fatal damage{315}with 1HP.
 Monster will usually sustain more{315}damage, but will occasionally take{315}none.
-攻撃されると　その敵に{315}いつもいじょうの　チカラで{315}はんげきすることがある
-戦闘中{315}敵全体の　テンションを下げることがある
+MP gradually decreases over the course{315}of battle.
+Nullifies enemy critical hits and critical spells.
 Scout gauge can be boosted when{315}a show of strength is launched.
 Experience points received after a battle{315}are increased by 10%.{315}If multiple monsters in the team possess{315}this trait, this percentage will increase.
 The amount of gold coins received after{315}a battle is increased by 20%.{315}If multiple monsters in the team possess{315}this trait, this percentage will increase.
@@ -73,16 +73,15 @@ Monster may occasionally fall asleep{315}at the start of battle.
 Monster may occasionally be confused{315}at the start of battle.
 Monster may occasionally raise all foes'{315}tension levels at the start of battle.
 MP gradually decreases over the course{315}of battle.
-敵の　会心のいちげきや{315}呪文会心を　無効にする
-Doubles MP consumption.
+Nullifies enemy critical hits and{315}critical spells.
 Increases damage suffered.
-ねむりじょうたいのときに{315}敵全体を　攻撃することがある
-マヒじょうたいのときに{315}自分に　攻撃してきた敵を{315}マヒじょうたいに　することがある
-こんらんじょうたいのときに{315}敵か味方のうち　だれか1体を{315}みなごろしで　攻撃する
-マインドじょうたいのときに{315}チカラをためて　自分のテンションを上げる
-メタル系のモンスターに{315}大ダメージをあたえられる
-自分に　攻撃してきた敵のMPをうばって{315}自分のMPに　することがある
-攻撃した　敵のMPをうばって{315}自分のMPに　することがある
+May attack all enemies{315}when asleep.
+When paralysed,{315}may paralyse the enemy{315}that attacked it.
+When confused,{315}may attack a single character at random (enemy or ally){315}with a violent attack.
+When under the effects of a mind status ailment,{315}may gather power and raise its tension.
+Can deal heavy damage to{315}metal-type monsters.
+May steal MP from an attacking enemy{315}and add it to its own.
+May steal MP from a targeted enemy upon attacking{315}and add it to its own.
 Can send an attacked enemy to{315}the hereafter.
 Boosts Sizz-type magic effects while{315}decreasing MP consumption.
 Can unnerve enemies with a piercing{315}stare and immobilise them at the start{315}of a battle.
@@ -133,15 +132,15 @@ Reduces enemies' resistance to{315}Magic Frailty.{315}Has no effect on enemies w
 Reduces enemies' resistance to{315}Sizz-type magic.{315}Has no effect on enemies who are{315}impervious to Sizz-type magic.
 Reduces enemies' resistance to{315}Donk-type magic.{315}Has no effect on enemies who are{315}impervious to Donk-type magic.
 Reduces enemies' resistance to all{315}spells, abilities, and status ailments.
-2～3回れんぞくで行動し{315}命令しても　のこった行動回数が{315}きえることはない
-0～4回れんぞくで行動し{315}命令しても　のこった行動回数が{315}きえることはない
-敵の攻撃で　うけるダメージが{315}1/2になる{315}ただし　しょうひMPが　2ばいになる
-敵の攻撃で　うけるダメージが{315}1/4になる{315}ただし　しょうひMPが　4ばいになる
-戦闘が　はじまったとき{315}自分に　バイキルトを　使うことがある
-戦闘が　はじまったとき{315}自分に　スカラを　使うことがある
-戦闘が　はじまったとき{315}自分に　ピオラを　使うことがある
-戦闘が　はじまったとき{315}自分のテンションを　上げることがある
-戦闘が　はじまったとき{315}黒い霧を　使うことがある
+Acts 2-3 times in succession, and giving a command does not consume the remaining actions.
+Acts 0-4 times in succession, and giving a command does not consume the remaining actions.
+Cuts damage sustained from enemy attacks to 1/2. However, MP consumption is doubled.
+Cuts damage sustained from enemy attacks to 1/4. However, MP consumption is quadrupled.
+May use Oomph on itself at the start of a battle.
+May use Buff on itself at the start of a battle.
+May use Accelerate on itself at the start of a battle.
+May raise its tension at the start of a battle.
+May use Black Fog at the start of a battle.
 Increases maximum HP by 5.
 Increases maximum HP by 10.
 Increases maximum HP by 15.
@@ -202,15 +201,15 @@ Increases wisdom by 21.
 Increases wisdom by 24.
 Increases wisdom by 27.
 Increases wisdom by 30.
-戦闘が　はじまったとき{315}自分に　インテを　使うことがある
-戦闘が　はじまったとき{315}ぎゃくふうを　使うことがある
-戦闘が　はじまったとき{315}マホトーンを　使うことがある
-戦闘中　自分に　インテを　使うことがある
-戦闘中　ぎゃくふうを　使うことがある
-戦闘中　マホトーンを　使うことがある
-戦闘中　自分のテンションを{315}ハイテンションまで　上げることがある
-戦闘中　マジックバリアを　使うことがある
-戦闘中　まもりの霧を　使うことがある
+May use Ping itself at the start of a battle.
+May use Tailwind at the start of a battle.
+May use Fizzle at the start of a battle.
+May use Ping itself during a battle.
+May use Tailwind during a battle.
+May use Fizzle during a battle.
+May raise its tension to high tension during a battle.
+May use Magic Barrier during a battle.
+May use Mist Me during a battle.
 
 
 
@@ -243,28 +242,28 @@ Increases resistance to Sap-type{315}magic.
 Increases resistance to Decelerate.
 Increases resistance to Dim-type{315}magic.
 Increases resistance to Magic Frailty{315}and Spooky Aura.
-攻撃や　特技によって{315}あたえるダメージが上がる{315}さらに　2～3回れんぞくで行動し{315}命令しても　のこった行動回数が{315}きえることはない
-攻撃や　特技によって{315}あたえるダメージが上がる{315}さらに　2回れんぞくで行動し{315}命令しても　のこった行動回数が{315}きえることはない
-攻撃や　特技によって{315}あたえるダメージが上がる{315}さらに　1～3回れんぞくで行動し{315}命令しても　のこった行動回数が{315}きえることはない
-攻撃や　特技によって{315}あたえるダメージが上がる{315}さらに　0～4回れんぞくで行動し{315}命令しても　のこった行動回数が{315}きえることはない
-攻撃や　特技によって{315}あたえるダメージが上がる{315}さらに　1～2回れんぞくで行動し{315}命令しても　のこった行動回数が{315}きえることはない
-呪文会心の　かくりつが　2ばいになる
-自分が　ひん死のとき{315}呪文会心の　かくりつが上がる
-戦闘が　はじまったとき{315}冥界の霧を　使うことがある
-戦闘が　はじまったとき{315}ブレイク封じを　使うことがある
-攻撃が全体攻撃になり　特技によって{315}あたえるダメージが上がる{315}さらに　2～3回れんぞくで行動し{315}命令しても　のこった行動回数が{315}きえることはない
-攻撃が全体攻撃になり　特技によって{315}あたえるダメージが上がる{315}さらに　2回れんぞくで行動し{315}命令しても　のこった行動回数が{315}きえることはない
-攻撃が全体攻撃になり　特技によって{315}あたえるダメージが上がる{315}さらに　1～3回れんぞくで行動し{315}命令しても　のこった行動回数が{315}きえることはない
-攻撃が全体攻撃になり　特技によって{315}あたえるダメージが上がる{315}さらに　0～4回れんぞくで行動し{315}命令しても　のこった行動回数が{315}きえることはない
-攻撃が全体攻撃になり　特技によって{315}あたえるダメージが上がる{315}さらに　1～2回れんぞくで行動し{315}命令しても　のこった行動回数が{315}きえることはない
-戦闘中　自分に　バイキルトを　使うことがある
-戦闘中　自分に　スカラを　使うことがある
-戦闘中　自分に　ピオラを　使うことがある
-戦闘中　自分のテンションを{315}上げることがある
-戦闘中　黒い霧を　使うことがある
-戦闘中　冥界の霧を　使うことがある
-戦闘中　ブレイク封じを　使うことがある
-ベタン系の　効果が上がったり{315}しょうひMPが減ったりする
+Boosts damage dealt by attacks and skills, and acts 2-3 times in succession, and giving a command does not consume the remaining actions.
+Boosts damage dealt by attacks and skills, and acts 2 times in succession, and giving a command does not consume the remaining actions.
+Boosts damage dealt by attacks and skills, and acts 1-3 times in succession, and giving a command does not consume the remaining actions.
+Boosts damage dealt by attacks and skills, and acts 0-4 times in succession, and giving a command does not consume the remaining actions.
+Boosts damage dealt by attacks and skills, and acts 1-2 times in succession, and giving a command does not consume the remaining actions.
+Doubles the chance of landing a critical spell.
+Increases the chance of landing a critical spell when in critical condition.
+May use Underworld Fog at the start of a battle.
+May use Break Sealer at the start of a battle.
+Attacks hit all enemies and damage dealt by skills is boosted. Acts 2-3 times in succession, and giving a command does not consume the remaining actions.
+Attacks hit all enemies and damage dealt by skills is boosted. Acts 2 times in succession, and giving a command does not consume the remaining actions.
+Attacks hit all enemies and damage dealt by skills is boosted. Acts 1-3 times in succession, and giving a command does not consume the remaining actions.
+Attacks hit all enemies and damage dealt by skills is boosted. Acts 0-4 times in succession, and giving a command does not consume the remaining actions.
+Attacks hit all enemies and damage dealt by skills is boosted. Acts 1-2 times in succession, and giving a command does not consume the remaining actions.
+May use Oomph on itself during a battle.
+May use Buff on itself during a battle.
+May use Accelerate on itself during a battle.
+May raise its tension during a battle.
+May use Black Fog during a battle.
+May use Underworld Fog during a battle.
+May use Break Sealer during a battle.
+Boosts Earth-type magic effects while decreasing MP consumption.
 
 
 
