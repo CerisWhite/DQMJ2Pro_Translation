@@ -48,7 +48,7 @@ Hopeful Hitter
 Close Scraper
 Perilous Parrier
 Gamble Counter
-Mutter
+Grumble
 Talent Scout
 Fast Learner
 Gold Getter
@@ -57,16 +57,16 @@ Late Riser
 Loose Cannon
 Rival Riler
 Disenchanted
-Full Satisfaction Guard
+Full Critical Guard
 Spell Splurger
 Attallergic
-Rolled Over
-Paralyzed Attack
+Roll Over
+Paralyzing Attack
 Berserker
 Stalwart Spirit
 Metal Killer
 Take Magic
-Drain Magic Attack
+Drain Magic
 Deadly Touch
 Sizzmeister
 Scare Stare
@@ -192,9 +192,9 @@ Sudden Ping
 Random Ping
 ときどきぎゃくふう
 ときどきマホトーン
-Rare High Tension
-Rare Magic Barrier
-Rare Mist Me
+Random Tension
+Random Magic Barrier
+Random Mist Me
 
 
 
