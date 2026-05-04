@@ -12,7 +12,7 @@ Frizz & Zam
 Tornado
 Frizz & Zam II
 Bang & Woosh
-巨大モンスタつぶし
+Giant Killer
 Bang & Woosh II
 Bang & Crack
 Breath Breaker II
@@ -59,7 +59,7 @@ White Knight
 Dark Knight
 Healer
 Cure-all
-いじょう回復
+Panacea
 Champion
 Defender
 Speedster
@@ -186,11 +186,11 @@ Uber Cold Ward
 Uber Windblast Ward
 Uber Darklight Ward
 Warrior
-まほうつかい
-そうりょ
-ぶとうか
-けんじゃ
-とうぞく
+Magician
+Priest
+Monk
+Sage
+Thief
 Frizz & Sizz
 Liquid Metal King Slime
 Frizz & Sizz II
@@ -198,7 +198,7 @@ Bang & Sizz
 Yggdrasil
 Bang & Sizz II
 Woosh & Sizz
-Pipitto
+Pipit
 Woosh & Sizz II
 Crack & Sizz
 Uberkilling Machine
