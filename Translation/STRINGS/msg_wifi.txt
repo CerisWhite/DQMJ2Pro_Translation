@@ -1,16 +1,16 @@
-Friends, Strangers, and Gift Battles
+Battle Friends & Strangers
 
 World Monster Championship
 
 Obtain Friend Code
-Wi-Fi Settings
+Nintendo WFC Setup
 
 
 
 --------
 Register Friend Code
-Battle with a Friend
-Battle with a Stranger
+Battle Friends
+Battle Strangers
 Gift Battle
 Stop Battling
 Friends/Strangers/Gifts
@@ -33,25 +33,25 @@ Nintendo Zone{315}Location {322}{315}Number {324}
 Nintendo Zone{315}Type {322}{315}AP {324}
 
 
-Connect to the World Monster Championship{315}held via Wi-Fi.
-Battle with friends, strangers, or{315}specially distributed monsters{315}using Wi-Fi.
-Obtain your Friend Code.
-Configure your{315}Wi-Fi connection settings.
+Utilise Nintendo Wi-Fi Connection to participate in the World Monster Championship (WMC).
+Utilise Nintendo Wi-Fi Connection to battle against old Friends and new rivals alike.
+Get your own Friend Code.
+Configure Nintendo Wi-Fi Connection settings.
 
 
 
 
-Register a Friend Code.
-Battle with someone{315}you have exchanged Friend Codes with.
-Battle with a stranger.
+Register another player's Friend Code.
+Battle a player you have exchanged Friend Codes with.
+Battle with players you do not know.
 Battle with special monsters.{315}You might receive a special gift{315}by connecting to the Wi-Fi Connection{315}via a Nintendo Zone!
-Disconnect from the Wi-Fi Connection{315}and return to the Wi-Fi Menu.
+Disconnect from Nintendo Wi-Fi Connection, and return to the Nintendo Wi-Fi Connection menu.
 
 
 
 
 
-You can change the protagonist's name.{315}You cannot play via Wi-Fi{315}if an inappropriate name is entered.{315}If you have an inappropriate name,{315}please change the protagonist's name.
+Edit the hero's name.{315}Please be aware that inappropriate names will prevent you from playing via Nintendo Wi-Fi Connection.{315}If you have entered an inappropriate name, please change it.
 Connect
 View Explanation
 
@@ -67,8 +67,8 @@ Caution when registering!
 
 
 World Monster Championship
-User Data
-Rankings
+User Data Setup
+Latest Rankings
 Notices
 Quit
 
@@ -81,11 +81,11 @@ Previous Home Match
 Previous Away Match
 Check User Data
 Set User Data
-Check Monsters
+Switch Monsters
 Form Party
 Change Tactics
 Register Team Name
-Register Origin
+Select Location
 Change Registration Class
 Confirm
 
@@ -97,17 +97,17 @@ Choose from Favorites
 
 Tactics
 Show No Mercy
-せんりょくうばえ
+Use Debuffs
 Focus on Healing
 Mix It Up
 Don't Use Magic
 
 
 
-Overall Rankings
+Global Rankings
 Regional Rankings
 User Rankings
-Previous Champions
+Hall of Fame
 
 
 
