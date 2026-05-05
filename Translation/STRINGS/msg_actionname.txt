@@ -6,14 +6,14 @@ Super High Tension
 Flee
 Do nothing
 
-ギガクロスブレイク
-獣王げきれつしょう
-てんいむほう斬
-しんらばんしょう斬
-オーロラブレス
-てんぺんちい
-ミナデイン
-じげんのはざま
+Gigacross Break
+Beast King Strike
+Flawless Slash
+All-Creation Slash
+Aurora Breath
+Cataclysm
+Kazapple
+Dimensional Rift
 Frizz
 Frizzle
 Kafrizz
@@ -38,10 +38,10 @@ Zam
 Zammle
 Kazam
 Kazammle
-みがわり封じ
-におう斬り
-ゼロのしょうげき
-ギガ・マホトラ
+Kamikaze Seal
+Titan Slash
+Zero Impact
+Giga Drain Magic
 Whack
 Thwack
 Kamikazee
@@ -184,30 +184,30 @@ Amor Seco Rain
 Critical Miss
 Reheal
 Mercurial Thrust
-斬撃よそく
-体技よそく
-呪文よそく
-息よそく
-踊りよそく
-ミナダンテ
-ブレイク封じ
-テンションパサー
-アンカーナックル
-みちづれのワルツ
-空裂斬
-海破斬
-大地斬
-シャイニングボウ
+Predict Slash
+Predict Martial
+Predict Spell
+Predict Breath
+Predict Dance
+Party Magic Burst
+Break Seal
+Tension Passer
+Anchor Knuckle
+Waltz of Doom
+Earth Slash
+Wave Slash
+Air Slash
+Shining Shot
 Take this!
 Wicked Waltz
-ダモーレ斬り
+Charming Slash
 Still confused!
 Still confused!
 Cowering in fear!
 Assessing the situation.
 Staring blankly.
 Has no idea what to do!
-せいしんとういつ
+Concentrate
 GLOBLITERATE ALL INTRUDERS!
 The rockbomb's acting a bit oddly!
 Kadonk!
@@ -225,11 +225,11 @@ Showstopper
 Tacticlamp
 Blade Blunter
 Unnatural Order
-作戦封じの息
-斬撃封じの息
-体技封じの息
-つるぎのまい
-冥界の霧
+Tactics-Sealing Breath
+Slash-Sealing Breath
+Martial-Sealing Breath
+Sword Dance
+Netherworld Fog
 Sizz
 Sizzle
 Kasizz
@@ -250,7 +250,7 @@ Hocus Locust
 Wind Sickles
 Thin Air
 Wind Shear
-チェイン
+Chain
 Donk
 Kadonk
 Frizz Cracker
