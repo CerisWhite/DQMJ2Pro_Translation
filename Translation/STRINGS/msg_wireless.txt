@@ -90,6 +90,7 @@ You cannot use this{315}until you are able to{315}form favorite parties in the P
 
 
 
+
 Select the number of turns the battle will last.
 Select whether or not orders can be issued to monsters.
 Select whether or not monsters can be switched around during battle.
