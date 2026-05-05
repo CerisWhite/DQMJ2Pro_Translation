@@ -6,13 +6,13 @@ Increases the user's tension level, raising the strength of most attacks. Can be
 
 
 
-敵全体に　イオ系とデイン系の{315}最大級の斬撃ダメージを　あたえることがある{315}Lvが上がると　効果も　たかくなる
-ふたつの　はげしいたつまきが　敵全体に{315}最大級の体技ダメージをあたえる
-あくま系　ゾンビ系　ぶっしつ系　???系に{315}大きめの斬撃ダメージをあたえる
-スライム系　ドラゴン系　しぜん系　まじゅう系に{315}大きめの斬撃ダメージをあたえる
-敵全体に{315}炎ブレス系と　吹雪ブレス系の{315}ダメージ(最大)をあたえる
-空から　巨大ないわが　ふりそそぎ　敵全体に{315}最大級の体技ダメージをあたえる
-敵1体に{315}デイン系の呪文ダメージ(最大)をあたえる{315}味方全体で　MPを使う
+Has a chance to deal colossal{315}Bang and Zap type slashing damages{315}to all enemies.{315}Becomes more powerful as the{315}monster level increases
+Unleashes two fierce tornadoes that{315}deal colossal damages to all enemies.
+Deals extra slashing damages to{315}Demon, Undead, Material,{315}and ??? family enemies.
+Deals extra slashing damages to{315}Slime, Dragon, Nature,{315}and Beast family enemies.
+Deals massive Fire and Ice{315}breath damages to all enemies.
+Hurls giant boulders from the sky{315}that deal massive damages to all enemies.
+Deals massive Zap damages to 1 enemy.{315}Uses MP from the whole party.
 
 Singes a single enemy with a small fireball.
 Burns a single enemy with a large fireball.
@@ -38,10 +38,10 @@ Strikes a single enemy with dark lightning.
 Strikes a single enemy with hellish lightning.
 Strikes a single enemy with abyssal lightning.
 Strikes a single enemy with stygian lightning.
-敵1体の{315}みがわりを　封じる体技
-みがわりなどを　無効にして{315}敵全体に　斬撃ダメージをあたえる
-ラウンドゼロなど　空間に効果をあたえる特技を{315}使ったモンスターに　死の効果をあたえる体技{315}ただし　それらの特技を　だれも使わなかった場合{315}自分に　死の効果がおとずれる
-敵を選ばず{315}MPを4回うばって　自分のMPにする呪文
+Prevents a single enemy from using Selflessness.
+Ignores Cover and other effects{315}to deal slashing damages to all enemies.
+Inflicts a death effect to any monster{315}that uses battlefield-affecting abilities (such as Round Zero).{315}If none are used, the effect instead applies to the user.
+A spell that drains MP four times{315}from random enemies and adds it to its own MP.
 A cursed incantation that can send a single enemy to the hereafter.
 A cursed incantation that can send all enemies to the hereafter.
 Sacrifices caster's own life in an attempt to destroy all enemies.
@@ -184,30 +184,30 @@ A revitalising shower that heals all allies on the next turn.
 Prevents an enemy from landing critical hits.
 Restores some HP after each action for a short time.
 A lightning-fast strike that allows its user to attack first.
-敵が　斬撃攻撃をしてきたとき{315}すべての斬撃を　うちかえすことができる体技
-敵が　体技攻撃をしてきたとき{315}すべての体技を　うちかえすことができる体技
-敵が　呪文攻撃をしてきたとき{315}すべての呪文を　はねかえすことができる体技
-敵が　ブレス攻撃をしてきたとき{315}すべてのブレスを　はねかえすことができる体技
-敵が　踊り攻撃をしてきたとき{315}すべての踊りを　はねかえすことができる体技
-すべてのMPを使って　敵全体に{315}きゅうきょくの呪文ダメージをあたえる{315}味方全体で　MPを使い{315}MPがおおいほど　効果大
-敵全体の{315}ブレイクを　封じる体技
-自分の　いまのテンションを　味方1体に{315}わたすことができる体技
-さいごに動いて{315}敵に　大きめの斬撃ダメージをあたえる
-数ラウンド後に　自分は死ぬが{315}おなじサイズの敵1体を　みちづれにできる踊り
-敵全体の　じゃくてんを　みきわめ{315}バギ系などの斬撃ダメージ(大)をあたえる
-敵全体の　じゃくてんを　みきわめ{315}ヒャド系などの斬撃ダメージ(大)をあたえる
-敵全体の　じゃくてんを　みきわめ{315}ギラ系などの斬撃ダメージ(大)をあたえる
-敵を選ばず　4～12回れんぞくで{315}斬撃ダメージを　うちこむ
+A martial skill that can counter{315}all slash attacks when an enemy uses them.
+A martial skill that can counter{315}all physical skills when an enemy uses them.
+A martial skill that can reflect{315}all spells when an enemy uses them.
+A martial skill that can reflect{315}all breath attacks when an enemy uses them.
+A martial skill that can reflect{315}all dance attacks when an enemy uses them.
+Consumes all allies MP{315}to deal massive magic damages to all enemies.{315}The effect increases as more MP is used.
+A martial skill that prevents{315}all enemies from using disruption abilities.
+Transfers the current user's tension{315}to one of its allies.
+Acts last and deals higher{315}slash damages to an enemy.
+A dance that causes the user to die{315}after several rounds, but also takes{315}one same-sized enemy with him.
+Discerns enemy weaknesses and deals{315}heavy Woosh-type slash damage to all enemies.
+Discerns enemy weaknesses and deals{315}heavy Crack-type slash damage to all enemies.
+Discerns enemy weaknesses and deals{315}heavy Sizz-type slash damage to all enemies.
+Unleashes 4–12 consecutive slash attacks{315}on random enemies without selecting a target.
 
 A dastardly dance that deals damage in an undetermined direction.
-あたえる斬撃ダメージは　ちいさくなるが{315}敵の　のうりょくが　みえるようになる効果を{315}くわえる
+Deals weaker slash damage,{315}but reveals the ennemy stats.
 
 
 
 
 
 
-つぎのラウンドになったとき{315}自分の行動回数が　+1される体技{315}命令しても　のこった行動回数が{315}きえることはない
+A physical skill that increases{315}the user's number of actions by 1{315}at the start of the next round.{315}Remaining actions are not lost{315}even if orders are given.
 
 
 
@@ -225,11 +225,11 @@ Cancels all other actions during the turn after the user's move. It can only be 
 Forces one foe to use the same tactic over and over.
 Prevents a single enemy from using certain slash attacks.
 Causes monsters with the lowest agility to move first in battle.
-敵全体の作戦が　こていされ{315}かえることが　できなくなる息
-敵全体の{315}斬撃を　封じる息
-敵全体の{315}体技を　封じる息
-敵を選ばず　3～7回れんぞくで{315}ダメージを　うちこむ踊り
-HPやMPを回復すると　ぎゃくに{315}ダメージになってしまう　おそろしい体技{315}敵にも　味方にも効果がある
+A breath skill that locks the tactics of all enemies,{315}preventing them from being changed.
+A breath skill that seals all enemies' slash attacks.
+A breath skill that seals all enemies' physical skills.
+A dance that deals damage 3 to 7 times{315}in a row, striking random enemies.
+A physical skill that turns{315}HP and MP recovery into damage instead.{315}Affects both enemies and allies.
 Singes all enemies with a blazing fire.
 Burns all enemies with a blazing wall of fire.
 Incinerates all enemies with a blazing wall of flame.
@@ -250,17 +250,17 @@ Greatly reduces the MP of a single enemy.
 Cuts up a single enemy in a vortex.
 Slices up all enemies in a vortex.
 Tears all enemies to shreds in a vortex.
-行動のじゅんばんを{315}くさりのようにつなげて{315}れんぞくで　攻撃できる呪文
+A spell that chains together action turns,{315}allowing consecutive attacks.
 Reduces a single enemy's HP by 1/4.
 Reduces all enemy's HP by 1/6.
 A violent disturbance in the world's natural equilibrium deals ferocious damage to a single enemy.
-特技を使用
-戦闘中のAI特技使用をせってい
+Use skill
+Configure AI skill use in battle.
 
 
 
-へるぷ1
-へるぷ2
+Help 1
+Help 2
 
 
 
