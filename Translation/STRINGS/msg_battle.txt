@@ -46,15 +46,15 @@ Attack
 Defence
 Agility
 Wisdom
-{322}のスライムバーン
-{322}のドラゴンバーン
-{322}のナチュラルバーン
-{322}のビーストバーン
-{322}のマテリアルバーン
-{322}のデビルバーン
-{322}のゾンビバーン
-{322}のワンダーバーン
-なにもしない
+{322} Slime Slayed
+{322} Dragon Slayed
+{322} Nature Slayed
+{322} Beast Slayed
+{322} Material Slayed
+{322} Demon Slayed
+{322} Undead Slayed
+{322} ??? Slayed
+Do nothing
 Fight
 Orders
 Tactics
@@ -70,7 +70,7 @@ Time Remaining: {324}
 Waiting for opponent...
 Can't cast spells!
 Turn {322}
-第 {324} 戦
+Battle {324}
 {321}{30f} prepares to scout!
 A talented scouting!
 
@@ -86,8 +86,8 @@ Took offence!
 Obtained {328}!
 Forfeit the current battle.
 Return to the current battle.
-このモンスターは　とくべつなので{315}スカウトすることが　できない!
-このモンスターは　とくべつなので{315}スカウトすることが　できない!
+This monster is special,{315}so it cannot be scouted!
+This monster is special,{315}so it cannot be scouted!
 
 
 
