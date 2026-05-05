@@ -370,7 +370,7 @@ Draws:
 
 
 
-Your team may contain unauthorised{315}monster data.{315}Please reorganise your team in{315}‘Team Setup'.
+Your team may contain unauthorised{315}monster data.{315}Please reorganise your team in{315}'Team Setup'.
 
 Your opponent's team may contain unauthorised monster data.{315}The battle has been called off.
 Your team may contain unauthorised monster data.{315}The battle has been called off.
