@@ -118,7 +118,7 @@ great sabrecat
 garuda
 bantamweight
 firebird
-elder pippit
+elder pipit
 king squid
 khalamari
 leopold
@@ -137,7 +137,7 @@ sentripede
 rockin' rockhopper
 whackanape
 lleviathan
-ピピット
+pipit
 compos mantis
 flamethrower
 blizzybody
