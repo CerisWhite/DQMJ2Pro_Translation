@@ -1,52 +1,52 @@
 
-Frizz & Bang
+Frizz ＆ Bang
 Prince
-Frizz & Bang II
-Frizz & Woosh
+Über Frizz ＆ Bang
+Frizz ＆ Woosh
 Princess
-Frizz & Woosh II
-Frizz & Zap
-Metal Crusher
-Frizz & Zap II
-Frizz & Zam
+Über Frizz ＆ Woosh
+Frizz ＆ Zap
+Anti-metal
+Über Frizz ＆ Zap
+Frizz ＆ Zam
 Tornado
-Frizz & Zam II
-Bang & Woosh
-Giant Killer
-Bang & Woosh II
-Bang & Crack
-Breath Breaker II
-Bang & Crack II
-Bang & Zap
-Sword Breaker
-Bang & Zap II
-Bang & Zam
-Sword Breaker II
-Bang & Zam II
-Woosh & Crack
+Über Frizz ＆ Zam
+Bang ＆ Woosh
+Giant Slayer
+Über Bang ＆ Woosh
+Bang ＆ Crack
+Über Breath Ward
+Über Bang ＆ Crack
+Bang ＆ Zap
+Anti-Slash
+Über Bang ＆ Zap
+Bang ＆ Zam
+Über Anti-Slash
+Über Bang ＆ Zam
+Woosh ＆ Crack
 King Sanguini
-Woosh & Crack II
-Woosh & Zap
-Rottney
-Woosh & Zap II
-Woosh & Zam
+Über Woosh ＆ Crack
+Woosh ＆ Zap
+Scruffy
+Über Woosh ＆ Zap
+Woosh ＆ Zam
 Robbin's Old Lady
-Woosh & Zam II
-Crack & Zap
+Über Woosh ＆ Zam
+Crack ＆ Zap
 Prism Peacock
-Crack & Zap II
-Crack & Zam
-Dark Mecha-Slime
-Crack & Zam II
+Über Crack ＆ Zap
+Crack ＆ Zam
+Dark Robot Slime
+Über Crack ＆ Zam
 Fire
 Slime Blaster
-Strong Flame
+Über Fire
 Ice
 Diamond Slime
-Strong Ice
+Über Ice
 Breath
-Slider Girl
-Strong Breath
+Thornella
+Über Breath
 Firewind Slashes
 Thunderwind Slashes
 Iceplosion Slashes
@@ -59,37 +59,37 @@ White Knight
 Dark Knight
 Healer
 Cure-all
-Panacea
-Champion
+Cleanser
+Samurai
 Defender
 Speedster
 Mage Aid
-Fortifier
-Enfeebler
+Bolsterer
+Diminisher
 Saboteur
-Spell Breaker
-Spell Breaker II
-Breath Breaker
-Hunter Mech
-Guard
+Antimagic
+Über Antimagic
+Breath Ward
+Metal Hunter
 Barricade
+Fortifier
 Seal
 Hypnotist
 Toxifier
 Fear-monger
 Bad Breath
-Diminisher
-Guerrilla
+Abiliterator
+Ranger
 Assassin
-Huntsman
+Hunter
 Bounty Hunter
 Crusader
 Cursader
 Muspell
-Niflheim
+Darkness
 Dancer
-Bombardier
-Toughie
+Dynamite
+Brute Road
 Berserker
 Martyr
 Reaper
@@ -103,38 +103,38 @@ Trickster
 Slimer
 Brute Road
 Graveheart
-Diabolist
+Sorcerer
 Dragon Lore
 Bird Brain
 Green Finger
 Hive Mind
-Materialist
+Stonehead
 Wulfspade
-Wulfspade II
+Über Wulfspade
 Hawkhart
-Hawkhart II
+Über Hawkhart
 Diamagon
-Diamagon II
+Über Diamagon
 Cluboon
-Cluboon II
+Über Cluboon
 Dragonlord
 Dragovian Lord
 Leopold
 Dhoulmagus
+Rhapthorne Jr.
 Rhapthorne
-Rhapthorne Ⅱ
 Estark
 Nimzo
 Mortamor
 Captain Crow
-Uber Dark Dynamiter
-Uber Blessed Blizzardier
-Uber Mage
-Uber Breath
-Uber Knight
-Uber Healer
-Uber Helpful
-Uber Charmer
+Über Dark Explosion
+Über Sacred Ice
+Über Grand Spell
+über Grand Breath
+über Swordmaster
+über Recovery
+über Supporter
+über Illusion
 Wulfspade III
 Diamagon III
 Hawkhart III
@@ -152,78 +152,78 @@ Agility Boost III
 Wisdom Boost
 Wisdom Boost II
 Wisdom Boost III
-Frizz Ward
-Bang Ward
-Woosh Ward
-Crack Ward
-Zap Ward
-Zam Ward
+Frizz Guard
+Bang Guard
+Woosh Guard
+Crack Guard
+Zap Guard
+Zam Guard
 Sag Ward
 Sap Ward
 Decelerate Ward
 Dim Ward
 Fire Breath Ward
 Ice Breath Ward
-Whack Ward
-Dazzle Ward
-Poison Ward
-Drain Magic Ward
-Antimagic Ward
-Gobstopper Ward
-Ban Dance Ward
-Confusion Ward
+Whack Guard
+Dazzle Guard
+Poison Guard
+Magic Drain Guard
+Antimagic Guard
+Breath Ward
+Dance Ward
+Confusion Guard
 Inaction Ward
-Paralysis Ward
-Sleep Ward
-Uber Health Boost
-Uber Magic Boost
-Uber Attack Boost
-Uber Defense Boost
-Uber Agility Boost
-Uber Wisdom Boost
-Uber Heat Ward
-Uber Cold Ward
-Uber Windblast Ward
-Uber Darklight Ward
+Paralysis Guard
+Sleep Guard
+Über Health Boost
+Über Magic Boost
+Über Attack Boost
+Über Defense Boost
+Über Agility Boost
+Über Wisdom Boost
+Über Heat Ward
+Über Cold Ward
+Über Windblast Ward
+Über Darklight Ward
 Warrior
-Magician
+Mage
 Priest
-Monk
+Martial Artist
 Sage
 Thief
-Frizz & Sizz
-Liquid Metal King Slime
-Frizz & Sizz II
-Bang & Sizz
+Frizz ＆ Sizz
+Über Metal King Slime
+Über Frizz ＆ Sizz
+Bang ＆ Sizz
 Yggdrasil
-Bang & Sizz II
-Woosh & Sizz
+Über Bang ＆ Sizz
+Woosh ＆ Sizz
 Pipit
-Woosh & Sizz II
-Crack & Sizz
-Uberkilling Machine
-Crack & Sizz II
-Sizz & Zap
-King Godwyn II
-Sizz & Zap II
-Sizz & Zam
+Über Woosh ＆ Sizz
+Crack ＆ Sizz
+Über killing Machine
+Über Crack ＆ Sizz
+Sizz ＆ Zap
+King Godwyn
+Über Sizz ＆ Zap
+Sizz ＆ Zam
 Munchie
-Sizz & Zam II
-Sizz Ward
+Über Sizz ＆ Zam
+Sizz Guard
 Exorsus
-Dimensional Dragon
+Dimension Dragon
 Dual Duellers
-Dorsal Fiend
+Drosal Fiend
 Thornella
 Malevolynx
 Mortella
 Rigor Mortex
 Canzar
 Aquarion
-Saggitar
+Sagittar
 Leonyx
 Wormonger
-Bjorn
+Bjørn
 Missing Lynx
 Khalamari
 Ruin
@@ -231,22 +231,22 @@ Orochi
 Zenith Dragon
 Empyrea
 Zoma
-Frailty Ward
-Abiliterator Ward
-Blunt Ward
+Frailty Guard
+Ability Seal Guard
+Slash Seal Guard
 Donk Ward
-Uber Zapologist
+Über Zapologist
 Flute Warrior
 Wildcard
 Wonder Construction
-Morries Melange
+Morrie's Melange
 Battle Road Master
-Stella
-Hero of the Heavens
+Sandy
+Dragon's Sake
 Vile Void
 Corvus
 Great Godbird
-Stormgate Citadel
+Stormsgate Citadel
 Schwarzman Tank
 Xiphos
 Gadis
@@ -254,4 +254,3 @@ Darck
 Magarugi
 Baboon Beast
 Evil Beast
-
