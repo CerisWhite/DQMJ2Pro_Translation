@@ -171,7 +171,7 @@ don mole
 robbin' hood
 dhoulmagus
 rhapthorne
-rhapthorne ⅱ
+rhapthorne II
 ace of spades
 brownie
 leokid
@@ -317,23 +317,23 @@ phantom swordsman
 wight king
 dark crab
 cobra cardinal
-slime xy
-slime x
-chimaera x
+slime XY
+slime X
+chimaera X
 grotwyrm
-conklave x
-skeleton x
-king godwyn ii
-green dragon x
+conklave X
+skeleton X
+king godwyn II
+green dragon X
 
-goodybag x
-teeny sanguini x
-chimaera xy
-conklave xy
-skeleton xy
-green dragon xy
-goodybag xy
-teeny sanguini xy
+goodybag X
+teeny sanguini X
+chimaera XY
+conklave XY
+skeleton XY
+green dragon XY
+goodybag XY
+teeny sanguini XY
 wulfspade
 hawkhart
 cluboon
@@ -498,7 +498,7 @@ gracos
 conklave
 riptide
 alabast dragon
-teeny sanguini xy
+teeny sanguini XY
 goodybag
 magic slime
 ruin
@@ -511,5 +511,5 @@ diamagon ace
 mumboh-jumboe
 atlas
 
-x
-xy
+X
+XY
