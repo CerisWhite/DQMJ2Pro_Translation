@@ -27,35 +27,35 @@ dark slime knight
 dark slime
 king cureslime
 darkonium slime
-Mottle King Slime
+mottle king slime
 
-Slime Gang
-Slider Girl
-Slime Blaster
-Dark Mecha-Slime
-Diamond Slime
-Liquid Metal King Slime
-Kon the Knight
-Prism Peacock
+slime gang
+slider girl
+slime blaster
+dark mecha-slime
+diamond slime
+liquid metal king slime
+kon the knight
+prism peacock
 
-Goresby-Purrvis
-Yggdrasil
-Munchie
-Mossferatu
-Baalzack
+goresby-purrvis
+yggdrasil
+munchie
+mossferatu
+baalzack
 
-Pruslas
-Robbin's Old Lady
-Small Fry
+pruslas
+robbin's old lady
+small fry
 komodo
 gasbagon
 argon lizard
 
 green dragon
-Drag-goof
+drag-goof
 jargon
 metal dragon
-Drag Racer
+drag racer
 hacksaurus
 red dragon
 dragurn
@@ -66,8 +66,8 @@ great dragon
 drakulard
 dragonlord
 
-Dragovian lord
-Mandrake Marshal
+dragovian lord
+mandrake marshal
 skelegon
 dragonthorn
 nardragon
@@ -83,17 +83,17 @@ abyss diver
 megalodon
 alabast dragon
 
-Dragonfry
-Damselfly
-Armoured Wartoise
-Dragon Rider
-Rashaverak
-Tortoceratops
-Sintaur
-Bilhaw
-Tri Winder
-Dimensional Dragon
-Xiphos
+dragonfry
+damselfly
+armoured wartoise
+dragon rider
+rashaverak
+tortoceratops
+sintaur
+bilhaw
+tri winder
+dimensional dragon
+xiphos
 platypunk
 great sabrecub
 scissor beatle
@@ -103,11 +103,11 @@ khalamari kid
 capsichum
 hell hornet
 chimaera
-Hades condor
+hades condor
 frogface
 crabid
 bullfinch
-Eyevory Tusk-tusk
+eyevory tusk-tusk
 giant moth
 treeface
 yabby
@@ -116,9 +116,9 @@ scorpion
 heligator
 great sabrecat
 garuda
-Bantamweight
+bantamweight
 firebird
-Elder Pippit
+elder pippit
 king squid
 khalamari
 leopold
@@ -129,25 +129,25 @@ wild boarfish
 eveel
 riptide
 beetlebully
-Cruelcumber
-Army Ant
-Florajay
-Cactiball
-Sentripede
-Rockin' Rockhopper
-Whackanape
-Lleviathan
+cruelcumber
+army ant
+florajay
+cactiball
+sentripede
+rockin' rockhopper
+whackanape
+lleviathan
 ピピット
-Compos Mantis
-Flamethrower
-Blizzybody
-Wooper Trooper
+compos mantis
+flamethrower
+blizzybody
+wooper trooper
 mischievous mole
 bodkin archer
 hammerhood
 satyr
 jumping jackal
-Genie Sanguini
+genie sanguini
 chainine
 puppeteer
 beetleboy
@@ -162,34 +162,34 @@ weartiger
 
 gigantes
 cockateer
-Monkey Zombie
+monkey zombie
 notso macho
-King Sanguini
+king sanguini
 boss troll
 atlas
-Don Mole
+don mole
 robbin' hood
 dhoulmagus
 rhapthorne
-rhapthorne Ⅱ
-Ace of Spades
+rhapthorne ⅱ
+ace of spades
 brownie
-Leokid
+leokid
 
-Boppin' Badger
-Pickayune
-Vampire Cat
-Sea Dog
-Damned Ram
-Bewarewolf
-Mortoad
-Tigertaur
-Half Hog
-Tantamount
-Squign
-Alphyn
-Goreham-Hogg
-Slon the Rook
+boppin' badger
+pickayune
+vampire cat
+sea dog
+damned ram
+bewarewolf
+mortoad
+tigertaur
+half hog
+tantamount
+squign
+alphyn
+goreham-hogg
+slon the rook
 bag o' laughs
 wax murderer
 firespirit
@@ -212,7 +212,7 @@ boe
 king kelp
 mimic
 diemon
-Uberkilling Machine
+uberkilling machine
 gold golem
 living statue
 trap box
@@ -222,22 +222,22 @@ ruin
 psaro
 estark
 anchorman
-Ticking Timeburrm
-Corrupt Carter
-Pocus Poppet
-Axecutioner
-Chariot Chappie
-Moai Minstrel
-Harmour
-Foo Dog
-Cumulus Rex
-Octagoon
-Wishmaster
-Automaton
-Scytheborg
-Terracotta Warrior
-Escudogre
-The Time Being
+ticking timeburrm
+corrupt carter
+pocus poppet
+axecutioner
+chariot chappie
+moai minstrel
+harmour
+foo dog
+cumulus rex
+octagoon
+wishmaster
+automaton
+scytheborg
+terracotta warrior
+escudogre
+the time being
 dracky
 lips
 winky
@@ -249,10 +249,10 @@ knight aberrant
 merman
 lesser demon
 gryphon
-Aggrosculpture
+aggrosculpture
 octavian sentry
 silvapithecus
-Malevolynx
+malevolynx
 archdemon
 moosifer
 buffalogre
@@ -273,27 +273,27 @@ lethal armour
 great dracky
 wrecktor
 demon-at-arms
-Tree Feller
-Gruffon
-Prickly Prankster
-Grim Keeper
-Captain Catastrophe
-High Djinks
-Juggular
-Hootingham-Gore
-Baron von Bellycose
-King Korol
-Hyperanemon
-Blackmar
-Aamon
-Cerberwretch
+tree feller
+gruffon
+prickly prankster
+grim keeper
+captain catastrophe
+high djinks
+juggular
+hootingham-gore
+baron von bellycose
+king korol
+hyperanemon
+blackmar
+aamon
+cerberwretch
 ghost
 stump chump
-Drooling Ghoul
+drooling ghoul
 muddy hand
-Swingin' Hipster
+swingin' hipster
 funghoul
-Discombombulator
+discombombulator
 walking corpse
 demonrider
 skeleton
@@ -307,33 +307,33 @@ roseguardin
 bone baron
 dullahan
 tortured soul
-Captain Crow
-Dr Snapped
+captain crow
+dr snapped
 skipper
 flyguy
 hellhound
 skeleton soldier
 phantom swordsman
 wight king
-Dark Crab
-Cobra Cardinal
-slime XY
-slime X
-chimaera X
-Grotwyrm
-conklave X
-skeleton X
-King Godwyn II
-green dragon X
+dark crab
+cobra cardinal
+slime xy
+slime x
+chimaera x
+grotwyrm
+conklave x
+skeleton x
+king godwyn ii
+green dragon x
 
-goodybag X
-teeny sanguini X
-chimaera XY
-conklave XY
-skeleton XY
-green dragon XY
-goodybag XY
-teeny sanguini XY
+goodybag x
+teeny sanguini x
+chimaera xy
+conklave xy
+skeleton xy
+green dragon xy
+goodybag xy
+teeny sanguini xy
 wulfspade
 hawkhart
 cluboon
@@ -342,22 +342,22 @@ wulfspade ace
 hawkhart ace
 cluboon ace
 diamagon ace
-Wildcard
+wildcard
 
-Darck
-Magarugi
-Baboon Beast
-Evil Beast
-Zoma's Devil
-Gadis
+darck
+magarugi
+baboon beast
+evil beast
+zoma's devil
+gadis
 stormsgate citadel
 meddle slime
 
 dracolord
-Stella
+stella
 greygnarl
 barbarus
-Corvus
+corvus
 bjorn
 conklave
 mental pitcher
@@ -367,7 +367,7 @@ swarmtroop
 wormonger
 killerpillar
 missing lynx
-Rottney
+rottney
 hyper heyedra
 bad egg
 heyedra
@@ -376,7 +376,7 @@ baramos
 magmalice
 fright knight
 hargon
-Titanis
+titanis
 mottle slime
 rubble slime
 magic slime
@@ -413,22 +413,22 @@ drohl drone
 night knight
 dierantula
 exorsus
-Taurus
+taurus
 dual duellers
 dorsal fiend
 thornella
-Kapurigon
+kapurigon
 mortella
-Rigor Mortex
+rigor mortex
 canzar
 aquarion
 sagittar
 
 leonyx
-Schwarzman Tank
+schwarzman tank
 ultra slime
 trauminator
-Tyrannosaurus Wrecks
+tyrannosaurus wrecks
 teeny sanguini
 pink sanguini
 shogum
@@ -467,24 +467,24 @@ ultra slime
 slime
 metal slime
 marquis de léon
-Captain Crow
+captain crow
 malevolynx
 
 schleiman tank
 dhoulmagus
 barbarus
 nokturnus
-Ultra Slime
-Nemeslime
+ultra slime
+nemeslime
 estark
-Dimensional Dragon
-Stella
-Baboon Beast
-Evil Beast
-Don Mole
+dimensional dragon
+stella
+baboon beast
+evil beast
+don mole
 canzar
 restless armour
-Rigor Mortex
+rigor mortex
 lethal armour
 roseguardin
 balhib
@@ -498,12 +498,12 @@ gracos
 conklave
 riptide
 alabast dragon
-teeny sanguini XY
+teeny sanguini xy
 goodybag
 magic slime
 ruin
-Ace of Spades
-Dr Snapped
+ace of spades
+dr snapped
 wulfspade ace
 hawkhart ace
 cluboon ace
@@ -511,5 +511,5 @@ diamagon ace
 mumboh-jumboe
 atlas
 
-X
-XY
+x
+xy
