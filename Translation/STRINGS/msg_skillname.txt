@@ -1,52 +1,52 @@
 
-Frizz & Bang
+Frizz ＆ Bang
 Prince
-Frizz & Bang II
-Frizz & Woosh
+Frizz ＆ Bang II
+Frizz ＆ Woosh
 Princess
-Frizz & Woosh II
-Frizz & Zap
+Frizz ＆ Woosh II
+Frizz ＆ Zap
 Metal Crusher
-Frizz & Zap II
-Frizz & Zam
+Frizz ＆ Zap II
+Frizz ＆ Zam
 Tornado
-Frizz & Zam II
-Bang & Woosh
+Frizz ＆ Zam II
+Bang ＆ Woosh
 Giant Killer
-Bang & Woosh II
-Bang & Crack
+Bang ＆ Woosh II
+Bang ＆ Crack
 Breath Breaker II
-Bang & Crack II
-Bang & Zap
+Bang ＆ Crack II
+Bang ＆ Zap
 Sword Breaker
-Bang & Zap II
-Bang & Zam
+Bang ＆ Zap II
+Bang ＆ Zam
 Sword Breaker II
-Bang & Zam II
-Woosh & Crack
+Bang ＆ Zam II
+Woosh ＆ Crack
 King Sanguini
-Woosh & Crack II
-Woosh & Zap
+Woosh ＆ Crack II
+Woosh ＆ Zap
 Rottney
-Woosh & Zap II
-Woosh & Zam
+Woosh ＆ Zap II
+Woosh ＆ Zam
 Robbin's Old Lady
-Woosh & Zam II
-Crack & Zap
+Woosh ＆ Zam II
+Crack ＆ Zap
 Prism Peacock
-Crack & Zap II
-Crack & Zam
+Crack ＆ Zap II
+Crack ＆ Zam
 Dark Mecha-Slime
-Crack & Zam II
+Crack ＆ Zam II
 Fire
 Slime Blaster
-Strong Flame
+Fire II
 Ice
 Diamond Slime
-Strong Ice
+Ice II
 Breath
 Slider Girl
-Strong Breath
+Breath II
 Firewind Slashes
 Thunderwind Slashes
 Iceplosion Slashes
@@ -59,7 +59,7 @@ White Knight
 Dark Knight
 Healer
 Cure-all
-Panacea
+Cleanser
 Champion
 Defender
 Speedster
@@ -67,10 +67,10 @@ Mage Aid
 Fortifier
 Enfeebler
 Saboteur
-Spell Breaker
-Spell Breaker II
-Breath Breaker
-Hunter Mech
+Antimagic
+Antimagic II
+Anti-dragon
+Anti-metal
 Guard
 Barricade
 Seal
@@ -127,19 +127,19 @@ Estark
 Nimzo
 Mortamor
 Captain Crow
-Uber Dark Dynamiter
-Uber Blessed Blizzardier
-Uber Mage
-Uber Breath
-Uber Knight
-Uber Healer
-Uber Helpful
-Uber Charmer
+Über Dark Dynamiter
+Über Blessed Blizzardier
+Über Mage
+Über Breath
+Über Knight
+Über Healer
+Über Helpful
+Über Charmer
 Wulfspade III
 Diamagon III
 Hawkhart III
 Cluboon III
-Dr. Snapped
+Dr Snapped
 Attack Boost
 Attack Boost II
 Attack Boost III
@@ -175,43 +175,43 @@ Confusion Ward
 Inaction Ward
 Paralysis Ward
 Sleep Ward
-Uber Health Boost
-Uber Magic Boost
-Uber Attack Boost
-Uber Defense Boost
-Uber Agility Boost
-Uber Wisdom Boost
-Uber Heat Ward
-Uber Cold Ward
-Uber Windblast Ward
-Uber Darklight Ward
+Über Health Boost
+Über Magic Boost
+Über Attack Boost
+Über Defence Boost
+Über Agility Boost
+Über Wisdom Boost
+Über Heat Ward
+Über Cold Ward
+Über Windblast Ward
+Über Darklight Ward
 Warrior
-Magician
+Mage
 Priest
-Monk
+Martial Artist
 Sage
 Thief
-Frizz & Sizz
+Frizz ＆ Sizz
 Liquid Metal King Slime
-Frizz & Sizz II
-Bang & Sizz
+Frizz ＆ Sizz II
+Bang ＆ Sizz
 Yggdrasil
-Bang & Sizz II
-Woosh & Sizz
+Bang ＆ Sizz II
+Woosh ＆ Sizz
 Pipit
-Woosh & Sizz II
-Crack & Sizz
-Uberkilling Machine
-Crack & Sizz II
-Sizz & Zap
-King Godwyn II
-Sizz & Zap II
-Sizz & Zam
+Woosh ＆ Sizz II
+Crack ＆ Sizz
+Überkilling Machine
+Crack ＆ Sizz II
+Sizz ＆ Zap
+King Godwyn
+Sizz ＆ Zap II
+Sizz ＆ Zam
 Munchie
-Sizz & Zam II
+Sizz ＆ Zam II
 Sizz Ward
 Exorsus
-Dimensional Dragon
+Dimensaur
 Dual Duellers
 Dorsal Fiend
 Thornella
@@ -220,7 +220,7 @@ Mortella
 Rigor Mortex
 Canzar
 Aquarion
-Saggitar
+Sagittar
 Leonyx
 Wormonger
 Bjorn
@@ -231,22 +231,22 @@ Orochi
 Zenith Dragon
 Empyrea
 Zoma
-Frailty Ward
+Magical Sabotage Ward
 Abiliterator Ward
-Blunt Ward
+Blade Blunter Ward
 Donk Ward
-Uber Zapologist
+Über Zapologist
 Flute Warrior
 Wildcard
 Wonder Construction
-Morries Melange
+Morrie's Melange
 Battle Road Master
 Stella
 Hero of the Heavens
 Vile Void
 Corvus
 Great Godbird
-Stormgate Citadel
+Stormsgate Citadel
 Schwarzman Tank
 Xiphos
 Gadis
@@ -254,4 +254,3 @@ Darck
 Magarugi
 Baboon Beast
 Evil Beast
-
