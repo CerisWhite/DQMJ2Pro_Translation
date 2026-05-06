@@ -1337,7 +1337,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
+SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

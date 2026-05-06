@@ -10,6 +10,7 @@ for file in ./SCRIPTS/*.txt; do
   sed -i "s/はんのうがない…。{BREAK}いまは　使えないよ うだ。/There's no response. {NAME} cannot use this...for now./g" $file;
   sed -i 's/このセキヒを調べると　あなたが使える特技や{BREAK}べんりなコマンドを　おぼえることができます。/Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands./g' $file;
   sed -i "s/セキヒは　地図上に　あおい点でしめされるの で{BREAK}みつけたら　まず　調べてみましょう。/These Scout's Stones appear on the map as blue icons./g" $file;
+  sed -i "s/セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。/These Scout's Stones appear on the map as blue icons./g" $file;
   sed -i 's/{NAME}は{BREAK}ルーラを　おぼえた!/{NAME} learns Zoom!/g' $file;
   sed -i 's/この特技を使うと　行ったことのあるエリアに{BREAK}しゅんじに　いどうすることができます。/This ability enables {NAME} to teleport to previously visited regions!/g' $file;
   sed -i 's/いちぶの場所をのぞき　どうくつの中など{BREAK}たいていの場所で　使うことができます。/Apart from a few special locations, it can be used anywhere, including caves!/g' $file;
