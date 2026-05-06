@@ -229,7 +229,7 @@ Tactics-Sealing Breath
 Slash-Sealing Breath
 Martial-Sealing Breath
 Sword Dance
-Netherworld Fog
+Underworld Fog
 Sizz
 Sizzle
 Kasizz
