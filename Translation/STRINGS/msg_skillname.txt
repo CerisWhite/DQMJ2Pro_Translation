@@ -1,43 +1,43 @@
 
-Frizz ＆ Bang
+Frizz & Bang
 Prince
-Frizz ＆ Bang II
-Frizz ＆ Woosh
+Frizz & Bang II
+Frizz & Woosh
 Princess
-Frizz ＆ Woosh II
-Frizz ＆ Zap
+Frizz & Woosh II
+Frizz & Zap
 Metal Crusher
-Frizz ＆ Zap II
-Frizz ＆ Zam
+Frizz & Zap II
+Frizz & Zam
 Tornado
-Frizz ＆ Zam II
-Bang ＆ Woosh
+Frizz & Zam II
+Bang & Woosh
 Giant Killer
-Bang ＆ Woosh II
-Bang ＆ Crack
+Bang & Woosh II
+Bang & Crack
 Breath Breaker II
-Bang ＆ Crack II
-Bang ＆ Zap
+Bang & Crack II
+Bang & Zap
 Sword Breaker
-Bang ＆ Zap II
-Bang ＆ Zam
+Bang & Zap II
+Bang & Zam
 Sword Breaker II
-Bang ＆ Zam II
-Woosh ＆ Crack
+Bang & Zam II
+Woosh & Crack
 King Sanguini
-Woosh ＆ Crack II
-Woosh ＆ Zap
+Woosh & Crack II
+Woosh & Zap
 Rottney
-Woosh ＆ Zap II
-Woosh ＆ Zam
+Woosh & Zap II
+Woosh & Zam
 Robbin's Old Lady
-Woosh ＆ Zam II
-Crack ＆ Zap
+Woosh & Zam II
+Crack & Zap
 Prism Peacock
-Crack ＆ Zap II
-Crack ＆ Zam
+Crack & Zap II
+Crack & Zam
 Dark Mecha-Slime
-Crack ＆ Zam II
+Crack & Zam II
 Fire
 Slime Blaster
 Fire II
@@ -191,24 +191,24 @@ Priest
 Martial Artist
 Sage
 Thief
-Frizz ＆ Sizz
+Frizz & Sizz
 Liquid Metal King Slime
-Frizz ＆ Sizz II
-Bang ＆ Sizz
+Frizz & Sizz II
+Bang & Sizz
 Yggdrasil
-Bang ＆ Sizz II
-Woosh ＆ Sizz
+Bang & Sizz II
+Woosh & Sizz
 Pipit
-Woosh ＆ Sizz II
-Crack ＆ Sizz
+Woosh & Sizz II
+Crack & Sizz
 Überkilling Machine
-Crack ＆ Sizz II
-Sizz ＆ Zap
+Crack & Sizz II
+Sizz & Zap
 King Godwyn
-Sizz ＆ Zap II
-Sizz ＆ Zam
+Sizz & Zap II
+Sizz & Zam
 Munchie
-Sizz ＆ Zam II
+Sizz & Zam II
 Sizz Ward
 Exorsus
 Dimensaur
