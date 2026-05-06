@@ -29,6 +29,7 @@ for file in ./SCRIPTS/*.txt; do
   sed -i 's/{PAGE}//g' $file;
   sed -i 's/{ENDLINE}//g' $file;
   sed -i "s/‘/'/g" $file;
+  sed -i "s/–/-/g" $file;
   sed -i 's/アロマ/Solitaire/g' $file;
   sed -i 's/ピスカ/Melonie/g' $file;
   sed -i 's/セブンス船長/Captain Mayday/g' $file;

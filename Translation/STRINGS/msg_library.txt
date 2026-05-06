@@ -133,8 +133,8 @@ Reduces enemies' resistance to{315}Magic Frailty.{315}Has no effect on enemies w
 Reduces enemies' resistance to{315}Sizz-type magic.{315}Has no effect on enemies who are{315}impervious to Sizz-type magic.
 Reduces enemies' resistance to{315}Donk-type magic.{315}Has no effect on enemies who are{315}impervious to Donk-type magic.
 Reduces enemies' resistance to all{315}spells, abilities, and status ailments.
-Acts 2–3 times in a row.{315}Remaining actions are not cancelled{315}even if orders are given.
-Acts 0–4 times in a row.{315}Remaining actions are not cancelled{315}even if orders are given.
+Acts 2-3 times in a row.{315}Remaining actions are not cancelled{315}even if orders are given.
+Acts 0-4 times in a row.{315}Remaining actions are not cancelled{315}even if orders are given.
 Damage taken from{315}enemy attacks is halved,{315}but MP consumption is doubled.
 Damage taken from{315}enemy attacks is quartered,{315}but MP consumption is quadrupled.
 At the start of battle,{315}may cast Oomph on itself.
@@ -243,19 +243,19 @@ Increases resistance to Sap-type{315}magic.
 Increases resistance to Decelerate.
 Increases resistance to Dim-type{315}magic.
 Increases resistance to Magic Frailty{315}and Spooky Aura.
-Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts 2–3 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
+Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts 2-3 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
 Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts twice{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
-Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts 1–3 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
-Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts 0–4 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
-Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts 1–2 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
+Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts 1-3 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
+Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts 0-4 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
+Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts 1-2 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
 The critical hit rate{315}of spells is doubled.
 When near death,{315}the critical hit rate{315}of spells increases.
 At the start of battle,{315}may cast Underworld Fog.
 At the start of battle,{315}may cast Break Seal.
-Becomes an all-target attacker,{315}and damages dealt by skills are increased.{315}Additionally, acts 2–3 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
+Becomes an all-target attacker,{315}and damages dealt by skills are increased.{315}Additionally, acts 2-3 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
 Becomes an all-target attacker,{315}and damages dealt by skills are increased.{315}Additionally, acts twice{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
-Becomes an all-target attacker,{315}and damages dealt by skills are increased.{315}Additionally, acts 1–3 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
-Becomes an all-target attacker,{315}and damages dealt by skills are increased.{315}Additionally, acts 0–4 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
+Becomes an all-target attacker,{315}and damages dealt by skills are increased.{315}Additionally, acts 1-3 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
+Becomes an all-target attacker,{315}and damages dealt by skills are increased.{315}Additionally, acts 0-4 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
 Becomes an all-target attacker,{315}and damages dealt by skills are increased.{315}Additionally, acts 1-2 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
 May cast Oomph{315}on itself during battle.
 May cast Buff{315}on itself during battle.

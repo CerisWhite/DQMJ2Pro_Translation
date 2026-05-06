@@ -197,7 +197,7 @@ A dance that will cause the user{315}to perish after several rounds, but{315}tak
 Discerns enemy weaknesses and deals{315}heavy Woosh-type slash damage to all enemies.
 Discerns enemy weaknesses and deals{315}heavy Crack-type slash damage to all enemies.
 Discerns enemy weaknesses and deals{315}heavy Sizz-type slash damage to all enemies.
-Unleashes 4–12 consecutive slash attacks at random.
+Unleashes 4-12 consecutive slash attacks at random.
 
 A dastardly dance that deals damage in an undetermined direction.
 Deals weaker slash damage,{315}but reveals the ennemy stats.
