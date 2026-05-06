@@ -54,8 +54,8 @@ Can put enemies to sleep with a{315}successful attack.
 Monster will have a slim chance of{315}being revived after dying.
 Can dazzle enemies and immobilise them{315}at the start of a battle.
 Monster may occasionally become{315}flustered and unable to act.
-Luck increases when HP are low.
-Luck decreases when HP are high.
+Luck increases when HP is low.
+Luck decreases when HP is high.
 Can increase tension of all allies at the{315}start of a battle.
 When an enemy's tension increases{315}in battle, all foes' tension will{315}automatically decrease.
 Bounce is constantly activated and{315}cannot be cancelled.
@@ -63,7 +63,7 @@ Counter is constantly activated and{315}cannot be cancelled.
 Attacks often miss the mark, but can{315}deliver critical hits.
 Enables monster to survive fatal damage{315}with 1HP.
 Monster will usually sustain more{315}damage, but will occasionally take{315}none.
-When attacked,{315}there is a chance to counterattack{315}that enemy with greater-than-usual power
+When attacked,{315}may retaliate with a powerful counter.
 During battle,{315}may lower the tension of all enemies.
 Scout gauge can be boosted when{315}a show of strength is launched.
 Experience points received after a battle{315}are increased by 10%.{315}If multiple monsters in the team possess{315}this trait, this percentage will increase.
@@ -73,7 +73,7 @@ Monster may occasionally fall asleep{315}at the start of battle.
 Monster may occasionally be confused{315}at the start of battle.
 Monster may occasionally raise all foes'{315}tension levels at the start of battle.
 MP gradually decreases over the course{315}of battle.
-Nullifies enemy critical hits{315}and spell critical hits.
+Nullifies enemy critical hits{315}and critical spells.
 Doubles MP consumption.
 Increases damage suffered.
 While asleep, may attack all enemies.
@@ -81,8 +81,8 @@ When paralyzed, may inflict paralysis{315}on enemies that attack you.
 When confused, randomly attacks{315}one target (ally or enemy){315}with a merciless strike.
 When charmed, charges up{315}and raises own tension
 Deals heavy damage to{315}Metal-type monsters.
-May drain MP from enemies{315}that attack it{315}and add them to its own MP.
-May drain MP from the enemy{315}it attacks{315}and add them to your own MP.
+May drain MP from enemies{315}that attack it.
+May drain MP from the enemy{315}it attacks.
 Can send an attacked enemy to{315}the hereafter.
 Boosts Sizz-type magic effects while{315}decreasing MP consumption.
 Can unnerve enemies with a piercing{315}stare and immobilise them at the start{315}of a battle.
@@ -135,8 +135,8 @@ Reduces enemies' resistance to{315}Donk-type magic.{315}Has no effect on enemies
 Reduces enemies' resistance to all{315}spells, abilities, and status ailments.
 Acts 2–3 times in a row.{315}Remaining actions are not cancelled{315}even if orders are given.
 Acts 0–4 times in a row.{315}Remaining actions are not cancelled{315}even if orders are given.
-Damages taken from{315}enemy attacks are halved,{315}but MP consumption is doubled.
-Damages taken from{315}enemy attacks are reduced to 1/4,{315}but MP consumption is quadrupled.
+Damage taken from{315}enemy attacks is halved,{315}but MP consumption is doubled.
+Damage taken from{315}enemy attacks is quartered,{315}but MP consumption is quadrupled.
 At the start of battle,{315}may cast Oomph on itself.
 At the start of battle,{315}may cast Kabuff on itself.
 At the start of battle,{315}may cast Acceleratle on itself.
@@ -250,7 +250,7 @@ Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts 0�
 Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts 1–2 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
 The critical hit rate{315}of spells is doubled.
 When near death,{315}the critical hit rate{315}of spells increases.
-At the start of battle,{315}may cast Mist of the Underworld.
+At the start of battle,{315}may cast Underworld Fog.
 At the start of battle,{315}may cast Break Seal.
 Becomes an all-target attacker,{315}and damages dealt by skills are increased.{315}Additionally, acts 2–3 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
 Becomes an all-target attacker,{315}and damages dealt by skills are increased.{315}Additionally, acts twice{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
@@ -262,7 +262,7 @@ May cast Buff{315}on itself during battle.
 May cast Acceleratle{315}on itself during battle.
 May increase its{315}own tension during battle.
 May use Black Mist{315}during battle.
-May use Mist of the Underworld{315}during battle.
+May use Underworld Fog{315}during battle.
 May use Break Seal{315}during battle.
 Donk-type effects{315}are strengthened and{315}MP cost is reduced.
 
