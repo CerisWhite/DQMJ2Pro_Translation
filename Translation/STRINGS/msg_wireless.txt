@@ -1,30 +1,28 @@
-ワイヤレス通信で対戦・交換
-対戦
-モンスター交換
-ワイヤレス通信を使って{315}ちかくにいる人と　対戦をします。
-ワイヤレス通信を使って{315}ちかくにいる人と　モンスター交換をします。
-対戦ほうほう
-1対1のバトル
-トーナメント
-対戦相手をぼしゅうする
-対戦をもうしこむ
+DS Wireless Play
+Battle
+Monster Exchange
+Battle nearby opponents via DS Wireless Communications.
+Trade monsters with nearby players via DS Wireless Communications.
+Battle Rules
+Head-To-Head Battle
+Tournament
+Play As Host
+Play As Guest
 --------
 --------
 --------
-
-ほかの人と　1対1で{315}対戦することができます。
-2～8人で　トーナメントを{315}かいさいすることができます。
-対戦相手を　ぼしゅうします。
-対戦相手を　ぼしゅうしている人を探して{315}対戦を　もうしこみます。
-せんたくした人に{315}対戦を　もうしこみます。
-
-対戦ルール
-スタンダードルール
-SQEXルール
-カスタムルール
-対戦をやめる
-
-
+Cancel Battle Request
+Battle against a single opponent in this mode.
+Compete against up to seven opponents in this mode.
+Become the host and invite players to challenge you in battle.
+Search for a host and request to do battle with them as a guest.
+Challenge the selected opponent to a battle.
+Cancel request for head-to-head battle.
+Rules
+Standard Rules
+SQUARE ENIX Rules
+Custom Rules
+Quit Battle
 
 
 
@@ -38,190 +36,193 @@ SQEXルール
 
 
 
-対戦かいし
-チームセットアップ
-ルールかくにん
 
-メンバーを編成する
-作戦をかえる
-決定
-ラウンド
-作戦
-入れかえ
-しゅぞく
-入力時間
-せっていかんりょう
+
+Begin Battle
+Team Setup
+Check Rules
+
+Switch Monsters
+Change Equipment
+Change Tactics
+Length
+Orders
+Switch Monsters
+Same Type
+Turn Time
+Confirm Settings
 RANK
 
-むせいげん
-5ラウンド
-10ラウンド
-フリー
-AIのみ
+No Limit
+5 Turns
+10 Turns
+On
+Off
+On
+Off
+All OK
+Same Family OK
+Same Family Prohibited
+No Limit
+15 Seconds
+30 Seconds
 
-
-すべてOK
-どうけいとうOK
-どうけいとうきんし
-むせいげん
-15びょう
-30びょう
-
-むさべつ級
-F～D RANK級
-C～A RANK級
-S・SS RANK級
-預かり所から選ぶ
-お気に入りメンバーから選ぶ
-フリー
-1回のみ
-きんし
-スタンダードのルールで　対戦します。
-こうしきせんのルールで　対戦します。
-対戦のルールを　じゆうに　せっていします。
-1対1のバトルを　やめます。
-
-
-
-
-
-
-預かり所の　お気に入り編成が{315}できるようになるまで{315}こちらを使うことは　できません。
+Unrestricted Class
+F-D RANK Class
+C-A RANK Class
+S/SS RANK Class
+Choose from Pen
+Choose from Favorites
+Free
+Once Only
+Prohibited
+Battle using standard rules.
+Play using official SQUARE ENIX rules.
+Customise battle rules to your liking.
+Quit head-to-head battle.
 
 
 
 
-じゆうに　入れかえを{315}することができます。
-せんとうちゅうに{315}1回だけ　入れかえができます。
-モンスターの入れかえを{315}きんしします。
-
-対戦しゅうりょうとなる{315}ラウンドのせっていをします。
-命令を　できるようにするか{315}せっていします。
-入れかえを　できるようにするか{315}せっていします。
-対戦に出せるモンスターを　せいげんするか{315}せっていします。
-行動の入力時間に{315}せいげん時間を　せっていします。
-カスタムせっていのルールで　対戦します。
-どちらかが　ぜんめつするまで{315}対戦を　つづけます。
-5ラウンドで{315}対戦を　しゅうりょうします。
-10ラウンドで{315}対戦を　しゅうりょうします。
-モンスターに{315}命令できるようにします。
-作戦(AI)で{315}行動するようにします。
 
 
-すべてのモンスターを{315}じゆうに使うことができます。
-おなじけいとうのモンスターを{315}じゆうに使うことができます。{315}ただし　おなじしゅぞくのモンスターを{315}使うことはできません。
-おなじけいとうのモンスターを{315}使用きんしにします。
-入力の　まち時間を{315}むせいげんにします。
-入力の　まち時間を{315}15びょうにします。
-入力の　まち時間を{315}30びょうにします。
-すべてのモンスターが{315}参加することができます。
-F～D RANK級のモンスターで対戦します。{315}ほかのRANKのモンスターは{315}参加できません。
-C～A RANK級のモンスターで対戦します。{315}ほかのRANKのモンスターは{315}参加できません。
-S～SS RANK級のモンスターで対戦します。{315}ほかのRANKのモンスターは{315}参加できません。
-ワイヤレス通信を　行います。{315}よろしいですか?
-相手のへんじを　まっています。{315}しばらく　おまちください。{315}Bボタンで　中断できます。
+You cannot use this{315}until you are able to{315}form favorite parties in the Pen.
 
-おたがいの　ユーザーデータを{315}交換しています。{315}しばらく　おまちください。
-ともだちリストが　いっぱいのため{315}ユーザーデータを　もらえません。{315}ふような　ともだちコードがあれば{315}ともだちリストから　けしておいてください。
 
-セーブしています。{315}本体の　でんげんを　きらないでください。
-セーブが　かんりょうしました!
-セーブが　かんりょうしました!{315}しばらく　おまちください。
-通信エラーです。{315}さいしょから　やりなおしてください。
-対戦相手を　{322}で{315}ぼしゅうしています。{315}しばらく　おまちください。{315}Bボタンで　中断できます。
-{322}が　ちょうせんしてきました。{315}ちょうせんを　うけますか?
-対戦を　もうしこんでいます。{315}しばらく　おまちください。
-対戦を　断りました。
-対戦を　断られてしまいました……。
-対戦相手をぼしゅうしています。{315}しばらく　おまちください。{315}Bボタンで　中断できます。
-相手が　対戦ルールを　きめています。{315}しばらく　おまちください。
-相手が　対戦のじゅんび中です。{315}しばらく　おまちください。
-対戦のじゅんびが　整いました。{315}これより　対戦を　はじめます。
-セーブに　失敗しました!　でんげんを　きって{315}DSカードを　さしこみなおしてください。
-対戦ルールを{315}上がめんに　ひょうじしています。
-相手のかくにんを　まっています。{315}しばらく　おまちください。
-通信を　せつだんしています。
-{322}に　勝ちました!
-{322}に　負けました。
-{322}と　ひきわけました。
-F～D RANK級ではないモンスターが{315}ふくまれています。{315}「チームセットアップ」で{315}モンスターを　へんこうしてください。
-C～A RANK級ではないモンスターが{315}ふくまれています。{315}「チームセットアップ」で{315}モンスターを　へんこうしてください。
-S～SS RANK級ではないモンスターが{315}ふくまれています。{315}「チームセットアップ」で{315}モンスターを　へんこうしてください。
-おなじけいとうのモンスターが{315}2体いじょう　ふくまれています。{315}モンスターを　選びなおしてください。
-おなじしゅぞくのモンスターが{315}2体いじょう　ふくまれています。{315}モンスターを　選びなおしてください。
-交換相手をぼしゅうする
-交換をもうしこむ
+
+
+Select the number of turns the battle will last.
+Select whether or not orders can be issued to monsters.
+Select whether or not monsters can be switched around during battle.
+
+Select the number of rounds{315}until the battle ends.
+Select whether{315}commands can be given.
+Select whether{315}switching can be done.
+Select whether to limit{315}the monsters allowed in battle.
+Select the time limit for entering commands.
+Battle with these rules.
+The battle ends when one team is wiped out.
+End battle after 5 turns.
+End battle after 10 turns.
+Enables players to give orders to monsters during battle.
+Monsters will fight using selected tactics.
+
+
+Allows players to have two or more monsters of the same family on their team.
+Monsters of the same family{315}can be used.{315}However, monsters of the same{315}species cannot be used.
+Prevents players from having two or more monsters of the same family on their team.
+Sets no time limit for issuing commands during battle.
+Sets a time limit of 15 seconds for issuing commands during battle.
+Sets a time limit of 30 seconds for issuing commands during battle.
+All monsters can{315}participate.
+Battle with F-D RANK monsters.{315}Monsters of other RANKS{315}cannot participate.
+Battle with C-A RANK monsters.{315}Monsters of other RANKS{315}cannot participate.
+Battle with S-SS RANK monsters.{315}Monsters of other RANKS{315}cannot participate.
+Begin DS Wireless Communications?
+Waiting for a response from the other player...{315}Press the B Button to cancel.
+
+Exchanging data...{315}Please wait.
+Unable to receive data because{315}your Friend Roster is full.{315}Please reduce the size of your{315}Friend Roster.
+
+Now saving...{315}Do not turn power OFF.
+Save completed!
+Save completed!{315}Please wait.
+Communication error.{315}Please try again later.
+Inviting {322} to battle.{315}Please wait.{315}Press the B Button to cancel.
+{322} wants to battle.{315}Accept the challenge?
+Issuing challenge to opponent...{315}Please wait.
+You refuse the challenge.
+Your challenge has been refused.
+Inviting opponents to battle you...{315}Press the B Button to cancel.
+Opponent is selecting the battle rules...{315}Please wait.
+Waiting for opponent...
+Preparations complete. Now beginning the battle...
+The save data could not be accessed. Please turn off the power and reinsert the DS Game Card.
+Battle rules are displayed on the upper screen.
+Waiting for opponent...
+Disconnecting from DS Wireless Communications.
+You beat {322}!
+You lost to {322}.
+You drew with {322}.
+Monsters not in the F-D RANK range{315}are included.{315}Please change monsters{315}in "Team Setup."
+Monsters not in the C-A RANK range{315}are included.{315}Please change monsters{315}in "Team Setup."
+Monsters not in the S-SS RANK range{315}are included.{315}Please change monsters{315}in "Team Setup."
+Two or more monsters{315}of the same family are included.{315}Please re-select your monsters.
+Two or more monsters{315}of the same species are included.{315}Please re-select your monsters.
+Seek a Trade Partner
+Request a Trade
 --------
 --------
 --------
-もうしこみをやめる
-わたすモンスターを選ぶ
-決定
-交換をやめる
-交換をはじめる
-モンスターの強さをみる
-モンスターを選びなおす
-交換をつづける
-交換をやめる
+Cancel
+Select Monsters
+Confirm
+Cancel Trade
+Begin Trade
+View Attributes
+Select Monsters
+Continue
+Stop Trading
 
-しょじモンスター
-もどる
-DQMジョーカー2 PROFESSIONALと交換
-DQMジョーカー2と交換
-交換相手を　ぼしゅうします。
-交換相手を　ぼしゅうしている人を探して{315}モンスター交換を　もうしこみます。
-せんたくした人に{315}モンスター交換を　もうしこみます。
-モンスター交換への{315}もうしこみを　やめます。
-DQMジョーカー2 PROFESSIONALと交換します。
-DQMジョーカー2と交換します。
-交換相手を　ぼしゅうしています。{315}しばらく　おまちください。{315}Bボタンで　中断できます。
-{322}が{315}モンスター交換を　もうしこんできました。{315}もうしこみを　うけますか?
-モンスター交換を　もうしこんでいます。{315}しばらく　おまちください。
-モンスター交換を　断りました。
-モンスター交換を　断られてしまいました……。
-!ちゅうい!{315}交換相手のスカウトリングが{315}パワーアップしていない場合{315}交換相手は　このサイズのモンスターを{315}ゲーム中で　いっさい使用できません!{315}{315}交換するさいは　よく話しあいましょう。
-モンスター交換を　かいしします。{315}交換するモンスターを　選んでください。
-相手が　選んでいます。{315}しばらく　おまちください。
-もらうモンスターが　かわりました。{315}Bボタンで　選びなおせます。
-交換じゅんび中です。
-おたがい　交換するモンスターが{315}選ばれていません。
-交換するモンスターを　選びなおします。{315}相手のかくにんを　まっています。{315}しばらく　おまちください。
-相手が　交換するモンスターを{315}選びなおします。{315}しばらく　おまちください。
-モンスターの交換を　はじめます。{315}{315}とちゅうで　でんげんがきれると{315}モンスターが失われるおそれがありますので{315}ごちゅういください。
-{322}を{315}相手に　わたしました。
-{322}の{315}{324}が{315}仲間になりました!
-うけとった　モンスターを{315}預かり所へ　おくりました。
-相手のかくにんを　まっています。{315}しばらく　おまちください。
-預かり所がいっぱいで{315}モンスターを　うけとれません。{315}もらうモンスターを　減らしてもらうか{315}預かり所を　整理してください。
-相手の　預かり所がいっぱいで{315}モンスターを　わたせません。{315}わたすモンスターを　減らしてください。
-モンスターデータに{315}ふせいデータの　うたがいがあります。{315}モンスターを　へんこうしてください。
-相手のモンスターデータに{315}ふせいデータの　うたがいがあります。{315}モンスターを　へんこうしてもらってください。
-メインパーティから　モンスターが{315}いなくなってしまいます。{315}メインパーティの　モンスターを{315}さいてい1体は　のこしてください。
-モンスター交換を　断りました。{315}相手のかくにんを　まっています。{315}しばらく　おまちください。
-モンスター交換を　断られてしまいました……。{315}しばらく　おまちください。
-通信じょうきょうが　わるいため{315}交換相手が　みつかりませんでした。{315}もういちど　やりなおしてください。
-モンスター交換を　しゅうりょうします。
-相手が　交換をやめる　をせんたくしました。{315}モンスター交換を　しゅうりょうします。
-モンスター交換を　かいしします。{315}交換するモンスターを　選んでください。{315}{315}!ちゅうい!{315}ドラゴンクエストモンスターズ　ジョーカー2　との{315}交換になりますので　おたがい交換した{315}モンスターのLvは　すべて　1になり{315}スキルや特性なども　へんかんされます。
-相手からもらう　モンスターの中に{315}RANKの高いモンスターが　いるため{315}交換を行うことが　できません。{315}モンスターを　へんこうしてもらってください。
+Monsters
+Back
+Trade with DQM Joker 2 PROFESSIONAL
+Trade with DQM Joker 2
+Recruiting a trade partner.
+Search for people recruiting trade partners{315}and request a monster trade.
+Request a monster trade{315}with the selected person.
+Cancel the request{315}for a monster trade.
+Trade with DQM Joker 2 PROFESSIONAL.
+Trade with DQM Joker 2.
+Inviting other player to trade monsters...{315}Please wait.
+{322} wants to trade monsters.{315}Accept the invitation?
+Inviting other player to trade monsters...{315}Please wait.
+You refuse the invitation.
+Your invitation has been refused.
+If the player you are trading with{315}doesn't have an enhanced scout ring,{315}they won't be able to use monsters{315}of this size in the game. Please{315}discuss this before trading.
+Let the exchange begin!{315}Select monsters to trade.
+The opponent is choosing.{315}Please wait.
+The offer has changed.{315}Press the B Button to modify your offer.
+Preparing for exchange.
+No one has selected monsters for trading.
+Choose different monsters to trade.{315}Waiting for the trade partner's confirmation...
+Please wait while the trade partner modifies their offer.
+Starting the monster trade. {315}{315} Please note that if the power is turned off{315}during the process, monsters may be lost.
+Sent {322}{315}to the trade partner.
+{324} joins the team!
+Your new monsters will be sent to the monster pen.{30c}
+Waiting for the trade partner...{315}Please wait.
+You do not have enough room in your{315}monster pen.{315}{315}Reduce the number of monsters that{315}you'll receive in this exchange,{315}or reorganise your monster pen.
+The trade partner does not have enough{315}room in their monster pen.{315}{315}Reduce the number of monsters you{315}will offer in this exchange.
+Your team may contain unauthorised{315}monster data.{315}Please reorganise your team.
+Your opponent's team may contain{315}unauthorised monster data.{315}Please ask them to reorganise their team.
+You must keep at least one monster{315}in your team.
+You have chosen not to trade.{315}Awaiting the trade partner's response.
+The trade partner does not wish to trade.{315}Please wait.
+Wireless signal is weak or blocked. Cannot find trading partner.{315}Please try again.
+Monster trading has ended.
+The trade partner has chosen to end current monster trade.{315}This monster trade transaction has been completed.
+Let the exchange begin!{315}Select monsters to trade.{315}Notice!{315}Since this is a trade with Dragon Quest Monsters Joker 2,{315}the level of the exchanged monsters{315}will become 1, and skills/traits{315}will be converted.
+Because there is a high RANK monster{315}among the monsters received from the opponent,{315}the trade cannot be performed.{315}Please have them change the monster.
 
 
 
-トーナメント
-トーナメント参加者をぼしゅうする
-トーナメントに参加する
-トーナメント参加者
-チーム名
+Tournament
+Host Tournament
+Join Tournament
+Participants
+Names
 --------
 --------
 --------
+Cancel
+Rules
+Tournament Rules
+SQUARE ENIX Rules
+Survival Rules
+Custom Rules
+Quit Tournament
 
-対戦ルール
-トーナメントルール
-SQEXルール
-サバイバルルール
-カスタムルール
-トーナメントをやめる
 
 
 
@@ -237,36 +238,40 @@ SQEXルール
 
 
 
+Begin Battle
+Team Setup
+Check Rules
+Switch Monsters
+Change Equipment
+Change Tactics
+Confirm
+Results
+Final Results
+Sprout
+Raul Ghoul
+Grace
+Swelter
+Sir Berus
+Mon Starr
+Chill Blaine
+Mark Smann
+Blizzard
+Sham Armour
+Esmerelda
+Burly Barry
+Virgo
+Luke Warm
+Juve E Nile
+Rawger
+Slobber
+Dr Darf
+Lucy Fur
+Loomin' Harry
 
-対戦かいし
-チームセットアップ
-ルールかくにん
 
 
 
 
-トーナメント対戦結果
-トーナメントさいしゅう結果
-ビギナーズ
-どろろんぱ
-めぐみのひと
-じめじめだん
-わんにゃーパタパタ
-モンスターバンド
-ゆきのくにから
-ホストイケメン
-スノーマンズ
-げきだん　よろい
-ヒミコさま
-でっかいどー
-おとめクラブ
-サファリパーク
-おうきゅうせんし
-ザ・さしみ
-いんねんコンビ
-ドクター・デロト
-じごくのていおう
-ロザリーガード
 
 
 
@@ -292,95 +297,90 @@ SQEXルール
 
 
 
-
-
-
-
-
-ラウンド
-作戦
-入れかえ
-しゅぞく
-入力時間
-HP/MP回復
-せっていかんりょう
-5ラウンド
-10ラウンド
-フリー
-AIのみ
-じゆうに使う
-きんし
-じゆうに使う
-使用きんし
-15びょう
-30びょう
-回復する
-回復しない
-トーナメントに　参加する人を{315}ぼしゅうします。
-トーナメントの参加者を{315}ぼしゅうしている人を探して{315}トーナメントに　参加します。
-せんたくした人の　トーナメントに{315}参加を　もうしこみます。
-トーナメントへの{315}もうしこみを　やめます。
-トーナメントのルールで　対戦します。
-こうしきせんのルールで　対戦します。
-サバイバルのルールで　対戦します。{315}(勝利した人は　HPとMPを{315}回復せずに　つぎの対戦を　行います。)
-対戦のルールを　じゆうにせっていします。
-トーナメントのかいさいを　やめます。
-対戦しゅうりょうとなる{315}ラウンドのせっていをします。
-命令を　できるようにするか{315}せっていします。
-入れかえを　できるようにするか{315}せっていします。
-対戦に出せるモンスターを　せいげんするか{315}せっていします。
-行動の　入力時間に{315}せいげん時間を　せっていします。
-対戦かいし前に　HP/MPの回復をするか{315}せっていします。
-カスタムせっていのルールで　対戦します。
-対戦かいし前に　HP/MPを{315}回復します。
-対戦かいし前に　HP/MPを{315}回復しません。(勝利した人のみ)
-
-トーナメントに　参加する人を{315}ぼしゅうしています。{315}しばらく　おまちください。
-
-参加者が　たりません。{315}トーナメントのかいさいには{315}2人いじょうの　参加者が　ひつようです。
-トーナメントへの参加を　もうしこみました。{315}しばらく　おまちください。{315}Bボタンで　参加を　キャンセルします。
-トーナメントのかいさいが{315}キャンセルされました。
-
-
-
-
-
-ほかの人が　チームを編成中です。{315}しばらく　おまちください。{315}Bボタンで　チーム編成を　やりなおせます。
-これより　1回戦を　はじめます!{315}対戦相手は　{322}チーム!{315}あつい対戦に　きたいしましょう!
-つづいて　2回戦を　はじめます!{315}対戦相手は　{322}チーム!{315}勝てば　決勝戦に　しんしゅつです!
-ついに　決勝戦!{315}これで　最強のチームが　きまります!{315}対戦相手は　{322}チームです!
-これより　3位決定戦を　はじめます!{315}この戦いに勝てば　3位となります!{315}対戦相手は　{322}チームです!
-つぎは　負けた人どうしで　戦います!{315}対戦相手は　{322}チーム!{315}勝利をめざして　がんばりましょう!
-これより　5位決定戦を　はじめます!{315}あきらめずに　全力をつくして　戦いましょう!{315}対戦相手は　{322}チームです!
-これより　7位決定戦を　はじめます!{315}あきらめずに　全力をつくして　戦いましょう!{315}対戦相手は　{322}チームです!
-まだ　対戦中の人がいます。{315}しばらく　おまちください。
-全員の対戦が　しゅうりょうしました。{315}対戦結果を　かくにんできましたら{315}Aボタンを　おしてください。
-結果を　かくにん中のプレイヤーがいます。{315}しばらく　おまちください。
-すべての対戦が　しゅうりょうしました。{315}さいしゅう結果は　このようになりました。{315}いじょうをもちまして{315}トーナメントを　しゅうりょうします。
-トーナメント優勝　おめでとうございます!{315}じつに　すばらしい対戦でした!{315}これからも　モンスターや　せんじゅつに{315}みがきをかけ　チャンピオンの名にふさわしい{315}戦いぶりを　みせてください!
-トーナメント2位　おめでとうございます!{315}最後で　おしくも　負けてしまいましたが{315}すばらしい対戦でした!{315}つぎは　優勝をめざして　がんばりましょう!
-トーナメント3位　おめでとうございます!{315}すばらしい対戦でした!{315}つぎは　優勝をめざして　がんばりましょう!
-こんかいは　{322}位　となりました。{315}しかし　これであきらめてはいけません。{315}モンスターや　せんじゅつを　みなおして{315}また　チャレンジしてください!
-トーナメントかいさいの{315}じゅんびをしています。{315}しばらく　おまちください。
-vs　{322}チーム
-対戦回数:
-勝利:
-敗北:
-ひきわけ:
-
-
-
-モンスターデータに{315}ふせいデータの　うたがいがあります。{315}「チームセットアップ」で{315}モンスターを　へんこうしてください。
-
-
-対戦相手の　モンスターに{315}ふせいデータの　うたがいがありますので{315}対戦を　とりやめました。
-あなたの　モンスターに{315}ふせいデータの　うたがいがありますので{315}対戦を　とりやめました。
-ざんねんですが{315}対戦が　せいりつしませんでした。
-ざんねんですが{315}対戦が　せいりつしませんでした。
-
-パーティモンスター
-スタンバイモンスター
-パーティランク:{322}
+Length
+Orders
+Switch
+Same Type
+Turn Time
+Recovery
+Confirm Settings
+5 Turns
+10 Turns
+On
+Off
+On
+Off
+On
+Off
+15 Seconds
+30 Seconds
+On
+Off
+As the host, you can accept participants for the tournament.
+As a guest, you can participate in a tournament by selecting from a list of hosts.
+Participate in the selected player's tournament.
+End search for tournaments.
+Play by tournament rules.
+Play by official SQUARE ENIX rules.
+Play by survival rules.{315}The winner's HP and MP does not recover between battles.
+Customise battle rules to your liking.
+Exit the tournament.
+Select the number of turns the battle will last.
+Select whether or not orders can be issued to monsters.
+Select whether or not monsters can be switched around during battle.
+Prevent players from having two or more monsters of the same family on their team.
+Select the time limit for inputting commands.
+Select whether or not MP and HP is restored before battles.
+Use the customised rules you've selected.
+Restore MP and HP before battles.
+Don't restore victor's MP and HP before battles.
+
+Searching for tournament participants...{315}Please wait.
+
+There are not enough participants.{315}A tournament requires two or more players.
+Waiting for a response from the other player...{315}Press the B Button to cancel.
+The tournament has been called off.
+
+
+
+
+
+Please wait while the other participants edit their teams.{315}Press the B Button to reconfigure your team.
+Round one is about to begin!{315}Your opponent is going to be{315}Team {322}.{315}Get ready for the rampage that's{315}about to ensue!
+Round two is about to begin!{315}Your opponent is going to be{315}Team {322}.{315}Get ready for the rampage that's{315}about to ensue!
+Now it's time for the final!{315}This time your opponent will be{315}Team {322}.{315}Let's find out who has the top team!
+The winner of this battle will net{315}a spot in third place.{315}You're set to face off against{315}Team {322}.
+Although this is a battle between losers, you can still come out a winner!{315}Your opponent is Team {322}.{315}This is your chance! Make it count!
+The winner of this battle will gain fifth place.{315}Never give up hope and never surrender!{315}Your opponent is going to be{315}Team {322}.
+The winner of this battle will slide{315}into seventh place.{315}Never give up hope and never surrender!{315}Your opponent is going to be{315}Team {322}.
+The other participants are still battling.{315}Please wait.
+All the participants have finished battling.{315}After viewing the results, press the A Button.
+The other participants are still viewing the results.{315}Please wait.
+All the participants have finished battling.{315}The tournament is over, and here are the final results!
+Congratulations on winning the tournament!{315}You're an inspiration to all scouts, young{315}and old. Keep on training your monsters and{315}honing your skills, and bring honour to the{315}title of Tournament Champion!
+Congratulations on coming in second place!{315}Your perseverance is matched only by your{315}perspiration! Next time, aim for the top!
+Congratulations on coming in third place!{315}You may not be THE best, but you're{315}one of the best! Next time, aim for the top!
+You've come {322}th in the tournament, but don't lose hope!{315}Train your monsters and your mind, then take on the challenge again!
+Preparing to begin tournament{315}Please wait.
+You have selected two or more monsters from the same family.{315}Please select different monsters.
+Vs Team {322}
+Number Of Battles:
+Wins:
+Losses:
+Draws:
+
+
+
+Your team may contain unauthorised{315}monster data.{315}Please reorganise your team in{315}'Team Setup'.
+
+Your opponent's team may contain unauthorised monster data.{315}The battle has been called off.
+Your team may contain unauthorised monster data.{315}The battle has been called off.
+The battle could not be started.
+The battle could not be started.
+
+Team Members
+Substitutes
+Party Rank: {322}
 ☆1
 ☆2
 ☆3

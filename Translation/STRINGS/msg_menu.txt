@@ -54,7 +54,7 @@ None
 Monsters
 New Monster Status
 Next Lv
-あと
+Next
 Family
 Sort
 Info
@@ -90,7 +90,7 @@ Cancel
 End
 Save
 End the Adventure
-パーティランク
+Party Rank
 
 
 →
@@ -186,18 +186,18 @@ Tacticlamped
 Dead
 Malhazed
 Disordered
-斬撃よそく
-体技よそく
-呪文よそく
-息よそく
-踊りよそく
-ブレイク封じ
-みちづれのワルツ
-せいしんとういつ
-冥界の霧
-チェイン
-みがわり封じ
-ゼロのしょうげき
+Anticipate Slash
+Anticipate Physical
+Anticipate Spell
+Anticipate Breath
+Anticipate Dance
+Break Seal
+Waltz of Binding
+Spiritual Focus
+Underworld Fog
+Chain
+Cover Seal
+Zero Shock
 
 
 Envenomated
@@ -221,11 +221,11 @@ A
 S
 SS
 ??
-むさべつ
+Any
 RANK
 F-D
 C-A
-S・SS
+S/SS
 {321}{30b}{00} has equipped {328}!
 This can be used {322} more times!{315}Use now?
 {321}{30f}'s team recover HP!
@@ -275,18 +275,18 @@ You cannot add this monster to your team at the moment.
 
 
 Sorted from smallest to largest!
-セーブデータが　こわれています。{315}ひとつ前にもどる　かのうせいがありますが、{315}ふっきゅうを　試みますか?
-セーブデータを　さくじょすることになりますが{315}ほんとうに　よろしいですか?
-こわれたセーブデータを　さくじょしました。{315}タイトルがめんに　もどります。{315}Aボタンを　おしてください。
-セーブデータを　ふっきゅうしています……。
-ざんねんですが　セーブデータは{315}ふっきゅうできませんでした。
-セーブデータの　ふっきゅうに{315}成功しました!
-このモンスターはRANKが高いため{315}交換を行うことが　できません。
-このモンスターは{315}PROFESSIONALモンスターのため{315}交換を行うことが　できません。
-わかれるモンスターを{315}せんたくしてください。
-{30b}{00}と　わかれますか?
-わかれたモンスターとは　にどと会えませんが{315}よろしいですか?
-このモンスターを交換するなんて　とんでもない!
+The save data is corrupted.{315}It may be possible to revert to a previous version,{315}Attempt recovery?
+The save data will be deleted.{315}Are you sure about it?
+The corrupted save data has been deleted.{315}Returning to the title screen.{315}Press A to continue.
+Attempting to recover save data…
+Unfortunately, the save data{315}could not be recovered.
+The save data has been{315}successfully recovered!
+This monster cannot be traded{315}due to its high rank.
+This monster cannot be traded{315}because it is a Professional version{315}only monster.
+Please select the monster{315}you want to release.
+Say goodbye to {30b}{00}?
+You will never see this monster again.{315}Are you sure?
+I can't believe you'd trade this monster!
 
 
 
@@ -390,18 +390,17 @@ There should be a {30b}{00} monster in the next battle.
 Sorted alphabetically!
 Sorted by type!
 Sorted by weapon type!
-{30b}{00}の　Expが{315}つぎのレベルまで　あと1　になった!
+{30b}{00}'s EXP is{315}just 1 point away from the next level!
 
 
 
-メタルチケットを　1まい　使い{315}このまま　メタルエリアへ　行きます。{315}よろしいですか?
-{30f}は{315}メタルチケットを　使った!
-ここでは　メタルチケットが　使えないようだ。{315}べつの場所で　使ってみよう!
+Use a metal ticket to unlock the Metal menagerie?
+{30f}{315} used a Metal Ticket!
+The Metal Ticket can't be used here.{315}Try using it somewhere else!
 Yes
 No
 Start
 Cancel
-
 
 
 

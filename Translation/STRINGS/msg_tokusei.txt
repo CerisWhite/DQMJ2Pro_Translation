@@ -30,7 +30,7 @@ Big Hitter
 Grand Slammer
 Hit Squad
 Giant Killer
-スタンダードキラー
+Standard Killer
 Paralysing Touch
 Poisonous Touch
 Confusing Touch
@@ -38,8 +38,8 @@ Sleepy Touch
 Comeback Kid
 Strangely Alluring
 Yellow-belly
-ラッキー
-アンラッキー
+Lucky
+Unlucky
 Rabble Rouser
 Heckling Hector
 Bouncer
@@ -47,8 +47,8 @@ Counteractivist
 Hopeful Hitter
 Close Scraper
 Perilous Parrier
-ギャンブルカウンター
-ぼやき
+Gamble Counter
+Grumble
 Talent Scout
 Fast Learner
 Gold Getter
@@ -57,16 +57,16 @@ Late Riser
 Loose Cannon
 Rival Riler
 Disenchanted
-会心かんぜんガード
+Full Critical Guard
 Spell Splurger
 Attallergic
-ねがえり
-たいでんたいしつ
-きょうせんし
-ふくつのとうし
-メタルキラー
-マホキテボディ
-マホトラ攻撃
+Roll Over
+Paralyzing Attack
+Berserker
+Stalwart Spirit
+Metal Killer
+Take Magic
+Drain Magic
 Deadly Touch
 Sizzmeister
 Scare Stare
@@ -119,13 +119,13 @@ Crafty Donker
 Crafty Devil
 AI　2～3回行動
 AI　0～4回行動
-ライトメタルボディ
-ハードメタルボディ
-いきなりバイキルト
-いきなりスカラ
-いきなりピオラ
-いきなりテンション
-いきなり黒い霧
+Light Metal Body
+Hard Metal Body
+Sudden Oomph
+Sudden Buff
+Sudden Accelerate
+Sudden Tension
+Sudden Black Fog
 Maximum HP +5
 Maximum HP +10
 Maximum HP +15
@@ -186,15 +186,15 @@ Wisdom +21
 Wisdom +24
 Wisdom +27
 Wisdom +30
-いきなりインテ
+Sudden Ping
 いきなりぎゃくふう
 いきなりマホトーン
-ときどきインテ
+Random Ping
 ときどきぎゃくふう
 ときどきマホトーン
-まれにハイテンション
-まれにマジックバリア
-まれにまもりの霧
+Random Tension
+Random Magic Barrier
+Random Mist Me
 
 
 
@@ -232,21 +232,21 @@ Magical Sabotage Guard
 メガボディ　1～3回
 メガボディ　0～4回
 メガボディ　1～2回
-呪文会心　出やすい
-ひん死で　呪文会心
-いきなり冥界の霧
+Spell Satisfaction
+Suicidal Satisfaction
+Sudden Underworld Fog
 いきなりブレイク封じ
 ギガボディ　2～3回
 ギガボディ　2回
 ギガボディ　1～3回
 ギガボディ　0～4回
 ギガボディ　1～2回
-ときどきバイキルト
-ときどきスカラ
-ときどきピオラ
-ときどきテンション
-ときどき黒い霧
-ときどき冥界の霧
+Random Oomph
+Random Buff
+Random Accelerate
+Random Tension
+Random Black Fog
+Random Underworld Fog
 ときどきブレイク封じ
 べタン系のコツ
 

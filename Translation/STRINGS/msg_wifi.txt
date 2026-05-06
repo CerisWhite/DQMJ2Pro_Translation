@@ -1,221 +1,221 @@
-ともだち・みしらぬ人・プレゼント対戦
+Battle Friends & Strangers
 
-最強マスター決定戦
+World Monster Championship
 
-ともだちコードをしゅとく
-Wi-Fiせってい
+Obtain Friend Code
+Nintendo WFC Setup
 
 
 
 --------
-ともだちコードをとうろく
-ともだちと対戦
-みしらぬ人と対戦
-プレゼント対戦
-対戦をやめる
-ともだち・みしらぬ人・プレゼント
+Register Friend Code
+Battle Friends
+Battle Strangers
+Gift Battle
+Stop Battling
+Friends/Strangers/Gifts
 
 
 
 
-Wi-Fi通信で対戦
+Battle via Wi-Fi
 
 
-DB　しゅうけいけっか
-DB　たいかいしゅうりょう
-DB　ダウンロードパーティ
-DB　スペシャルプレゼント
-DB 5戦目からたたかう
-DB　たいせんけっかをけす
+DB Tallying Results
+DB Tournament Finished
+DB Download Party
+DB Special Gift
+DB Fight from 5th Match
+DB Clear Battle Results
 DB
-DB　ユーザーデータクリア
-Nitendo Zone{315}　しょざいち {322}{315}　ばんごう {324}
-Nitendo Zone{315}　type {322}{315}　AP {324}
+DB Clear User Data
+Nintendo Zone{315}Location {322}{315}Number {324}
+Nintendo Zone{315}Type {322}{315}AP {324}
 
 
-Wi-Fi通信を使って　行われる{315}最強マスター決定戦に　せつぞくします。
-Wi-Fi通信を使って{315}ともだちや　みしらぬ人　または{315}とくべつに配信されるモンスターと{315}対戦することが　できます。
-ともだちコードを　しゅとくします。
-Wi-Fi通信の　せつぞくさきを{315}せっていします。
-
-
-
-
-ともだちコードの　とうろくを　行います。
-ともだちコードを　交換した人と{315}対戦をします。
-みしらぬ人と　対戦をします。
-とくべつなモンスターと　対戦します。{315}ニンテンドーゾーンから{315}Wi-Fiコネクションに　せつぞくすると{315}とくべつなプレゼントが　もらえるかも?
-Wi-Fiコネクションから　せつだんし{315}Wi-Fiメニューへ　もどります。
+Utilise Nintendo Wi-Fi Connection to participate in the World Monster Championship (WMC).
+Utilise Nintendo Wi-Fi Connection to battle against old Friends and new rivals alike.
+Get your own Friend Code.
+Configure Nintendo Wi-Fi Connection settings.
 
 
 
 
-
-しゅじんこうの名前を　へんこうできます。{315}ふせいな名前を　入力していると{315}Wi-Fi通信で　あそべません。{315}ふせいな名前を　入力している場合は{315}しゅじんこうの名前を　へんこうしてください。
-せつぞくする
-説明をみる
-
-
-
-最強マスター決定戦とは
-ランキングについて
-とうろく階級について
-「ホーム戦」と「アウェー戦」について
-大会のかいさいについて
-とうろくじのちゅうい!
-
-
-
-最強マスター決定戦
-ユーザーデータ
-ランキング
-おしらせ
-やめる
-
-
-
-
-ユーザーステータス
-第{322}回大会入手勝ち点
-前回のホーム戦
-前回のアウェー戦
-ユーザーデータのかくにん
-ユーザーデータをせってい
-モンスターのかくにん
-メンバー編成をする
-作戦をかえる
-チーム名をとうろく
-出身地をとうろく
-とうろく階級をへんこう
-決定
-
-
-預かり所から選ぶ
-お気に入りメンバーから選ぶ
-
-
-
-作戦
-ガンガンいこうぜ
-せんりょくうばえ
-サポートたのむぞ
-いのちだいじに
-特技つかうな
-
-
-
-全体ランキング
-地方ランキング
-ユーザーランキング
-これまでのチャンピオン
-
-
-
-むさべつ級
-F～D　RANK級
-C～A　RANK級
-S・SS　RANK級
-
-
-
-ランキング1～10
-ランキング11～20
-ランキング21～30
-
-
-
-ほっかいどう・とうほく
-かんとう
-こうしんえつ
-ほくりく
-とうかい
-きんき
-ちゅうごく
-しこく
-きゅうしゅう・おきなわ
-
-
-
-第{322}～{324}回
-第{322}回
-
-
-最新じょうほう
-よくみかけるモンスター
-あまりみかけないモンスター
-
-
-
-もどる
-{322}回戦の結果
-RANK:F
-RANK:E
-RANK:D
-RANK:C
-RANK:B
-RANK:A
-RANK:S
-RANK:SS
-RANK:??
-
-
-
-
-もどる
-1回戦
-2回戦
-3回戦
-4回戦
-5回戦
+Register another player's Friend Code.
+Battle a player you have exchanged Friend Codes with.
+Battle with players you do not know.
+Battle with special monsters.{315}You might receive a special gift{315}by connecting to the Wi-Fi Connection{315}via a Nintendo Zone!
+Disconnect from Nintendo Wi-Fi Connection, and return to the Nintendo Wi-Fi Connection menu.
 
 
 
 
 
-回
-第{322}回
+Edit the hero's name.{315}Please be aware that inappropriate names will prevent you from playing via Nintendo Wi-Fi Connection.{315}If you have entered an inappropriate name, please change it.
+Connect
+View Explanation
+
+
+
+About the World Monster Championship
+About Rankings
+About Registration Classes
+About "Home Matches" and "Away Matches"
+About Holding Tournaments
+Caution when registering!
+
+
+
+World Monster Championship
+User Data Setup
+Latest Rankings
+Notices
+Quit
+
+
+
+
+User Status
+Tournament {322} Victory Points
+Previous Home Match
+Previous Away Match
+Check User Data
+Set User Data
+Switch Monsters
+Form Party
+Change Tactics
+Register Team Name
+Select Location
+Change Registration Class
+Confirm
+
+
+Choose from Pen
+Choose from Favorites
+
+
+
+Tactics
+Show No Mercy
+Use Debuffs
+Focus on Healing
+Mix It Up
+Don't Use Magic
+
+
+
+Global Rankings
+Regional Rankings
+User Rankings
+Hall of Fame
+
+
+
+Unrestricted Class
+F-D RANK Class
+C-A RANK Class
+S/SS RANK Class
+
+
+
+Rankings 1-10
+Rankings 11-20
+Rankings 21-30
+
+
+
+Hokkaido/Tohoku
+Kanto
+Koshinetsu
+Hokuriku
+Tokai
+Kinki
+Chugoku
+Shikoku
+Kyushu/Okinawa
+
+
+
+No. {322}-{324}
+No. {322}
+
+
+Latest Information
+Commonly Seen Monsters
+Rarely Seen Monsters
+
+
+
+Back
+Match {322} Results
+RANK: F
+RANK: E
+RANK: D
+RANK: C
+RANK: B
+RANK: A
+RANK: S
+RANK: SS
+RANK: ??
+
+
+
+
+Back
+Match 1
+Match 2
+Match 3
+Match 4
+Match 5
+
+
+
+
+
+Times
+Tournament {322}
 -
 
 
 
-みとうろく
-出身地
+Unregistered
+Origin
 RANK
-チーム名
-勝ち点
-とうろく階級:{322}
-パーティランク
-全体ランキング
-地方ランキング
-勝敗
-{322}勝
-{322}敗
-優勝回数
-{322}位
-第{322}回大会({324})
-{322}回戦
+Team Name
+Victory Points
+Registration Class: {322}
+Party Rank
+Overall Ranking
+Regional Ranking
+Win/Loss
+{322} Wins
+{322} Losses
+Victories
+Rank {322}
+Tournament {322} ({324})
+Match {322}
 +
-対戦結果
-説明
-{322}回戦かいし
-きけんする
+Battle Results
+Explanation
+Start Match {322}
+Forfeit
 ×
 ○
-勝利による勝ち点
-使用モンスターによるついか点
+Points for Victory
+Bonus Points for Monsters Used
 BONUS
-合計
-とうろく階級
-第{322}回大会入手勝ち点
-ホーム戦での勝ち点
-アウェー戦での勝ち点
-位
-勝利
-敗北
-敗北
-{322}ひきわけ
-勝利による勝ち点({322}勝{324}敗)
-この対戦相手との結果
+Total
+Registration Class
+Tournament {322} Victory Points
+Points from Home Matches
+Points from Away Matches
+Rank
+Win
+Loss
+Defeat
+{322} Draws
+Victory Points ({322}W {324}L)
+Results with this opponent
 ☆1
 ☆2
 ☆3
@@ -224,385 +224,384 @@ BONUS
 ☆6
 ☆7
 ☆PRO
-パーティランク:
-そのほかの勝ち点
+Party Rank:
+Other Victory Points
 ・
 
-Wi-Fiコネクションに　せつぞくしますか?
-Wi-Fiコネクションから　せつだんしました。
-セーブしています。{315}本体の　でんげんを　きらないでください。
-セーブが　かんりょうしました!{315}
+Connect to Wi-Fi ?
+Disconnected from Wi-Fi.
+Saving.{315}Please do not turn off the power.
+Save complete!{315}
 
 
 
-最強マスター決定戦とは　世界最強をきめる{315}きゅうきょくの　Wi-Fiランキングバトルです。{315}1位をめざして　がんばってください!
-最強マスター決定戦は　いっていきかんごとに{315}1回の大会が　しゅうりょうします。{315}きかんの最後に　さいしゅう戦を行い{315}大会チャンピオンを　決定します。{315}そして　よくじつになると　ランキングが{315}リセットされ　勝ち点が0からの　かいしとなる{315}新たな大会が　スタートします。
-ユーザーの　とうろくしたデータは{315}ランキングとして　ふとくていたすうの人が{315}えつらんできるので　こじんじょうほうなどは{315}とうろくしないよう　ちゅういしてください!{315}また　いちど　とうろくしたデータは{315}ながい間　こうしんがないと{315}きえてしまいますので{315}こちらも　ごちゅういください!
-あなたのじゅんいを　中心とした{315}10人のランキングを　みます。
-チーム名が　とうろくされていません。{315}「ユーザーデータをせってい」で{315}チーム名を　入力してください。
-お使いの　チーム名では、{315}Wi-Fiコネクションを　利用できません。{315}チーム名を　へんこうしてください。
-お使いの　モンスター名({322})では{315}Wi-Fiコネクションを　利用できません。{315}モンスター名を　へんこうしてください。
-出身地が　とうろくされていません。{315}「ユーザーデータをせってい」で{315}出身地を　せっていしてください。
-モンスターデータに{315}ふせいデータの　うたがいがあります。{315}「ユーザーデータをせってい」で{315}モンスターを　へんこうしてください。
-パーティの中に　おなじ種族のモンスターが{315}2体いじょういるため　とうろくできません。{315}「ユーザーデータをせってい」で{315}モンスターを　へんこうしてください。
-前回の　とうろくから{315}いっていきかんが　すぎたため{315}最強マスター決定戦から{315}とうろくが　きえました。
-参加賞として{315}{322}を　もらいました!
-{322}に　とうろくしても{315}よろしいですか?
-参加賞として{315}{322}×{324}を　もらいました!
-預かり所が　いっぱいです。{315}預かり所のモンスターと　わかれないと{315}仲間にできません。{315}預かり所のモンスターと　わかれますか?
-最強マスター決定戦に　とうろくしました!
-とうろくないようを　かくにんしています。
-本日　さいごまで戦った　あなたには{315}ちいさなパーツを　プレゼント!
-あなたのチームは　まだ　ランキングに{315}はんえいされていません。
-おまたせいたしました。{315}本日　あなたと　対戦するチームを{315}はっぴょうします。
-バトルを　かいしするため{315}Wi-Fiコネクションから　せつだんしています。
-最強マスター決定戦を　きけんします。{315}よろしいですか?
-おまたせいたしました。{315}それでは　対戦結果を　はっぴょうします!
-なんと!　SQEXから{315}スペシャルプレゼントが　おくられてきた!!
-「Guest」マークがついた　モンスターは{315}最強マスター決定戦に　出場できません。
+The World Monster Championship is the ultimate{315}Wi-Fi ranking battle to determine the world's strongest.{315}Good luck aiming for 1st place!
+The Strongest Master Tournament ends once per set period.{315}At the end of the period, a final round is held{315}to determine the tournament champion.{315}Then the next day, the rankings are reset{315}and victory points start again from 0,{315}beginning a new tournament.
+Registered user data{315}can be viewed by an unspecified number of people as rankings,{315}so please be careful not to register personal information!{315}Also, if registered data is not updated for a long time,{315}it will be deleted,{315}so please be aware of this as well!
+View rankings of 10 players centered around your position.
+The team name has not been registered.{315}Please enter the team name in{315}"Set User Data".
+You cannot use{315}Wi-Fi Connection with your current{315}team name. Please change the team name.
+You cannot use{315}Wi-Fi Connection with the name of the monster{315}you are using ({322}). Please change the monster's name.
+The origin has not been registered.{315}Please set your origin in{315}"Set User Data".
+There is a suspicion of{315}illegal data in the monster data.{315}Please change the monster in{315}"Set User Data".
+You cannot register because there are{315}2 or more monsters of the same species in the party.{315}Please change the monster in{315}"Set User Data".
+Because a certain period of time has passed{315}since the last registration,{315}the registration has been removed{315}from the World Monster Championship.
+You received{315}{322} as a participation prize!
+Are you sure{315}you want to register {322}?
+You received{315}{322} x {324} as a participation prize!
+The monster storage is full.{315}You cannot recruit them unless you{315}part with a monster in the storage.{315}Do you want to part with a monster in the storage?
+Registered for the World Monster Championship!
+Checking registration details.
+For fighting to the end today,{315}a small part is presented!
+Your team is not yet{315}reflected in the rankings.
+Thank you for waiting.{315}We will now announce the team{315}you will be battling today.
+Disconnecting from the Wi-Fi Connection{315}to start the battle.
+You will forfeit from the World Monster Championship.{315}Is that okay?
+Thank you for waiting.{315}Now, we will announce the battle results!
+Oh my! A{315}special present has been sent from SQEX!!
+Monsters with a "Guest" mark{315}cannot participate in the World Monster Championship.
 {322}
 
-きてい人数に　たっしていないため{315}最強マスター決定戦は{315}かいさいされておりません。{315}ランキングは　ありませんので{315}ごりょうしょうください。
-げんざい　最強マスター決定戦に{315}いじょうが　発生しています。{315}しばらく　時間をおいてから{315}せつぞくしなおしてください。
+The World Monster Championship is not being held{315}because the required number of people{315}has not been reached.{315}Please understand that there are no rankings.
+An error is currently occurring{315}in the World Monster Championship.{315}Please wait for a while before{315}reconnecting.
 
-ただいま　最強マスター決定戦は{315}かいさいされておりません。{315}{315}最強マスター決定戦の　かいさいきかんについては{315}DQM　ジョーカー2　PROFESSIONALの{315}こうしきサイトを　ごらんください。
-
-
-
-あなたのじゅんいを　中心とした{315}{322}の　ランキングです。{315}{315}「きのうのへいきんパーティランク:{324}」
-本日　はじめて　最強マスター決定戦に{315}参加した　あなたのデータは{315}まだ　はんえいされていません。{315}対戦結果の　しゅうけいが　おわるまで{315}しばらく　おまちください。
-
-データを　ダウンロードしています。
-データの　ダウンロードが{315}かんりょうしました!
-とうろくしようとしている階級に{315}がいとうしないモンスターが　パーティにいます。{315}もういちど　パーティを　かくにんしてから{315}とうろくしなおしてください。
-ないようを　かくにんしています。{315}しばらく　おまちください。
-あなたの　ユーザーデータを{315}さくせいします。
-さいしょに　あなたのチーム名を{315}せっていしてください。
-とうろく階級を　{322}に{315}せっていしました。
-第{322}回大会({324}){315}あなたのせいせきは{315}{30b}z位でした。
-おめでとうございます!{315}第{322}回大会({324})の{315}優勝者は　あなたです!!
-優勝賞品として{315}{322}×{324}を　プレゼント!
-優勝賞品として{315}{322}を　プレゼント!
-対戦結果を　アップロードするために{315}Wi-Fiコネクションに　せつぞくしますか?
-対戦結果を　アップロードしました。{315}Wi-Fiコネクションから　せつだんしています。
-Wi-Fiコネクションから　せつだんしました。{315}データを　セーブしています。{315}本体の　でんげんを　きらないでください。
-セーブが　かんりょうしました!
-つぎに　出身地を　せっていしてください。
-参加したい階級を　とうろくしてください。{315}なお　階級は　あとで　へんこうすることも{315}できますが　勝ち点が　ある場合は{315}0点になってしまいます。{315}へんこうするときは　ごちゅういください。
-本日の　あなたのせいせきは{315}{322}勝　{324}敗　でした。{315}最強マスター決定戦の参加は　1日1回です。{315}明日のちょうせんも　おまちしております。
-いまは　{322}に　とうろくしているため{315}このモンスターで　最強マスター決定戦に{315}出場することは　できません。
-いまは　{322}に　とうろくしているため{315}このメンバーで　最強マスター決定戦に{315}出場することは　できません。
-ロードが　かんりょうしました!
-ロードに　失敗しました!　でんげんを　きって{315}DSカードを　さしこみなおしてください。
-ゲームデータが　ないので{315}最強マスター決定戦に{315}せつぞくできません。
-わかれるモンスターを{315}せんたくしてください。
-{322}と　わかれますか?
-わかれたモンスターとは　にどと会えませんが{315}ほんとうに　よろしいですか?
-{322}は{315}さみしそうに　さっていった……。
-
-本日は　はじめてのとうろくのため{315}ユーザーデータは ありません。
-
-
-Wi-Fiコネクションに　せつぞくし{315}対戦結果を　アップロードしています。{315}しばらく　おまちください。
-
-
-パーティの中に　「Guest」マークがついた{315}モンスターがいるため　とうろくできません。{315}「ユーザーデータをせってい」で{315}モンスターを　へんこうしてください
-Wi-Fiコネクションに　せつぞくしなければ{315}対戦結果が　アップロードできず{315}せっかくの勝ち点が　きえてしまいます。
-それでも　Wi-Fiコネクションに　せつぞくせず{315}最強マスター決定戦を{315}しゅうりょうしても　よろしいですか?
-
-
-新しい大会でも　ランキング上位…{315}いや!　優勝をめざして　がんばってください!!
-おめでとうございます!{315}ランキングが　上がりました!!
-ざんねんですが{315}ランキングが　下がりました…
-ランキングが　こうしんされましたが{315}あなたのランキングは　かわりませんでした。
-前回入手した勝ち点は{315}ホーム戦　{322}点　アウェー戦　{324}点です。
-あなたの勝ち点は{315}合計{322}点に　なりました!
-本日　ホーム戦の大会せいせきは{315}{322}勝　{324}敗で{315}合計勝ち点は　{30b}z点でした。
-本日の勝ち点は　明日のランキングに{315}はんえいされます。
-それでは　明日の最強マスター決定戦も{315}ご参加　おまちしております。
-{322}が　おきあがり{315}仲間にしてほしそうに　こっちをみている。{315}仲間にしてあげますか?
-賞品として{315}{322}を　プレゼント!
-賞品として{315}{322}×{324}を　プレゼント!
-ざんねんですが　賞品はありません。{315}つぎのランキングでは　上位に入れるよう{315}ぜひ　がんばってください!
-また　アウェー戦の結果も{315}明日のランキングで　はっぴょうします。
-仲間になった　{322}を{315}預かり所に　おくりました。
-チーム　{322}に　勝ちました!
-チーム　{322}に　負けました。
-{322}が　仲間に　なった!
-最強マスター決定戦の参加は{315}1日1回となっています。{315}本日の最強マスター決定戦は{315}すでに　しゅうりょうしておりますので{315}参加できません。
-対戦に勝利すると　「勝ち点」がもらえます。{315}この「勝ち点」が　おおければ　おおいほど{315}上位に　ランクインすることができます。{315}また　「勝ち点」は　まいにち　しゅうけいが{315}行われるので　ランキングも{315}まいにち　へんどうするように　なっています。
-最強マスター決定戦には　自分の本体に{315}対戦相手をダウンロードして戦う「ホーム戦」と{315}対戦相手がわに　自分のデータが{315}ダウンロードされる「アウェー戦」があります。
-{322}回戦　チーム　{324}と{315}対戦を　はじめます。
-最強マスター決定戦を　きけんしました。{315}いこうの対戦は　敗北と　なります。
-おつかれさまでした。{315}本日の対戦が　すべて　しゅうりょうしました。
-モンスターのRANKにおうじて{315}とうろくできる階級が　わかれています。{315}FからDのモンスターで戦う「F～D　RANK級」{315}CからAのモンスターで戦う「C～A　RANK級」{315}SからSSのモンスターで戦う「S・SS　RANK級」{315}すべてのモンスターで戦える「むさべつ級」の{315}ぜんぶで　4階級あります。
-{322}を{315}預かり所に　おくりました。
-ようこそ!{315}最強マスター決定戦へ!!
-本日も　ランキング1位をめざして{315}がんばってください!
-それでは　最新のランキングを{315}はっぴょうします。
-げんざい　あなたは　ランキング1位です!{315}このちょうしで　がんばってください。
-げんざい　あなたは{315}10位いないに　ランクインしています!!{315}1位まで　あとすこし!　がんばってください!
-げんざい　あなたは{315}50位いないに　ランクインしています!!{315}めざせ10位いない!　がんばってください!!
-上がめんに　ちゅうもく!{315}この5チームが　本日の対戦相手です。
-チーム　{322}は{315}てごわい　対戦相手です!
-気合いを入れて　がんばりましょう!!
-それでは{315}レディーファイトォォォォ!!!!
-チーム　{322}は{315}勝てそうな　対戦相手です。
-ゆだんせずに　がんばりましょう!!
-しょうげきの　対戦結果は　こちら!!
-ざんねんでしたね。{315}つぎこそは　がんばってください。
-やりましたね。{315}このちょうしで　つぎも　がんばりましょう!
-本日の対戦による　勝ち点は{315}どうなっているでしょうか!?
-優勝めざして　がんばってください。
-第{322}回大会({324})が{315}しゅうりょうしました。
-まずは　第{322}回大会({324})の{315}トップ10を　はっぴょうします。
-トップ10は　この人たちだ!!
-つぎに　あなたのせいせきを{315}はっぴょうします。
-ななななっ　なんと　あなたの名前が!!
-げんざい　あなたは{315}100位いないに　ランクインしています!{315}じゅうぶん　1位がねらえる　じゅんいです。{315}がんばってください!!
-げんざい　あなたは{315}1000位いないに　ランクインしています。{315}こんどは　100位いないに　はいれるよう{315}がんばりましょう!!
-げんざい　あなたは{315}5000位いないに　ランクインしています。{315}まだまだ　上位がねらえる　じゅんいです。{315}がんばってください!
-げんざい　あなたは{315}10000位いないに　ランクインしています。{315}さらに上位では　きょうごうたちが{315}しれつな　戦いをくりひろげています。{315}負けずに　がんばってください!
-げんざい　あなたは{315}50000位いないに　ランクインしています。{315}1位は　まだまだ　とおいですが{315}上位ランクインめざして　がんばってください!
-げんざい　あなたは{315}100000位いないに　ランクインしています。{315}もっと　上位を　めざせるはずです。{315}あきらめず　がんばりましょう!
-スキルを　おぼえさせたり　作戦を　かえたりして{315}モンスターを　上手に　あやつってみよう。{315}上位ランクインも　ゆめではないはず!!
-ランキングのはっぴょうは{315}参加者の数が　そろうまで　おまちください。
-ただし　このじょうきょうは　上位にくいこむ{315}ぜっこうのチャンスです　がんばってください!
-本日より　新しい大会が　はじまったので{315}まだ　ランキングは　ありません!
-新しいランキングは　明日から{315}はっぴょうとなります　ごきたいください!
-さあ　気分をリフレッシュして　きょうから{315}上位をめざし　がんばりましょう!
-この地方では　参加者が　すくないため{315}まだ　ランキングが　ありません!{315}この地方出身のマスターは　上位にくいこむ{315}ぜっこうのチャンスです　がんばってください!
-この階級では　参加者が　すくないため{315}まだ　ランキングが　ありません!{315}この階級のマスターは　上位にくいこむ{315}ぜっこうのチャンスです　がんばってください!
-本日より　新しい大会が　はじまったので{315}まだ　ランキングは　ありません。{315}新しいランキングは　明日から{315}はっぴょうとなります　ごきたいください!
-最強マスター決定戦に　とうろくすると{315}あなたのじゅんいを　中心とした{315}ランキングが　ひょうじされます。
-賞品として{315}{322}を　もらいました!
-大会に　参加したきろくが{315}とちゅうまで　のこっています。{315}つづきから　大会を　はじめます。
-さらに　{322}人の強いマスターに{315}勝利した　ごほうびとして　{324}点ついかです!
-賞品として{315}{322}×{324}を　もらいました!
-
-
-対戦結果を　アップロードしても{315}よろしいでしょうか?
-対戦結果を　アップロードしています。
-対戦結果を　アップロードしなければ{315}対戦結果がサーバにアップされず{315}せっかくの　勝ち点が　きえてしまいます。
-それでも　対戦結果を　アップロードせずに{315}このまま　最強マスター決定戦を{315}しゅうりょうしても　よろしいでしょうか?
-これまでのチャンピオンの{315}データが　ありません。
-これまでのチャンピオンの{315}データが　ありません。
-へんこうしたい　とうろく階級を{315}せんたくしてください。
-とうろく階級が　かわると{315}勝ち点が　0になってしまいますが{315}よろしいですか?
-とうろく階級を　へんこうしました。{315}階級のへんこうにより　とうろくできない{315}モンスターが　パーティにいるので{315}「メンバー編成をする」がめんに　いどうします。{315}とうろくできるモンスターに　かえてください。
-本日のうけつけは　しゅうりょうしました。{315}うけつけ時間の　しょうさいについては{315}DQM　ジョーカー2　PROFESSIONALの{315}こうしきサイトを　ごらんください。
-とうろく階級を　へんこうしました。
-モーモンから{315}{322}を　もらった!
-モーモンから{315}{322}×{324}を　もらった!
-最強マスター決定戦に　参加とうろくして{315}世界のユーザーが　相手となる{315}ダウンロードバトルに　ちょうせんします。
-最強マスター決定戦の{315}せいせきや　じょうほうを　かくにんしたり{315}メンバー編成や　チーム名など{315}とうろくないようの　せっていができます。
-最強マスター決定戦の{315}ランキングを　かくにんします。{315}ランキングは　階級ごとに　わかれていて{315}全体ランキングや　地方ランキングなど{315}さまざまなランキングが　かくにんできます。
-最強マスター決定戦の{315}最新じょうほうを　かくにんします。{315}サーバからの　おしらせや{315}大会で　よくみかけるモンスターなども{315}かくにんすることが　できます。
-最強マスター決定戦を　しゅうりょうし{315}タイトルがめんへ　もどります。
+The World Monster Championship is not currently{315}being held.{315}For details on the holding period of the{315}World Monster Championship, please see the{315}official DQM Joker 2 Professional website.
 
 
 
-全体で　ベスト30位までの{315}ランキングを　みます。
-地方で　ベスト10位までの{315}ランキングを　みます。
-あなたのじゅんいを　中心とした{315}10人のランキングを　みます。
-かこのランキングで{315}優勝した人の名前を　みます。
-とうろくされている　ともだちが　いません。
-いちど　リストから　はずすと{315}ふたたび　とうろくを　しなおさないかぎり{315}このともだちとは　Wi-Fi対戦が{315}できなくなります。
-ともだちを　リストから　はずしました。{315}
-ほんとうに　リストから　はずしても{315}よろしいですか?
-データを　ロードしています。{315}しばらく　おまちください。
-ともだちコードを交換した　ともだちです。{315}
-ともだちリストから　ともだちを　さくじょします。
-前のがめんに　もどります。
-こうしん日
-(みとうろく)
-日本(USA/EU)ランキング
-リストからはずす
-もどる
-ともだちリスト
-勝
-敗
-ひきわけ
-あなたとの勝敗
-ともだちの　データはありません。{315}Wi-Fi通信で対戦の「ともだちと対戦」をすると{315}ともだちのデータが　ひょうじされます。
-ともだちコードを　入力してください。
-ともだちコードの　とうろくが{315}かんりょうしました!
-ひきつづき　とうろくを　行いますか?
-ともだちコードの　とうろくを{315}しゅうりょうします。
-ともだちコードが{315}ただしく　入力されていません。{315}もういちど　ばんごうを　かくにんしてください。
-これいじょう　ともだちを　とうろくできません。{315}ともだちリストから　ふようになった{315}ともだちコードを　さくじょしてから{315}とうろくしなおしてください。
-ともだちコードを　入力してください。
-このともだちコードは{315}すでに　入力されています。
-あなたは　まだ　ともだちコードを{315}もっていません。{315}ともだちコードは　Wi-Fi対戦で{315}ともだちと　あそぶときに{315}あなたをとくていする　すうじです。
-Wi-Fiコネクションでは　DSカードと{315}本体を　セットで　あつかいます。
-Wi-Fiコネクションに　せつぞくしています。{315}しばらく　おまちください。
-この本体の　Wi-Fiユーザーじょうほうを{315}DSカードに　ほぞんしました。{315}こんごの　Wi-Fiコネクションへのせつぞくは{315}この本体を　お使いください。
-あなたのともだちコードは{315}{322}　です。
-Wi-Fiコネクションから　せつだんしています。
-Wi-Fiコネクションから　せつだんしました。
-ともだちコードの　しゅとくを　ちゅうししました。{315}メニューがめんに　もどります。
-すでに　ともだちコードは　しゅとくずみです。{315}あなたのともだちコードは{315}{322}　です。
-本体と　DSカードの{315}Wi-Fiユーザーじょうほうが　ちがうため{315}Wi-Fiコネクションに　せつぞくできません。
-Wi-Fiユーザーじょうほうを　こうしんすると{315}Wi-Fiコネクションで　これまで{315}お使いに　なっていたデータは{315}うしなわれて　しまいます。
-本体の　Wi-Fiユーザーじょうほうが{315}きえたかのうせいが　あります。{315}Wi-Fiコネクションせっていで{315}せつぞくさきのせっていを　ごかくにんください。
-おたがいの　ともだちコードを{315}とうろくしあえば　ともだちどうしで{315}Wi-Fi対戦が　あそべます。
-ダミー
-ともだちコードを　しゅとくしますか?
-DSカードに　本体の{315}Wi-Fiユーザーじょうほうを　ほぞんして{315}Wi-Fiコネクションに　せつぞくしますか?
-ともだちコードを　ともだちどうしで{315}とうろくしあえば　Wi-Fi対戦の{315}「ともだちと対戦」で　あそべるようになります。
-DSカードに　ほぞんされている{315}Wi-Fiユーザーじょうほうを　こうしんしますか?
-このゲームの場合　あなたのともだちリストは{315}そのまま　使うことが　できますが{315}Wi-Fi対戦で　とおくの　ともだちと対戦するとき{315}相手のともだちに　あなたのともだちコードを{315}さいとうろくしてもらう　ひつようがあります。
+This is the ranking of{315}{322} centered on your position.{315}{315}"Yesterday's average party rank: {324}"
+Your data, which{315}participated in the World Monster Championship for the first time{315}today, has not yet been reflected.{315}Please wait a moment until the{315}tabulation of battle results is finished.
 
-Wi-Fiコネクションに　せつぞくして{315}Wi-Fiユーザーじょうほうを　こうしんします。{315}ほんとうに　こうしんしても　よろしいですか?
-Wi-Fiコネクションでは　DSカードと{315}本体をセットで　あつかいます。
-DSカードに　本体の{315}Wi-Fiユーザーじょうほうを　ほぞんして{315}Wi-Fiコネクションに　せつぞくしますか?
-本体と　DSカードの{315}Wi-Fiユーザーじょうほうが　ちがうため{315}Wi-Fiコネクションに　せつぞくできません。
-DSカードに　ほぞんされている{315}Wi-Fiユーザーじょうほうを　こうしんしますか?
-Wi-Fiユーザーじょうほうを　こうしんすると{315}Wi-Fiコネクションで　これまで{315}お使いに　なっていたデータは{315}うしなわれて　しまいます。
-ともだちリストに　とうろくされている{315}ともだちと　Wi-Fi対戦で　対戦するには{315}そのともだちに　あなたのことを　もういちど{315}とうろくしてもらう　ひつようがあります。
-Wi-Fiコネクションに　せつぞくして{315}Wi-Fiユーザーじょうほうを　こうしんします。{315}ほんとうに　こうしんしても　よろしいですか?
-Wi-Fiコネクションに　せつぞくしています。{315}しばらく　おまちください。
-この本体の　Wi-Fiユーザーじょうほうを{315}DSカードに　ほぞんしました。{315}こんごの　Wi-Fiコネクションへのせつぞくは{315}この本体を　お使いください。
-本体の　Wi-Fiユーザーじょうほうが{315}きえたかのうせいが　あります。{315}Wi-Fiコネクションせっていで{315}せつぞくさきのせっていを　ごかくにんください。
-Wi-Fiコネクションから　せつだんしても{315}よろしいですか?
-Wi-Fiコネクションから　せつだんしています。
-Wi-Fiコネクションから　せつだんしました。
-Wi-Fiコネクションに　せつぞくできません。{315}くわしくは　ガイドブックを　ごらんください。{315}エラーコード:{322}
-Wi-Fiコネクションが　こみ合っているか{315}サービスが　ていししているために{315}せつぞくできません。{315}しばらくまって　やりなおしてください。{315}エラーコード:{322}
-おきゃくさまの　Wi-FiコネクションIDは{315}長い間　使用されなかったため{315}さくじょされました。{315}くわしくは　ガイドブックを　ごらんください。{315}エラーコード:{322}
-このソフトの　Wi-Fiコネクションサービスは{315}しゅうりょうしました。{315}ごりよう　ありがとうございました。{315}エラーコード:{322}
-アクセスポイントが　こみ合っているため{315}せつぞくできません。{315}しばらくまって　やりなおしてください。{315}エラーコード:{322}
-アクセスポイントが　みつかりません。{315}アクセスポイントに　ちかづいて{315}もういちど　おためしください。{315}エラーコード:{322}
-せつぞくできる　アクセスポイントが{315}みつかりません。{315}Wi-Fiコネクションせっていで{315}せつぞくさきのせっていを　ごかくにんください。{315}エラーコード:{322}
-ニンテンドーWi-Fiコネクタに{315}せつぞくできません。{315}Wi-Fiコネクションせっていで　ニンテンドー{315}Wi-Fiコネクタのせつぞくを　ごかくにんください。{315}エラーコード:{322}
-Wi-Fiコネクションに　せつぞくできません。{315}Wi-Fiコネクションせっていで{315}せつぞくさきのせっていを　ごかくにんください。{315}エラーコード:{322}
-相手からのおうとうが　ありません。{315}すでに　相手が　Wi-Fiコネクションに{315}せつぞくしていないか　相手のともだちリストから{315}とうろくがなくなった　かのうせいがあります。{315}エラーコード:{322}
-通信エラーが　発生しました。{315}エラーコード:{322}
-エラーが　発生したため{315}Wi-Fiコネクションのきのうを　使用できません。{315}でんげんをきって　やりなおしてください。{315}エラーコード:{322}
-通信エラーが　発生しました。{315}Wi-Fi通信を　しゅうりょうします。
-通信エラーです。{315}さいしょから　やりなおしてください。
-ダウンロードに　失敗しました。{315}エラーコード:{322}
+
+Downloading data.
+Data download{315}complete!
+There is a monster in the party{315}that does not match the class you are trying to register.{315}Please check your party once more{315}before registering again.
+Checking the details.{315}Please wait a moment.
+Creating your{315}user data.
+First, please{315}set your team name.
+Registration class was set to {322}.
+Tournament {322} ({324}){315}your result was{315}{30b}z place.
+Congratulations!{315}The winner of{315}tournament {322} ({324}) is you!!
+Presenting{315}{322} x {324} as the championship prize!
+Presenting{315}{322} as the championship prize!
+Would you like to connect to the{315}Wi-Fi Connection to upload the battle results?
+Battle results{315}uploaded. Disconnecting from the Wi-Fi Connection.
+Disconnected from the Wi-Fi Connection.{315}Saving data.{315}Please do not turn off the power.
+Save complete!{315}
+Next, please set the origin.
+Please register the class you want to participate in.{315}Note that you can{315}change the class later, but if you{315}have victory points, they will become 0.{315}Please be careful when changing.
+Your results for today were{315}{322} wins and {324} losses.{315}You can participate in the World Monster Championship once a day.{315}We look forward to your challenge tomorrow.
+Because they are currently{315}registered in {322}, this monster{315}cannot participate in the World Monster Championship.
+Because they are currently{315}registered in {322}, this party{315}cannot participate in the World Monster Championship.
+Load complete!
+Load failed! Please turn off the power and{315}reinsert the DS card.
+There is no game data, so{315}you cannot connect to the World Monster Championship.
+Please select the monster{315}to part with.
+Do you want to part with {322}?
+You will never see the parted monster again,{315}are you really sure?
+{322}{315}left looking lonely...
+
+Because today is the first registration,{315}there is no user data.
+
+
+Connecting to the Wi-Fi connection{315}and uploading the battle results.{315}Please wait a moment.
+
+
+You cannot register because there is a{315}monster with a "Guest" mark in the party.{315}Please change the monster in{315}"Set User Data".
+If you do not connect to the Wi-Fi connection,{315}the battle results cannot be uploaded, and{315}your hard-earned victory points will disappear.
+Still, would you like to{315}end the World Monster Championship{315}without connecting to the Wi-Fi connection?
+
+
+Aim for the top of the rankings in the new tournament...{315}No! Please do your best to win!!
+Congratulations!{315}Your ranking has gone up!!
+I'm sorry,{315}but your ranking has gone down...
+The rankings were updated, but{315}your ranking did not change.
+The victory points you obtained last time were{315}{322} points for home matches and {324} points for away matches.
+Your victory points{315}now total {322} points!
+Your tournament results for today's home matches were{315}{322} wins and {324} losses, and{315}the total victory points were {30b}z points.
+Today's victory points will be{315}reflected in tomorrow's rankings.
+We look forward to{315}your participation in tomorrow's World Monster Championship.
+{322} gets up{315}and looks at you as if wanting to become your friend.{315}Do you want to let it join?
+Presenting{315}{322} as a prize!
+Presenting{315}{322} x {324} as a prize!
+I'm sorry, but there are no prizes.{315}Please do your best next time{315}so you can reach the top of the rankings!
+The results of away matches will also{315}be announced in tomorrow's rankings.
+The {322} that joined you{315}has been sent to the storage.
+You won against team {322}!
+You lost against team {322}.
+{322} has joined the party!
+Participation in the World Monster Championship is limited to{315}once a day.{315}Today's World Monster Championship{315}is already over, so you cannot participate.
+When you win a match, you will receive "Victory Points".{315}The higher these "Victory Points", the{315}higher you can rank.{315}Also, since the "Victory Points" are{315}tabulated daily, the rankings{315}also fluctuate every day.
+In the World Monster Championship, there are{315}"home matches" where you download opponents to your device and fight, and{315}"away matches" where your data{315}is downloaded to the opponent's side.
+Round {322},{315}starting a battle with team {324}.
+You forfeited the World Monster Championship.{315}Subsequent matches will be counted as losses.
+Good work.{315}All matches for today are finished.
+Depending on the monster's RANK,{315}the classes you can register in are divided.{315}"F-D RANK class" where you battle with F to D monsters,{315}"C-A RANK class" where you battle with C to A monsters,{315}"S/SS RANK class" where you battle with S to SS monsters,{315}and "Unrestricted class" where you can battle with all monsters,{315}for a total of 4 classes.
+{322}{315}has been sent to the storage.
+Welcome{315}to the World Monster Championship!!
+Please do your best today too{315}aiming for 1st place in the rankings!
+We will now announce{315}the latest rankings.
+Currently, you are in 1st place in the rankings!{315}Keep up the good work.
+Currently, you{315}are in the top 10!!{315}You're just a little bit away from 1st place! Keep it up!
+Currently, you{315}are in the top 50!!{315}Aim for the top 10! Keep it up!!
+Pay attention to the top screen!{315}These 5 teams are today's opponents.
+Team {322} is{315}a formidable opponent!{315}Get pumped and do your best!!
+Now then,{315}Ready, fight!!!!
+Team {322} is{315}an opponent you can probably beat.{315}Let's do our best without getting careless!!
+The shocking battle results are here!!
+Too bad.{315}Please do your best next time.
+You did it!{315}Let's keep up this momentum for the next one!
+I wonder what your{315}victory points from today's matches are!?
+Please do your best to win.
+Tournament {322} ({324}) has{315}ended.
+First, we will announce the{315}top 10 for tournament {322} ({324}).
+The top 10 are these people!!
+Next, we will{315}announce your results.
+Wha-wha-what, your name is there!!
+Currently, you{315}are in the top 100!{315}It's a position from which you can definitely aim for 1st place.{315}Keep it up!!
+Currently, you{315}are in the top 1000.{315}Next time, let's do our best{315}to enter the top 100!!
+Currently, you{315}are in the top 5000.{315}It's still a position where you can aim higher.{315}Do your best!
+Currently, you{315}are in the top 10000.{315}Further up, formidable rivals are{315}engaging in fierce battles.{315}Do not lose and keep it up!
+Currently, you{315}are in the top 50000.{315}1st place is still far away, but{315}do your best to get a higher ranking!
+Currently, you{315}are in the top 100000.{315}You should be able to aim even higher.{315}Don't give up, let's do our best!
+Try to command your monsters well by{315}having them learn skills or changing your tactics.{315}Getting a high rank shouldn't be a dream either!!
+The announcement of rankings will{315}wait until the number of participants is complete.
+However, this situation is{315}the perfect chance to break into the higher ranks, so do your best!
+A new tournament started today,{315}so there are no rankings yet!
+The new rankings will be{315}announced from tomorrow, please look forward to it!
+Now, let's refresh our mood and{315}start doing our best to aim for the top from today!
+There are few participants in this region,{315}so there are no rankings yet!{315}This is the perfect chance for masters from this region{315}to break into the higher ranks, so do your best!
+There are few participants in this class,{315}so there are no rankings yet!{315}This is the perfect chance for masters in this class{315}to break into the higher ranks, so do your best!
+A new tournament started today,{315}so there are no rankings yet.{315}The new rankings will be announced{315}from tomorrow, please look forward to it!
+When you register for the World Monster Championship,{315}a ranking centered on your{315}position will be displayed.
+You received{315}{322} as a prize!
+The record of your participation in the tournament{315}remains up to this point.{315}We will start the tournament from where you left off.
+Furthermore, as a reward for{315}defeating {322} strong masters, {324} points are added!
+You received{315}{322} x {324} as a prize!
+
+
+Would it be okay{315}to upload the battle results?
+Uploading battle results.
+If you do not upload the battle results,{315}the results will not be uploaded to the server, and{315}your hard-earned victory points will disappear.
+Even so, would it be okay to{315}end the World Monster Championship like this{315}without uploading the battle results?
+There is{315}no data for past champions.
+There is{315}no data for past champions.
+Please select the registration class{315}you want to change.
+If the registration class changes,{315}your victory points will become 0,{315}is that okay?
+The registration class has been changed.{315}Because there is a monster in your party{315}that cannot be registered due to the class change,{315}you will be moved to the "Edit Party" screen.{315}Please change it to a monster that can be registered.
+Today's reception has closed.{315}For details on the reception hours,{315}please see the official DQM Joker 2 Professional website.
+The registration class has been changed.
+You received{315}{322} from Mowmon!
+You received{315}{322} x {324} from Mowmon!
+Register for the World Monster Championship and{315}challenge the download battle,{315}where users from around the world will be your opponents.
+You can check the{315}results and information of the World Monster Championship,{315}and configure registration details such as party composition and team name.
+Check the{315}rankings of the World Monster Championship.{315}The rankings are divided by class,{315}and you can check various rankings such as overall rankings and regional rankings.
+Check the{315}latest information of the World Monster Championship.{315}You can also check notices from the server{315}and monsters commonly seen in the tournament.
+End the World Monster Championship{315}and return to the title screen.
+
+
+
+View the{315}rankings for the top 30 places overall.
+View the{315}rankings for the top 10 places in the region.
+View the{315}10-person ranking centered on your position.
+View the names of{315}those who won in past rankings.
+There are no registered friends.
+Once you remove them from the list,{315}you will no longer be able{315}to have Wi-Fi battles with this friend{315}unless you register them again.
+Friend removed from the list.{315}
+Are you sure{315}you want to remove them from the list?
+Loading data.{315}Please wait a moment.
+This is a friend with whom you have exchanged a friend code.{315}
+Delete a friend from the friend list.
+Return to the previous screen.
+Update Date
+(Unregistered)
+Japan (USA/EU) Rankings
+Remove from List
+Back
+Friend List
+Wins
+Losses
+Draws
+Record against you
+There is no friend data.{315}If you play "Battle with a Friend" in Wi-Fi battles,{315}your friend's data will be displayed.
+Please enter the friend code.
+The friend code{315}registration is complete!
+Would you like to{315}continue registering?
+Terminating the friend code{315}registration.
+The friend code is not{315}entered correctly.{315}Please check the number once more.
+You cannot register any more friends.{315}Please delete unnecessary{315}friend codes from your friend list{315}before registering again.
+Please enter the friend code.
+This friend code is{315}already entered.
+You do not yet{315}have a friend code.{315}A friend code is a number that{315}identifies you when{315}playing with friends in Wi-Fi battles.
+The Wi-Fi Connection{315}treats the DS card and the device as a set.
+Connecting to the Wi-Fi connection.{315}Please wait a moment.
+The Wi-Fi user information of this device{315}has been saved to the DS card.{315}For future connections to the Wi-Fi connection,{315}please use this device.
+Your friend code is{315}{322}.
+Disconnecting from the Wi-Fi connection.
+Disconnected from the Wi-Fi connection.
+Retrieval of the friend code has been canceled.{315}Returning to the menu screen.
+The friend code has already been retrieved.{315}Your friend code is{315}{322}.
+Because the Wi-Fi user information{315}of the device and the DS card{315}differ, you cannot connect to the Wi-Fi connection.
+If you update the Wi-Fi user information,{315}the data you have used{315}so far on the Wi-Fi Connection{315}will be lost.
+There is a possibility that{315}the Wi-Fi user information of the device{315}has been erased. Please check{315}the connection destination settings in the Wi-Fi Connection settings.
+If you{315}register each other's friend codes, you can{315}play Wi-Fi battles with your friends.
+Dummy
+Do you want to retrieve the friend code?
+Would you like to save the device's{315}Wi-Fi user information to the DS card{315}and connect to the Wi-Fi connection?
+By{315}registering friend codes with each other, you will be able to play{315}"Battle with a Friend" in Wi-Fi battles.
+Would you like to update{315}the Wi-Fi user information saved on the DS card?
+In the case of this game, you can{315}use your friend list as it is, but{315}when playing against a distant friend in a Wi-Fi battle,{315}your friend will need to re-register your friend code.
+
+Connecting to the Wi-Fi connection to{315}update the Wi-Fi user information.{315}Are you really sure you want to update it?
+The Wi-Fi Connection treats the DS card{315}and the device as a set.
+Would you like to save the device's{315}Wi-Fi user information to the DS card{315}and connect to the Wi-Fi connection?
+Because the Wi-Fi user information{315}of the device and the DS card differ,{315}you cannot connect to the Wi-Fi connection.
+Would you like to update{315}the Wi-Fi user information saved on the DS card?
+If you update the Wi-Fi user information,{315}the data you have used so far{315}on the Wi-Fi Connection will be lost.
+To battle against friends{315}registered in your friend list in Wi-Fi battles,{315}those friends will need to register you{315}once again.
+Connecting to the Wi-Fi connection to{315}update the Wi-Fi user information.{315}Are you really sure you want to update?
+Connecting to the Wi-Fi connection.{315}Please wait a moment.
+The Wi-Fi user information of this device{315}has been saved to the DS card.{315}For future connections to the Wi-Fi connection,{315}please use this device.
+There is a possibility that{315}the Wi-Fi user information of the device{315}has been erased.{315}Please check the connection destination settings in the Wi-Fi connection settings.
+Are you sure{315}you want to disconnect from the Wi-Fi connection?
+Disconnecting from the Wi-Fi connection.
+Disconnected from the Wi-Fi connection.
+Cannot connect to the Wi-Fi connection.{315}For details, please refer to the guidebook.{315}Error code: {322}
+You cannot connect because the Wi-Fi connection is busy{315}or the service is suspended.{315}Please wait a moment and try again.{315}Error code: {322}
+Your Wi-Fi Connection ID{315}has been deleted because it was not used for a long time.{315}For details, please refer to the guidebook.{315}Error code: {322}
+The Wi-Fi connection service for this software{315}has ended.{315}Thank you for using it.{315}Error code: {322}
+You cannot connect because the access point{315}is busy.{315}Please wait a moment and try again.{315}Error code: {322}
+Access point not found.{315}Move closer to the access point{315}and try again.{315}Error code: {322}
+No connectable access point{315}was found.{315}Please check the connection destination settings in the Wi-Fi Connection settings.{315}Error code: {322}
+Cannot connect to the Nintendo Wi-Fi USB Connector.{315}Please check the Nintendo{315}Wi-Fi USB Connector connection in the Wi-Fi Connection settings.{315}Error code: {322}
+Cannot connect to the Wi-Fi connection.{315}Please check{315}the connection destination settings in the Wi-Fi connection settings.{315}Error code: {322}
+There is no response from the opponent.{315}It is possible that the opponent is no longer{315}connected to the Wi-Fi connection or that{315}you have been removed from their friend list.{315}Error code: {322}
+A communication error has occurred.{315}Error code: {322}
+Because an error has occurred,{315}you cannot use the Wi-Fi Connection functions.{315}Please turn off the power and try again.{315}Error code: {322}
+A communication error has occurred.{315}The Wi-Fi communication will be terminated.
+Communication error.{315}Please start over from the beginning.
+Download failed.{315}Error code: {322}
 HEAP CREATE FAILED!{315}size:{322} id:{324}
-ダウンロードに　失敗しました。{315}さいしょから　やりなおしてください。
+Download failed.{315}Please start over from the beginning.
 
-せんたくした人に　対戦を　もうしこみます。{315}名前が　光っている人は{315}だれかに　対戦を　もうしこみ中です。{315}名前が　くらくなった人は　対戦中か{315}Wi-Fiコネクションから　せつだんしています。
-預かり所の　お気に入り編成が{315}できるようになるまで{315}こちらを使うことは　できません。
+Request a battle with the selected person.{315}People whose names are lit up{315}are in the process of requesting a battle with someone.{315}People whose names have become dark are either in a battle or{315}disconnected from the Wi-Fi connection.
+You cannot use this{315}until you can do favorite organization{315}in the storage.
 
-{322}を　探しています。{315}しばらく　おまちください。{315}Bボタンで　中断できます。
-{322}が　みつかりました。
-ともだちコードが　とうろくされていません。{315}ともだちコードを　とうろくしてから{315}「ともだちと対戦」を　あそんでください。
-対戦かいし
-チームセットアップ
-ルールかくにん
-
-
-{322}の　ともだちリストを{315}最新に　こうしんします。
-{322}は　名前を{315}{324}に　へんこうしました。{315}こんご　ゲーム中では　へんこうごの名前が{315}はんえいされます。
-相手のかくにんを　まっています。{315}しばらく　おまちください。
-{322}は{315}いなくなりました……。
-しばらく　おまちください。
-
-対戦相手を探す
-チームセットアップ
-RANKをせってい
-プロフィールかくにん
-メンバーを編成する
-作戦をかえる
-決定
+Searching for {322}.{315}Please wait a moment.{315}You can cancel with the B button.
+{322} has been found.
+The friend code is not registered.{315}Please register a friend code before{315}playing "Battle with a Friend".
+Start Battle
+Team Setup
+Check Rules
 
 
+Update {322}'s{315}friend list to the latest version.
+{322} has changed{315}the name to {324}.{315}From now on, the changed name will be reflected in the game.
+Waiting for the opponent to confirm.{315}Please wait a moment.
+{322}{315}has disappeared...
+Please wait a moment.
 
-対戦相手
-パーティランク
-{322}勝
-{322}敗
-{322}戦
-最強マスター決定戦　最高位
-F～D RANK級
-C～A RANK級
-S・SS RANK級
-むさべつ級
-
-{322}位
-みしらぬ人と対戦
-すれちがいバトル
-勝ちぬきバトル
-プレイ時間
-モンスターコンプ
-{322}チーム
-プロフィールを{315}上がめんに　ひょうじしてます。
+Search for Opponent
+Team Setup
+Set RANK
+Check Profile
+Edit Party
+Change Tactics
+Confirm
 
 
-お使いの　しゅじんこう名では{315}Wi-Fiコネクションを　利用できません。{315}しゅじんこう名を　へんこうしてください。
-お使いの　モンスター名({322})では{315}Wi-Fiコネクションを　利用できません。{315}モンスター名を　へんこうしてください。
-モンスターデータに{315}ふせいデータの　うたがいがあります。{315}「チームセットアップ」で　モンスターを{315}へんこうしてください。
-{324}出身の{315}{322}と{315}対戦を　はじめます。
-{322}と{315}対戦を　はじめます。
-対戦する
-チームセットアップ
-ルールかくにん
-スペシャル配信データが　みつかりました!
-スペシャル配信データが　みつかりませんでした。{315}ノーマル配信データと　対戦します。
-なぞのモンスターが　あらわれた!{315}ボタンをおして　対戦を　はじめましょう!
-じげんりゅうが　あらわれた!{315}ボタンをおして　対戦を　はじめましょう!
-サンディが　あらわれた!{315}ボタンをおして　対戦を　はじめましょう!
-スライダーヒーローが　あらわれた!{315}ボタンをおして　対戦を　はじめましょう!
-死神スライダークが　あらわれた!{315}ボタンをおして　対戦を　はじめましょう!
-プレゼント対戦に　勝利しました!
-プレゼント対戦に　敗北しました。
-プレゼント対戦に　ひきわけました。
-プレゼント対戦は　1日1回です。{315}がんばってください!
-プレゼント対戦は　1日1回です。{315}また明日　チャレンジしてください。
-プレゼント対戦は{315}2011/{322}/{324}から　スタートします。
-きかんげんていの　スペシャル配信データが{315}みつかりました!
-みとうろく
-ほっかいどう
-あおもり
-いわて
-みやぎ
-あきた
-やまがた
-ふくしま
-いばらき
-とちぎ
-ぐんま
-さいたま
-ちば
-とうきょう
-かながわ
-にいがた
-やまなし
-ながの
-とやま
-いしかわ
-ふくい
-ぎふ
-しずおか
-あいち
-みえ
-しが
-きょうと
-おおさか
-ひょうご
-なら
-わかやま
-とっとり
-しまね
-おかやま
-ひろしま
-やまぐち
-とくしま
-かがわ
-えひめ
-こうち
-ふくおか
-さが
-ながさき
-くまもと
-おおいた
-みやざき
-かごしま
-おきなわ
+
+Opponent
+Party Rank
+{322} Wins
+{322} Losses
+{322} Battles
+World Monster Championship Highest Position
+F-D RANK class
+C-A RANK class
+S/SS RANK class
+Unrestricted class
+
+{322}th place
+Battle with a Stranger
+StreetPass Battle
+Win-streak Battle
+Play Time
+Monster Comp
+{322} Teams
+The profile is{315}displayed on the top screen.
+
+
+You cannot use{315}Wi-Fi Connection with your current{315}protagonist name. Please change the protagonist name.
+You cannot use{315}Wi-Fi Connection with your current{315}monster name ({322}). Please change the monster name.
+There is a suspicion of{315}illegal data in the monster data.{315}Please change the monster in{315}"Team Setup".
+Starting a battle{315}with {322} from {324}.
+Starting a battle{315}with {322}.
+Battle
+Team Setup
+Check Rules
+Special distribution data found!
+Special distribution data was not found.{315}Battling with normal distribution data.
+A mysterious monster appeared!{315}Press a button and let's start the battle!
+Dimensional Dragon appeared!{315}Press a button and let's start the battle!
+Stella appeared!{315}Press a button and let's start the battle!
+Slider Hero appeared!{315}Press a button and let's start the battle!
+Shinigami Slidark appeared!{315}Press a button and let's start the battle!
+You won the present battle!
+You lost the present battle.
+You tied the present battle.
+Present battles are limited to{315}once a day. Do your best!
+Present battles are limited to{315}once a day. Please try again tomorrow.
+Present battles start{315}on 2011/{322}/{324}.
+A limited-time special distribution data was{315}found!
+Unregistered
+Hokkaido
+Aomori
+Iwate
+Miyagi
+Akita
+Yamagata
+Fukushima
+Ibaraki
+Tochigi
+Gunma
+Saitama
+Chiba
+Tokyo
+Kanagawa
+Niigata
+Yamanashi
+Nagano
+Toyama
+Ishikawa
+Fukui
+Gifu
+Shizuoka
+Aichi
+Mie
+Shiga
+Kyoto
+Osaka
+Hyogo
+Nara
+Wakayama
+Tottori
+Shimane
+Okayama
+Hiroshima
+Yamaguchi
+Tokushima
+Kagawa
+Ehime
+Kochi
+Fukuoka
+Saga
+Nagasaki
+Kumamoto
+Oita
+Miyazaki
+Kagoshima
+Okinawa
 IND
 IDN
 KHM
