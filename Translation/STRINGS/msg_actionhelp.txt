@@ -6,19 +6,19 @@ Increases the user's tension level, raising the strength of most attacks. Can be
 
 
 
-Has a chance to deal colossal{315}Bang and Zap type slashing damages{315}to all enemies.{315}Becomes more powerful as the{315}monster level increases
-Unleashes two fierce tornadoes that{315}deal colossal damages to all enemies.
-Deals extra slashing damages to{315}Demon, Undead, Material,{315}and ??? family enemies.
-Deals extra slashing damages to{315}Slime, Dragon, Nature,{315}and Beast family enemies.
-Deals massive Fire and Ice{315}breath damages to all enemies.
-Hurls giant boulders from the sky{315}that deal massive damages to all enemies.
-Deals massive Zap damages to 1 enemy.{315}Uses MP from the whole party.
+Has a chance to deal colossal{315}Bang and Zap type slashing damage{315}to all enemies.{315}Becomes more powerful as the{315}monster level increases.
+Unleashes two fierce tornadoes that{315}deal colossal damage to all enemies.
+Deals extra slashing damage to{315}Demon, Undead, Material,{315}and ??? family enemies.
+Deals extra slashing damage to{315}Slime, Dragon, Nature,{315}and Beast family enemies.
+Deals massive Fire and Ice{315}breath damage to all enemies.
+Hurls giant boulders from the sky{315}that deal massive damage to all enemies.
+Deals massive Zap damage to 1 enemy.{315}Uses MP from the whole party.
 
 Singes a single enemy with a small fireball.
 Burns a single enemy with a large fireball.
 Incinerates a single enemy with a huge fireball.
 Cremates a single enemy with an enormous fireball.
-Damages all enemies with a small explosion.
+damage all enemies with a small explosion.
 Engulfs all enemies in a large explosion.
 Blasts all enemies with a massive explosion.
 Blasts all enemies with an incredibly violent explosion.
@@ -39,8 +39,8 @@ Strikes a single enemy with hellish lightning.
 Strikes a single enemy with abyssal lightning.
 Strikes a single enemy with stygian lightning.
 Prevents a single enemy from using Selflessness.
-Ignores Cover and other effects{315}to deal slashing damages to all enemies.
-Inflicts a death effect to any monster{315}that uses battlefield-affecting abilities (such as Round Zero).{315}If none are used, the effect instead applies to the user.
+Ignores Cover and other effects{315}to deal slashing damage to all enemies.
+If a monster uses any{315}battlefield-altering abilities,{315}sends them to the hereafter.{315}If none are used, targets the user instead.
 A spell that drains MP four times{315}from random enemies and adds it to its own MP.
 A cursed incantation that can send a single enemy to the hereafter.
 A cursed incantation that can send all enemies to the hereafter.
@@ -113,7 +113,7 @@ Hones in on enemy's weakpoint and slices them with a hellishly dark slash.
 An attack that's sure to damage enemies with metal bodies.
 An attack that deals heavy damage to dragons.
 An attack that deals heavy damage to monsters from the ??? family.
-Damages all enemies with a single slash.
+damage all enemies with a single slash.
 A mighty slash that deals Bang damage to a single enemy. Effectiveness increases with the user's level.
 A mighty slash that deals Bang damage to all enemies. Effectiveness increases with the user's level.
 A skull-splitting smash that lowers an enemy's defence.
@@ -189,15 +189,15 @@ A martial skill that can counter{315}all physical skills when an enemy uses them
 A martial skill that can reflect{315}all spells when an enemy uses them.
 A martial skill that can reflect{315}all breath attacks when an enemy uses them.
 A martial skill that can reflect{315}all dance attacks when an enemy uses them.
-Consumes all allies MP{315}to deal massive magic damages to all enemies.{315}The effect increases as more MP is used.
+Consumes all allies MP{315}to deal massive magic damage to all enemies.{315}The effect increases as more MP is used.
 A martial skill that prevents{315}all enemies from using disruption abilities.
 Transfers the current user's tension{315}to one of its allies.
-Acts last and deals higher{315}slash damages to an enemy.
-A dance that causes the user to die{315}after several rounds, but also takes{315}one same-sized enemy with him.
+The user will act last, but deal{315}increased slashing damage to the target.
+A dance that will cause the user{315}to perish after several rounds, but{315}takes a target of the same size with them.
 Discerns enemy weaknesses and deals{315}heavy Woosh-type slash damage to all enemies.
 Discerns enemy weaknesses and deals{315}heavy Crack-type slash damage to all enemies.
 Discerns enemy weaknesses and deals{315}heavy Sizz-type slash damage to all enemies.
-Unleashes 4–12 consecutive slash attacks{315}on random enemies without selecting a target.
+Unleashes 4–12 consecutive slash attacks at random.
 
 A dastardly dance that deals damage in an undetermined direction.
 Deals weaker slash damage,{315}but reveals the ennemy stats.
@@ -207,7 +207,7 @@ Deals weaker slash damage,{315}but reveals the ennemy stats.
 
 
 
-A physical skill that increases{315}the user's number of actions by 1{315}at the start of the next round.{315}Remaining actions are not lost{315}even if orders are given.
+A physical skill that grants the user{315}a second action at the start of the next round.{315}Remaining actions are not lost{315}even if orders are given.
 
 
 
@@ -228,7 +228,7 @@ Causes monsters with the lowest agility to move first in battle.
 A breath skill that locks the tactics of all enemies,{315}preventing them from being changed.
 A breath skill that seals all enemies' slash attacks.
 A breath skill that seals all enemies' physical skills.
-A dance that deals damage 3 to 7 times{315}in a row, striking random enemies.
+A dance that deals 3 to 7 hits{315}at random.
 A physical skill that turns{315}HP and MP recovery into damage instead.{315}Affects both enemies and allies.
 Singes all enemies with a blazing fire.
 Burns all enemies with a blazing wall of fire.
