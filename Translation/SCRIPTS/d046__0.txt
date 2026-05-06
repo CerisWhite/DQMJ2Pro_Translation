@@ -82,11 +82,11 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}There you are! Oh, darling! Don't worry, your Mumsy-Wumsy is here now!"
+SAY "{VOICE=08}「やっと　つかまえたわよ。{BREAK} The Countessちゃんっ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}Whatever possessed you to fly away like that, my angel?"
+SAY "{VOICE=08}「どうして　わたくしから　にげたりしたの?{BREAK} ほんと　いたずらっコなんだからっ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

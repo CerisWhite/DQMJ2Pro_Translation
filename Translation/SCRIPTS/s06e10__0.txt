@@ -1225,7 +1225,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1339,7 +1339,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4315,12 +4315,12 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "The Countess"
-SAY "{VOICE=08}Squeak squeak..."
+SAY "{VOICE=08}「キュ～ン……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The Countess whimpers sadly."
+SAY "{COLOR=2}The Countessは　かなしそうな{BREAK}こえを　出している。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4392,12 +4392,12 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "The Countess"
-SAY "{VOICE=08}Squeak squeak..."
+SAY "{VOICE=08}「キュ～ン……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The Countess whimpers sadly."
+SAY "{COLOR=2}The Countessは　かなしそうな{BREAK}こえを　出している。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4629,7 +4629,7 @@ STORE 0x18 0x0 0x43090000 0x1 0x0
 CMP_EQ 0x18 0x0 0x43090000 0x0 0x43070000
 JMP_IFNOT 0xc L_11b58
 SYS_42 0x8 
-SAY "{VOICE=03}Be bold and seize victory. You must win the Monster Scout Challenge!"
+SAY "{VOICE=03}「勝ちあがれ!{BREAK} GPを　勝ちあがってくるんだ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

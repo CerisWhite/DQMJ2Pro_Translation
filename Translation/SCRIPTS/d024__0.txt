@@ -397,7 +397,7 @@ STORE 0x18 0x1 0x0 0x2 0x40400000
 SYS_A7 0x8 
 SYS_AC 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} obtains the mysterious medal!"
+SAY "{COLOR=2}{NAME}は{BREAK}なぞのプレートを　手に入れた。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -475,7 +475,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42880000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Oooch! Auch! The pain! The pain!{BREAK}...Where am I anyway!?"
+SAY "{VOICE=07}「イテテテ……。{BREAK} ここは……?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -509,23 +509,23 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Jings! If it isnae the wee stowaway!"
+SAY "{VOICE=07}「おお　新入りじゃねえか!　もしかして{BREAK} お前が　オレを　たすけてくれたのか?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Do I owe ma rapid reversal o' fortune tae your intervention, laddie?"
+SAY "{VOICE=07}「……なんてこった。すずしいカオして{BREAK} こんなこと　やってのけやがって……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Well then, I suppose it's high time I stop callin' ye the stowaway."
+SAY "{VOICE=07}「こりゃあ　そうぞういじょうに{BREAK} お前が　プロとよばれる日も　ちかいな!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}I owe ye one, laddie! And there's no doubt aboot it...{WAIT}{CLEAR}...Yer a real monster scout now!"
+SAY "{VOICE=07}「ありがとよ!{BREAK} きたいのエース　{NAME}!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Things were lookin' bleak, but ye've given us a fightin' chance!"
+SAY "{VOICE=07}「この島に　きたときは　ふあんだったけどよ。{BREAK} お前が　いれば　なんとかなりそうだぜ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -641,11 +641,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}Rory! {NAME}! Thank the Goddess you're both alright!"
+SAY "{VOICE=07}「Rory Bellowsさん!　船員さん!{BREAK} よかった　ご無事だったようですね!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Archie Logg"
-SAY "{VOICE=07}Now, I'm terribly sorry, Rory, but something has come to my attenti-"
+SAY "{VOICE=07}「すみません　Rory Bellowsさん。{BREAK} じつは　ボク　あることが気になって……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -698,7 +698,7 @@ SYS_54 0x8
 WAIT 0x10 0x2 0x40a00000
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}...(gasp) Th-That medal! L-Let me take a look..."
+SAY "{VOICE=07}「……って　そのプレートは!!{BREAK} ちょ…ちょっと　みせてください!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -758,7 +758,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42b40000
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}There's no mistaking that insignia. This means the legends are true. I KNEW it!"
+SAY "{VOICE=07}「まちがいない　このマーク……。{BREAK} やっぱり　あの伝説は　ほんとうだったんだ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -830,7 +830,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42a00000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}The instant I saw that huge monster,{BREAK}I recalled something I once read..."
+SAY "{VOICE=07}「ボクは　この島で　あの巨大なモンスターを{BREAK} みたときに　ある伝説を　思いだしたのです。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -844,7 +844,7 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}According to legend, there once lived an extraordinary master scout.{WAIT}{CLEAR}It is said that he was able to bend even the greatest of monsters to his will..."
+SAY "{VOICE=07}「その伝説とは　巨大モンスターを　あやつる{BREAK} きせきのマスターがいた　というもので……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -894,7 +894,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x40a00000
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}And the symbol on that medal is that of the master scout!"
+SAY "{VOICE=07}「このプレートのマークこそ{BREAK} その伝説のマスターをしめすモノなんです!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -956,7 +956,7 @@ SYS_54 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}Don't you see what this means!?{WAIT}{CLEAR}This sacred island was once home to that legendary scout!"
+SAY "{VOICE=07}「そう!　この島は　伝説のマスターがいた{BREAK} 聖地に　ちがいありません!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1002,7 +1002,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}So yer sayin' ye want tae keep investigatin' this place!?{WAIT}{CLEAR}Have ye no learned yer lesson yet, laddie?"
+SAY "{VOICE=07}「で?　また　ここを調べてえって言うのか?{BREAK} あんな目にあったのに　こりねえヤツだな。 "
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1044,7 +1044,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}...Of course. You're right. I shall return to the ship immediately."
+SAY "{VOICE=07}「そ…そうでしたね。ごめんなさい。{BREAK} おとなしく　飛行船に　かえります。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1085,7 +1085,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}{NAME}, please guard that artifact with your life.{WAIT}{CLEAR}It is of supreme historical importance."
+SAY "{VOICE=07}「船員さん。はい　これ。れきしてきに{BREAK} かちのあるモノだから　大事にしてくださいね。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1139,7 +1139,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Och, one other thing while yer here,{BREAK}ye wee brainbox.{WAIT}{CLEAR}Ye didnae happen tae spot anyone else from the ship, did ye?"
+SAY "{VOICE=07}「ところで　がくしゃさんよ。{BREAK} アンタ　ほかにだれか　みなかったか? "
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1152,11 +1152,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}I'm afraid not. But I did find a passageway to the plains."
+SAY "{VOICE=07}「人のすがたは　みませんでしたね。{BREAK} ただ　平原にぬける道を　みつけましたよ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Archie Logg"
-SAY "{VOICE=07}Listen carefully and I'll tell you precisely where it's located..."
+SAY "{VOICE=07}「おふたりに　場所を　おしえておきますね。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1178,13 +1178,13 @@ STORE 0x18 0x1 0x40000000 0x2 0x41200000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} can now go to a new region - the Doubtback!"
+SAY "{COLOR=2}{NAME}は{BREAK}新たなエリア　平原に　行けるようになった!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 WAIT 0x10 0x2 0x42340000
 WAIT 0x10 0x2 0x41200000
-SAY "{COLOR=2}Go to the main map and the new region will be displayed!{WAIT}{CLEAR}From then on, you'll be able to use Zoom to go straight there."
+SAY "{COLOR=2}ルーラは　使わず　全体マップに出ると{BREAK}新しいエリアが　ひょうじされます!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1216,7 +1216,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}All right, let's head back tae the good auld Albatross."
+SAY "{VOICE=07}「それじゃ　飛行船に　もどるとするか。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

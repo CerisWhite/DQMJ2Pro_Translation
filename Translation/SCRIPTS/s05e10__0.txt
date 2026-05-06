@@ -1225,7 +1225,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1339,7 +1339,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3935,7 +3935,7 @@ STORE 0x18 0x1 0x0 0x2 0x424c0000
 SYS_49 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{COLOR=2}Awesome power emanates from the giant sword."
+SAY "{COLOR=2}巨大な剣から　強大なチカラが伝わってくる。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3957,7 +3957,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_49 0x8 
 WAIT 0x10 0x2 0x40400000
 SYS_42 0x8 
-SAY "{VOICE=07}KLAKATA-KLAKATA.{BREAK}Who disturbs my slumber?"
+SAY "{VOICE=07}「グゴゴゴゴ……。{BREAK} だれだ?　わがねむりを　さまたげる者は?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4098,23 +4098,23 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Estark"
-SAY "{VOICE=07}My name is Estark.{BREAK}I remember...nothing."
+SAY "{VOICE=07}「わが名は　Estark…。{BREAK} いまは　それしか　思いだせぬ…。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Am I evil? Am I good?{BREAK}That I do not know."
+SAY "{VOICE=07}「果たして自分が　ぜんなのか　あくなのか{BREAK} それすらも　わからぬのだ…。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Why have you come here?{BREAK}Do you come to slay me?{VOICE=09}"
+SAY "{VOICE=07}「その私に　なに用だ?{BREAK} 私を　ほろぼすために　やってきたのか?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42c80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c80000 0x2 0x0
 JMP_IFNOT 0xc L_fbcc
-SAY "{VOICE=07}Then you are a fool. I cannot be destroyed by one such as you."
+SAY "{VOICE=07}「おろかな……。{BREAK} お前ていどに　ほろぼされる　私ではない。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Leave now. While you still can."
+SAY "{VOICE=07}「そうそうに　たちさるがよい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4216,7 +4216,7 @@ SYS_49 0x8
 WAIT 0x10 0x2 0x40400000
 SYS_42 0x8 
 SETNAME "Estark"
-SAY "{VOICE=07}KLAKATA-KLAKATA.{BREAK}Who disturbs my slumber?"
+SAY "{VOICE=07}「グゴゴゴゴ……。{BREAK} だれだ?　わがねむりを　さまたげる者は?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4250,23 +4250,23 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Estark"
-SAY "{VOICE=07}My name is Estark.{BREAK}I remember...nothing."
+SAY "{VOICE=07}「わが名は　Estark…。{BREAK} いまは　それしか　思いだせぬ…。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Am I evil? Am I good?{BREAK}That I do not know."
+SAY "{VOICE=07}「果たして自分が　ぜんなのか　あくなのか{BREAK} それすらも　わからぬのだ…。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Why have you come here?{BREAK}Do you come to slay me?{VOICE=09}"
+SAY "{VOICE=07}「その私に　なに用だ?{BREAK} 私を　ほろぼすために　やってきたのか?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42c80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c80000 0x2 0x0
 JMP_IFNOT 0xc L_10708
-SAY "{VOICE=07}Then you are a fool. I cannot be destroyed by one such as you."
+SAY "{VOICE=07}「おろかな……。{BREAK} お前ていどに　ほろぼされる　私ではない。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Leave now. While you still can."
+SAY "{VOICE=07}「そうそうに　たちさるがよい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4387,15 +4387,15 @@ CMP_LE 0x18 0x2 0x3f800000 0x0 0x42cc0000
 JMP_IFNOT 0xc L_111ec
 SYS_42 0x8 
 SETNAME "Estark"
-SAY "{VOICE=07}You have defeated me, and thus I have no choice but to serve you. "
+SAY "{VOICE=07}「勝負に負けては　仕方あるまい……。{BREAK} お前に　したがうことにしよう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Perhaps if I battle for your cause, I may yet remember who - or what - I once was!"
+SAY "{VOICE=07}「お前たちに　ついていけば　自分のことを{BREAK} 思いだす日が　くるかもしれんな……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Estark joins {NAME}'s team!"
+SAY "{COLOR=2}Estarkが　仲間になった!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -4447,13 +4447,13 @@ JMP_ABS 0xc L_11200
 L_11200:
 SYS_42 0x8 
 SETNAME "Estark"
-SAY "{VOICE=07}KLAKATA-KLAKATA-KLUNK.{BREAK}How...can this be...?"
+SAY "{VOICE=07}「グゴゴゴゴ…。{BREAK} なんということだ……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}There is no space for me in your monster menagerie."
+SAY "{VOICE=07}「私が入るスキマが　ないではないか……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I have no choice but to slumber again."
+SAY "{VOICE=07}「ならば　仕方がないな。{BREAK} いましばらく　ねむることにしよう……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4599,24 +4599,24 @@ CMP_LE 0x18 0x2 0x3f800000 0x0 0x42f00000
 JMP_IFNOT 0xc L_12018
 SYS_42 0x8 
 SETNAME "Estark"
-SAY "{VOICE=07}KLAKATA-KLAKATA-KLUNK.{BREAK}How...can this be...?"
+SAY "{VOICE=07}「グゴゴゴゴ…。{BREAK} なんということだ……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x42ee0000
 SYS_A8 0x8 
-SAY "{VOICE=07}You are strong! I never thought you'd make such short work of me."
+SAY "{VOICE=07}「この私が　たった{E322}ラウンドで{BREAK} やられてしまうとは……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You have proven yourself worthy,{BREAK}and now I must serve you."
+SAY "{VOICE=07}「仕方あるまい……。{BREAK} お前に　したがうことにしよう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Perhaps if I battle for your cause, I may yet remember who - or what - I once was!"
+SAY "{VOICE=07}「お前たちに　ついていけば　自分のことを{BREAK} 思いだす日が　くるかもしれんな……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Estark joins {NAME}'s team!"
+SAY "{COLOR=2}Estarkが　仲間になった!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -4668,13 +4668,13 @@ JMP_ABS 0xc L_1202c
 L_1202c:
 SYS_42 0x8 
 SETNAME "Estark"
-SAY "{VOICE=07}KLAKATA-KLAKATA-KLUNK.{BREAK}How...can this be...?"
+SAY "{VOICE=07}「グゴゴゴゴ…。{BREAK} なんということだ……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}There is no space for me in your monster menagerie."
+SAY "{VOICE=07}「私が入るスキマが　ないではないか……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I have no choice but to slumber again."
+SAY "{VOICE=07}「ならば　仕方がないな。{BREAK} いましばらく　ねむることにしよう……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4708,7 +4708,7 @@ JMP_ABS 0xc L_122dc
 L_122dc:
 SYS_42 0x8 
 SETNAME "Estark"
-SAY "{VOICE=07}KLAKATA-KLAKATA-KLUNK.{BREAK}How...can this be...?"
+SAY "{VOICE=07}「グゴゴゴゴ……。{BREAK} なんということだ……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 CMP_LE 0x18 0x2 0x42c60000 0x0 0x42ee0000
@@ -4719,10 +4719,10 @@ L_12390:
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x42ee0000
 SYS_A8 0x8 
-SAY "{VOICE=07}You are indeed strong. You defeated me in {E322} round{E323}{E326}s{E327}..."
+SAY "{VOICE=07}「この私が　{E322}ラウンドで{BREAK} やられてしまうとは……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But it is not enough to make me wish to join you. Go now. I wish to sleep."
+SAY "{VOICE=07}「だが　私を　したがえるには　まだ　たりぬ。{BREAK} いましばらく　ねむることにしよう……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

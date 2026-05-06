@@ -80,15 +80,15 @@ WAIT 0x10 0x2 0x42c80000
 CMP_EQ 0x18 0x0 0x40800000 0x2 0x0
 JMP_IFNOT 0xc L_890
 SYS_42 0x8 
-SAY "{VOICE=07}The name's Cap'n Crow - ruler o' the seven seas! Don't ye forget it!"
+SAY "{VOICE=07}「我が名は　キャプテン・Captain Crow!{BREAK} 7つの海を　またにかけた　かいぞくだ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}I don't make a habit o' trawlin' these waters, as the pickin's be slim at best!{WAIT}{CLEAR}So imagine me surprise at landin' a catch like yerself!"
+SAY "{VOICE=07}「いまや　こんな所まで　攻めこんでいるのだ。{BREAK} 私と出会ったのが　お前のウンのつきよ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Let's do battle, matey! Lose, and I'll plunder any gold coins ye may have!"
+SAY "{VOICE=07}「ありがねを　うばいとってやる!{BREAK} ものども　かかれッ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -130,19 +130,19 @@ CMP_EQ 0x18 0x0 0x40800000 0x2 0x3f800000
 JMP_IFNOT 0xc L_c9c
 SYS_42 0x8 
 SETNAME "Captain Crow"
-SAY "{VOICE=07}The name's Cap'n Crow - ruler o' the seven seas, and don't ye forget it!"
+SAY "{VOICE=07}「我が名は　キャプテン・Captain Crow!{BREAK} 7つの海を　またにかけた　かいぞくだ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Arrr!? It be ye once again!? Ye've come back fer more, have ye?"
+SAY "{VOICE=07}「むっ!?{BREAK} お前は　いつぞやの……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Ye may have chalked up one lucky victory, but don't be thinkin' it'll happen again!"
+SAY "{VOICE=07}「いちどは　敗北を　きっしたが{BREAK} あんなマグレが　つづくとおもうな!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}I promised I'd get ye a permanent address in Davy Jones' Locker and so I will!"
+SAY "{VOICE=07}「やくそく通り　山のモクズにしてやる。{BREAK} ものども　かかれッ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -184,15 +184,15 @@ CMP_EQ 0x18 0x0 0x40800000 0x2 0x40000000
 JMP_IFNOT 0xc L_103c
 SYS_42 0x8 
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Ahoy there matey! Back once again, I see. Seems ye can't stay away fer long!"
+SAY "{VOICE=07}「やはりきたか……　{NAME}。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Yarrr!!! Let's put an end to this tom-foolery. It's time to plunder yer life!"
+SAY "{VOICE=07}「こんどこそ　決着をつけ{BREAK} きょうを　お前の命日にしてやるッ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}The name's Cap'n Crow - ruler o' the seven seas, and don't ye forget it!"
+SAY "{VOICE=07}「我が名は　キャプテン・Captain Crow!{BREAK} 7つの海を　またにかけた　かいぞくだッ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -234,19 +234,19 @@ CMP_EQ 0x18 0x0 0x40800000 0x2 0x40400000
 JMP_IFNOT 0xc L_143c
 SYS_42 0x8 
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Yarrr!!! So we meet again, matey!"
+SAY "{VOICE=07}「ふははははっ!{BREAK} また会ったな　{NAME}よ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}The name's Cap'n Crow - ruler o' the seven seas, and don't ye forget it!"
+SAY "{VOICE=07}「我が名は　キャプテン・Captain Crow!{BREAK} 7つの海を　またにかけた　かいぞくだ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Today I've brought along a fearsome ally to put the shivers up yer timbers! Yarrr!"
+SAY "{VOICE=07}「きょうは　お前のために{BREAK} ビッグゲストを　つれてきてやった。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Introducing the fearsome, ferocious kingpin of the jungle - the Marquis De Léon!"
+SAY "{VOICE=07}「じごくのギャングスター!{BREAK} セルゲイナスさんだッ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -288,15 +288,15 @@ CMP_EQ 0x18 0x0 0x40800000 0x2 0x40800000
 JMP_IFNOT 0xc L_19c8
 SYS_42 0x8 
 SETNAME "Captain Crow"
-SAY "{VOICE=07}The name's Cap'n Crow - ruler o' the seven seas, and don't ye forget it!"
+SAY "{VOICE=07}「我が名は　キャプテン・Captain Crow。{BREAK} 7つの海を　またにかけた　かいぞくだった。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Since my defeat at yer miserable hands, my lily-livered crew have abandoned me."
+SAY "{VOICE=07}「だが　お前に敗北した後　仲間たちは{BREAK} 1人また1人と　私のもとから　さっていった。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}A captain with no crew be a pitiful sight. It be more than my pirate pride can take...{WAIT}{CLEAR}That's why I've decided to hang up my pirate hat and start a new life! Yarrr!"
+SAY "{VOICE=07}「これを機に　かいぞくをやめて{BREAK} 新しい人生を生きようと　おもっている。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x42480000
@@ -307,11 +307,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41000000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41000000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}But first I have one piece of unfinished business. Gettin' my revenge on ye!"
+SAY "{VOICE=07}「だが　{NAME}ッ!{BREAK} お前がいるかぎり　私に明日は　やってこない!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}This be my last stand! I'll send ye to Davy Jones' Locker and be reborn!"
+SAY "{VOICE=07}「これで最後だッ!　お前をたおし{BREAK} 私は　生まれかわってやるッ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

@@ -1217,7 +1217,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1331,7 +1331,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3442,10 +3442,10 @@ WAIT 0x10 0x2 0x41a00000
 STORE 0x18 0x1 0x0 0x2 0x423c0000
 SYS_49 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The cover on the ventilation duct is open."
+SAY "{COLOR=2}通気ダクトの　ふたが　あいている……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}How about it? Want to climb in?{VOICE=09}"
+SAY "{COLOR=2}中に入りますか?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -3461,7 +3461,7 @@ CMP_EQ 0x18 0x0 0x42ae0000 0x2 0x41000000
 JMP_IFNOT 0xc L_d458
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}What are you doin' skulkin' round in here, Rookie?{WAIT}{CLEAR}Go on. The passenger area won't bite."
+SAY "{VOICE=07}「{NAME}。なにを　コソコソしている?{BREAK} どうどうと　客室に　入ればいいだろう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3475,10 +3475,10 @@ CMP_EQ 0x18 0x0 0x42ae0000 0x2 0x41300000
 JMP_IFNOT 0xc L_d57c
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}What in blue blazes are you playin' at, Rookie!?"
+SAY "{VOICE=07}「どこに行くのだ　{NAME}?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You have orders. Go and find out what Miss Gilder wants!"
+SAY "{VOICE=07}「はやく　マダム・Lily Gilderのようすを{BREAK} みてきてくれたまえ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3492,7 +3492,7 @@ CMP_EQ 0x18 0x0 0x42ae0000 0x2 0x41500000
 JMP_IFNOT 0xc L_d664
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Hey, Rookie, what d'you think you're doin'? Report at once!"
+SAY "{VOICE=07}「おい　{NAME}……!{BREAK} どこへ行く!　じょうきょうを　ほうこくしろ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3842,16 +3842,16 @@ CMP_LE 0x18 0x0 0x42be0000 0x2 0x41100000
 JMP_IFNOT 0xc L_ed18
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}As punishment for tryin' to stow away aboard my vessel...{WAIT}{CLEAR}...you will serve as rookie deckhand,{BREAK}third class."
+SAY "{VOICE=07}「タダ乗りしたバツとして　キミには{BREAK} みならい船員として　はたらいてもらおう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Your first job will be to introduce yourself to the other passengers and crew!"
+SAY "{VOICE=07}「まずは　この船に乗る人たち　全員に{BREAK} あいさつしてくるんだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}There are five other people on board, includin' my engineer, Rory...{WAIT}{CLEAR}Be sure to listen carefully to what everyone has to say to you. Got it?"
+SAY "{VOICE=07}「あいさつをするのは　整備士をふくめ　5人。{BREAK} 相手の話も　ちゃんと　きくんだぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Once you've spoken to all five of them, come back and see me."
+SAY "{VOICE=07}「5人全員に　あいさつが　すんだら{BREAK} 私のところに　もどってきなさい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3863,10 +3863,10 @@ STORE 0x18 0x1 0x0 0x2 0xc2fa0000
 SYS_23 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Looks like you finished talkin' to everyone."
+SAY "{VOICE=07}「……そうか。乗客全員に{BREAK} あいさつを　してきたようだな。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}In that case, you're gonna need a new job.　"
+SAY "{VOICE=07}「では　つぎの仕事を……"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3879,7 +3879,7 @@ STORE 0x18 0x1 0x0 0x2 0x433c0000
 SYS_41 0x8 
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}...Eeek! SÂSomeone... A-Anyone...!{BREAK}I insist someone help me this instant!"
+SAY "{VOICE=08}「ちょっとぉ!　だれか　きてぇっ!?"
 STORE 0x18 0x1 0x0 0x2 0x40c00000
 SYS_60 0x8 
 STORE 0x18 0x0 0x42ba0000 0x1 0x0
@@ -3902,13 +3902,13 @@ SYS_43 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Sheesh... Now what does she want...?"
+SAY "{VOICE=07}「やれやれ。また　あのマダムか……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}We'll talk about your duties later, Rookie."
+SAY "{VOICE=07}「みならい船員　{NAME}よ。{BREAK} こちらの仕事は　あとまわしで　いい。 "
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}For now, go find out what it is Miss Gilder wants."
+SAY "{VOICE=07}「さきに　マダム・Lily Gilderのようすを{BREAK} みてきてくれたまえ。 "
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3921,10 +3921,10 @@ CMP_EQ 0x18 0x0 0x42be0000 0x2 0x41300000
 JMP_IFNOT 0xc L_f2a8
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}We can talk about your duties later, Rookie."
+SAY "{VOICE=07}「みならい船員　{NAME}よ。{BREAK} こちらの仕事は　あとまわしで　いい。 "
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}For now, go find out what it is Miss Gilder wants."
+SAY "{VOICE=07}「さきに　マダム・Lily Gilderのようすを{BREAK} みてきてくれたまえ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3936,16 +3936,16 @@ STORE 0x18 0x1 0x0 0x2 0xc2fa0000
 SYS_23 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}This doesn't make any sense!{WAIT}{CLEAR}Seconds ago we had blue skies for miles and a clear route to Green Bays..."
+SAY "{VOICE=07}「さっきまで　あんなに{BREAK} いい　てんきだったのに……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}...and now black clouds are gatherin' from the Goddess knows where!"
+SAY "{VOICE=07}「どういうことだ?　とつぜん　あたりに{BREAK} くろいくもが　出はじめたぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Rookie, new mission! Check out the situation in the engine room!"
+SAY "{VOICE=07}「みならい船員　{NAME}!{BREAK} 機関室のようすを　みてきてくれ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The engine room is belowdecks, beneath the passenger room and cargo hold."
+SAY "{VOICE=07}「機関室は　客室のかいだんを　おりた{BREAK} その　さきにある!　たのんだぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3958,16 +3958,16 @@ STORE 0x18 0x1 0x0 0x2 0xc2fa0000
 SYS_23 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}...What!? Rory says we should prepare to abandon ship!?"
+SAY "{VOICE=07}「なに?　Rory Bellowsが　きんきゅうひなんの{BREAK} じゅんびをしろ　と言っていただと……?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Umm... The thing is, Rookie, I'm afraid it may already be too late..."
+SAY "{VOICE=07}「そうか……。だが…………"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The rudder's...no longer respondin'... The pitch and yaw are out of control...!"
+SAY "{VOICE=07}「…もう……手おくれかもしれん……。{BREAK} カジが…言うことを…きかんのだ……!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I...I can't hold it...! We're goin' to...!"
+SAY "{VOICE=07}「クッ……!　このままでは…………。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4029,7 +4029,7 @@ SYS_03 0x8
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}...Waaaaaaaaaaaaaaaaaagh!!!"
+SAY "{VOICE=07}「ウォォォォォォォォーーーーッッ!!!!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4072,13 +4072,13 @@ CMP_EQ 0x18 0x0 0x42c20000 0x2 0x0
 JMP_IFNOT 0xc L_febc
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}So you found our stowaway, did you?{BREAK}That girl is nothin' but trouble."
+SAY "{VOICE=07}「かわいいネズミが　まぎれこんでいただろう?{BREAK} まったく　こまった　おじょうさんだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Now listen up, Rookie. It's time for you to embark on a new mission."
+SAY "{VOICE=07}「さあ　{NAME}よ。{BREAK} キミの新たな　ぼうけんの　はじまりだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Thanks to you, the True Monster Challenge is up and runnin' again.{WAIT}{CLEAR}You should head over to the moles' den and check it out."
+SAY "{VOICE=07}「まずは　キミが　よみがえらせたであろう{BREAK} 真のバトルGPを　みにいくのが　いいだろう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4093,10 +4093,10 @@ JMP_ABS 0xc L_fed0
 L_fed0:
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Now listen up, Rookie. It's time for you to embark on a new mission."
+SAY "{VOICE=07}「さあ　{NAME}よ。{BREAK} キミの新たな　ぼうけんの　はじまりだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Thanks to you, the True Monster Scout Challenge is up and runnin' again.{WAIT}{CLEAR}You should head over to the moles' den and check it out."
+SAY "{VOICE=07}「まずは　キミが　よみがえらせたであろう{BREAK} 真のバトルGPを　みにいくのが　いいだろう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4116,13 +4116,13 @@ CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40000000
 JMP_IFNOT 0xc L_10188
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Och, there ye are, laddie! There's somethin' I wanted tae tell ye..."
+SAY "{VOICE=07}「おお　{NAME}!{BREAK} お前に　伝えたいことがあったんだよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}That bookworm laddie headed tae the moles' den tae find more information."
+SAY "{VOICE=07}「がくしゃさんがよ　モグラのアジトに行って{BREAK} じょうほうを　あつめてるそうだ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}He's likely tae know a thing or two.{BREAK}Why dinnae ye go and talk tae him?"
+SAY "{VOICE=07}「なにか　わかるかもしれねえから　お前も{BREAK} モグラのアジトに　行ってみたらどうだ?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4134,13 +4134,13 @@ CMP_EQ 0x18 0x0 0x42bc0000 0x2 0x40e00000
 JMP_IFNOT 0xc L_102f8
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Och, there ye are, laddie! There's somethin' I wanted tae tell ye..."
+SAY "{VOICE=07}「おお　{NAME}!{BREAK} お前に　伝えたいことがあったんだよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}That bookworm laddie headed tae the moles' den tae find more information."
+SAY "{VOICE=07}「がくしゃさんがよ　モグラのアジトに行って{BREAK} じょうほうを　あつめてるそうだ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}He's likely tae know a thing or two.{BREAK}Why dinnae ye go and talk tae him?"
+SAY "{VOICE=07}「なにか　わかるかもしれねえから　お前も{BREAK} モグラのアジトに　行ってみたらどうだ?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4312,7 +4312,7 @@ STORE 0x18 0x1 0x0 0x2 0x42540000
 SYS_49 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{COLOR=2}This is for steering the ship. There are buttons and levers all around it."
+SAY "{COLOR=2}飛行船のカジだ。{BREAK}まわりに　たくさんのレバーやボタンがある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4457,7 +4457,7 @@ STORE 0x18 0x1 0x0 0x2 0x431c0000
 SYS_41 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}It seems to be Captain Mayday's trunk. It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}Captain Maydayの　にもつのようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4482,13 +4482,13 @@ STORE 0x18 0x1 0x0 0x2 0x423c0000
 SYS_49 0x8 
 WAIT 0x10 0x2 0x41600000
 SYS_42 0x8 
-SAY "{COLOR=2}There's a note on the trunk, addressed to {NAME}."
+SAY "{COLOR=2}……{NAME}あての　メモが{BREAK}はさんである。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'You saved me, the ship, and the passengers. I won't forget that."
+SAY "{COLOR=2}『キミのおかげで　私は　たすかった。{BREAK} ほんとうに　ありがとう。』"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'Not to mention that you won the Monster Scout Challenge.{WAIT}{CLEAR}'That deserves an award all on its own! Signed, Rex Mayday.' "
+SAY "{COLOR=2}『そして　バトルGP優勝　おめでとう!{BREAK} きねんの品を　うけとってくれ。』セブンス"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

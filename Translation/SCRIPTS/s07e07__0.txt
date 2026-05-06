@@ -1223,7 +1223,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1337,7 +1337,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3559,7 +3559,7 @@ STORE 0x18 0x1 0x40400000 0x2 0x3e800000
 SYS_7B 0x8 
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
-SAY "{COLOR=2}Push the blue button?{VOICE=09}"
+SAY "{COLOR=2}あおいスイッチを　おしますか?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -3619,7 +3619,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x3ca3d70a
 SYS_3B 0x8 
 WAIT 0x10 0x2 0x42960000
 SYS_42 0x8 
-SAY "{COLOR=2}Somewhere, a giant door swings slowly open."
+SAY "{COLOR=2}どこかで　トビラのひらく　おとがした。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3647,7 +3647,7 @@ SYS_07 0x8
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_49 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The blue button has already been pushed."
+SAY "{COLOR=2}あおいスイッチは　すでに　おしてある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3748,10 +3748,10 @@ STORE 0x18 0x1 0x0 0x2 0x40c00000
 SYS_AD 0x8 
 WAIT 0x10 0x2 0x40a00000
 SYS_42 0x8 
-SAY "{COLOR=2}Something is written on the sarcophagus."
+SAY "{COLOR=2}ひつぎに　もじが　きざまれている。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'O fool who would defy the gods! The Medal of Merit is sealed with Sagittar!'"
+SAY "{COLOR=2}神を　たてまつる　おろかな者どもよ。{BREAK}試練の証は　サージタウスのもとに　ふうじた。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3765,13 +3765,13 @@ STORE 0x18 0x1 0x0 0x2 0x40e00000
 SYS_AD 0x8 
 WAIT 0x10 0x2 0x40a00000
 SYS_42 0x8 
-SAY "{COLOR=2}Something is written on the sarcophagus."
+SAY "{COLOR=2}ひつぎに　もじが　きざまれている。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'It is senseless to be forced to undergo trials in order to approach a god."
+SAY "{COLOR=2}神に　ちかづくための試練など　無イミだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'The god we seek must rule the world according to our own will.'"
+SAY "{COLOR=2}われらの思うがままに　地上を　しはいする者。{BREAK}それこそ　われらが　もとめる神である。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

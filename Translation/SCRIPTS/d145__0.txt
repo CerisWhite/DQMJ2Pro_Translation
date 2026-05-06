@@ -97,7 +97,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SAY "{VOICE=07}...I-Is someone th-there!?"
+SAY "{VOICE=07}「……だ…だれか　いるのかっ!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -140,7 +140,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Hoots! It's the wee stowaway! I'm glad tae see yer still drawin' breath."
+SAY "{VOICE=07}「おおっ!　新入りの　{NAME}!{BREAK} よかった……!　生きてやがったか!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -198,19 +198,19 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Yer lookin' right as rain, laddie. Let's thank the Goddess for small mercies."
+SAY "{VOICE=07}「……ん?　やけに　あっけらかんとしてるな。{BREAK} お前　こういうトラブルに　なれてるのか?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}There's not a soul on board the ship and yer the first survivor I've foond."
+SAY "{VOICE=07}「だとしたら　心強いぜ。飛行船が　おちるなんて{BREAK} オレには　はじめての経験だからな……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Och, it's grand that we're alive, but we're still stuck in a big auld jungle."
+SAY "{VOICE=07}「でもよ。こうして　たすかったは　いいものの{BREAK} あたりは　いちめんのジャングルだ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Now we jest need tae find the others."
+SAY "{VOICE=07}「ほかの　みんなは　どこに{BREAK} いっちまったんだ……"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -250,7 +250,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41c80000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Jings! What's happenin'!?"
+SAY "{VOICE=07}「な……っ　なんだっ!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -425,11 +425,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}What could that have been? It didnae look good, whatever it was..."
+SAY "{VOICE=07}「……おいおい。{BREAK} なんだってんだ　いまのは……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Jest what manner of place have we landed up in?"
+SAY "{VOICE=07}「オレたちは　いったい{BREAK} どこに　きちまったんだ……?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -461,15 +461,15 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}This island's a rough place. We'll need tae work together tae stand a chance."
+SAY "{VOICE=07}「とにかく　この島は　ヤバそうだ。{BREAK} チカラをあわせて　生きて　かえろうぜ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Anyhoo, it doesnae look like the time tae be doin' any explorin'."
+SAY "{VOICE=07}「とりあえず　いま　出あるくのは{BREAK} キケンすぎるみてえだな。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Let's rest up and consider our options on the morrow."
+SAY "{VOICE=07}「きょうは　ゆっくり休んで{BREAK} 明日のあさ　どうするか　かんがえようぜ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

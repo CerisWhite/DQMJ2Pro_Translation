@@ -125,40 +125,40 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}Did you see it too? That colossal worm that just slithered past?"
+SAY "{VOICE=07}「……あなたも　みましたよね!?{BREAK} あの巨大なミミズのモンスター!!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Archie Logg"
-SAY "{VOICE=07}They said they were just fairy tales, but this island proves every word was true!"
+SAY "{VOICE=07}「この島は　スゴイ!　あの話も{BREAK} きっと　おとぎ話じゃ　ないはずだ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Och, what are ye blatherin' on aboot now, laddie?{WAIT}{CLEAR}We've more important things tae be worryin' aboot than a silly worm!"
+SAY "{VOICE=07}「おいおい!　この　ひじょうじたいに{BREAK} なに　ねむてえこと　言ってやがる! "
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Ye should be grateful yer head's still on yer shoulders! Now, let's get goin'!{WAIT}{CLEAR}The faithful auld Albatross awaits!"
+SAY "{VOICE=07}「命があっただけ　もうけもんだと思いやがれ!{BREAK} ほれ　はやいとこ　飛行船に　もどるぞ! "
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}B-But I'm right in the middle of investigating this island!"
+SAY "{VOICE=07}「イヤです!　もうちょっとだけ{BREAK} この島を　ちょうささせてください!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Archie Logg"
-SAY "{VOICE=07}I can scarcely believe how fortunate we were to crash in such unexplored terrain!"
+SAY "{VOICE=07}「飛行船が　おちて　この島に　こられたのは{BREAK} ボクてきに　むしろ　ラッキーだったんです!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}'Fortunate'!? Are ye daft!? Have ye no got the sense ye were born with!?"
+SAY "{VOICE=07}「バカやろうっ!{BREAK} そんな　ゆうちょうなこと　言ってると……"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -251,7 +251,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Look lively, laddie! Here comes trouble!"
+SAY "{VOICE=07}「みろっ　ヤベえのが　きたじゃねえか……!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -421,7 +421,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}Oh Goddess! Rory! Noooooo!!!"
+SAY "{VOICE=07}「ああっ!!　Rory Bellowsさんっ!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -594,19 +594,19 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}{NAME}! You're alive!"
+SAY "{VOICE=07}「船員さんじゃないですか!{BREAK} よかった　あなたも　無事だったんですね!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Archie Logg"
-SAY "{VOICE=07}You missed the most appalling event.{BREAK}A giant worm came straight at us and...{WAIT}{CLEAR}...Rory...heroically risked his life to protect me..."
+SAY "{VOICE=07}「いま　Rory Bellowsさんが　ボクをかばって{BREAK} 巨大なミミズのモンスターに……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Archie Logg"
-SAY "{VOICE=07}If I'd only done what I was told and returned to the ship...{WAIT}{CLEAR}...this never would have happened!"
+SAY "{VOICE=07}「ああ!　ボクが　Rory Bellowsさんの言うことを{BREAK} きいていれば　こんなことには……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Archie Logg"
-SAY "{VOICE=07}We must follow that worm and rescue Rory!"
+SAY "{VOICE=07}「おねがいします!　いっしょに　ヤツをおって{BREAK} Rory Bellowsさんを　たすけてください!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -623,7 +623,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41b00000
 SYS_1F 0x8 
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}It went that way. You've got to come with me, {NAME}. I'm begging you..."
+SAY "{VOICE=07}「ヤツは　たしか　あっちのほうこうに……。{BREAK} 船員さん　ついてきてください!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

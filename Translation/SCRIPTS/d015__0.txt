@@ -116,7 +116,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41200000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{VOICE=07}...You cannot hope to escape from this island..."
+SAY "{VOICE=07}「……お前たちは　もう{BREAK} この島から　のがれられない……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -177,7 +177,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}...This is the land you have been seeking..."
+SAY "{VOICE=07}「……ここが　お前たちの　めざした地だ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x422c0000
@@ -186,13 +186,13 @@ SYS_16 0x8
 STORE 0x18 0x1 0x0 0x2 0x422c0000
 STORE 0x18 0x1 0x3f800000 0x2 0x43160000
 SYS_17 0x8 
-SAY "{VOICE=07}You must win..."
+SAY "{VOICE=07}「勝て…………。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=07}You must win...and win...and win again. That is your only hope of survival..."
+SAY "{VOICE=07}「勝って　勝って　勝ちまくれ……。{BREAK} お前たちの生きのこるすべは　それしかない。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=07}You must win...and win...and win again... "
+SAY "{VOICE=07}「勝て……　勝て……　勝ちまくれ……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -228,7 +228,7 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=03}...Laddie? ...Laddie?{BREAK}Can ye hear me?"
+SAY "{VOICE=07}「……おい　{NAME}……。{BREAK} {NAME}……!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -290,7 +290,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Ye were tossin' and turnin' all night.{BREAK}Is somethin' the matter?"
+SAY "{VOICE=07}「ずいぶん　うなされてたようだが。{BREAK} だいじょうぶか?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -322,11 +322,11 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Ye cannae be serious! The Cap'n's ghost came tae ye in a dream!?"
+SAY "{VOICE=07}「なに?　セブンスのユーレイが{BREAK} ゆめに出てきただと!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}...And he told ye tae keep winnin' in the Monster Scout Challenge!?"
+SAY "{VOICE=07}「……バトルGPを　勝ちまくれ?{BREAK} さもないと　この島を　出られない!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40800000
@@ -340,7 +340,7 @@ STORE 0x18 0x1 0x0 0x0 0x40800000
 STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}And if ye didnae, we'd never make it off this island!? {WAIT}{CLEAR}Gads! I dinnae like the soond o' that!"
+SAY "{VOICE=07}「そうセブンスが　言ってたってのか!?{BREAK} エンギでもねえこと言うなよ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41b00000
@@ -350,7 +350,7 @@ STORE 0x18 0x1 0x0 0x2 0x41b00000
 STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}The Cap'n cannae be dead! I refuse tae believe it! We've gottae find him!"
+SAY "{VOICE=07}「アイツが　死んでるわけねえ!{BREAK} どうあったって　さがしてもらうからな!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -391,11 +391,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}...Och, I'm sorry for shoutin', laddie.{BREAK}I jest got a wee bit emotional."
+SAY "{VOICE=07}「っと　すまねえ……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}If takin' part in the Monster Scout Challenge means that much tae ye...{WAIT}{CLEAR}...ol' Rory willnae stand in yer way!"
+SAY "{VOICE=07}「……そうだな。バトルGPのことが　そこまで{BREAK} 気になるなら　お前　参加してこいよ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

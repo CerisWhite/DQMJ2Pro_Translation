@@ -277,26 +277,26 @@ SYS_02 0x8
 SYS_03 0x8 
 L_11a4:
 SYS_42 0x8 
-SAY "{VOICE=07}I am the divine beast known as the Incarnus."
+SAY "{VOICE=07}「我は　神に　ちかきそんざい　Incarnus。"
 SYS_44 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}I have used the sacred power at my disposal to lead you here."
-SYS_44 0x8 
-WAIT 0x10 0x2 0x41200000
-SETNAME "Incarnus"
-SAY "{VOICE=07}I seek a true master scout - one I can entrust with the precious Infantus."
+SAY "{VOICE=07}「大いなるチカラに　ひかれ{BREAK} 汝を　ここへと　みちびかせてもらった。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}The Infantus is an incarnation of myself, the next generation of the Incarnus."
+SAY "{VOICE=07}「我は　いま　Infantusを　たくすことができる{BREAK} 真のマスターを　さがしているのだ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}You must now prove yourself worthy of being entrusted with the Infantus."
+SAY "{VOICE=07}「Infantusとは　つぎの世代を生きる{BREAK} わが分身のことである。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}I trust you will forgive me for being so forceful..."
+SAY "{VOICE=07}「……汝に　わがInfantusを{BREAK} まかせられるか　試させてもらおう。"
+SYS_44 0x8 
+WAIT 0x10 0x2 0x41200000
+SETNAME "Incarnus"
+SAY "{VOICE=07}「しょうしょう　ごういんだが　ゆるせ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -389,26 +389,26 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}{NAME}, I have awaited you..."
+SAY "{VOICE=07}「マスター　{NAME}よ。{BREAK} まっていたぞ。"
 SYS_44 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Ho ho! You look rather taken aback by my transformation."
-SYS_44 0x8 
-WAIT 0x10 0x2 0x41200000
-SETNAME "Incarnus"
-SAY "{VOICE=07}The divine Incarnus develops by transforming itself in this manner."
+SAY "{VOICE=07}「ふふふ。我のすがたが　かわったことに{BREAK} おどろいたカオをしているな。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Do you know the reason I have led you here?"
+SAY "{VOICE=07}「我のようなIncarnusは　このように{BREAK} 自らのすがたを　かえて　成長するのだ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}I seek a master scout worthy of being entrusted with the precious Infantus."
+SAY "{VOICE=07}「……さて　汝を　ここへ{BREAK} みちびいた　りゆうは　わかるな?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Now, I will test your abilities to the full in my present form."
+SAY "{VOICE=07}「汝が　わがInfantusを　たくすことができる{BREAK} 真のマスターか　みきわめるためだ。"
+SYS_44 0x8 
+WAIT 0x10 0x2 0x41200000
+SETNAME "Incarnus"
+SAY "{VOICE=07}「こんどは　このすがたで{BREAK} 汝のチカラ　試させてもらうぞ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -449,10 +449,10 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}I am the divine Incarnus. I seek a scout I can entrust with the Infantus."
+SAY "{VOICE=07}「我は　Incarnus……。神に　ちかきそんざい。{BREAK} Infantusをたくす　マスターを　さがしている。"
 SYS_44 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}I must test you to see if you can be entrusted with the Infantus."
+SAY "{VOICE=07}「……汝に　わがInfantusを{BREAK} まかせられるか　試させてもらおう。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -546,22 +546,22 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}{NAME}, I have awaited you..."
+SAY "{VOICE=07}「マスター　{NAME}よ。{BREAK} まっていたぞ。"
 SYS_44 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}I promised to explain how to synthesise divine monsters like myself."
-SYS_44 0x8 
-WAIT 0x10 0x2 0x41200000
-SETNAME "Incarnus"
-SAY "{VOICE=07}A divine monster cannot be transformed into any lesser monster."
+SAY "{VOICE=07}「こんかいは　Incarnusと配合のチツジョについて{BREAK} 話す　やくそくだったな……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}For me, synthesis is the means by which I alter my form and develop."
+SAY "{VOICE=07}「Incarnusは　神に　ちかいそんざいゆえに　配合では{BREAK} Incarnusいがいの　モンスターには　なりえない。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}I must test you to see if you can be entrusted with the Infantus."
+SAY "{VOICE=07}「我にとって　配合とは　すがたをかえ{BREAK} 成長するしゅだんに　ほかならないのだ。"
+SYS_44 0x8 
+WAIT 0x10 0x2 0x41200000
+SETNAME "Incarnus"
+SAY "{VOICE=07}「さあ　そのIncarnusをたくせる　マスターであるか{BREAK} みたび　試させてもらうぞ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -602,10 +602,10 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}I am the divine Incarnus. I seek a scout I can entrust with the Infantus."
+SAY "{VOICE=07}「我は　Incarnus……。神に　ちかきそんざい。{BREAK} Infantusをたくす　マスターを　さがしている。"
 SYS_44 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}I must test you to see if you can be entrusted with the Infantus."
+SAY "{VOICE=07}「……汝に　わがInfantusを{BREAK} まかせられるか　試させてもらおう。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -750,26 +750,26 @@ SYS_03 0x8
 L_3370:
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}{NAME}, I have awaited you..."
+SAY "{VOICE=07}「マスター　{NAME}よ。{BREAK} まっていたぞ。"
 SYS_44 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Barring some rather special transformations, this is my final form."
-SYS_44 0x8 
-WAIT 0x10 0x2 0x41200000
-SETNAME "Incarnus"
-SAY "{VOICE=07}That means this will be the final battle in which I test your strength."
+SAY "{VOICE=07}「とっておきの　すがたをのぞけば{BREAK} これが　我の最後の　すがたとなる。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}I am profoundly grateful for the time I have spent with you."
+SAY "{VOICE=07}「ゆえに　こんかいが　汝のチカラを試す{BREAK} 最後の戦いというわけだ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Give it all you have, for I can assure you that I will not go easy on you."
+SAY "{VOICE=07}「いままで　我に　つきあってくれて{BREAK} ほんとうに　カンシャしている。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}I will find out whether you are worthy of being entrusted with the Infantus."
+SAY "{VOICE=07}「……だが　てかげんは　せぬ!{BREAK} 汝も　全力で　かかってくるがよい!"
+SYS_44 0x8 
+WAIT 0x10 0x2 0x41200000
+SETNAME "Incarnus"
+SAY "{VOICE=07}「Infantusをたくせる　マスターか　どうか{BREAK} ここで　みきわめさせてもらうぞ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

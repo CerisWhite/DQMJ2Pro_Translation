@@ -1227,7 +1227,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1341,7 +1341,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4433,7 +4433,7 @@ STORE 0x18 0x1 0x0 0x0 0x42cc0000
 STORE 0x18 0x1 0x3f800000 0x2 0x41f00000
 SYS_3C 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} has scouted the wormonger, the Tyrant of Treepidation!"
+SAY "{COLOR=2}{NAME}は{BREAK}密林のヌシ　タイラントワームを　仲間にした。"
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -4576,13 +4576,13 @@ JMP_IFNOT 0xc L_10cd4
 L_10b7c:
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}Look, can you see? The giant worm has fallen fast asleep!"
+SAY "{VOICE=07}「船員さん　みてください!　この下で{BREAK} さっきの巨大ミミズが　ねむっています!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I just have to get down there and investigate. But how?"
+SAY "{VOICE=07}「なんとか　あそこに行きたいのですが{BREAK} ここには　下におりる場所が　ないようです。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If there's a path that leads down there, it must lie up ahead."
+SAY "{VOICE=07}「あそこに　通じる道があるとすれば　きっと{BREAK} このさきです。そっちをさがしましょう!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

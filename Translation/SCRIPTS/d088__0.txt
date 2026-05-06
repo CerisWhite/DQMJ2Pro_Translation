@@ -86,11 +86,11 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
-SAY "{VOICE=07}...I am Leonyx, the Divine Battler."
+SAY "{VOICE=07}「……我は　Leonyx。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}It is your power that has revived me.{BREAK}A power that is pure and true.{WAIT}{CLEAR}You have my gratitude."
+SAY "{VOICE=07}「真のチカラをもつ者よ。そなたのおかげで{BREAK} 我は　ここに　復活を果たした。れいを言うぞ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -121,7 +121,7 @@ SYS_3C 0x8
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}(gasp) Behold! That blinding aura!{BREAK}It can be no other..."
+SAY "{VOICE=03}「おお……　おおお…………!{BREAK} その　まばゆいばかりのオーラ……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -160,7 +160,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42480000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}O Great One... You have returned!"
+SAY "{VOICE=03}「レオソードさまが……　かえってきた……!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -182,7 +182,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}...Mynos! It's been a while. I trust you will forgive my...recent behaviour."
+SAY "{VOICE=07}「……マイセン。ひさしいな。{BREAK} こたびのすべて　ゆるしてくれ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -194,21 +194,21 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}O Great One, can it be? Can that humble teeny sanguini really be...?"
+SAY "{VOICE=03}「おそれながら　レオソードさま……。{BREAK} あのモーモンは　あなたの……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}It is true. That frail creature was an incarnation of my true heart..."
+SAY "{VOICE=07}「さよう。あれは　我の聖なる心の化身……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}As the evil cast its baneful shadow over my soul...{WAIT}{CLEAR}...I managed to sever my true heart from my stricken body."
+SAY "{VOICE=07}「じゃあくに　むしばまれる　そのせつな{BREAK} 我は　聖なる心を　この体から　きりはなし……"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}That incarnation of my heart awoke in a far-off land.{WAIT}{CLEAR}It was unaware that it had once belonged to a god."
+SAY "{VOICE=07}「とおく　はなれた地で　めざめたのだ。{BREAK} 神としての　キオクを失ったままな……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -231,7 +231,7 @@ SYS_03 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}How long it spent in that form, how many scouts' hands it passed through...{WAIT}{CLEAR}...that I do not know."
+SAY "{VOICE=07}「その体で　どれほどの時を　すごしたか{BREAK} なん人のマスターの手に　わたったか知れない。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x3f800000
@@ -252,7 +252,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Leonyx"
-SAY "{VOICE=07}All the while, my heart sought its body, dimly aware that it was incomplete."
+SAY "{VOICE=07}「その間　我は　かすかなキオクを　たよりに{BREAK} 自らの体を　さがしもとめたのだ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -289,15 +289,15 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}Until that fateful day when your airship passed over this island."
+SAY "{VOICE=07}「そして　そなたの乗る飛行船が{BREAK} この島の上を通った　あの日……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}My evil body and true heart called out to each other."
+SAY "{VOICE=07}「我の　聖なる心と　じゃあくな体が{BREAK} たがいを　よびあったのである……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}That is why your airship crashed.{BREAK}For that, I apologise sincerely."
+SAY "{VOICE=07}「飛行船が　ついらくしたのは　そのせいなのだ。{BREAK} ほんとうに　わるいことをした。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -314,15 +314,15 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}That airship was taking you to the humans' Monster Scout Challenge."
+SAY "{VOICE=07}「そなたは　人間たちの　バトルGPに出るために{BREAK} あの飛行船に　乗っていたのだったな。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}Now, I wish to help you reach your destination.{WAIT}{CLEAR}Think of it as a way of atoning for my sins."
+SAY "{VOICE=07}「せめてもの　ツミほろぼしのため{BREAK} そなたたちを　その会場まで　おくらせてくれ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}I will send a certain someone to meet you. Please await them in the airship."
+SAY "{VOICE=07}「のちほど　むかえをやろう。{BREAK} 飛行船の中で　まつが　よい。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -338,15 +338,15 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}You are a paragon of scouts.{BREAK}You have both true strength...{WAIT}{CLEAR}...and a heart that is pure."
+SAY "{VOICE=07}「……そなたは　真のやさしさと　強さをもつ{BREAK} いだいなる　マスターであった。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}There will doubtless come a time when I shall lend you my power."
+SAY "{VOICE=07}「我のチカラを　そなたに　たくすときが{BREAK} いずれ　くるであろう。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}Until that time, I bid you farewell.{BREAK}I await the day I meet you again."
+SAY "{VOICE=07}「そのときまで　しばし　おわかれだ。{BREAK} ふたたび　相まみえる日を　まっているぞ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -427,19 +427,19 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42c20000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}...{NAME}, you have revived our god. {WAIT}{CLEAR}For that, you have our eternal gratitude."
+SAY "{VOICE=03}「……{NAME}よ。{BREAK} われらの神の復活　よくぞ　果たしてくれた。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}You will no doubt be spoken of as a legend in your own right."
+SAY "{VOICE=03}「そなたのことは　新たなる伝説として{BREAK} かたりつがれて　いくことだろう。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41a00000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}Ah, what a journey this has been.{BREAK}Now we can finally rest in peace."
+SAY "{VOICE=03}「……やれやれ。ようやく　われも{BREAK} やすらかな　ねむりに　つけるわい。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}Please thank Don Mole and co. for all their - ahem - most funky efforts."
+SAY "{VOICE=03}「Don Moleたちにも　ごくろうであったと{BREAK} 伝えておいてくれんか。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -462,7 +462,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}...Farewell then, young {NAME}...{WAIT}{CLEAR}Thank you for all you've done..."
+SAY "{VOICE=03}「……では　さらばだ。{NAME}よ……。{BREAK} 世話になったな……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

@@ -285,7 +285,7 @@ STORE 0x18 0x1 0x0 0x0 0x41300000
 STORE 0x18 0x1 0x3f800000 0x2 0x42d40000
 SYS_18 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}What is it, Countess? What made you rush down here?"
+SAY "{VOICE=08}「も～　どうしたのよ　The Countessちゃん。{BREAK} とつぜん　こんなところにきて～。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -312,10 +312,10 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x42a00000
 SYS_14 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}You see! There's nothing here! You ARE in a peculiar mood, pugsie-wugsie."
+SAY "{VOICE=08}「なにも　ないじゃないの。{BREAK} おかしな　The Countessちゃんねえ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=08}Let's head back up to the passengers' quarters. This place is filthy."
+SAY "{VOICE=08}「さ　客室に　もどりましょう。{BREAK} ここは　フケツで　いけないわ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -446,7 +446,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42d00000
 SYS_18 0x8 
 STORE 0x18 0x0 0x40c00000 0x2 0x3f800000
 SYS_42 0x8 
-SAY "{VOICE=08}Countess! What has gotten into you!?{BREAK}Is there something in this crate?"
+SAY "{VOICE=08}「も～　いったい　どうしたのよ～?{BREAK} この箱に　なにか入っているの?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -575,7 +575,7 @@ SYS_18 0x8
 SPAWN 0x10 L_36a8
 DATA 0x0000000f
 SYS_42 0x8 
-SAY "{VOICE=08}Eee-YEW!!!"
+SAY "{VOICE=08}「キャァァーーーーーーーーーー!!!!"
 WAIT 0x10 0x2 0x42b40000
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

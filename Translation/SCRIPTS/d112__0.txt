@@ -49,11 +49,11 @@ STORE 0x18 0x0 0x40e00000 0x1 0x0
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Captain Crow"
-SAY "{VOICE=07}I take me hat off to ye, landlubber.{BREAK}But next time will be different!"
+SAY "{VOICE=07}「ふん。すこしは　できるようだな　わかぞう。{BREAK} だが……　つぎは　こうはいかん。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Next time we meet, I'll get ye a permanent address in Davy Jones' Locker!"
+SAY "{VOICE=07}「こんど会ったら　山のモクズにしてやる!{BREAK} おぼえておくがいい!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -74,7 +74,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Captain Crow and his crew fade into the darkness and are gone..."
+SAY "{COLOR=2}キャプテン・Captain Crowたちは{BREAK}どこへともなく　さっていった……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -99,11 +99,11 @@ STORE 0x18 0x0 0x40e00000 0x1 0x0
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Yarrr! It be too miserable to contemplate - bein' beaten by a swab like ye!"
+SAY "{VOICE=07}「……よもや　この私が　またしても{BREAK} お前のような　わかぞうなどに!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Next time, I'll make ye walk the plank! Yar har har!"
+SAY "{VOICE=07}「だが　つぎはない!{BREAK} せいぜい　クビをあらって　まっていろ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -124,7 +124,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Captain Crow and his crew fade into the darkness and are gone..."
+SAY "{COLOR=2}キャプテン・Captain Crowたちは{BREAK}どこへともなく　さっていった……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -149,15 +149,15 @@ STORE 0x18 0x0 0x40e00000 0x1 0x0
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Defeated by a lousy landlubber! It be too much for my pirate pride to take."
+SAY "{VOICE=07}「バカなっ!{BREAK} この私が　お前のような　わかぞう相手に……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Yarrr! I refuse to accept it. The mighty Cap'n Crow bows to no one."
+SAY "{VOICE=07}「いやっ!　私は負けておらん!{BREAK} なぜなら　私が負けたと思っていないからだ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Mark my words! I'll get ye a permanent address in Davy Jones' Locker for this!"
+SAY "{VOICE=07}「おぼえていろ　{NAME}!{BREAK} かならず　山のモクズにしてやるぞ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -178,7 +178,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Captain Crow and his crew fade into the darkness and are gone..."
+SAY "{COLOR=2}キャプテン・Captain Crowたちは{BREAK}どこへともなく　さっていった……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -203,15 +203,15 @@ STORE 0x18 0x0 0x40e00000 0x1 0x0
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Yarrrr!!! This can't be! The mighty Marquis De Léon has been defeated!"
+SAY "{VOICE=07}「くッ!　なんてことだ!{BREAK} セルゲイナスさんが　やられてしまうとは!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}After all that bread and water I gave him, this be how he repays me!?"
+SAY "{VOICE=07}「手もちの　くいものを{BREAK} すべて　くわせてやったというのに……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}He'll walk the plank for this! Retreat! Retreat!{WAIT}{CLEAR}But remember ye this - I will have my revenge!"
+SAY "{VOICE=07}「ちくしょう!　ここは　たいきゃくだッ!{BREAK} おぼえてろよーッ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -232,7 +232,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Captain Crow and his crew fade into the darkness and are gone..."
+SAY "{COLOR=2}キャプテン・Captain Crowたちは{BREAK}どこへともなく　さっていった……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -257,19 +257,19 @@ STORE 0x18 0x0 0x40e00000 0x1 0x0
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Yarrr! I be growin' accustomed to the bitter taste of defeat..."
+SAY "{VOICE=07}「くッ……。{BREAK} この私が　敗北した…だと……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Why do ye stand in the way of Capt'n Crow and his chance at a new life?"
+SAY "{VOICE=07}「お前は　私にふつうの人生さえ{BREAK} 生きてはいかんと言うのか!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}Yarrr!!! There be only one thing to do!"
+SAY "{VOICE=07}「………………{BREAK} いいだろう……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}I be startin' a new life - as one of your team! Make room for me, matey!"
+SAY "{VOICE=07}「そこまで言うなら　お前のもとで{BREAK} 人生を　やりなおそうではないか!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -296,7 +296,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Captain Crow has forced his way onto {NAME}'s team!"
+SAY "{COLOR=2}キャプテン・Captain Crowが{BREAK}無理やり　仲間になった!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 

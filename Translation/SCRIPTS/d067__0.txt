@@ -110,7 +110,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x432a0000
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=03}Oi! Who's that disturbin' my beauty sleep!?"
+SAY "{VOICE=03}「だれや!　ワイのねむりを　さまたげる{BREAK} ぶれいなヤツは!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -125,7 +125,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "The Countess"
-SAY "{VOICE=08}Squeeeak! SQUAAAK!"
+SAY "{VOICE=08}「キューッ!!　キューッ!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -153,7 +153,7 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=03}You piddlin' little pipsqueak! Who are you and how dare you shriek at me?"
+SAY "{VOICE=03}「なんやねん　ワレ。{BREAK} ワイは　お前のことなぞ　知らんで。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -193,7 +193,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43040000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "The Countess"
-SAY "{VOICE=08}Squawk! SQUEEEAAAK!"
+SAY "{VOICE=08}「キューッ!!　キュッキュッキューッ!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -215,7 +215,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_4E 0x8 
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=03}You don't know when to be quiet,{BREAK}do you!? Go on - clear off!"
+SAY "{VOICE=03}「しつこいんじゃ!　あっちゃ　行けや!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -407,7 +407,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x428c0000
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=03}What are you gawpin' at!?{BREAK}Never seen a giant squid before!?"
+SAY "{VOICE=03}「なに　みとんねん?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -421,18 +421,18 @@ DATA 0x00000001
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=03}Wait! You woke me by hackin' away at my tentacles, didn't you?"
+SAY "{VOICE=03}「ははぁん。ゲソを　きりまくって{BREAK} ワイを　おこしたのは　お前やな?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Khalamari"
-SAY "{VOICE=03}My tentacles grow back in no time,{BREAK}so I can live with that.{WAIT}{CLEAR}But disturbin' my beauty sleep isn't somethin' I can overlook so easily."
+SAY "{VOICE=03}「ゲソは　すぐ生えてくるから　いいものの{BREAK} ワイのねむりを　さまたげたんは　ゆるせん!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=03}It's a shame you won't live to regret your mistake!"
+SAY "{VOICE=03}「自分の　しでかしたこと……{BREAK} じごくで　こうかいせぇや!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -517,7 +517,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "The Countess"
-SAY "{VOICE=08}Squawk! SQUEEEAAAK!"
+SAY "{VOICE=08}「キューッ!!　キューッ!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -545,7 +545,7 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=03}You piddlin' little pipsqueak! Who are you and how dare you shriek at me?"
+SAY "{VOICE=03}「なんやねん　ワレ。{BREAK} ワイは　お前のことなぞ　知らんで。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -585,7 +585,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43040000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "The Countess"
-SAY "{VOICE=08}Squawk! SQUEEEAAAK!"
+SAY "{VOICE=08}「キューッ!!　キュッキュッキューッ!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -607,7 +607,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_4E 0x8 
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=03}You don't know when to be quiet, do you!? Go on - clear off!"
+SAY "{VOICE=03}「しつこいんじゃ!　あっちゃ　行けや!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -799,7 +799,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x428c0000
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=03}You!? You're back!?"
+SAY "{VOICE=03}「なんや?　お前　また　きたんか。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -813,14 +813,14 @@ DATA 0x00000001
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=03}You think I've forgotten that you disturbed my beauty sleep?"
+SAY "{VOICE=03}「グッスリ　ねむってたんを　おこされた　うらみ{BREAK} ワイは　まだ　わすれてへんで。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=03}It's a shame you won't live to regret your mistake!"
+SAY "{VOICE=03}「自分の　しでかしたこと……{BREAK} じごくで　こうかいせぇや!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

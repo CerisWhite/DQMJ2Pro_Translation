@@ -171,13 +171,13 @@ SYS_16 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Melonie"
-SAY "{VOICE=08}Captain Mayday and {NAME}! Fancy meetin' you 'ere!"
+SAY "{VOICE=08}「ああーー!!　船長さーん!{BREAK} それに　船員さんもー!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x42200000
 SYS_9C 0x8 
 SETNAME "Melonie"
-SAY "{VOICE=08}An' 'ere I was thinkin' I'd 'ave to stay out 'ere all on me lonesome..."
+SAY "{VOICE=08}「むかえに　きてくれたん……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -287,7 +287,7 @@ STORE 0x18 0x1 0x0 0x2 0x431a0000
 SYS_35 0x8 
 SYS_42 0x8 
 SETNAME "Melonie"
-SAY "{VOICE=08}Eeehhh!!!"
+SAY "{VOICE=08}「キャァァァーーーーッ!!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -332,7 +332,7 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Jamirus"
-SAY "{VOICE=07}What d'you make of her, Father?{BREAK}Not bad looking, is she?"
+SAY "{VOICE=07}「どうだい　おやじー!{BREAK} なかなかの　ベッピンさんだろう?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -345,7 +345,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Gemon"
-SAY "{VOICE=03}You're not wrong! C'mon, son -{BREAK}let's take her back with us!"
+SAY "{VOICE=03}「グェヘヘヘ。気にいったぜ!{BREAK} さっそく　うちに　つれていこうじゃねえか!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -436,7 +436,7 @@ SPAWN 0x10 L_2ef8
 DATA 0x00000009
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Melonie!y"
+SAY "{VOICE=07}「ピッ…Melonieくんっ!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -450,7 +450,7 @@ SYS_03 0x8
 STORE 0x18 0x0 0x41900000 0x2 0x3f800000
 SYS_42 0x8 
 SETNAME "Melonie"
-SAY "{VOICE=08}Eeehhh!!! Captain Mayday! {NAME}! Please, 'elp me!!!"
+SAY "{VOICE=08}「キャァァァーーーー!!!{BREAK} 船長さーん　船員さあーん　たすけてーー!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -492,11 +492,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Dagnabit! They got her! Who knew Jamirus would have reinforcements?"
+SAY "{VOICE=07}「クソッ!　Melonieくんが　さらわれてしまった!{BREAK} あのJamirusに　仲間がいたとは……!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Did you see the size of that thing, Rookie!?{WAIT}{CLEAR}Could THAT be the giant bird you were after?"
+SAY "{VOICE=07}「それにしても　なんてデカい鳥だ!{BREAK} まさか　アイツが　その巨鳥なのか……!?"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42480000

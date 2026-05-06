@@ -82,7 +82,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41200000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} escorts Eugene and Dr Lump back to the Albatross..."
+SAY "{COLOR=2}{NAME}は　Eugene Pooleと　Dr. Lumpを{BREAK}ひきつれ　飛行船に　もどった……。"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x431e0000
@@ -91,7 +91,7 @@ WAIT 0x10 0x2 0x41f00000
 STORE 0x18 0x1 0x0 0x2 0x42880000
 SYS_32 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Dr Lump immediately makes himself comfortable in the monster pen."
+SAY "{COLOR=2}Dr. Lumpは　預かり所の中に{BREAK}入っていった。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -154,15 +154,15 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}The historical significance of this discovery is staggering...{WAIT}{CLEAR}Just think - a Monster Scout Challenge, here on this remote island!"
+SAY "{VOICE=07}「……この島に　バトルGPがあったなんて{BREAK} れきしてき　大はっけんじゃないですかっ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Archie Logg"
-SAY "{VOICE=07}Unless I'm very much mistaken, those moles know more than they're letting on."
+SAY "{VOICE=07}「お話をきくかぎり　そのMolesなら{BREAK} なにか知っているに　ちがいありませんね!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Archie Logg"
-SAY "{VOICE=07}So the only way to learn more is to compete in that Monster Scout Challenge!"
+SAY "{VOICE=07}「そのバトルGP　参加するしかありませんよ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -194,11 +194,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Hold yer horses a wee second, laddie!{WAIT}{CLEAR}Didnae yer mother ever tell ye never tae trust a mole?"
+SAY "{VOICE=07}「まてよ!　しょせん　モグラの言うことだろ?{BREAK} そんなカンタンに　信用すんなって!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}We've no time tae be rollin' aroond in the dirt with a bunch o' moles.{WAIT}{CLEAR}We've got passengers that require rescuin', ye big dunderhead!"
+SAY "{VOICE=07}「Molesの　うさんくせえGPより{BREAK} 乗員の　そうさくのほうが　いまは大事だろ!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -218,11 +218,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42c20000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}Gentlemen! A little decorum, if you please! {WAIT}{CLEAR}Now, both of you make excellent points..."
+SAY "{VOICE=03}「まあまあ　おちつきなされ。{BREAK} ふたりとも言ってることは　もっともじゃわい。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}...but I'm afraid all this excitement has taken the wind out of me."
+SAY "{VOICE=03}「とりあえず　わしは　もうつかれた。{BREAK} すこし　休ませてくれんか。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -244,7 +244,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0xc1f00000
 SYS_101 0x8 
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}I am going to retire for the night.{BREAK}I recommend you do the same..."
+SAY "{VOICE=03}「お前さんも　きょうは　つかれたじゃろう。{BREAK} ゆっくり　ねて　休んでおくれ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

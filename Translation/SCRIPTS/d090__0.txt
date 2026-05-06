@@ -221,15 +221,15 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Well, here we are, Rookie."
+SAY "{VOICE=07}「さあ　着いたぞ　{NAME}。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}But while you're still my deckhand,{BREAK}I've got one last mission for you."
+SAY "{VOICE=07}「だが　そとに出る前に　みならい船員として{BREAK} 最後の仕事を　ひきうけてくれ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Intelligence reports that a hostile mouse may have infiltrated my airship."
+SAY "{VOICE=07}「どうやら　ネズミが　いっぴき{BREAK} この飛行船に　まぎれこんでいるようなのだ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -251,11 +251,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Head down to the cargo hold below this room and engage the enemy! Got it?"
+SAY "{VOICE=07}「客室の下の　船室に行って{BREAK} そいつを　みつけてきてくれないか?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Now this mouse may have no malicious intent, but all the same..."
+SAY "{VOICE=07}「ワルさをするネズミではないから　心配いらん。{BREAK} ただ……"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -300,7 +300,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}...I got a funny feeling this ain't your regular run-of-the-mill rodent.{WAIT}{CLEAR}Okay, Rookie! Move out!"
+SAY "{VOICE=07}「あまり　すなおなネズミじゃ　ないようだからな{BREAK} よろしくたのむよ。{NAME}。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

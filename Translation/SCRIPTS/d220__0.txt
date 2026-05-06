@@ -66,11 +66,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x43480000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}The tension is building as we prepare for the tournament's grand finale!"
+SAY "{VOICE=07}「さあ　バトルGPも　いよいよ　大づめ!{BREAK} ついに　決勝戦が　やってきました!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Referee"
-SAY "{VOICE=07}Let's introduce the two gifted young scouts facing each other in the final..."
+SAY "{VOICE=07}「さっそく　その決勝戦を戦う{BREAK} マスターのしょうかいだーっ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -117,7 +117,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41600000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}First, the tournament's dark horse, the rank outsider, the joker in the pack...{WAIT}{CLEAR}It could only be enigmatic former airship deckhand, {NAME}!"
+SAY "{VOICE=07}「まずは　無名のダークホース!{BREAK} みならい船員　{NAME}ーー!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -163,7 +163,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}And facing him today, our reigning champion - the seemingly invincible..."
+SAY "{VOICE=07}「対するお相手は　その強さ　まさに無敵!{BREAK} 前大会のチャンピオン!　ミスーーー……"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x42780000
@@ -174,7 +174,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41f00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x42200000
 SETNAME "Referee"
-SAY "{VOICE=07}...Solitaire!"
+SAY "{VOICE=07}「Solitaireーーー!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -188,15 +188,15 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43140000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}So you were the deckhand on board that mysterious disappearing airship?"
+SAY "{VOICE=08}「あなた　謎の　しっそうをとげた{BREAK} 飛行船の　船員ですってね?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}Can you believe I was originally set to travel on that flying junkyard!?{WAIT}{CLEAR}That was a close shave alright!{BREAK}Guess I was just born lucky..."
+SAY "{VOICE=08}「あの飛行船ね　アタシも乗る　よていだったの。{BREAK} ホント　キャンセルして　大せいかいっ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}Anyway, you may be good for an amateur, but I'll show you how the pros do it."
+SAY "{VOICE=08}「あなたは　しょせん　アマチュア……。{BREAK} カクのちがいを　思い知らせてあげるわっ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -218,7 +218,7 @@ SYS_8C 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}Sorry to butt in, but we need to go over the rules before we get started."
+SAY "{VOICE=07}「もりあがってるとこ　ちょーっと　ゴメンね!{BREAK} ここで　大会ルールの　おさらいだ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x428e0000
@@ -229,15 +229,15 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41f00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Referee"
-SAY "{VOICE=07}It's a one-round, no-time-limit battle to the bitter end.{WAIT}{CLEAR}There can be only one winner!"
+SAY "{VOICE=07}「バトルは　時間せいげんなしの　1本勝負。{BREAK} 相手が　たおれるまでの　サバイバルマッチ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Referee"
-SAY "{VOICE=07}There'll be no switching substitutes, fleeing, scouting or using items!"
+SAY "{VOICE=07}「もちろん　入れかえ　にげだし{BREAK} スカウトこうい　アイテム使用は　キンシだ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Referee"
-SAY "{VOICE=07}Okay! It's time for the final!{BREAK}Let's find out who Lady Luck favours."
+SAY "{VOICE=07}「それじゃあ　いくぜ　バトルGP決勝戦!{BREAK} 勝利の　めがみが　ほほえむのは……"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -263,7 +263,7 @@ SYS_8C 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}Will our reigning champion, Solitaire, retain her crown?"
+SAY "{VOICE=07}「れんぞく優勝を決めたい王者　Solitaireかーー!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -289,7 +289,7 @@ SYS_8C 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}Or will it be this year's previously unknown sensation, {NAME}?"
+SAY "{VOICE=07}「はたまた　ざっそうだましい{BREAK} 無名のマスター　{NAME}かーー!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -368,7 +368,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x40a00000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}...Ready! ...Set! ...FIGHT!!!"
+SAY "{VOICE=07}「レディィィィ…………!{BREAK} ファイッッッッ!!"
 WAIT 0x10 0x2 0x41c80000
 STORE 0x18 0x1 0x0 0x2 0x42200000
 SYS_9C 0x8 

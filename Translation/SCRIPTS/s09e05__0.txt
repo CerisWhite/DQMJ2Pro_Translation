@@ -1226,7 +1226,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1340,7 +1340,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4551,7 +4551,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force is somehow blocking the way ahead."
+SAY "{COLOR=2}空間が　ゆがんでいて{BREAK}きた道に　もどってしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4588,7 +4588,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force is somehow blocking the way ahead."
+SAY "{COLOR=2}空間が　ゆがんでいて{BREAK}きた道に　もどってしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4625,7 +4625,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force is somehow blocking the way ahead."
+SAY "{COLOR=2}空間が　ゆがんでいて{BREAK}きた道に　もどってしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4662,7 +4662,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force is somehow blocking the way ahead."
+SAY "{COLOR=2}空間が　ゆがんでいて{BREAK}きた道に　もどってしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4819,7 +4819,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force is somehow blocking the way ahead."
+SAY "{COLOR=2}空間が　ゆがんでいて{BREAK}きた道に　もどってしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4856,7 +4856,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force is somehow blocking the way ahead."
+SAY "{COLOR=2}空間が　ゆがんでいて{BREAK}きた道に　もどってしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4893,7 +4893,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force is somehow blocking the way ahead."
+SAY "{COLOR=2}空間が　ゆがんでいて{BREAK}きた道に　もどってしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4930,7 +4930,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force is somehow blocking the way ahead."
+SAY "{COLOR=2}空間が　ゆがんでいて{BREAK}きた道に　もどってしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5157,7 +5157,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force blocks the way.{WAIT}{CLEAR}{NAME} is sent back to where he began."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5232,7 +5232,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force blocks the way.{WAIT}{CLEAR}{NAME} is sent back to where he began."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5307,7 +5307,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force blocks the way.{WAIT}{CLEAR}{NAME} is sent back to where he began."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5386,7 +5386,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force is somehow blocking the way ahead."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5451,7 +5451,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Somewhere, a strange, terrible voice calls out."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5526,7 +5526,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Somewhere, a strange, terrible voice calls out."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5601,7 +5601,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force blocks the way.{WAIT}{CLEAR}{NAME} is sent back to where he began."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5680,7 +5680,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force blocks the way.{WAIT}{CLEAR}{NAME} is sent back to where he began."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5745,7 +5745,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force blocks the way.{WAIT}{CLEAR}{NAME} is sent back to where he began."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6768,7 +6768,7 @@ WAIT 0x10 0x2 0x41c00000
 STORE 0x18 0x1 0x0 0x2 0x424c0000
 SYS_49 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}There is no response. It appears to just be a pillar."
+SAY "{COLOR=2}どこから　ともなく{BREAK}ふしぎなこえが　きこえる……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6806,13 +6806,13 @@ MATH_SUB 0x20 0x0 0x42fa0000 0x0 0x42fa0000 0x2 0x3f800000
 JMP_ABS 0xc L_1a698
 L_1a698:
 SYS_42 0x8 
-SAY "{VOICE=08}Rigor Mortex is sealed beyond this door."
+SAY "{VOICE=08}「この　トビラのむこうに{BREAK} Rigor Mortexが　ふうじられています……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x42fa0000
 SYS_A8 0x8 
-SAY "{VOICE=08}To reach Rigor Mortex, {E322} more gem{E323}{E326}s{E327} must be destroyed."
+SAY "{VOICE=08}「Rigor Mortexのもとへ　たどりつくために{BREAK} こわす　ほうせきは　あと　{E322}つ……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6831,7 +6831,7 @@ STORE 0x18 0x0 0x42f80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x0
 JMP_IFNOT 0xc L_1a8ec
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}'s team is healed."
+SAY "{COLOR=2}はんのうが　ない。{BREAK}ただの　はしらのようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6870,53 +6870,53 @@ SYS_27 0x8
 STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1ab5c
-SAY "{VOICE=03}The pillar carved with the {20E} image is now the key."
+SAY "{VOICE=03}「いまは『{20E}』が　きざまれた　はしらが{BREAK} かの地への　カギとなっているようだ。"
 JMP_ABS 0xc L_1ae88
 L_1ab5c:
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1abd0
-SAY "{VOICE=03}The pillar carved with the {210} image is now the key."
+SAY "{VOICE=03}「いまは『{210}』が　きざまれた　はしらが{BREAK} かの地への　カギとなっているようだ。"
 JMP_ABS 0xc L_1ae88
 L_1abd0:
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x40000000
 JMP_IFNOT 0xc L_1ac44
-SAY "{VOICE=03}The pillar carved with the {211} image is now the key."
+SAY "{VOICE=03}「いまは『{211}』が　きざまれた　はしらが{BREAK} かの地への　カギとなっているようだ。"
 JMP_ABS 0xc L_1ae88
 L_1ac44:
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x40400000
 JMP_IFNOT 0xc L_1acb8
-SAY "{VOICE=03}The pillar carved with the {212} image is now the key."
+SAY "{VOICE=03}「いまは『{212}』が　きざまれた　はしらが{BREAK} かの地への　カギとなっているようだ。"
 JMP_ABS 0xc L_1ae88
 L_1acb8:
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x40800000
 JMP_IFNOT 0xc L_1ad2c
-SAY "{VOICE=03}The pillar carved with the {20F} image is now the key."
+SAY "{VOICE=03}「いまは『{20F}』が　きざまれた　はしらが{BREAK} かの地への　カギとなっているようだ。"
 JMP_ABS 0xc L_1ae88
 L_1ad2c:
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x40a00000
 JMP_IFNOT 0xc L_1ada0
-SAY "{VOICE=03}The pillar carved with the {214} image is now the key."
+SAY "{VOICE=03}「いまは『{214}』が　きざまれた　はしらが{BREAK} かの地への　カギとなっているようだ。"
 JMP_ABS 0xc L_1ae88
 L_1ada0:
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x40c00000
 JMP_IFNOT 0xc L_1ae14
-SAY "{VOICE=03}The pillar carved with the {213} image is now the key."
+SAY "{VOICE=03}「いまは『{213}』が　きざまれた　はしらが{BREAK} かの地への　カギとなっているようだ。"
 JMP_ABS 0xc L_1ae88
 L_1ae14:
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x40e00000
 JMP_IFNOT 0xc L_1ae88
-SAY "{VOICE=03}The pillar carved with the {215} image is now the key."
+SAY "{VOICE=03}「いまは『{215}』が　きざまれた　はしらが{BREAK} かの地への　カギとなっているようだ。"
 JMP_ABS 0xc L_1ae88
 L_1ae88:
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}The key pillar can be found in the new land that has appeared in the Dark World."
+SAY "{VOICE=03}「カギとなる　はしらは　新しく{BREAK} 魔界に　あらわれた地の　どこかにある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Navigate to where the new land has appeared using the lower screen map."
+SAY "{VOICE=03}「したがめんの地図を　みながら{BREAK} 新たな地をしめす場所に　入ってみるがよい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}When light is cast upon the key pillar, a way opens into the world of light."
+SAY "{VOICE=03}「カギとなる　はしらに　光がともったとき{BREAK} 光あふれる地への道が　ひらかれよう……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7015,10 +7015,10 @@ STORE 0x18 0x0 0x43080000 0x1 0x0
 CMP_EQ 0x18 0x0 0x43080000 0x2 0x42ce0000
 JMP_IFNOT 0xc L_1b60c
 SYS_42 0x8 
-SAY "{VOICE=03}To return to the world of light,{BREAK}cast light upon the key pillar."
+SAY "{VOICE=03}「ふたたび　光あふれる地に　のぞむならば{BREAK} カギとなる　はしらに　光をともしたまえ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}If you wish to find the key, read what is written on the red pillar."
+SAY "{VOICE=03}「つぎの　カギとなる　はしらを　知りたくば{BREAK} あかいはしらを　調べるがよい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

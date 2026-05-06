@@ -86,7 +86,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x43160000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}Ha! What a frightful idiot that monster is!"
+SAY "{VOICE=08}「ハァ　ハァ……。なによ　このモンスター……。{BREAK} じょうだんは　カオだけにしてほしいわ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -131,7 +131,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}But at least that wall of ice has been smashed to smithereens!"
+SAY "{VOICE=08}「まあ　こおりの壁が　コナゴナに……!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -190,15 +190,15 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42d40000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}...Erm. Yes! It's...erm...exactly as I predicted!"
+SAY "{VOICE=08}「ホ…ホーホホホホ!　わたくしの　よみ通りね!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}You see, I just knew lighting a fire by that wall of ice was the solution."
+SAY "{VOICE=08}「こおりの壁は　火をつけると{BREAK} なんとか　なると　思ったわけよ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}Well, I didn't expect a doltish monster to get excited by the flames and charge."
+SAY "{VOICE=08}「火に　こうふんしたモンスターが{BREAK} トッシンしてきたのは　びっくりだけど。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -222,11 +222,11 @@ SYS_1F 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}Yes, it seems I've got everything well in hand.{WAIT}{CLEAR}...Which makes you rather surplus to requirements, wouldn't you say?"
+SAY "{VOICE=08}「……ぷっ。あなた　しもべのくせに{BREAK} やくに　たたないのね。オーホッホッホ……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}Anyway, I haven't tried the west yet,{BREAK}so I'm going to head there now."
+SAY "{VOICE=08}「それでは　これまで行けなかった{BREAK} にしのほうがくに　行ってみますわよ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

@@ -1222,7 +1222,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1336,7 +1336,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3762,10 +3762,10 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}You are a brave one, {NAME}."
+SAY "{VOICE=07}「よくきたな　{NAME}よ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Have you come to do battle with me again...the true me?{VOICE=09}"
+SAY "{VOICE=07}「真のすがたを　とりもどした我と{BREAK} ふたたび　戦ってくれるか?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -3783,16 +3783,16 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 CALL_REL 0xc L_110b0
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}Yes. The time has come for us to cross swords at last."
+SAY "{VOICE=07}「そなたと　剣をまじえる時が{BREAK} ついに　きたのだな……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I am he that is revered as the Divine Battler."
+SAY "{VOICE=07}「我は　戦の神と　あがめられし者!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Let us do battle now and I shall prove myself worthy of that name."
+SAY "{VOICE=07}「その名に　はじぬよう{BREAK} 全力で　そなたに　いどませてもらうぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Now, let battle commence!"
+SAY "{VOICE=07}「いざ!　参らん!!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3887,22 +3887,22 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}Rigor Mortex was a weapon foolish humans built to surpass my power."
+SAY "{VOICE=07}「Rigor Mortexは　おろかな人間たちが{BREAK} 我を　こえるために　つくりだした兵器……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But the humans could not control their creation. Many lives were lost."
+SAY "{VOICE=07}「だが　人間たちも　ヤツを　せいぎょできず{BREAK} おおくの命が　うばわれてしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Behind me lies the realm known as the Dark World in which the monster hides."
+SAY "{VOICE=07}「そして　我のうしろに　みえるのが{BREAK} いま　ヤツのひそんでいる魔界だ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I cannot move from this place. You must walk around behind me."
+SAY "{VOICE=07}「我は　ここを　うごけぬゆえ　我を{BREAK} まわりこむように　うしろにいくのだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I beg of you. Take up the gauntlet and destroy Rigor Mortex."
+SAY "{VOICE=07}「たのむ。いまわしき　Rigor Mortexを{BREAK} そなたの手で　ほうむってきてくれ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Do not quail. By defeating me, you have shown yourself worthy of this task."
+SAY "{VOICE=07}「我にも　うち勝てる　そなたならば{BREAK} かならずや　できるはずだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3936,13 +3936,13 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}The evil miasma has dispersed.{BREAK}You have defeated Rigor Mortex."
+SAY "{VOICE=07}「じゃあくな気配が　きえた……。{BREAK} Rigor Mortexを　ほろぼしてくれたか……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}All hail the conquering hero, {NAME}!"
+SAY "{VOICE=07}「さすがだな　{NAME}。{BREAK} そなたは　まことの　えいゆうだ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}From god to hero, I grant this gift.{BREAK}You have proven yourself most worthy."
+SAY "{VOICE=07}「これを　うけとってくれ。{BREAK} 我からの　せめてもの　れいだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3958,13 +3958,13 @@ SYS_43 0x8
 WAIT 0x10 0x2 0x40a00000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}Now that Rigor Mortex is defeated, the Dark World has been transformed."
+SAY "{VOICE=07}「Rigor Mortexが　たおされたことで{BREAK} 魔界のようすも　かわったようだぞ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you wish to become stronger still, enter that world again, explore it, grow mighty."
+SAY "{VOICE=07}「さらなるチカラを　手に入れるため{BREAK} いまいちど　みてまわると　よいだろう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You are my saviour. You are my island's saviour. We are forever in your debt."
+SAY "{VOICE=07}「そなたには　ほんとうに　世話になった。{BREAK} 心のそこから　カンシャしているぞ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3992,13 +3992,13 @@ SYS_02 0x8
 SYS_03 0x8 
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}Now that Rigor Mortex is defeated, the Dark World has been transformed."
+SAY "{VOICE=07}「Rigor Mortexが　たおされたことで{BREAK} 魔界のようすも　かわったようだぞ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you wish to become stronger still, enter that world again, explore it, grow mighty."
+SAY "{VOICE=07}「さらなるチカラを　手に入れるため{BREAK} いまいちど　みてまわると　よいだろう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You are my saviour. You are our island's saviour. We are forever in your debt."
+SAY "{VOICE=07}「そなたには　ほんとうに　世話になった。{BREAK} 心のそこから　カンシャしているぞ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4188,12 +4188,12 @@ CMP_EQ 0x18 0x0 0x42ac0000 0x2 0x40a00000
 JMP_IFNOT 0xc L_10908
 SYS_42 0x8 
 SETNAME "The Countess"
-SAY "{VOICE=08}...Squea...th... Plth...UARK! ...Flrrrk."
+SAY "{VOICE=08}「…フ…フシュー…………。{BREAK} フシュルー…………。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}It's almost as if the Countess is trying to say something..."
+SAY "{COLOR=2}The Countessは　なにかを　うったえるように{BREAK}こちらを　みている。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

@@ -146,7 +146,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42b40000
 SYS_42 0x8 
-SAY "{VOICE=07}...You cannot hope to escape from this island..."
+SAY "{VOICE=07}「……お前たちは　もう{BREAK} この島から　のがれられない……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -203,7 +203,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41f00000
 SYS_3C 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{VOICE=07}No accident brought you here. For this is the land you have been seeking..."
+SAY "{VOICE=07}「飛行船の　いきさきに　くるいはなかった。{BREAK} ……ここが　お前たちの　めざした地だ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -298,10 +298,10 @@ STORE 0x18 0x1 0x0 0x2 0x42e60000
 SYS_33 0x8 
 WAIT 0x10 0x2 0x41880000
 SYS_42 0x8 
-SAY "{VOICE=07}You must win..."
+SAY "{VOICE=07}「勝て…………。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=07}You must win...and win...and win again. That is your only hope of survival..."
+SAY "{VOICE=07}「勝って　勝って　勝ちまくれ……。{BREAK} お前たちの生きのこるすべは　それしかない。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

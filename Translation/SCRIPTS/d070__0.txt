@@ -84,7 +84,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42d00000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}My darling pugsie-wugsie! What are you doing in a place like this?"
+SAY "{VOICE=08}「The Countessちゃん!　みつけたわよ!{BREAK} こんなところに　いたのね!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -174,7 +174,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}I was simply frantic with worry. I shan't let you out of my sight again!"
+SAY "{VOICE=08}「わたくし　とっても心配したのよ!{BREAK} もう　はなさないんだからっ!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -232,7 +232,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}I say! It's {NAME}! It seems you've proved useful once again."
+SAY "{VOICE=08}「アラ?　{NAME}じゃない?{BREAK} また　あなたに　たすけられたようね。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -290,7 +290,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42d40000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}Here, take this. It's just a bauble,{BREAK}but I'm sure it will thrill you..."
+SAY "{VOICE=08}「これ　とっといて。{BREAK} ささやかだけど　わたくしのおれいよ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -334,7 +334,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}Now then, dear Countess. Let's return to that wretched rustbucket."
+SAY "{VOICE=08}「さあて　The Countessちゃん。{BREAK} 飛行船に　もどりましょうね。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -348,7 +348,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "The Countess"
-SAY "{VOICE=08}Squawk! Squik!"
+SAY "{VOICE=08}「キュ～ン……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

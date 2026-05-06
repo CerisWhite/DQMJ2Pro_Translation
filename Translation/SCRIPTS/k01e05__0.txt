@@ -1217,7 +1217,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1331,7 +1331,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3586,20 +3586,20 @@ JMP_IFNOT 0xc L_deb0
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40a00000
 JMP_IFNOT 0xc L_dd98
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} can hear passengers talking on the upper floor."
+SAY "{COLOR=2}かいだんの　むこうから{BREAK}乗客たちの話しごえが　きこえる。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}Oh! Countess, darling, where in the world are you going?"
+SAY "{VOICE=08}「あらっ?{BREAK} The Countessちゃん　どこ行くの?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Countess! Come back at once. There's nothing down there but filthy old boxes!"
+SAY "{VOICE=08}「The Countessちゃん　まちなさい!{BREAK} そっちには　なにもないわよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Someone's coming. It might be a good idea to get back in that box..."
+SAY "{COLOR=2}だれかが　こちらに　やってくる……!{BREAK}にもつ箱に　かくれたほうが　よさそうだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3611,12 +3611,12 @@ L_dd98:
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40c00000
 JMP_IFNOT 0xc L_dea4
 SYS_42 0x8 
-SAY "{VOICE=08}Hm? What is it, pumpkins?{BREAK}Is there something down there...?"
+SAY "{VOICE=08}「ねえっ　The Countessちゃんってば!{BREAK} この下に　なにかあるの?　まってよぉ～。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Someone's coming. It really might be best to get back in that box..."
+SAY "{COLOR=2}だれかが　こちらに　やってくる……!{BREAK}にもつ箱に　かくれたほうが　よさそうだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3649,7 +3649,7 @@ WAIT 0x10 0x2 0x41200000
 CMP_EQ 0x18 0x0 0x42a40000 0x2 0x0
 JMP_IFNOT 0xc L_e2e0
 SYS_42 0x8 
-SAY "{COLOR=2}Hide in the box?{VOICE=09}"
+SAY "{COLOR=2}箱の中に　かくれますか?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4000,22 +4000,22 @@ CMP_EQ 0x18 0x0 0x42ce0000 0x2 0x0
 JMP_IFNOT 0xc L_f8e4
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}That Solitaire lassie's a cheeky one, stowin' away onboord ma ship like that."
+SAY "{VOICE=07}「あのSolitaireってヤツ　この船に{BREAK} しのびこむたあ　ふとどきなヤローだぜ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I suppose she's too high and mighty tae jest ask for a ride like anyone else."
+SAY "{VOICE=07}「よっぽど　オレらに　あたま下げて{BREAK} つれてきてもらうのが　イヤだったんだな。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ach, but never mind that noo..."
+SAY "{VOICE=07}「おお　そうだ!　そんなことより……"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Not only did I fix ma engines, I re-stocked the vendin' machine with new items.6"
+SAY "{VOICE=07}「飛行船の修理をするついでに{BREAK} 自販機に　新しい売りものを　入れといたぞ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But before ye can buy them, ye'll need tae add more parts tae the machine."
+SAY "{VOICE=07}「ただし　そいつを買うには　ちいさなパーツを{BREAK} たくさん　あつめてこなきゃ　ダメなんだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I'd do it myself, but a chief engineer can only do so many things at once."
+SAY "{VOICE=07}「すまねえな。パーツを　あつめるとこまで{BREAK} いそがしくて　手が　まわんなかったのよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4030,13 +4030,13 @@ JMP_ABS 0xc L_f8f8
 L_f8f8:
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Not only did I fix ma engines, I re-stocked the vendin' machine with new items.6"
+SAY "{VOICE=07}「飛行船の修理をするついでに{BREAK} 自販機に　新しい売りものを　入れといたぞ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But before ye can buy them, ye'll need tae add more parts tae the machine."
+SAY "{VOICE=07}「ただし　そいつを買うには　ちいさなパーツを{BREAK} たくさん　あつめてこなきゃ　ダメなんだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I'd do it myself, but a chief engineer can only do so many things at once."
+SAY "{VOICE=07}「すまねえな。パーツを　あつめるとこまで{BREAK} いそがしくて　手が　まわんなかったのよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4060,19 +4060,19 @@ STORE 0x18 0x0 0x42ce0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ce0000 0x2 0x0
 JMP_IFNOT 0xc L_ff54
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} introduces himself and explains what he is doing on board."
+SAY "{COLOR=2}{NAME}は{BREAK}みならい船員として　あいさつをした。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}Nice to meet you.{BREAK}I'm Archie.{WAIT}{CLEAR}If something's ancient, antique or arcane, then I want to know about it!"
+SAY "{VOICE=07}「これはどうも　ごていねいに。{BREAK} ボクは　こうこがくしゃの　Archie Logg。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}I travel the world seeking to learn more about monsters and their origins."
+SAY "{VOICE=07}「こうして　世界中を　旅しながら{BREAK} モンスターのルーツを　調べているんですよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I can't wait to see the unusual monsters at the Monster Scout Challenge!"
+SAY "{VOICE=07}「バトルGPには　めずらしいモンスターも{BREAK} カオを出すことでしょう。たのしみだなあ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4125,10 +4125,10 @@ JMP_ABS 0xc L_ff68
 L_ff68:
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}For monsterologists, the Monster Scout Challenge is the place to be."
+SAY "{VOICE=07}「こうこがくしゃのボクにとって　バトルGPは{BREAK} モンスターのルーツを知る　チャンスなんです。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Just think! Rare, unique monsters from every corner of the world... I can't wait!"
+SAY "{VOICE=07}「世界中から　めずらしいモンスターが{BREAK} あつまってきますからね。たのしみだなあ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4140,10 +4140,10 @@ CMP_EQ 0x18 0x0 0x42c80000 0x2 0x41200000
 JMP_IFNOT 0xc L_10180
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}For monsterologists, the Monster Scout Challenge is the place to be."
+SAY "{VOICE=07}「こうこがくしゃのボクにとって　バトルGPは{BREAK} モンスターのルーツを知る　チャンスなんです。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Just think! Rare, unique monsters from every corner of the world... I can't wait!"
+SAY "{VOICE=07}「世界中から　めずらしいモンスターが{BREAK} あつまってきますからね。たのしみだなあ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4153,7 +4153,7 @@ CMP_EQ 0x18 0x0 0x42c80000 0x2 0x41400000
 JMP_IFNOT 0xc L_10230
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}Hmm... What could this shaking be?{BREAK}Have we entered a storm system?"
+SAY "{VOICE=07}「むむむ……。なんですかね　この　ゆれは?{BREAK} あらしの中にでも　入ったのかな?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4163,10 +4163,10 @@ CMP_EQ 0x18 0x0 0x42c80000 0x2 0x41500000
 JMP_IFNOT 0xc L_1033c
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}What was that shudder that ran through the ship...?"
+SAY "{VOICE=07}「さきほどの　すごいおとと　しんどうは{BREAK} いったい　なんですか!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Is something going on outside?{BREAK}Are we in danger?{WAIT}{CLEAR}You're a member of the crew now.{BREAK}Tell us what's going on!"
+SAY "{VOICE=07}「この船のそとで　なにが　おきてるんです!?{BREAK} おしえてくださいよ!　船員さん!!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4186,10 +4186,10 @@ CMP_EQ 0x18 0x0 0x42c60000 0x2 0x40c00000
 JMP_IFNOT 0xc L_104ac
 SYS_42 0x8 
 SETNAME "Melonie"
-SAY "{VOICE=08}(sniffle) It's all my fault, innit?{BREAK}I'm so sorry, Captain..."
+SAY "{VOICE=08}「グスン　グスン……。{BREAK} わたしのせいで　船長さんが……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Please, {NAME}, do somefin, will ya?{WAIT}{CLEAR}Save the Captain, or I'll never forgive meself!"
+SAY "{VOICE=08}「おねがいします。{NAME}さん!{BREAK} 船長さんを　たすけてあげてください!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4205,13 +4205,13 @@ CMP_EQ 0x18 0x0 0x42c80000 0x2 0x0
 JMP_IFNOT 0xc L_1066c
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}Normally, of course, you wouldn't catch me dead in a place like this.{WAIT}{CLEAR}But little diddums-widdums needs her Mummy... Don't you, darling?"
+SAY "{VOICE=08}「こんなフケツなとこ　ホントは　いたくないけど{BREAK} このコのそばに　いてあげないとね……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Still, I can't believe we're going along with those mangy moles.{WAIT}{CLEAR}'Trust in the forces of fate'? What tosh!"
+SAY "{VOICE=08}「それにしても　モグラを信じて{BREAK} ウンメイに　身をゆだねろだなんて……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I rather think that Empyrea may not be the saviour some of us hope for..."
+SAY "{VOICE=08}「そのEmpyreaとかいう　巨鳥も{BREAK} とんだ　くわせもの　かもね……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4221,10 +4221,10 @@ CMP_EQ 0x18 0x0 0x42c80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_10774
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}Oh, that exasperating creature! Countess, where HAVE you gone this time?"
+SAY "{VOICE=08}「きいてくださる!?　The Countessちゃんが{BREAK} また　いなくなってしまったのよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}My woogsie hasn't been herself since we crashed in this cursed place."
+SAY "{VOICE=08}「もうっ　どこに行ったのかしら!{BREAK} この島に　きてから　あのコ　おかしいわっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4240,12 +4240,12 @@ CMP_EQ 0x18 0x0 0x42c60000 0x2 0x40c00000
 JMP_IFNOT 0xc L_10898
 SYS_42 0x8 
 SETNAME "The Countess"
-SAY "{VOICE=08}SQUAWK! SQUEAK!"
+SAY "{VOICE=08}「キュイッ　キュイーッ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The Countess appears agitated."
+SAY "{COLOR=2}The Countessは{BREAK}なぜか　おちつきがない……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4260,10 +4260,10 @@ JMP_IFNOT 0xc L_109f4
 CMP_EQ 0x18 0x0 0x42c80000 0x2 0x40a00000
 JMP_IFNOT 0xc L_109e8
 SYS_42 0x8 
-SAY "{VOICE=07}Wow... Just wow. I can't believe I'm in the presence of The Crate. Awe. Some.{WAIT}{CLEAR}That's where the champ hid back when he was nothin' but a stowaway."
+SAY "{VOICE=07}「これが　チャンピオンが　タダ乗りしたときに{BREAK} 入っていたという　伝説の箱か……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You can tell right away. It has a totally different aura from the other boxes..."
+SAY "{VOICE=07}「たしかに　ほかの箱とは{BREAK} ちがうオーラを　はなってやがるぜ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4274,10 +4274,10 @@ L_109f4:
 CMP_EQ 0x18 0x0 0x42c60000 0x2 0x41400000
 JMP_IFNOT 0xc L_10af0
 SYS_42 0x8 
-SAY "{VOICE=07}Wow... Just wow. I can't believe I'm in the presence of The Crate. Awe. Some.{WAIT}{CLEAR}That's where the champ hid back when he was nothin' but a stowaway."
+SAY "{VOICE=07}「これが　チャンピオンが　タダ乗りしたときに{BREAK} 入っていたという　伝説の箱か……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You can tell right away. It has a totally different aura from the other boxes..."
+SAY "{VOICE=07}「たしかに　ほかの箱とは{BREAK} ちがうオーラを　はなってやがるぜ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4286,10 +4286,10 @@ L_10af0:
 CMP_EQ 0x18 0x0 0x42c60000 0x2 0x41500000
 JMP_IFNOT 0xc L_10bec
 SYS_42 0x8 
-SAY "{VOICE=07}Wow... Just wow. I can't believe I'm in the presence of The Crate. Awe. Some.{WAIT}{CLEAR}That's where the champ hid back when he was nothin' but a stowaway."
+SAY "{VOICE=07}「これが　チャンピオンが　タダ乗りしたときに{BREAK} 入っていたという　伝説の箱か……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You can tell right away. It has a totally different aura from the other boxes..."
+SAY "{VOICE=07}「たしかに　ほかの箱とは{BREAK} ちがうオーラを　はなってやがるぜ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4534,7 +4534,7 @@ JMP_IFNOT 0xc L_11a44
 CMP_LE 0x18 0x0 0x42fc0000 0x2 0x40e00000
 JMP_IFNOT 0xc L_11848
 SYS_42 0x8 
-SAY "{COLOR=2}It appears to be a passenger's trunk.{BREAK}It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}乗客の　にもつのようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4545,7 +4545,7 @@ JMP_IFNOT 0xc L_11988
 CMP_EQ 0x18 0x0 0x42f20000 0x2 0x3f800000
 JMP_IFNOT 0xc L_118fc
 SYS_42 0x8 
-SAY "{COLOR=2}The label on the trunk reads: 'Eugene Poole'. It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}Eugene Pooleと　名前がかいてある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4556,7 +4556,7 @@ L_11904:
 JMP_ABS 0xc L_11910
 L_11910:
 SYS_42 0x8 
-SAY "{COLOR=2}It appears to be a passenger's trunk.{BREAK}It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}乗客の　にもつのようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4569,7 +4569,7 @@ L_11990:
 JMP_ABS 0xc L_1199c
 L_1199c:
 SYS_42 0x8 
-SAY "{COLOR=2}The label on the trunk reads: 'Eugene Poole'. It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}Eugene Pooleと　名前がかいてある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4585,7 +4585,7 @@ L_11a4c:
 JMP_ABS 0xc L_11a58
 L_11a58:
 SYS_42 0x8 
-SAY "{COLOR=2}The label on the trunk reads: 'Eugene Poole'. It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}Eugene Pooleと　名前がかいてある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4612,10 +4612,10 @@ STORE 0x18 0x1 0x0 0x2 0x423c0000
 SYS_49 0x8 
 WAIT 0x10 0x2 0x41600000
 SYS_42 0x8 
-SAY "{COLOR=2}There's a note stuck to the trunk.{BREAK}It's addressed to {NAME}."
+SAY "{COLOR=2}……{NAME}あての　メモが{BREAK}はさんである。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'You have done scouts the world over proud by helping an old man like me.{WAIT}{CLEAR}'Your good turn deserves a reward. Use it well! Yours, Eugene Poole.'"
+SAY "{COLOR=2}『年よりを　いたわってくれた　おれいじゃ。{BREAK} 大事に　使ってくれよな。』Eugene Poole"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4669,7 +4669,7 @@ JMP_IFNOT 0xc L_121ec
 CMP_LE 0x18 0x0 0x42fc0000 0x2 0x40e00000
 JMP_IFNOT 0xc L_11fe8
 SYS_42 0x8 
-SAY "{COLOR=2}It appears to be a passenger's trunk.{BREAK}It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}乗客の　にもつのようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4680,7 +4680,7 @@ JMP_IFNOT 0xc L_1212c
 CMP_EQ 0x18 0x0 0x42f40000 0x2 0x3f800000
 JMP_IFNOT 0xc L_120a0
 SYS_42 0x8 
-SAY "{COLOR=2}The label on the trunk reads: 'Archibald Logg'. It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}Archie Loggと　名前がかいてある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4691,7 +4691,7 @@ L_120a8:
 JMP_ABS 0xc L_120b4
 L_120b4:
 SYS_42 0x8 
-SAY "{COLOR=2}It appears to be a passenger's trunk.{BREAK}It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}乗客の　にもつのようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4704,7 +4704,7 @@ L_12134:
 JMP_ABS 0xc L_12140
 L_12140:
 SYS_42 0x8 
-SAY "{COLOR=2}The label on the trunk reads: 'Archibald Logg'. It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}Archie Loggと　名前がかいてある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4720,7 +4720,7 @@ L_121f4:
 JMP_ABS 0xc L_12200
 L_12200:
 SYS_42 0x8 
-SAY "{COLOR=2}The label on the trunk reads: 'Archibald Logg'. It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}Archie Loggと　名前がかいてある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4747,10 +4747,10 @@ STORE 0x18 0x1 0x0 0x2 0x423c0000
 SYS_49 0x8 
 WAIT 0x10 0x2 0x41600000
 SYS_42 0x8 
-SAY "{COLOR=2}There's a note stuck to the trunk.{BREAK}It's addressed to {NAME}."
+SAY "{COLOR=2}……{NAME}あての　メモが{BREAK}はさんである。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'Thank you so much for saving Rory! Signed, Archibald Logg.'"
+SAY "{COLOR=2}『Rory Bellowsさんを　たすけていただき{BREAK} ありがとうございました!』Archie Logg"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4804,7 +4804,7 @@ JMP_IFNOT 0xc L_12998
 CMP_LE 0x18 0x0 0x42fc0000 0x2 0x40e00000
 JMP_IFNOT 0xc L_12794
 SYS_42 0x8 
-SAY "{COLOR=2}It appears to be a passenger's trunk.{BREAK}It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}乗客の　にもつのようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4815,7 +4815,7 @@ JMP_IFNOT 0xc L_128d8
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1284c
 SYS_42 0x8 
-SAY "{COLOR=2}The label on the trunk reads: 'Lady Lillicent Gilder'. It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}Lily Gilderと　名前がかいてある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4826,7 +4826,7 @@ L_12854:
 JMP_ABS 0xc L_12860
 L_12860:
 SYS_42 0x8 
-SAY "{COLOR=2}It appears to be a passenger's trunk.{BREAK}It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}乗客の　にもつのようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4839,7 +4839,7 @@ L_128e0:
 JMP_ABS 0xc L_128ec
 L_128ec:
 SYS_42 0x8 
-SAY "{COLOR=2}The label on the trunk reads: 'Lady Lillicent Gilder'. It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}Lily Gilderと　名前がかいてある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4855,7 +4855,7 @@ L_129a0:
 JMP_ABS 0xc L_129ac
 L_129ac:
 SYS_42 0x8 
-SAY "{COLOR=2}The label on the trunk reads: 'Lady Lillicent Gilder'. It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}Lily Gilderと　名前がかいてある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4882,10 +4882,10 @@ STORE 0x18 0x1 0x0 0x2 0x423c0000
 SYS_49 0x8 
 WAIT 0x10 0x2 0x41600000
 SYS_42 0x8 
-SAY "{COLOR=2}There's a note stuck to the trunk.{BREAK}It's addressed to {NAME}."
+SAY "{COLOR=2}……{NAME}あての　メモが{BREAK}はさんである。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'A gift from me to you. I'm sure you're overwhelmed with gratitude.{WAIT}{CLEAR}'But this doesn't make us friends. Signed, Lily Gilder.'"
+SAY "{COLOR=2}『おれいをするのは　セレブの　たしなみ。{BREAK} カンちがいしないように。』Lily Gilder"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4939,7 +4939,7 @@ JMP_IFNOT 0xc L_1313c
 CMP_LE 0x18 0x0 0x42fc0000 0x2 0x40e00000
 JMP_IFNOT 0xc L_12f40
 SYS_42 0x8 
-SAY "{COLOR=2}It appears to be a passenger's trunk.{BREAK}It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}乗客の　にもつのようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4950,7 +4950,7 @@ JMP_IFNOT 0xc L_13080
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_12ff4
 SYS_42 0x8 
-SAY "{COLOR=2}The label on the trunk reads: 'Melonie'. It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}Melonieと　名前がかいてある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4961,7 +4961,7 @@ L_12ffc:
 JMP_ABS 0xc L_13008
 L_13008:
 SYS_42 0x8 
-SAY "{COLOR=2}It appears to be a passenger's trunk.{BREAK}It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}乗客の　にもつのようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4974,7 +4974,7 @@ L_13088:
 JMP_ABS 0xc L_13094
 L_13094:
 SYS_42 0x8 
-SAY "{COLOR=2}The label on the trunk reads: 'Melonie'. It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}Melonieと　名前がかいてある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4990,7 +4990,7 @@ L_13144:
 JMP_ABS 0xc L_13150
 L_13150:
 SYS_42 0x8 
-SAY "{COLOR=2}The label on the trunk reads: 'Melonie'. It's securely locked."
+SAY "{COLOR=2}カギが　かかっている。{BREAK}Melonieと　名前がかいてある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5017,13 +5017,13 @@ STORE 0x18 0x1 0x0 0x2 0x423c0000
 SYS_49 0x8 
 WAIT 0x10 0x2 0x41600000
 SYS_42 0x8 
-SAY "{COLOR=2}There's a note stuck to the trunk.{BREAK}It's addressed to {NAME}."
+SAY "{COLOR=2}……{NAME}あての　メモが{BREAK}はさんである。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'I was s'posed to cheer everyone up,{BREAK}but all I did was cry like a baby."
+SAY "{COLOR=2}『場を　もりあげるのが　わたしの仕事なのに{BREAK} ないちゃいました。ごめんなさい。』"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'What a daft beggar I am! Anyway, 'ere's a little present by way of thanks.{WAIT}{CLEAR}'Cheers, matey! Signed, Melonie.'"
+SAY "{COLOR=2}『これは　たすけてくれた　おれいです。{BREAK} 船員さん　ありがとう!』Melonie"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

@@ -94,18 +94,18 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42a00000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Woo-wee! You didn't just stumble upon that medal by mistake, brother.{WAIT}{CLEAR}You're the real deal!"
+SAY "{VOICE=07}「ふふふ。なかなか　やるな。{BREAK} プレートに選ばれた人間よ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}Rack up victories here and the road ahead's gonna open right up!"
+SAY "{VOICE=07}「この戦いに　勝ちつづければ{BREAK} おのずと　道がひらけるだろう!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}...W-Wait just one moment, Mr Mole Sir!"
+SAY "{VOICE=07}「ちょっと　まってください!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -158,15 +158,15 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}Would this 'road ahead' be a way to get off this island, by any chance?"
+SAY "{VOICE=07}「道がひらけるって　どういうことですか?{BREAK} この島から　出られるってことですか!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Archie Logg"
-SAY "{VOICE=07}I've been taking the opportunity to study the books in your library here..."
+SAY "{VOICE=07}「でも　ここで　古い本を調べましたが……"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Archie Logg"
-SAY "{VOICE=07}...and there isn't a single reference to your Monster Scout Challenge!"
+SAY "{VOICE=07}「ここのバトルGPのことなんか{BREAK} どのしょもつにも　のってなかったですよ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -192,7 +192,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}So you're doubtin' the downright funky and most righteous words of Don Mole?"
+SAY "{VOICE=07}「……そうか。われらを　うたがうのも{BREAK} しかたがあるまいな。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x42240000
@@ -202,11 +202,11 @@ STORE 0x18 0x1 0x0 0x2 0x42240000
 STORE 0x18 0x1 0x3f800000 0x2 0x41700000
 SYS_17 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Tell you what, my man. If you can survive Rank D...{WAIT}{CLEAR}...I'll tell you all about a happenin' little place I know."
+SAY "{VOICE=07}「よかろう!　ならば　つぎのランクDを{BREAK} クリアしたとき　ある場所をおしえよう!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}You head there, and all your doubts will be laid to rest. I guarantee it!"
+SAY "{VOICE=07}「そこに行けば　私の言っていることが{BREAK} しんじつであると　ハッキリするだろう!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

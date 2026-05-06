@@ -43,10 +43,10 @@ STORE 0x18 0x1 0x40000000 0x2 0x42b40000
 SYS_127 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{COLOR=2}In this arena, monster scouts will lead their finest monsters into battle."
+SAY "{COLOR=2} たぐいまれな　チカラと技　そして　ただしき心を{BREAK}　　 かねそなえた　モンスターマスターがいる。　"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{COLOR=2}Only the bravest scout who boasts complete mastery over their monsters..."
+SAY "{COLOR=2}　　　　　　　　　人びとは　かれらを　　　　　　　{BREAK}　　　　 　『プロフェッショナル』とよんだ。　　　"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_43 0x8 
@@ -67,10 +67,10 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{COLOR=2}In this arena, monster scouts will lead their finest monsters into battle.{WAIT}{CLEAR}Only the bravest scout who boasts complete mastery over their monsters{WAIT}{CLEAR}can achieve victory and realize the supreme dream of being named champion."
+SAY "{COLOR=2}　　　　　　　まもなく　かいさいされる　　　　　{BREAK}　マスターたちの王者を決める　『バトルGP』…… "
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{COLOR=2}Our story begins as an ambitious young scout waits to board his flight..."
+SAY "{COLOR=2} プロフェッショナルをゆめみて　いま　その大会に{BREAK}　　 ひとりの少年が　いどもうとしていた……。　"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41a00000

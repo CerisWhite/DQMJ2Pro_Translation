@@ -78,7 +78,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42c20000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}First I'd like to see you pit your wits against this fine opponent..."
+SAY "{VOICE=03}「まずは　この者の相手を　してもらおう。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -133,11 +133,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}The moles are the hosts with the most, here to bring you the fear...{WAIT}{CLEAR}...and make you a monster scout master without peer!"
+SAY "{VOICE=07}「バトルGPを　みまもる者として{BREAK} そなたのチカラを　みきわめる……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}With that, molekind will have fulfilled its most funky and righteous mission.{WAIT}{CLEAR}But first things first - let's you and me rumble. Hit me!"
+SAY "{VOICE=07}「それが　われら　いち族の最後の使命だ。{BREAK} てかげんは　せん。全力で　くるがいい!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

@@ -129,10 +129,10 @@ STORE 0x18 0x1 0x0 0x0 0x40400000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}This chamber houses the Medal of Merit."
+SAY "{VOICE=07}「……ここは　試練の証の間。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=07}It was stolen by a despicable group of wrong-doers and sealed away here."
+SAY "{VOICE=07}「試練の証は　心なき者たちに　うばわれ{BREAK} ここに　ふうじられていたのだ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -183,10 +183,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
-SAY "{VOICE=07}But fear not. This Medal of Merit is now most assuredly yours."
+SAY "{VOICE=07}「だが　心配は　いらない。{BREAK} この試練の証は　もう　キミのものだ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=07}When I first encountered you in the Doubtback, I must have startled you.{WAIT}{CLEAR}For that, I apologise."
+SAY "{VOICE=07}「平原で　出会ったときは{BREAK} おどろかせて　すまなかった。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -247,10 +247,10 @@ STORE 0x18 0x1 0x0 0x0 0x41000000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_3C 0x8 
 SYS_42 0x8 
-SAY "{VOICE=03}We are the humans who once inhabited{BREAK}this island."
+SAY "{VOICE=03}「われわれは　かつて{BREAK} この島で　くらしていた人間……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=03}We died out long ago and now have no form of our own.{WAIT}{CLEAR}That's why we've taken the liberty of making use of yours."
+SAY "{VOICE=03}「死にたえた　われらは　すがたを　もたぬ……。{BREAK} ゆえに　そなたたちのすがたを　かりている。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -286,10 +286,10 @@ STORE 0x18 0x1 0x0 0x0 0x41000000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_3C 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}...And it is we who have led you here."
+SAY "{VOICE=08}「……そうして　私たちは{BREAK} あなたを　ここへと　みちびいたのです。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=08}We have led you here so you can grant us our wish..."
+SAY "{VOICE=08}「私たちの　ねがいを{BREAK} ききとどけてもらうために……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -316,7 +316,7 @@ STORE 0x18 0x1 0x0 0x0 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}Our wish is this...{WAIT}{CLEAR}We desire the resurrection of the Divine Battler..."
+SAY "{VOICE=07}「われらのねがい　それは……。{BREAK} 戦の神の復活……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -327,7 +327,7 @@ STORE 0x18 0x1 0x0 0x2 0x42480000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SAY "{VOICE=08}Once you possess the Medal of Merit and pass the final trial...{WAIT}{CLEAR}...then the most sacred path to the Great One will be opened to you."
+SAY "{VOICE=08}「試練の証をもちて　最後の試練を　こえたとき{BREAK} 神への道が　ひらかれましょう……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -337,7 +337,7 @@ STORE 0x18 0x1 0x0 0x2 0x42700000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SAY "{VOICE=03}You must grant us our wish..."
+SAY "{VOICE=03}「どうか　われらのねがいを……。"
 SYS_44 0x8 
 SPAWN 0x10 L_2524
 DATA 0x00000005
@@ -353,7 +353,7 @@ STORE 0x18 0x1 0x0 0x2 0x42480000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SAY "{VOICE=08}And help us atone for our sins..."
+SAY "{VOICE=08}「私たちのツミを……。どうか……。"
 SYS_44 0x8 
 SPAWN 0x10 L_2618
 DATA 0x00000006
@@ -372,7 +372,7 @@ STORE 0x18 0x1 0x0 0x2 0x428c0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SAY "{VOICE=07}The Medal of Merit is yours. Take it..."
+SAY "{VOICE=07}「さあ　試練の証を　うけとってくれ……。"
 SYS_44 0x8 
 SPAWN 0x10 L_2430
 DATA 0x00000004
@@ -483,7 +483,7 @@ STORE 0x18 0x1 0x0 0x2 0x40a00000
 SYS_A7 0x8 
 SYS_AC 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} obtains the Medal of Merit!"
+SAY "{COLOR=2}{NAME}は{BREAK}試練の証を　手に入れた!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

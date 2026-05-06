@@ -1233,7 +1233,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1347,7 +1347,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4351,7 +4351,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} has been carried away by the river..."
+SAY "{COLOR=2}{NAME}は　かわに{BREAK}ながされてしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4422,7 +4422,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} has been carried away by the river..."
+SAY "{COLOR=2}{NAME}は　かわに{BREAK}ながされてしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4513,7 +4513,7 @@ WAIT 0x10 0x2 0x40a00000
 STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_26 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The Zip Portal in the Doubtback is now open and ready to use!"
+SAY "{COLOR=2}平原エリアの{BREAK}いざないのとびらが　ひらいた。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

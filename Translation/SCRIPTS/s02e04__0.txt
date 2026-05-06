@@ -1227,7 +1227,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1341,7 +1341,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4378,19 +4378,19 @@ JMP_IFNOT 0xc L_1014c
 STORE 0x18 0x1 0x0 0x2 0x42de0000
 SYS_55 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}(sob sob)"
+SAY "{VOICE=08}「クスン…クスン…………。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Oh, hello. Don't mind me. I'm just sitting in the mud. La-di-da. Ho, ho. (sniffle)"
+SAY "{VOICE=08}「……ごめんね。{BREAK} あなた　ここを通りたいのよね?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Those muddy hands got their paws on my heart of mud and won't give it back.{WAIT}{CLEAR}That's why I'm stuck. Oh, the indignity of it, wallowing in the mud like a hippo!"
+SAY "{VOICE=08}「いじわるなマドハンドに　どろハートを{BREAK} ぬすまれちゃって　こんな体になっちゃったの。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Now when that giant worm thing comes slithering through...{WAIT}{CLEAR}...those silly monsters scatter in a panic and drop their ill-gotten loot."
+SAY "{VOICE=08}「ちかくを巨大モンスターが通ると　モンスターは{BREAK} ビックリして　アイテムをおとすことがあるわ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I bet you could find my heart of mud. Will you look for it? Please? Pretty please?"
+SAY "{VOICE=08}「その中から　どろハートを　みつけてほしいの。{BREAK} おねがいできるかな……?　クスン。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4419,14 +4419,14 @@ L_10160:
 STORE 0x18 0x1 0x0 0x2 0x42de0000
 SYS_55 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}Oo-oo-oo-oo! That's mine!{BREAK}You found my heart of mud!{WAIT}{CLEAR}Please, put me back together again, won't you?"
+SAY "{VOICE=08}「ああっ!　それは　私の　どろハート!{BREAK} おねがい!　私に使ってくれない?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42de0000
 SYS_55 0x8 
-SAY "{COLOR=2}Use the heart of mud to fix the mud mannequin?{VOICE=09}"
+SAY "{COLOR=2}どろハートを　使いますか?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4470,7 +4470,7 @@ JMP_ABS 0xc L_104c8
 L_104c8:
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}Oh, why, what a horrible, selfish...child... (sob sob)"
+SAY "{VOICE=08}「そんなっ　ひどいわ……。{BREAK} クスン…クスン……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

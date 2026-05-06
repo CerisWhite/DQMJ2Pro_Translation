@@ -1225,7 +1225,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1339,7 +1339,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3459,29 +3459,29 @@ JMP_IFNOT 0xc L_d12c
 SETNAME "Rigor Mortex"
 JMP_ABS 0xc L_d12c
 L_d12c:
-SAY "{VOICE=07}What is...real strength...?"
+SAY "{VOICE=07}「…真ノ　強サトハ　ナニカ…………。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Limitless desire...{BREAK}Endless greed..."
+SAY "{VOICE=07}「…果テルコトノナイ　ヨクボウダ…………。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}That...is how one human...answered the question... And together...we became one."
+SAY "{VOICE=07}「アル人間ハ　ソウ　コタエ{BREAK} 我ト　ヒトツニ　ナッタ…………。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Another human answered...'justice'. That human, too...became one with me."
+SAY "{VOICE=07}「ダガ……　セイギダト　コタエタ　人間モ{BREAK} 我ト　ヒトツニ　ナッタ…………。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Everyone...becomes one...with me."
+SAY "{VOICE=07}「ミナガ　我ト　ヒトツニ　ナッタ…………。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}What is...strength? Does...no one...know?"
+SAY "{VOICE=07}「……強サニ　イミナド　フヨウダ…………。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I am Rigor Mortex. I am the harbinger of destruction... I am...sent by man."
+SAY "{VOICE=07}「我ガ名ハ　Rigor Mortex。{BREAK} 人ガ　ツカワシタ　ハカイノ　使者。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SETNAME "Rigor Mortex"
-SAY "{VOICE=07}You and I...shall become one.{BREAK}Then we shall...DESTROY THE WORLD!"
+SAY "{VOICE=07}「汝モ　我ト　ヒトツニ　ナルガイイ。{BREAK} 世界ハ　ハカイノ　タメニ　アルノダカラ……!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3517,22 +3517,22 @@ STORE 0x18 0x1 0x0 0x2 0x423c0000
 SYS_49 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response.{BREAK}It's just a skeleton."
+SAY "{COLOR=2}へんじがない。{BREAK}ただの　しかばねのようだ……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}There's a note next to the skeleton. {NAME} begins to read..."
+SAY "{COLOR=2}しかばねのそばに　かみきれが　おちている。{BREAK}{NAME}は　手にとって　よんだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'My name is Zehlam..."
+SAY "{COLOR=2}我が名は　ゼラム……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'I was betrayed...by my own hand..."
+SAY "{COLOR=2}私は　うらぎられた……。{BREAK}私自身に……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'Rigor Mortex was a mirror... It reflected our all-too human desires..."
+SAY "{COLOR=2}……Rigor Mortexは　人間の……{BREAK}よくぼうをうつす　カガミであったのだ……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'I was betrayed...by my own hand...'"
+SAY "{COLOR=2}私は　うらぎられた……。{BREAK}私自身に……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3881,7 +3881,7 @@ WAIT 0x10 0x2 0x40a00000
 STORE 0x18 0x1 0x0 0x2 0x41200000
 SYS_26 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The Zip Portal in the Dark World is now open and ready to use!"
+SAY "{COLOR=2}魔界エリアの{BREAK}いざないのとびらが　ひらいた。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3905,15 +3905,15 @@ STORE 0x18 0x0 0x42e40000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42e40000 0x2 0x0
 JMP_IFNOT 0xc L_ebe4
 SYS_42 0x8 
-SAY "{COLOR=2}Somewhere, a strange, terrible voice calls out."
+SAY "{COLOR=2}どこから　ともなく{BREAK}ふしぎなこえが　きこえる……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=03}The ominous miasma has dispersed,{BREAK}and the world of light is reborn."
+SAY "{VOICE=03}「まがまがしい気が　きえ{BREAK} 光あふれる地が　復活を果たした。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Investigate the red pillar that stands in the centre of the Dark World."
+SAY "{VOICE=03}「魔界の　ちゅうおうにある{BREAK} あかいはしらを　調べてみるがいい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3926,7 +3926,7 @@ STORE 0x18 0x0 0x42e40000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42e40000 0x2 0x0
 JMP_IFNOT 0xc L_f738
 SYS_42 0x8 
-SAY "{COLOR=2}This stone pillar is carved with a {COLOR=0}{215}{COLOR=2} symbol."
+SAY "{COLOR=2}『{COLOR=0}{215}{COLOR=2}』のしるしが　きざまれた{BREAK}いしのはしらだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3955,7 +3955,7 @@ STORE 0x18 0x0 0x42ea0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ea0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_f564
 SYS_42 0x8 
-SAY "{COLOR=2}A red light shines on the pillar carved with the {COLOR=0}{215}{COLOR=2} symbol."
+SAY "{COLOR=2}『{COLOR=0}{215}{COLOR=2}』のしるしが　きざまれた　はしらに{BREAK}あかく光が　ともった。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3970,18 +3970,18 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Somewhere, a strange, terrible voice calls out."
+SAY "{COLOR=2}どこから　ともなく{BREAK}ふしぎなこえが　きこえる……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=03}Light is shining on the pillar that serves as the key."
+SAY "{VOICE=03}「カギとなる　はしらに{BREAK} 光が　ともったようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Now you may journey to the world of light."
+SAY "{VOICE=03}「これより　光あふれる地へ{BREAK} 汝を　いざなおう……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Tell me, {NAME}. Are you ready?{VOICE=09}"
+SAY "{VOICE=03}「心の　じゅんびは　いいか?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4077,7 +4077,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The pillar with the {COLOR=0}{215}{COLOR=2} carving is not the key."
+SAY "{COLOR=2}いま　『{COLOR=0}{215}{COLOR=2}』のしるしは　光あふれる地への{BREAK}カギに　なっていないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4091,7 +4091,7 @@ L_f740:
 JMP_ABS 0xc L_f74c
 L_f74c:
 SYS_42 0x8 
-SAY "{COLOR=2}The pillar carved with the {COLOR=0}{215}{COLOR=2} symbol glows with a red light."
+SAY "{COLOR=2}『{COLOR=0}{215}{COLOR=2}』のしるしが　きざまれた　はしらは{BREAK}あかい光を　はなっている。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4282,7 +4282,7 @@ STORE 0x18 0x0 0x42fe0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x40400000
 JMP_IFNOT 0xc L_10768
 SYS_42 0x8 
-SAY "{COLOR=2}Somewhere, a strange, terrible voice calls out."
+SAY "{COLOR=2}Rigor Mortexは{BREAK}なにかを　おとしていった。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4296,7 +4296,7 @@ STORE 0x18 0x1 0x0 0x2 0x4401c000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_2A 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}'s team is healed."
+SAY "{COLOR=2}{NAME}は{BREAK}ときのすいしょうを　手に入れた!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4315,17 +4315,17 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Somewhere, a strange, terrible voice calls out."
+SAY "{COLOR=2}どこから　ともなく{BREAK}ふしぎなこえが　きこえる……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=03}The ominous miasma has dispersed,{BREAK}and the world of light is reborn."
+SAY "{VOICE=03}「まがまがしい気が　きえ{BREAK} 光あふれる地が　復活を果たした。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x434c0000
 SYS_33 0x8 
-SAY "{VOICE=03}Investigate the red pillar that stands in the centre of the Dark World."
+SAY "{VOICE=03}「魔界の　ちゅうおうにある{BREAK} あかいはしらを　調べてみるがいい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

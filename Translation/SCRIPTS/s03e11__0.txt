@@ -1215,7 +1215,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1329,7 +1329,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4324,13 +4324,13 @@ CMP_EQ 0x18 0x0 0x42d20000 0x2 0x0
 JMP_IFNOT 0xc L_10a08
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}This is the True Monster Scout Challenge, so the competition is REALLY strong."
+SAY "{VOICE=08}「いよいよ　真のバトルGPが　はじまったわね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Shouldn't you be getting ready or something instead of chatting to me?"
+SAY "{VOICE=08}「試合前に　アタシに　こえをかけてくるなんて{BREAK} そんな　ヨユーかましてて　いいのかしら?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Although, I guess I can understand where you're coming from.{WAIT}{CLEAR}I won't have much time for the likes of you after I'm champion!"
+SAY "{VOICE=08}「もうすぐ　あなたの時代は　おわりをつげるわ。{BREAK} 真のチャンピオンになるのは　アタシよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4340,13 +4340,13 @@ CMP_EQ 0x18 0x0 0x42d20000 0x2 0x3f800000
 JMP_IFNOT 0xc L_10b78
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}...What's that? You wanna know if I won the final? Ummm... Well..."
+SAY "{VOICE=08}「さすがは　真のバトルGP。{BREAK} 対戦相手も　みんな　強いわ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}The thing is, it ended up being a draw. But I wasn't really trying...　"
+SAY "{VOICE=08}「試合前に　アタシに　こえをかけてくるなんて{BREAK} そんな　ヨユーかましてて　いいのかしら?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}But next time, I won't pull any punches, so you'd all better watch out!"
+SAY "{VOICE=08}「もうすぐ　あなたの時代は　おわりをつげるわ。{BREAK} 真のチャンピオンになるのは　アタシよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4358,13 +4358,13 @@ CMP_EQ 0x18 0x0 0x42ae0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_10ccc
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}...What's that? You wanna know if I won the final? Ummm... Well..."
+SAY "{VOICE=08}「……優勝は　どうなったか　ですって?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}The thing is, it ended up being a draw. But I wasn't really trying..."
+SAY "{VOICE=08}「ひきわけよ　ひきわけ!　ゆだんしてたら{BREAK} あしもと　すくわれたのよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}But next time, I won't pull any punches, so you'd all better watch out!"
+SAY "{VOICE=08}「つぎは　こうは　いかないわよ。{BREAK} あなたも　カクゴしときなさいね!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4378,31 +4378,31 @@ CMP_EQ 0x18 0x0 0x42aa0000 0x2 0x0
 JMP_IFNOT 0xc L_110ec
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Ha! I knew I'd see your spiky head around here again."
+SAY "{VOICE=08}「ふふん。あなたなら　また{BREAK} ここに　くると　思っていたわ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}You're just DYING for another chance to battle my team, aren't you?"
+SAY "{VOICE=08}「よっぽど　このアタシと{BREAK} もういちど　戦いたいようね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Fine with me! I'll get my revenge in an exhibition match."
+SAY "{VOICE=08}「いいわ!　アタシのリベンジも　かねて{BREAK} エキシビションマッチと　いきましょう!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Don't think I'm gonna come at you with the same team as before!"
+SAY "{VOICE=08}「……ただし!　エキシビションマッチの相手は{BREAK} バトルGPに使った　パーティじゃないわよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I have a whole new menagerie from the Ultimate Master Tournament!"
+SAY "{VOICE=08}「アタシが　最強マスター決定戦の会場で{BREAK} スカウトしてきたパーティと　戦ってもらうわ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}'Cowardly'? Hardly! You can do whatever you want when you have the money for it!"
+SAY "{VOICE=08}「……ひきょう?　なんとでも言いなさい。{BREAK} 世の中　カネとコネで　どうにかなるのよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Hey, don't sweat it. I'll even fork over a little cash if you win."
+SAY "{VOICE=08}「まあ　でも　そうね。アタシに勝てたら{BREAK} 試合のデキにみあった　賞金くらい　あげるわ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Not that you will! Now, while I'm getting ready..."
+SAY "{VOICE=08}「さあ　アタシが　エキシビションマッチにむけて{BREAK} じゅんびをしている間……"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Go enter the Ultimate Master Tournament and hone your own skills."
+SAY "{VOICE=08}「あなたも　最強マスター決定戦に参加して{BREAK} ウデを　みがいてきなさい!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4420,17 +4420,17 @@ CMP_EQ 0x18 0x0 0x42dc0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_11504
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=07}Hey hey, if it isn't the champ himself!"
+SAY "{VOICE=08}「ふふん。きたわね　チャンピオンくん。{BREAK} エキシビションマッチのじゅんびが　できたわ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}What's up, kid? You want to hear me call you champ again? No problemo..."
+SAY "{VOICE=08}「本気で　かかってこないと　いたい目みるわよ。{BREAK} さあ　そっちは　じゅんびオッケー?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42da0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42da0000 0x2 0x0
 JMP_IFNOT 0xc L_11410
-SAY "{VOICE=07}He's heeeeeeeeere! It's {NAME}...{WAIT}{CLEAR}...Monster Scout Challenge champion of the island!"
+SAY "{VOICE=08}「ふふん。そうこなくっちゃ。{BREAK} それじゃ　いくわよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4456,10 +4456,10 @@ JMP_REL L_11418
 L_11418:
 JMP_ABS 0xc L_11424
 L_11424:
-SAY "{VOICE=08}What's this? Did our 'master champion' get scared because of a little threat?"
+SAY "{VOICE=08}「あら?　真のチャンピオンのくせに{BREAK} アタシのおどしに　ブルっちゃったのかしら?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Whatever you need to do to get comfortable with losing."
+SAY "{VOICE=08}「まあ　いいわ。ムダだと思うけど{BREAK} すきなだけ　じゅんびをしていらっしゃい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4473,19 +4473,19 @@ JMP_ABS 0xc L_11518
 L_11518:
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Ha! I knew I'd see your spiky head around here again."
+SAY "{VOICE=08}「アタシとの　エキシビションマッチで{BREAK} あなたと対戦する　相手は……"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}You're just DYING for another chance to battle my team, aren't you?6"
+SAY "{VOICE=08}「アタシが　最強マスター決定戦の会場で{BREAK} スカウトしてきた　トップクラスのパーティよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Fine with me! I'll get my revenge in an exhibition match."
+SAY "{VOICE=08}「このじょうけんで　もしも　アタシに勝てたら{BREAK} 試合のデキにみあった　賞金を　あげるわ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}If you can brush me aside, I MIGHT give you a new synthesis idea."
+SAY "{VOICE=08}「さあ　アタシが　エキシビションマッチにむけて{BREAK} じゅんびをしている間……"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Not that there's any chance of that happening! Now, whenever you're ready..."
+SAY "{VOICE=08}「あなたも　最強マスター決定戦に参加して{BREAK} ウデを　みがいてきなさい!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4508,13 +4508,13 @@ CMP_EQ 0x18 0x0 0x42ae0000 0x2 0x0
 JMP_IFNOT 0xc L_11934
 SYS_42 0x8 
 SETNAME "Melonie"
-SAY "{VOICE=08}Cor, blimey! This place is somefin else, innit?"
+SAY "{VOICE=08}「あっつーい。なに　この会場!?{BREAK} アセで　けしょうが　おちちゃうよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}It's bloomin' hot, I tell you. I just 'ope my poor bunny-ears don't melt!"
+SAY "{VOICE=08}「でも　コンパニオンは　あつくるしいバトルに{BREAK} ハナを　そえるのが仕事!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Still, I'm gonna do me very best, just you watch, {NAME}!"
+SAY "{VOICE=08}「わたし　スッゴイ　やりがいを　かんじてるの!{BREAK} {NAME}さんも　がんばってネ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4524,10 +4524,10 @@ CMP_EQ 0x18 0x0 0x42ae0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_11a3c
 SYS_42 0x8 
 SETNAME "Melonie"
-SAY "{VOICE=08}{NAME}, you won the True Monster Scout Challenge! You're brill! "
+SAY "{VOICE=08}「わたしが　バトルGPに出るなんて{BREAK} おどろいたでしょ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Oooh, I think I'm star-struck or somefin'. I don't want to ever leave your side!"
+SAY "{VOICE=08}「真のバトルGPは　やっぱ　ハクリョクあるね!{BREAK} わたし　ずーっと　ドキドキしてたよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4539,10 +4539,10 @@ CMP_EQ 0x18 0x0 0x42a80000 0x2 0x41800000
 JMP_IFNOT 0xc L_11b54
 SYS_42 0x8 
 SETNAME "Melonie"
-SAY "{VOICE=08}Cor, can you believe little old me is actually fightin' in the Challenge?"
+SAY "{VOICE=08}「キャーッ!　{NAME}さん　すごーい!{BREAK} 真のバトルGPも　優勝しちゃったんだね!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}This True Monster Scout Challenge is brill, innit? Me 'eart's in me mouth!"
+SAY "{VOICE=08}「わたし　これから　{NAME}さんの{BREAK} せんぞくコンパニオン　やりたいです!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4566,16 +4566,16 @@ CMP_EQ 0x18 0x0 0x42d80000 0x2 0x0
 JMP_IFNOT 0xc L_11e20
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Ah, there you are, Rookie."
+SAY "{VOICE=07}「おお　{NAME}か。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Sorry we left you behind, but I had to scout ahead to patrol the terrain."
+SAY "{VOICE=07}「すまなかったな。ひとあしさきに{BREAK} みんなで　会場に　きてしまったよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}This place is somethin' else, ain't it?{WAIT}{CLEAR}Think of the battles these ancient walls must've witnessed..."
+SAY "{VOICE=07}「それにしても　すごい会場だ。古代の人びとは{BREAK} ここで　バトルGPを　おこなっていたのか。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It's your mission to carry on the ancient traditions of fair play...{WAIT}{CLEAR}...and do honour to the legacy of the scouts who have battled here."
+SAY "{VOICE=07}「その者たちに　わらわれぬよう{BREAK} フェアプレーで　戦いに　いどまなくてはな!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4588,10 +4588,10 @@ CMP_EQ 0x18 0x0 0x42d80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_11f38
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}What did you think of my ruin?{WAIT}{CLEAR}It took some serious synthesisin' to create that battlefield asset!"
+SAY "{VOICE=07}「古代の人びとが　こんな　すごい場所で{BREAK} GPを　おこなっていたとは　おどろきだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It was great to lock horns with you, Rookie. You sure know how to battle!"
+SAY "{VOICE=07}「その者たちに　わらわれぬよう{BREAK} フェアプレーで　戦いに　いどまなくてはな!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4603,10 +4603,10 @@ CMP_EQ 0x18 0x0 0x42ae0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_12054
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}True Monster Scout Challenge champ?{BREAK}I need a new name for you, Rookie!"
+SAY "{VOICE=07}「私が　配合を　くりかえし　つくりあげた{BREAK} 暗黒の魔神くんは　どうだったかな?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}A guy like you could go far in this world. No tellin' how strong you could get."
+SAY "{VOICE=07}「キミとのバトルは　ほんとうに　たのしかった。{BREAK} さすがは　{NAME}だな!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4618,10 +4618,10 @@ CMP_EQ 0x18 0x0 0x42a80000 0x2 0x41800000
 JMP_IFNOT 0xc L_12168
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}The True Monster Scout Challenge doesn't end until a champion emerges."
+SAY "{VOICE=07}「ついに　真のバトルGPまで{BREAK} セイハしてしまったか……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The championship is still up for grabs.{BREAK}You can't quit yet!"
+SAY "{VOICE=07}「やれやれ　キミという男は……。{BREAK} いったい　どこまで　強くなるつもりなんだ?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4637,10 +4637,10 @@ CMP_EQ 0x18 0x0 0x42ac0000 0x2 0x0
 JMP_IFNOT 0xc L_122d4
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}It's an honour and privilege to referee battles in this hallowed place."
+SAY "{VOICE=07}「古代より伝わる　真のバトルGPで{BREAK} Refereeが　できるなんて　カンゲキだ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I'm going to keep delivering the intros for as long as my voice holds up!"
+SAY "{VOICE=07}「オッケーィ!　こえが　かれるまで{BREAK} ネバーギブアップで　がんばらせてもらうよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4650,10 +4650,10 @@ CMP_EQ 0x18 0x0 0x42ac0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_123e0
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}The challenge will keep going until we have a winner!"
+SAY "{VOICE=07}「真のバトルGPは　だれかが{BREAK} 勝ちつづけないと　ネバーエンド!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Do your best and never give up, {NAME}!"
+SAY "{VOICE=07}「まだまだ　優勝のチャンスは　あるぜ!{BREAK} ネバーギブアップだ　{NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4665,13 +4665,13 @@ CMP_EQ 0x18 0x0 0x42a80000 0x2 0x41800000
 JMP_IFNOT 0xc L_12550
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}Our scout champion makes his entrance!"
+SAY "{VOICE=07}「あーっと!　バトルGP　チャンピオンの{BREAK} とうじょう　だあーっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Let's hear it for our greatest warrior!"
+SAY "{VOICE=07}「いいでしょうー。あなたのこと{BREAK} おしみなく　ほめたたえましょう!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The one and only true champion, {NAME}!!!"
+SAY "{VOICE=07}「真のバトルGP　チャンピオンは……{BREAK} {NAME}!　キミだーーーーっ!!!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4684,10 +4684,10 @@ JMP_IFNOT 0xc L_12784
 CMP_LT 0x18 0x0 0x42a80000 0x2 0x41800000
 JMP_IFNOT 0xc L_1268c
 SYS_42 0x8 
-SAY "{VOICE=07}You did okay in the last tournament.{BREAK}I mean, you had a nice run to the final."
+SAY "{VOICE=07}「キミが　チャンピオンになった　前の大会では{BREAK} けっこう　いいセンまで　いったのだが……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But I doubt you'll repeat that feat here.{BREAK}The competition is MUCH stiffer."
+SAY "{VOICE=07}「ここでは　勝てる気がしないよ。{BREAK} すごいマスターが　そろっていそうだしな。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4696,10 +4696,10 @@ L_1268c:
 CMP_EQ 0x18 0x0 0x42a80000 0x2 0x41800000
 JMP_IFNOT 0xc L_12778
 SYS_42 0x8 
-SAY "{VOICE=07}Whoa, are you a monster scout?"
+SAY "{VOICE=07}「ひゃ!　チャンピオンに話しかけられちまった!{BREAK} やべえ　いったい　どうすれば……!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Listen, dude, we're still getting set up.{BREAK}Find something else to do, okay?"
+SAY "{VOICE=07}「と…とりあえず　あくしゅしてください!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4713,7 +4713,7 @@ CMP_EQ 0x18 0x0 0x42d00000 0x2 0x0
 JMP_IFNOT 0xc L_12858
 SYS_42 0x8 
 SETNAME "Duke"
-SAY "{VOICE=07}We moles are diggin' hard to prepare for the Challenge show."
+SAY "{VOICE=07}「げんざい　会場のじゅんびを　きゅうピッチで{BREAK} すすめているところで　あります!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4726,10 +4726,10 @@ JMP_IFNOT 0xc L_1297c
 CMP_EQ 0x18 0x0 0x42d00000 0x2 0x0
 JMP_IFNOT 0xc L_12970
 SYS_42 0x8 
-SAY "{VOICE=07}Oh. Wow. Check...it...OUT! It's the True Monster Scout Challenge battle ring!"
+SAY "{VOICE=07}「あんちゃん　マスターだな!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Man, I wish I was a scout! It would be so awesome to battle in a place like this."
+SAY "{VOICE=07}「会場のじゅんびは　もうすぐ　おわるからよ。{BREAK} それまで　ほかのこと　やっててくれや!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4742,10 +4742,10 @@ JMP_IFNOT 0xc L_12aa4
 CMP_EQ 0x18 0x0 0x42d00000 0x2 0x0
 JMP_IFNOT 0xc L_12a98
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} can now use Heal All!"
+SAY "{VOICE=07}「ウヒョヒョーーッ!{BREAK} ここが　真のバトルGPの会場か!!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}This spell lets {NAME} restore the health of his entire team!"
+SAY "{VOICE=07}「こんな　すげー場所で　バトルができる{BREAK} マスターたちが　うらやましいぜ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

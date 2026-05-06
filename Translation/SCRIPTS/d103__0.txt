@@ -85,11 +85,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}It's what all True Monster Scout Challenge fans have been waiting for!{WAIT}{CLEAR}The titans are ready to clash in a spectacular exhibition match!"
+SAY "{VOICE=07}「さあて　はじまったぜ!{BREAK} 真のバトルGP　エキシビションマッチ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Referee"
-SAY "{VOICE=07}Can {NAME} show the stuff that true champions are made of?"
+SAY "{VOICE=07}「{NAME}は　チャンピオンのかんろくを{BREAK} みせつけることが　できるのかー!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -105,7 +105,7 @@ STORE 0x18 0x1 0x0 0x2 0x42700000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}Let's do this!{BREAK}...Ready! ...Set! ...FIGHT!!!"
+SAY "{VOICE=07}「それじゃ　いくぜッ!　レディ～……{BREAK} ファァァァァイツッ!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -165,7 +165,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}...We have a winner!!!"
+SAY "{VOICE=07}「決まったァァァァ…………!!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -183,7 +183,7 @@ SYS_8C 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}Sure enough, he's built from strong stuff. Our mighty champion, {NAME}!"
+SAY "{VOICE=07}「さすがは　真のチャンピオン!!{BREAK} 強いぞ!　マスター　{NAME}!!!"
 WAIT 0x10 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41f00000
@@ -236,7 +236,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}This is NOT happening! I can't believe I lost to this spiky-headed brat AGAIN!"
+SAY "{VOICE=08}「うそっ!　また　アタシの負け!?{BREAK} どうして　いつも　こうなるのよっ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -276,16 +276,16 @@ STORE 0x18 0x1 0x3f800000 0x0 0x40c00000
 SYS_A8 0x8 
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Considering we fought before, it's pathetic that it took you {E322} rounds to win."
+SAY "{VOICE=08}「でも……　{E322}ラウンドも　ねばられるなんて{BREAK} あなたも　まだまだ　あまいわね。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}Solitaire's not out for the count yet. I've got a thirst for revenge, so be warned!"
+SAY "{VOICE=08}「さあ　これが　こんかいの賞金よ。{BREAK} ありがたく　うけとりなさい。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} obtained　10000{COLOR=0}{226}{COLOR=2}!"
+SAY "{COLOR=2}{NAME}は{BREAK}賞金　10000{COLOR=0}{226}{COLOR=2}を　手に入れた!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
@@ -309,7 +309,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43160000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=07}...We have a winner!!!"
+SAY "{VOICE=08}「つぎこそ　負けないわよ。{BREAK} カクゴしてなさい　チャンピオンくん!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -358,7 +358,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Huh!? It's all over!? You have GOT to be kidding me!"
+SAY "{VOICE=08}「うそっ!　また　アタシの負け!?{BREAK} どうして　いつも　こうなるのよっ!"
 SYS_44 0x8 
 CMP_LE 0x18 0x2 0x42c60000 0x0 0x40c00000
 JMP_IFNOT 0xc L_18c8
@@ -369,7 +369,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x40c00000
 SYS_A8 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}It only took {E322} rounds to defeat me? This CANNOT be happening!"
+SAY "{VOICE=08}「その上　あのモンスターたちを{BREAK} {E322}ラウンドで　たおしてしまうなんて……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -401,16 +401,16 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43140000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Hmph. Well, I promised I'd teach you a special synthesis combo, so here goes..."
+SAY "{VOICE=08}「ふ…ふん!　でも　まだまだね。{BREAK} アタシのチカラは　こんなものじゃないわ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}Ready? I hope you're taking notes. Now listen up...{WAIT}{CLEAR}Synthesise {E33A} and {E3DF} for interesting results."
+SAY "{VOICE=08}「さあ　これが　こんかいの賞金よ。{BREAK} ありがたく　うけとりなさい。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} obtained　50000{COLOR=0}{226}{COLOR=2}!"
+SAY "{COLOR=2}{NAME}は{BREAK}賞金　50000{COLOR=0}{226}{COLOR=2}を　手に入れた!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
@@ -434,7 +434,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43160000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Solitaire's not out for the count yet. I've got a thirst for revenge, so be warned!"
+SAY "{VOICE=08}「つぎこそ　負けないわよ。{BREAK} カクゴしてなさい　チャンピオンくん!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -483,7 +483,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Huh!? It's all over!? You have GOT to be kidding me!"
+SAY "{VOICE=08}「うそっ!　また　アタシの負け!?{BREAK} どうして　いつも　こうなるのよっ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 CMP_LE 0x18 0x2 0x42c60000 0x0 0x40c00000
@@ -495,11 +495,11 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x40c00000
 SYS_A8 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}It only took {E322} rounds to defeat me? This CANNOT be happening!"
+SAY "{VOICE=08}「し…しかも　あのパーティを　たおすのに{BREAK} {E322}ラウンドしか　かからなかったですってーっ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}What are you?! Seriously?!"
+SAY "{VOICE=08}「なな…なんてこと……?{BREAK} あなた　バケモノなの……?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -533,16 +533,16 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43140000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}But this isn't over, kiddo.{BREAK}Not by a long shot.{WAIT}{CLEAR}As long as I've got even the smallest fraction of a chance, I won't give up."
+SAY "{VOICE=08}「でもっ!　アタシは　あきらめないんだから!{BREAK} このくらいで　チョーシに乗らないでよねっ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}You'd better watch out, Mr Big Shot Champion! I've got a thirst for revenge!"
+SAY "{VOICE=08}「さあ　これが　こんかいの賞金よ。{BREAK} ありがたく　うけとりなさい。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} obtained　100000{COLOR=0}{226}{COLOR=2}!"
+SAY "{COLOR=2}{NAME}は{BREAK}賞金　100000{COLOR=0}{226}{COLOR=2}を　手に入れた!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
@@ -566,7 +566,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43160000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Thing's will be different next time!"
+SAY "{VOICE=08}「つぎこそ　負けないわよ。{BREAK} カクゴしてなさい　チャンピオンくん!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -627,7 +627,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}In a shocking turn of events, our champion's been defeated!{WAIT}{CLEAR}They'll be talking about this one for years to come!"
+SAY "{VOICE=07}「決まったァァァァ…………!!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -651,7 +651,7 @@ SYS_8C 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=08}This...CANNOT...be happening! Me, losing in a single round!? Come ON!"
+SAY "{VOICE=07}「だーいドンデンがえしーーー!{BREAK} チャンピオン　まさかの敗北だーー!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -666,15 +666,15 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}Ha! Seems you winning the Monster Scout Challenge was a fluke after all!"
+SAY "{VOICE=08}「アハハハ!　どうやら　バトルGPでの勝利は{BREAK} たんなる　マグレだったようね!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}At the next True Monster Scout Challenge, I'll be crowned champion. You'll see!"
+SAY "{VOICE=08}「つぎの　真のバトルGPでは{BREAK} アタシが　チャンピオンを　いただくわよ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}If you don't like it, why not give it another shot, Mr So-Called Champion?"
+SAY "{VOICE=08}「くやしかったら　でなおしてきなさいよ。{BREAK} いつわりの　チャンピオンくん?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

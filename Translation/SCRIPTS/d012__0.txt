@@ -264,19 +264,19 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Woa-oa-oa! Here come those human beings struttin' their funky stuff!"
+SAY "{VOICE=07}「人間よ……!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}D'you know how long my half-blind brethren and I've been waitin' for you?{WAIT}{CLEAR}We were wonderin' when someone would come wieldin' that funky medal."
+SAY "{VOICE=07}「われらは　そのプレートをもつ者が{BREAK} あらわれるのを　ひさしく　まっていた!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}It proves you're worthy of competin' in this island's Monster Scout Challenge."
+SAY "{VOICE=07}「そのプレートこそ　この島で行われる{BREAK} バトルGPの参加を　みとめるモノなのだ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}Runnin' that Challenge is the most righteous duty of all molekind, you dig?"
+SAY "{VOICE=07}「そして　われら　モグラいち族には{BREAK} そのバトルGPを　とりしきる使命がある!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -338,7 +338,7 @@ SYS_53 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Ladies and gentlemoles, brothers and sisters, it's...almost showtime!"
+SAY "{VOICE=07}「その使命にのっとり　われらは　これより{BREAK} バトルGPの　じゅんびをはじめる!"
 STORE 0x18 0x1 0x0 0x2 0x43530000
 SYS_41 0x8 
 SYS_44 0x8 
@@ -375,11 +375,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}I'll lay down the rules once we've got things all set up here..."
+SAY "{VOICE=07}「くわしい説明は　のちにするが……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}...then we'll find out whether you're really hip enough for the challenge."
+SAY "{VOICE=07}「おぬしが　そのプレートに　ふさわしい者か{BREAK} 試させて　ほしい。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -400,7 +400,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}In accordance with the most sacred contest rules, you'll need a helpin' hand..."
+SAY "{VOICE=07}「かつての　オキテに　したがい{BREAK} かの者を　そなたたちに　つかわそう。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_28d8
@@ -414,7 +414,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41b80000
 STORE 0x18 0x0 0x40800000 0x2 0x3f800000
 SETNAME "Don Mole"
-SAY "{VOICE=07}Dr Lump, come join me on stage!"
+SAY "{VOICE=07}「Dr. Lump　ここへ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -485,15 +485,15 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}This little fella's name is Dr Lump.{WAIT}{CLEAR}He's the sultan of synthesis,{BREAK}the monster-matchin' maven."
+SAY "{VOICE=07}「こやつの名は　Dr. Lump。{BREAK} 配合とよばれる技の　使い手だ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}Synthesis is the most beautiful, most natural, most funky thing in the world.{WAIT}{CLEAR}It's when two monsters fuse to produce a stronger, groovier offspring!"
+SAY "{VOICE=07}「配合とは　ことなるモンスターをかけあわせ{BREAK} 仲間を強くしていく　キセキの技。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}Without a whole lotta synthin' goin' on, you ain't got a hope, brother."
+SAY "{VOICE=07}「配合なくして　われらがGPを勝ちあがるのは{BREAK} むずかしいだろう。よく　おぼえておけ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -521,11 +521,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Anyway, me and my crew are gonna get to work settin' things up here.{WAIT}{CLEAR}Why don't you head back to your ship and chill out for a spell?"
+SAY "{VOICE=07}「では　会場のじゅんびをしている間{BREAK} いちど　飛行船とやらに　もどるがよい。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}Keep winnin' in the Challenge and the road ahead's gonna open right up!"
+SAY "{VOICE=07}「このバトルGPに　勝ちつづければ{BREAK} おのずと　道がひらけるだろう!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

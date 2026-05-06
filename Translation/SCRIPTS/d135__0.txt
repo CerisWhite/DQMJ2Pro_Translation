@@ -196,7 +196,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40a00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{VOICE=08}So you thought you could hitch a free ride to the Monster Scout Challenge, eh?"
+SAY "{VOICE=08}「なんてこと!　タダ乗りして　GP会場に{BREAK} 行こうとしてたですって!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -225,7 +225,7 @@ STORE 0x18 0x1 0x0 0x0 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x42d40000
 SYS_18 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}You're the captain of this rustbucket, right? {WAIT}{CLEAR}I insist you make this scruffy stowaway walk the plank this instant!"
+SAY "{VOICE=08}「あなた　船長よね?　このハレンチなボーイを{BREAK} とっとと　つまみだしてちょうだい!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -238,11 +238,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Woah there! Hold your horses!{BREAK}Let's not go crazy here."
+SAY "{VOICE=07}「まあまあ　マダム・Lily Gilder。{BREAK} すこし　おちつきましょう。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}C'mon, you're a monster scout yourself, Miss Gilder.{WAIT}{CLEAR}You must be able to understand where this kid's comin' from."
+SAY "{VOICE=07}「あなたも　モンスターマスターなら{BREAK} すこしくらい　わかるんじゃないですか?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x0
@@ -262,7 +262,7 @@ STORE 0x18 0x1 0x0 0x2 0x424c0000
 STORE 0x18 0x1 0x3f800000 0x2 0x42a00000
 SYS_17 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}That burnin' desire to compete that would make someone try to hitch a free ride..."
+SAY "{VOICE=07}「タダ乗りまでして　バトルGPに出たいという{BREAK} はげしく　アツい　じょうねつが……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -315,7 +315,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42d00000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}Captain, in case you hadn't noticed, I am a woman of elegance and distinction. {WAIT}{CLEAR}I have not the faintest idea what is going on in this scruffy stowaway's head."
+SAY "{VOICE=08}「ふ…ふんっ。セレブの　わたくしには{BREAK} ハレンチボーイの気もちなんて　わからないわ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -328,11 +328,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Listen, I'm not sayin' he's gonna get away scot-free.{WAIT}{CLEAR}Stowin' away is a serious offence in Captain Rex Mayday's book."
+SAY "{VOICE=07}「もちろん　私も　みのがすつもりはありません。{BREAK} タダ乗りしたバツは　うけてもらいますよ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}So here's the deal..."
+SAY "{VOICE=07}「そうですね……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -402,11 +402,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}I'm happy to announce that we now have a new crew member on board the Albatross.{WAIT}{CLEAR}Our freeloadin' young friend's gonna pay his fare by workin' as a rookie deckhand."
+SAY "{VOICE=07}「かれには　この船の　みならい船員として{BREAK} はたらいてもらうことにしましょう。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}He'll be at your beck and call for the duration of the flight. Sound fair?"
+SAY "{VOICE=07}「ちゃんと　みなさんの　お世話をさせます。{BREAK} これで　手をうつというのは　いかがですか?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -441,7 +441,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}So, Rookie! Do we have a deal?"
+SAY "{VOICE=07}「キミも　それでいいかな?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -461,11 +461,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42d40000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}Hmph. Well, I still think he should have walked the plank..."
+SAY "{VOICE=08}「……しかたがないわね。{BREAK} まあ　それで　みのがしてあげるわ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}But so be it. He'll just have to attend to my every whim!"
+SAY "{VOICE=08}「そのかわり　わたくしのために{BREAK} しっかり　つくしなさいよ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -587,11 +587,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Okay, Rookie..."
+SAY "{VOICE=07}「さて　と……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Hold on! I just realised you're workin' for me, and I don't know your name..."
+SAY "{VOICE=07}「そういえば　名前が　まだだったな。{BREAK} キミ　名前は?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -605,11 +605,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}What's that? {NAME}, huh?{BREAK}Well, I prefer 'Rookie'."
+SAY "{VOICE=07}「……そうか　{NAME}か。{BREAK} 私は　セブンスだ。よろしくな。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}I want you to give me a full debriefing. Let's head to the flightdeck."
+SAY "{VOICE=07}「では　くわしい話を　きくとしよう。{BREAK} とりあえず　船長室に　行こうか。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

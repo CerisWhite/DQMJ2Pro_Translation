@@ -272,19 +272,19 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42c20000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}This, dear boy, is the monster pen! Really gets the pulse racing, does it not?"
+SAY "{VOICE=03}「どうじゃ　ワクワクするじゃろう?{BREAK} ここが　モンスターの預かり所じゃ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}Scouts can keep any monsters they've befriended here."
+SAY "{VOICE=03}「マスターたちは　仲間にしたモンスターを{BREAK} ここに　預けておくんじゃよ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}Any scout airship worth its salt comes equipped with a monster pen."
+SAY "{VOICE=03}「マスターたちを　はこぶ船には　こういう{BREAK} せつびも　ついておるんじゃ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}This splendid facility is very high-tech. Just take a look at that!"
+SAY "{VOICE=03}「しかも　ここの預かり所は　ハイテクでな。{BREAK} ほれ　アレをみてみい。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -316,11 +316,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}Scouts can use that computer to add or remove monsters from the pen."
+SAY "{VOICE=03}「モンスターを預けたり　つれだしたりするのに{BREAK} そこの　こんぴゅーたあを　使うんじゃ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}I trust you'll become able to store your own monsters here in the very near future."
+SAY "{VOICE=03}「まあ　いずれ　お前さんも　ここの世話になる。{BREAK} じっくりと　中を　みてまわるといいじゃろう。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

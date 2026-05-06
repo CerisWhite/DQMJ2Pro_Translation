@@ -1226,7 +1226,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1340,7 +1340,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4796,10 +4796,10 @@ JMP_IFNOT 0xc L_12b0c
 CMP_EQ 0x18 0x0 0x42ce0000 0x2 0x40800000
 JMP_IFNOT 0xc L_12a60
 SYS_42 0x8 
-SAY "{VOICE=07}Ooze are you? Why are you here?"
+SAY "{VOICE=07}「プルプル。キミは　だれ?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}(slurp) Oooh, I know, I know.{WAIT}{CLEAR}Maybe you're friends with the monster who croozed in here earlier?"
+SAY "{VOICE=07}「もしかして　さっき　ここにきたモンスターの{BREAK} お仲間だったりするのかな?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4808,7 +4808,7 @@ L_12a60:
 CMP_EQ 0x18 0x0 0x42ce0000 0x2 0x41000000
 JMP_IFNOT 0xc L_12b00
 SYS_42 0x8 
-SAY "{VOICE=07}You're one of those gooman thingies, aren't you? Still, you seem nice enough."
+SAY "{VOICE=07}「プルプル。キミが　ニンゲンかあ。{BREAK} 思ってたより　ずっと　やさしそうだね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4819,7 +4819,7 @@ L_12b0c:
 CMP_EQ 0x18 0x0 0x42cc0000 0x2 0x40800000
 JMP_IFNOT 0xc L_12bb0
 SYS_42 0x8 
-SAY "{VOICE=07}I saw a gooman thing wearing spectacles hurry past to the arena..."
+SAY "{VOICE=07}「プルプル。メガネをかけたニンゲンが{BREAK} 闘技場のほうに　入っていくのがみえたよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4841,10 +4841,10 @@ CMP_LT 0x18 0x0 0x42ce0000 0x2 0x40000000
 JMP_IFNOT 0xc L_12d4c
 L_12c70:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Nose for Treasure!"
+SAY "{VOICE=07}「プルプル。キミも　だいぶ{BREAK} ここのジョーレンさんに　なってきたね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}This ability lets {NAME} find out how many items are hidden nearby."
+SAY "{VOICE=07}「みるたびに　強くなってるのが　わかるよ。{BREAK} プルプル。ニンゲンって　すごいなあ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4855,10 +4855,10 @@ L_12d54:
 JMP_ABS 0xc L_12d60
 L_12d60:
 SYS_42 0x8 
-SAY "{VOICE=07}Goomans are scary, selfish things.{BREAK}They even made a god turn bad!"
+SAY "{VOICE=07}「神さまを　わるいヤツにしちゃうなんて{BREAK} ニンゲンって　こわいんだね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}(jiggle) You won't do that...will you?"
+SAY "{VOICE=07}「プルプル。キミは　そんなこと　しないよね?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4871,10 +4871,10 @@ JMP_IFNOT 0xc L_12f38
 CMP_LE 0x18 0x0 0x42ce0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_12f2c
 SYS_42 0x8 
-SAY "{VOICE=07}Goomans are scary, selfish things.{BREAK}They even made a god turn bad!"
+SAY "{VOICE=07}「神さまを　わるいヤツにしちゃうなんて{BREAK} ニンゲンって　こわいんだね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}(jiggle) You won't do that...will you?"
+SAY "{VOICE=07}「プルプル。キミは　そんなこと　しないよね?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4887,7 +4887,7 @@ JMP_IFNOT 0xc L_13004
 CMP_GE 0x18 0x0 0x42ce0000 0x2 0x0
 JMP_IFNOT 0xc L_12ff8
 SYS_42 0x8 
-SAY "{VOICE=07}Th-The Divine Battler lives again!{BREAK}I jiggle in awe!"
+SAY "{VOICE=07}「プルプル。戦の神さまが　復活したんだね!{BREAK} すごいよ　すごいよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4898,7 +4898,7 @@ L_13004:
 CMP_GE 0x18 0x0 0x42cc0000 0x2 0x41300000
 JMP_IFNOT 0xc L_130a8
 SYS_42 0x8 
-SAY "{VOICE=08}I don't mind goomans sliming around, but I hope they take their litter home..."
+SAY "{VOICE=07}「プルプル。ニンゲンが　いっぱい　やってきて{BREAK} ここも　ずいぶん　にぎやかに　なったよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4913,10 +4913,10 @@ JMP_IFNOT 0xc L_132f4
 CMP_EQ 0x18 0x0 0x42ce0000 0x2 0x40800000
 JMP_IFNOT 0xc L_131fc
 SYS_42 0x8 
-SAY "{VOICE=08}Look! A confoozed monster wandered in here, not knowing it's the moles' den!"
+SAY "{VOICE=08}「みて。ここを　モグラのアジトと知らずに{BREAK} まぎれこんできた　モンスターがいるの。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Silly monster. He's not going to have the slime of his life down here!"
+SAY "{VOICE=08}「バッカなヤツねー。あのモンスター{BREAK} これからボコボコに　されちゃうわよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4925,10 +4925,10 @@ L_131fc:
 CMP_EQ 0x18 0x0 0x42ce0000 0x2 0x41000000
 JMP_IFNOT 0xc L_132e8
 SYS_42 0x8 
-SAY "{VOICE=08}Oooh, this is SO exciting.{BREAK}I've never seen a gooman before."
+SAY "{VOICE=08}「アタシ　ニンゲンって　はじめてみたわ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I thought goomans were extinct.{BREAK}Have I been lied to!?"
+SAY "{VOICE=08}「この島では　おおむかしに　ゼツメツしたって{BREAK} きいてたけど　その話　ウソだったのかな?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4939,10 +4939,10 @@ L_132f4:
 CMP_EQ 0x18 0x0 0x42cc0000 0x2 0x40800000
 JMP_IFNOT 0xc L_133e0
 SYS_42 0x8 
-SAY "{VOICE=08}Oooh, this is SO exciting.{BREAK}I've never seen a gooman before."
+SAY "{VOICE=08}「アタシ　ニンゲンって　はじめてみたわ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I thought goomans were extinct.{BREAK}Have I been lied to!?"
+SAY "{VOICE=08}「この島では　おおむかしに　ゼツメツしたって{BREAK} きいてたけど　その話　ウソだったのかな?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4964,10 +4964,10 @@ CMP_LT 0x18 0x0 0x42ce0000 0x2 0x40000000
 JMP_IFNOT 0xc L_1356c
 L_134a0:
 SYS_42 0x8 
-SAY "{VOICE=08}They say there used to be goomans living all over this island."
+SAY "{VOICE=08}「この島にも　あなたのようなニンゲンが{BREAK} いたはずなのよね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}But then someone - or something - made them all disappear."
+SAY "{VOICE=08}「だれかに　ゼツメツさせられたって{BREAK} きいたけど　あの話は　ウソなのかなあ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4978,10 +4978,10 @@ L_13574:
 JMP_ABS 0xc L_13580
 L_13580:
 SYS_42 0x8 
-SAY "{VOICE=08}Oh, yes, we all heard Mynos the Elder's story."
+SAY "{VOICE=08}「マイセンって　おじいちゃんの話{BREAK} ここまで　きこえちゃった。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}The goomans who used to live here were silly, silly, SILLY people.{WAIT}{CLEAR}I'm glad they decided to goo away."
+SAY "{VOICE=08}「まったく……。この島にすんでた　人間たちは{BREAK} ロクなことを　かんがえなかったみたいね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4994,10 +4994,10 @@ JMP_IFNOT 0xc L_13788
 CMP_LE 0x18 0x0 0x42ce0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1377c
 SYS_42 0x8 
-SAY "{VOICE=08}Oh, yes, we all heard Mynos the Elder's story."
+SAY "{VOICE=08}「マイセンって　おじいちゃんの話{BREAK} ここまで　きこえちゃった。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}The goomans who used to live here were silly, silly, SILLY people.{WAIT}{CLEAR}I'm glad they decided to goo away."
+SAY "{VOICE=08}「まったく……。この島にすんでた　人間たちは{BREAK} ロクなことを　かんがえなかったみたいね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5010,10 +5010,10 @@ JMP_IFNOT 0xc L_138b0
 CMP_GE 0x18 0x0 0x42ce0000 0x2 0x0
 JMP_IFNOT 0xc L_138a4
 SYS_42 0x8 
-SAY "{VOICE=08}I won't be forgiving the goomans who used to live here any time soon. No, no, no..."
+SAY "{VOICE=08}「この島の　人間たちのしたことは{BREAK} ゆるされることでは　ないけれど……"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}But I WILL ooze with delight over the resurrection of the mighty Leonyx!"
+SAY "{VOICE=08}「いまは　レオソードさまの復活を{BREAK} すなおに　よろこびましょうっ!　ワーイ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5024,7 +5024,7 @@ L_138b0:
 CMP_GE 0x18 0x0 0x42cc0000 0x2 0x41300000
 JMP_IFNOT 0xc L_13954
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}'s team is healed."
+SAY "{VOICE=08}「人間が　やってくるのは　いいんだけど{BREAK} ゴミとか　ちらかして　かえらないでほしいわ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5045,13 +5045,13 @@ CMP_EQ 0x18 0x0 0x42d20000 0x2 0x0
 JMP_IFNOT 0xc L_13bb8
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}A challenge!? This Don Mole fellow will host a Monster Scout Challenge!?"
+SAY "{VOICE=03}「バトルGP!?　あのDon Moleという男{BREAK} バトルGPを　はじめると言ったか!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}But, I know everything there is to know about Monster Scout Challenges...{WAIT}{CLEAR}...and I've never heard of any occurring on an island like this, not once!"
+SAY "{VOICE=03}「こんな島で　バトルGPが行われるはずがない!{BREAK} GPマニアのわしでも　きいたことがないぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}We must make immediate enquiries with Don Mole - I am anxious to learn more!"
+SAY "{VOICE=03}「とにかく　Don Moleの話を　きこうぞ。{BREAK} すべては　そこからじゃ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5066,13 +5066,13 @@ JMP_ABS 0xc L_13bcc
 L_13bcc:
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}This Don Mole gentleman claims he will host a Monster Scout Challenge..."
+SAY "{VOICE=03}「あのDon Moleという男{BREAK} バトルGPを　はじめると言っておったが……"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}But, I know everything there is to know about Monster Scout Challenges...{WAIT}{CLEAR}...and I've never heard of any occurring on an island like this, not once!"
+SAY "{VOICE=03}「こんな島で　バトルGPが行われるはずがない!{BREAK} GPマニアのわしでも　きいたことがないぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}We must make immediate enquiries with Don Mole - I am anxious to learn more!"
+SAY "{VOICE=03}「とにかく　Don Moleの話を　きこうぞ。{BREAK} すべては　そこからじゃ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5092,10 +5092,10 @@ CMP_EQ 0x18 0x0 0x42ce0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_13e8c
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}You've obtained the one-and-only Medal of Merit!? You're good alright!"
+SAY "{VOICE=07}「試練の証を　手に入れたようですね!{BREAK} さすがは　{NAME}さんだ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You must show the Medal of Merit to Don Mole, right away!"
+SAY "{VOICE=07}「さあ　Don Moleに{BREAK} その試練の証を　つきつけてやりましょう!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5105,16 +5105,16 @@ CMP_EQ 0x18 0x0 0x42ce0000 0x2 0x40000000
 JMP_IFNOT 0xc L_14054
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}Mynos the Elder has explained everything to me.{WAIT}{CLEAR}The legendary monster scout... The riddle of the Monster Challenge... I know it all!"
+SAY "{VOICE=07}「Mynos the Elderの話で　伝説のマスターのことや{BREAK} GPの謎が　ついに　明かされましたね!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}He says that if you can awaken the Divine Battler...{WAIT}{CLEAR}...you'll be able to scout the mighty Empyrea!"
+SAY "{VOICE=07}「戦の神をめざめさせれば　巨鳥Empyreaも{BREAK} 仲間に　できるっぽいですし……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}There IS light at the end of the tunnel,{BREAK}and you can lead us to it!"
+SAY "{VOICE=07}「ほんとうに　きぼうが　みえてきました!{BREAK} がんばってください　{NAME}さん!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I think you've got what it takes to become a legendary monster scout!"
+SAY "{VOICE=07}「あなたなら　きっと{BREAK} 伝説のマスターに　なれますよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5131,13 +5131,13 @@ CMP_EQ 0x18 0x0 0x42d20000 0x2 0x0
 JMP_IFNOT 0xc L_14238
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}Nice work! You passed the final trial,{BREAK}and now the way forward is open."
+SAY "{VOICE=07}「最後の試練クリア　おめでとうございます!{BREAK} これで　ボクらにも　道が　ひらけましたね!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Now, awaken the Divine Battler, and you will be able to make Empyrea yours!"
+SAY "{VOICE=07}「戦の神を復活させれば　Empyreaを仲間にする{BREAK} チカラが　そなわるに　ちがいありません!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You've almost done it. One more triumph, and you'll become a living legend!"
+SAY "{VOICE=07}「さあ　あと　ひといきですよ!{BREAK} がんばってくださいね　{NAME}さん!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5149,13 +5149,13 @@ JMP_ABS 0xc L_1424c
 L_1424c:
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}What!? You've already stood at the feet of the Divine Battler himself!?"
+SAY "{VOICE=07}「おおっ!　ついに　戦の神のもとへ{BREAK} たどりついたのですか!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Now, awaken the Divine Battler, and you will be able to make Empyrea yours!"
+SAY "{VOICE=07}「戦の神を復活させれば　Empyreaを仲間にする{BREAK} チカラが　そなわるに　ちがいありません!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You've almost done it. One more triumph, and you'll become a living legend!"
+SAY "{VOICE=07}「さあ　あと　ひといきですよ!{BREAK} がんばってくださいね　{NAME}さん!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5175,10 +5175,10 @@ STORE 0x18 0x0 0x42d20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d20000 0x2 0x0
 JMP_IFNOT 0xc L_14524
 SYS_42 0x8 
-SAY "{VOICE=07}Who'd have thought the True Monster Scout Challenge was hosted by MOLES6?"
+SAY "{VOICE=07}「真のバトルGPを　モグラが　しきってるとは{BREAK} 思いも　よらなかったぜ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I mean, it's such a completely wacky idea. Who in the world came up with it?"
+SAY "{VOICE=07}「そんなヒジョーシキを　うけいれ　このGPを{BREAK} 復活させたのは　いったい　どんなヤツなんだ?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5198,7 +5198,7 @@ STORE 0x18 0x0 0x42d20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d20000 0x2 0x0
 JMP_IFNOT 0xc L_14664
 SYS_42 0x8 
-SAY "{VOICE=07}Okay, this is TOTALLY awesome.{WAIT}{CLEAR}The True Monster Scout Challenge is actually about to start, for real!"
+SAY "{VOICE=07}「ついに　真のバトルGPが　はじまるらしいぜ!{BREAK} ヤベーよ　オレ　ちょうドキドキしてきた!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5214,10 +5214,10 @@ STORE 0x18 0x0 0x42d20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d20000 0x2 0x0
 JMP_IFNOT 0xc L_147ac
 SYS_42 0x8 
-SAY "{VOICE=07}They're going to keep at it, battle royale style, until only the champion is left!"
+SAY "{VOICE=07}「真のバトルGPは　優勝者が出るまで{BREAK} ずっと　つづくみたいだぜ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Man, the guys back home'll never believe I was actually HERE to see it..."
+SAY "{VOICE=07}「アツい　しゅんかんを　なんども{BREAK} もくげきできる　オレは　しあわせ者だな!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5226,10 +5226,10 @@ L_147ac:
 CMP_EQ 0x18 0x0 0x42d20000 0x2 0x3f800000
 JMP_IFNOT 0xc L_148a4
 SYS_42 0x8 
-SAY "{VOICE=07}WOAH! Be still my beating heart!{WAIT}{CLEAR}It's the True Monster Scout Challenge champion himself!"
+SAY "{VOICE=07}「おお!　アンタ!　もしかして{BREAK} 真のチャンピオンじゃねーか!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I saw every battle, man, every single move. I'll never forget it!"
+SAY "{VOICE=07}「アンタが優勝を決めた　アツい決勝戦は{BREAK} いまも　まぶたに　やきついているぜ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5249,19 +5249,19 @@ STORE 0x18 0x0 0x42d20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d20000 0x2 0x0
 JMP_IFNOT 0xc L_14b74
 SYS_42 0x8 
-SAY "{VOICE=07}Recently, some uncool dude has been sneakin' around lookin' for trouble."
+SAY "{VOICE=07}「さいきん　オイラたちのシマをあらす{BREAK} ふとどきものが　いるらしい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}He's got a beard and goons at his side, and he only appears when it's rainin'."
+SAY "{VOICE=07}「手下をつれた　ヒゲづらのヘンテコな男で{BREAK} てんきの　よくねえときに　出てくるそうだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}He prowls around hither and yon, and the brethren have seen him all over the place."
+SAY "{VOICE=07}「おまけに　いつも　ウロウロしてんのか{BREAK} いろんな場所で　みかけたって話がある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}We wanna find the man, but we've got a show and can't walk out on our gig..."
+SAY "{VOICE=07}「さがしだして　とっちめてやりてえが{BREAK} ここを　はなれるワケにも　いかねえ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you run into the dude, give him a sermon from me and the boys...{WAIT}{CLEAR}...and tell him, 'Be cool, fool'."
+SAY "{VOICE=07}「あんた　もし　そいつらに出会ったら{BREAK} オイラに代わって　ガツンと言っといてくれ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5292,10 +5292,10 @@ L_14c90:
 CMP_EQ 0x18 0x0 0x42d40000 0x2 0x3f800000
 JMP_IFNOT 0xc L_14d90
 SYS_42 0x8 
-SAY "{VOICE=07}The bearded dude you drove away was a pirate, lookin' to plunder our wares."
+SAY "{VOICE=07}「あんたが　こらしめた　あのヒゲのヤロウは{BREAK} かいぞくっていう　ワルいヤツだったのか。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You did most fine, my friend.{WAIT}{CLEAR}You've freed our home from a seriously unfunky pirate scourge."
+SAY "{VOICE=07}「あんたのおかげで　オイラたちのシマに{BREAK} へいわが　おとずれたぜ。ありがとよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5313,13 +5313,13 @@ CMP_LT 0x18 0x0 0x430c0000 0x2 0x40400000
 JMP_IFNOT 0xc L_14f54
 L_14e14:
 SYS_42 0x8 
-SAY "{VOICE=07}The dude with the beard and goons at his side only appear when it's rainin'."
+SAY "{VOICE=07}「手下をつれた　ヒゲづらのヘンテコな男が{BREAK} てんきの　よくねえときに　出てくるそうだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}He prowls around hither and yon, and the brethren have seen him all over the place."
+SAY "{VOICE=07}「おまけに　いつも　ウロウロしてんのか{BREAK} いろんな場所で　みかけたって話がある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you run into the dude, give him a sermon from me and the boys...{WAIT}{CLEAR}...and tell him, 'Be cool, fool'."
+SAY "{VOICE=07}「あんた　もし　そいつらに出会ったら{BREAK} オイラに代わって　ガツンと言っといてくれ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5332,10 +5332,10 @@ STORE 0x18 0x1 0x0 0x2 0x42900000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_2A 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}You dug good, my funky friend, and drove that bearded man off our turf."
+SAY "{VOICE=07}「よう!　あんた　うまいこと　ヒゲのヤロウを{BREAK} おっぱらって　くれたそうじゃねえか。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Thanks, my man. This is for you, a jazzy gift from us all."
+SAY "{VOICE=07}「ありがとな。{BREAK} こいつは　おれいだ。うけとってくれ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5344,7 +5344,7 @@ SYS_33 0x8
 SYS_42 0x8 
 STORE 0x18 0x1 0x0 0x2 0x43200000
 SYS_55 0x8 
-SAY "{COLOR=2}{NAME} obtains {E32A}!"
+SAY "{COLOR=2}{NAME}は{BREAK}{E328}を　手に入れた。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5360,19 +5360,19 @@ JMP_IFNOT 0xc L_1574c
 CMP_LT 0x18 0x0 0x430c0000 0x2 0x40a00000
 JMP_IFNOT 0xc L_15378
 SYS_42 0x8 
-SAY "{VOICE=07}Say-hey, have you heard the word, my brother?"
+SAY "{VOICE=07}「よう　あんたか。{BREAK} ちょっと　きいてくれ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}That no-good-pirate-man is back, and he's got new goons at his side."
+SAY "{VOICE=07}「あの　キャプテンなんとかって　かいぞくが{BREAK} 新しい仲間を　ひきつれて　あらわれたらしい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The sermon didn't sink in, and he's back a-plunderin' whenever the rain falls."
+SAY "{VOICE=07}「しょうこりもなく　てんきのわるい場所に{BREAK} ととうをくんで　やってくるそうだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}This island is our turf, and we don't dig it when pirates are runnin' wild."
+SAY "{VOICE=07}「あんな　あくとう　オイラたちのシマで{BREAK} でかいカオさせておきたくねえ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Will you give your brothers another helpin' hand, friend?{WAIT}{CLEAR}Find the seafarin' thugs and make 'em walk the plank one more time."
+SAY "{VOICE=07}「すまねえが　あんた。もういちど　ヤツらを{BREAK} こらしめてきてくれねえか。れいなら　するぜ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5386,16 +5386,16 @@ STORE 0x18 0x1 0x0 0x2 0x42920000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_2A 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}You drove those bearded fools away again? I am diggin' you, daddy-o! "
+SAY "{VOICE=07}「よう!　あんた　さすがだな。{BREAK} かいぞくども　おっぱらってくれたんだろ?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Say again? You scouted the pirate man and put him in your menagerie?"
+SAY "{VOICE=07}「なに!?　自分の仲間にしちまったって?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Far OUT, brother! That is the funkiest thing I ever did hear!"
+SAY "{VOICE=07}「ハッハッハ!　そいつぁ　ケッサクだ!{BREAK} あんたの　ふとっぱらなとこ　サイコーだぜ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Me and my brothers owe you, friend.{BREAK}We think you'll dig this jazzy reward..."
+SAY "{VOICE=07}「とにかく　ありがとな。{BREAK} さあ　こいつは　おれいだ。うけとってくれ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5404,7 +5404,7 @@ SYS_33 0x8
 SYS_42 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41e00000
 SYS_55 0x8 
-SAY "{COLOR=2}{NAME} obtains {E32A}!"
+SAY "{COLOR=2}{NAME}は{BREAK}{E328}を　手に入れた。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5416,10 +5416,10 @@ L_15640:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x3f800000
 JMP_IFNOT 0xc L_15734
 SYS_42 0x8 
-SAY "{VOICE=07}Hey-ho, daddy-o. It's the pirate buster himself!"
+SAY "{VOICE=07}「よう　あんたか。{BREAK} かいぞくさわぎでは　世話になったな。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You did most fine, my friend. You've brought peace to our island home!"
+SAY "{VOICE=07}「あんたのおかげで　オイラたちのシマに{BREAK} へいわが　おとずれたぜ。ありがとよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5438,19 +5438,19 @@ L_15770:
 CMP_EQ 0x18 0x0 0x430a0000 0x0 0x42fc0000
 JMP_IFNOT 0xc L_15990
 SYS_42 0x8 
-SAY "{VOICE=07}Did ya notice how some treasure boxes are blue and some are red?"
+SAY "{VOICE=07}「知っているかもしれないが　この島には{BREAK} あおい宝箱と　あかい宝箱があるんだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The red ones cough up treasure just once, but the blue ones...dude, they are magic!{WAIT}{CLEAR}You can open them once, then keep comin' back for more and more!"
+SAY "{VOICE=07}「あかい宝箱は　いちどしか中身がとれないが{BREAK} あおい宝箱は　時間がたつと中身が復活するぞ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Same goes for crystals and small plants across the island. They always grow back."
+SAY "{VOICE=07}「いちどひろった　はっぱや　こうせきも{BREAK} 時間がたつと　また　ひろえるようになるんだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}So be sure to dig around for new swag each time you revisit a place."
+SAY "{VOICE=07}「行ったことのあるエリアでも　なんども{BREAK} あしをはこんで　チェックする。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}All the hep cats on this island know this stuff, but now you do, too, my brother!"
+SAY "{VOICE=07}「それが　この島で{BREAK} 生活する者の　ヒケツさ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5465,10 +5465,10 @@ JMP_IFNOT 0xc L_15d40
 CMP_LT 0x18 0x0 0x430c0000 0x2 0x40a00000
 JMP_IFNOT 0xc L_15b04
 SYS_42 0x8 
-SAY "{VOICE=07}Oooh, it's terrible, it's awful! The bearded pirate man is back again!"
+SAY "{VOICE=07}「たいへんモジャ!　ヒゲモジャの　かいぞくが{BREAK} また　あらわれたモジャー!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}(shiver) I shall never go out in the rain again, not for ever and ever!"
+SAY "{VOICE=07}「ブルブル……　こわいモジャー。{BREAK} 雨の日の　おでかけが　できないモジャ……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5479,10 +5479,10 @@ JMP_IFNOT 0xc L_15d34
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x0
 JMP_IFNOT 0xc L_15c28
 SYS_42 0x8 
-SAY "{VOICE=07}Golly, you're good! You gave those pirates a fine talking to!"
+SAY "{VOICE=07}「やったモジャ!　ヒゲモジャの　かいぞくが{BREAK} とうとう　いなくなったモジャー!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Now we're free to stroll in the rain again - as long as we wear our wellies!"
+SAY "{VOICE=07}「これで　だいすきな　レインコートをきて{BREAK} 雨の日の　おさんぽに　行けるモジャ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5491,10 +5491,10 @@ L_15c28:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x3f800000
 JMP_IFNOT 0xc L_15d28
 SYS_42 0x8 
-SAY "{VOICE=07}Golly, you're good! You gave those pirates a fine talking to!"
+SAY "{VOICE=07}「やったモジャ!　ヒゲモジャの　かいぞくが{BREAK} とうとう　いなくなったモジャー!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Now we're free to stroll in the rain again - as long as we wear our wellies!"
+SAY "{VOICE=07}「これで　だいすきな　レインコートをきて{BREAK} 雨の日の　おさんぽに　行けるモジャ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5560,10 +5560,10 @@ JMP_IFNOT 0xc L_16214
 CMP_EQ 0x18 0x0 0x42d40000 0x2 0x0
 JMP_IFNOT 0xc L_1612c
 SYS_42 0x8 
-SAY "{COLOR=2}'Warning! Bearded man spotted during rain showers.'"
+SAY "{COLOR=2}キケン!　てんきのわるい場所に{BREAK}ヒゲづらの男が　しゅつぼつします!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'Scaredy cats and wimps are advised to stay indoors during inclement weather.'"
+SAY "{COLOR=2}ウデに　おぼえのない方は{BREAK}雨の日の　おでかけは　ひかえましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5574,10 +5574,10 @@ L_16134:
 JMP_ABS 0xc L_16140
 L_16140:
 SYS_42 0x8 
-SAY "{COLOR=2}'The bearded man previously spotted on rainy days has been driven away.'"
+SAY "{COLOR=2}てんきのわるい場所に　しゅつぼつした{BREAK}ヒゲづらの男は　にげだした　もよう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'We thank Mr {NAME} for his role in removing this threat.'"
+SAY "{COLOR=2}{NAME}さんの{BREAK}ゆうかんな　行動に　カンシャしましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5592,10 +5592,10 @@ L_16228:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x0
 JMP_IFNOT 0xc L_16318
 SYS_42 0x8 
-SAY "{COLOR=2}'WARNING! Pirates spotted on the island!'"
+SAY "{COLOR=2}キケン!　ただいま　この島に{BREAK}かいぞくが　しゅつぼつします!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'Travellers and tourists are advised to keep all valuables out of sight.'"
+SAY "{COLOR=2}カンコウのさいは　きちょう品の　あつかいに{BREAK}じゅうぶん　気をつけましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5606,10 +5606,10 @@ L_16320:
 JMP_ABS 0xc L_1632c
 L_1632c:
 SYS_42 0x8 
-SAY "{COLOR=2}'The pirate has quit plundering and joined forces with {NAME}.'"
+SAY "{COLOR=2}かいぞくは　{NAME}さんの{BREAK}仲間になって　心を入れかえた　もよう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}{NAME} inspires us all as we strive to build a safer, friendlier island!"
+SAY "{COLOR=2}{NAME}さんの{BREAK}いなせな　心いきを　みならいましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5624,7 +5624,7 @@ L_1640c:
 JMP_ABS 0xc L_16418
 L_16418:
 SYS_42 0x8 
-SAY "{COLOR=2}'No admittance to unauthorised monsters.'"
+SAY "{COLOR=2}用のない　モンスターの　たち入りは{BREAK}ごエンリョください。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5647,10 +5647,10 @@ STORE 0x18 0x0 0x42d20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d20000 0x2 0x0
 JMP_IFNOT 0xc L_16644
 SYS_42 0x8 
-SAY "{COLOR=2}'URGENT NOTICE: True Monster Scout Challenge To Start Soon!'"
+SAY "{COLOR=2}きんきゅうそくほう!{BREAK}まもなく　真のバトルGPが　かいさい!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'Only for powerful monster teams. Participants must be in good health.'"
+SAY "{COLOR=2}参加よていのかたは　しっかりと{BREAK}コンディションを　ととのえておきましょう!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5666,7 +5666,7 @@ STORE 0x18 0x0 0x42d20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d20000 0x2 0x0
 JMP_IFNOT 0xc L_16734
 SYS_42 0x8 
-SAY "{COLOR=2}'The True Monster Scout Challenge has begun!{WAIT}{CLEAR}If you're interested in competing,{BREAK}see Don Mole.'"
+SAY "{COLOR=2}真のバトルGPが　ついに　かいまく!{BREAK}参加きぼうのかたは　Don Moleまで!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5677,10 +5677,10 @@ L_1673c:
 JMP_ABS 0xc L_16748
 L_16748:
 SYS_42 0x8 
-SAY "{COLOR=2}'{NAME} has emerged as the True Monster Scout Challenge champion!'"
+SAY "{COLOR=2}真のバトルGP　優勝者は{BREAK}{NAME}に　決定!!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'His name will reverberate down through the ages...{WAIT}{CLEAR}'...the one, the only, True Monster Scout Challenge champion!'"
+SAY "{COLOR=2}かれの名は　真のチャンピオンとして{BREAK}みらいえいごう　かたりつがれることだろう!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5693,10 +5693,10 @@ L_16828:
 CMP_EQ 0x18 0x0 0x42cc0000 0x2 0x41100000
 JMP_IFNOT 0xc L_16928
 SYS_42 0x8 
-SAY "{COLOR=2}'Supreme monster scout, {NAME}, has awakened the Divine Battler.'"
+SAY "{COLOR=2}ひとりのマスターの手によって{BREAK}ついに　われらの戦の神が　復活を果たした!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'{NAME} will be spoken of as a new scouting legend!'"
+SAY "{COLOR=2}神の復活をなしとげた　{NAME}は{BREAK}伝説のマスターとして　かたりつがれるだろう!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5705,10 +5705,10 @@ L_16928:
 CMP_EQ 0x18 0x0 0x42cc0000 0x2 0x41000000
 JMP_IFNOT 0xc L_16a10
 SYS_42 0x8 
-SAY "{COLOR=2}'We have a champion!{WAIT}{CLEAR}'{NAME} has conquered every rank of the Monster Scout Challenge.'"
+SAY "{COLOR=2}ついに　バトルGPの全ランクを{BREAK}クリアする者が　あらわる!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}'When asked, he said that his next goal was to awaken the Divine Battler'!"
+SAY "{COLOR=2}その名も　{NAME}!{BREAK}かれは　これより　戦の神の復活をめざす!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5724,7 +5724,7 @@ STORE 0x18 0x0 0x42d20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d20000 0x2 0x0
 JMP_IFNOT 0xc L_16ae8
 SYS_42 0x8 
-SAY "{COLOR=2}'For synthesis enquiries, please see Dr Lump.'"
+SAY "{COLOR=2}モンスターの配合なら{BREAK}Dr. Lumpに　おまかせあれ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5735,7 +5735,7 @@ L_16af0:
 JMP_ABS 0xc L_16afc
 L_16afc:
 SYS_42 0x8 
-SAY "{COLOR=2}'Monster Scout Challenge now accepting applications!{WAIT}{CLEAR}'Enquiries to Don Mole, Chairman.'"
+SAY "{COLOR=2}バトルGP　ついに　かいまく!{BREAK}参加きぼうのかたは　Don Moleまで。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

@@ -74,7 +74,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}I promised to tell you about a happenin' place and I'm a mole of my word."
+SAY "{VOICE=07}「では　やくそく通り　この島の{BREAK} ある場所を　おしえよう。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x42740000
@@ -84,15 +84,15 @@ STORE 0x18 0x1 0x0 0x2 0x42740000
 STORE 0x18 0x1 0x3f800000 0x2 0x42200000
 SYS_17 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}It's a treacherous terrain we locals like to call Cragravation!"
+SAY "{VOICE=07}「その場所とは……　断崖だ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}At the top of those cliffs, you'll find a bona fide VIP in residence...{WAIT}{CLEAR}...one of the very greatest of all beasts."
+SAY "{VOICE=07}「断崖の　てっぺんには{BREAK} ある　お方が　すんでいらっしゃる。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}Have yourself a little pow-wow with that great beast and see what's up."
+SAY "{VOICE=07}「その　お方を　たずねてみるが{BREAK} いいだろう。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -176,7 +176,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}A 'great beast', no less. Hmmm. I wonder..."
+SAY "{VOICE=07}「その　お方というのは　もしや……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -222,7 +222,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}I've been studying some dusty tomes and I've unearthed an interesting tidbit..."
+SAY "{VOICE=07}「{NAME}さん　じつはですね。{BREAK} 古い本を調べていて　知ったのですが……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x3f800000
@@ -242,11 +242,11 @@ STORE 0x18 0x1 0x0 0x2 0x42240000
 STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}Apparently, in the dim and distant past, the people here escaped this island. {WAIT}{CLEAR}They did it by hitching a ride on the back of a giant bird! Can you imagine!?"
+SAY "{VOICE=07}「かつて　この島の人たちは　巨鳥に乗って{BREAK} たいりくを　いどうしていたらしいんです!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Archie Logg"
-SAY "{VOICE=07}If this 'great beast' turns out to be that bird, it could be our ticket home!"
+SAY "{VOICE=07}「その　お方が　その巨鳥だとしたら……{BREAK} この島を　出られるかもしれませんよ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -267,13 +267,13 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40000000
 STORE 0x18 0x1 0x40000000 0x2 0x3f800000
 SYS_02 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} can now go to a new region - Cragravation!"
+SAY "{COLOR=2}{NAME}は{BREAK}新しいエリア　断崖に　行けるようになった!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 WAIT 0x10 0x2 0x42340000
 WAIT 0x10 0x2 0x41200000
-SAY "{COLOR=2}Go to the main map and the new region will be displayed!"
+SAY "{COLOR=2}全体マップに出ると　新しいエリアが{BREAK}ひょうじされます!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

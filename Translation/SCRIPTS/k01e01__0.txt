@@ -1236,7 +1236,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1350,7 +1350,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5612,7 +5612,7 @@ JMP_IFNOT 0xc L_1591c
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_49 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} is forced to take {E33A} from Eugene Poole."
+SAY "{COLOR=2}いまは　飛行船のようすを{BREAK}みにいったほうが　よさそうだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5624,7 +5624,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_49 0x8 
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Hold up! I know ye're keen tae start adventurin', but practise comes first."
+SAY "{VOICE=07}「おーい!　ウデに自信があるのも　わかるが{BREAK} まずは　れんしゅうだ。もどってこーい!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5685,10 +5685,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_28 0x8 
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Are ye ready for battle, laddie? There are slimes all aboot this area..."
+SAY "{VOICE=07}「よし。まずは　このあたりにいるモンスターと{BREAK} 戦って　勝ってみな。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ye jest need to get nice and close tae pick a fight with 'em.{WAIT}{CLEAR}But be careful. Slimes may jest be wee blobs, but they can still hit hard!"
+SAY "{VOICE=07}「ヤツらに　さわると　バトルスタートだ。{BREAK} 決して　ゆだんするんじゃねえぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5696,13 +5696,13 @@ WAIT 0x10 0x2 0x41700000
 STORE 0x18 0x1 0x0 0x2 0x434c0000
 SYS_33 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Remember that you're free to save your game at any point."
+SAY "{COLOR=2}じゆうに　セーブが{BREAK}できるように　なりました。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Except for certain story events, you can save your game whenever you like."
+SAY "{COLOR=2}特定のタイミングを　のぞけば{BREAK}いつでも　セーブすることができます。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Simply press the X Button to open the menu and select the Save panel."
+SAY "{COLOR=2}Xボタンで　メニューをひらいて{BREAK}セーブアイコンを　選んでください。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5715,28 +5715,28 @@ CMP_EQ 0x18 0x0 0x43110000 0x2 0x41400000
 JMP_IFNOT 0xc L_16264
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Aye, that's how it's done, laddie!"
+SAY "{VOICE=07}「おう。なかなか　よかったぞ。{BREAK} そのちょうしで　敵をたおしていけよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ye may be able tae fight monsters,{BREAK}but can ye win them over tae yer side?{WAIT}{CLEAR}That's right, I'm talkin' aboot scoutin'!"
+SAY "{VOICE=07}「それじゃ　つぎは　スカウトのれんしゅうだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}A proper monster scout needs tae know how tae scout new beasties."
+SAY "{VOICE=07}「スカウトっつうのは　モンスターを{BREAK} 自分の仲間にする　マスターの　はなれワザよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Select the Scout command durin' a battle and pick a beastie tae recruit."
+SAY "{VOICE=07}「戦闘中に　スカウトを選んで{BREAK} 仲間になってほしい相手を　決めるだけでいい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Yer own monsters will try tae impress the target with a show o' force... "
+SAY "{VOICE=07}「すると　仲間のモンスターは　こっちの強さを{BREAK} みせつけるように　攻撃をはじめるんだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}...and if the beastie is sufficiently intimidated, he'll join yer menagerie!"
+SAY "{VOICE=07}「その強さに　ホレこんだモンスターが{BREAK} 仲間になってくれる　ってなカンジだな。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}There'll be times it doesnae work,{BREAK}so ye'll haftae try, try again!"
+SAY "{VOICE=07}「うまくいかないときも　あるかもしれんが{BREAK} めげずに　トライしてりゃ　いつか成功するさ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Now go on, have a try. Show them wild beasties what ye've got, laddie!"
+SAY "{VOICE=07}「よし。それじゃ　さっそく　じっせんだ。{BREAK} けんとうを　いのるぜ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5749,10 +5749,10 @@ CMP_EQ 0x18 0x0 0x43110000 0x2 0x41300000
 JMP_IFNOT 0xc L_16380
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}What's this, then? Can it be that ye've already scouted new beasties!?"
+SAY "{VOICE=07}「なんてこった……。{BREAK} お前　いきなり　スカウトを成功させたのか?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ye're a natural scout, laddie. Ye don't need me tellin' ye what tae do!"
+SAY "{VOICE=07}「マスターとしてのセンス　ありすぎだろ!{BREAK} いや　マスター経験なしってのも　ウソだな!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5763,10 +5763,10 @@ CMP_EQ 0x18 0x0 0x43110000 0x2 0x41600000
 JMP_IFNOT 0xc L_166a0
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}That's some sterlin' scoutin'! Yer team's actually startin' to look like one!"
+SAY "{VOICE=07}「無事　スカウトを　成功させたようだな。{BREAK} パーティも　みばえよく　なったじゃねえか。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Now, keep that up, recruit more beasties, and make them stronger in battle."
+SAY "{VOICE=07}「そのちょうしで　ガンガン　仲間を増やして{BREAK} そいつらを　強く　そだてていけよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5806,10 +5806,10 @@ CMP_EQ 0x18 0x0 0x431d0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_167d8
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Jings! Looks like the enemy outmaneuvered ye, laddie."
+SAY "{VOICE=07}「なにやってんだ……。{BREAK} しっかり　気合入れてやれよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Head back to the ship ASAP when you need to heal your team!"
+SAY "{VOICE=07}「まあ　もし　つかれたんなら{BREAK} 飛行船の中で　休んでこい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6087,10 +6087,10 @@ CMP_EQ 0x18 0x0 0x43110000 0x2 0x41200000
 JMP_IFNOT 0xc L_178a8
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Are ye ready for battle, laddie? There are slimes all aboot this area..."
+SAY "{VOICE=07}「よし。まずは　このあたりにいるモンスターと{BREAK} 戦って　勝ってみな。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ye jest need to get nice and close tae pick a fight with 'em.{WAIT}{CLEAR}But be careful. Slimes may jest be wee blobs, but they can still hit hard!"
+SAY "{VOICE=07}「ヤツらに　さわると　バトルスタートだ。{BREAK} 決して　ゆだんするんじゃねえぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6100,16 +6100,16 @@ CMP_EQ 0x18 0x0 0x43110000 0x2 0x41500000
 JMP_IFNOT 0xc L_17a64
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Ye may be able tae fight monsters,{BREAK}but can ye win them over tae yer side?{WAIT}{CLEAR}That's right, I'm talkin' aboot scoutin'!"
+SAY "{VOICE=07}「つぎは　スカウトのれんしゅうだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}A proper monster scout needs tae know how tae scout new beasties."
+SAY "{VOICE=07}「スカウトっつうのは　モンスターを{BREAK} 自分の仲間にする　マスターの　はなれワザよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Select the Scout command durin' a battle and pick a beastie tae recruit."
+SAY "{VOICE=07}「戦闘中に　スカウトを選んで{BREAK} 仲間になってほしい相手を　決めるだけでいい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}There'll be times it doesnae work,{BREAK}so ye'll haftae try, try again!"
+SAY "{VOICE=07}「うまくいかないときも　あるかもしれんが{BREAK} めげずに　トライしてりゃ　いつか成功するさ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6125,13 +6125,13 @@ CMP_EQ 0x18 0x0 0x43100000 0x2 0x40c00000
 JMP_IFNOT 0xc L_17c00
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}Some would call it a miracle that we survived - and I would agree!"
+SAY "{VOICE=03}「……乗客全員が　無事だったこと自体{BREAK} キセキみたいなもんじゃった。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I fear we may need more miracles if we are to escape from this island...{WAIT}{CLEAR}...but I have faith that you have the power to deliver them!"
+SAY "{VOICE=03}「だが　お前さんに　いまいちど{BREAK} キセキを　おこしてもらわねばならん!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Yes, yes. You are the key to unlocking the enigma that lies at this island's heart!"
+SAY "{VOICE=03}「そう!　すべての謎を　ときあかし{BREAK} この島を出るというキセキを!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6143,13 +6143,13 @@ CMP_EQ 0x18 0x0 0x43110000 0x2 0x0
 JMP_IFNOT 0xc L_17d84
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}Some would call it a miracle that we survived - and I would agree!"
+SAY "{VOICE=03}「……乗客全員が　無事だったこと自体{BREAK} キセキみたいなもんじゃった。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I fear we may need more miracles if we are to escape from this island...{WAIT}{CLEAR}...but I have faith that you have the power to deliver them!"
+SAY "{VOICE=03}「だが　お前さんに　いまいちど{BREAK} キセキを　おこしてもらわねばならん!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Yes, yes. You are the key to unlocking the enigma that lies at this island's heart!"
+SAY "{VOICE=03}「そう!　すべての謎を　ときあかし{BREAK} この島を出るというキセキを!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6161,10 +6161,10 @@ CMP_EQ 0x18 0x0 0x43100000 0x2 0x41100000
 JMP_IFNOT 0xc L_17e94
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}Everyone is back safe and sound!{BREAK}It's a bona fide miracle!"
+SAY "{VOICE=03}「全員　無事に　かえれるなんて{BREAK} キセキいがいの　なにものでも　ないわい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}And it's all thanks to you, dear boy.{BREAK}You have my eternal gratitude. "
+SAY "{VOICE=03}「{NAME}や。お前さんが　このキセキを{BREAK} おこしたんじゃよ。ありがとうのう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6178,10 +6178,10 @@ CMP_EQ 0x18 0x0 0x43100000 0x2 0x41100000
 JMP_IFNOT 0xc L_17fcc
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}Can it be true? Is the great avian beast Empyrea really coming for us!?"
+SAY "{VOICE=07}「やはり　巨鳥Empyreaが　ボクたちを{BREAK} むかえに　きてくれるんですかね!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Never in my wildest dreams did I think I'd see the fabled beast with my own eyes!"
+SAY "{VOICE=07}「こんな体験　もう　にどと　できませんよ!{BREAK} ありがとうございました!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6193,10 +6193,10 @@ CMP_EQ 0x18 0x0 0x43370000 0x0 0x432c0000
 JMP_IFNOT 0xc L_180dc
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}I should tell you that I'm thinking of replacing the Countess.{WAIT}{CLEAR}(sniff) Not that I imagine you care."
+SAY "{VOICE=08}「The Countessちゃんに代わる{BREAK} 新しいパートナーを　さがしているのよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}...But if you DO care, I'm looking for something in a nice pastel...{WAIT}{CLEAR}...soft, of course, and definitely fluffy. A pink sanguini, perhaps?"
+SAY "{VOICE=08}「フワフワで　モコモコの　ピンクモーモンとか{BREAK} どこかに　いないかしらね?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6210,12 +6210,12 @@ CMP_LE 0x18 0x2 0x3f800000 0x0 0x43380000
 JMP_IFNOT 0xc L_18394
 SYS_42 0x8 
 SETNAME "Infantus"
-SAY "{VOICE=08}Squeak-squeak..."
+SAY "{VOICE=08}「くーん　くーん。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The young Incarnus, Wulfspade, joins the team!"
+SAY "{COLOR=2}IncarnusのInfantus{BREAK}スペディオが　仲間になった!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -6248,12 +6248,12 @@ JMP_ABS 0xc L_183a8
 L_183a8:
 SYS_42 0x8 
 SETNAME "Infantus"
-SAY "{VOICE=08}Squark?"
+SAY "{VOICE=08}「きゅん……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} doesn't have room to bring another monster with him."
+SAY "{COLOR=2}手もちのモンスターに{BREAK}空きが　ないようだ……"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

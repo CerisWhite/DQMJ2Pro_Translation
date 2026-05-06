@@ -54,11 +54,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}...I get it. You've got dreams but you don't have two gold coins to rub together.{WAIT}{CLEAR}That's why you had no choice but to travel Stowaway Class."
+SAY "{VOICE=07}「……なるほど。やはり　金も　コネもなく{BREAK} タダ乗りは　やむ無しといったカンジか……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}You know, you remind me a little of myself in my wild youth."
+SAY "{VOICE=07}「ふふ。むかしの自分を　キミにダブらせて{BREAK} ついつい　あまくなってしまったようだ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40800000
@@ -73,15 +73,15 @@ STORE 0x18 0x1 0x0 0x2 0x42480000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}But don't think I'm gettin' soft!{BREAK}I'm gonna work you hard till we land."
+SAY "{VOICE=07}「だが　仕事は　仕事。GP会場に着くまで{BREAK} みっちり　はたらいてもらうからな。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}And your first job is to introduce yourself to everyone as our rookie deckhand."
+SAY "{VOICE=07}「まずは　この船に乗る人たち　全員に{BREAK} みならい船員として　あいさつしてくるんだ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}The passengers plus the ship's engineer makes...ummm...five people to speak to.{WAIT}{CLEAR}You listen to what they say, got it? Okay, Rookie! Get to work!"
+SAY "{VOICE=07}「あいさつをするのは　整備士をふくめ　5人。{BREAK} 相手の話も　ちゃんと　きくんだぞ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -114,7 +114,7 @@ WAIT 0x10 0x2 0x41a00000
 STORE 0x18 0x1 0x0 0x2 0x434c0000
 SYS_33 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} is now employed as a rookie deckhand aboard the Albatross!"
+SAY "{COLOR=2}{NAME}は{BREAK}みならい船員に　なった!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x3f800000

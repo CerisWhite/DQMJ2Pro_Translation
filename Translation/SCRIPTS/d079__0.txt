@@ -162,7 +162,7 @@ SYS_B1 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}In the most funky and fantabulous name of all molekind...{WAIT}{CLEAR}...I take the Medal of Merit and break the seal!"
+SAY "{VOICE=07}「われ　いち族のオキテに　したがい{BREAK} 試練の証より　ふういんを　とく!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -306,14 +306,14 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Woah! Is this the most righteous Mynos the Elder I see before me!?"
+SAY "{VOICE=07}「おお……!　あなたさまは……{BREAK} Mynos the Elderさまで　ございますな!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}Greetings, Don Mole. You have faithfully fulfilled your sacred duty."
+SAY "{VOICE=03}「さよう……。Don Moleよ。{BREAK} いち族のオキテ　よくぞ　守ってくれた。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -343,15 +343,15 @@ STORE 0x18 0x0 0x40000000 0x2 0x3f800000
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}And you're the one who brought the Medal of Merit here? That's no mean feat."
+SAY "{VOICE=03}「試練の証を　もってきたのは　おぬしだな?{BREAK} じつに　たいぎで　あった。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}He who possesses the Medal of Merit...{WAIT}{CLEAR}...has the right to face the ultimate test in the Monster Scout Challenge."
+SAY "{VOICE=03}「試練の証をもつ者は　バトルGPにおける{BREAK} 最後の試練を　うけることができる。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}But I am afraid it is not possible for you to face the ultimate test just now."
+SAY "{VOICE=03}「……しかし　いまは　その最後の試練を{BREAK} とりおこなうことが　できんのだ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -407,11 +407,11 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}Originally, this island's Monster Scout Challenge had but one purpose...{WAIT}{CLEAR}...to bring us closer to the Divine Battler."
+SAY "{VOICE=03}「ほんらい　この島のバトルGPは{BREAK} 戦の神にちかづくため　ひらかれていたもの。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}The ultimate test was to take on the Divine Battler...{WAIT}{CLEAR}...and rejoice in the awesome spectacle of battling prowess."
+SAY "{VOICE=03}「最後の試練とは　戦の神に　いどみ{BREAK} そのチカラを　たたえあうものであった。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -438,11 +438,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}But then some of those on this island became corrupted by greed.{WAIT}{CLEAR}They desired power that would surpass that of the Divine Battler."
+SAY "{VOICE=03}「だが　この島にすむ　よくぶかき人間たちが{BREAK} 神をも　こえるチカラを　えるために……"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}To that end, they created a monstrous weapon that warped the Great One."
+SAY "{VOICE=03}「じゃあくな兵器をつくりだし　その戦の神を{BREAK} 魔の者に　そめてしまったのである。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -493,11 +493,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}The Divine Battler's goodness was corrupted and turned to the purest evil.{WAIT}{CLEAR}We had no choice but to seal that evil being away and wait..."
+SAY "{VOICE=03}「われらは　魔獣と化した　戦の神をふういんし{BREAK} 試練の証の中で　きたるべき時を　まった。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}What were we awaiting, you ask?{WAIT}{CLEAR}We were awaiting someone worthy of the Medal of Merit.{WAIT}{CLEAR}Someone with the strength to undo the evil wrought on the Great One."
+SAY "{VOICE=03}「神の　じゃあくな心を　とりのぞくことができる{BREAK} まことの強さをもつ者が　あらわれる時を……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -514,11 +514,11 @@ STORE 0x18 0x1 0x0 0x2 0x42b40000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Right. So Mynos the Elder gave us moles the task of runnin' this Challenge."
+SAY "{VOICE=07}「そう。われらが　とりしきる　このバトルGPは{BREAK} ほんらいのモノとは　すがたをかえ……"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}It ain't quite like the original.{BREAK}Oh no, brother.{WAIT}{CLEAR}It aims in its funky way to find someone with the righteous strength we require."
+SAY "{VOICE=07}「まことの強さをもつ者を　みきわめるため{BREAK} 老師さまより　たくされたモノだったのだ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -545,7 +545,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}And now we have found someone with that strength...{WAIT}{CLEAR}I speak, of course, of you."
+SAY "{VOICE=03}「……そして　いま　その強さをもつ者が{BREAK} ついに　あらわれた。それが　おぬしだ……!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -565,11 +565,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}You who have proved worthy of the Medal of Merit, will you lend us your power?"
+SAY "{VOICE=03}「……試練の証を手にした強者よ。{BREAK} おぬしのチカラを　かしてくれぬか。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}Go to the Divine Battler, who has been so sullied by evil. Awaken him!"
+SAY "{VOICE=03}「じゃあくにそまった　戦の神を{BREAK} おぬしの手で　めざめさせてほしいのだ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -584,7 +584,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}I trust I can rely on you."
+SAY "{VOICE=03}「やってくれるな?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -593,7 +593,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0xc2240000
 SYS_1E 0x8 
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}Wait just a second!"
+SAY "{VOICE=07}「まってください!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -661,15 +661,15 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}{NAME} has been fighting for the good of his fellow passengers."
+SAY "{VOICE=07}「かれは　乗客みんなのために{BREAK} このバトルGPを　戦ってきました!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Archie Logg"
-SAY "{VOICE=07}Now, once upon a time, the giant bird Empyrea flew people from this island."
+SAY "{VOICE=07}「かつて　人を乗せて　飛んでいたという{BREAK} 巨鳥Empyrea……"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Archie Logg"
-SAY "{VOICE=07}If the Divine Battler is awoken, perhaps Empyrea will assist us?"
+SAY "{VOICE=07}「戦の神を　めざめさせることで{BREAK} Empyreaを　仲間に　できるんですか!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -689,11 +689,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42c20000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}The giant monsters of this island have sworn fealty to only one master...{WAIT}{CLEAR}...the Divine Battler."
+SAY "{VOICE=03}「この島の巨大モンスターは　戦の神にのみ{BREAK} ちゅうせいを　ちかっておる。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}If he is awoken, and permits it, then yes, they will be able to join you."
+SAY "{VOICE=03}「神をめざめさせ　神が　みとめれば{BREAK} かれらを　したがえることもできよう。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -705,7 +705,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}I get it! So the person who once received the approval of the Divine Battler...{WAIT}{CLEAR}...must have been the legendary monster scout!"
+SAY "{VOICE=07}「そうか……。戦の神に　みとめられた者……{BREAK} それが　伝説のマスターだったんだ……!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41a00000
 STORE 0x18 0x1 0x0 0x2 0x42cc0000
@@ -745,7 +745,7 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}{NAME}, I know you can do it!{WAIT}{CLEAR}You too can become a legendary monster scout!"
+SAY "{VOICE=07}「{NAME}さん　あなたなら　できる!{BREAK} あなたも　きっと伝説のマスターになれますよ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -788,7 +788,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}Alright! Enough idle chitter-chatter. Without further ado..."
+SAY "{VOICE=03}「よし!　めんどうな話は　ここまでじゃ。{BREAK} それでは……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -801,7 +801,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}I want to see for myself if you have the power to take on the Great One."
+SAY "{VOICE=03}「ほんとうに　神に　いどむほどのチカラがあるか{BREAK} 最後に　われが　試させてもらうぞ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

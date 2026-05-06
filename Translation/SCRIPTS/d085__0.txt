@@ -55,7 +55,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}Could it be? That humble teeny sanguini... "
+SAY "{VOICE=03}「……もしや　あのモーモンは……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_11fc
@@ -81,16 +81,16 @@ STORE 0x18 0x1 0x0 0x2 0x41300000
 STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}Urgh..."
+SAY "{VOICE=03}「むむ…………!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}Th-This is alarming. The power of evil is too strong..."
+SAY "{VOICE=03}「ぐっ……。しまった……!{BREAK} ここは　じゃあくなチカラが強すぎる……!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}I cannot remain here in this form any longer..."
+SAY "{VOICE=03}「このすがたでは　これいじょう{BREAK} ここに　とどまれぬか……!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -127,11 +127,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42be0000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}{NAME}, if you do nothing, that teeny sanguini will be devoured."
+SAY "{VOICE=03}「{NAME}よ。このままでは{BREAK} あのモーモンが　やられてしまう!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}You must help her! You must take on Leonyx!"
+SAY "{VOICE=03}「モーモンを　たすけよ!{BREAK} レオソードさまに　たちむかうのだ……!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x0 0x41100000 0x2 0x3f800000
@@ -141,17 +141,17 @@ SPAWN 0x10 L_1418
 DATA 0x00000004
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}When the Great One kneels before your power..."
+SAY "{VOICE=03}「おぬしのチカラで　あの…お方を……{BREAK} ひざまずかせたとき……"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}...only then will all of this island's mysteries be explained!"
+SAY "{VOICE=03}「すべての…謎が　明らかに…なるであろう……!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}You represent our last hope, {NAME}.{WAIT}{CLEAR}Our final roll of the dice...{BREAK}Do not disappoint us."
+SAY "{VOICE=03}「おぬし…は……　最後の……きぼう…………。{BREAK} たの…んだぞ……　{NAME}……!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x433a0000

@@ -1,4 +1,9 @@
 {
+  "message0.txt": {
+    "source": "message0.binA",
+    "fpk_header": "message0.fpkhdr",
+    "entry_count": 127
+  },
   "msg_actionhelp.txt": {
     "source": "msg_actionhelp.binA",
     "fpk_header": "msg_actionhelp.fpkhdr",

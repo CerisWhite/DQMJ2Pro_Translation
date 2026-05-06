@@ -109,7 +109,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}...Huh!? I'm not sure I'm readin' you correctly.{WAIT}{CLEAR}...A Monster Scout Challenge run by moles!?{WAIT}{CLEAR}...A giant bird at the top of these cliffs!?"
+SAY "{VOICE=07}「{NAME}!　キミが　きてくれるとは{BREAK} ゆめにも　思わなかったぞ!　ありがとう!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41f80000
@@ -118,11 +118,11 @@ STORE 0x18 0x1 0x0 0x2 0x41f80000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}I'm findin' this a little hard to follow, Rookie."
+SAY "{VOICE=07}「それにしても　しばらく　みない間に{BREAK} ほんとうに　たくましくなったな!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}So to cut a long story short, you're here to meet some bigshot bird, right?"
+SAY "{VOICE=07}「私なんか　あしもとにも　およばない{BREAK} プロの　モンスターマスターのようだぞ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41a00000
@@ -156,7 +156,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x40a00000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}...What the!?"
+SAY "{VOICE=07}「……む!　それはそうと　ほかの乗客はっ?{BREAK} 乗客の　みなさんは　無事かっ?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -176,19 +176,19 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}...That's good to hear. So besides us and Melonie, everyone's back at base."
+SAY "{VOICE=07}「……そうか　よかった!　あとは{BREAK} 私とMelonieくんで　みんな　そろうのか。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}When the Albatross took a dive,{BREAK}I ended up in the drink.{WAIT}{CLEAR}It was all I could do to swim to the coast."
+SAY "{VOICE=07}「飛行船が　おちたとき　私は　海に{BREAK} ほうりだされ　海岸に　およぎついた。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}I found myself wanderin' deep in hostile territory, my coordinates unknown..."
+SAY "{VOICE=07}「そして　あてもなく　さまよい{BREAK} このあたりまで　やってきたのだが……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Then I heard Melonie scream, and I knew what my mission was - to protect her."
+SAY "{VOICE=07}「そんなとき　Melonieくんの　ひめいを　ききつけ{BREAK} かのじょを守っていた　というワケさ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -206,7 +206,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}But I gotta say I'm impressed, Rookie.{BREAK}You did well to find this place."
+SAY "{VOICE=07}「ところで　{NAME}よ。{BREAK} よく　この場所が　わかったな?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -231,19 +231,19 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Now let's stow the ghost stories and work on trackin' down Melonie."
+SAY "{VOICE=07}「……なに?　MolesのバトルGP!?{BREAK} この断崖の　てっぺんに　巨鳥だとっ!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}We may've chased that birdbrain away, and I know she can handle herself, but..."
+SAY "{VOICE=07}「{NAME}よ。なんの　ことか{BREAK} 私には　さっぱり　わからないのだが……。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}...Captain Rex Mayday never leaves one of his troops behind on the battlefield!{WAIT}{CLEAR}We need to find her ASAP!"
+SAY "{VOICE=07}「ともかく　あの　お方と　よばれる{BREAK} 巨鳥に　会えと…。そう　言われたのだな。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}But this is uncharted territory. Who knows what dangers are waitin' to ambush us?"
+SAY "{VOICE=07}「んっ!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -284,13 +284,13 @@ SYS_8C 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}You're still alive!?"
+SAY "{VOICE=07}「キサマ　生きていたのかっ!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Jamirus"
-SAY "{VOICE=07}So you've come in search of that giant bird..."
+SAY "{VOICE=07}「ウケケケケケケ……。そうかい。{BREAK} お前　あの巨鳥に　会いにきたのか……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -335,7 +335,7 @@ SYS_1E 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Jamirus"
-SAY "{VOICE=07}Well, best of luck to you... Har har har!"
+SAY "{VOICE=07}「会えるといいなあ　その巨鳥によ……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -427,7 +427,7 @@ SYS_18 0x8
 STORE 0x18 0x0 0x40a00000 0x2 0x3f800000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Hold it! Just what d'you mean by that!?"
+SAY "{VOICE=07}「まてっ!　どういうことだ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40400000
@@ -435,7 +435,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42c80000
 SYS_1F 0x8 
 WAIT 0x10 0x2 0x41a00000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Dagnabit! He got away..."
+SAY "{VOICE=07}「クソッ。にがしてしまったか……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -482,7 +482,7 @@ STORE 0x18 0x0 0x3f800000 0x2 0x3f800000
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Why you lookin' at me like that, Rookie? Have I got crumbs in my beard again?"
+SAY "{VOICE=07}「ん?　どうした　ふしぎそうな　目をして?{BREAK} 私のカオに　なにか　ついてるかね。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -502,7 +502,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}You say you saw my GHOST!?"
+SAY "{VOICE=07}「なにっ!　私のユーレイを　みただと!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x0
@@ -513,7 +513,7 @@ STORE 0x18 0x1 0x0 0x0 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Hah! You've got your wires crossed. Captain Rex Mayday is alive and kickin'!"
+SAY "{VOICE=07}「ハッハッハッハ!　なにを言っている!{BREAK} 私は　この通り　ピンピンしているぞ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -544,15 +544,15 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Now let's stow the ghost stories and work on trackin' down Melonie."
+SAY "{VOICE=07}「そんなことより　気になるのは{BREAK} ひとりになった　Melonieくんのことだ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}We may've chased that birdbrain away, and I know she can handle herself, but..."
+SAY "{VOICE=07}「まあ　ワル者も　おっぱらったことだし{BREAK} Melonieくんも　なかなか　すばしこいので…。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}...Captain Rex Mayday never leaves one of his troops behind on the battlefield!{WAIT}{CLEAR}We need to find her ASAP!"
+SAY "{VOICE=07}「しばらくは　だいじょうぶ　だと　思うが{BREAK} ゆだんは　できないぞ!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x0
@@ -563,7 +563,7 @@ STORE 0x18 0x1 0x0 0x0 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}But this is uncharted territory. Who knows what dangers are waitin' to ambush us?"
+SAY "{VOICE=07}「……に　しても　この島は　いったい{BREAK} どうなっているんだ……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

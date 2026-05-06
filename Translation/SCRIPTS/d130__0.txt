@@ -135,7 +135,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42b40000
 SYS_42 0x8 
-SAY "{VOICE=08}You have GOT to be kidding me..."
+SAY "{VOICE=08}「なんで　アタシが　こんなボロっちい飛行船で{BREAK} バトルGPの会場に　行かなきゃいけないのよ!? "
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -161,29 +161,29 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42680000
 SYS_18 0x8 
 STORE 0x18 0x0 0x41000000 0x2 0x3f800000
 SYS_42 0x8 
-SAY "{VOICE=07}Sorry to keep you waiting, Miss.{BREAK}The name's Mayday. Rex Mayday.{WAIT}{CLEAR}I'm the captain of this fine vessel."
+SAY "{VOICE=07}「おまちしておりました。{BREAK} 私は　セブンス。この飛行船の船長です。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}It's a real honour for us to welcome the defending champion on board.{WAIT}{CLEAR}Go on inside, Miss. Make yourself at home..."
+SAY "{VOICE=07}「前大会優勝者の　あなたを　お乗せできるなんて{BREAK} うれしいかぎりですよ。さあ　どうぞ　中へ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{VOICE=08}I can't arrive at the Monster Scout Challenge in a flying junkyard..."
+SAY "{VOICE=08}「エンリョしとくわ。こんなボロい船に乗ってたら{BREAK} いつ　むこうに着くか　わかんないもの。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}...Well, if that's the way it is.{WAIT}{CLEAR}To be honest, Miss, I'm kinda relieved you decided not to fly with us."
+SAY "{VOICE=07}「……なるほど。あなたを　お乗せできないのは{BREAK} ザンネンですが　しょうじき　たすかりました。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{VOICE=08}Huh!?"
+SAY "{VOICE=08}「えっ……?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -196,11 +196,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}We're carryin' a lot of cargo, and I was lookin' for ways to lighten the load..."
+SAY "{VOICE=07}「いえね。こんかいは　にもつが　おおくて{BREAK} すこしでも　かるくしたかったのです。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Now that you've done me a favour and cancelled...{WAIT}{CLEAR}...I'm confident I can get the other passengers there in record time."
+SAY "{VOICE=07}「あなたが　キャンセルしてくれた　おかげで{BREAK} ほかの乗客を　無事に　おおくりできますよ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -238,7 +238,7 @@ STORE 0x18 0x1 0x0 0x0 0x41100000
 STORE 0x18 0x1 0x3f800000 0x2 0x43140000
 SYS_18 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}Hold on! Are you trying to say I'm that heavy!?"
+SAY "{VOICE=08}「なに?　アタシが　そんなに{BREAK} おもいとでも　いうのっ!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -285,13 +285,13 @@ SYS_18 0x8
 STORE 0x18 0x0 0x41300000 0x2 0x3f800000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{VOICE=07}Cap'n, I'll load the rest of the cargo and we'll be jest aboot ready tae go!"
+SAY "{VOICE=07}「おう　船長。船の整備は　バッチリだぜ。{BREAK} のこりの　にもつをつんで　さっさと行こうや。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}Roger that!"
+SAY "{VOICE=07}「ああ。たのむ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -344,13 +344,13 @@ STORE 0x18 0x1 0x0 0x0 0x41100000
 STORE 0x18 0x1 0x3f800000 0x2 0x43140000
 SYS_18 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}Hmph. Well, I'm happy I can relieve you of the dreadful burden of carrying me."
+SAY "{VOICE=08}「……ま　アタシが　乗らないことが　この{BREAK} ボロ船の　たすけになるなら　うれしいわ。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=08}Good luck piloting this rusty wreck all the way to the tournament!"
+SAY "{VOICE=08}「それじゃ　せいぜい　がんばって{BREAK} バトルGPの会場まで　たどりついてね。"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=08}I guess by the time you chug into view, the tournament will be over and done with."
+SAY "{VOICE=08}「あなたたちが　くるころには{BREAK} 大会　おわってるかもしれないけど……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

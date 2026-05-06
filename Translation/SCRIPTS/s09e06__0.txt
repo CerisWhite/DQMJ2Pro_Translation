@@ -1231,7 +1231,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1345,7 +1345,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4556,7 +4556,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}Spacetime is looped and distorted."
+SAY "{COLOR=2}空間が　ゆがんでいて{BREAK}きた道に　もどってしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4593,7 +4593,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}Spacetime is looped and distorted."
+SAY "{COLOR=2}空間が　ゆがんでいて{BREAK}きた道に　もどってしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4630,7 +4630,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}Spacetime is looped and distorted."
+SAY "{COLOR=2}空間が　ゆがんでいて{BREAK}きた道に　もどってしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4667,7 +4667,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}Spacetime is looped and distorted."
+SAY "{COLOR=2}空間が　ゆがんでいて{BREAK}きた道に　もどってしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4824,7 +4824,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}Spacetime is looped and distorted."
+SAY "{COLOR=2}空間が　ゆがんでいて{BREAK}きた道に　もどってしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4861,7 +4861,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}Spacetime is looped and distorted."
+SAY "{COLOR=2}空間が　ゆがんでいて{BREAK}きた道に　もどってしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4898,7 +4898,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}Spacetime is looped and distorted."
+SAY "{COLOR=2}空間が　ゆがんでいて{BREAK}きた道に　もどってしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4935,7 +4935,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}Spacetime is looped and distorted."
+SAY "{COLOR=2}空間が　ゆがんでいて{BREAK}きた道に　もどってしまった……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5162,7 +5162,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force blocks the way.{WAIT}{CLEAR}{NAME} is sent back to where he began."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5237,7 +5237,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force blocks the way.{WAIT}{CLEAR}{NAME} is sent back to where he began."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5312,7 +5312,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force blocks the way.{WAIT}{CLEAR}{NAME} is sent back to where he began."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5391,7 +5391,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Spacetime is looped and distorted."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5456,7 +5456,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Somewhere, a strange, terrible voice calls out."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5531,7 +5531,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Somewhere, a strange, terrible voice calls out."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5606,7 +5606,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Somewhere, a strange, terrible voice calls out."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5685,7 +5685,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}A strange force blocks the way.{WAIT}{CLEAR}{NAME} is sent back to where he began."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5750,7 +5750,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Somewhere, a strange, terrible voice calls out."
+SAY "{COLOR=2}まがまがしいチカラによって{BREAK}行きさきを　ねじまげられてしまった!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -9376,10 +9376,10 @@ JMP_ABS 0xc L_26384
 JMP_ABS 0xc L_25d08
 L_25d08:
 SYS_42 0x8 
-SAY "{COLOR=2}It is a gem of evil. An air of ominous foreboding clings to it."
+SAY "{COLOR=2}まがまがしい気を　はなつ{BREAK}じゃあくな　ほうせきだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Smash the gem?{VOICE=09}"
+SAY "{COLOR=2}ほうせきを　こわしますか?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -9445,7 +9445,7 @@ MATH_SUB 0x20 0x0 0x431f0000 0x0 0x431f0000 0x2 0x3f800000
 JMP_ABS 0xc L_261dc
 L_261dc:
 SYS_42 0x8 
-SAY "{COLOR=2}Somewhere, a strange, terrible voice calls out."
+SAY "{COLOR=2}どこから　ともなく{BREAK}ふしぎなこえが　きこえる……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -9453,7 +9453,7 @@ SYS_42 0x8
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x431f0000
 SYS_A8 0x8 
-SAY "{VOICE=08}To reach Rigor Mortex, {E322} more gem{E323}{E326}s{E327} must be destroyed."
+SAY "{VOICE=08}「Rigor Mortexのもとへ　たどりつくために{BREAK} こわす　ほうせきは　あと　{E322}つ……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -9475,10 +9475,10 @@ L_26378:
 JMP_ABS 0xc L_27e90
 L_26384:
 SYS_42 0x8 
-SAY "{COLOR=2}It is a gem of evil. An air of ominous foreboding clings to it."
+SAY "{COLOR=2}まがまがしい気を　はなつ{BREAK}じゃあくな　ほうせきだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Smash the gem?{VOICE=09}"
+SAY "{COLOR=2}ほうせきを　こわしますか?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -9549,7 +9549,7 @@ JMP_ABS 0xc L_26a3c
 JMP_ABS 0xc L_26894
 L_26894:
 SYS_42 0x8 
-SAY "{COLOR=2}Somewhere, a strange, terrible voice calls out."
+SAY "{COLOR=2}どこから　ともなく{BREAK}ふしぎなこえが　きこえる……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -9557,7 +9557,7 @@ SYS_42 0x8
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x431f0000
 SYS_A8 0x8 
-SAY "{VOICE=08}To reach Rigor Mortex, {E322} more gem{E323}{E326}s{E327} must be destroyed."
+SAY "{VOICE=08}「Rigor Mortexのもとへ　たどりつくために{BREAK} こわす　ほうせきは　あと　{E322}つ……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -9579,15 +9579,15 @@ L_26a30:
 JMP_ABS 0xc L_27e90
 L_26a3c:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}'s team is healed."
+SAY "{COLOR=2}どこから　ともなく{BREAK}ふしぎなこえが　きこえる……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}The door at the centre of the Dark World is open. Rigor Mortex waits beyond."
+SAY "{VOICE=08}「Rigor Mortexのもとへ通じる{BREAK} 魔界の中心にあるトビラが　ひらいたようです。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Please, we beg of you. Take up the gauntlet and purge our sins."
+SAY "{VOICE=08}「私たちの　おかしたツミを　どうか……。{BREAK} どうか　その手で　ほうむってください……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -9646,10 +9646,10 @@ JMP_ABS 0xc L_2752c
 JMP_ABS 0xc L_26eb0
 L_26eb0:
 SYS_42 0x8 
-SAY "{COLOR=2}It is a gem of evil. An air of ominous foreboding clings to it."
+SAY "{COLOR=2}まがまがしい気を　はなつ{BREAK}じゃあくな　ほうせきだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Smash the gem?{VOICE=09}"
+SAY "{COLOR=2}ほうせきを　こわしますか?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -9723,7 +9723,7 @@ SYS_42 0x8
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x431f0000
 SYS_A8 0x8 
-SAY "{VOICE=08}To reach Rigor Mortex, {E322} more gem{E323}{E326}s{E327} must be destroyed."
+SAY "{VOICE=08}「Rigor Mortexのもとへ　たどりつくために{BREAK} こわす　ほうせきは　あと　{E322}つ……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -9745,10 +9745,10 @@ L_27520:
 JMP_ABS 0xc L_27e90
 L_2752c:
 SYS_42 0x8 
-SAY "{COLOR=2}It is a gem of evil. An air of ominous foreboding clings to it."
+SAY "{COLOR=2}まがまがしい気を　はなつ{BREAK}じゃあくな　ほうせきだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Smash the gem?{VOICE=09}"
+SAY "{COLOR=2}ほうせきを　こわしますか?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -9827,7 +9827,7 @@ SYS_42 0x8
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x431f0000
 SYS_A8 0x8 
-SAY "{VOICE=08}To reach Rigor Mortex, {E322} more gem{E323}{E326}s{E327} must be destroyed."
+SAY "{VOICE=08}「Rigor Mortexのもとへ　たどりつくために{BREAK} こわす　ほうせきは　あと　{E322}つ……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -9854,10 +9854,10 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}The door at the centre of the Dark World is open. Rigor Mortex waits beyond."
+SAY "{VOICE=08}「Rigor Mortexのもとへ通じる{BREAK} 魔界の中心にあるトビラが　ひらいたようです。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Please, we beg of you. Take up the gauntlet and purge our sins."
+SAY "{VOICE=08}「私たちの　おかしたツミを　どうか……。{BREAK} どうか　その手で　ほうむってください……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

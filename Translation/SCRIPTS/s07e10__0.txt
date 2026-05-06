@@ -1222,7 +1222,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1336,7 +1336,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3543,7 +3543,7 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{COLOR=2}It's a portentous wall painting, depicting some kind of giant monster. "
+SAY "{COLOR=2}巨大なモンスターを　モチーフにした{BREAK}まがまがしい壁画が　えがかれている。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3722,7 +3722,7 @@ STORE 0x18 0x0 0x42a60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c60000 0x0 0x42be0000
 JMP_IFNOT 0xc L_e334
 SYS_42 0x8 
-SAY "{VOICE=08}You must find it... We beseech you... Find the Medal of Merit..."
+SAY "{VOICE=08}「おねがい……　試練の証を……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3786,13 +3786,13 @@ CMP_GE 0x18 0x0 0x42a60000 0x2 0x3f800000
 JMP_IFNOT 0xc L_e6f8
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}The sealed door has been opened. Beyond it, the Divine Battler himself awaits!"
+SAY "{VOICE=03}「ふういんのトビラは　ひらいた。{BREAK} このさきに　戦の神が　おられるはずだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Let him witness your true power, and the god shall surely awaken."
+SAY "{VOICE=03}「まことのチカラを　しめせば{BREAK} 戦の神は　かならずや　めざめるであろう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}You represent our last hope, {NAME}.{WAIT}{CLEAR}Our final roll of the dice...{BREAK}Do not disappoint us."
+SAY "{VOICE=03}「おぬしは　われらの　最後の　きぼう……。{BREAK} たのんだぞ。{NAME}よ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4410,7 +4410,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x3d23d70a
 SYS_3B 0x8 
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} hears something move."
+SAY "{COLOR=2}なにかが動く　おとがした。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

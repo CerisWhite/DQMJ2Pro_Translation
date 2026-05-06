@@ -1219,7 +1219,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1333,7 +1333,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3727,10 +3727,10 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_49 0x8 
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}Excuse me, young {NAME}! I hope you don't intend to leave me behind..."
+SAY "{VOICE=03}「おーい!　{NAME}さんや!{BREAK} わしを　おいていかんでくれー!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Please, do let me know when you're ready to return to the airship."
+SAY "{VOICE=03}「すまんが　飛行船に　かえるときは{BREAK} わしに　ひとこえ　かけておくれー。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3768,7 +3768,7 @@ JMP_IFNOT 0xc L_e8c8
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_49 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}Don Mole is waitin' to speak to you,{BREAK}my human brother."
+SAY "{VOICE=07}「Don Moleさまが　おまちかねさ。{BREAK} キミに　話があるそうだよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4744,13 +4744,13 @@ CMP_EQ 0x18 0x0 0x42a40000 0x2 0x40c00000
 JMP_IFNOT 0xc L_126b8
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}While you were out adventuring, I've been picking up key information."
+SAY "{VOICE=07}「{NAME}さんが　海岸に行ってる間に{BREAK} ここで　じょうほうを　しいれときましたよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The moles tell me that scouts who win Rank A receive something very special..."
+SAY "{VOICE=07}「なんでも　バトルGPのランクAをクリアすると{BREAK} 賞品いがいに　なにか　もらえるらしいんです!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Namely, an artifact that will bring us closer to solving the riddle of this island!6"
+SAY "{VOICE=07}「それは　この島の謎に　ちかづけるモノだって{BREAK} Molesが言ってましたよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4765,16 +4765,16 @@ CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x0
 JMP_IFNOT 0xc L_12904
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}Congrats on the Rank A win! You're close to ultimate Challenge victory."
+SAY "{VOICE=07}「ランクAクリア　おめでとうございます!{BREAK} GPセイハまで　あと　すこしですね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}...Wait a second! What's that key you've got there!?"
+SAY "{VOICE=07}「ところで　そのカギは　いったい……?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It's the key to the ancient ruins of the Bemusoleum, you say!? {WAIT}{CLEAR}You mean there are man-made structures{BREAK}on this island!?"
+SAY "{VOICE=07}「なんと!　遺跡のカギ!?{BREAK} この島には　遺跡も　あるんですか!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But who could have built them? This island really is an enigma wrapped in a riddle!"
+SAY "{VOICE=07}「いったい　だれが　つくったんでしょう……。{BREAK} この島の謎は　ふかまるばかりですよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4789,10 +4789,10 @@ JMP_ABS 0xc L_12918
 L_12918:
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}I can't believe there are man-made structures on this island!{WAIT}{CLEAR}I must have died and gone to archaeological heaven!"
+SAY "{VOICE=07}「この島に　遺跡が　あるなんて{BREAK} おどろきましたよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Who could have built them? Truly this island is an enigma wrapped in a riddle!"
+SAY "{VOICE=07}「いったい　だれが　つくったんでしょう……。{BREAK} この島の謎は　ふかまるばかりですよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4815,16 +4815,16 @@ CMP_EQ 0x18 0x0 0x42ea0000 0x2 0x0
 JMP_IFNOT 0xc L_12cb4
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}I thought I knew everything about the Monster Scout Challenge...{WAIT}{CLEAR}...but I never imagined there was a version run by moles!"
+SAY "{VOICE=03}「Molesの　バトルGPがあったとは{BREAK} GPマニアのわしも　おどろきじゃわい!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}And they claim that victory in the Challenge will open new roads to you?"
+SAY "{VOICE=03}「それに　このバトルGPを勝ちあがれば{BREAK} 道がひらけるとは　どういうイミなんじゃ?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}It really is most fascinating!{WAIT}{CLEAR}We must return to the ship and report this development at once."
+SAY "{VOICE=03}「とりあえず　飛行船に　もどって{BREAK} みなに　このことを　ほうこくしようぞ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}If you are ready to return to the ship,{BREAK}do come and let me know."
+SAY "{VOICE=03}「そうじゃな。飛行船に　もどるときは{BREAK} わしに　ひとこえ　かけておくれ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4839,7 +4839,7 @@ JMP_ABS 0xc L_12cc8
 L_12cc8:
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}Well? Are we ready to return to the ship?{VOICE=09}"
+SAY "{VOICE=03}「うむ。そろそろ　飛行船に　もどるかの?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4892,7 +4892,7 @@ JMP_REL L_13044
 L_13044:
 JMP_ABS 0xc L_13050
 L_13050:
-SAY "{VOICE=03}Of course, you must conquer your fear first. Very well. I shall await you here."
+SAY "{VOICE=03}「そうかそうか。では　わしは{BREAK} もうしばらく　ここで　まつことにしよう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4915,13 +4915,13 @@ CMP_EQ 0x18 0x0 0x42ee0000 0x2 0x0
 JMP_IFNOT 0xc L_132c8
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}Are you mighty enough to challenge a god? That is for me to determine."
+SAY "{VOICE=03}「おぬしに　神に　いどむチカラがあるか{BREAK} 自らの手で　みきわめさせてもらうぞ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}This battle is not a game like the Monster Scout Challenge.{WAIT}{CLEAR}It is a matter of life and death."
+SAY "{VOICE=03}「この試練は　いままでのランク戦とは　ちがい{BREAK} 死力をつくし　戦ってもらう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Should you lose, you will be forced to leave - with a lighter purse."
+SAY "{VOICE=03}「ゆえに　負けた場合は　金も　へり{BREAK} 出なおしてきてもらうので　心せよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_13364
@@ -4932,19 +4932,19 @@ JMP_ABS 0xc L_132dc
 L_132dc:
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}You have yet to demonstrate true strength...{WAIT}{CLEAR}Come now, let me see what you've got."
+SAY "{VOICE=03}「おぬしは　まだ　本気を出しておらん。{BREAK} まことのチカラを　われに　しめしてみよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_13364
 L_13364:
-SAY "{VOICE=03}Are you ready, in your heart?{VOICE=09}"
+SAY "{VOICE=03}「それでは　じゅんびは　よいか?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42f20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f20000 0x2 0x0
 JMP_IFNOT 0xc L_13598
-SAY "{VOICE=03}Good. Then we begin. The final trial before you come face to face with a god!"
+SAY "{VOICE=03}「よいへんじだ。それでは　はじめよう。{BREAK} 神に　ちかづくための試練を……!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4971,7 +4971,7 @@ JMP_REL L_135a0
 L_135a0:
 JMP_ABS 0xc L_135ac
 L_135ac:
-SAY "{VOICE=03}Of course, you must conquer your fear first. Very well. I shall await you here."
+SAY "{VOICE=03}「しんちょうに　かまえることも強さのひとつ。{BREAK} いいだろう。われは　ここで　まっているぞ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4991,10 +4991,10 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x3f800000
 JMP_IFNOT 0xc L_13798
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}I heard a Rank S battle was about to be fought, so I came to spectate."
+SAY "{VOICE=08}「ランク{1F8D}試合が　はじまるころだと思い{BREAK} みにきてさしあげたわよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Apparently, you aren't a total dead loss after all. Goody for you, I suppose."
+SAY "{VOICE=08}「あなたの強さは　わたくしの　おすみつき。{BREAK} ぞんぶんに　戦っていらっしゃい!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5004,10 +5004,10 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40000000
 JMP_IFNOT 0xc L_138a4
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}This Mynos the Elder character doesn't seem quite normal to me."
+SAY "{VOICE=08}「あの　Mynos the Elderという　おじいさま。{BREAK} タダ者じゃありませんわよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}It's like he's been...touched by a god,{BREAK}or something. I can sense these things."
+SAY "{VOICE=08}「神に　もっとも　ちかづいた男……。{BREAK} わたくしのカンが　そうささやいていますわ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5024,10 +5024,10 @@ CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x0
 JMP_IFNOT 0xc L_13a20
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}I confess, your battle with that Elder person's creature was quite...thrilling."
+SAY "{VOICE=08}「あなたと老師の　ハードな戦い……。{BREAK} わたくし　ガラにもなく　コーフンしましたわ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I mean, just look at the Countess.{BREAK}I've never seen her in such a tizzy!"
+SAY "{VOICE=08}「みて。The Countessちゃんも　これまでになく{BREAK} ハナいきが　あらくなっているわ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5044,16 +5044,16 @@ CMP_EQ 0x18 0x0 0x42ee0000 0x2 0x0
 JMP_IFNOT 0xc L_13c7c
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}Oh, tsk! Has my little diddums managed to get herself into trouble again?"
+SAY "{VOICE=08}「なんてことっ!　また　The Countessちゃんが{BREAK} どこかに　行っちゃったのよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I beg your pardon!? She...launched herself at some battling deity?"
+SAY "{VOICE=08}「な…なんですってぇ!?　戦の神に{BREAK} The Countessちゃんが　体あたりをっ……!!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Oh... (sob) Does this...does this mean she won't be coming back to Mumsy!?"
+SAY "{VOICE=08}「あぁ……!　もう　おしまいよ……。{BREAK} あのコが　かえらぬコに　なっちゃう……!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Look, you're the chosen one or whatever. Go and get my wuggies back, at once!"
+SAY "{VOICE=08}「あなた　選ばれた人なんでしょっ!?{BREAK} おねがいっ!　なんとかしてちょうだい!!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5068,10 +5068,10 @@ JMP_ABS 0xc L_13c90
 L_13c90:
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}Scrapping with some kind of god cannot be healthy for the poor dear!"
+SAY "{VOICE=08}「戦の神に　体あたりするだなんて{BREAK} あのコったら　命知らずにも　ほどがあるわ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Look, you're the chosen one or whatever. Go and get my wuggies back, at once!"
+SAY "{VOICE=08}「あなた　選ばれた人なんでしょっ!?{BREAK} おねがいっ!　なんとかしてちょうだい!!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5092,10 +5092,10 @@ CMP_EQ 0x18 0x0 0x42e00000 0x2 0x0
 JMP_IFNOT 0xc L_13f20
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}Excitin', innit? I'm workin' at the bloomin' True Monster Scout Challenge!"
+SAY "{VOICE=08}「雪山では　なさけないすがたを{BREAK} さらしてしまったけれど……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I'm gonna be the bestest bunny-eared employee this Challenge has ever seen!"
+SAY "{VOICE=08}「この　真のバトルGPでは　おめいを{BREAK} へんじょうして　さしあげますわよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5105,10 +5105,10 @@ CMP_EQ 0x18 0x0 0x42e00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_14028
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}No doubt you were overawed by my teeny sanguini. Most people are."
+SAY "{VOICE=08}「ホホホ。わたくしの　最強モーモンちゃんは{BREAK} いかがだったかしら?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Although, I do miss the Countess. Things just aren't quite the same without her..."
+SAY "{VOICE=08}「けれど……　やっぱり　The Countessちゃんが{BREAK} いないと　もりあがりに　かけるわねぇ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5120,10 +5120,10 @@ CMP_EQ 0x18 0x0 0x42e20000 0x2 0x41800000
 JMP_IFNOT 0xc L_14140
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}You know, you always struck me as a bit of a useless drip..."
+SAY "{VOICE=08}「本気を出した　わたくしが　かつての{BREAK} タダ乗りハレンチボーイに　負けるなんてね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}...but I suppose if you do well in this True Monster Scout Challenge-{WAIT}{CLEAR}Well, let's just cross that bridge when we come to it, shall we?"
+SAY "{VOICE=08}「時代は　かわったのね。{BREAK} わたくしが　トシをとるのも　とうぜんだわ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5141,10 +5141,10 @@ CMP_EQ 0x18 0x0 0x42de0000 0x2 0x0
 JMP_IFNOT 0xc L_142ac
 SYS_42 0x8 
 SETNAME "Melonie"
-SAY "{VOICE=07}Now the Divine Battler is awake,{BREAK}ye cannae half feel the energy here!"
+SAY "{VOICE=08}「あつくるしいバトルに　ハナをそえる{BREAK} アイドルコンパニオンの　Melonieで～っす!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Och, do ye reckon that's why ye and I put on such a fine show, laddie? "
+SAY "{VOICE=08}「真のバトルGPに　ふさわしい{BREAK} コンパニオンになれるよう　がんばりま～っす!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5167,10 +5167,10 @@ CMP_EQ 0x18 0x0 0x42e00000 0x2 0x0
 JMP_IFNOT 0xc L_1447c
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}So, this is the old-style Challenge ring, is it? Och, it's a wee bit drab."
+SAY "{VOICE=07}「ここ　前のバトルGPの　リングなんだろ?{BREAK} なんだか　へんなカタチをしてやがるな。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But there's no denyin' there's a sense of history aboot the place."
+SAY "{VOICE=07}「まあ　真のバトルGPの　リングは{BREAK} なかなか　フンイキがあって　よかったけどな。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5180,10 +5180,10 @@ CMP_EQ 0x18 0x0 0x42e00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_14580
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=08}You could hear a pin drop in here when you managed to beat me."
+SAY "{VOICE=07}「戦の神が　復活したせいかな?{BREAK} なんか　チカラが　わいてくるんだよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Of course, they don't realise just how lucky you were to win. But I do. "
+SAY "{VOICE=07}「お前と　いい勝負が　できたのも{BREAK} そのせいかもな!　ワッハッハッハ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5195,13 +5195,13 @@ CMP_EQ 0x18 0x0 0x42e20000 0x2 0x41800000
 JMP_IFNOT 0xc L_146d0
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}Crivvens, ye're the champion of the True Monster Scout Challenge!"
+SAY "{VOICE=07}「真のGPで　優勝したってな!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I knew ye were special when I first clapped ma eyes on yer spiky head!"
+SAY "{VOICE=07}「オレはよお　はじめて　あったときから{BREAK} お前を　タダ者じゃないと　思ってたよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ma nose for scoutin' talent hasnae let me doon yet!"
+SAY "{VOICE=07}「まあ　オレの　目に{BREAK} くるいは　なかったって　わけだな!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5219,10 +5219,10 @@ CMP_EQ 0x18 0x0 0x42de0000 0x2 0x0
 JMP_IFNOT 0xc L_14830
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}They're still setting up the True Monster Scout Challenge."
+SAY "{VOICE=08}「真のバトルGPは　まだ　じゅんび中のようね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I'm going to be putting my monsters through a strict training program...{WAIT}{CLEAR}...so you make sure you come back here, capiche? Unless you're SCARED..."
+SAY "{VOICE=08}「アタシ　この間に　トレーニングしておくから{BREAK} かならず　ここに　もどってきなさいよね!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5240,10 +5240,10 @@ CMP_EQ 0x18 0x0 0x42de0000 0x2 0x0
 JMP_IFNOT 0xc L_14990
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}Hey, it's my favourite spiky-headed brooder. Surprised to see me here, kid?"
+SAY "{VOICE=07}「ヘイ!　ユー!{BREAK} シャイボーイじゃないか!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It wouldn't be a real Challenge without your favourite ref calling the shots!"
+SAY "{VOICE=07}「バトルGPに　私は　つきものだろう?{BREAK} キミらを　おって　ここまで　きちゃったよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5261,12 +5261,12 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x3f800000
 JMP_IFNOT 0xc L_14ae4
 SYS_42 0x8 
 SETNAME "The Countess"
-SAY "{VOICE=08}Squeeeak squark? SQUARK."
+SAY "{VOICE=08}「キュッ　キュイ～ン。{BREAK} キュッ　キュイ～ン。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The Countess appears very restless."
+SAY "{COLOR=2}The Countessは{BREAK}なぜか　ソワソワしている。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5276,12 +5276,12 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40000000
 JMP_IFNOT 0xc L_14bd0
 SYS_42 0x8 
 SETNAME "The Countess"
-SAY "{VOICE=08}Squeak! SQUARK-SQUARK!!!"
+SAY "{VOICE=08}「クキューッ!　ククキューッ!!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The Countess is terribly excited."
+SAY "{COLOR=2}The Countessは{BREAK}とても　コーフンしている。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5293,12 +5293,12 @@ CMP_EQ 0x18 0x0 0x42a40000 0x2 0x41000000
 JMP_IFNOT 0xc L_14cc8
 SYS_42 0x8 
 SETNAME "The Countess"
-SAY "{VOICE=08}SQUARK SQUARK SQUEAK!!!"
+SAY "{VOICE=08}「フシューッ!　フフシューッ!!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The Countess is exceedingly excited."
+SAY "{COLOR=2}The Countessは{BREAK}はげしく　コーフンしている。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5317,13 +5317,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41100000
 JMP_IFNOT 0xc L_14ebc
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}We're preparing to stage the most happenin' Monster Scout Challenge!"
+SAY "{VOICE=07}「われらは　これより{BREAK} バトルGPの　じゅんびをはじめる!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Take the old man and Dr Lump back to your airship to chill out for a spell."
+SAY "{VOICE=07}「いまは　そこの老人と　Dr. Lumpを　つれて{BREAK} 飛行船とやらに　もどるがよい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Keep winnin' in the Challenge and the road ahead's gonna open right up for you!"
+SAY "{VOICE=07}「このバトルGPに　勝ちつづければ{BREAK} おのずと　道がひらけるだろう!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5360,10 +5360,10 @@ CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x0
 JMP_IFNOT 0xc L_152cc
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}A most righteous welcome to the human brother bearing the mysterious medal!{WAIT}{CLEAR}The Monster Scout Challenge show is ready to roll!"
+SAY "{VOICE=07}「よくきたな　プレートに選ばれし人間よ!{BREAK} バトルGPの　じゅんびが　ととのったぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}How about it, my friend? Ready to roll in the Monster Scout Challenge?{VOICE=09}"
+SAY "{VOICE=07}「そなたも　心のじゅんびは　よいか?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -5417,13 +5417,13 @@ CMP_EQ 0x18 0x0 0x42f40000 0x2 0x0
 JMP_IFNOT 0xc L_15504
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Listen up - the REAL Monster Scout Challenge begins with Rank D."
+SAY "{VOICE=07}「つぎのランクDから　バトルGPの{BREAK} ほんばんが　はじまるといってもよかろう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}...But it's takin' a while to set up, so the Challenge is in temporary hi-a-tus."
+SAY "{VOICE=07}「ゆえに　じゅんびに　てまどっているのだ。{BREAK} GPは　しばらく　ちゅうしに　させてくれ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Got any other fish to fry? 'Cause now might be the time to take care of business."
+SAY "{VOICE=07}「ほかに　やることがあったら{BREAK} そっちを　さきに　やってくるがよいぞ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5450,10 +5450,10 @@ CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x0
 JMP_IFNOT 0xc L_15704
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}...My brother, why don't you go visit the region we call Cragravation?"
+SAY "{VOICE=07}「そういえば　おしえてやった{BREAK} 断崖には　行かないのかね?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Speak to the one who rules there,{BREAK}the mighty and righteous one."
+SAY "{VOICE=07}「せっかくのきかいだ。断崖にすむ{BREAK} あの　お方に　話を　きいてくるがよかろう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5470,16 +5470,16 @@ CMP_EQ 0x18 0x0 0x42ee0000 0x2 0x0
 JMP_IFNOT 0xc L_15964
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}So you met righteous Empyrea, and you're startin' to believe in molekind?"
+SAY "{VOICE=07}「ふふふ。Empyreaさまに　会ってきたようだな。{BREAK} われわれのこと　信用してもらえたかな?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}We are fulfillin' our righteous duty by hostin' this Monster Scout Challenge."
+SAY "{VOICE=07}「われわれは　ある大いなる使命に　のっとり{BREAK} このバトルGPを　おこなっている。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I can't tell you too much, but all will be revealed soon - very, very soon!"
+SAY "{VOICE=07}「いまは　かたれないが　いずれ{BREAK} その使命も　知ることになるであろう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}So, my soulful friend, keep fightin' the battles and triumph in the Challenge!"
+SAY "{VOICE=07}「それでは　これからも　バトルGPを{BREAK} 勝ちあがり　つづけてくれよな。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5495,16 +5495,16 @@ JMP_ABS 0xc L_15978
 L_15978:
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}...But! We never thought our soulful friend would triumph in Rank B so fast..."
+SAY "{VOICE=07}「しかし……!　ランクBを　こんなにも　はやく{BREAK} クリアされるとは　思いもよらなかったわ……!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}We're not ready to host a Rank A battle yet, so we've gotta postpone the show."
+SAY "{VOICE=07}「おかげで　じゅんびに　てんてこまいだぞ!{BREAK} すまないが　GPは　しばらく　ちゅうしだ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}...So, my little brother, have you chilled out in the region we call Unshore?"
+SAY "{VOICE=07}「そういえば　海岸には　もう　行ったかね?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The one who rules there is most mighty, and would truly test your mettle."
+SAY "{VOICE=07}「海岸のヌシは　めっぽう強いと　きく。{BREAK} そこで　ウデ試しでも　してきてくれないか?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5533,16 +5533,16 @@ CMP_EQ 0x18 0x0 0x42ee0000 0x2 0x0
 JMP_IFNOT 0xc L_15e1c
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}So you met righteous Empyrea, and you're startin' to believe in molekind?"
+SAY "{VOICE=07}「ふふふ。Empyreaさまに　会ってきたようだな。{BREAK} われわれのこと　信用してもらえたかな?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}We are fulfillin' our righteous duty by hostin' this Monster Scout Challenge."
+SAY "{VOICE=07}「われわれは　ある大いなる使命に　のっとり{BREAK} このバトルGPを　おこなっている。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I can't tell you too much, but all will be revealed soon - very, very soon!"
+SAY "{VOICE=07}「いまは　かたれないが　いずれ{BREAK} その使命も　知ることになるであろう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}So, my soulful friend, keep fightin' the battles and triumph in the Challenge!"
+SAY "{VOICE=07}「それでは　これからも　バトルGPを{BREAK} 勝ちあがり　つづけてくれよな。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5558,7 +5558,7 @@ JMP_ABS 0xc L_15e30
 L_15e30:
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}A most righteous welcome to the human brother bearing the mysterious medal!{WAIT}{CLEAR}Now choose the Monster Scout Challenge rank you wish to take on!"
+SAY "{VOICE=07}「よくきたな　プレートに選ばれし人間よ!{BREAK} さあ　参加するランクを　選ぶがいい!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5572,7 +5572,7 @@ JMP_ABS 0xc L_15ee8
 L_15ee8:
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}A most righteous welcome to the human brother bearing the mysterious medal!{WAIT}{CLEAR}Now choose the Monster Scout Challenge rank you wish to take on!"
+SAY "{VOICE=07}「よくきたな　プレートに選ばれし人間よ!{BREAK} さあ　参加するランクを　選ぶがいい!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5592,7 +5592,7 @@ JMP_IFNOT 0xc L_16164
 L_15ff8:
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Brother, Rank S is reserved for the truly righteous who bear the Medal of Merit.{WAIT}{CLEAR}But you can take on another rank, if that's your scene... {VOICE=09}"
+SAY "{VOICE=07}「ランク{1F8E}　試練の証がないと　うけれぬぞ。{BREAK} ほかのランクに　チャレンジするのかね?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -5607,7 +5607,7 @@ JMP_REL L_160e8
 L_160e8:
 JMP_ABS 0xc L_160f4
 L_160f4:
-SAY "{VOICE=07}Fine, brother. Be cool..."
+SAY "{VOICE=07}「そうか。ならば　行くがよい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5620,13 +5620,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x3f800000
 JMP_IFNOT 0xc L_16778
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Oh, brother! You have brought it!{BREAK}The most righteous Medal of Merit!"
+SAY "{VOICE=07}「おお!　それはっ!　ついに{BREAK} 試練の証を　手に入れたようだな……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Now you can put on the greatest show on the island - the Rank S battle!"
+SAY "{VOICE=07}「そなたは　これで　バトルGP最後の試練{BREAK} ランク{1FA4}　うけることができる。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}What do you say, my human brother?{BREAK}Are you ready for the ultimate test?{VOICE=09}"
+SAY "{VOICE=07}「どうする　すぐに　ちょうせんするか?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -5635,7 +5635,7 @@ CMP_EQ 0x18 0x0 0x42f20000 0x2 0x0
 JMP_IFNOT 0xc L_16684
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} hands over the Medal of Merit to Don Mole!"
+SAY "{COLOR=2}{NAME}は　試練の証を{BREAK}Don Moleに　てわたした!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5644,10 +5644,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0xbf800000
 SYS_73 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}The mole brothers and sisters have long been awaitin' this most righteous day!"
+SAY "{VOICE=07}「……モグラいち族の　ひがん{BREAK} ついに　果たされるときが　きたか。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Let...us...BEGIN!"
+SAY "{VOICE=07}「それでは　はじめるとしよう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5687,7 +5687,7 @@ JMP_REL L_1668c
 L_1668c:
 JMP_ABS 0xc L_16698
 L_16698:
-SAY "{VOICE=07}That's cool, my man. You prepare yourself well, and return when you're ready."
+SAY "{VOICE=07}「よかろう。それでは　じゅんびを　ととのえ{BREAK} また　ここを　おとずれるがよい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5705,13 +5705,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40000000
 JMP_IFNOT 0xc L_16900
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}I kept you in the dark, and for that I am sorry. But it was all for this day."
+SAY "{VOICE=07}「おおくをかたらず　すまなかったな。{BREAK} だが　すべては　このときを　むかえるため。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Check it out - giant monsters are runnin' amok, evil stalks the land...{WAIT}{CLEAR}When the gods snooze, brother, we{BREAK}all lose."
+SAY "{VOICE=07}「神のいない　いま　巨大モンスターは　あばれ{BREAK} じゃあくな魔の者が　増えつづけるいっぽうだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Help us, my human brother. Reawaken the Divine Battler and free our island!"
+SAY "{VOICE=07}「たのむ　人間よ。われらの島を　すくうべく{BREAK} 戦の神の復活を　どうか　果たしてくれ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5730,13 +5730,13 @@ CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x0
 JMP_IFNOT 0xc L_16b08
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}At last, the day has come when we can awaken the most righteous Divine Battler! "
+SAY "{VOICE=07}「ついに　戦の神を　めざめさせるのか!{BREAK} このときを　どれだけ　まちわびたか……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}We thank you, my human friend. The mole brothers and sisters are in your debt."
+SAY "{VOICE=07}「人間よ。カンシャするぞ。{BREAK} これも　ひとえに　そなたのおかげだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Now go and find Mynos in front of the wall painting in the Bemusoleum."
+SAY "{VOICE=07}「さあ　遺跡にある壁画の間に　むかうがいい。{BREAK} Mynos the Elderが　おまちかねだぞ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5748,13 +5748,13 @@ JMP_ABS 0xc L_16b1c
 L_16b1c:
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}So, the Divine Battler's soul is corrupted by somethin' most evil."
+SAY "{VOICE=07}「やはりレオソードさまは　じゃあくなるものに{BREAK} 心を　むしばまれていたか……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Listen, my soulful human friend. You're the only one who can save the Great One."
+SAY "{VOICE=07}「人間よ。いまや　あの　お方を{BREAK} すくえるのは　そなたしか　いない。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You must guide Leonyx back to the way of truth...{WAIT}{CLEAR}...and help him remember his true, most righteous nature!"
+SAY "{VOICE=07}「レオソードさまに　ただしき心を{BREAK} 思いださせてやってくれ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5795,34 +5795,34 @@ SYS_03 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}So Mynos the Elder and his ghostly crew are gone."
+SAY "{VOICE=07}「そうか……。Mynos the Elderさまは……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But the Divine Battler has been revived, and that's what the old man wanted..."
+SAY "{VOICE=07}「しかし　神の復活が　果たされたのだ{BREAK} 老師さまも　ほんもうであろう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}...Now I heard somethin' on the grapevine, my funky human friend.{WAIT}{CLEAR}Seems you wish to enter the humans' Monster Scout Challenge."
+SAY "{VOICE=07}「……ところで　人間よ。きくところによると{BREAK} 人間たちの行う　バトルGPに出たいようだな?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}People think it's the grand-daddy of scoutin' tournaments - but it ain't!"
+SAY "{VOICE=07}「ふっふっふ……。いま　世界で行われている{BREAK} その　バトルGP。じつは……"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Many aeons ago, in the dark age before moles discovered funk...{WAIT}{CLEAR}...humans fled this place, takin' the Challenge tradition with them."
+SAY "{VOICE=07}「そのむかし　この島を　はなれた人間が{BREAK} むこうで　ひろめたのが　はじまりなのだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}They set up their own Monster Scout Challenge, based on the original here.{WAIT}{CLEAR}Yes, brother, this island is the home of the True Monster Scout Challenge!"
+SAY "{VOICE=07}「そう。この島で　かつて　行われていた{BREAK} バトルGPこそ　真のバトルGPなのだよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Now the Divine Battler's back, we're gonna revive that tournament!"
+SAY "{VOICE=07}「そして　レオソードさまの復活に　ともない{BREAK} 真のバトルGPも　復活したことになる。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}My mole brothers and sisters are settin' up the show as I speak."
+SAY "{VOICE=07}「われらは　これより　真のバトルGPの{BREAK} じゅんびを　はじめる。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If your travels ever bring you back to our humble home, brother...{WAIT}{CLEAR}...you've gotta get in on the action!"
+SAY "{VOICE=07}「もし　この島に　もどってくることがあれば{BREAK} そのときは　ぜひ　参加してほしい!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}All of us in the moles' den sure would like to see you again, my soulful friend."
+SAY "{VOICE=07}「ふたたび　そなたと　会える日を{BREAK} われら　いち族　心まちにしているぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5863,13 +5863,13 @@ CMP_EQ 0x18 0x0 0x42a40000 0x2 0x41100000
 JMP_IFNOT 0xc L_1763c
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}My mole brethren are settin' up the{BREAK}True Monster Scout Challenge."
+SAY "{VOICE=07}「われらは　これより　真のバトルGPの{BREAK} じゅんびを　はじめる。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If your travels ever bring you back to our humble home, brother...{WAIT}{CLEAR}...you've gotta get in on the action!"
+SAY "{VOICE=07}「もし　この島に　もどってくることがあれば{BREAK} そのときは　ぜひ　参加してほしい!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}All of us in the mole's den would like to see you again, my soulful friend."
+SAY "{VOICE=07}「ふたたび　そなたと　会える日を{BREAK} われら　いち族　心まちにしているぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5881,13 +5881,13 @@ CMP_EQ 0x18 0x0 0x42de0000 0x2 0x0
 JMP_IFNOT 0xc L_177f8
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Welcome back, my brother {NAME}!"
+SAY "{VOICE=07}「おお　きてくれたか　{NAME}。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Listen up. I've got major news for you. Leonyx himself wants to see you again."
+SAY "{VOICE=07}「じつはな　レオソードさまが　そなたに{BREAK} 話があると　おっしゃっていたのだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You've got time to spare before the True Monster Scout Challenge fanfare.{WAIT}{CLEAR}Why don't you groove on over to the Great One's pad and see what he wants?"
+SAY "{VOICE=07}「真のGPが　はじまるまで　まだ時間がある。{BREAK} さきに　そちらに　行ってくるがいいぞ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5902,28 +5902,28 @@ CMP_EQ 0x18 0x0 0x42e20000 0x2 0x0
 JMP_IFNOT 0xc L_17f3c
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}We've kept you waitin', my soulful friend, but the show is ready to roll!"
+SAY "{VOICE=07}「またせたな。ついに　真のバトルGPの{BREAK} じゅんびが　ととのったぞ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I guess you wanna hear the most righteous rules, right?"
+SAY "{VOICE=07}「それでは　まず　カンタンに{BREAK} ルールを説明しよう。よく　きいてくれ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}In the True Monster Scout Challenge, the monster scouts go at it mano-a-mano..."
+SAY "{VOICE=07}「真のバトルGPは　じゅうらいの通り{BREAK} マスター戦を　さいようしており……"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Each hopeful leads his righteous team in battle against the other contenders."
+SAY "{VOICE=07}「マスターたちが　たがいに　モンスターを{BREAK} 出しあい　勝敗を　きそうこととなる。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}There are three qualifying rounds, and if you reign triumphant in all three...{WAIT}{CLEAR}...then brother, you are in the finals!"
+SAY "{VOICE=07}「バトルは　予選が　3回戦。{BREAK} 3戦　勝ちぬいた者が　そのさきへ行ける!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You gotta win every battle to take first place and claim the most righteous prize!"
+SAY "{VOICE=07}「すべての戦いに　勝利すれば　優勝だ!{BREAK} そのあかつきには　優勝賞品を　さずけよう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But take heed, brother, for you cannot use items nor substitute your team. "
+SAY "{VOICE=07}「道具の使用と　モンスターの入れかえは{BREAK} みとめられないから　気をつけてくれ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Those are the rules. Are you ready to get your Challenge groove on?{VOICE=09}"
+SAY "{VOICE=07}「さあ　ルールは　いじょうだ。{BREAK} どうする?　さっそく　参加するかね?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 L_17b64:
@@ -5931,10 +5931,10 @@ SYS_7A 0x8
 STORE 0x18 0x0 0x42f20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f20000 0x2 0x0
 JMP_IFNOT 0xc L_17e78
-SAY "{VOICE=07}Woo-hee, that's what I like to hear!!!"
+SAY "{VOICE=07}「ふふふ。その言や　よし!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Let's light a fire in the ring and get this place a-burnin'! I want it HOT!"
+SAY "{VOICE=07}「それでは　アツく　はげしい戦いの火ぶたを{BREAK} きって　おとそうではないか!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5975,7 +5975,7 @@ JMP_REL L_17e80
 L_17e80:
 JMP_ABS 0xc L_17e8c
 L_17e8c:
-SAY "{VOICE=07}Hey, it's cool, my little friend.{BREAK}It's okay to be scared..."
+SAY "{VOICE=07}「しんちょうになるのも　仕方あるまい。{BREAK} では　また　こえを　かけてくれ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5992,7 +5992,7 @@ CMP_EQ 0x18 0x0 0x42fc0000 0x2 0x0
 JMP_IFNOT 0xc L_18024
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}The True Monster Scout Challenge is ready to rock 'n' roll. How about it?{WAIT}{CLEAR}You ready to join the show?{VOICE=09}"
+SAY "{VOICE=07}「真のバトルGPの　じゅんびが　できたぞ。{BREAK} どうする?　さっそく　参加するかね?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_17b64
@@ -6004,13 +6004,13 @@ JMP_ABS 0xc L_18038
 L_18038:
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Too bad, little friend, it wasn't your day...but it's totally cool!"
+SAY "{VOICE=07}「おお　{NAME}よ。負けてしまったか。{BREAK} ……だが　よろこべ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}No one else made it through to the end,{BREAK}so the prize is still to be won!"
+SAY "{VOICE=07}「前回は　予選を勝ちぬく者が　いなかったのだ。{BREAK} そなたにも　まだ　チャンスは　あるぞ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}How about it, brother? You ready to rock a repeat performance?{VOICE=09}"
+SAY "{VOICE=07}「さあ　どうする?　真のバトルGPに{BREAK} もういちど　参加してみるかね。{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_17b64
@@ -6024,13 +6024,13 @@ CMP_EQ 0x18 0x0 0x42fc0000 0x2 0x0
 JMP_IFNOT 0xc L_1834c
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Whoo-hee, you made it outta the qualifiers! Time for the grand finale!"
+SAY "{VOICE=07}「予選とっぱ　おみごとであった!{BREAK} これより　真のバトルGP本戦を　はじめるぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Two others made it into the finals.{BREAK}Beat 'em both and the title's yours!"
+SAY "{VOICE=07}「本戦に　すすむのは　キミを入れて　3名だ!{BREAK} ほかの2人に勝てば優勝する。そうあたり戦だ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}What d'ya say - ready to write your name in the history books?{VOICE=09}"
+SAY "{VOICE=07}「この戦いは　れきしに名を　のこすであろう!{BREAK} さあ　どうする?　さっそく　参加するかね。{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_184a4
@@ -6041,13 +6041,13 @@ JMP_ABS 0xc L_18360
 L_18360:
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Hey, don't lose your cool, man.{BREAK}You lost, but the game ain't over..."
+SAY "{VOICE=07}「おお　{NAME}よ。負けてしまったか。{BREAK} ……だが　よろこべ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The final finished in a dead heat - the prize is still yours to claim!"
+SAY "{VOICE=07}「前回の本戦は　ひきわけに　おわったぞ!{BREAK} そなたにも　まだ　チャンスは　ある。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}What d'ya say, little man?{BREAK}Want to do battle once again?{VOICE=09}"
+SAY "{VOICE=07}「さあ　どうする?　真のバトルGP本戦に{BREAK} もういちど　参加してみるかね。{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_184a4
@@ -6056,10 +6056,10 @@ SYS_7A 0x8
 STORE 0x18 0x0 0x42f20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f20000 0x2 0x0
 JMP_IFNOT 0xc L_18780
-SAY "{VOICE=07}Woo-hee, that's what I like to hear!"
+SAY "{VOICE=07}「ふふふ。その言や　よし!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The curtain's comin' up on the most righteous finale. Good luck, brother!"
+SAY "{VOICE=07}「ついに　真の戦いの　まくあけだ!{BREAK} 優勝めざして　がんばってくれ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6097,7 +6097,7 @@ JMP_REL L_18788
 L_18788:
 JMP_ABS 0xc L_18794
 L_18794:
-SAY "{VOICE=07}Yeah, it's cool, my little friend.{BREAK}It's okay to be scared..."
+SAY "{VOICE=07}「しんちょうになるのも　仕方あるまい。{BREAK} では　また　こえを　かけてくれ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6114,13 +6114,13 @@ CMP_EQ 0x18 0x0 0x42ee0000 0x2 0x0
 JMP_IFNOT 0xc L_189cc
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}With your victory, the True Monster Scout Challenge is over."
+SAY "{VOICE=07}「真のバトルGPは　そなたの優勝をもって{BREAK} おひらきだ。おめでとう　{NAME}よ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}...But I'm feelin' some nostalgic vibes from the Synthesis Research Facility."
+SAY "{VOICE=07}「……ところで　配合けんきゅう所のほうから{BREAK} なにやら　なつかしい気配がするのだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Why don't you go check it out, my little brother?"
+SAY "{VOICE=07}「{NAME}よ。{BREAK} すこし　みてきてくれないか?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6135,16 +6135,16 @@ CMP_EQ 0x18 0x0 0x42ee0000 0x2 0x0
 JMP_IFNOT 0xc L_18c28
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}No way!? Mynos the Elder is chillin' out in the Synthesis Research Facility?"
+SAY "{VOICE=07}「なにぃっ!　Mynos the Elderさまが{BREAK} 配合けんきゅう所に　あらわれただとっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Whoo-hee! Seems like your red-hot battlin' lit a fire under his behind...{WAIT}{CLEAR}...and enticed him back into our own groovin' world!"
+SAY "{VOICE=07}「はっはっは!　そなたの戦いぶりをみて{BREAK} あの世から　まいもどってきたというか。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Mynos is a past champion of the True Monster Scout Challenge...{WAIT}{CLEAR}...it's only natural the competitive fire still heats his soulful blood!"
+SAY "{VOICE=07}「マイセンさまは　かつての真のチャンピオン。{BREAK} ちが　さわぐのも　とうぜんよな。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Listen up, {NAME}. You should accept the challenge laid down by Mynos."
+SAY "{VOICE=07}「{NAME}よ。マイセンさまの話は{BREAK} よく　きいておくのだぞ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6157,19 +6157,19 @@ CMP_EQ 0x18 0x0 0x42ee0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_18e28
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}I do truly believe that you are the most righteous champion of champions!"
+SAY "{VOICE=07}「{NAME}よ　そなたこそ{BREAK} まことの　チャンピオンだっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But the world is a big place, and who knows what mighty scouts are out there?"
+SAY "{VOICE=07}「しかし　世界は　ひろい!{BREAK} もっと　強い者が　いるかもしれん……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Listen, my man. It's easy to find new challenges if you want them...{WAIT}{CLEAR}Tag Mode, DS Wireless Communications, Nintendo WFC..."
+SAY "{VOICE=07}「すれちがいバトル　そして{BREAK} ワイヤレス通信やWi-Fi通信での　バトル!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You may be the Monster Scout Challenge champion, but the battle lives on!"
+SAY "{VOICE=07}「さらに　アツい戦いが　そなたを{BREAK} まっているぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Go forth into the wide world, brother, and seek your soulful fortune!"
+SAY "{VOICE=07}「{NAME}よ。{BREAK} そとの　世界に　とびだすのだ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6193,16 +6193,16 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41100000
 JMP_IFNOT 0xc L_1906c
 SYS_42 0x8 
 SETNAME "Dr. Lump"
-SAY "{VOICE=03}My name is Dr Lump, und I am a master of ze synthesis."
+SAY "{VOICE=03}「ワシは　配合マスターのDr. Lumpですじゃ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Ze synthesis is a process vhich fuses two monsters to create a new von."
+SAY "{VOICE=03}「配合とは　モンスターどうしを　かけあわせ{BREAK} 新たなモンスターを生む　キセキの　みわざ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Vith my help, you can make your monster friends very powerful, ja?"
+SAY "{VOICE=03}「あなたの　お仲間が　より強くなるよう{BREAK} おチカラに　なりますぞ。ほっほっほ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}As soon as ve arrive at your airship,{BREAK}ve can begin ze synthesising! "
+SAY "{VOICE=03}「飛行船とやらに　着いたら　さっそく{BREAK} 配合できるようにいたしましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6225,16 +6225,16 @@ CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x0
 JMP_IFNOT 0xc L_19308
 SYS_42 0x8 
 SETNAME "Duke"
-SAY "{VOICE=07}I'm mighty sorry for what happened back there. Let me make it up to you..."
+SAY "{VOICE=07}「さきほどは　すいませんで　ありました!{BREAK} おわびに　イイことを　おしえるであります!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The Monster Scout Proficiency Test is bein' run right now in the back room."
+SAY "{VOICE=07}「マスターたちをうならせる　スカウトQプロが{BREAK} この　おくで　うけられるで　あります!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Pass the challenges to get some seriously cool prizes, so check it out!"
+SAY "{VOICE=07}「クリアするごとに　賞品も　もらえるので{BREAK} ぜひ　チャレンジしてほしいで　あります!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Want to try the Proficiency Test? Then talk to the mud mannequin out back."
+SAY "{VOICE=07}「スカウトQプロをやりたいのなら　おくにいる{BREAK} どろにんぎょうのコに　話をきくで　あります!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6244,10 +6244,10 @@ CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_19414
 SYS_42 0x8 
 SETNAME "Duke"
-SAY "{VOICE=07}I heard on the grapevine you're takin' the Monster Scout Proficiency Test."
+SAY "{VOICE=07}「おお!　Marshaちゃんの　スカウトQプロを{BREAK} やっているで　ありますな!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you've got the monster that she wants, go talk to Marsha and let the girl know!"
+SAY "{VOICE=07}「していのモンスターをつれてきたら　おくにいる{BREAK} Marshaちゃんに　みせるで　ありますよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6272,13 +6272,13 @@ CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x0
 JMP_IFNOT 0xc L_19640
 SYS_42 0x8 
 SETNAME "Duke"
-SAY "{VOICE=07}The Monster Scout Proficiency Test is bein' run right now in the back room."
+SAY "{VOICE=07}「マスターたちをうならせる　スカウトQプロが{BREAK} この　おくで　うけられるで　あります!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you clear the levels you get some seriously cool prizes, so check it out!"
+SAY "{VOICE=07}「クリアするごとに　賞品も　もらえるので{BREAK} ぜひ　チャレンジしてほしいで　あります!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you want to try the Proficiency Test, talk to the mud mannequin out back."
+SAY "{VOICE=07}「スカウトQプロをやりたいのなら　おくにいる{BREAK} どろにんぎょうのコに　話をきくで　あります!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6288,10 +6288,10 @@ CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1974c
 SYS_42 0x8 
 SETNAME "Duke"
-SAY "{VOICE=07}I heard on the grapevine you're takin' the Monster Scout Proficiency Test."
+SAY "{VOICE=07}「おお!　Marshaちゃんの　スカウトQプロを{BREAK} やっているで　ありますな!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you've got the monster that she wants, talk to Marsha and let the girl know!"
+SAY "{VOICE=07}「していのモンスターをつれてきたら　おくにいる{BREAK} Marshaちゃんに　みせるで　ありますよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6321,13 +6321,13 @@ CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x0
 JMP_IFNOT 0xc L_199cc
 SYS_42 0x8 
 SETNAME "Duke"
-SAY "{VOICE=07}The Monster Scout Proficiency Test is bein' run right now in the back room."
+SAY "{VOICE=07}「マスターたちをうならせる　スカウトQプロが{BREAK} この　おくで　うけられるで　あります!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you clear the levels you get some seriously cool prizes, so check it out!"
+SAY "{VOICE=07}「クリアするごとに　賞品も　もらえるので{BREAK} ぜひ　チャレンジしてほしいで　あります!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you want to try the Proficiency Test, talk to the mud mannequin out back."
+SAY "{VOICE=07}「スカウトQプロをやりたいのなら　おくにいる{BREAK} どろにんぎょうのコに　話をきくで　あります!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6337,13 +6337,13 @@ CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_19b34
 SYS_42 0x8 
 SETNAME "Duke"
-SAY "{VOICE=07}Are you takin' the Monster Scout Proficiency Test?"
+SAY "{VOICE=07}「スカウトQプロは　やっておりますか?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Well, those tasks Marsha asks - we dreamed them up together, my man!"
+SAY "{VOICE=07}「じつは　あのクエスト。自分とMarshaちゃんで{BREAK} アイデアを出しあって　決めているであります!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}What I'm sayin', there's love in those quests, and I hope you complete them all!"
+SAY "{VOICE=07}「いわば　ふたりの　あいをかけたクエスト……。{BREAK} ぜひ　全クリしてほしいであります!　ポッ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6363,10 +6363,10 @@ JMP_IFNOT 0xc L_19ccc
 L_19bac:
 SYS_42 0x8 
 SETNAME "Duke"
-SAY "{VOICE=07}The Divine Battler's awake and the moles are singin' with joy! Can you dig it!?"
+SAY "{VOICE=07}「ア　ソ～レ　戦の神さま　復活だ。{BREAK} うたえや　うたえ　ヤッホイ　ヤッホホイ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I'm right here watchin' mole history in the makin', and I'm diggin' it!"
+SAY "{VOICE=07}「れきしてき　しゅんかんに　たちあえて{BREAK} 自分は　カンムリョーで　あります!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6385,10 +6385,10 @@ CMP_EQ 0x18 0x0 0x42f80000 0x2 0x0
 JMP_IFNOT 0xc L_19e20
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}Dude, sorry about the unfunky attack outta nowhere. Are we cool now?"
+SAY "{VOICE=07}「さっきは　やみくもに{BREAK} おそいかかっちまって　すまなかったな。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}We've gotta put it behind us and prepare a soulful Monster Scout Challenge!"
+SAY "{VOICE=07}「いそいで　バトルGPのじゅんびをするから{BREAK} オレたちのこと　ゆるしてくれよなっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6406,16 +6406,16 @@ CMP_LT 0x18 0x0 0x42fa0000 0x2 0x40000000
 JMP_IFNOT 0xc L_1a05c
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}Hey, hey, human dude! The Monster Scout Challenge is up and ready to roll!"
+SAY "{VOICE=07}「よくきたな　人間!{BREAK} バトルGPのじゅんびは　ととのったぜ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The battles are gonna be hot! Which is why you should heed my advice...　"
+SAY "{VOICE=07}「これから　シレツな戦いが　マクをあけるが{BREAK} その前に　オレから　アドバイスだ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you want to survive, make sure you've got some healin' on your team. Dig it?"
+SAY "{VOICE=07}「回復呪文が使えるモンスターを{BREAK} パーティに　1体は　入れておくといいぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}In the Monster Scout Challenge, you can't use items and potions...{WAIT}{CLEAR}...so the monsters have gotta heal themselves!"
+SAY "{VOICE=07}「バトルGPでは　道具が使えねえからな。{BREAK} 回復呪文が使えるかどうかで　勝負が決まるぜ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6425,10 +6425,10 @@ CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x40000000
 JMP_IFNOT 0xc L_1a164
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}Don Mole said that if you win Rank D...{WAIT}{CLEAR}...he'll tell you about a happenin' little place?"
+SAY "{VOICE=07}「つぎのランクDを勝てば　アンタに{BREAK} あそこへ行く道を　おしえるなんて……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}He's gonna tell you how to get THERE!? What is the boss THINKIN'!?"
+SAY "{VOICE=07}「Don Moleさまは　いったい{BREAK} どういう　おつもりなんだ!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6440,10 +6440,10 @@ CMP_EQ 0x18 0x0 0x42f80000 0x2 0x40400000
 JMP_IFNOT 0xc L_1a278
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}Don Mole said that if you win Rank D...{WAIT}{CLEAR}...he'll tell you about a happenin' little place?"
+SAY "{VOICE=07}「つぎのランクDを勝てば　アンタに{BREAK} あそこへ行く道を　おしえるなんて……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}He's gonna tell you how to get THERE!? What is the boss THINKIN'!?"
+SAY "{VOICE=07}「Don Moleさまは　いったい{BREAK} どういう　おつもりなんだ!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6463,13 +6463,13 @@ CMP_EQ 0x18 0x0 0x42da0000 0x2 0x0
 JMP_IFNOT 0xc L_1a448
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}So, now you know the road to Cragravation..."
+SAY "{VOICE=07}「断崖に行く道を{BREAK} ついに　知られちまったか……!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Man, I wouldn't go near that place in a billion years!"
+SAY "{VOICE=07}「わるいことは言わねえ。{BREAK} あそこには　ちかづかねえほうがいいぜ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Why would someone so great and mighty choose to live on top of that mountain?"
+SAY "{VOICE=07}「なんせ　断崖の　てっぺんには{BREAK} あの　お方が……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6479,13 +6479,13 @@ CMP_EQ 0x18 0x0 0x42da0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1a5c0
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}I heard! You defeated the Gemon gang and came face to face with Empyrea!"
+SAY "{VOICE=07}「断崖にすみついた　Gemonおやこをたおして{BREAK} 無事　Empyreaさまに会ってきたようだな!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Empyrea didn't allow those wicked monsters to roam at will through weakness."
+SAY "{VOICE=07}「ああいう　ワルいヤツらが　のさばっているのは{BREAK} 決してEmpyreaさまが　よわいからじゃねえぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But you will dig the truth someday...{WAIT}{CLEAR}...when you emerge triumphant in the Monster Scout Challenge!"
+SAY "{VOICE=07}「まあ　そのワケも　いずれ　わかるさ!{BREAK} バトルGPを　クリアしていけばな!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6509,10 +6509,10 @@ JMP_ABS 0xc L_1a678
 L_1a678:
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}If you win Rank A, we moles will tell you how to reach a whole new funky region."
+SAY "{VOICE=07}「ランクAをクリアすりゃ　また{BREAK} 新しい場所を　おしえてもらえるはずだぜ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It's a place into which human dudes have not set foot for many, many years."
+SAY "{VOICE=07}「あそこに　人間が　あしをふみいれるのは{BREAK} なん年ぶりに　なるんだろうなあ……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6526,10 +6526,10 @@ CMP_EQ 0x18 0x0 0x42f80000 0x2 0x40c00000
 JMP_IFNOT 0xc L_1a884
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}If you win Rank A, we moles will tell you how to reach a whole new funky region."
+SAY "{VOICE=07}「ランクAをクリアすりゃ　また{BREAK} 新しい場所を　おしえてもらえるはずだぜ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It's a place into which human dudes have not set foot for many, many years."
+SAY "{VOICE=07}「あそこに　人間が　あしをふみいれるのは{BREAK} なん年ぶりに　なるんだろうなあ……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6547,13 +6547,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x0
 JMP_IFNOT 0xc L_1aa48
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}So victory is yours in Rank A - you are growin' mighty, my friend."
+SAY "{VOICE=07}「ランクAをクリアしたようだな!{BREAK} なかなか　やるじゃねーか!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Maybe you heard, but Rank S is open only to those bearin' the Medal of Merit."
+SAY "{VOICE=07}「きいていると思うが　おつぎのランク{1F8E}{BREAK} 試練の証がないと　参加できないぜ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It's time to hit the Bemusoleum and prove you're most worthy!"
+SAY "{VOICE=07}「まず　この島にある遺跡に行って{BREAK} 試練の証を　とってくるんだな!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6563,13 +6563,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1aba4
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}Whoo-hee, you have the Medal of Merit!? Not bad, my funky human friend!"
+SAY "{VOICE=07}「おお!　試練の証をもってきたのか!{BREAK} なかなか　やるじゃねーか!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Guess it's time for the most splenderific finale, the show-stoppin' Rank S6"
+SAY "{VOICE=07}「それじゃ　いよいよ　キセキをよぶ{BREAK} ランク{1F8D}　はじまりだ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Who knows what'll happen? Not us!"
+SAY "{VOICE=07}「なにが　おこるか　オレらにも　わからねえ!{BREAK} とにかく　ちょうせんしてみてくれよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6579,10 +6579,10 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40000000
 JMP_IFNOT 0xc L_1aca4
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}I never did imagine, not in a million years! We had a DESTINY?"
+SAY "{VOICE=07}「知らなかった……!　オレら{BREAK} そんな　でっけえことをしてたなんて……!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Wow, the Divine Battler! I wonder, my brother... What does he look like?"
+SAY "{VOICE=07}「戦の神さまか……。{BREAK} どんな　おカオをなさってるんだろう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6601,10 +6601,10 @@ CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x0
 JMP_IFNOT 0xc L_1ae20
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}Mynos the Elder has cruised on over to{BREAK}the Bemusoleum."
+SAY "{VOICE=07}「Mynos the Elderは　遺跡に{BREAK} むかったみたいだな。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Who knows what mysteries sleep in that ol' crumblin'-down wreck of a place?"
+SAY "{VOICE=07}「遺跡には　いったい{BREAK} なにが　あるんだろう……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6621,10 +6621,10 @@ CMP_EQ 0x18 0x0 0x42ec0000 0x2 0x0
 JMP_IFNOT 0xc L_1afac
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}My human friend, you laid eyes on the most righteous Divine Battler!"
+SAY "{VOICE=07}「戦の神さまに　会ってきたんだろ?{BREAK} いったい　どんな　おカオしてたんだい?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Wow. Just wow. Tell me, man, what did the Great One look like? "
+SAY "{VOICE=07}「エッ　ライオンのカオ!?{BREAK} なんだよ　モグラのカオじゃないのかよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6639,7 +6639,7 @@ JMP_ABS 0xc L_1afc0
 L_1afc0:
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}He looked like a lion? ...That's too bad.{WAIT}{CLEAR}We kinda figured he'd be more mole-like. You know, sharp and sophisticated...　"
+SAY "{VOICE=07}「戦の神さまは　ライオンのカオかー。{BREAK} りりしい　モグラのカオを　きたいしてたぜ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6661,10 +6661,10 @@ JMP_IFNOT 0xc L_1b1bc
 L_1b0d0:
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}The Divine Battler's revived and we're on top of the world! Woo-HEEEEEE!"
+SAY "{VOICE=07}「ア　ソ～レ　戦の神さま　復活だ。{BREAK} いわえや　いわえ　ヤッホイ　ヤッホホイ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Thanks for battlin' in the Monster Scout Challenge, my most funky friend!"
+SAY "{VOICE=07}「バトルGPに　つきあってくれて　ありがとよ!{BREAK} さあ　神さまの復活を　いわおうぜ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6683,10 +6683,10 @@ CMP_EQ 0x18 0x0 0x42ec0000 0x2 0x0
 JMP_IFNOT 0xc L_1b364
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}Sorry, my soulful friend, but we ain't ready to host the Challenge show."
+SAY "{VOICE=07}「ごめんな。真のバトルGPの　じゅんびは{BREAK} まだ　できてないんだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But listen up: the most righteous Don Mole wanted a word with you."
+SAY "{VOICE=07}「でも　Don Moleさまが{BREAK} お前のこと　さがしていたぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6696,10 +6696,10 @@ CMP_EQ 0x18 0x0 0x42ec0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1b468
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}Sorry, my soulful friend, but we ain't ready to host the Challenge show."
+SAY "{VOICE=07}「ごめんな。真のバトルGPの　じゅんびは{BREAK} まだ　できてないんだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you've got other business to settle, now's the time to do it."
+SAY "{VOICE=07}「ほかに　やることが　あるようだったら{BREAK} そっちを　さきに　やってこいよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6711,10 +6711,10 @@ CMP_EQ 0x18 0x0 0x42de0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1b58c
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}The True Monster Scout Challenge isn't held here.{WAIT}{CLEAR}It takes place back there, in the most soulful and ancient battle ring."
+SAY "{VOICE=07}「真のバトルGPの会場は　ここじゃなくて{BREAK} はんたいがわにある　古代の闘技場なんだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But in any case, if you wanna play,{BREAK}you gotta talk to the Don first!"
+SAY "{VOICE=07}「でも　GPへ参加したいときは{BREAK} Don Moleさまに　話しかけるんだぜ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6726,10 +6726,10 @@ CMP_EQ 0x18 0x0 0x42e20000 0x2 0x41800000
 JMP_IFNOT 0xc L_1b6a4
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}Whoo-hee, that was a red-hot battle between you and Solitaire!"
+SAY "{VOICE=07}「とんでもねえ　ハクリョクだったなあ。{BREAK} あんたと　Solitaireってヤツの試合。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You laid it all out there and held nothin' back - it was a victory most righteous!"
+SAY "{VOICE=07}「ひさびさに　ムネが　アツくなったぜ!{BREAK} ひとまず　優勝おめでとさん　だな!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6747,13 +6747,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41100000
 JMP_IFNOT 0xc L_1b85c
 SYS_42 0x8 
 SETNAME "Billie"
-SAY "{VOICE=08}Hey, brother, what do you want? Got your greedy eye on the boss's stash?"
+SAY "{VOICE=08}「なによ……?　もしかして{BREAK} うしろのお宝が　めあてだったり?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}The boss wants to run the Monster Scout Challenge, so I've gotta help out..."
+SAY "{VOICE=08}「いちおう　Don Moleさまの言う通りに{BREAK} バトルGPのじゅんび　手伝ってるケド……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}But it doesn't mean I've gotta start likin' you human types."
+SAY "{VOICE=08}「アタシ　人間のこと　みとめてないから。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6765,13 +6765,13 @@ CMP_EQ 0x18 0x0 0x42a40000 0x2 0x40800000
 JMP_IFNOT 0xc L_1b9bc
 SYS_42 0x8 
 SETNAME "Billie"
-SAY "{VOICE=08}Hey, brother, what do you want? Got your greedy eye on the boss's stash?"
+SAY "{VOICE=08}「なによ……?　もしかして{BREAK} うしろのお宝が　めあてだったり?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}The boss wants to run the Monster Scout Challenge, so I've gotta help out..."
+SAY "{VOICE=08}「いちおう　Don Moleさまの言う通りに{BREAK} バトルGPの　お手伝いしてるケド……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}But it doesn't mean I've gotta start likin' you human types."
+SAY "{VOICE=08}「アタシ　人間のこと　みとめてないから。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6787,10 +6787,10 @@ JMP_IFNOT 0xc L_1baf8
 L_1ba1c:
 SYS_42 0x8 
 SETNAME "Billie"
-SAY "{VOICE=08}You're pulling off win after win in the Monster Scout Challenge..."
+SAY "{VOICE=08}「じゅんちょうに　バトルGPを{BREAK} 勝ちあがっているようね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}...but that doesn't mean I'm ready to accept humans into the clan."
+SAY "{VOICE=08}「でも　アタシは　まだ　人間のこと{BREAK} みとめてないんだからっ。つーん。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6802,13 +6802,13 @@ CMP_LT 0x18 0x0 0x42a60000 0x2 0x40000000
 JMP_IFNOT 0xc L_1bc80
 SYS_42 0x8 
 SETNAME "Billie"
-SAY "{VOICE=08}Whoa. So you racked up a funky little victory in Rank A?"
+SAY "{VOICE=08}「ふーん。ランクAも　クリアしちゃったんだ。{BREAK} けっこう　やるじゃないの……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}But that STILL doesn't mean that I'm ready to accept humans here..."
+SAY "{VOICE=08}「でもでも　アタシは　まだ{BREAK} 人間のこと　みとめてないんだからねっ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I know all about you people! You're wicked - and not in a good way!"
+SAY "{VOICE=08}「アタシ　きいてるもん!{BREAK} 人間たちが　ヒドイことしたってウワサをっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6830,13 +6830,13 @@ JMP_IFNOT 0xc L_1be44
 L_1bd00:
 SYS_42 0x8 
 SETNAME "Billie"
-SAY "{VOICE=08}Of course it was the unfunky humans who did this to the Divine Battler."
+SAY "{VOICE=08}「やっぱりね……。人間たちが{BREAK} 戦の神さまを　おかしくしちゃったんだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}But now they say the only one who can reawaken him is you...a human."
+SAY "{VOICE=08}「でも　神さまを　復活させられるのも{BREAK} いまは　人間のアンタだけみたいね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}It's up to you, friend, to undo the evil committed by past humans!"
+SAY "{VOICE=08}「人間の信用を　とりもどすためにも{BREAK} アンタ　がんばりなさいよっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6854,10 +6854,10 @@ JMP_IFNOT 0xc L_1bf98
 L_1beb0:
 SYS_42 0x8 
 SETNAME "Billie"
-SAY "{VOICE=08}The Divine Battler has awoken and the moles are celebratin'! Can you dig it!?"
+SAY "{VOICE=08}「ア　ソ～レ　戦の神さま　復活だ。{BREAK} まわれや　まわれ　ヤッホイ　ヤッホホイ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I guess if there are humans like you around, your kind can't all be wicked."
+SAY "{VOICE=08}「人間の中にも　アンタみたいな{BREAK} イケてるヤツが　いるんだね。みなおしたよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6867,10 +6867,10 @@ CMP_GE 0x18 0x0 0x42a40000 0x2 0x41300000
 JMP_IFNOT 0xc L_1c0a8
 SYS_42 0x8 
 SETNAME "Billie"
-SAY "{VOICE=08}Okay, seriously uncool. How come the human girls get all the attention?"
+SAY "{VOICE=08}「なによ　なによ!　Solitaireとか　Melonieとか{BREAK} 人間のメスが　でかいカオしちゃってさ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}The star of the True Monster Scout Challenge should be a mole, like me!　"
+SAY "{VOICE=08}「真のバトルGPのアイドルは{BREAK} このBillieって　前から　決まってたのに!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6885,10 +6885,10 @@ JMP_IFNOT 0xc L_1c200
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41100000
 JMP_IFNOT 0xc L_1c1f4
 SYS_42 0x8 
-SAY "{VOICE=07}Listen, man. It's a hard road that leads to Monster Scout Challenge victory."
+SAY "{VOICE=07}「バトルGPの道のりは　ハッキリ言って{BREAK} けっこう　きびしいよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}So take your sweet time and build a most righteous and powerful team."
+SAY "{VOICE=07}「だから　あせらず　じっくり　仲間を{BREAK} そだてながら　ちょうせんしてみるといいよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6901,10 +6901,10 @@ JMP_IFNOT 0xc L_1c644
 CMP_LT 0x18 0x0 0x42fa0000 0x2 0x40000000
 JMP_IFNOT 0xc L_1c31c
 SYS_42 0x8 
-SAY "{VOICE=07}Listen, man. It's a hard road that leads to Monster Scout Challenge victory."
+SAY "{VOICE=07}「バトルGPの道のりは　ハッキリ言って{BREAK} けっこう　きびしいよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}So take your sweet time and build a most righteous and powerful team."
+SAY "{VOICE=07}「だから　あせらず　じっくり　仲間を{BREAK} そだてながら　ちょうせんしてみるといいよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6913,13 +6913,13 @@ L_1c31c:
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x40000000
 JMP_IFNOT 0xc L_1c484
 SYS_42 0x8 
-SAY "{VOICE=07}My man! If you win the Monster Scout Challenge, new roads will open to you."
+SAY "{VOICE=07}「バトルGPを勝ちあがれば　キミの行く道が{BREAK} きっと　みえてくるだろうね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But the goin' is hard, my man, and these battles are for real!"
+SAY "{VOICE=07}「でも　バトルGPは　ここからが　ほんばんさ。{BREAK} ハッキリ言って　きびしい戦いになるよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}So take your sweet time and build a most righteous and powerful team."
+SAY "{VOICE=07}「だから　あせらず　じっくり　仲間を{BREAK} そだてながら　ちょうせんしてみるんだね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6928,16 +6928,16 @@ L_1c484:
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x40400000
 JMP_IFNOT 0xc L_1c638
 SYS_42 0x8 
-SAY "{VOICE=07}My man! If you win the Monster Scout Challenge, righteous new roads will open."
+SAY "{VOICE=07}「バトルGPを勝ちあがれば　キミの行く道が{BREAK} きっと　みえてくるだろうね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But the goin' is rough, my man, and these battles will grow harder!"
+SAY "{VOICE=07}「でも　戦いは　これから{BREAK} ますます　きびしくなるよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You've gotta synthesise your monsters and raise their ranks ahead of the battle."
+SAY "{VOICE=07}「だから　仲間を配合して　ランクが　うえの{BREAK} モンスターに　そだててゆくんだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Rank E trumps Rank F. Rank C trumps Rank D. You get the drill?{WAIT}{CLEAR}It's as easy as ABC, you see?"
+SAY "{VOICE=07}「FよりE。DよりC。さらにBというように{BREAK} ランクが　うえにいくほど　強くなるよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6948,16 +6948,16 @@ L_1c644:
 CMP_EQ 0x18 0x0 0x42a40000 0x2 0x40a00000
 JMP_IFNOT 0xc L_1c7f8
 SYS_42 0x8 
-SAY "{VOICE=07}My man! If you win the Monster Scout Challenge, righteous new roads will open."
+SAY "{VOICE=07}「バトルGPを勝ちあがれば　キミの行く道が{BREAK} きっと　みえてくるだろうね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But the goin' is rough, my man, and these battles will grow harder!"
+SAY "{VOICE=07}「でも　戦いは　これから{BREAK} ますます　きびしくなるよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You've gotta synthesise your monsters and raise their ranks ahead of the battle."
+SAY "{VOICE=07}「だから　仲間を配合して　ランクが　うえの{BREAK} モンスターに　そだててゆくんだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Rank E trumps Rank F. Rank C trumps Rank D. You get the drill?{WAIT}{CLEAR}It's as easy as ABC, you see?"
+SAY "{VOICE=07}「FよりE。DよりC。さらにBというように{BREAK} ランクが　うえにいくほど　強くなるよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6966,19 +6966,19 @@ L_1c7f8:
 CMP_EQ 0x18 0x0 0x42a40000 0x2 0x40c00000
 JMP_IFNOT 0xc L_1ca18
 SYS_42 0x8 
-SAY "{VOICE=07}My man! If you win in the Monster Scout Challenge, righteous new roads will open."
+SAY "{VOICE=07}「バトルGPを勝ちあがれば　キミの行く道が{BREAK} きっと　みえてくるだろうね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But there are other ways to fight righteous and most funky battles."
+SAY "{VOICE=07}「しかし　バトルGPいがいにも{BREAK} アツいバトルが　ほかにもあるらしいぞ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}With DS Wireless Play you can engage your pals in battle..."
+SAY "{VOICE=07}「ワイヤレス通信を使えば{BREAK} ともだちどうしで　対戦ができるし……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}...and with Nintendo Wi-Fi Connection you can take on scouts near and far!"
+SAY "{VOICE=07}「Wi-Fi通信を使えば　とおくにいる{BREAK} みしらぬ人とも　対戦ができる。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}In the the World Monster Challenge...{WAIT}{CLEAR}...you can battle it out for the championship of the world!"
+SAY "{VOICE=07}「ほかにも　最強マスター決定戦という{BREAK} プロフェッショナルのための　大会もあるんだ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6989,10 +6989,10 @@ JMP_IFNOT 0xc L_1cce4
 CMP_LT 0x18 0x0 0x42a60000 0x2 0x40000000
 JMP_IFNOT 0xc L_1cb2c
 SYS_42 0x8 
-SAY "{VOICE=07}We brought the funky monsters here that fought in each rank."
+SAY "{VOICE=07}「ボクらが　つれてくる対戦相手は{BREAK} ランクAまでなんだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}We never thought you'd be righteous enough to defeat them all!"
+SAY "{VOICE=07}「それを　ぜんぶ　たおしちゃうなんて{BREAK} しょうじき　おどろきだよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7006,7 +7006,7 @@ STORE 0x18 0x0 0x42ee0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ee0000 0x2 0x0
 JMP_IFNOT 0xc L_1cc24
 SYS_42 0x8 
-SAY "{VOICE=07}Oooh, I can't WAIT to see what funky monsters you'll face in Rank S."
+SAY "{VOICE=07}「ランク{1F8D}対戦相手は　いったい{BREAK} どんなモンスターなんだろう。ワクワク。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7015,7 +7015,7 @@ L_1cc24:
 CMP_EQ 0x18 0x0 0x42ee0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1cccc
 SYS_42 0x8 
-SAY "{VOICE=07}Say what? The Rank S opponent...is the most righteous Don Mole himself!?"
+SAY "{VOICE=07}「ランク{1F8D}対戦相手が　Don Moleさま!?{BREAK} そんなの　きいてなかったよー!!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7030,7 +7030,7 @@ JMP_IFNOT 0xc L_1cdec
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x0
 JMP_IFNOT 0xc L_1cda4
 SYS_42 0x8 
-SAY "{VOICE=07}You defeated the most righteous Don Mole, and that makes you STRONG, brother."
+SAY "{VOICE=07}「Don Moleさまを　たおしちゃうなんて{BREAK} キミ　ほんとうに　強いんだねえ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7047,10 +7047,10 @@ CMP_EQ 0x18 0x0 0x42a40000 0x2 0x41100000
 JMP_IFNOT 0xc L_1ceec
 L_1ce10:
 SYS_42 0x8 
-SAY "{VOICE=07}The Divine Battler's back and the moles are partying! Can you dig it!?"
+SAY "{VOICE=07}「ア　ソ～レ　戦の神さま　復活だ。{BREAK} おどれや　おどれ　ヤッホイ　ヤッホホイ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}C'mon, brother, it's time to get down and celebrate! Let's dance!"
+SAY "{VOICE=07}「こんな　めでたいことが　あるかい?{BREAK} さあ　キミも　いっしょに　おどろうよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7059,10 +7059,10 @@ L_1ceec:
 CMP_GE 0x18 0x0 0x42a40000 0x2 0x41300000
 JMP_IFNOT 0xc L_1cfe8
 SYS_42 0x8 
-SAY "{VOICE=07}The place up ahead was closed down for many a year...{WAIT}{CLEAR}...but now it's the official site of the True Monster Scout Challenge."
+SAY "{VOICE=07}「いままで　へいさ中だった　このさきが{BREAK} 真のバトルGPの会場に　なってるんだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It's a most ancient and atmospheric backdrop for high-octane battling!"
+SAY "{VOICE=07}「古代のフンイキを　そのままに{BREAK} アツいバトルが　くりひろげられるよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7080,10 +7080,10 @@ STORE 0x18 0x0 0x42fe0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x0
 JMP_IFNOT 0xc L_1d164
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} can now go to a new region - Iceolation!"
+SAY "{VOICE=07}「バトルGPの参加しかくと　いわれる{BREAK} そのプレート……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Go to the main map and the new region will be displayed."
+SAY "{VOICE=07}「ほかにも　使い道があるってきいたけど{BREAK} なんに　使うんだっけなあ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7099,13 +7099,13 @@ STORE 0x18 0x0 0x42fe0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x0
 JMP_IFNOT 0xc L_1d33c
 SYS_42 0x8 
-SAY "{VOICE=07}Speak up, my topside brother. What's that about a monument in Iceolation?"
+SAY "{VOICE=07}「えっ!　雪山に行ったら{BREAK} プレートをはめるセキヒが　あったって!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}And you're sayin' there's more just like it in other places?"
+SAY "{VOICE=07}「しかも　おなじようなセキヒが{BREAK} ほかにも　あったっていうのかい?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You've got a righteous mystery on your hands, my man."
+SAY "{VOICE=07}「う～ん　そいつはスゴイ。すべてのセキヒに{BREAK} プレートをはめると　いったい　なにが……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7159,23 +7159,23 @@ JMP_ABS 0xc L_1d668
 JMP_ABS 0xc L_1d594
 L_1d594:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Nose for Treasure!"
+SAY "{VOICE=07}「雪山には　謎のプレートをはめる　セキヒが{BREAK} いくつか　あるんだってね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}This ability lets {NAME} find out how many items are hidden nearby."
+SAY "{VOICE=07}「すべてのセキヒに　プレートを　はめたとき{BREAK} いったい　なにが　おこるんだろう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 JMP_ABS 0xc L_1e160
 L_1d668:
 SYS_42 0x8 
-SAY "{VOICE=07}That there is a funky plate you have in your hands."
+SAY "{VOICE=07}「ややっ!　キミが　もっているのは{BREAK} みたことのない　謎のプレート!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Found it after a tangle with a most heinous monster, you say?"
+SAY "{VOICE=07}「なるほど。巨大モンスターを　たおしたら{BREAK} あらたなプレートが　手に入ったんだね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The suspense is killin' me, man. Go on and put those plates in!"
+SAY "{VOICE=07}「そいつはスゴイ!　さっそく　雪山のセキヒに{BREAK} 手に入れたプレートを　はめてきなよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7188,7 +7188,7 @@ L_1d7c0:
 CMP_EQ 0x18 0x0 0x42a40000 0x2 0x41000000
 JMP_IFNOT 0xc L_1d85c
 SYS_42 0x8 
-SAY "{VOICE=07}Don Mole is waitin' to speak to you,{BREAK}my human brother."
+SAY "{VOICE=07}「Don Moleさまが　おまちかねさ。{BREAK} キミに　話があるそうだよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7197,10 +7197,10 @@ L_1d85c:
 CMP_EQ 0x18 0x0 0x42a40000 0x2 0x41100000
 JMP_IFNOT 0xc L_1d94c
 SYS_42 0x8 
-SAY "{VOICE=07}It ain't over, my friend. It ain't over till the fat mole sings."
+SAY "{VOICE=07}「おわりじゃないよ!{BREAK} まだ　おわりじゃないからっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The real battle's still to come, so you make sure to return now, ya hear?"
+SAY "{VOICE=07}「これから　ほんとうの戦いが　はじまる!{BREAK} だから　きっと　もどって　おいでよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7254,23 +7254,23 @@ JMP_ABS 0xc L_1dce4
 JMP_ABS 0xc L_1dc10
 L_1dc10:
 SYS_42 0x8 
-SAY "{VOICE=07}Sounds like Iceolation is the center of a chillin' conundrum."
+SAY "{VOICE=07}「雪山には　謎のプレートをはめる　セキヒが{BREAK} いくつか　あるんだってね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The suspense is killin' me, man. Go on and put those plates in!"
+SAY "{VOICE=07}「すべてのセキヒに　プレートを　はめたとき{BREAK} いったい　なにが　おこるんだろう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 JMP_ABS 0xc L_1e160
 L_1dce4:
 SYS_42 0x8 
-SAY "{VOICE=07}That there is a funky plate you have in your hands."
+SAY "{VOICE=07}「ややっ!　キミが　もっているのは{BREAK} みたことのない　謎のプレート!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Found it after a tangle with a most heinous monster, you say?"
+SAY "{VOICE=07}「なるほど。巨大モンスターを　たおしたら{BREAK} あらたなプレートが　手に入ったんだね。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}The suspense is killin' me, man. Go on and put those plates in!"
+SAY "{VOICE=07}「そいつはスゴイ!　さっそく　雪山のセキヒに{BREAK} 手に入れたプレートを　はめてきなよ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7286,13 +7286,13 @@ STORE 0x18 0x0 0x42fe0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x0
 JMP_IFNOT 0xc L_1e004
 SYS_42 0x8 
-SAY "{VOICE=07}Whoa now, my human brother. You're tellin' me there's a whole 'nother world connected to Iceolation?"
+SAY "{VOICE=07}「……なんだって!　雪山のセキヒから{BREAK} べつの世界へ　いけるようになったって!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Whoo-wee! Sounds like those plates were the key to a righteous new path!"
+SAY "{VOICE=07}「やっぱり　あのセキヒと　プレートは{BREAK} とんでもない　シロモノだったんだ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It must have taken some real soul to gather them all, you dig?"
+SAY "{VOICE=07}「それにしても　あのプレートを{BREAK} ぜんぶあつめるなんて　キミは　スゴイや!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7306,13 +7306,13 @@ L_1e00c:
 JMP_ABS 0xc L_1e018
 L_1e018:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} learns Zoom!"
+SAY "{VOICE=07}「雪山のセキヒから　べつの世界へ{BREAK} 行けるようになるなんて……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}This ability enables {NAME} to teleport to previously visited regions!"
+SAY "{VOICE=07}「やっぱり　あのセキヒと　プレートは{BREAK} とんでもない　シロモノだったんだ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Apart from a few special locations, it can be used anywhere, including caves!"
+SAY "{VOICE=07}「それにしても　あのプレートを{BREAK} ぜんぶあつめるなんて　キミは　スゴイや!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7348,7 +7348,7 @@ CMP_EQ 0x18 0x0 0x43020000 0x2 0x0
 JMP_IFNOT 0xc L_1e338
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}So you're tellin' me you quit? Fine, brother, fine, come back some other time."
+SAY "{VOICE=07}「やめると　もうすか。{BREAK} では　また　くるがよい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7362,10 +7362,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 STORE 0x18 0x1 0x40000000 0x2 0x40400000
 STORE 0x18 0x1 0x40400000 0x0 0x43020000
 SYS_FD 0x8 
-SAY "{VOICE=07}Can you dig it!? It's time to start the Monster Scout Challenge, {E322}!"
+SAY "{VOICE=07}「それでは　これより　バトルGP{BREAK} {E322}を　はじめる!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Fear not, friend. Even if your team gets beat, you won't lose a single coin."
+SAY "{VOICE=07}「ぜんめつしても　お金は　へらないので{BREAK} 心ゆくまで　バトルを　たのしむがよい!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x3f800000
@@ -7373,7 +7373,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 STORE 0x18 0x1 0x40000000 0x2 0x40400000
 STORE 0x18 0x1 0x40400000 0x0 0x43020000
 SYS_FD 0x8 
-SAY "{VOICE=07}Listen up, listen up my brother!{BREAK}It's battlin' time, {E322}, Round 1!"
+SAY "{VOICE=07}「では　みあって　みあって～……!{BREAK} バトルGP　{E322}　1回戦　はじめっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7556,10 +7556,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x3f800000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}The righteous human has won Round 1{BREAK}- but the battle's only just begun!"
+SAY "{VOICE=07}「1回戦勝利　おめでとう!{BREAK} だが　ここが勝負の分かれめだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Dig down deep, and prepare to battle.{BREAK}Now it's time for {E322}, Round 2!"
+SAY "{VOICE=07}「では　気をひきしめて　ハッケヨ～ォイ……!{BREAK} {E322}　2回戦　はじめっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7590,10 +7590,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40000000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}The human brother triumphs in Round 2 - but can he keep it goin' to the end?"
+SAY "{VOICE=07}「1回戦勝利　おめでとう!{BREAK} だが　ここが勝負の分かれめだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It's the third and final round - can the brother DIG IT!?"
+SAY "{VOICE=07}「では　気をひきしめて　ハッケヨ～ォイ……!{BREAK} {E322}　2回戦　はじめっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7624,10 +7624,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40400000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}The human brother triumphs in Round 2 - but can he keep it goin' to the end?"
+SAY "{VOICE=07}「1回戦勝利　おめでとう!{BREAK} だが　ここが勝負の分かれめだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It's the third and final round - can the brother DIG IT!?"
+SAY "{VOICE=07}「では　気をひきしめて　ハッケヨ～ォイ……!{BREAK} {E322}　2回戦　はじめっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7658,10 +7658,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40800000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}The human brother triumphs in Round 2 - but can he keep it goin' to the end?"
+SAY "{VOICE=07}「1回戦勝利　おめでとう!{BREAK} だが　ここが勝負の分かれめだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It's the third and final round - can the brother DIG IT!?"
+SAY "{VOICE=07}「では　気をひきしめて　ハッケヨ～ォイ……!{BREAK} {E322}　2回戦　はじめっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7692,10 +7692,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40a00000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}The human brother triumphs in Round 2 - but can he keep it goin' to the end?"
+SAY "{VOICE=07}「1回戦勝利　おめでとう!{BREAK} だが　ここが勝負の分かれめだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It's the third and final round - can the brother DIG IT!?"
+SAY "{VOICE=07}「では　気をひきしめて　ハッケヨ～ォイ……!{BREAK} {E322}　2回戦　はじめっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7726,10 +7726,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40c00000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}The human brother triumphs in Round 2 - but can he keep it goin' to the end?"
+SAY "{VOICE=07}「1回戦勝利　おめでとう!{BREAK} だが　ここが勝負の分かれめだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It's the third and final round - can the brother DIG IT!?"
+SAY "{VOICE=07}「では　気をひきしめて　ハッケヨ～ォイ……!{BREAK} {E322}　2回戦　はじめっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7760,10 +7760,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40e00000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}The human brother triumphs in Round 2 - but can he keep it goin' to the end?"
+SAY "{VOICE=07}「1回戦勝利　おめでとう!{BREAK} だが　ここが勝負の分かれめだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It's the third and final round - can the brother DIG IT!?"
+SAY "{VOICE=07}「では　気をひきしめて　ハッケヨ～ォイ……!{BREAK} {E322}　2回戦　はじめっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7805,10 +7805,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x3f800000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}The human brother triumphs in Round 2 - but can he keep it goin' to the end?"
+SAY "{VOICE=07}「2回戦勝利　おみごとであった!{BREAK} さあ　勝っても負けても　つぎが最後だ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}It's the third and final round - can the brother DIG IT!?"
+SAY "{VOICE=07}「それでは　全力で　3回戦はじめぇっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7839,10 +7839,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40000000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Whoo-hee! The spiky-headed dude from topside wins {E322}!"
+SAY "{VOICE=07}「2回戦勝利　おみごとであった!{BREAK} さあ　勝っても負けても　つぎが最後だ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You've got the passion and moves to take this battle to the highest ranks!"
+SAY "{VOICE=07}「それでは　全力で　3回戦はじめぇっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7873,10 +7873,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40400000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Whoo-hee! The spiky-headed dude from topside wins {E322}!"
+SAY "{VOICE=07}「2回戦勝利　おみごとであった!{BREAK} さあ　勝っても負けても　つぎが最後だ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Let it be said, we moles know how to reward greatness - here's your prize..."
+SAY "{VOICE=07}「それでは　全力で　3回戦はじめぇっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7907,10 +7907,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40800000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Whoo-hee! The spiky-headed dude from topside wins {E322}!"
+SAY "{VOICE=07}「2回戦勝利　おみごとであった!{BREAK} さあ　勝っても負けても　つぎが最後だ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You've got the passion and moves to take this battle to the highest ranks!"
+SAY "{VOICE=07}「それでは　全力で　3回戦はじめぇっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7941,10 +7941,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40a00000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Whoo-hee! The spiky-headed dude from topside wins {E322}!"
+SAY "{VOICE=07}「2回戦勝利　おみごとであった!{BREAK} さあ　勝っても負けても　つぎが最後だ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Let it be said, we moles know how to reward greatness - here's your prize..."
+SAY "{VOICE=07}「それでは　全力で　3回戦はじめぇっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7975,10 +7975,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40c00000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Whoo-hee! The spiky-headed dude from topside wins {E322}!"
+SAY "{VOICE=07}「2回戦勝利　おみごとであった!{BREAK} さあ　勝っても負けても　つぎが最後だ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You've got the passion and moves to take this battle to the highest ranks!"
+SAY "{VOICE=07}「それでは　全力で　3回戦はじめぇっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8009,10 +8009,10 @@ STORE 0x18 0x1 0x40400000 0x2 0x40e00000
 SYS_FD 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Whoo-hee! The spiky-headed dude from topside wins {E322}!"
+SAY "{VOICE=07}「2回戦勝利　おみごとであった!{BREAK} さあ　勝っても負けても　つぎが最後だ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Let it be said, we moles know how to reward greatness - here's your prize..."
+SAY "{VOICE=07}「それでは　全力で　3回戦はじめぇっ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8062,10 +8062,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 STORE 0x18 0x1 0x40000000 0x2 0x40400000
 STORE 0x18 0x1 0x40400000 0x2 0x3f800000
 SYS_FD 0x8 
-SAY "{VOICE=07}Whoo-hee! The spiky-headed dude from topside wins {E322}!"
+SAY "{VOICE=07}「バトルGP　{E322}　クリアだ!{BREAK} おめでとう!　みごとな　戦いぶりであったぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You've got the passion and moves to take this battle to the highest ranks!"
+SAY "{VOICE=07}「この　いきおいで　ほかのランクにも{BREAK} ガンガン　参加してみるがよい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8082,10 +8082,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 STORE 0x18 0x1 0x40000000 0x2 0x40400000
 STORE 0x18 0x1 0x40400000 0x2 0x3f800000
 SYS_FD 0x8 
-SAY "{VOICE=07}Whoo-hee! The spiky-headed dude from topside wins {E322}!"
+SAY "{VOICE=07}「バトルGP　{E322}　クリアだ!{BREAK} おめでとう!　みごとな　戦いぶりであったぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Let it be said, we moles know how to reward greatness - here's your prize..."
+SAY "{VOICE=07}「では　{E322}　クリアの賞品として{BREAK} こちらを　さずけよう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8103,24 +8103,24 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_73 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Whoo-hee! I DIG how you fight, man of the most mysterious medal!"
+SAY "{VOICE=07}「ふふふ。なかなか　やるな。{BREAK} プレートに選ばれた人間よ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}...But the journey ain't over yet - you've gotta dig down deep to reach the end!"
+SAY "{VOICE=07}「……だが!　私から言わせれば{BREAK} そなたは　まだまだだ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I'm gonna tell you of a whole new region, so go there and hone your soulful skills."
+SAY "{VOICE=07}「新たなエリアを　おしえてやるから{BREAK} そこで　修行してくるがいい!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Keep winnin' these battles and the road ahead's gonna open right up for you!"
+SAY "{VOICE=07}「この戦いに　勝ちつづければ{BREAK} おのずと　道がひらけるだろう!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} can now go to a new region - Bemusoleum!"
+SAY "{COLOR=2}{NAME}は{BREAK}新しいエリア　雪山に　行けるようになった!"
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
-SAY "{COLOR=2}Go to the main map and the new region will be displayed."
+SAY "{COLOR=2}全体マップに出ると　新しいエリアが{BREAK}ひょうじされます!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8172,10 +8172,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 STORE 0x18 0x1 0x40000000 0x2 0x40400000
 STORE 0x18 0x1 0x40400000 0x2 0x40000000
 SYS_FD 0x8 
-SAY "{VOICE=07}Your fightin' is fine, my most funky friend. I'm diggin' the might of your monsters!"
+SAY "{VOICE=07}「バトルGP　{E322}　クリアだ!{BREAK} おめでとう!　みごとな　戦いぶりであったぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Keep battlin' like that and new lands will be openin' for you to explore!"
+SAY "{VOICE=07}「この　いきおいで　ほかのランクにも{BREAK} ガンガン　参加してみるがよい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8192,10 +8192,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 STORE 0x18 0x1 0x40000000 0x2 0x40400000
 STORE 0x18 0x1 0x40400000 0x2 0x40000000
 SYS_FD 0x8 
-SAY "{VOICE=07}Whoo-hee! The spiky-headed dude from topside wins {E322}!"
+SAY "{VOICE=07}「バトルGP　{E322}　クリアだ!{BREAK} おめでとう!　みごとな　戦いぶりであったぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You've got the passion and moves to take this battle to the highest ranks!"
+SAY "{VOICE=07}「では　{E322}　クリアの賞品として{BREAK} こちらを　さずけよう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8270,10 +8270,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 STORE 0x18 0x1 0x40000000 0x2 0x40400000
 STORE 0x18 0x1 0x40400000 0x2 0x40400000
 SYS_FD 0x8 
-SAY "{VOICE=07}Whoo-hee! The spiky-headed dude from topside wins {E322}!"
+SAY "{VOICE=07}「バトルGP　{E322}　クリアだ!{BREAK} おめでとう!　みごとな　戦いぶりであったぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Let it be said, we moles know how to reward greatness - here's your prize..."
+SAY "{VOICE=07}「この　いきおいで　ほかのランクにも{BREAK} ガンガン　参加してみるがよい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8290,10 +8290,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 STORE 0x18 0x1 0x40000000 0x2 0x40400000
 STORE 0x18 0x1 0x40400000 0x2 0x40400000
 SYS_FD 0x8 
-SAY "{VOICE=07}Woo-hee, little dude, you have grown mighty indeed."
+SAY "{VOICE=07}「バトルGP　{E322}　クリアだ!{BREAK} おめでとう!　みごとな　戦いぶりであったぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Next up is Rank A. Win that round and I'll show you a new road to explore!"
+SAY "{VOICE=07}「では　{E322}　クリアの賞品として{BREAK} こちらを　さずけよう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8393,10 +8393,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 STORE 0x18 0x1 0x40000000 0x2 0x40400000
 STORE 0x18 0x1 0x40400000 0x2 0x40800000
 SYS_FD 0x8 
-SAY "{VOICE=07}Whoo-hee! The spiky-headed dude from topside wins {E322}!"
+SAY "{VOICE=07}「バトルGP　{E322}　クリアだ!{BREAK} おめでとう!　みごとな　戦いぶりであったぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You've got the passion and moves to take this battle to the highest ranks!"
+SAY "{VOICE=07}「この　いきおいで　ほかのランクにも{BREAK} ガンガン　参加してみるがよい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8413,10 +8413,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 STORE 0x18 0x1 0x40000000 0x2 0x40400000
 STORE 0x18 0x1 0x40400000 0x2 0x40800000
 SYS_FD 0x8 
-SAY "{VOICE=07}Whoo-hee! The spiky-headed dude from topside wins {E322}!"
+SAY "{VOICE=07}「バトルGP　{E322}　クリアだ!{BREAK} おめでとう!　みごとな　戦いぶりであったぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Let it be said, we moles know how to reward greatness - here's your prize..."
+SAY "{VOICE=07}「では　{E322}　クリアの賞品として{BREAK} こちらを　さずけよう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8435,10 +8435,10 @@ SYS_73 0x8
 WAIT 0x10 0x2 0x40a00000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Right on, brother! You've triumphed in Rank A."
+SAY "{VOICE=07}「ふっふっふ。よいぞ　少年よ……!{BREAK} かくじつに　チカラを　つけているな!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Here, take this most righteous reward!"
+SAY "{VOICE=07}「そのちょうしで　バトルGPを　かけあがれ!{BREAK} そなたの道は　ひらかれつつある!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8475,10 +8475,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 STORE 0x18 0x1 0x40000000 0x2 0x40400000
 STORE 0x18 0x1 0x40400000 0x2 0x40a00000
 SYS_FD 0x8 
-SAY "{VOICE=07}Hey-ho, human brother.{BREAK}Losin' ain't the end."
+SAY "{VOICE=07}「バトルGP　{E322}　クリアだ!{BREAK} おめでとう!　みごとな　戦いぶりであったぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You fought bravely and well. Next time, the battle may well tell a different tale...　"
+SAY "{VOICE=07}「この　いきおいで　ほかのランクにも{BREAK} ガンガン　参加してみるがよい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8495,10 +8495,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 STORE 0x18 0x1 0x40000000 0x2 0x40400000
 STORE 0x18 0x1 0x40400000 0x2 0x40a00000
 SYS_FD 0x8 
-SAY "{VOICE=07}Whew! You must've been feelin' the pain{BREAK}to quit before your monsters were slain!"
+SAY "{VOICE=07}「バトルGP　{E322}　クリアだ!{BREAK} おめでとう!　みごとな　戦いぶりであったぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}We hope you'll bounce back stronger than ever, little dude."
+SAY "{VOICE=07}「では　{E322}　クリアの賞品として{BREAK} こちらを　さずけよう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8517,10 +8517,10 @@ SYS_73 0x8
 WAIT 0x10 0x2 0x40a00000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}The righteous human has won Round 1{BREAK}- but the battle's only just begun!"
+SAY "{VOICE=07}「ふっふっふ。少年よ……!{BREAK} ついに　ここまできたか!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Dig down deep, and prepare to battle.{BREAK}Now it's time for {E322}, Round 2!"
+SAY "{VOICE=07}「つぎのランクAを勝ちあがれば　新たな道を{BREAK} そなたに　しめしてやろうではないか!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8564,10 +8564,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 STORE 0x18 0x1 0x40000000 0x2 0x40400000
 STORE 0x18 0x1 0x40400000 0x2 0x40c00000
 SYS_FD 0x8 
-SAY "{VOICE=07}The righteous human has won Round 1{BREAK}- but the battle's only just begun!"
+SAY "{VOICE=07}「バトルGP　{E322}　クリアだ!{BREAK} おめでとう!　みごとな　戦いぶりであったぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Dig down deep, and prepare to battle.{BREAK}Now it's time for {E322}, Round 2!"
+SAY "{VOICE=07}「この　いきおいで　ほかのランクにも{BREAK} ガンガン　参加してみるがよい。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8593,10 +8593,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 STORE 0x18 0x1 0x40000000 0x2 0x40400000
 STORE 0x18 0x1 0x40400000 0x2 0x40c00000
 SYS_FD 0x8 
-SAY "{VOICE=07}The righteous human has won Round 1{BREAK}- but the battle's only just begun!"
+SAY "{VOICE=07}「バトルGP　{E322}　クリアだ!{BREAK} おめでとう!　みごとな　戦いぶりであったぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Dig down deep, and prepare to battle.{BREAK}Now it's time for {E322}, Round 2!"
+SAY "{VOICE=07}「では　{E322}　クリアの賞品として{BREAK} こちらを　さずけよう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8629,10 +8629,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 SYS_2A 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}The righteous human has won Round 1{BREAK}- but the battle's only just begun!"
+SAY "{VOICE=07}「ランクAクリア……。{BREAK} ついに　ここまで　きたか……。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Dig down deep, and prepare to battle.{BREAK}Now it's time for {E322}, Round 2!"
+SAY "{VOICE=07}「人間よ。これを　もっていけ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8643,30 +8643,30 @@ STORE 0x18 0x1 0x0 0x2 0x42a20000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_73 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} receives the Bemusoleum key!"
+SAY "{COLOR=2}{NAME}は{BREAK}遺跡のカギを　手に入れた!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}The next challenge is Rank Su{WAIT}{CLEAR}That's 'Sh for 'Special', my funky friend."
+SAY "{VOICE=07}「つぎのランク{1F8E}　その名の通り{BREAK} スペシャルな　戦いだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Use that key to enter the Bemusoleum and earn the Medal of Merit."
+SAY "{VOICE=07}「そのカギを使って　この島にある遺跡に入り{BREAK} そこで　試練の証を　手に入れてくるのだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Without the Medal, no scout, no matter how funky, can battle in Rank Su"
+SAY "{VOICE=07}「試練の証がなければ　ランク{1F8A}{BREAK} ちょうせんできぬ決まりに　なっている。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Show me you got soul, brother, and do not let Don Mole down!"
+SAY "{VOICE=07}「そなたのチカラ　みさせてもらおう。{BREAK} 私を　しつぼうさせないでくれよ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} can now use Heal All!"
+SAY "{COLOR=2}{NAME}は{BREAK}新たなエリア　遺跡に　行けるようになった!"
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
-SAY "{COLOR=2}This spell lets {NAME} restore the health of his entire team!"
+SAY "{COLOR=2}全体マップに出ると　新しいエリアが{BREAK}ひょうじされます!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8716,10 +8716,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 SYS_28 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}The righteous human has won Round 1{BREAK}- but the battle's only just begun!"
+SAY "{VOICE=07}「おお　人間よ!{BREAK} 負けてしまうとは　なさけない!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Dig down deep, and prepare to battle.{BREAK}Now it's time for {E322}, Round 2!"
+SAY "{VOICE=07}「とは言え　みごたえのある　いい試合であった。{BREAK} この　くやしさをバネに　がんばってくれ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8736,10 +8736,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 SYS_28 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}The righteous human has won Round 1{BREAK}- but the battle's only just begun!"
+SAY "{VOICE=07}「戦いを　とちゅうで　やめるとは{BREAK} よほどの　じじょうが　あったのだな。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Dig down deep, and prepare to battle.{BREAK}Now it's time for {E322}, Round 2!"
+SAY "{VOICE=07}「またの参加を　心まちにしているぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8786,7 +8786,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_AD 0x8 
 WAIT 0x10 0x2 0x40a00000
 SYS_42 0x8 
-SAY "{COLOR=2}There's a big pile of treasure.{BREAK}It might be better to leave it be."
+SAY "{COLOR=2}どうやら　こうじ中のようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8814,10 +8814,10 @@ STORE 0x18 0x0 0x43050000 0x1 0x0
 CMP_EQ 0x18 0x0 0x43050000 0x2 0x0
 JMP_IFNOT 0xc L_25314
 SYS_42 0x8 
-SAY "{COLOR=2}There's a big pile of treasure..."
+SAY "{COLOR=2}たくさんの宝が　おかれている。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}...and something seems to have fallen between the cracks."
+SAY "{COLOR=2}……よくみると　すき間に{BREAK}なにかが　おちている。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8835,7 +8835,7 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x42b80000
 SYS_33 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} finds a set of machine parts."
+SAY "{COLOR=2}{NAME}は{BREAK}ちいさなパーツを　みつけた。"
 WAIT 0x10 0x2 0x42340000
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42d60000
@@ -8852,7 +8852,7 @@ L_2531c:
 JMP_ABS 0xc L_25328
 L_25328:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}'s team is healed."
+SAY "{COLOR=2}たくさんの宝が　おかれている。{BREAK}勝手に　もちださないほうが　いいだろう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

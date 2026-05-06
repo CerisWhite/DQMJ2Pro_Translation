@@ -1229,7 +1229,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
+SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1343,7 +1343,7 @@ SYS_42 0x8
 SAY "{COLOR=2}Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}These Scout's Stones appear on the map as blue icons."
+SAY "{COLOR=2}セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4329,7 +4329,7 @@ STORE 0x18 0x0 0x42d20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d20000 0x2 0x40800000
 JMP_IFNOT 0xc L_fe90
 SYS_42 0x8 
-SAY "{COLOR=2}The beast will not fight you during the day, but night may be another story..."
+SAY "{COLOR=2}ひるは　まともに　相手をしてくれないようだ。{BREAK}よるになったときの　ようすも　みてみよう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4424,10 +4424,10 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x42c80000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Did you know? You can slide the stylus on the lower screen to move the map."
+SAY "{COLOR=2}なんと　下がめんのマップは　タッチペンで{BREAK}スライドさせることが　できるぞ!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}It's a handy trick for when you're lost and not sure which way to go next."
+SAY "{COLOR=2}道に　まよったときや　すみずみまで{BREAK}たんさくしたいとき　使ってみよう!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5856,7 +5856,7 @@ STORE 0x18 0x1 0x0 0x2 0x43870000
 STORE 0x18 0x1 0x3f800000 0x2 0x0
 SYS_2A 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The beast will not fight you during the day, but night may be another story..."
+SAY "{COLOR=2}ひるは　まともに　相手をしてくれないようだ。{BREAK}よるになったときの　ようすも　みてみよう。"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
