@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-DQMJ2P msg_*.binA extract/repack tool.
+DQMJ2P msg_*.binA / message*.binA extract/repack tool.
 
 Subcommands:
-  extract  <data_dir> <out_dir>    extract every msg_*.binA in <data_dir>
+  extract  <data_dir> <out_dir>    extract every msg_*.binA / message*.binA in <data_dir>
                                    into UTF-8 .txt files in <out_dir>,
                                    plus MASTER.json mapping txt -> original path.
   repack   <txt_dir> <out_dir>     repack .txt files (using MASTER.json
@@ -178,7 +178,9 @@ def cmd_extract(data_dir, out_dir):
     out_dir = Path(out_dir); out_dir.mkdir(parents=True, exist_ok=True)
     master = {}
     for path in sorted(Path(data_dir).iterdir()):
-        if not path.name.startswith('msg_') or path.suffix != '.binA':
+        if path.suffix != '.binA':
+            continue
+        if not (path.name.startswith('msg_') or path.name.startswith('message')):
             continue
         data = path.read_bytes()
         header, payload = fpk_unwrap(data)
