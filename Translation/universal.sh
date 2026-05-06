@@ -1,4 +1,5 @@
 for file in ./SCRIPTS/*.txt; do
+  sed -i "s/これはダミーです。/This is a dummy message!/g" $file;
   sed -i 's/{NAME}は{BREAK}{COLOR=0}{232}{COLOR=2}のつ えを　手に入れた!/{NAME} obtains the Minus sceptre!/g' $file;
   sed -i 's/{NAME}は{BREAK}{COLOR=0}{231}{COLOR=2}のつ えを　手に入れた!/{NAME} obtains the Plus sceptre!/g' $file;
   sed -i 's/{NAME}は{BREAK}{COLOR=0}{232}{COLOR=2}のつえを　手に入れた!/{NAME} obtains the Minus sceptre!/g' $file;
@@ -8,6 +9,9 @@ for file in ./SCRIPTS/*.txt; do
   sed -i 's/なんと!　ふくろはモンスターだった!/The bag is actually a monster in disguise!/g' $file;
   sed -i "s/{NAME}たちは　回復した。/{NAME}'s team is healed./g" $file;
   sed -i "s/はんのうがない…。{BREAK}いまは　使えないよ うだ。/There's no response. {NAME} cannot use this...for now./g" $file;
+  sed -i "s/はんのうがない…。{BREAK}いまは　使えないようだ。/There's no response. {NAME} cannot use this...for now./g" $file;
+  sed -i "s/通気ダクトの　ふたが　あいている……。/The cover on the ventilation duct is open./g" $file;
+  sed -i "s/中に入りますか?/How about it? Want to climb in?/g" $file;
   sed -i 's/このセキヒを調べると　あなたが使える特技や{BREAK}べんりなコマンドを　おぼえることができます。/Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands./g' $file;
   sed -i "s/セキヒは　地図上に　あおい点でしめされるの で{BREAK}みつけたら　まず　調べてみましょう。/These Scout's Stones appear on the map as blue icons./g" $file;
   sed -i "s/セキヒは　地図上に　あおい点でしめされるので{BREAK}みつけたら　まず　調べてみましょう。/These Scout's Stones appear on the map as blue icons./g" $file;

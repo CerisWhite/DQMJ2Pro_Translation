@@ -1228,7 +1228,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
+SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

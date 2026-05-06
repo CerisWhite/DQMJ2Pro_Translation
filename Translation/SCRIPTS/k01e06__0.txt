@@ -1217,7 +1217,7 @@ L_44b0:
 JMP_ABS 0xc L_44bc
 L_44bc:
 SYS_42 0x8 
-SAY "{COLOR=2}はんのうがない…。{BREAK}いまは　使えないようだ。"
+SAY "{COLOR=2}There's no response. {NAME} cannot use this...for now."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3433,10 +3433,10 @@ WAIT 0x10 0x2 0x41a00000
 STORE 0x18 0x1 0x0 0x2 0x423c0000
 SYS_49 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}通気ダクトの　ふたが　あいている……。"
+SAY "{COLOR=2}The cover on the ventilation duct is open."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}中に入りますか?{VOICE=09}"
+SAY "{COLOR=2}How about it? Want to climb in?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
