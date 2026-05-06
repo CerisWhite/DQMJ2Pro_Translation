@@ -105,7 +105,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
-SAY "{VOICE=08}「私の名は　Empyrea。{BREAK} この大空を　しはいする者……。"
+SAY "{VOICE=08}I am Empyrea, ruler of the skies."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40a00000
@@ -123,7 +123,7 @@ STORE 0x18 0x1 0x0 0x2 0x41400000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「あなたがたは　人間ですね?{BREAK} この私に　なにか?"
+SAY "{VOICE=08}I take it you are the creatures known as humans. What do you want with me?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -164,15 +164,15 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}「……なるほど。自分たちのクニに　かえるため{BREAK} あなたたちの仲間になれと　言うのですか。"
+SAY "{VOICE=08}I see. You wish me to join you and help return you to your home."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「それは　かないません。私が　つかえるのは{BREAK} あの　お方のみと　決まっているのです。"
+SAY "{VOICE=08}I am afraid this is a wish I cannot grant.{BREAK}I serve only one master..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「さあ　おひきとりを……。"
+SAY "{VOICE=08}Now, if you'll excuse me..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -190,16 +190,16 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}「……あきらめきれないという　カオですね。{BREAK} まだ　なにか　あるのですか?"
+SAY "{VOICE=08}...Th-That medal!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「……なるほど。あなたは　Don Moleに{BREAK} みちびかれ　ここまで　きたというのですか。"
+SAY "{VOICE=08}...I see. That changes everything."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「それでは　あなたが　あのバトルGPを……。"
+SAY "{VOICE=08}I take it that Don Mole directed you to come here and seek me out."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -215,11 +215,11 @@ STORE 0x18 0x1 0x0 0x2 0x41200000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}「Don Moleは　この島の　みらいを{BREAK} たくされた　しんらいできる者。"
+SAY "{VOICE=08}He is truly committed to the future of this island - nay, to all of us."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「かれを　信じなさい。そして……"
+SAY "{VOICE=08}A more trustworthy ally you could not hope to find."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -274,11 +274,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43ff0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}「人間よ。ウンメイに　身をゆだねるのです。"
+SAY "{VOICE=08}Now heed me well, humans!{BREAK}You must trust in the forces of fate."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「そうすれば　あなたは　あの　お方に{BREAK} ちかづくことが　できるでしょう……。"
+SAY "{VOICE=08}Do that, and you will find the Great One and fulfil your destiny..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -373,11 +373,11 @@ SYS_4E 0x8
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「行ってしまったか……。"
+SAY "{VOICE=07}She's gone..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「Molesのいう　あの　お方とは{BREAK} いまの　巨鳥では　なかったのか……。"
+SAY "{VOICE=07}I guess the great beast the moles were talkin' about wasn't that bird at all."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -414,7 +414,7 @@ WAIT 0x10 0x2 0x42200000
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「うぐっ……!"
+SAY "{VOICE=07}Ugh..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -522,7 +522,7 @@ DATA 0x00000004
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Melonie"
-SAY "{VOICE=08}「船長さんっ!　どうしたの!?{BREAK} 船長さぁーーーんっ!!"
+SAY "{VOICE=08}Captain Mayday! Wot's wrong!?{BREAK}Somebody do somefin'!"
 WAIT 0x10 0x2 0x428c0000
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_04 0x8 
@@ -535,7 +535,7 @@ SYS_43 0x8
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　Captain Maydayをかつぎ{BREAK}Melonieとともに　飛行船へ　もどった……。"
+SAY "{COLOR=2}{E321}{NAME} carries Captain Mayday back to the Albatross along with Melonie..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

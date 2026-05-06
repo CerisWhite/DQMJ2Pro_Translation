@@ -47,15 +47,15 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}「よくきたな　{NAME}よ。"
+SAY "{VOICE=07}Ah, {NAME}. So you have come."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「やくそく通り　いまこそ{BREAK} 我のチカラを　さずけよう!"
+SAY "{VOICE=07}As I promised, now is the time to gift you my power."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「さあ　ウデを出すが　いい……。"
+SAY "{VOICE=07}Hold out your arm!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -147,7 +147,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41200000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}の　スカウトリングが{BREAK}パワーアップした!"
+SAY "{COLOR=2}{E321}{NAME}'s scout ring has been enhanced!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
@@ -171,15 +171,15 @@ SYS_03 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}「これで　そなたに　巨大モンスターを{BREAK} 仲間にするチカラが　そなわった。"
+SAY "{VOICE=07}From this day forth, you will be able to scout giant monsters!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「巨大ミミズや　ウイングタイガーなどにも{BREAK} スカウトのコマンドが　使えるであろう。"
+SAY "{VOICE=07}Be they wormongers or missing lynxes...{WAIT}{CLEAR}...you can now use the Scout command to try to add them to your team."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「そなたは　もっともっと{BREAK} 強くなれる。そして……"
+SAY "{VOICE=07}When - and only when - you have sufficiently honed your skills..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41f80000
@@ -190,11 +190,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41a00000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「いまいちど　我と　剣をまじえ{BREAK} その強さを　みきわめさせてくれ。"
+SAY "{VOICE=07}...you will be able to take me on and let me witness your strength."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「真のすがたを　とりもどした我は　強い。{BREAK} しっかり　修行してくるのだぞ。"
+SAY "{VOICE=07}Now that I have returned to my true form, my power is even more formidable.{WAIT}{CLEAR}So you must train and train, and then train some more!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -214,15 +214,15 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}「我が　復活したことで　この島にも{BREAK} あらゆるヘンカが　おきたことであろう。"
+SAY "{VOICE=07}My revival has brought about all manner of changes on this island."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「そなたの修行のためにも　いまいちど{BREAK} 島を　みてまわるが　いい。"
+SAY "{VOICE=07}As part of your training, I heartily recommend you take a tour of the island."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「それでは　さらに強くなった　そなたと{BREAK} 相まみえる日を　たのしみにしているぞ!"
+SAY "{VOICE=07}I eagerly await the day you face me as an even more powerful scout!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

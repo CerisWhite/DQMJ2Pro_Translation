@@ -91,7 +91,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x43160000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「ぶあつい　こおりの壁ですこと。{BREAK} ここで　行きどまりってことかしら……。"
+SAY "{VOICE=08}How dare that wall of ice block my way! Does it not know who I am!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -128,7 +128,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「あら?　この　たきぎ。おあつらえむきね。{BREAK} ちょうど　あたたまりたかったところよ。"
+SAY "{VOICE=08}Ooh, that firewood looks just the ticket.{BREAK}I could do with a little warming up."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -166,7 +166,7 @@ WAIT 0x10 0x2 0x41f00000
 STORE 0x18 0x0 0x40800000 0x2 0x3f800000
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SAY "{COLOR=2}Lily Gilderは　もっていたライターで{BREAK}たきぎに　火をつけた。"
+SAY "{COLOR=2}Lily Gilder uses her mother-of-pearl lighter to light the firewood."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -213,7 +213,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x42c80000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「う～ん。あったかい……。{BREAK} ひえきった体が　いやされていく……。"
+SAY "{VOICE=08}Ah, that's better. I thought I might freeze to death out here."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -244,7 +244,7 @@ STORE 0x18 0x0 0x41000000 0x2 0x3f800000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「ちょっと。これ　わたくしが　つけた火よ。{BREAK} あまり　ちかよらないでくれる?"
+SAY "{VOICE=08}You there! Young man! This is my bonfire and you are availing yourself of it. {WAIT}{CLEAR}Build your own!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -299,7 +299,7 @@ SYS_54 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「なっ…なにごと……!?"
+SAY "{VOICE=08}Wh-What in blazes...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

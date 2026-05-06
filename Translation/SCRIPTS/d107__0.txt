@@ -75,7 +75,7 @@ STORE 0x18 0x1 0x0 0x0 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x41d80000
 SYS_18 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}海岸のヌシ　Khalamariを　たおした。"
+SAY "{COLOR=2}{E321}{NAME} has defeated Khalamari, Unshore's Unrivalled Ultra-Squid!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
@@ -119,11 +119,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=07}「アンタは　強い!　強いんやけど{BREAK} いまひとつ　パンチが　たりんのや!"
+SAY "{VOICE=07}You're strong, but you're a couple of tentacles short of the full squid."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Khalamari"
-SAY "{VOICE=07}「ワイが　コロッと　仲間になってまうくらいに{BREAK} もーっと　強くなって　きてくれんか?"
+SAY "{VOICE=07}Keep training yourself up until you're so strong that I've just got to join you."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -165,7 +165,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}海岸のヌシ　Khalamariを　仲間にした。"
+SAY "{COLOR=2}Khalamari, Unshore's Unrivalled Ultra-Squid, has joined {NAME}!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
@@ -206,7 +206,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=07}「おおきに　おおきに。アンタ　強かったで!{BREAK} ほな　これからも　よろしゅうたのむわ!"
+SAY "{VOICE=07}You pack a fair punch for someone with only two arms!{WAIT}{CLEAR}Right, I'm coming along for the ride!{BREAK}Where to, master?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

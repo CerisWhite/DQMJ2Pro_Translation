@@ -83,7 +83,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「ちょっと……。だれかと思えば{BREAK} 飛行船の　ハレンチボーイじゃなくて!?"
+SAY "{VOICE=08}I say! You're that scruffy stowaway from that wreck of an airship."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -120,15 +120,15 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「ずいぶん　よけいなマネを　してくれたわね。{BREAK} あんなイヌ　かるく　けちらせてたってのに。"
+SAY "{VOICE=08}Your assistance was quite unnecessary, you know.{WAIT}{CLEAR}I wouldn't have had the slightest trouble dealing with those mangy mutts."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「まあ　いいわ。いまは　わたくしのほかに{BREAK} せいぞん者が　いたことに　おどろいてますの。"
+SAY "{VOICE=08}Still, I'm rather surprised I wasn't the sole survivor from the crash."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「で?　ほかの乗客のかたは　ご無事かしら?"
+SAY "{VOICE=08}How did our fellow passengers fare,{BREAK}pray tell?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -172,10 +172,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42d40000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「……まあ!　ほとんどの乗客が　無事ですって?{BREAK} ホホホ。あくうんの強い人たちですこと。"
+SAY "{VOICE=08}Alive and well for the most part, you say? But some remain unaccounted for?{WAIT}{CLEAR}How dreadful...{BREAK}Anyway, enough about them."
 SYS_44 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「けれど　わたくし　船には　もどらないわよ。{BREAK} りゆうは　わかるわよね?"
+SAY "{VOICE=08}I for one have absolutely no intention of returning to that rustbucket just yet.{WAIT}{CLEAR}And you know why, don't you?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -183,7 +183,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3fcccccd
 SYS_4E 0x8 
 WAIT 0x10 0x2 0x41a00000
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「The Countessちゃんよ。The Countessちゃん!{BREAK} あのコ　この山に　入っていっちゃったのよ。"
+SAY "{VOICE=08}Why, my precious Countess, of course!{WAIT}{CLEAR}She flew away into the mountains, abandoning her poor Mumsy-Wumsy."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -228,7 +228,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「アラ?　そういえば……　あなた{BREAK} わたくしたちの　しもべでしたわね?"
+SAY "{VOICE=08}Of course! The Captain's orders! You're to be at my beck and call at all times!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x42200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -239,11 +239,11 @@ STORE 0x18 0x1 0x0 0x0 0x40000000
 STORE 0x18 0x1 0x3f800000 0x2 0x42d40000
 SYS_18 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「ホーホホホホ。ちょうど　よかったですわ。{BREAK} The Countessちゃんをさがすの　手伝いなさい。"
+SAY "{VOICE=08}You are going to make yourself useful.{BREAK}Help me search for my dear Countess."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「とりあえず　さきに　すすみますわよ。{BREAK} ホラ。わたくしのあとに　ついてらっしゃい。"
+SAY "{VOICE=08}All right, let's be off! Come along now, and do try to keep up."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

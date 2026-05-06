@@ -78,14 +78,14 @@ STORE 0x18 0x1 0x0 0x2 0x42820000
 SYS_A5 0x8 
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「…………おい……。"
+SAY "{VOICE=07}...Oi!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「おい　おきろ!　新入りの　{NAME}!"
+SAY "{VOICE=07}Oi, wake up, ye wee stowaway!{BREAK}Ye've rested enough!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -151,7 +151,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「ったく　こんなときに　グースカねられるなんて{BREAK} お前は　ずいぶん　よゆうがあるんだな。"
+SAY "{VOICE=07}I didnae get a wink o' sleep all night.{BREAK}Ma poor mind's been racin'...{WAIT}{CLEAR}But I've come up with a decisive plan of action!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x3f800000
@@ -162,23 +162,23 @@ STORE 0x18 0x1 0x0 0x0 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「ひとばん休んで　いろいろ　かんがえたんだが{BREAK} きょうは　ジャングルへ　でかけるぞ。"
+SAY "{VOICE=07}We're goin' intae that jungle, laddie!{WAIT}{CLEAR}It'll be dangerous, but there might be other survivors requirin' assistance."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「キケンには　ちがいねえが　ジャングルの中で{BREAK} だれか　たすけを　まってるかもしれねえしな。"
+SAY "{VOICE=07}I'm goin' tae have tae busy myself repairin' this stricken vessel."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「それに　オレは　これからさき{BREAK} 船の修理を　しなくちゃいけねえだろ?"
+SAY "{VOICE=07}While I'm up to ma elbows in grease,{BREAK}ye'll need to make yer own way aroond."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「修理の間　そとのようすを　みにいけるよう{BREAK} お前を　きたえなきゃ　いけねえと思ったのよ。"
+SAY "{VOICE=07}That's why I think it's best if I give ye a wee tour of the area."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「それじゃ　行くぜ。気合い入れていけよ!"
+SAY "{VOICE=07}C'mon, laddie! Time's a-wastin'!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -198,7 +198,7 @@ SYS_18 0x8
 STORE 0x18 0x0 0x0 0x2 0x3f800000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「おおっ　そうだ!"
+SAY "{VOICE=07}Och, I nearly forgot!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -235,7 +235,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「お前　まだ　仲間が　いないんだっけか。{BREAK} ちょっと　ついてきな。"
+SAY "{VOICE=07}Ye havenae got a single monster tae yer name, have ye? Ye'd best come with me."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

@@ -69,7 +69,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}「ぐふっ!　みごとだぁっ!"
+SAY "{VOICE=07}...Graaargh! An extraordinary performance!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -92,7 +92,7 @@ STORE 0x18 0x1 0x0 0x2 0x41200000
 SYS_A7 0x8 
 SYS_AC 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}闘神のプレートを　手に入れた!"
+SAY "{COLOR=2}{NAME} obtained the War God Plate!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -130,11 +130,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}「そなたのチカラ　みさせてもらった。{BREAK} その強さなら　おそらくは……"
+SAY "{VOICE=07}I have witnessed your power. Hmmm... Perhaps you are ready..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「{NAME}よ。{BREAK} 我の　たのみを　きいてくれまいか。"
+SAY "{VOICE=07}...Listen to me, {NAME}. I have a request to make of you."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -154,11 +154,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}「たのみというのは　ほかでもない。{BREAK} 我を　じゃあくにそめた　あくの化身……。"
+SAY "{VOICE=07}This is all I desire - that wicked being that stained my soul with evil..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「Rigor Mortexを{BREAK} うちほろぼしてきてほしいのだ。"
+SAY "{VOICE=07}...Its name is Rigor Mortex. I want you to destroy it once and for all."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -180,23 +180,23 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43480000
 SYS_17 0x8 
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}「Rigor Mortexは　おろかな人間たちが{BREAK} 我を　こえるために　つくりだした兵器……。"
+SAY "{VOICE=07}Rigor Mortex was a weapon foolish humans built to surpass my power."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「だが　人間たちも　ヤツを　せいぎょできず{BREAK} おおくの命が　うばわれてしまった……。"
+SAY "{VOICE=07}But those humans could not control their creation, and many lives were lost."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「Rigor Mortexは　自ら　魔界を　つくりだし{BREAK} 我との決闘で　うけたキズを　いやしている。"
+SAY "{VOICE=07}Rigor Mortex created its own magic realm where it now skulks...{WAIT}{CLEAR}...licking the wounds I inflicted upon it. "
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「このままでは　やがて　Rigor Mortexは{BREAK} 復活を　とげるであろう。"
+SAY "{VOICE=07}If we leave it to its own demonic devices, it will surely return."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「これより　我が　その魔界のトビラを{BREAK} ひらいてみせよう。"
+SAY "{VOICE=07}I will now open the door to its realm of illusion."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -401,7 +401,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}「このさきが　ヤツのひそむ　魔界だ。"
+SAY "{VOICE=07}Beyond lies the dark and twisted world where it lurks."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -419,11 +419,11 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}「たのむ。いまわしき　Rigor Mortexを{BREAK} そなたの手で　ほうむってきてくれ。"
+SAY "{VOICE=07}I beg of you. Take up the gauntlet and destroy Rigor Mortex."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「我にも　うち勝てる　そなたならば{BREAK} かならずや　できるはずだ。"
+SAY "{VOICE=07}Do not quail. By defeating me, you have shown yourself worthy of this task."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

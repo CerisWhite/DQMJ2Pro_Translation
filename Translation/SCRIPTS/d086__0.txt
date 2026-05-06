@@ -58,7 +58,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x43160000
 SYS_42 0x8 
 SETNAME "Malevolynx"
-SAY "{VOICE=03}「ァガ……　ガ…ウグ…ゴゴ…………。"
+SAY "{VOICE=03}Grrr... Grrragh... GRRRAAARGH!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -95,7 +95,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Malevolynx"
-SAY "{VOICE=03}「ジャアク…ソムク…　キサマ…ラ。{BREAK} 我…　コロス…………。"
+SAY "{VOICE=03}Grrragh... Your evil nature...pollutes the purity...of this place. I will crush you..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -122,7 +122,7 @@ WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Malevolynx"
-SAY "{VOICE=03}「スベテ　ヲ　ホロボス………………!!!"
+SAY "{VOICE=03}...then I will lay waste to your world! GRRRAAARGH!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

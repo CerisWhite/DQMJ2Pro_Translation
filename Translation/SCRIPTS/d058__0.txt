@@ -715,7 +715,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「オーホホホ。モンスターの　たき火に{BREAK} 目をつけるなんて　さすが　わたくしね。"
+SAY "{VOICE=08}Hmph. It seems even an amateur scout like you has your uses."
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x0 0x41400000
 STORE 0x18 0x1 0x3f800000 0x2 0x42d20000
@@ -725,7 +725,7 @@ STORE 0x18 0x1 0x0 0x0 0x41400000
 STORE 0x18 0x1 0x3f800000 0x2 0x42d40000
 SYS_18 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「たき火のありかを　みつけるのも{BREAK} とっても　カンタンでしたわ。"
+SAY "{VOICE=08}Just where, pray tell, did you manage to get yourself a burning torch?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x42700000
@@ -740,11 +740,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x437a0000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41a00000
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「この　あしあとをたどれば　たき火をする{BREAK} モンスターに　たどりつくんですもの。"
+SAY "{VOICE=08}So following these footsteps led to a fire-building monster..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「ごしゅじんさまが　さえてて　よかったわね。{BREAK} さ　The Countessちゃんを　さがしますわよ。"
+SAY "{VOICE=08}In any case, I am going to continue the search for my beloved Countess."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

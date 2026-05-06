@@ -55,14 +55,14 @@ STORE 0x18 0x0 0x40a00000 0x1 0x0
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Captain Crow"
-SAY "{VOICE=07}「フハハハハ!　私の勝ちだ!{BREAK} よわいな　わかぞう!"
+SAY "{VOICE=07}Yarrr! Victory be mine, ye pitiful swab!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}「お前のような　よわいやつから{BREAK} かねをまきあげたとあっては　名がすたるわ!"
+SAY "{VOICE=07}Plunderin' the gold of such a pathetic land-lubber would be beneath me."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=07}「こんかいは　みのがしてやる!{BREAK} はやく　私と　わたりあえる男に　なるんだな!"
+SAY "{VOICE=07}I'll let ye go this time. I hope one day ye'll be worthy of fightin' Cap'n Crow!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -88,14 +88,14 @@ STORE 0x18 0x0 0x40a00000 0x1 0x0
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Captain Crow"
-SAY "{VOICE=07}「フハハハハ!　私の勝ちだ!{BREAK} よわいな　わかぞう!"
+SAY "{VOICE=07}Yarrr! Victory be mine, ye pitiful swab!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}「お前のような　よわいやつから{BREAK} かねをまきあげたとあっては　名がすたるわ!"
+SAY "{VOICE=07}Plunderin' the gold of such a pathetic land-lubber would be beneath me."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=07}「こんかいは　みのがしてやる!{BREAK} はやく　私と　わたりあえる男に　なるんだな!"
+SAY "{VOICE=07}I'll let ye go this time. I hope one day ye'll be worthy of fightin' Cap'n Crow!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -121,14 +121,14 @@ STORE 0x18 0x0 0x40a00000 0x1 0x0
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Captain Crow"
-SAY "{VOICE=07}「フハハハハ!　私の勝ちだ!{BREAK} よわいな　わかぞう!"
+SAY "{VOICE=07}Yarrr! Victory be mine, ye pitiful swab!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}「お前のような　よわいやつから{BREAK} かねをまきあげたとあっては　名がすたるわ!"
+SAY "{VOICE=07}Plunderin' the gold of such a pathetic land-lubber would be beneath me."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=07}「こんかいは　みのがしてやる!{BREAK} はやく　私と　わたりあえる男に　なるんだな!"
+SAY "{VOICE=07}I'll let ye go this time. I hope one day ye'll be worthy of fightin' Cap'n Crow!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -154,14 +154,14 @@ STORE 0x18 0x0 0x40a00000 0x1 0x0
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Captain Crow"
-SAY "{VOICE=07}「フハハハハ!　私の勝ちだ!{BREAK} よわいな　わかぞう!"
+SAY "{VOICE=07}Yarrr! Victory be mine, ye pitiful swab!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}「お前のような　よわいやつから{BREAK} かねをまきあげたとあっては　名がすたるわ!"
+SAY "{VOICE=07}Plunderin' the gold of such a pathetic land-lubber would be beneath me."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=07}「こんかいは　みのがしてやる!{BREAK} はやく　私と　わたりあえる男に　なるんだな!"
+SAY "{VOICE=07}I'll let ye go this time. I hope one day ye'll be worthy of fightin' Cap'n Crow!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -187,14 +187,14 @@ STORE 0x18 0x0 0x40a00000 0x1 0x0
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Captain Crow"
-SAY "{VOICE=07}「フハハハハ!　私の勝ちだ!{BREAK} よわいな　わかぞう!"
+SAY "{VOICE=07}Yarrr! Victory be mine, ye pitiful swab!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Crow"
-SAY "{VOICE=07}「お前のような　よわいやつから{BREAK} かねをまきあげたとあっては　名がすたるわ!"
+SAY "{VOICE=07}Plunderin' the gold of such a pathetic land-lubber would be beneath me."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=07}「こんかいは　みのがしてやる!{BREAK} はやく　私と　わたりあえる男に　なるんだな!"
+SAY "{VOICE=07}I'll let ye go this time. I hope one day ye'll be worthy of fightin' Cap'n Crow!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

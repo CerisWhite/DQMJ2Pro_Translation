@@ -82,7 +82,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}「……きたか。"
+SAY "{VOICE=03}Good of you to join me."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -112,19 +112,19 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}「ここに　戦の神が　ふういんされておる。"
+SAY "{VOICE=03}Behold! The Divine Battler is sealed within."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}「戦の神は　この島の守り神……。{BREAK} あの　お方は　われらと　ひとつであった。"
+SAY "{VOICE=03}Once we lived in harmony with the Great One and his might protected this island."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}「その神を　この地に　ふういんしたとき{BREAK} われは　ムネが　さける思いであった……。"
+SAY "{VOICE=03}When we were forced to imprison him here, it broke all of our hearts..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}「レオソードさま……。{BREAK} おゆるしくだされ……。"
+SAY "{VOICE=03}Most mighty and divine Leonyx, please forgive us for what we have done..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -148,7 +148,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}「それでは　神への道を　ひらくとしよう。"
+SAY "{VOICE=03}Now it is time to open the most sacred path to the Great One."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -174,7 +174,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3e800000
 SYS_54 0x8 
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}「むううぅぅん!!"
+SAY "{VOICE=03}Ommm..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -379,7 +379,7 @@ STORE 0x18 0x0 0x0 0x2 0x40000000
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}「このさきに　戦の神が　おられるはずだ。{BREAK} たのんだぞ。{NAME}よ……!"
+SAY "{VOICE=03}It is done. The Divine Battler waits within. The rest is up to you, {NAME}..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

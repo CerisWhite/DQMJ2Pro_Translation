@@ -220,10 +220,10 @@ STORE 0x18 0x1 0x0 0x0 0x40000000
 STORE 0x18 0x1 0x3f800000 0x2 0x42ea0000
 SYS_18 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}「ついに　Rigor Mortexが{BREAK} この地を　さったのですね……。"
+SAY "{VOICE=08}At last, Rigor Mortex is gone from this land."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=08}「ようやく　私たちは　いまわしき{BREAK} じゅばくから　かいほうされました……。"
+SAY "{VOICE=08}We have finally been released from that infernal curse."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -240,7 +240,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{VOICE=08}「ありがとう……　真の強さをもつ{BREAK} マスター　{NAME}……。"
+SAY "{VOICE=08}Thank you, {NAME}. Your power and pure heart have saved us."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -380,13 +380,13 @@ SYS_02 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{VOICE=08}「ねがわくば　いまを生きる者たちが{BREAK} おなじ　あやまちを　くりかえさぬよう…。"
+SAY "{VOICE=08}My final prayer is that those alive today never repeat our mistakes."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
-SAY "{VOICE=08}「ありがとう…………。"
+SAY "{VOICE=08}Thank you, {NAME}..."
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42b40000
 SYS_9C 0x8 

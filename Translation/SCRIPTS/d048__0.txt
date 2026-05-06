@@ -165,7 +165,7 @@ STORE 0x18 0x1 0x0 0x0 0x40000000
 STORE 0x18 0x1 0x3f800000 0x2 0x41d80000
 SYS_18 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}雪山のヌシ　ブオーンを　たおした。"
+SAY "{COLOR=2}{E321}{NAME} has defeated the bjorn, the Idol of Iceolation!"
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 WAIT 0x10 0x2 0x42340000
@@ -241,7 +241,7 @@ STORE 0x18 0x1 0x0 0x0 0x40000000
 STORE 0x18 0x1 0x3f800000 0x2 0x41d80000
 SYS_18 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　雪山のガキだいしょう{BREAK}ブオーンJr.を　たおした。"
+SAY "{COLOR=2}{E321}{NAME} has defeated the baby bjorn, the Infant Idol of Iceolation!"
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 WAIT 0x10 0x2 0x42340000
@@ -251,14 +251,14 @@ STORE 0x18 0x1 0x0 0x2 0x40e00000
 SYS_A7 0x8 
 SYS_AC 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}雪山のプレートを　手に入れた!"
+SAY "{COLOR=2}{NAME} obtained the Mountain Plate!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「やるわね。{NAME}。"
+SAY "{VOICE=08}Hmph. That was a tolerably good display of the scout's art, I suppose..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -336,19 +336,19 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42d40000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「あのときの　タダ乗り　ハレンチボーイが{BREAK} まさか　ここまで　強くなるなんて……。"
+SAY "{VOICE=08}Who'd have thought a scruffy stowaway could become so powerful..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「ま…まあ　ようやく　わたくしと　いい勝負が{BREAK} できそうって　レベルだけど。ホホホ……。 "
+SAY "{VOICE=08}「Alright, alright! {E321}{NAME}, you were great. Thank you. ...There. I said it."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「とにかく　おれいを　言わせてちょうだい。{BREAK} ありがとう。マスター　{NAME}。"
+SAY "{VOICE=08}Most importantly, the Countess is alive and well."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「The Countessちゃんも　無事でしたし……。{BREAK} さあ　飛行船に　もどりますわよ。"
+SAY "{VOICE=08}Now - back to that rustbucket!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

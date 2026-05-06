@@ -59,27 +59,27 @@ SYS_1F 0x8
 WAIT 0x10 0x2 0x43200000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「いいか　新入り。お前には　これから{BREAK} きえた乗客を　さがしてもらわなきゃならねえ。"
+SAY "{VOICE=07}Listen well, laddie. It's up tae you tae find the missin' passengers."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「そのためにも　モンスターマスターの{BREAK} プロフェッショナルを　めざしてほしいんだ!"
+SAY "{VOICE=07}Yer gonna haftae become a right professional! A real monster scout!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「これからさきは　みたことのねえモンスターが{BREAK} わんさかと　ひしめいてるはずだ。"
+SAY "{VOICE=07}This place'll be ripe with beasties ye've never seen."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「中には　ナットクできないほど{BREAK} 強いモンスターも　いるだろう……。"
+SAY "{VOICE=07}Full a' beasties stronger'n ye can believe."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「だがな!　決して　めげるんじゃねえぞ!"
+SAY "{VOICE=07}But ye can't give up!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「プロフェッショナルへの道ってのは{BREAK} そんなに　あまいもんじゃねえんだ!　いいな?"
+SAY "{VOICE=07}The path tae bein' a professional is tough."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x3f800000
@@ -90,11 +90,11 @@ STORE 0x18 0x1 0x0 0x0 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「よしっ。それじゃあ　新入り。{BREAK} オレのあとに　ついてこい!"
+SAY "{VOICE=07}Right, laddie! Let's see if ye can match ol' Rory's pace. Follow me!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「もし　仲間がキズついたり　つかれたら{BREAK} ムリせず　飛行船に　もどるんだぜ。"
+SAY "{VOICE=07}If yer beasties get bruised or battered,{BREAK}jest head back tae the ship.{WAIT}{CLEAR}They'll be patched up and made right as rain!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

@@ -110,15 +110,15 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Gemon"
-SAY "{VOICE=03}「グェへへへ。{BREAK} やはり　ここまで　おってきたか。"
+SAY "{VOICE=03}Squaaah! So you followed me right to the top? I should've known."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Gemon"
-SAY "{VOICE=03}「この　おなごは　かえさねえぜ。{BREAK} せがれの　ヨメっこに　するんじゃぁ。"
+SAY "{VOICE=03}This girl's stayin' with us! She'll make a fine nest-mate for my boy!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Gemon"
-SAY "{VOICE=03}「それと　せがれが　世話になったみてえだなぁ。{BREAK} そのかりも　たっぷり　かえさせてもらうぜぇ。"
+SAY "{VOICE=03}Seems you've been causin' all sorts of trouble for my son.{WAIT}{CLEAR}You mess with him, you mess with me. Prepare to pay a heavy price..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -201,7 +201,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x441b4000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Jamirus"
-SAY "{VOICE=07}「てっぺんまで　のこのこ　やってくるとは{BREAK} バカなヤツらだぜ。ケケケ……。"
+SAY "{VOICE=07}You've got a lot of nerve, wanderin' up here like you own the place!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -215,11 +215,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「はさみうちか……。"
+SAY "{VOICE=07}Looks like the enemy's about to launch a classic pincer attack..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「{NAME}!　ここは私が　ひきうけた!{BREAK} キミは　そのデカいのを　やってくれ!"
+SAY "{VOICE=07}Listen, Rookie. I'll engage this one.{BREAK}You take the fight to the big bird."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -244,7 +244,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Gemon"
-SAY "{VOICE=03}「グァハハハ!　オレさまを負かそうとは{BREAK} 100年はやいわ!　死ねえぇい!!"
+SAY "{VOICE=03}Think you stand a chance against me!? Maybe death'll make you think differently."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -340,7 +340,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「{NAME}!　ここは私が　ひきうけた!{BREAK} キミは　そのデカいのを　やってくれ!"
+SAY "{VOICE=07}Listen, Rookie. I'll engage this one.{BREAK}You take the fight to the big bird."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -365,7 +365,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Gemon"
-SAY "{VOICE=03}「グァハハハ!　オレさまを負かそうとは{BREAK} 100年はやいわ!　死ねえぇい!!"
+SAY "{VOICE=03}Think you stand a chance against me!? Maybe death'll make you think differently."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

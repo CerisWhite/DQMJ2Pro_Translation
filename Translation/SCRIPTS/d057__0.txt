@@ -133,11 +133,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}「……かなりのキズを　おっておる。{BREAK} よく　いままで　たえてたもんじゃ。"
+SAY "{VOICE=03}...It pains me to report that Captain Mayday has been gravely injured...{WAIT}{CLEAR}It's extraordinary that he managed to stay on his feet for so long."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}「……この島では　なおしようが　ないぞ。{BREAK} せめて　わしらのクニに　かえれれば……。"
+SAY "{VOICE=03}There's precious little we can do for him while we're on this island.{WAIT}{CLEAR}We must return home, and soon!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -166,14 +166,14 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}「整備士さんや。飛行船の修理のほうは{BREAK} どうなんじゃ?"
+SAY "{VOICE=03}Rory, dear boy. How is the repair work on the ship progressing?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「すまねえ。ぜつぼうてき　でよ。{BREAK} 新しい船　つくったほうが　はやいくらいで…。"
+SAY "{VOICE=07}Och, I cannae lie tae you.{BREAK}It's no goin' well at all.{WAIT}{CLEAR}It may jest be quicker tae build a new ship from scratch."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -190,7 +190,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42ea0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Melonie"
-SAY "{VOICE=08}「そんな……!　船長さん　このままなの?{BREAK} どうしよう　わたしのせいだ…………。"
+SAY "{VOICE=08}This is 'orrible! We can't just leave the poor Captain like this! It's all my fault..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -226,14 +226,14 @@ JMP_ABS 0xc L_e5c
 L_f18:
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「すまねえ　セブンスッ!{BREAK} オレが　ふがいねえばっかりに……!"
+SAY "{VOICE=07}I'm sorry, Cap'n! I've let ye doon again!{WAIT}{CLEAR}And after everythin' we've been through together...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x42a00000
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}「ねえ　みなさん……。"
+SAY "{VOICE=07}Pardon me. Might I make a small suggestion?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -274,7 +274,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}「{NAME}さんに　かけてみませんか?"
+SAY "{VOICE=07}I propose that we leave this in {NAME}'s capable hands."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -299,12 +299,12 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}「{NAME}さんなら　きっと{BREAK} たすかる道を　みつけてくれるはずです!"
+SAY "{VOICE=07}If he can't find a way out of this bind, then no one can."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x42480000
 SETNAME "Archie Logg"
-SAY "{VOICE=07}「Empyreaのことばを信じて　ボクらのウンメイを{BREAK} {NAME}さんに　ゆだねましょう!"
+SAY "{VOICE=07}Empyrea told us to trust in the forces of fate.{WAIT}{CLEAR}If she is right, I say we entrust our fate{BREAK}to {NAME}."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -319,7 +319,7 @@ SYS_1F 0x8
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「……{NAME}……　きいてくれ……。"
+SAY "{VOICE=07}...Rookie... Listen to me..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -345,7 +345,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「セブンス……!"
+SAY "{VOICE=07}Cap'n!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -366,7 +366,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「お前　だいじょうぶなのかッ!?"
+SAY "{VOICE=07}Cap'n! Ye're alive!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -382,7 +382,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42880000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「ムリをしては　ダメよ!{BREAK} もう　しゃべらないほうが　よろしくてよ!"
+SAY "{VOICE=08}Don't over-exert yourself. You shouldn't even try to speak in your condition!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -398,7 +398,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "The Countess"
-SAY "{VOICE=08}「キュッキュッキュー!"
+SAY "{VOICE=08}Squeeeak! SQUAAAK!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -415,7 +415,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}「{NAME}さん!　あなたからも{BREAK} ムリをしないよう　船長さんに言ってください!"
+SAY "{VOICE=07}{E321}{NAME}, you'd better tell the Captain not to push himself too hard..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -453,22 +453,22 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「このくらいのキズ……　なんともない……。{BREAK} {NAME}よ　きいてくれ……。"
+SAY "{VOICE=07}It's gonna take...more than a scratch{BREAK}...to shut Captain Rex Mayday up!{WAIT}{CLEAR}Now...listen up, Rookie..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「私が　飛行船から　ほうりだされ……{BREAK} およぎついたのは　とある海岸だった……。"
+SAY "{VOICE=07}When the Albatross took a dive,{BREAK}I had to swim for my life.{WAIT}{CLEAR}I managed to make it to the coast..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「……そこには　とてつもなく……{BREAK} 巨大な…モンスターがいて……。"
+SAY "{VOICE=07}That's where I spotted an incoming bogey - the biggest monster I'd ever seen."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「私は　ヤツから　にげながら……{BREAK} あの崖に……　たどりついたのだ……。"
+SAY "{VOICE=07}I had to beat a tactical retreat, which is how I ended up in the mountains."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -508,7 +508,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42a40000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}「たしかに　この島の海岸には　強いヌシがいると{BREAK} ボクも　古い本で　よみましたよ!"
+SAY "{VOICE=07}Yes! One of the ancient tomes I read spoke of a gigantic monster by the coast."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -518,11 +518,11 @@ STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「{NAME}……　いまの…お前なら{BREAK} その海岸にも……　行けるだろう……。"
+SAY "{VOICE=07}Rookie... Now you're battle-hardened...{BREAK}I think you're ready...to hit the coast..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「Empyreaという巨鳥を　あてにできぬなら…{BREAK} 海から…　この島を出ることも…　うぅ…。"
+SAY "{VOICE=07}If we can't rely...on Empyrea to fly us out...maybe the sea's our only hope..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -544,13 +544,13 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}新しいエリア　海岸に　行けるようになった!"
+SAY "{COLOR=2}{E321}{NAME} can now go to a new region - Unshore!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 WAIT 0x10 0x2 0x42340000
 WAIT 0x10 0x2 0x41200000
-SAY "{COLOR=2}全体マップに出ると　新しいエリアが{BREAK}ひょうじされます!"
+SAY "{COLOR=2}Go to the main map and the new region will be displayed!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

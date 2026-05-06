@@ -112,7 +112,7 @@ STORE 0x18 0x1 0x0 0x2 0x435b0000
 SYS_41 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「そこまでぇぇっ!!!"
+SAY "{VOICE=07}Hold your fire!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -225,7 +225,7 @@ SYS_03 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「勝ったのは　無名のダークホース!{BREAK} みならい船員　{NAME}!"
+SAY "{VOICE=07}Our winner is the dark horse, the enigmatic rookie deckhand...{NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -274,7 +274,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41d80000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「キミが　世界最強の　チャンピオンだぁーっ!!"
+SAY "{VOICE=07}You've made it, kid! You're on top of the scouting world!"
 STORE 0x18 0x1 0x0 0x2 0x0
 STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_F8 0x8 
@@ -321,7 +321,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「オーケーィ!　それじゃあ　さっそく{BREAK} ヒーローインタビューと　いこうか!"
+SAY "{VOICE=07}Let's have a few words from the champ..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -341,7 +341,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42200000
 SYS_17 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「{NAME}選手!{BREAK} あなたの強さのヒミツを　おしえてください!"
+SAY "{VOICE=07}{E321}{NAME}, could you tell us the secret of your scouting success?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -375,7 +375,7 @@ STORE 0x18 0x1 0x0 0x2 0x42480000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「ハッハァーン。とんだシャイボーイが{BREAK} チャンピオンに　なっちまったもんだ!"
+SAY "{VOICE=07}Ummm. It seems our champion prefers to let his scout ring do the talking..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -404,7 +404,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「それじゃ　ここらへんで　おひらきにするぜ!{BREAK} シー　ユー　ネクスト　バトル……"
+SAY "{VOICE=07}With that, I officially declare the Monster Scout Challenge over!{WAIT}{CLEAR}See you at the next tournament, scout fans!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -415,7 +415,7 @@ STORE 0x18 0x1 0x0 0x2 0x42540000
 STORE 0x18 0x1 0x3f800000 0x2 0x41f00000
 SYS_17 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}「……まってくれ。{BREAK} 私が　代わりに　こたえよう。"
+SAY "{VOICE=07}Wait just one minute. If the champion won't answer, I'll have to do it on his behalf."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -485,7 +485,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x42c80000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「ヘイ!　フー　アー　ユー!{BREAK} あなたは　だれですか?"
+SAY "{VOICE=07}Ummm... I don't mean to be rude,{BREAK}but who are you exactly!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -498,7 +498,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「私は　セブンス。この　{NAME}が{BREAK} 乗っていた　飛行船の船長だ。"
+SAY "{VOICE=07}The name's Mayday. Rex Mayday. I'm the captain of the airship, the Albatross.{WAIT}{CLEAR}{E321}{NAME} served under me as a rookie deckhand."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -535,7 +535,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「みんな　きいてくれ!"
+SAY "{VOICE=07}Listen to me, people, and listen good."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x0
@@ -543,15 +543,15 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_F8 0x8 
 WAIT 0x10 0x2 0x42b40000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「じつは　この世界には　このバトルGPよりも{BREAK} さらに上の　バトルGPがある!"
+SAY "{VOICE=07}I bet you think this Monster Scout Challenge is a pretty big deal.{WAIT}{CLEAR}But did you know that there's another, superior, tournament?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「この　少年は　その　真のバトルGPを{BREAK} 自らの手で　復活させたマスターなんだ!"
+SAY "{VOICE=07}This young scout single-handedly revived the True Monster Scout Challenge."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「かれこそが　真のプロフェッショナル!{BREAK} 強いのは　あたりまえだ!!"
+SAY "{VOICE=07}As you've seen for yourselves,{BREAK}he's the real deal."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -636,15 +636,15 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「{NAME}　がんばったな……。"
+SAY "{VOICE=07}You fought hard out there, Rookie."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「キミが　GPを　勝ちすすんでいる間に{BREAK} 私のケガも　回復したんだ。ありがとう。"
+SAY "{VOICE=07}While you've been rackin' up victories here, I've been recoverin' from my injury.{WAIT}{CLEAR}I can officially report that Captain Rex Mayday is back at his best!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41a00000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「そして　バトルGP　優勝おめでとう!{BREAK} キミなら　やってくれると　思っていたぞ。"
+SAY "{VOICE=07}Congratulations, Rookie.{BREAK}I never doubted you for a second."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -675,11 +675,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「なあ　{NAME}……。{BREAK} キミのライバルは　もう　ここにはいない。"
+SAY "{VOICE=07}Now listen. You've got no rivals here and nothin' left to prove."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「また　あの島へ　行かないか。{BREAK} もっと強くなった　キミが　みたいのだよ。"
+SAY "{VOICE=07}What say we head back to that island so you can reach your full potential?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

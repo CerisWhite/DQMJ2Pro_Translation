@@ -74,7 +74,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}「それでは　これより……{BREAK} バトルGPを　はじめる!!"
+SAY "{VOICE=07}It's time to get your groove on, daddy-o! The party is about to begin!"
 STORE 0x18 0x1 0x0 0x2 0x43530000
 SYS_41 0x8 
 SYS_44 0x8 
@@ -103,27 +103,27 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}「まずは　カンタンに　ルールを説明しよう。{BREAK} しっかり　きいてくれ!"
+SAY "{VOICE=07}I'm gonna explain the rules to you only once!{WAIT}{CLEAR}Can you dig it?{BREAK}I said - CAN. YOU. DIG. IT!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}「このバトルGPには{BREAK} Fから{1F93}でのランクがある!"
+SAY "{VOICE=07}The Monster Scout Challenge starts at Rank F and goes all the way up to Rank S!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}「試合は　ランクごとに　3回戦!{BREAK} ひくいランクから　チャレンジしてもらう!"
+SAY "{VOICE=07}Each rank features a funky three-round battle.{WAIT}{CLEAR}Not one, not two, but three, baby!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}「道具の使用と　モンスターの入れかえは{BREAK} みとめられないから　気をつけてくれ!"
+SAY "{VOICE=07}Now, you can't be swappin' round your monsters or usin' any items, you dig?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}「よし!　それでは　いよいよ{BREAK} バトルGPの　はじまりだ!!"
+SAY "{VOICE=07}Sounds good? I knew that it would!{BREAK}Now let's get this show on the road!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}「この戦いに　勝ちつづければ{BREAK} おのずと　道がひらけるだろう!"
+SAY "{VOICE=07}Rack up victories here and the road ahead's gonna open right up!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

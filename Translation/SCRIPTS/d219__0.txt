@@ -98,7 +98,7 @@ STORE 0x18 0x1 0x0 0x2 0x42ea0000
 SYS_33 0x8 
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}「おむかえが　きましたよ!"
+SAY "{VOICE=07}It looks like our ticket out of here{BREAK}has arrived!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -139,7 +139,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Empyreaは　{NAME}たちを乗せた{BREAK}飛行船を　バトルGPの会場まで　はこんだ。"
+SAY "{COLOR=2}Empyrea grips the Albatross firmly in her mighty claws...{WAIT}{CLEAR}...and carries {NAME} and the others to the Monster Scout Challenge."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_43 0x8 
@@ -164,7 +164,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}バトルGP会場は　予選試合の{BREAK}まっただなか　で　あった!"
+SAY "{COLOR=2}By the time they arrive, the qualifiers are already in full swing."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -186,10 +186,10 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}島で　はげしい戦いを　くりひろげた{BREAK}{NAME}にとって……"
+SAY "{COLOR=2}After the countless fierce battles {NAME} faced on the island..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41a00000
-SAY "{COLOR=2}バトルGPの予選など　ちょっとした{BREAK}かたならしにしか　すぎない……。"
+SAY "{COLOR=2}...the qualifiers felt like nothing more than a gentle warm-up."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -204,7 +204,7 @@ STORE 0x18 0x1 0x0 0x0 0x40000000
 SYS_53 0x8 
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
-SAY "{COLOR=2}そして…………"
+SAY "{COLOR=2}And then..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

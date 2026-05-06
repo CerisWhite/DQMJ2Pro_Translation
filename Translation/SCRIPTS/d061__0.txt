@@ -117,7 +117,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3ecccccd
 SYS_54 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{COLOR=2}なぜか　The Countessがいる。{BREAK}つれてかえったほうが　よさそうだ。"
+SAY "{COLOR=2}The Countess is here. It might be best to escort her back to the Albatross."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

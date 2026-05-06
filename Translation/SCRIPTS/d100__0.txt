@@ -169,7 +169,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「レディース　アーンド　ジェントルメーン{BREAK} アーンド　モンスターズ……!!"
+SAY "{VOICE=07}Ladies and gentlemen!{BREAK}...And not forgetting monsters!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -186,7 +186,7 @@ STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「真のバトルGPが　いよいよ　はじまったぜ!{BREAK} さっそく　選手しょうかいと　いこうか!"
+SAY "{VOICE=07}It's finally time for the True Monster Scout Challenge to get under way!{WAIT}{CLEAR}Let's start by introducing our brave young scouts!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -225,7 +225,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「さいしょの　おでましは　きせきのシャイボーイ{BREAK} われらがチャンピオン　{NAME}ーー!"
+SAY "{VOICE=07}First up - he's a man of few words, but plenty of hair...{WAIT}{CLEAR}...our current champion, the moody, the brooding...{NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -264,7 +264,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42e60000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「そして～　おつぎに　やってきたのは{BREAK} うさみみコンパニオン　Melonieーー!!"
+SAY "{VOICE=07}And facing him tonight, the Bunny-Eared Bruiser...Melonie!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -281,7 +281,7 @@ SYS_1F 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「マスター経験ほぼなしの　かのじょが{BREAK} どこまで　チャンピオンに　くらいつけるのか!"
+SAY "{VOICE=07}She's not the most experienced monster scout in the world...{WAIT}{CLEAR}In fact, she may be the least experienced monster scout in the world...{WAIT}{CLEAR}But let's see how she handles our champion!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -301,7 +301,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Melonie"
-SAY "{VOICE=08}「エヘヘ。Melonieしんえいたいの　みなさんが{BREAK} {NAME}さんの　さいしょの相手だよ!"
+SAY "{VOICE=08}Blimey! Melonie's Mega Monster Troupe are {NAME}'s first opponents!{WAIT}{CLEAR}Oooh, me ol' mum would be so proud, bless 'er!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -314,7 +314,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42e60000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「それでは　真のバトルGP　予選1回戦!{BREAK} レディーー……　ファァィツッ!!"
+SAY "{VOICE=07}Strap yourselves in for the True Monster Scout Challenge's first qualifying round!{WAIT}{CLEAR}...Ready! ...Set! ...FIGHT!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -376,7 +376,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「レディース　アーンド　ジェントルメーン{BREAK} アーンド　モンスターズ……!!"
+SAY "{VOICE=07}Ladies, gentlemen and monsters!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -393,7 +393,7 @@ STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「真のバトルGPが　またも　はじまったぜ!{BREAK} さっそく　選手しょうかいと　いこうか!"
+SAY "{VOICE=07}The True Monster Scout Challenge is back once again!{WAIT}{CLEAR}Let's start by meeting our contenders!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -432,7 +432,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「さいしょの　おでましは　きせきのシャイボーイ{BREAK} われらがチャンピオン　{NAME}ーー!"
+SAY "{VOICE=07}First up - he's a man of few words but no shortage of hair...{WAIT}{CLEAR}...our current champion, the moody, the brooding...{NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -471,7 +471,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42e60000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「そして～　おつぎに　やってきたのは{BREAK} うさみみコンパニオン　Melonieーー!!"
+SAY "{VOICE=07}And facing him tonight, the Bunny-Eared Bruiser...Melonie!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -501,7 +501,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Melonie"
-SAY "{VOICE=08}「Melonieしんえいたいの　みなさ～ん!{BREAK} でばんですよ～!"
+SAY "{VOICE=08}C'mon! Melonie's Mega Monster Troupe are ready for anyfin'!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -514,7 +514,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42e60000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「それでは　真のバトルGP　予選1回戦!{BREAK} レディーー……　ファァィツッ!!"
+SAY "{VOICE=07}Strap yourselves in for the True Monster Scout Challenge's first qualifying round!{WAIT}{CLEAR}...Ready! ...Set! ...FIGHT!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -576,7 +576,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「オーッケーィ!　予選1回戦の勝者は{BREAK} チャンピオン　{NAME}だーー!"
+SAY "{VOICE=07}And the winner of the first qualifier...{BREAK}Our reigning champion, {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -593,7 +593,7 @@ STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「それじゃあ　サクサクいくぜ!{BREAK} 第2回戦の相手は　こいつだーー!"
+SAY "{VOICE=07}Let's head into the second qualifier, where THIS will be your opponent..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -636,7 +636,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42880000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「セブンスと　ともにあゆんで　25年{BREAK} いかりの整備士　ミスター・Rory Bellows!!"
+SAY "{VOICE=07}He's kept the Albatross in the air for 25 years as Rex Mayday's trusty engineer...{WAIT}{CLEAR}...Rowdy Rory Bellows!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -663,7 +663,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「いつも　かたをまわすのは　しじゅうかた?{BREAK} ちがうぞ!　相手を　なぐる　前フリだ!"
+SAY "{VOICE=07}When Rory massages his shoulder, it's not because he's getting old. Oh no!{WAIT}{CLEAR}He's getting ready to thump any opponent who dares to rile him!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -676,7 +676,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「へへっ!　いぶしギンの　戦い方ってヤツ{BREAK} お前に　おしえてやるよ!"
+SAY "{VOICE=07}I'll give ye a wee taste of my scrappin' style if ye like, laddie!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -689,7 +689,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42880000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「それでは　真のバトルGP　予選2回戦!{BREAK} レディーー……　ファァィツッ!!"
+SAY "{VOICE=07}Ha ha! Erm... Yes. Without further ado, let's get on with our second qualifier!{WAIT}{CLEAR}...Ready! ...Set! ...FIGHT!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -748,7 +748,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「オーッケーィ!　予選1回戦の勝者は{BREAK} チャンピオン　{NAME}だーー!"
+SAY "{VOICE=07}And the winner of the first qualifier... Our reigning champion, {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -765,7 +765,7 @@ STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「それじゃあ　サクサクいくぜ!{BREAK} 第2回戦の相手は　こいつだーー!"
+SAY "{VOICE=07}Let's head into the second qualifier, where THIS will be your opponent..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -836,7 +836,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「飛行船のチューニングは　イマイチだったが{BREAK} モンスターのチューニングは　バッチリだぜ!"
+SAY "{VOICE=07}The engineerin' on the Albatross may not have been perfect...{WAIT}{CLEAR}...but I know how tae engineer a tip-top team o' monsters!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -855,7 +855,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42880000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「それでは　真のバトルGP　予選2回戦!{BREAK} レディーー……　ファァィツッ!!"
+SAY "{VOICE=07}So without further ado, let's get on with our second qualifier!{WAIT}{CLEAR}...Ready! ...Set! ...FIGHT!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -932,7 +932,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「オーッケーィ!　予選2回戦の勝者も{BREAK} チャンピオン　{NAME}だーー!"
+SAY "{VOICE=07}And the winner of the second qualifier... Our reigning champion, {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -949,7 +949,7 @@ STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「それじゃあ　チャッチャと　いくぜ!{BREAK} 第3回戦の相手は　こいつだーー!"
+SAY "{VOICE=07}Now, without further ado, let's head into the third qualifier...{WAIT}{CLEAR}...where your opponent will be...TA-DA!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -992,7 +992,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42d00000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「さいあいのモーモンは　神だった!?{BREAK} かなしきセレブ　マダムー・Lily Gilderーー!!"
+SAY "{VOICE=07}Now, according to my notes, our next contender's much loved teeny sanguini...{WAIT}{CLEAR}...erm...turned out to be a...GOD!?{BREAK}(Can that be right!?){WAIT}{CLEAR}Ahem. Well, I'm sure she's put that all behind her. I give you Lily...GILDER!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1009,7 +1009,7 @@ SYS_1F 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「The Countessの代わりは　みつかったのか?{BREAK} つれてきたモンスターにも　ちゅうもくだー!"
+SAY "{VOICE=07}Now, everyone's wondering who's taking the place of the Countess.{WAIT}{CLEAR}All eyes are on you and your monsters, Lily."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1022,7 +1022,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「戦の神を　ひきつれ　ハクがついた{BREAK} バトルクィーンの強さ　みせてさしあげるわ!"
+SAY "{VOICE=08}Well, fresh from my prestigious role as the Divine Battler's chief consort...{WAIT}{CLEAR}...I'm all ready to reclaim my crown as Lily, Queen of Scouts!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1032,11 +1032,11 @@ STORE 0x18 0x1 0x0 0x2 0x42700000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「{NAME}は　これに勝てば{BREAK} 予選とっぱだぞ!!"
+SAY "{VOICE=07}If {NAME} wins this one, he'll have made it through the qualifiers."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Referee"
-SAY "{VOICE=07}「それでは　真のバトルGP　予選3回戦!!{BREAK} レディーー……　ファァィツッ!!"
+SAY "{VOICE=07}Now, let's get on with our third and final qualifier!{WAIT}{CLEAR}...Ready! ...Set! ...FIGHT!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -1095,7 +1095,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「オーッケーィ!　予選2回戦の勝者も{BREAK} チャンピオン　{NAME}だーー!"
+SAY "{VOICE=07}And the winner of the second qualifier... Our reigning champion, {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1112,7 +1112,7 @@ STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「それじゃあ　チャッチャと　いくぜ!{BREAK} 第3回戦の相手は　こいつだーー!"
+SAY "{VOICE=07}Now, without time to even draw breath, let's head into the third qualifier...{WAIT}{CLEAR}...where your opponent will be...TA-DA!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1173,7 +1173,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「あら?　また　あなたと戦えるの?{BREAK} こんどは　全力で　しとめてさしあげますわ!"
+SAY "{VOICE=08}Oh! You again? Well, this time I'll trounce you soundly, let me assure you."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1189,11 +1189,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40a00000
 SYS_1F 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「{NAME}は　これに勝てば{BREAK} 予選とっぱだぞ!!"
+SAY "{VOICE=07}If {NAME} wins this one, he'll have made it to the final."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Referee"
-SAY "{VOICE=07}「それでは　真のバトルGP　予選3回戦!!{BREAK} レディーー……　ファァィツッ!!"
+SAY "{VOICE=07}Now, let's get on with our third and final qualifier!{WAIT}{CLEAR}...Ready! ...Set! ...FIGHT!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -1280,7 +1280,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「レディース　アーンド　ジェントルメーン{BREAK} アーンド　モンスターズ……!!"
+SAY "{VOICE=07}Ladies and gentlemen!{BREAK}...And not forgetting monsters!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1297,7 +1297,7 @@ STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「真のバトルGP本戦が　ついに　はじまったぜ!{BREAK} さっそく　選手しょうかいと　いこうか!"
+SAY "{VOICE=07}At long last, it's time for the main event to get under way!{WAIT}{CLEAR}Let's start by meeting our contenders!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1336,7 +1336,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「さいしょの　おでましは　きせきのシャイボーイ{BREAK} われらがチャンピオン　{NAME}ーー!"
+SAY "{VOICE=07}First up - he's a man of few words but no shortage of hair...{WAIT}{CLEAR}...our current champion, the moody, the brooding...{NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1379,7 +1379,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42680000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「乗客いちばん　自分は　にばん!{BREAK} たよれる空の男は　Captain Maydayォーー!!"
+SAY "{VOICE=07}And facing him, the man who always puts his passengers first...{WAIT}{CLEAR}...Captain...Rex...MAYDAY!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1400,7 +1400,7 @@ SYS_1F 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「かこのGPデータをみると　かなりの使い手だが{BREAK} タダ乗りが　ばれて　出場とりけしの経験あり!"
+SAY "{VOICE=07}Official Monster Scout Challenge records show that Rex was a talented scout...{WAIT}{CLEAR}...until he was sensationally exposed as a stowaway and disqualified!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1413,7 +1413,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「ま　そういうことだ。乗りものに　乗るときは{BREAK} ちゃんと　お金を　はらうんだぞ!"
+SAY "{VOICE=07}Well, I can't deny it. Listen to Rex, kids - don't run and hide, pay for your ride!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1423,7 +1423,7 @@ STORE 0x18 0x1 0x0 0x2 0x42700000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「優勝に　王手をかけるのは　どっちだーっ!?{BREAK} レディーー……　ファァィツッ!!"
+SAY "{VOICE=07}Now, let's see which scout will checkmate his opponent.{WAIT}{CLEAR}...Ready! ...Set! ...FIGHT!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -1477,7 +1477,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「レディース　アーンド　ジェントルメーン{BREAK} アーンド　モンスターズ……!!"
+SAY "{VOICE=07}Ladies, gentlemen and monsters!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1494,7 +1494,7 @@ STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「真のバトルGP本戦が　ついに　はじまったぜ!{BREAK} さっそく　選手しょうかいと　いこうか!"
+SAY "{VOICE=07}At long last, it's time for the main event to get under way!{WAIT}{CLEAR}Let's start by meeting our contenders!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1533,7 +1533,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「さいしょの　おでましは　きせきのシャイボーイ{BREAK} われらがチャンピオン　{NAME}ーー!"
+SAY "{VOICE=07}First up - he's a man of few words but no shortage of hair...{WAIT}{CLEAR}...our current champion, the moody, the brooding...{NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1576,7 +1576,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42680000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「乗客いちばん　自分は　にばん!{BREAK} たよれる空の男は　Captain Maydayォーー!!"
+SAY "{VOICE=07}And facing him, the man who always puts his passengers first...{WAIT}{CLEAR}Captain...Rex...MAYDAY!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1603,7 +1603,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「キミとは　なんど　戦っても　おもしろい。{BREAK} バトルのツボを　心えているからかもな。"
+SAY "{VOICE=07}I never get tired of facing you, Rookie. You're the real deal."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1619,7 +1619,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40a00000
 SYS_1F 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「優勝に　王手をかけるのは　どっちだーっ!?{BREAK} レディーー……　ファァィツッ!!"
+SAY "{VOICE=07}Now, let's see which scout will checkmate his opponent.{WAIT}{CLEAR}...Ready! ...Set! ...FIGHT!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -1687,7 +1687,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「オーッケーィ!　まず　さいしょの勝者は{BREAK} チャンピオン　{NAME}だーー!"
+SAY "{VOICE=07}And the winner of the first bout is our reigning champion...{NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1704,13 +1704,13 @@ STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「さあ　会場も　ヒートアップ!{BREAK} これが　ファイナルバウトとなるかーっ!?"
+SAY "{VOICE=07}You could cut the tension here with a sludgehammer...{WAIT}{CLEAR}Will this be the final bout?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「{NAME}の　最後の対戦相手は{BREAK} やっぱり……　こいつだーーーー!!!"
+SAY "{VOICE=07}Now to reveal {NAME}'s final opponent. Who else could it be?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1753,7 +1753,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43120000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「れんめんと　つづく　めいもんマスターいち族の{BREAK} サラブレッド!　ミス・Solitaireーー!!"
+SAY "{VOICE=07}A thorough-bred scout from a family with an unbroken record of excellence...{WAIT}{CLEAR}...Miss Ginny Rummy, AKA Solitaire!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1770,7 +1770,7 @@ SYS_1F 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「いち族の中で　もっとも　すぐれた者だけが{BREAK} Solitaireと名乗ることを　ゆるされているのだぁ!"
+SAY "{VOICE=07}Among her clan, only the mightiest earns the right to use the name Solitaire!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1783,15 +1783,15 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}「……あのRefereeしゃべりすぎよね。{BREAK} でも　いまの話は　ホント。"
+SAY "{VOICE=08}Don't anyone EVER call me Ginny Rummy again! The name's Solitaire, got it?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}「アタシは　エリート中のエリート。{BREAK} 敗北は　にども　ゆるされないんだから。"
+SAY "{VOICE=08}I'm the crème de la crème alright. Where I'm from, losing twice isn't an option."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}「わるいけど　ふみだいに　なってもらうわ。{BREAK} 真のチャンピオンは　アタシよ……!"
+SAY "{VOICE=08}I hope you don't mind if I use you as a spiky-headed stepping stone...{WAIT}{CLEAR}...and claim my place as the one true champion."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1801,11 +1801,11 @@ STORE 0x18 0x1 0x0 0x2 0x42700000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「これが　真のバトルGP　決勝戦となるのか!?{BREAK} {NAME}が勝てば　優勝が決まるぞ!"
+SAY "{VOICE=07}Could this bout decide the True Monster Scout Challenge?{WAIT}{CLEAR}If {NAME} can win here, he'll be crowned champion!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Referee"
-SAY "{VOICE=07}「いくぜ!　レディーー……………{BREAK} ファァァァァィッツッ!!!"
+SAY "{VOICE=07}Let's do this!{BREAK}...Ready! ...Set! ...FIGHT!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -1864,7 +1864,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「オーッケーィ!　まず　さいしょの勝者は{BREAK} チャンピオン　{NAME}だーー!"
+SAY "{VOICE=07}And the winner of the first bout is our reigning champion...{NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1881,13 +1881,13 @@ STORE 0x18 0x1 0x0 0x2 0x42a20000
 SYS_32 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「さあ　会場も　ヒートアップ!{BREAK} これが　ファイナルバウトとなるかーっ!?"
+SAY "{VOICE=07}You could cut the tension here with a sludgehammer...{WAIT}{CLEAR}Will this be the final bout?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「{NAME}の　最後の対戦相手は{BREAK} やっぱり……　こいつだーーーー!!!"
+SAY "{VOICE=07}Now to reveal {NAME}'s final opponent. Who else could it be?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1948,19 +1948,19 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}「なによ　そのカオ……。あなたに　勝ったのに{BREAK} 優勝できなかったことが　そんなにイガイ?"
+SAY "{VOICE=08}What are you making that face for!? You look like a bulldog chewing a wasp!{WAIT}{CLEAR}Still can't work out how I failed to become champion even after beating you?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}「フン。あなたに　勝ったあと{BREAK} なんか　気がぬけちゃったのよ。"
+SAY "{VOICE=08}Hmph. Well, after beating you so badly, I seemed to lose focus."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}「こんかいは　そうは　いかないわ。{BREAK} もう　ゼッタイに　ゆだんなんかするもんか。"
+SAY "{VOICE=08}But you can bet that's not a mistake I'm going to repeat."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}「わるいけど　ふみだいに　なってもらうわ。{BREAK} 真のチャンピオンは　アタシよ……!"
+SAY "{VOICE=08}I hope you don't mind if I use you as a spiky-headed stepping stone...{WAIT}{CLEAR}...and claim my place as the one true champion."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1970,11 +1970,11 @@ STORE 0x18 0x1 0x0 0x2 0x42700000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「これが　真のバトルGP　決勝戦となるのか!?{BREAK} {NAME}が勝てば　優勝が決まるぞ!"
+SAY "{VOICE=07}Could this bout decide the True Monster Scout Challenge?{WAIT}{CLEAR}If {NAME} can win here, he'll be crowned champion!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Referee"
-SAY "{VOICE=07}「いくぜ!　レディーー……………{BREAK} ファァァァァィッツッ!!!"
+SAY "{VOICE=07}Let's do this!{BREAK}...Ready! ...Set! ...FIGHT!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41a00000
@@ -2055,7 +2055,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43250000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「決まったァァァァ…………!!!!"
+SAY "{VOICE=07}...We have a winner!!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2079,7 +2079,7 @@ SYS_8C 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「真のバトルGP　チャンピオンは{BREAK} {NAME}に　決定だーーー!!!"
+SAY "{VOICE=07}The champion of the True Monster Scout Challenge is...{NAME}!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x427c0000
 SYS_A5 0x8 
@@ -2116,7 +2116,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}「……くやしいけど　負けたわ。{BREAK} いまの　アタシには　たちうち　できないわ。"
+SAY "{VOICE=08}Okay, so you beat me! Big deal! You don't have to look so darn smug about it!{WAIT}{CLEAR}I just haven't hit peak condition yet..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2144,15 +2144,15 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}「でも　ふしぎね……。アタシ　ふるえてるの。"
+SAY "{VOICE=08}Just look at my hands! I'm trembling with...with...determination!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}「あなたに負けたとき　むすうの配合パターンが{BREAK} アタシのあたまを　よぎったわ。"
+SAY "{VOICE=08}When you beat me, I got a vision of all the great monsters I could synthesise."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}「アタシは　まだまだ　強くなれる……。{BREAK} それが　わかって　うれしかったのよ。"
+SAY "{VOICE=08}Solitaire's not down for the count yet! I've still got some surprises up my sleeve!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2175,15 +2175,15 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}「こんどこそ……!　こんどこそ　負けないわよ!{BREAK} また　どこかで　会ったら　戦いましょう!"
+SAY "{VOICE=08}Next time we meet, you're going to be the loser, kiddo. That's a promise!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}「おたがい　じまんのモンスターを{BREAK} 出しあって……!"
+SAY "{VOICE=08}In the meantime, let's find us some monsters we can really show off."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}「じゃあね　真のチャンピオンくん。"
+SAY "{VOICE=08}See you around, Mr Big Shot Champion."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2255,23 +2255,23 @@ STORE 0x18 0x1 0x0 0x2 0x428c0000
 STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}「ハッ!　すまん　すまん。{BREAK} かんどうのなみだで　前が　みえなくてな。"
+SAY "{VOICE=07}For the first time in recorded history, Don Mole has been rendered speechless!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}「{NAME}よ。おめでとう。{BREAK} やはり　真のチャンピオンは　そなただったか。"
+SAY "{VOICE=07}{E321}{NAME}, I'm so proud of you!{WAIT}{CLEAR}You made it to the top! You're the True Monster Scout Challenge champion!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}「試練のバトルGP……　戦の神の復活……。{BREAK} 思えば　ながい道のりであった……。"
+SAY "{VOICE=07}Gettin' your groove on in all those battles... Revivin' the Divine Battler... {WAIT}{CLEAR}The road to the top sure has been eventful."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}「そなたには　ほんとうに　カンシャしている。{BREAK} 真のチャンピオンの名にも　ふさわしいぞ。"
+SAY "{VOICE=07}On behalf of all molekind, I'd like to thank you for all you've done.{WAIT}{CLEAR}{E321}{NAME}, the most funky champion.{BREAK}It's got a ring to it all right!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}「さあ　うけとるが　いい。{BREAK} これが　真のバトルGP　優勝賞品だ。"
+SAY "{VOICE=07}Now it's time to collect your due as champion. Here's your grand prize..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2285,13 +2285,13 @@ SYS_55 0x8
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_A8 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}{E328}を　{E322}コ　手に入れた!"
+SAY "{COLOR=2}{E321}{NAME} obtains ten bags of beastie bites!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}「真のバトルGPは　これにて　おひらきだ……。"
+SAY "{VOICE=07}And with that, I'd like to bring the True Monster Scout Challenge to a close..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2337,14 +2337,14 @@ JMP_ABS 0xc L_a1f8
 L_a2b4:
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}「む…………!?"
+SAY "{VOICE=07}Huh!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}「配合けんきゅう所のほうから{BREAK} なにやら　なつかしい気配がする……。"
+SAY "{VOICE=07}Strangely familiar vibes are emanatin' from the Synthesis Research Facility."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x0 0x41600000 0x2 0x0
@@ -2365,7 +2365,7 @@ L_a464:
 JMP_ABS 0xc L_a3b4
 L_a470:
 SETNAME "Don Mole"
-SAY "{VOICE=07}「{NAME}よ。{BREAK} すこし　みてきてくれないか?"
+SAY "{VOICE=07}Why don't you groove on over there, {NAME} and check it out?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2419,11 +2419,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「あーっと!　チャンピオン　{NAME}!{BREAK} むねん!　ここで　まさかの敗北だーーーー!!"
+SAY "{VOICE=07}It's hard to believe, but our champion {NAME} has been defeated!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Referee"
-SAY "{VOICE=07}「だが　れんぞくで　勝つ者が　あらわれなければ{BREAK} しきりなおしに　なるぜ!　あきらめるなー!"
+SAY "{VOICE=07}But don't give up just yet!{WAIT}{CLEAR}If no rival can rack up consecutive victories, there'll be a rematch!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2467,11 +2467,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Referee"
-SAY "{VOICE=07}「あーっと!　チャンピオン　{NAME}!{BREAK} むねん!　ここで　まさかの敗北だーーーー!!"
+SAY "{VOICE=07}It's hard to believe, but our champion {NAME} has been defeated!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Referee"
-SAY "{VOICE=07}「だが　Solitaireが　つぎで勝てなければ{BREAK} しきりなおしに　なるぜ!　あきらめるなー!"
+SAY "{VOICE=07}But don't give up just yet!{WAIT}{CLEAR}If Solitaire doesn't win the next bout, there'll be a rematch!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -2486,11 +2486,11 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Solitaire"
-SAY "{VOICE=08}「ふふん。ざんねんでしたっ。{BREAK} やっぱり　あなたとは　デキがちがうのよ。"
+SAY "{VOICE=08}He he! Looks like you just couldn't cut it, kiddo!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Solitaire"
-SAY "{VOICE=08}「それじゃ　つぎの試合も　サクッと勝って{BREAK} 優勝　決めてきちゃおっかな。アハハハハハ!"
+SAY "{VOICE=08}Now I just have to wipe the floor with my next opponent and I'll be champion!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

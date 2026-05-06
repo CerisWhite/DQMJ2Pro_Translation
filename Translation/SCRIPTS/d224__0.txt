@@ -105,7 +105,7 @@ CMP_EQ 0x18 0x0 0x40000000 0x2 0x0
 JMP_IFNOT 0xc L_944
 SYS_42 0x8 
 L_700:
-SAY "{COLOR=2}ゲームデータを　セーブします。{VOICE=09}"
+SAY "{COLOR=2}Save game data?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -122,7 +122,7 @@ JMP_REL L_7e0
 L_7e0:
 JMP_ABS 0xc L_7ec
 L_7ec:
-SAY "{COLOR=2}ゲームデータは　セーブされませんが{BREAK}タイトルがめんに　もどってもよろしいですか?{VOICE=09}"
+SAY "{COLOR=2}You haven't saved your game. Is it still okay to return to the title screen?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_140 0x8 
 STORE 0x18 0x1 0x0 0x2 0x3f800000

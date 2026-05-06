@@ -86,7 +86,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Jamirus"
-SAY "{VOICE=07}「なんだ　テメエは?{BREAK} さっきから　ジャマばっかりしやがって。"
+SAY "{VOICE=07}Who d'you think you are? Quit pesterin' me, will you!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -111,7 +111,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_4E 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「私の乗客には　ゆびいっぽん　ふれさせん!"
+SAY "{VOICE=07}I'm warnin' you! Lay a claw on my passengers, and you'll answer to me!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -124,11 +124,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41000000
 SYS_17 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「……む?"
+SAY "{VOICE=07}...Hm?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「おお……!　神よ…………!"
+SAY "{VOICE=07}Hey! Here comes the cavalry!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_43 0x8 
@@ -179,7 +179,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41980000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「{NAME}じゃないか!{BREAK} よかった!　キミも　無事だったのか!"
+SAY "{VOICE=07}Glad to see you're still in one piece, Rookie!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -223,11 +223,11 @@ STORE 0x18 0x1 0x40400000 0x2 0x0
 SYS_1E 0x8 
 SYS_42 0x8 
 SETNAME "Jamirus"
-SAY "{VOICE=07}「ちっ　仲間がきたか。これいじょう{BREAK} 敵が増えるのは　やっかいだぜ。"
+SAY "{VOICE=07}Any more of these wretches appear and I'm in trouble. I need to end this now..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Jamirus"
-SAY "{VOICE=07}「しゃあねえな。まずは　テメエから{BREAK} あの世に　おくってやるぜ!"
+SAY "{VOICE=07}I'm gonna tear you both limb from limb! Starting with you..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -310,7 +310,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41980000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「おお!　{NAME}じゃないか!{BREAK} もどってきてくれたのか!"
+SAY "{VOICE=07}Rookie! You came back! I knew you wouldn't leave your Captain in the lurch!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -348,11 +348,11 @@ STORE 0x18 0x1 0x40400000 0x2 0x0
 SYS_1E 0x8 
 SYS_42 0x8 
 SETNAME "Jamirus"
-SAY "{VOICE=07}「ちっ　なんだよ。{BREAK} また　ジャマが入りやがったか。"
+SAY "{VOICE=07}What is this!? You again!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Jamirus"
-SAY "{VOICE=07}「しゃあねえな。にどと　はむかえないように{BREAK} こんどこそ　あの世に　おくってやるぜ!"
+SAY "{VOICE=07}This is the last time! I'm gonna tear you limb from limb!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

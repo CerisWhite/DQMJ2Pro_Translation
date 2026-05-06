@@ -78,7 +78,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x432a0000
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=07}「お前か。また　ワイが　ねてるところ{BREAK} ジャマしに　きたんかいな。"
+SAY "{VOICE=07}You!? You're back!? Here to disturb my beauty sleep again, are you?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -91,7 +91,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=07}「ところで　あのモーモンは　どないした?"
+SAY "{VOICE=07}Oh, and whatever happened to that piddlin' pipsqueak of a teeny sanguini?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -146,7 +146,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=07}「なん…なんやてッ!?　あのモーモンは{BREAK} レオソードさまだったっちゅうんかいな!!"
+SAY "{VOICE=07}...You WHAT!? You're seriously tellin' me that squawkin' little ball of malice...{WAIT}{CLEAR}...turned out to be the heart of Leonyx, the Great One!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40400000
@@ -258,19 +258,19 @@ STORE 0x18 0x1 0x40400000 0x2 0x0
 SYS_38 0x8 
 WAIT 0x10 0x2 0x3f800000
 SETNAME "Khalamari"
-SAY "{VOICE=07}「…ガクガク……。こ…こら　アカン……。"
+SAY "{VOICE=07}B-B-Blimey. Hang about..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Khalamari"
-SAY "{VOICE=07}「なあ　アンタ　ワイを　仲間にして{BREAK} どこか　とおくへ　つれてっておくんなはれ!"
+SAY "{VOICE=07}So now you're plannin' on gettin' me to join you and takin' me away with you?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Khalamari"
-SAY "{VOICE=07}「レオソードさまを　ぶんなぐったとあれば{BREAK} そんざいを　けされてしまいかねん!"
+SAY "{VOICE=07}Well, if you clobbered the Great One,{BREAK}I can't hope to stand in your way."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Khalamari"
-SAY "{VOICE=07}「ほな　いくで!　スカウトしてやー!"
+SAY "{VOICE=07}C'mon then! Let's see if you can{BREAK}scout me!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -342,7 +342,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x432a0000
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=07}「おお　アンタか!　まっておったで!"
+SAY "{VOICE=07}Ah, it's you. I've been on tentacle-hooks just waitin' for you."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -360,15 +360,15 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Khalamari"
-SAY "{VOICE=07}「さあ　ワイを　いますぐ　仲間にして{BREAK} どこか　とおくへ　つれてっておくんなはれ!"
+SAY "{VOICE=07}C'mon then, get me to join you and take me off somewhere exotic."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Khalamari"
-SAY "{VOICE=07}「レオソードさまを　ぶんなぐったとあれば{BREAK} そんざいを　けされてしまいかねん!"
+SAY "{VOICE=07}If you managed to clobber the Great One, I can't hope to stand in your way."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Khalamari"
-SAY "{VOICE=07}「ほな　いくで!　スカウトしてやー!"
+SAY "{VOICE=07}Now, let's see if you can scout me!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

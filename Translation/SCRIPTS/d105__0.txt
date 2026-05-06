@@ -81,7 +81,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41d80000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}大空のしはい者　Empyreaを　たおした。"
+SAY "{COLOR=2}{E321}{NAME} has defeated Empyrea,{BREAK}the ruler of the skies!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
@@ -95,7 +95,7 @@ STORE 0x18 0x1 0x0 0x2 0x41000000
 SYS_A7 0x8 
 SYS_AC 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}断崖のプレートを　手に入れた!"
+SAY "{COLOR=2}{NAME} obtained the Crag Plate!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -121,15 +121,15 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}「さすがに　強いですね。あの　お方が{BREAK} チカラをたくしたのも　ナットクです。"
+SAY "{VOICE=08}Remarkable. I can see why the Great One deemed you worthy of his power..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「けれど　私を仲間にしたければ{BREAK} スカウトを成功させねば　なりません。"
+SAY "{VOICE=08}However, if you wish me to join you,{BREAK}you must succeed in scouting me."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「もっと　強くなって　もどってきなさい。{BREAK} それでは……。"
+SAY "{VOICE=08}Come back here when you are stronger.{BREAK}I will be waiting..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -240,7 +240,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41d80000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}大空のしはい者　Empyreaを　たおした。"
+SAY "{COLOR=2}{E321}{NAME} has defeated Empyrea,{BREAK}the ruler of the skies!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
@@ -254,7 +254,7 @@ STORE 0x18 0x1 0x0 0x2 0x41000000
 SYS_A7 0x8 
 SYS_AC 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}断崖のプレートを　手に入れた!"
+SAY "{COLOR=2}{NAME} obtained the Crag Plate!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -280,15 +280,15 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}「さすがに　強いですね。あの　お方が{BREAK} チカラをたくしたのも　ナットクです。"
+SAY "{VOICE=08}Remarkable. I can see why the Great One deemed you worthy of his power..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「けれど　私を仲間にしたければ{BREAK} スカウトを成功させねば　なりません。"
+SAY "{VOICE=08}However, if you wish me to join you,{BREAK}you must succeed in scouting me."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「もっと　強くなって　もどってきなさい。{BREAK} それでは……。"
+SAY "{VOICE=08}Come back here when you are stronger.{BREAK}I will be waiting..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -395,7 +395,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}大空のしはい者　Empyreaを　仲間にした。"
+SAY "{COLOR=2}Empyrea, the ruler of the skies, has joined {NAME}'s team!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
@@ -409,7 +409,7 @@ STORE 0x18 0x1 0x0 0x2 0x41000000
 SYS_A7 0x8 
 SYS_AC 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}断崖のプレートを　手に入れた!"
+SAY "{COLOR=2}{NAME} obtained the Crag Plate!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -441,11 +441,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}「あなたのウツワ　みさせてもらいました。{BREAK} 私が　つかえるに　もうしぶんありません。"
+SAY "{VOICE=08}You have proven your worth as a monster scout of true merit."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「こんごとも　よろしくおねがいしますね。{BREAK} マスター　{NAME}さま……。"
+SAY "{VOICE=08}{NAME}, my master, I vow to serve you faithfully."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -480,7 +480,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}大空のしはい者　Empyreaを　仲間にした。"
+SAY "{COLOR=2}Empyrea, the ruler of the skies, has joined {NAME}'s team!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
@@ -494,7 +494,7 @@ STORE 0x18 0x1 0x0 0x2 0x41000000
 SYS_A7 0x8 
 SYS_AC 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}断崖のプレートを　手に入れた!"
+SAY "{COLOR=2}{NAME} obtained the Crag Plate!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -526,11 +526,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}「あなたのウツワ　みさせてもらいました。{BREAK} 私が　つかえるに　もうしぶんありません。"
+SAY "{VOICE=08}You have proven your worth as a monster scout of true merit."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「こんごとも　よろしくおねがいしますね。{BREAK} マスター　{NAME}さま……。"
+SAY "{VOICE=08}{NAME}, my master, I vow to serve you faithfully."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -586,7 +586,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41d80000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}大空のしはい者　Empyreaを　たおした。"
+SAY "{COLOR=2}{NAME} has defeated Empyrea,{BREAK}the ruler of the skies!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
@@ -615,15 +615,15 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}「さすがに　強いですね。あの　お方が{BREAK} チカラをたくしたのも　ナットクです。"
+SAY "{VOICE=08}Remarkable. I can see why the Great One deemed you worthy of his power..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「けれど　私を仲間にしたければ{BREAK} スカウトを成功させねば　なりません。"
+SAY "{VOICE=08}However, if you wish me to join you,{BREAK}you must succeed in scouting me."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「もっと　強くなって　もどってきなさい。{BREAK} それでは……。"
+SAY "{VOICE=08}Come back here when you are stronger.{BREAK}I will be waiting..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -734,7 +734,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41d80000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}大空のしはい者　Empyreaを　たおした。"
+SAY "{COLOR=2}{NAME} has defeated Empyrea,{BREAK}the ruler of the skies!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
@@ -763,15 +763,15 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}「さすがに　強いですね。あの　お方が{BREAK} チカラをたくしたのも　ナットクです。"
+SAY "{VOICE=08}Remarkable. I can see why the Great One deemed you worthy of his power..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「けれど　私を仲間にしたければ{BREAK} スカウトを成功させねば　なりません。"
+SAY "{VOICE=08}However, if you wish me to join you,{BREAK}you must succeed in scouting me."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「もっと　強くなって　もどってきなさい。{BREAK} それでは……。"
+SAY "{VOICE=08}Come back here when you are stronger.{BREAK}I will be waiting..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -878,7 +878,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}大空のしはい者　Empyreaを　仲間にした。"
+SAY "{COLOR=2}Empyrea, the ruler of the skies, has joined {NAME}'s team!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
@@ -913,11 +913,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}「あなたのウツワ　みさせてもらいました。{BREAK} 私が　つかえるに　もうしぶんありません。"
+SAY "{VOICE=08}You have proven your worth as a monster scout of true merit."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「こんごとも　よろしくおねがいしますね。{BREAK} マスター　{NAME}さま……。"
+SAY "{VOICE=08}{NAME}, my master, I vow to serve you faithfully."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -952,7 +952,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}大空のしはい者　Empyreaを　仲間にした。"
+SAY "{COLOR=2}Empyrea, the ruler of the skies, has joined {NAME}'s team!"
 WAIT 0x10 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
@@ -987,11 +987,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Empyrea"
-SAY "{VOICE=08}「あなたのウツワ　みさせてもらいました。{BREAK} 私が　つかえるに　もうしぶんありません。"
+SAY "{VOICE=08}You have proven your worth as a monster scout of true merit."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Empyrea"
-SAY "{VOICE=08}「こんごとも　よろしくおねがいしますね。{BREAK} マスター　{NAME}さま……。"
+SAY "{VOICE=08}{NAME}, my master, I vow to serve you faithfully."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

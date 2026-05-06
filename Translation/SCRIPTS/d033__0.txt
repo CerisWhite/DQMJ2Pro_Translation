@@ -143,7 +143,7 @@ SPAWN 0x10 L_2dcc
 DATA 0x00000009
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}「つ…つええ。お前　なにもんだ……?"
+SAY "{VOICE=07}...J-Just who are you!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -179,12 +179,12 @@ SPAWN 0x10 L_2dcc
 DATA 0x00000009
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}「このままじゃ　オレたちのアジトが　やべえ。{BREAK} エングンをよんで　なんとかしようぜ!"
+SAY "{VOICE=07}Our funky pad is in peril! We need reinforcements - on the double!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{VOICE=07}「…………まて。"
+SAY "{VOICE=07}...Woah there! Not so fast, Brother Miles."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -250,7 +250,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x3f800000
 SYS_127 0x8 
 SYS_42 0x8 
 SETNAME "Moles"
-SAY "{VOICE=07}「Don Moleさまっ!"
+SAY "{VOICE=07}Don Mole!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -269,7 +269,7 @@ STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}「その者たちは　モンスターではない。{BREAK} 人間という　生きものだ。"
+SAY "{VOICE=07}Those ain't monsters. They're the funky creatures known as human beings."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -304,7 +304,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}「エッ!　こいつらが　あのニンゲン……?"
+SAY "{VOICE=07}Say what!? These critters are...'human beings'!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -319,15 +319,15 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}「手下たちのぶれい　ゆるしてくれ。{BREAK} 私は　このアジトのボス　Don Moleだ。"
+SAY "{VOICE=07}I hope you can forgive my underlings' outrageous and unfunky manners.{WAIT}{CLEAR}I'm the one, the only, Don Mole{BREAK}- the Godfather of Moles!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}「……ところで　そなたが　手下と戦っている間{BREAK} 気になるモノを　目にしたのだが……。"
+SAY "{VOICE=07}Now when you were battlin' my half-blind brethren...{WAIT}{CLEAR}...I spied somethin' supremely shiny in your possession."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}「そなたの　もっている　そのプレートは?"
+SAY "{VOICE=07}Now, unless my eyes deceive me, that's some serious bling you're sportin'!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -343,7 +343,7 @@ WAIT 0x10 0x2 0x428c0000
 SYS_CF 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}「やはり……。ついに　そのプレートをもつ{BREAK} 人間が　あらわれたか……。"
+SAY "{VOICE=07}We were told that one day a human would strut onto the scene wieldin' that medal.{WAIT}{CLEAR}Looks like that day finally arrived."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -364,7 +364,7 @@ STORE 0x18 0x1 0x0 0x2 0x42b40000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}「われらの使命を　果たすときが　きたようだ。{BREAK} お前たち　じゅんびをするぞ。"
+SAY "{VOICE=07}Listen up! It's time for all molekind to do their righteous, funky duty.{WAIT}{CLEAR}Brothers and sisters!{BREAK}Are you ready to get down?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -410,7 +410,7 @@ SPAWN 0x10 L_2dcc
 DATA 0x00000009
 SYS_42 0x8 
 SETNAME "Miles"
-SAY "{VOICE=07}「エッ!!　まさか……{BREAK} アレを　はじめるって　言うんですかい!?"
+SAY "{VOICE=07}D-Don Mole! Are you serious? You mean it's time for the You-Know-What...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -418,7 +418,7 @@ SPAWN 0x10 L_2acc
 DATA 0x00000006
 SYS_42 0x8 
 SETNAME "Billie"
-SAY "{VOICE=08}「あの　お方が　いらっしゃらないのに……。{BREAK} そんなの　ムチャクチャじゃありません!?"
+SAY "{VOICE=08}Ain't we gettin' a bit ahead of ourselves? I mean, You-Know-Who ain't even here..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -432,15 +432,15 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}「この者が　あらわれたときから{BREAK} われらのウンメイは　決した……。"
+SAY "{VOICE=07}I'm only gonna say this once, so listen up!{WAIT}{CLEAR}This kid has come to us as it was foretold. Our work is about to begin!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}「われらは　はじめねばならんのだよ。{BREAK} あの　バトルGPをな……。"
+SAY "{VOICE=07}We gotta get the Monster Scout Challenge show on the road, you dig?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Don Mole"
-SAY "{VOICE=07}「人間よ。私に　ついてきてくれ。"
+SAY "{VOICE=07}Come, my funky human brothers.{BREAK}Walk this way..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

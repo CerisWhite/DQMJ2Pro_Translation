@@ -88,42 +88,42 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「……やれやれ。ウワサいじょうに{BREAK} わがままな　おじょうさんだったな……。"
+SAY "{VOICE=07}I'd heard she had an attitude, but...SHEESH!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「あれが　前回のバトルGPで　優勝した{BREAK} モンスターマスターだとは　信じられんよ。"
+SAY "{VOICE=07}And to think - she's the reigning champion!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{VOICE=07}「まあ　真のプロフェッショナルとよべるヤツは{BREAK} そうそう　いないってことだろ。"
+SAY "{VOICE=07}Aye, well that's monster scouts for ye. They're a strange breed, and no mistake."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SAY "{VOICE=07}「でもよ　バトルGPのかいさいが　せまると{BREAK} むかしのことを　思いださねえか?"
+SAY "{VOICE=07}But I cannae help feelin' a wee bit misty-eyed...{WAIT}{CLEAR}...what with the Monster Scout Challenge roond the corner and all."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「ああ　そうだな。むかしは　金も　コネもなく{BREAK} こんな飛行船に　もぐりこんで　会場に……。"
+SAY "{VOICE=07}Ah, happy days. We didn't have two gold coins to rub together, but we had dreams.{WAIT}{CLEAR}We'd sneak onto airships just like this one and head to the Challenge."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{VOICE=07}「ハッハッハ!　そうそう。で　みつかっては{BREAK} こっぴどく　しかられたっけな。"
+SAY "{VOICE=07}Aye! And if the Cap'n ever caught ye, he'd have yer guts for garters!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「その私たちが　いまは　マスターの　ゆめを乗せ{BREAK} 空を飛んでいる……。人生とは　おもしろいな。"
+SAY "{VOICE=07}And now it's us flyin' those scouts to the Challenge as they go chasin' their dreams. {WAIT}{CLEAR}Funny how life turns out..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41a00000
 SETNAME "Captain Mayday"
-SAY "{VOICE=07}「よし。それでは　出発しよう。{BREAK} 乗客のみなさんが　おまちかねだ。"
+SAY "{VOICE=07}Well, let's save the nostalgia for another time. The passengers will be gettin' antsy.{WAIT}{CLEAR}C'mon! Let's get the Albatross up in the air where she belongs!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
