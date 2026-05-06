@@ -54,7 +54,7 @@ None
 Monsters
 New Monster Status
 Next Lv
-left
+Next
 Family
 Sort
 Info
@@ -194,7 +194,7 @@ Anticipate Dance
 Break Seal
 Waltz of Binding
 Spiritual Focus
-Netherworld Mist
+Underworld Fog
 Chain
 Cover Seal
 Zero Shock
@@ -221,11 +221,11 @@ A
 S
 SS
 ??
-All
+Any
 RANK
 F-D
 C-A
-S・SS
+S/SS
 {321}{30b}{00} has equipped {328}!
 This can be used {322} more times!{315}Use now?
 {321}{30f}'s team recover HP!
@@ -394,7 +394,7 @@ Sorted by weapon type!
 
 
 
-Use 1 Metal Ticket{315}and head to the Metal menagerie?{315}Are you sure?
+Use a metal ticket to unlock the Metal menagerie?
 {30f}{315} used a Metal Ticket!
 The Metal Ticket can't be used here.{315}Try using it somewhere else!
 Yes
