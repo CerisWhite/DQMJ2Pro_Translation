@@ -3452,10 +3452,10 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41500000
 JMP_IFNOT 0xc L_d3d4
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「おい!　いま　そんなとこ　通ったら{BREAK} あぶねえだろ!"
+SAY "{VOICE=07}What're ye playin' at, ye daft loon?{BREAK}Are ye tryin' tae get yerself killed?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「自分の体を　もっと　大事にしやがれ!"
+SAY "{VOICE=07}Och, youngsters these days dinnae have the sense they were born with."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3543,7 +3543,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3ecccccd
 SYS_54 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{COLOR=2}ここには　人が　いるようだ……!{BREAK}いまは　おりないほうが　いいだろう。"
+SAY "{COLOR=2}Looks like someone's in here.{BREAK}It might be best to head back up."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3845,22 +3845,22 @@ STORE 0x18 0x0 0x42c40000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c40000 0x2 0x0
 JMP_IFNOT 0xc L_f080
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}みならい船員として　あいさつをした。"
+SAY "{COLOR=2}{E321}{NAME} introduces himself and explains what he is doing on board."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}「お前か……。かくれて船に乗ってた{BREAK} ふとどき者の　ボウズは。"
+SAY "{VOICE=07}Och, so it's ye, is it? The rotten laddie who stowed his wee self aboord ma ship."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「オレの名前は　Rory Bellows。{BREAK} この船の整備士をしている。"
+SAY "{VOICE=07}Well, Rory Bellows is ma name.{WAIT}{CLEAR}I'm chief engineer on this fine vessel,{BREAK}and dinnae ye forget it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「船長は　お前のこと　カンタンに{BREAK} ゆるしたみてえだが……。"
+SAY "{VOICE=07}Cap'n Rex may be a big softie, but ye cannae pull the wool over ma eyes."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「オレは　タダ乗りだけは　ゆるさねえ。{BREAK} ビシバシしごいてやるから　カクゴしとけ。"
+SAY "{VOICE=07}There'll be no free rides aboord the Albatross. Ye'll pay yer passage!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3913,10 +3913,10 @@ JMP_ABS 0xc L_f094
 L_f094:
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「船長は　お前のこと　カンタンに{BREAK} ゆるしたみてえだが……。"
+SAY "{VOICE=07}Cap'n Rex may be a big softie, but ye cannae pull the wool over ma eyes."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「オレは　タダ乗りだけは　ゆるさねえ。{BREAK} ビシバシしごいてやるから　カクゴしとけ。"
+SAY "{VOICE=07}There'll be no free rides aboord the Albatross. Ye'll pay yer passage!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3928,10 +3928,10 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41200000
 JMP_IFNOT 0xc L_f28c
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「船長は　お前のこと　カンタンに{BREAK} ゆるしたみてえだが……。"
+SAY "{VOICE=07}Cap'n Rex may be a big softie, but ye cannae pull the wool over ma eyes."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「オレは　タダ乗りだけは　ゆるさねえ。{BREAK} ビシバシしごいてやるから　カクゴしとけ。"
+SAY "{VOICE=07}There'll be no free rides aboord the Albatross. Ye'll pay yer passage!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3943,10 +3943,10 @@ STORE 0x18 0x1 0x0 0x2 0x42b40000
 SYS_23 0x8 
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「お前か!　なにしにきた!{BREAK} 機関室のようすでも　みにきたのか?"
+SAY "{VOICE=07}Och, what're ye doin' doon here? Have ye come tae check on ma engines, laddie?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「こっちは　心配いらねえ!{BREAK} お前は　自分の心配を……"
+SAY "{VOICE=07}Well, go straight back up that ladder and start worryin' aboot yer own business!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4000,7 +4000,7 @@ STORE 0x18 0x1 0x40a00000 0x2 0x0
 SYS_51 0x8 
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「ぐわぁぁっ!!"
+SAY "{VOICE=07}...Crivvens!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4023,7 +4023,7 @@ SYS_2B 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「こ…こいつは　まずい……!{BREAK} きんきゅうじたいだっ!"
+SAY "{VOICE=07}This doesnae look good... No, it doesnae look good at all!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4037,10 +4037,10 @@ SYS_3B 0x8
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「おいっ!　新入りっ!{BREAK} 船長んとこ行って　伝えてくれ!"
+SAY "{VOICE=07}Get tae the bridge and tell the Cap'n what's happenin', do ye hear?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「いまのゆれで　機関が　ダメージをうけた!{BREAK} きんきゅうひなんの　じゅんびをしろってな!"
+SAY "{VOICE=07}That impact damaged ma engines - and we may be headin' for a crash landin'!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4056,10 +4056,10 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41500000
 JMP_IFNOT 0xc L_fc30
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「なに　ボーッと　つったってんだ!{BREAK} はやく　船長んとこ行って　伝えてくれ!"
+SAY "{VOICE=07}Och, laddie. what're ye still haiverin' aroond here for? Report tae the Cap'n!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「いまのゆれで　機関が　ダメージをうけた!{BREAK} きんきゅうひなんの　じゅんびをしろってな!"
+SAY "{VOICE=07}That impact damaged ma engines - and we may be headin' for a crash landin'!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4078,16 +4078,16 @@ CMP_EQ 0x18 0x0 0x42c40000 0x2 0x0
 JMP_IFNOT 0xc L_fe90
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「おう　{NAME}。{BREAK} どうした　こんなところにきて?"
+SAY "{VOICE=07}Ach, if it isnae ma favourite stowaway. What're ye doin' doon here?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「なに?　飛行船に　ネズミが{BREAK} まぎれこんでるから　さがしてるって?"
+SAY "{VOICE=07}Ye don't say! A wee mousie was spotted, and ye've been sent to hunt it doon?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ははぁん。なるほどな……。"
+SAY "{VOICE=07}Well, soonds like a mighty important job ye've been given there, laddie."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「この機関室には　そんなの　いねえよ。{BREAK} 上の　にもつおき場を　さがしてみろ。"
+SAY "{VOICE=07}But you willnae find any rodents in ma engine room.{WAIT}{CLEAR}Why don't ye scamper up the ladder and search the cargo hold? "
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4102,7 +4102,7 @@ JMP_ABS 0xc L_fea4
 L_fea4:
 SYS_42 0x8 
 SETNAME "Rory Bellows"
-SAY "{VOICE=07}「この機関室には　ネズミなんか　いねえよ。{BREAK} 上の　にもつおき場を　さがしてみろ。"
+SAY "{VOICE=07}Ma engine room's officially a mousie-free zone! Try the cargo hold, why don't ye?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4189,7 +4189,7 @@ STORE 0x18 0x1 0x0 0x2 0x42480000
 SYS_49 0x8 
 WAIT 0x10 0x2 0x42340000
 SYS_42 0x8 
-SAY "{COLOR=2}メーターやバルブが　たくさんついている。{BREAK}飛行船の　動力機関のようだ。"
+SAY "{COLOR=2}It's covered in dials and gauges.{BREAK}It appears to be the ship's engine."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4339,7 +4339,7 @@ JMP_IFNOT 0xc L_10ce8
 CMP_LE 0x18 0x0 0x42e80000 0x2 0x40e00000
 JMP_IFNOT 0xc L_109ec
 SYS_42 0x8 
-SAY "{COLOR=2}カギが　かかっている。{BREAK}乗員の　にもつのようだ。"
+SAY "{COLOR=2}It's securely locked. It appears to belong to a member of the crew."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4361,7 +4361,7 @@ L_10a88:
 CMP_EQ 0x18 0x0 0x42e40000 0x2 0x3f800000
 JMP_IFNOT 0xc L_10b18
 SYS_42 0x8 
-SAY "{COLOR=2}カギが　かかっている。{BREAK}Rory Bellowsの　にもつのようだ。"
+SAY "{COLOR=2}It seems to be Rory Bellows' trunk. It's securely locked."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4372,7 +4372,7 @@ L_10b20:
 JMP_ABS 0xc L_10b2c
 L_10b2c:
 SYS_42 0x8 
-SAY "{COLOR=2}カギが　かかっている。{BREAK}乗員の　にもつのようだ。"
+SAY "{COLOR=2}It's securely locked. It appears to belong to a member of the crew."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4394,7 +4394,7 @@ CMP_LE 0x18 0x2 0x41400000 0x0 0x42e80000
 JMP_IFNOT 0xc L_10cdc
 L_10c40:
 SYS_42 0x8 
-SAY "{COLOR=2}カギが　かかっている。{BREAK}Rory Bellowsの　にもつのようだ。"
+SAY "{COLOR=2}It seems to be Rory Bellows' trunk. It's securely locked."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4410,7 +4410,7 @@ L_10cf0:
 JMP_ABS 0xc L_10cfc
 L_10cfc:
 SYS_42 0x8 
-SAY "{COLOR=2}カギが　かかっている。{BREAK}Rory Bellowsの　にもつのようだ。"
+SAY "{COLOR=2}It seems to be Rory Bellows' trunk. It's securely locked."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4437,7 +4437,7 @@ STORE 0x18 0x1 0x0 0x2 0x423c0000
 SYS_49 0x8 
 WAIT 0x10 0x2 0x41600000
 SYS_42 0x8 
-SAY "{COLOR=2}Rory Bellowsの　にもつのようだ。{BREAK}カギが　あいている。"
+SAY "{COLOR=2}It looks like this is Rory Bellows' trunk. It's unlocked."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
