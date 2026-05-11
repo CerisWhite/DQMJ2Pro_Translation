@@ -1,7 +1,7 @@
 
 
-{321}{30f}'s team flee!
-{321}{30f}'s team are wiped out!
+{321}{30f}'s team flees!
+{321}{30f}'s team is wiped out!
 
 But the enemy block the team's path!
 The enemy are taken by surprise!
@@ -81,8 +81,8 @@ Weighing things up.
 Took offence!
 
 
-{321}{30b}{00} obtains{315}{322} skill points!
-{321}{30b}{00}'s level{315}has reached the maximum.
+Obtained {322} skill points!
+Level has reached the maximum.
 Obtained {328}!
 Forfeit the current battle.
 Return to the current battle.
