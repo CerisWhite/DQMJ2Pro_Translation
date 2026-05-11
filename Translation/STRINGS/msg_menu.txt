@@ -118,7 +118,7 @@ Load
 {23a} Monster Pen
 OK
 Cancel
-Dragon Quest Monsters: Joker 2 Professional
+DQM: Joker 2 Professional
 No Data
 You have {322}
 etc.
