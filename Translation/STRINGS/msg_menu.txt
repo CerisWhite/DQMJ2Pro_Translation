@@ -228,9 +228,9 @@ C-A
 S/SS
 {321}{30b}{00} has equipped {328}!
 This can be used {322} more times!{315}Use now?
-{321}{30f}'s team recover HP!
+{321}{30f}'s team recovers HP!
 No one in {30f}'s team can use healing magic.
-{321}{30f}'s team already have maximum HP!
+{321}{30f}'s team already has maximum HP!
 {321}{30f}'s team fully recover HP and MP!
 {321}{30f}'s team already have maximum HP and MP!
 This can't be used until {30f} returns to the Albatross.
@@ -395,7 +395,7 @@ Sorted by weapon type!
 
 
 Use a metal ticket to unlock the Metal menagerie?
-{30f}{315} used a Metal Ticket!
+{30f} used a Metal Ticket!
 The Metal Ticket can't be used here.{315}Try using it somewhere else!
 Yes
 No

@@ -1,63 +1,63 @@
 ????????
-プロフェッショナルとは
-仲間モンスター
-モンスターの回復
-パーティランク
-ルーラ
-セーブ
-アイテムと武器
-最強マスター決定戦
-すれちがいバトル
+Professionals
+Your Team
+Healing Your Monsters
+Party Rank
+Zoom
+Saving
+Items and Weapons
+Monster Championship
+Tag Mode Battles
 モンスターの交換
-ゲストモンスター
-「Guest」マークを　けすには?
-スカウトの仕方
-スカウトの成功
-スタンバイモンスター
-戦闘中に入れかえ
-回復ポイント
-強力なモンスター
-巨大なモンスター
-スキルわりふり
-アイテム販売機
-ゴールドバンクATM
-お気に入り編成
-バーチャルバトル
-てんき
+Guest Monsters
+The 'Guest' Mark
+Scouting
+Successful Scouting
+Substitute Monsters
+Switching in Battle
+Healing Spots
+Mighty Monsters
+Giant Monsters
+Skill Allocation
+Item Vendor
+Gold Bank ATM
+Favorite Teams
+Virtual Battle
+Weather
 けいとうについて1
 けいとうについて2
-配合とは?
-配合の仕方
-配合時のスキルうけつぎ
-成長げんかい
+Synthesis
+How to Synthesize
+Inheriting Skills
+Leveling Up
 しんか配合の仕方
-まんたん
-回復ボトル
-スカウトQメモ1
-スカウトQメモ2
-スカウトQメモ3
-スカウトQメモ4
-スカウトQメモ5
-スカウトQメモ6
-スカウトQメモ7
-スカウトQメモ8
-スカウトQメモ9
-スカウトQメモ10
-スカウトQメモ11
-スカウトQメモ12
-スカウトQメモ13
+Heal All
+Monster Mender
+Memo 1
+Memo 2
+Memo 3
+Memo 4
+Memo 5
+Memo 6
+Memo 7
+Memo 8
+Memo 9
+Memo 10
+Memo 11
+Memo 12
+Memo 13
 
 
-32ほんぶん
+32
 ????????
-プロフェッショナルとは{315}たぐいまれな　チカラと技と　ただしき心をもち{315}自らの手で　最強のモンスターを　そだてあげ{315}どんな相手にも　たちむかっていく{315}モンスターマスターのことです。{315}{315}しかし　その高みに　とうたつできるマスターは{315}ほんの　ひとにぎりだと言われています。
-あなたのパートナーとなり{315}戦闘で　かつやくする　心強い仲間たちです。{315}メインで戦う　パーティモンスターは{315}最大で　3体です。{315}{315}仲間にできるモンスターの数は　100体です。{315}それをこえると　スカウトが　できなくなるので{315}モンスター預かり所で　整理しましょう。
-キズついたモンスターは　飛行船の中に入れば{315}かんぜんに回復します。{315}死んでしまったモンスターも　ふっかつします。{315}{315}またバトル中は　モンスターマスターである{315}あなたが　道具を使って仲間たちを{315}サポートすることが　できます。
-パーティランクとは　パーティの強さを{315}☆の数で　あらわしたものです。{315}{315}HPや攻撃力などの　たかいモンスターが{315}おおいほど　パーティは　より強いとされ{315}☆の数が　増えていきます。{315}また　もっている特技や　特性によっても{315}パーティの強さは　かわります。
-ルーラは　いちど行ったことのあるエリアに{315}すぐにいどうできる　しゅじんこうの特技です。{315}{315}飛行船の中など　いちぶ使用できない場所も{315}あるようですが　それいがいの場所では{315}たとえ　どうくつの中などにいても{315}使うことができます。
-いつでも　どこでも　セーブができます。{315}ただし　特定のシーンでは　まれに{315}セーブできないことも　あります。{315}{315}ゲームを　おえるときいがいでも{315}じゅうようなきょくめんを　むかえる前などは{315}セーブを　利用してください。
-アイテムには　さまざまな効果があり{315}Yボタンの説明で　効果を知ることができます。{315}おもに　いどう中と戦闘中で　使えるものが{315}わけられ　いちど使うとなくなってしまいます。{315}{315}武器は　アイテムとはことなり　モンスターに{315}装備させることで　効果を　はっきします。{315}攻撃力アップが　武器のおもな効果です。
-最強マスター決定戦とは　世界最強をきめる{315}きゅうきょくの　Wi-Fiランキングバトルです。{315}まいにちホームとアウェーで戦って{315}ランキングをきそいます。{315}{315}ゲームのタイトルがめんから{315}「Wi-Fi通信で対戦」→「最強マスター決定戦」を{315}選んで　ぜひ参加してください。
+Professionals are fearless souls{315}who bend monsters to their will.{315}{315}A scout that masters the art,{315}will become able to command even the monsters{315}who threaten the entire world.
+Monsters are your most stalwart allies{315}and bravely do battle alongside you.{315}You can battle with up to three monsters{315}in your active team at a time. It's{315}possible to scout and keep up to 100{315}monsters at once.
+Bring injured monsters back to the{315}Albatross and they will make a full{315}recovery.{315}Defeated monsters will be brought{315}back to life. You can use items in battle{315}to support your monsters and help them{315}recover HP and MP.
+Party Rank is determined by the{315}stats of your monsters, such as HP and Attack.{315}Certain skills and traits also influence{315}the rank.{315}{315}Rank is displayed as stars above your team.
+Zoom is a skill used by the hero to{315}travel instantaneously to regions he{315}has visited before.{315}Zoom can even be used inside caves,{315}but there are some areas where it{315}does not work.
+You can save your game at almost any{315}time or point during the adventure.{315}However, there are a small number of{315}scenes where you cannot save.
+Press the Y Button to read up on item{315}effects. There are items the hero can{315}use while travelling and those he can{315}use during battle.{315}Weapons, are equipped by monsters.{315}They serve mostly to boost attack power.
+The ultimate monster scout tournament{315}takes place via Nintendo WFC.{315}Participants from all over the world are{315}ranked after daily Home and Away Bouts.
 ワイヤレス通信を使って　すれちがった{315}ほかのプレイヤーと　対戦します。{315}対戦相手は　思い出の戦いとして　ほぞんでき{315}さらに　配信することが　かのうです。{315}{315}ただし　RANKがSいじょうのモンスターは{315}スカウトすることが　できないので{315}ちゅういしてください。
 ほかのプレイヤーが　そだてたモンスターや{315}DQMジョーカー2で　そだてたモンスターを{315}ワイヤレス通信を使い　交換することができます。{315}{315}ただし　DQMジョーカー2と　交換できるのは{315}RANKがAまでの　モンスターにかぎられ{315}レベルは　1になってしまうので{315}ちゅういしてください。
 すれちがいバトルで　仲間にしたモンスターは{315}ゲストモンスターとよばれ　名前のよこに{315}「Guest」マークが　つきます。{315}あなたの　そだてたモンスターと　おなじように{315}パーティメンバーに入れて　戦わせたり{315}すれちがいバトルに　使うこともできますが{315}Wi-Fi通信の　最強マスター決定戦には{315}参加できないので　ちゅういしてください。

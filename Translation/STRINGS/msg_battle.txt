@@ -82,7 +82,7 @@ Took offence!
 
 
 Obtained {322} skill points!
-Level has reached the maximum.
+Level has reached the{315}maximum.
 Obtained {328}!
 Forfeit the current battle.
 Return to the current battle.
