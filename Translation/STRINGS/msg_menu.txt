@@ -46,9 +46,9 @@ Max. MP
 {224}
 {225}
 Type
-Traits:
+Traits
 Resistances
-Skills:
+Skills
 E
 None
 Monsters
@@ -61,9 +61,9 @@ Info
 Attrb.
 Yes
 No
-Skills:
+Skills
 Discard
-Play Time:
+Play Time
 OK
 Cancel
 Monster A
@@ -74,9 +74,9 @@ You need {322} points to learn{315}{324}.
 {31c}1Skill boosted!{31c}{00}{315}{30b}T
 Points
 Strongest Weapon
-MASTER
+Master
 MP Needed
-MASTER!
+Master!
 Can't use
 Amount
 Use

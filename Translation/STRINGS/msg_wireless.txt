@@ -166,13 +166,13 @@ Stop Trading
 
 Monsters
 Back
-Trade with DQM Joker 2 PROFESSIONAL
+Trade with DQM Joker 2 Pro
 Trade with DQM Joker 2
 Recruiting a trade partner.
 Search for people recruiting trade partners{315}and request a monster trade.
 Request a monster trade{315}with the selected person.
 Cancel the request{315}for a monster trade.
-Trade with DQM Joker 2 PROFESSIONAL.
+Trade with DQM Joker 2 Pro.
 Trade with DQM Joker 2.
 Inviting other player to trade monsters...{315}Please wait.
 {322} wants to trade monsters.{315}Accept the invitation?
