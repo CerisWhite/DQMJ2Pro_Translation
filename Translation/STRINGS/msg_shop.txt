@@ -6,7 +6,7 @@ Monster B
 Result 1
 Result 2
 Result 3
-Scout G
+
 Continue
 Select Skills
 Points
@@ -59,7 +59,7 @@ Sell
 Cancel
 This item cannot be sold.
 This item cannot be sold as it is currently equipped by a monster.
-Item Vendor
+
 {226}:
 -
 x

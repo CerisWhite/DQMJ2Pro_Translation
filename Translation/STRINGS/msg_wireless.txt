@@ -11,13 +11,13 @@ Play As Guest
 --------
 --------
 --------
-Cancel Battle Request
+
 Battle against a single opponent in this mode.
 Compete against up to seven opponents in this mode.
 Become the host and invite players to challenge you in battle.
 Search for a host and request to do battle with them as a guest.
 Challenge the selected opponent to a battle.
-Cancel request for head-to-head battle.
+
 Rules
 Standard Rules
 SQUARE ENIX Rules
@@ -58,8 +58,8 @@ No Limit
 10 Turns
 On
 Off
-On
-Off
+
+
 All OK
 Same Family OK
 Same Family Prohibited
@@ -215,7 +215,7 @@ Names
 --------
 --------
 --------
-Cancel
+
 Rules
 Tournament Rules
 SQUARE ENIX Rules
@@ -241,10 +241,10 @@ Quit Tournament
 Begin Battle
 Team Setup
 Check Rules
-Switch Monsters
-Change Equipment
-Change Tactics
-Confirm
+
+
+
+
 Results
 Final Results
 Sprout
@@ -367,11 +367,11 @@ Vs Team {322}
 Number Of Battles:
 Wins:
 Losses:
-Draws:
 
 
 
-Your team may contain unauthorised{315}monster data.{315}Please reorganise your team in{315}'Team Setup'.
+
+
 
 Your opponent's team may contain unauthorised monster data.{315}The battle has been called off.
 Your team may contain unauthorised monster data.{315}The battle has been called off.

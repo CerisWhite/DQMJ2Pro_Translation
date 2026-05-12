@@ -78,7 +78,7 @@ Fight without using any MP.
 
 
 Yes{315}No
-Set A{315}Set B
+
 
 
 

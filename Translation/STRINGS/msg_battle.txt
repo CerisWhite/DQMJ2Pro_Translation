@@ -3,12 +3,12 @@
 {321}{30f}'s team flees!
 {321}{30f}'s team is wiped out!
 
-But the enemy block the team's path!
-The enemy are taken by surprise!
-The enemy launch a surprise attack!
+But the enemy blocks the team's path!
+The enemy is taken by surprise!
+The enemy launches a surprise attack!
 This looks like a good time to scout!
 {321}{328}
-And the result is{311}H{00}.{311}H{00}.{311}H{00}.
+And the result is...
 {321}{30f}'s team wins!
 {321}{30f}'s team loses!
 It's a draw!
@@ -18,14 +18,14 @@ Both teams forfeit, so it's a draw!
 But substitute support arrives!
 The missing lynx wanders off.
 Can't cast spells!
-It seems a giant monster is nearby{311}H{00}.{311}H{00}.{311}H{00}.
-The enemy flee!
+A giant monster is nearby...
+The enemy flees!
 {322} gold coins drop to the ground...
 A gigantic monster attacks!
 The gigantic monster wanders off.
-The enemy are flustered!
+The enemy is flustered!
 Everybody gets psyched up!
-The enemy are annihilated!
+The enemy is annihilated!
 The gigantic monster attacks!
 Everybody cowers in fear!
 Everybody is confused!
@@ -46,14 +46,14 @@ Attack
 Defence
 Agility
 Wisdom
-{322} Slime Slayed
-{322} Dragon Slayed
-{322} Nature Slayed
-{322} Beast Slayed
-{322} Material Slayed
-{322} Demon Slayed
-{322} Undead Slayed
-{322} ??? Slayed
+Fired up!
+Fired up!
+Fired up!
+Fired up!
+Fired up!
+Fired up!
+Fired up!
+Fired up!
 Do nothing
 Fight
 Orders
@@ -100,7 +100,7 @@ This monster is special,{315}so it cannot be scouted!
 
 
 
-メッセージ　みたいおう
+Unable to respond.
 
 Attack restored!
 Defence restored!
@@ -111,41 +111,41 @@ The poison has worn off!
 Not offended!
 Calming down a bit!
 The paralysis has worn off!
-ねむり効果が　きれた!
-こんらん効果が　きれた!
-The Tongue Lashing has worn off!
+The sleep has worn off!
+The confusion has worn off!
+Tongue Lashing has worn off!
 The dancing effects have worn off!
 No longer shocked!
 No longer shocked!
-The Fizzle effect wears off!
-The Ban Dance effect has worn off!
-The Gobstop effect wears off!
+Fizzle wears off!
+Ban Dance has worn off!
+Gobstop wears off!
 Accuracy restored!
 Accuracy restored!
 Accuracy restored!
-Normal resistance is restored!
-Normal resistance is restored!
-The Critical Miss effect has worn off!
-The Bounce effect has worn off!
-The Deep Breath effect has worn off!
-The Brake Wind effect has worn off!
-The Mist Me effect has worn off!
-Normal resistance is restored!
-The Reheal effect has worn off!
-The Artful Dodger effect has worn off!
-The Clang effect has worn off!
-The Counter effect has worn off!
+Resistance is restored!
+Resistance is restored!
+Critical Miss has worn off!
+Bounce has worn off!
+Deep Breath has worn off!
+Brake Wind has worn off!
+Mist Me has worn off!
+Resistance is restored!
+Reheal has worn off!
+Artful Dodger has worn off!
+Clang has worn off!
+Counter has worn off!
 Active again!
 The Amor Seco Rain has worn off!
 The Song of Salvation has worn off!
-The Blowback effect has worn off!
+Blowback has worn off!
 The effect has worn off!
-The Prezing effect has worn off!
-The Abiliterator effect has worn off!
-The Blade Blunter effect has worn off!
-The Aha effect has worn off!
-The Selflessness effect has worn off!
-The Tacticlamp effect has worn off!
+Prezing has worn off!
+Abiliterator has worn off!
+Blade Blunter has worn off!
+Aha has worn off!
+Selflessness has worn off!
+Tacticlamp has worn off!
 Resurrected!
 The Lingering Malhaze has worn off!
-The Unnatural Order has worn off!
+Unnatural Order has worn off!

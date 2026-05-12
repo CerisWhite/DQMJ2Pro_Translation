@@ -327,14 +327,14 @@ Under construction...
 Travel to any previously-visited area.
 Use in an area with an opened Zip Portal to travel straight there.
 Use to reveal how many items are nearby.
-Evade enemies by vanishing into thin air.
+
 
 
 
 
 
 ????????
-{239} Select substitutes to{315}accompany active team.
+
 
 
 
