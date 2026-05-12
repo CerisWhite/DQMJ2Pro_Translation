@@ -117,8 +117,8 @@ Crafty Magical Saboteur
 Crafty Sizzer
 Crafty Donker
 Crafty Devil
-AI　2～3回行動
-AI　0～4回行動
+AI　2-3 Actions
+AI　0-4 Actions
 Light Metal Body
 Hard Metal Body
 Sudden Oomph
@@ -187,11 +187,11 @@ Wisdom +24
 Wisdom +27
 Wisdom +30
 Sudden Ping
-いきなりぎゃくふう
-いきなりマホトーン
+Sudden Brake Wind
+Sudden Kafizzle
 Random Ping
-ときどきぎゃくふう
-ときどきマホトーン
+Random Brake Wind
+Random Kafizzle
 Random Tension
 Random Magic Barrier
 Random Mist Me
@@ -227,28 +227,28 @@ Sap Guard
 Decelerate Guard
 Dim Guard
 Magical Sabotage Guard
-メガボディ　2～3回
-メガボディ　2回
-メガボディ　1～3回
-メガボディ　0～4回
-メガボディ　1～2回
+2-3 Actions
+2 Actions
+1-3 Actions
+0-4 Actions
+1-2 Actions
 Spell Satisfaction
 Suicidal Satisfaction
 Sudden Underworld Fog
-いきなりブレイク封じ
-ギガボディ　2～3回
-ギガボディ　2回
-ギガボディ　1～3回
-ギガボディ　0～4回
-ギガボディ　1～2回
+Sudden Break Seal
+2-3 Actions
+2 Actions
+1-3 Actions
+0-4 Actions
+1-2 Actions
 Random Oomph
 Random Buff
 Random Accelerate
 Random Tension
 Random Black Fog
 Random Underworld Fog
-ときどきブレイク封じ
-べタン系のコツ
+Random Break Seal
+Betan
 
 
 
