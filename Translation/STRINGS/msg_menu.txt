@@ -139,14 +139,14 @@ Equipped
 ☆☆☆☆☆☆☆
 ☆PROFESSIONAL☆
 Status
-Attack {322}
-Defence {322}
-Agility {322}
-Wisdom {322}
-Insulatle {322}
+Attack
+Defence
+Agility
+Wisdom
+Insulatle
 Poisoned
 Offended
-Tension {322}
+Tension
 Paralysed
 Asleep
 Confused
