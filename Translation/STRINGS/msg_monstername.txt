@@ -317,23 +317,23 @@ phantom swordsman
 wight king
 dark crab
 cobra cardinal
-slime XY
-slime X
-chimaera X
+wight knight
+ragin' contagion
+gigalumph
 grotwyrm
-conklave X
-skeleton X
-king godwyn II
-green dragon X
+ladja
 
-goodybag X
-teeny sanguini X
-chimaera XY
-conklave XY
-skeleton XY
-green dragon XY
-goodybag XY
-teeny sanguini XY
+king godwyn II
+
+
+
+
+
+
+
+
+
+
 wulfspade
 hawkhart
 cluboon
@@ -498,9 +498,9 @@ gracos
 conklave
 riptide
 alabast dragon
-teeny sanguini XY
-goodybag
-magic slime
+queenie sanguini
+pink sanguini
+genie sanguini
 ruin
 ace of spades
 dr snapped
