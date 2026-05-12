@@ -340,7 +340,7 @@ SAY "{VOICE=08}Who'd have thought a scruffy stowaway could become so powerful...
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lily Gilder"
-SAY "{VOICE=08}「Alright, alright! {E321}{NAME}, you were great. Thank you. ...There. I said it."
+SAY "{VOICE=08}Alright, alright! {E321}{NAME}, you were great. Thank you. ...There. I said it."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Lily Gilder"
