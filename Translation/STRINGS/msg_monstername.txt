@@ -463,10 +463,10 @@ overkilling machine
 sagittar
 
 leonyx
-ultra slime
-slime
-metal slime
-marquis de léon
+great dragon
+wight king
+metal king slime
+bilhaw
 captain crow
 malevolynx
 
@@ -483,27 +483,27 @@ baboon beast
 evil beast
 don mole
 canzar
-restless armour
+harmour
 rigor mortex
-lethal armour
-roseguardin
+wight knight
+knight aberrant
 balhib
 ethereal serpent
-komodo
-green dragon
-killerpillar
-gripevine
+Dragovian lord
+leopold
+overkilling machine
+demon-at-arms
+liquid metal slime
+saggitar
+trauminator
 night clubber
-gracos
-conklave
-riptide
-alabast dragon
+hootingham-gore
 queenie sanguini
 pink sanguini
 genie sanguini
 ruin
-ace of spades
-dr snapped
+goresby-purrvis
+goreham-hogg
 wulfspade ace
 hawkhart ace
 cluboon ace

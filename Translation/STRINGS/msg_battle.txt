@@ -78,7 +78,7 @@ Scouting successful!
 Failed to scout!
 
 Weighing things up.
-Took offence!
+Took offense!
 
 
 Obtained {322} skill points!
