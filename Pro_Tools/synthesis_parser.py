@@ -37,28 +37,16 @@ from pathlib import Path
 # ── paths ─────────────────────────────────────────────────────────────────────
 
 SCRIPT_DIR = Path(__file__).parent
-DATA_DIR   = SCRIPT_DIR.parent / 'Pro_ROM' / 'data_dir'
+NAMES_FILE = SCRIPT_DIR.parent / 'Translation' / 'STRINGS' / 'msg_monstername.txt'
 
 
 # ── data loaders ──────────────────────────────────────────────────────────────
 
 def load_names() -> list[str]:
-    for candidate in [
-        SCRIPT_DIR / '_names_cache.txt',
-        Path('/tmp/msg_out/msg_monstername.txt'),
-    ]:
-        if candidate.exists():
-            return candidate.read_text(encoding='utf-8').splitlines()
-
-    try:
-        sys.path.insert(0, str(SCRIPT_DIR))
-        import msgtool  # type: ignore
-        lines = msgtool.extract_lines((DATA_DIR / 'msg_monstername.binA').read_bytes())
-        (SCRIPT_DIR / '_names_cache.txt').write_text('\n'.join(lines), encoding='utf-8')
-        return lines
-    except Exception as e:
-        print(f"Warning: Could not load names: {e}", file=sys.stderr)
-        return []
+    if NAMES_FILE.exists():
+        return NAMES_FILE.read_text(encoding='utf-8').splitlines()
+    print(f"Warning: Names file not found: {NAMES_FILE}", file=sys.stderr)
+    return []
 
 
 def read_binary_table(filepath: Path, table_type: str) -> list[tuple]:
