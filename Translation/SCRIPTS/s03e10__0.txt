@@ -7080,7 +7080,7 @@ STORE 0x18 0x0 0x42fe0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fe0000 0x2 0x0
 JMP_IFNOT 0xc L_1d164
 SYS_42 0x8 
-SAY "{VOICE=07}That funky little medal is supposed to be the qualification for our Monster Scout Challenge."
+SAY "{VOICE=07}That funky little medal is the qualification for our Monster Scout Challenge."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}I heard there was some other use for it. Wonder what that is."

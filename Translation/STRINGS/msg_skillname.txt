@@ -9,19 +9,19 @@ Frizz & Zap
 Metal Crusher
 Frizz & Zap II
 Frizz & Zam
-Tornado
+Zero Seal
 Frizz & Zam II
 Bang & Woosh
 Giant Killer
 Bang & Woosh II
 Bang & Crack
-Breath Breaker II
+Breathbreaker II
 Bang & Crack II
 Bang & Zap
-Sword Breaker
+Swordbreaker
 Bang & Zap II
 Bang & Zam
-Sword Breaker II
+Swordbreaker II
 Bang & Zam II
 Woosh & Crack
 King Sanguini
@@ -67,9 +67,9 @@ Mage Aid
 Fortifier
 Enfeebler
 Saboteur
-Antimagic
-Antimagic II
-Anti-dragon
+Spellbreaker
+Spellbreaker II
+Breathbreaker
 Anti-metal
 Guard
 Barricade

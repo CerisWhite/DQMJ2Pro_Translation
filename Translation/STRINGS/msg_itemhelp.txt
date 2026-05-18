@@ -25,12 +25,12 @@ Permanently increases the defence of a single ally by 1 to 2 points.
 Permanently increases the agility of a single ally by 1 to 2 points.
 Permanently increases the wisdom of a single ally by 1 to 2 points.
 Smells horrific, but you can fling it at enemies in battle. Will only inflict 0 or 1 point of damage on a single enemy, but it works well against foes with metal bodies.
-味方1体の　Expが{315}つぎのレベルまで　あと　1になる
+The target will be set to 1 XP away from the next level.
 Allows you to purchase goods at{315}lower prices.
 A heavy chunk of solid gold.
-Lures {20b} monsters into battle. The effect wears off after the battle.
-Lures {20c} monsters into battle. The effect wears off after the battle.
-Lures {20d} monsters into battle. The effect wears off after the battle.
+Lures {231} monsters into battle. The effect wears off after the battle.
+Lures {232} monsters into battle. The effect wears off after the battle.
+Lures {233} monsters into battle. The effect wears off after the battle.
 Restores around 40 HP to all your allies.
 
 
@@ -179,8 +179,8 @@ Attack +4{315}Increases wisdom.
 Attack +12{315}Increases wisdom.
 Attack +8{315}A monster wielding this staff will pass on its form when synthesised.
 
-Attack +23{315}Used to ensure a synthesised monster is {20b}.
-Attack +23{315}Used to ensure a synthesised monster is {20c}.
+Attack +23{315}Used to ensure a synthesised monster is {231}.
+Attack +23{315}Used to ensure a synthesised monster is {232}.
 Attack +34{315}Increases wisdom.
 Attack +47{315}Increases wisdom.
 Attack +61{315}Increases wisdom.
@@ -210,48 +210,48 @@ Attack +76{315}Deals damage to all enemies.
 
 
 
-天馬が　まとっている　きえないほのお{315}とあるひやくの　ざいりょうになる
-みつまたのりゅうが　ながしたなみだ{315}とあるひやくの　ざいりょうになる
-えいえんに　かがやきをはなつ　すいしょう{315}とあるひやくの　ざいりょうになる
-平原で　みつけた{315}ししの　かおが　えがかれた プレート
-雪山で　みつけた{315}ししの　かおが　えがかれた プレート
-断崖で　みつけた{315}ししの　かおが　えがかれた プレート
-海岸で　みつけた{315}ししの　かおが　えがかれた プレート
-闘神に　もらった{315}ししの　かおが　えがかれた プレート
-攻撃力+150{315}ときどき　敵の守備力を　下げる効果
-攻撃力+85{315}テンションバーンが　おこりやすくなる
-攻撃力+130{315}特に効果はない
-攻撃力+12{315}ときどき　敵の　のうりょくが{315}みえるようになる効果
-攻撃力+130{315}ときどき　敵のテンションを　下げる効果
-攻撃力+65{315}ときどき　敵のブレイクを{315}封じる効果
-攻撃力+120{315}特に効果はない
-攻撃力+70{315}ときどき　敵のテンションを　下げる効果
-攻撃力+100{315}敵全体に攻撃できる
-攻撃力+25{315}敵全体に攻撃できる{315}呪文会心が　でやすい
-攻撃力+130{315}ドラゴン系へのダメージが　かなり増える
-攻撃力+55{315}メタル系のモンスターに{315}大ダメージをあたえられる
-攻撃力+110{315}ときどき　いてつくはどうの効果
-攻撃力+35{315}HPがすくないとき　うんが　よくなる
-モンスターの入った　きちょうなタマゴ{315}ピピッ島の　どこかにある{315}ふしぎな木に　ささげてみよう
-2～5ラウンドの間　味方全体の{315}攻撃力を　上げる
-4～7ラウンドの間　味方全体の{315}守備力を　上げる
-4～7ラウンドの間　味方全体の{315}すばやさを　上げる
-4～7ラウンドの間　味方全体の{315}かしこさを　上げる
-2～5ラウンドの間　敵全体の{315}攻撃力を　下げる
-4～7ラウンドの間　敵全体の{315}守備力を　下げる
-4～7ラウンドの間　敵全体の{315}すばやさを　下げる
-4～7ラウンドの間　敵全体の{315}かしこさを　下げる
-死んでいる味方全員を　ふっかつさせ{315}味方全体の　HPを　かんぜんに回復する
-スキル「VS斬撃」を{315}おぼえる
-スキル「VS呪文」を{315}おぼえる
-スキル「VSブレス」を{315}おぼえる
-スキル「いじょう回復」を{315}おぼえる
-スキル「モリーセレクション」を{315}おぼえる
-スキル「バトルロードマスター」を{315}おぼえる
+The flames that cloak the heavenly steed.{315}One ingredient in a recipe of a hundred.
+The tears shed by the Three-Headed Dragon.{315}One ingredient in a recipe of a hundred.
+A crystal filled with brilliant light.{315}One ingredient in a recipe of a hundred.
+A mysterious plate found in the Doubtback.
+A mysterious plate found in Iceolation.
+A mysterious plate found in Cragravation.
+A mysterious plate found in Unshore.
+A mysterious plate received from Leonyx.
+Attack +150{315}May lower enemy defense.
+Attack +85{315}Increases the chance of firing up.
+Attack +130
+Attack +12{315}May reveal enemy stats.
+Attack +130{315}May lower enemy tension.
+Attack +65{315}May dispel Break.
+Attack +120
+Attack +70{315}May lower enemy tension.
+Attack +100{315}Deals damage to all enemies.
+Attack +25{315}Deals damage to all enemies.{315}Makes critical spells more likely.
+Attack +130{315}Deals extra damage to dragons.
+Attack +55{315}Deals extra damage to enemies with metal bodies.
+Attack +110{315}May cast Disruptive Wave.
+Attack +35{315}Luck is increased when at low HP.
+A precious monster egg. Try offering it to the mysterious tree on Pipit Island!
+Increases the attack of all allies for 2-5 rounds.
+Increases the defense of all allies for 4-7 rounds.
+Increases the agility of all allies for 4-7 rounds.
+Increases the wisdom of all allies for 4-7 rounds.
+Reduces the attack of all enemies for 2-5 rounds.
+Reduces the defense of all enemies for 4-7 rounds.
+Reduces the agility of all enemies for 4-7 rounds.
+Reduces the wisdom of all enemies for 4-7 rounds.
+Revives all allies and restores health to the entire party.
+A scroll that bestows the 'Swordbreaker' skill.
+A scroll that bestows the 'Spellbreaker' skill.
+A scroll that bestows the 'Breathbreaker' skill.
+A scroll that bestows the 'Cleanser' skill.
+A book that bestows the 'Morrie's Melange' skill.
+A scroll that bestows the 'Battle Road Master' skill.
 
 
-スキル「メタルつぶし」を{315}おぼえる
-スキル「しっぷう・ゼロ封じ」を{315}おぼえる
-スキル「巨大モンスタつぶし」を{315}おぼえる
+A book that bestows the 'Metal Crusher' skill.
+A book that bestows the 'Zero Seal' skill.
+A book that bestows the 'Giant Killer' skill.
 
 

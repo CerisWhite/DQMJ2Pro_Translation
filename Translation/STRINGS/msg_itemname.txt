@@ -25,7 +25,7 @@ seed of defence
 seed of agility
 seed of wisdom
 monster manure
-きぼうの種
+seed of hope
 loyalty card
 gold nugget
 'Positive Puller'
@@ -210,48 +210,48 @@ wizardly whip
 
 
 
-ふっかつのほのお
-りゅうのなみだ
-ときのすいしょう
-平原のプレート
-雪山のプレート
-断崖のプレート
-海岸のプレート
-闘神のプレート
-ぎんがのつるぎ
-バーンブレイド
-じごくのまそう
-ダモーレスピア
-ゴッドアックス
-キルブレイカー
-ほしくだき
-やるきくだき
-真グリンガムのムチ
-ウィッチウィップ
-神竜のツメ
-コアドリル
-ひかりのつえ
-ラッキースティック
-モンスターのタマゴ
-バイシオロン
-スクルティオ
-ピオリメイト
-インテライザー
-ダウンオルル
-ルカナジウム
-ボミオッシュ
-マフールームー
-天鳥のソーマ
-VS斬撃の証
-VS呪文の証
-VSブレスの証
-いじょう回復の証
-モリーの証
-バトルロードの証
+Vivifying Flame
+Dragon's Tears
+Time Crystal
+Plains Plate
+Mountain Plate
+Crags Plate
+Coast Plate
+War God's Plate
+hypernova sword
+burn blade
+red-hot poker
+Aha spear
+galaxy axe
+sword breaker
+star crusher
+tension crusher
+Uber gringham whip
+witch's whip
+Xenlon claws
+core driller
+bright staff
+slime stick
+monster egg
+jumbo oomph powder
+jumbo bufferine
+jumbo acceleratonic
+jumbo pingium
+jumbo sag powder
+jumbo sapperine
+jumbo deceleratonic
+jumbo dimium
+sainted soma
+swordbreaker scroll
+spellbreaker scroll
+breathbreaker scroll
+cleanser scroll
+morrie's book
+battle road scroll
 
 
-メタルつぶしの証
-ゼロ封じの証
-巨大つぶしの証
+'Metal Slayer's Primer'
+'The Zero Seal'
+'Giant Slayer's Primer'
 
 
