@@ -77,9 +77,9 @@ Nullifies enemy critical hits{315}and critical spells.
 Doubles MP consumption.
 Increases damage suffered.
 While asleep, may attack all enemies.
-When paralyzed, may inflict paralysis{315}on enemies that attack you.
-When confused, randomly attacks{315}one target (ally or enemy){315}with a merciless strike.
-When charmed, charges up{315}and raises own tension
+When paralyzed, may paralyze{315}enemies that attack you.
+When confused, randomly attacks{315}a target with a merciless strike.
+When charmed, raises own tension.
 Deals heavy damage to{315}Metal-type monsters.
 May drain MP from enemies{315}that attack it.
 May drain MP from the enemy{315}it attacks.

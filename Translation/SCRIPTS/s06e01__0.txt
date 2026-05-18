@@ -9041,15 +9041,15 @@ STORE 0x18 0x0 0x434e0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x434e0000 0x2 0x0
 JMP_IFNOT 0xc L_2712c
 SYS_42 0x8 
-SAY "{COLOR=2}どこから　ともなく{BREAK}ふしぎなこえが　きこえる……。"
+SAY "{COLOR=2}Somewhere, a strange, terrible voice calls out."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=03}「まがまがしい気が　きえ{BREAK} 光あふれる地が　復活を果たした。"
+SAY "{VOICE=03}The ominous miasma has dispersed,{BREAK}and the world of light is reborn."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「魔界の　ちゅうおうにある{BREAK} あかいはしらを　調べてみるがいい。"
+SAY "{VOICE=03}Investigate the red pillar that stands in the centre of the Dark World."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -9062,7 +9062,7 @@ STORE 0x18 0x0 0x434e0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x434e0000 0x2 0x0
 JMP_IFNOT 0xc L_27c80
 SYS_42 0x8 
-SAY "{COLOR=2}『{COLOR=0}{20F}{COLOR=2}』のしるしが　きざまれた{BREAK}いしのはしらだ。"
+SAY "{COLOR=2}This stone pillar is carved with a {COLOR=0}{20F}{COLOR=2} symbol."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -9091,7 +9091,7 @@ STORE 0x18 0x0 0x43510000 0x1 0x0
 CMP_EQ 0x18 0x0 0x43510000 0x2 0x3f800000
 JMP_IFNOT 0xc L_27aac
 SYS_42 0x8 
-SAY "{COLOR=2}『{COLOR=0}{20F}{COLOR=2}』のしるしが　きざまれた　はしらに{BREAK}あかく光が　ともった。"
+SAY "{COLOR=2}The pillar carved with the {COLOR=0}{20F}{COLOR=2} symbol glows with a red light."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -9106,18 +9106,18 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}どこから　ともなく{BREAK}ふしぎなこえが　きこえる……。"
+SAY "{COLOR=2}Somewhere, a strange, terrible voice calls out."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=03}「カギとなる　はしらに{BREAK} 光が　ともったようだ。"
+SAY "{VOICE=03}Light is shining on the pillar that serves as the key."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「これより　光あふれる地へ{BREAK} 汝を　いざなおう……。"
+SAY "{VOICE=03}Now you may journey to the world of light."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「心の　じゅんびは　いいか?{VOICE=09}"
+SAY "{VOICE=03}Tell me, {NAME}. Are you ready?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -9213,7 +9213,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}いま　『{COLOR=0}{20F}{COLOR=2}』のしるしは　光あふれる地への{BREAK}カギに　なっていないようだ。"
+SAY "{COLOR=2}The pillar with the {COLOR=0}{20F}{COLOR=2} carving is not the key."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -9227,7 +9227,7 @@ L_27c88:
 JMP_ABS 0xc L_27c94
 L_27c94:
 SYS_42 0x8 
-SAY "{COLOR=2}『{COLOR=0}{20F}{COLOR=2}』のしるしが　きざまれた　はしらは{BREAK}あかい光を　はなっている。"
+SAY "{COLOR=2}A red light shines on the pillar carved with the {COLOR=0}{20F}{COLOR=2} symbol."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

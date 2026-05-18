@@ -346,8 +346,8 @@ wildcard
 
 darck
 magarugi
-baboon beast
-evil beast
+Hihyurude
+Beast Hihyurude
 zoma's devil
 gadis
 stormsgate citadel
@@ -479,8 +479,8 @@ nemeslime
 estark
 dimensional dragon
 stella
-baboon beast
-evil beast
+hihyurude
+beast hihyurude
 don mole
 canzar
 harmour

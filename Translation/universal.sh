@@ -11,6 +11,8 @@ for file in ./SCRIPTS/*.txt; do
   sed -i "s/はんのうがない…。{BREAK}いまは　使えないよ うだ。/There's no response. {NAME} cannot use this...for now./g" $file;
   sed -i "s/はんのうがない…。{BREAK}いまは　使えないようだ。/There's no response. {NAME} cannot use this...for now./g" $file;
   sed -i "s/通気ダクトの　ふたが　あいている……。/The cover on the ventilation duct is open./g" $file;
+  sed -i "s/いまは　たいまつを　もっている。/{NAME} can't do this while carrying a torch./g" $file;
+  sed -i "s/たき火は　しずかに　もえている……。/The flames of the bonfire dance in the cold air./g" $file;
   sed -i "s/中に入りますか?/How about it? Want to climb in?/g" $file;
   sed -i 's/このセキヒを調べると　あなたが使える特技や{BREAK}べんりなコマンドを　おぼえることができます。/Curiosity killed the cat, but not the monster scout!{WAIT}{CLEAR}Examine these curious stones to learn new abilities and commands./g' $file;
   sed -i "s/セキヒは　地図上に　あおい点でしめされるの で{BREAK}みつけたら　まず　調べてみましょう。/These Scout's Stones appear on the map as blue icons./g" $file;

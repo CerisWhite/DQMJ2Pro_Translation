@@ -3772,13 +3772,13 @@ CMP_LT 0x18 0x0 0x42ca0000 0x2 0x40000000
 JMP_IFNOT 0xc L_e628
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}「ややっ　{NAME}さん!{BREAK} あなた　スゴイ場所を　みつけましたね!"
+SAY "{VOICE=07}Look at what you've uncovered!{BREAK}Books upon books upon books..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「みてください!　この古めかしい本の山!{BREAK} この島のれきしが　かかれているんです!"
+SAY "{VOICE=07}It's a gold mine of arcane knowledge.{WAIT}{CLEAR}Why, I bet the entire island's history can be found in these pages!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ボクは　この島のことを調べ　がくしゃとして{BREAK} みなさんの　おやくにたってみせますよ!"
+SAY "{VOICE=07}I'll read these books cover to cover and become THE authority on this island.{WAIT}{CLEAR}Just you see - Archie Logg will be an indispensable part of the team!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3788,13 +3788,13 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x40000000
 JMP_IFNOT 0xc L_e7a0
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}「つぎのランクDを勝てば　Don Moleさんが{BREAK} ある場所を　おしえてくれると言ってましたね。"
+SAY "{VOICE=07}So, Don Mole promised to tell you about a certain special place if you won Rank D?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「そこに行けば　ここのバトルGPや{BREAK} この島のしんじつに　ちかづけるそうですよ!"
+SAY "{VOICE=07}I bet that place holds the key to oodles of secrets about this island!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「なんとしても　ランクDをクリアしてください!{BREAK} ボク　オーエンしてますから!"
+SAY "{VOICE=07}Listen, {NAME}, you MUST win the Rank D battle!{WAIT}{CLEAR}Don't do it for me - do it for archaeology!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3806,13 +3806,13 @@ CMP_EQ 0x18 0x0 0x42a40000 0x2 0x40a00000
 JMP_IFNOT 0xc L_e920
 SYS_42 0x8 
 SETNAME "Archie Logg"
-SAY "{VOICE=07}「かつて　この島の人たちは　巨鳥に乗って{BREAK} たいりくを　いどうしていたらしいんです!"
+SAY "{VOICE=07}Apparently, in the dim and distant past, the people here escaped this island. {WAIT}{CLEAR}They did it by hitching a ride on the back of a giant bird! Can you imagine!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「その巨鳥に　たのめば　もしかしたら{BREAK} この島を　出られるかも　しれませんよ!"
+SAY "{VOICE=07}Perhaps we could escape this island by the same means!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「とりあえず　おしえてもらった断崖に行って{BREAK} 巨鳥を　さがしてみてください!"
+SAY "{VOICE=07}But first, you must head to Cragravation and find that mighty avian!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3823,10 +3823,10 @@ L_e92c:
 CMP_EQ 0x18 0x0 0x42c60000 0x0 0x42ba0000
 JMP_IFNOT 0xc L_ea24
 SYS_42 0x8 
-SAY "{VOICE=08}「ウワサを　きいて　やってきた{BREAK} かんこう客　その1でーす!"
+SAY "{VOICE=08}I heard the news about this island and HAD to come and see it for myself."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「ここが配合の　けんきゅうをしていた場所ね。{BREAK} いがいと　せまいから　おどろいちゃった!"
+SAY "{VOICE=08}So this is where all the synthesis research went on, is it?{WAIT}{CLEAR}...It's not as grand as I expected."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3843,26 +3843,26 @@ CMP_LT 0x18 0x0 0x42d20000 0x2 0x41e00000
 JMP_IFNOT 0xc L_ef24
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}「ふっふっふ。ひさしぶりだな。{BREAK} {NAME}よ。"
+SAY "{VOICE=03}Ah, {NAME}.{BREAK}So, we meet again."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「真のバトルGPでの　そなたの戦いぶりをみて{BREAK} 思わず　こっちの世界に　きてしまったわ。"
+SAY "{VOICE=03}I was watching you from the beyond,{BREAK}and knew I could not stand idly by."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「……ところで　雪山のふもとにある{BREAK} セキヒのことを　そなたは知っておるか?{VOICE=09}"
+SAY "{VOICE=03}Tell me, {NAME}, do you know of the stone monument in Iceolation?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ce0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ce0000 0x2 0x0
 JMP_IFNOT 0xc L_ed84
-SAY "{VOICE=03}「ふむ。言い伝えによると　あのセキヒは{BREAK} かみがみの世界に通じていると言われておる。"
+SAY "{VOICE=03}According to the legends, that monument leads to another realm..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「そして　そのトビラを　ひらくことができるのは{BREAK} 巨大モンスターに勝った　選ばれし者のみ……。"
+SAY "{VOICE=03}They say only those who can defeat the giant monsters may pass through."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ふっふっふ。そなたならば　そのトビラをひらき{BREAK} かみがみの世界へ　行けるかもしれんのう。"
+SAY "{VOICE=03}Ho ho ho, have I perhaps piqued your interest?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3872,13 +3872,13 @@ JMP_REL L_ed8c
 L_ed8c:
 JMP_ABS 0xc L_ed98
 L_ed98:
-SAY "{VOICE=03}「ふむ。言い伝えによると　あのセキヒは{BREAK} かみがみの世界に通じていると言われておる。"
+SAY "{VOICE=03}According to the legends, that monument leads to another realm..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「そして　そのトビラを　ひらくことができるのは{BREAK} 巨大モンスターに勝った　選ばれし者のみ……。"
+SAY "{VOICE=03}They say only those who can defeat the giant monsters may pass through."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ふっふっふ。そなたならば　そのトビラをひらき{BREAK} かみがみの世界へ　行けるかもしれんのう。"
+SAY "{VOICE=03}Ho ho ho, have I perhaps piqued your interest?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3895,26 +3895,26 @@ JMP_ABS 0xc L_ef38
 L_ef38:
 SYS_42 0x8 
 SETNAME "Mynos the Elder"
-SAY "{VOICE=03}「ふっふっふ。ひさしぶりだな。{BREAK} {NAME}よ。"
+SAY "{VOICE=03}Ah, {NAME}.{BREAK}So, we meet again."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「真のバトルGPでの　そなたの戦いぶりをみて{BREAK} 思わず　こっちの世界に　きてしまったわ。"
+SAY "{VOICE=03}I was watching you from the beyond,{BREAK}and knew I could not stand idly by."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「……ところで　雪山のふもとにある{BREAK} セキヒのことを　そなたは知っておるか?{VOICE=09}"
+SAY "{VOICE=03}Tell me, {NAME}, do you know of the stone monument in Iceolation?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ce0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ce0000 0x2 0x0
 JMP_IFNOT 0xc L_f1f0
-SAY "{VOICE=03}「われらが　かみがみの世界とよぶ　あの島には{BREAK} 伝説のモンスターが　数おおくいると　きく。"
+SAY "{VOICE=03}I have heard many stories of fearsome monsters that dwell on that island."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「中でも　みみをうたがうのが　ゆったりと{BREAK} 空をただよう　巨大なメタルモンスターの話だ。"
+SAY "{VOICE=03}None so spectacular as the colossal metal beast that floats through the skies!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「そんなものが　ほんとうに　いるのなら{BREAK} ぜひ　この目で　みてみたいものだな。"
+SAY "{VOICE=03}Oh, how I wish I could see such a thing with my own eyes."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3924,13 +3924,13 @@ JMP_REL L_f1f8
 L_f1f8:
 JMP_ABS 0xc L_f204
 L_f204:
-SAY "{VOICE=03}「ふむ。言い伝えによると　あのセキヒは{BREAK} かみがみの世界に通じていると言われておる。"
+SAY "{VOICE=03}According to the legends, that monument leads to another realm..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「そして　そのトビラを　ひらくことができるのは{BREAK} 巨大モンスターに勝った　選ばれし者のみ……。"
+SAY "{VOICE=03}They say only those who can defeat the giant monsters may pass through."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ふっふっふ。そなたならば　そのトビラをひらき{BREAK} かみがみの世界へ　行けるかもしれんのう。"
+SAY "{VOICE=03}Ho ho ho, have I perhaps piqued your interest?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3952,10 +3952,10 @@ JMP_IFNOT 0xc L_f4f0
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41100000
 JMP_IFNOT 0xc L_f4e4
 SYS_42 0x8 
-SAY "{VOICE=07}「あんた　ニンゲンだろう。だったら{BREAK} ここの本が　よめるかも　しれないな。"
+SAY "{VOICE=07}Hey, you're a human, right? Then maybe you'll dig what's in these dusty tomes."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ここの本は　おおむかし　ニンゲンたちが{BREAK} かいたと　言われているのだ。"
+SAY "{VOICE=07}These writings were set down many aeons ago by human dudes like you."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3966,10 +3966,10 @@ L_f4f0:
 CMP_EQ 0x18 0x0 0x42a40000 0x2 0x40800000
 JMP_IFNOT 0xc L_f5e4
 SYS_42 0x8 
-SAY "{VOICE=07}「あんた　ニンゲンだろう。だったら{BREAK} ここの本が　よめるかも　しれないな。"
+SAY "{VOICE=07}Hey, you're a human, right? Then maybe you'll dig what's in these dusty tomes."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ここの本は　おおむかし　ニンゲンたちが{BREAK} かいたと　言われているのだ。"
+SAY "{VOICE=07}These writings were set down many aeons ago by human dudes like you."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3996,10 +3996,10 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x0
 JMP_IFNOT 0xc L_f7b0
 L_f6e0:
 SYS_42 0x8 
-SAY "{VOICE=07}「あんた　ニンゲンだろう。だったら{BREAK} ここの本が　よめるかも　しれないな。"
+SAY "{VOICE=07}Hey, you're human, right? Then maybe you'll dig what's in these dusty tomes."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ここの本は　おおむかし　ニンゲンたちが{BREAK} かいたと　言われているのだ。"
+SAY "{VOICE=07}These writings were set down many aeons ago by human dudes like you."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4021,10 +4021,10 @@ CMP_EQ 0x18 0x0 0x42a40000 0x2 0x41200000
 JMP_IFNOT 0xc L_f920
 L_f858:
 SYS_42 0x8 
-SAY "{VOICE=07}「Dr. Lumpさまの配合も{BREAK} 神の復活に　こうけんしたことであろう。"
+SAY "{VOICE=07}Dr Lump's most righteous synthesis program helped revive the Divine Battler."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「私も　あの方に　おいつけるよう{BREAK} もっと　どりょくせねばな。"
+SAY "{VOICE=07}I'm gonna have to dig harder if I want to be as great and righteous as Dr Lump."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4033,10 +4033,10 @@ L_f920:
 CMP_GE 0x18 0x0 0x42a40000 0x2 0x41300000
 JMP_IFNOT 0xc L_fa14
 SYS_42 0x8 
-SAY "{VOICE=07}「配合に　キョウミをもつ人間が{BREAK} 増えてくれて　うれしいよ。"
+SAY "{VOICE=07}It's cool that more humans are findin' fascination in monster synthesis."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「かれらのちしきで　配合ぎじゅつが{BREAK} ひやくてきに　すすむことだろう。"
+SAY "{VOICE=07}The new knowledge they bring will make synthesis more funkerific than before!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4064,7 +4064,7 @@ CMP_EQ 0x18 0x0 0x42a40000 0x2 0x40a00000
 JMP_IFNOT 0xc L_fb80
 L_fb10:
 SYS_42 0x8 
-SAY "{VOICE=07}「ピッピッ。このへやに　ある{BREAK} あかい本は　よめるみたいだよ。"
+SAY "{VOICE=07}Hello! Goo can perooze the red books,{BREAK}if goo want."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4099,26 +4099,26 @@ CMP_GE 0x18 0x0 0x42a40000 0x2 0x41300000
 JMP_IFNOT 0xc L_ffe4
 L_fcd0:
 SYS_42 0x8 
-SAY "{VOICE=07}「すれちがいバトルは　やっているスラか?{VOICE=09}"
+SAY "{VOICE=07}Have you tried engaging in Tag Mode Battles?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ce0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ce0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_ff54
-SAY "{VOICE=07}「それは　もったいないスラね!{BREAK} カンタンだから　やってみると　いいスラ!"
+SAY "{VOICE=07}Oh, no! You really should, it's great fun and very oozy - I mean easy!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「まず　メニューがめんの　スライムマークから{BREAK} すれちがい通信を　はじめるスラ!"
+SAY "{VOICE=07}To access Tag Mode, select the slime panel from the menu."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「これで　じゅんびは　かんりょう。{BREAK} その本体をもって　でかければ　いいスラ。"
+SAY "{VOICE=07}Now just take your Nintendo DS Series System when you goo out to play."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「そして　まちかどで　マスターに出会えれば{BREAK} あんたに　勝負を　いどんでくるスラよ!"
+SAY "{VOICE=07}Then, if you encounter other monster scouts on the street or in the playground...{WAIT}{CLEAR}...you can engage them in battle!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「自分の　強さが　どれほどか?{BREAK} ためしてみるのも　いいスラ!"
+SAY "{VOICE=07}It's a super gooey way to find out who has the strongest monster team!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4128,7 +4128,7 @@ JMP_REL L_ff5c
 L_ff5c:
 JMP_ABS 0xc L_ff68
 L_ff68:
-SAY "{VOICE=07}「おお～。さすがっスラ。{BREAK} あんたは　ひと味ちがうと　思ってたっスラ!"
+SAY "{VOICE=07}Oooh, I just goo it! You're a monster scout like no other, that's for sure!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4181,13 +4181,13 @@ CMP_EQ 0x18 0x0 0x42d00000 0x2 0x0
 JMP_IFNOT 0xc L_1038c
 SYS_42 0x8 
 SETNAME "Duke"
-SAY "{VOICE=07}「本だなの前にいるのは　どろにんぎょうの{BREAK} Marshaちゃんで　あります!"
+SAY "{VOICE=07}See that mud mannequin hangin' out by the bookshelves? That's Marsha."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「カノジョに話しかければ　スカウトQプロという{BREAK} クエストが　うけられるであります!"
+SAY "{VOICE=07}See her if you want to test your mettle in the Monster Scout Proficiency Test."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「クリアするごとに　賞品も　もらえるので{BREAK} ぜひ　チャレンジしてほしいで　あります!"
+SAY "{VOICE=07}She gives out righteously fine prizes to winnin' contestants."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4197,13 +4197,13 @@ CMP_EQ 0x18 0x0 0x42d00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_10508
 SYS_42 0x8 
 SETNAME "Duke"
-SAY "{VOICE=07}「Marshaちゃんのために　クエストのないようを{BREAK} あれこれ　かんがえているであります!"
+SAY "{VOICE=07}I'm always dreamin' up groovy ideas for Marsha to use in her Proficiency Test."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「カノジョは　いま　スカウトQプロに　むちゅう。{BREAK} 自分のあいには　気づいていないであります!"
+SAY "{VOICE=07}She is so into running that test, she's got no time for love and romance..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「しかし!　それが　全クリされたとき……{BREAK} 自分は　カノジョに　コクってみるであります!"
+SAY "{VOICE=07}But check it out! When someone finally passes all the problems...{WAIT}{CLEAR}...I'm going to confess my undyin',{BREAK}most righteous love!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4232,13 +4232,13 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x437a0000
 JMP_IFNOT 0xc L_1077c
 SYS_42 0x8 
 SETNAME "Duke"
-SAY "{VOICE=07}「スカウトQプロ　全クリア{BREAK} おめでとうございます!　で　あります!"
+SAY "{VOICE=07}Whoo-hee, man, congrats on passin' the Monster Scout Proficiency Test!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「しかし!　Marshaちゃんが　あなたに{BREAK} ついていきたいと　思っていたなんて……!"
+SAY "{VOICE=07}Now the test is over, there's somethin' missin' from Marsha's life..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「そんなの　ぜったい　ぜったい{BREAK} 自分が　ゆるさないでありますよ!!"
+SAY "{VOICE=07}And brother, I'm goin' to be the mole that steps in and fills that space with love!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4248,16 +4248,16 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x437b0000
 JMP_IFNOT 0xc L_10e38
 SYS_42 0x8 
 SETNAME "Duke"
-SAY "{VOICE=07}「ううっ。Marshaちゃんが　あなたに{BREAK} ついていってしまったであります……。"
+SAY "{VOICE=07}I can't believe Marsha ran off with you..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「スカウトQプロが　おわれば{BREAK} ふりむいてくれると　思っていたのに……。"
+SAY "{VOICE=07}I thought when her test was over... She'd finally look my way."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ええい!　ふしょう　Duke! {BREAK} こうみえて　最強キラーピッケルであります!!"
+SAY "{VOICE=07}I've got the mightiest pickaxe among my kin!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「こうなったら　自分も　あなたに{BREAK} ついていくであります!　いいでありますか!?{VOICE=09}"
+SAY "{VOICE=07}You've just gotta bring me along, man!{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4268,17 +4268,17 @@ SYS_BB 0x8
 STORE 0x18 0x0 0x42ce0000 0x1 0x0
 CMP_GE 0x18 0x0 0x42ce0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_10cb8
-SAY "{VOICE=07}「おお　なんと　心のひろい　お方……!{BREAK} ありがとうございますで　あります!"
+SAY "{VOICE=07}Right on, topsider!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}最強キラーピッケルの{BREAK}Dukeが　仲間に　なった!"
+SAY "{COLOR=2}Duke, the Maniacal Mole, has joined your party."
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}「自分は　どこまでも　Marshaちゃんに!{BREAK} ついていくで　ありますよ!"
+SAY "{VOICE=07}I'll follow you to the ends of the world, Marsha!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4312,10 +4312,10 @@ JMP_REL L_10cc0
 L_10cc0:
 JMP_ABS 0xc L_10ccc
 L_10ccc:
-SAY "{VOICE=07}「く～　ザンネンっ!　いまは{BREAK} 預かり所に　空きがないみたいであります!"
+SAY "{VOICE=07}Hey now, what gives?!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「預かり所に　空きをつくってから{BREAK} またきてほしいで　あります!"
+SAY "{VOICE=07}You've got too many monsters! Make a little room for me!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4327,7 +4327,7 @@ JMP_REL L_10da8
 L_10da8:
 JMP_ABS 0xc L_10db4
 L_10db4:
-SAY "{VOICE=07}「く～っ!　みそこなったで　ありますよ!{BREAK} あなたのこと　信じていたで　ありますのに!"
+SAY "{VOICE=07}I really believed in you, brother... I had you all wrong."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4339,10 +4339,10 @@ CMP_LT 0x18 0x0 0x42ca0000 0x2 0x437f0000
 JMP_IFNOT 0xc L_10f48
 SYS_42 0x8 
 SETNAME "Duke"
-SAY "{VOICE=07}「Marshaちゃんは　まだまだ　スカウトQプロに{BREAK} ムチュウなので　あります!"
+SAY "{VOICE=07}She's still totally into running that test - she's got no time for love and romance..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「もう　こうなったら　しょうがい{BREAK} カノジョのスカウトQプロに　つきあうであります!"
+SAY "{VOICE=07}I'm devotin' all my time to helpin' her with the Proficiency Test."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4354,13 +4354,13 @@ CMP_EQ 0x18 0x0 0x42d00000 0x2 0x0
 JMP_IFNOT 0xc L_110c8
 SYS_42 0x8 
 SETNAME "Duke"
-SAY "{VOICE=07}「自分のとなりにいるのは　どろにんぎょうの{BREAK} Marshaちゃんで　あります!"
+SAY "{VOICE=07}The mud mannequin next to me is the marvellous Marsha herself!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「かのじょに話しかければ　スカウトQプロという{BREAK} クエストが　うけられるであります!"
+SAY "{VOICE=07}See her if you want to test your mettle in the Monster Scout Proficiency Test."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「クリアするごとに　賞品も　もらえるので{BREAK} ぜひ　チャレンジしてほしいで　あります!"
+SAY "{VOICE=07}She gives out righteously fine prizes to winnin' contestants."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4387,23 +4387,23 @@ L_1116c:
 JMP_ABS 0xc L_11730
 L_11178:
 SYS_42 0x8 
-SAY "{VOICE=08}「あらっ?　あなた　ジャングルで{BREAK} 私に　どろハートをくれた人よねっ!"
+SAY "{VOICE=08}Hello! You're the well-groomed gentleman who recovered my heart of mud."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「じつは　あなたを　ひと目みたときから{BREAK} なにか　光るものがあると　思ってたのよね!"
+SAY "{VOICE=08}This is just splendiferous. Do you know why? Because I can return the favour!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「そこで　この私　Marshaが　おおくりする{BREAK} スカウトQプロを　うけてみてほしいの!"
+SAY "{VOICE=08}My name is Marsha, and I'm in charge of the Monster Scout Proficiency Test."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SETNAME "Marsha"
-SAY "{VOICE=08}「スカウトQプロとは　私が出す　じょうけんの{BREAK} モンスターを　つれてくる　クエストのことよ!"
+SAY "{VOICE=08}What is the Proficiency Test? Well, I suppose it's a series of mini-quests...{WAIT}{CLEAR}I name a certain monster type, and you fetch it for me. Good clean fun!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「クエストを　ひとつクリアするごとに{BREAK} 私から　ごほうびの賞品を　あげちゃうわ!"
+SAY "{VOICE=08}Every time you pass a challenge, I give you a spic-and-span prize!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「スカウトQプロを通して　あなたが{BREAK} プロであることを　みせつけてちょうだいっ!"
+SAY "{VOICE=08}And if you can learn the ABCs of monster scouting along the way, why...{WAIT}{CLEAR}...I'll be the happiest mud mannequin on the island!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x425c0000
@@ -4413,7 +4413,7 @@ MATH_ADD 0x20 0x0 0x42d60000 0x0 0x42d60000 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x42d60000
 SYS_A8 0x8 
-SAY "{VOICE=08}「それじゃあ　さっそく　はじめましょう!{BREAK} スカウトQプロのレベル{E322}よ!"
+SAY "{VOICE=08}Now, shall we get started? It's time for Monster Scout Proficiency Test Level {E322}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4421,16 +4421,16 @@ STORE 0x18 0x1 0x0 0x2 0x43520000
 SYS_A5 0x8 
 SYS_42 0x8 
 SETNAME "Marsha"
-SAY "{VOICE=08}「特性『ぼやき』をもつ{BREAK} モンスターを　つれてくること!"
+SAY "{VOICE=08}Bring a monster with the 'Grumble' trait!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「もし　すでに　仲間にしていたら　つれて{BREAK} もういちど　私に話しかけてくれる?"
+SAY "{VOICE=08}If you've already got one, just bring it along."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「たびのこころえに　ちょっとしたヒントが{BREAK} あるから　さんこうにしてねっ!"
+SAY "{VOICE=08}I can give you a few tips if you need it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「でも　こたえのモンスターが　どこにいるとか{BREAK} くわしいヒントは　なしよ!　プロですものね!"
+SAY "{VOICE=08}Don't expect any hints, though!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4452,7 +4452,7 @@ CMP_EQ 0x18 0x0 0x42d60000 0x2 0x437a0000
 JMP_IFNOT 0xc L_11d20
 SYS_42 0x8 
 SETNAME "Marsha"
-SAY "{VOICE=08}「あっ　{NAME}プロ!{BREAK} もしかして　私を　きたえてくれるんですか?{VOICE=09}"
+SAY "{VOICE=08}Oh, {NAME}... Are you here to scout me?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4463,18 +4463,18 @@ SYS_BB 0x8
 STORE 0x18 0x0 0x42da0000 0x1 0x0
 CMP_GE 0x18 0x0 0x42da0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_11b94
-SAY "{VOICE=08}「ありがとうございます　{NAME}プロ!{BREAK} それでは　ビシバシ　おねがいしますね!"
+SAY "{VOICE=08}Oh, thank you, {NAME}! I'll give it my all!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}最強どろにんぎょうの{BREAK}Marshaが　仲間に　なった!"
+SAY "{COLOR=2}Marsha, the Mud Mannequin, has joined your party."
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
 SETNAME "Marsha"
-SAY "{VOICE=08}「あ　私の名前は　プロが　つけてください!{BREAK} あなたに　いっしょう　ついていきます!"
+SAY "{VOICE=08}A name! A scout named me! I'm simply overjoyed!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4508,10 +4508,10 @@ JMP_REL L_11b9c
 L_11b9c:
 JMP_ABS 0xc L_11ba8
 L_11ba8:
-SAY "{VOICE=08}「その　おことばは　うれしいのですが{BREAK} いまは　預かり所に　空きがないみたいですね。"
+SAY "{VOICE=08}You have no room for me to squeeze in..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「預かり所に　空きをつくってきてもらえますか?{BREAK} おまちしています　{NAME}プロ!"
+SAY "{VOICE=08}You'll have to clean up your pen, first."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4523,7 +4523,7 @@ JMP_REL L_11c90
 L_11c90:
 JMP_ABS 0xc L_11c9c
 L_11c9c:
-SAY "{VOICE=08}「そんな!　私　こうみえて{BREAK} 最強どろにんぎょうなんですよ!?"
+SAY "{VOICE=08}I might not seem like much, but I'm the strongest of my kind!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4539,7 +4539,7 @@ CMP_EQ 0x18 0x0 0x42d40000 0x2 0x0
 JMP_IFNOT 0xc L_11fd8
 SYS_42 0x8 
 SETNAME "Marsha"
-SAY "{VOICE=08}「MarshaのスカウトQプロを{BREAK} うけにきたのかな?{VOICE=09}"
+SAY "{VOICE=08}Hello! Have you come to take Marsha's Monster Scout Proficiency Test?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4553,7 +4553,7 @@ MATH_ADD 0x20 0x0 0x42d60000 0x0 0x42d60000 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x42d60000
 SYS_A8 0x8 
-SAY "{VOICE=08}「では　スカウトQプロのレベル{E322}　いくわよ!"
+SAY "{VOICE=08}Oh, goody! Time for Proficiency Test{BREAK}Level {E322}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4563,7 +4563,7 @@ JMP_REL L_11f1c
 L_11f1c:
 JMP_ABS 0xc L_11f28
 L_11f28:
-SAY "{VOICE=08}「うん　そっか。{BREAK} それじゃあ　またきてね～。"
+SAY "{VOICE=08}Oh, well. Perhaps some other time, then?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4699,7 +4699,7 @@ SETNAME "Marsha"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x42d60000
 SYS_A8 0x8 
-SAY "{VOICE=08}「いまは　スカウトQプロのレベル{E322}。{BREAK} クエストクリアのじょうけんは……"
+SAY "{VOICE=08}You're currently on level {E322}. The challenge is..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_1290c
@@ -4712,7 +4712,7 @@ JMP_IFNOT 0xc L_129e0
 STORE 0x18 0x1 0x0 0x2 0x42080000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_DC 0x8 
-SAY " {VOICE=08}「特性『ぼやき』をもつ{BREAK} モンスターを　つれてくること!"
+SAY " {VOICE=08}Bring a monster with the 'Grumble' trait!"
 JMP_ABS 0xc L_13668
 L_129e0:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x3f800000
@@ -4720,10 +4720,10 @@ JMP_IFNOT 0xc L_12ae0
 STORE 0x18 0x1 0x0 0x2 0x420c0000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_DC 0x8 
-SAY "{VOICE=08}「ドラゴン系のモンスターを{BREAK} 2体　つれてくること!"
+SAY "{VOICE=08}Bring two dragon-family monsters!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「ドラゴン系のモンスター2体を　パーティに{BREAK} セットして　私に話しかければ　クリアよ!"
+SAY "{VOICE=08}Put two dragon-family monsters in the party and come back!"
 JMP_ABS 0xc L_13668
 L_12ae0:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x40000000
@@ -4731,13 +4731,13 @@ JMP_IFNOT 0xc L_12c44
 STORE 0x18 0x1 0x0 0x2 0x42100000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_DC 0x8 
-SAY "{VOICE=08}「Guestマークのついた　モンスターを{BREAK} なんでもいいから　つれてくること!"
+SAY "{VOICE=08}Bring a monster with the 'Guest' tag!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「すれちがいバトルや　配信などで手に入れた{BREAK} モンスターをつれてくれば　クリアよ!"
+SAY "{VOICE=08}Any monster obtained from tags or distributions will do."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「ただし　このクエストは　あるイミ{BREAK} むずかしいから　リタイアも　できるわよ!"
+SAY "{VOICE=08}This quest may be too difficult, so you can give up if you want."
 JMP_ABS 0xc L_13668
 L_12c44:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x40400000
@@ -4745,10 +4745,10 @@ JMP_IFNOT 0xc L_12d5c
 STORE 0x18 0x1 0x0 0x2 0x42140000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_DC 0x8 
-SAY "{VOICE=08}「『いきなりスカラ』と　『ときどきスカラ』の{BREAK} 特性をもつ　モンスターを　つれてくること!"
+SAY "{VOICE=08}Bring monsters with the 'Sudden Buff' and 'Random Buff' traits!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「パーティの中で　1体が　2つもっていてもいいし{BREAK} 2体で　1つずつ　もっていてもいいわ!"
+SAY "{VOICE=08}One monster with both, or two with one each will do."
 JMP_ABS 0xc L_13668
 L_12d5c:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x40800000
@@ -4756,7 +4756,7 @@ JMP_IFNOT 0xc L_12e04
 STORE 0x18 0x1 0x0 0x2 0x42180000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_DC 0x8 
-SAY "{VOICE=08}「特性『呪文会心　出やすい』をもつ{BREAK} モンスターを　つれてくること!"
+SAY "{VOICE=08}Bring a monster with the 'Spell Satisfaction' trait!"
 JMP_ABS 0xc L_13668
 L_12e04:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x40a00000
@@ -4764,13 +4764,13 @@ JMP_IFNOT 0xc L_12f88
 STORE 0x18 0x1 0x0 0x2 0x421c0000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_DC 0x8 
-SAY "{VOICE=08}「強スライムのように　『強』のついたモンスターを{BREAK} なんでもいいから　つれてくること!"
+SAY "{VOICE=08}Bring an upgraded monster with the 'X' suffix!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「F～D　RANKの　モンスターを　レベル20より{BREAK} 上にして　おなじモンスターと　配合すると……"
+SAY "{VOICE=08}If you synthesize two of the same F-D rank monsters above level 20..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「『強』のついたモンスターが　生まれるわ!{BREAK} 相手のレベルは　10いじょうなら　オーケーよ!"
+SAY "{VOICE=08}You'll create an 'X' version! It's much more powerful!"
 JMP_ABS 0xc L_13668
 L_12f88:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x40c00000
@@ -4778,7 +4778,7 @@ JMP_IFNOT 0xc L_13024
 STORE 0x18 0x1 0x0 0x2 0x42200000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_DC 0x8 
-SAY "{VOICE=08}「特性『ラッキー』をもつ{BREAK} モンスターを　つれてくること!"
+SAY "{VOICE=08}Bring a monster with the 'Lucky' trait!"
 JMP_ABS 0xc L_13668
 L_13024:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x40e00000
@@ -4786,10 +4786,10 @@ JMP_IFNOT 0xc L_1313c
 STORE 0x18 0x1 0x0 0x2 0x42240000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_DC 0x8 
-SAY "{VOICE=08}「特性『ねむりガード+』をもつ{BREAK} モンスターを　つれてくること!"
+SAY "{VOICE=08}Bring a monster with a 'Sleep Guard ↑' ability!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「『ねむりガード+』の特性は　『ナイトメア』や{BREAK} 『ねむりガード』のスキルで　おぼえられるわ。"
+SAY "{VOICE=08}You can get it from the Nightmare or Sleep Guard skills!"
 JMP_ABS 0xc L_13668
 L_1313c:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x41000000
@@ -4797,7 +4797,7 @@ JMP_IFNOT 0xc L_131dc
 STORE 0x18 0x1 0x0 0x2 0x42280000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_DC 0x8 
-SAY "{VOICE=08}「特性『たいでんたいしつ』をもつ{BREAK} モンスターを　つれてくること!"
+SAY "{VOICE=08}Bring a monster with the 'Static' trait!"
 JMP_ABS 0xc L_13668
 L_131dc:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x41100000
@@ -4808,13 +4808,13 @@ SYS_DC 0x8
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x40c00000
 SYS_A8 0x8 
-SAY "{VOICE=08}「パーティランク☆{E322}いじょうの{BREAK} パーティを　つれてくること!"
+SAY "{VOICE=08}Bring a party of {E322}☆ rank or higher!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「パーティランク☆{E322}いじょうとなる　パーティを{BREAK} セットして　私に話しかければ　クリアよ!"
+SAY "{VOICE=08}Come and show me as soon as your party is above {E322}☆."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「パーティランクは　Xボタンをおすと　ひらく{BREAK} メインメニューで　かくにんできるわ!"
+SAY "{VOICE=08}You can see your rank in the menu. Just press X to open it."
 JMP_ABS 0xc L_13668
 L_13380:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x41200000
@@ -4822,7 +4822,7 @@ JMP_IFNOT 0xc L_13424
 STORE 0x18 0x1 0x0 0x2 0x42300000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_DC 0x8 
-SAY "{VOICE=08}「特性『スタンダードキラー』をもつ{BREAK} モンスターを　つれてくること!"
+SAY "{VOICE=08}Bring a monster with the 'Standard Killer' trait!"
 JMP_ABS 0xc L_13668
 L_13424:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x41300000
@@ -4830,7 +4830,7 @@ JMP_IFNOT 0xc L_134c4
 STORE 0x18 0x1 0x0 0x2 0x42340000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_DC 0x8 
-SAY "{VOICE=08}「特性『メタルキラー』をもつ{BREAK} モンスターを　つれてくること!"
+SAY "{VOICE=08}Bring a monster with the 'Metal Killer' trait!"
 JMP_ABS 0xc L_13668
 L_134c4:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x41400000
@@ -4841,20 +4841,20 @@ SYS_DC 0x8
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x40e00000
 SYS_A8 0x8 
-SAY "{VOICE=08}「パーティランク☆{E322}いじょうの{BREAK} パーティを　つれてくること!"
+SAY "{VOICE=08}Bring a party of {E322}☆ rank or higher!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「パーティランク☆{E322}いじょうとなる　パーティを{BREAK} セットして　私に話しかければ　クリアよ!"
+SAY "{VOICE=08}Come and show me as soon as your party is above {E322}☆."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「パーティランクは　Xボタンをおすと　ひらく{BREAK} メインメニューで　かくにんできるわ!"
+SAY "{VOICE=08}You can see your rank in the menu. Just press X to open it."
 JMP_ABS 0xc L_13668
 L_13668:
 CMP_EQ 0x18 0x0 0x42d40000 0x2 0x0
 JMP_IFNOT 0xc L_1375c
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「たびのこころえに　ちょっとしたヒントが{BREAK} あるから　さんこうにしてねっ!"
+SAY "{VOICE=08}I have some tips for your travels. Be sure to keep them in mind!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4866,7 +4866,7 @@ JMP_ABS 0xc L_1375c
 L_1375c:
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「さて　ただしい　モンスターを{BREAK} つれてくることが　できたかな～?"
+SAY "{VOICE=08}Did you bring me the right monster?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4883,35 +4883,35 @@ SYS_42 0x8
 SETNAME "Marsha"
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x0
 JMP_IFNOT 0xc L_13a38
-SAY "{VOICE=08}「ワォ　おみごとよっ!　たしかに{BREAK} ただしい　モンスターを　つれてきたようね!"
+SAY "{VOICE=08}Oh, goody, you did! THAT is the beast you were meant to bring!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「『ぼやき』は　相手の　上がったテンションを{BREAK} 下げることができる　たのもしい特性よね。"
+SAY "{VOICE=08}'Grumble' is a great trait! It can bring down high enemy tension."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「しかも!　ふつうのテンションの相手にも{BREAK} テンションを下げる　効果があるのよ!"
+SAY "{VOICE=08}And, even better, it lowers tension if they don't have any."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「テンションが下がれば下がるほど　いつも通りの{BREAK} チカラが　はっきできないわ!　おぼえといて!"
+SAY "{VOICE=08}The lower the tension, the less damage they'll do!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_15548
 L_13a38:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x3f800000
 JMP_IFNOT 0xc L_13cbc
-SAY "{VOICE=08}「ワォ　おみごとよっ!　たしかに{BREAK} してい通りの　パーティになっているようね!"
+SAY "{VOICE=08}Oh, goody, you did! Those ARE what I was looking for!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「じつは　モンスターのけいとうによって{BREAK} テンションの上がるツボ　ってのがあるの!"
+SAY "{VOICE=08}Depending on a monster's lineage, they might react to certain things."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「たとえば　ドラゴン系なら　相手が{BREAK} スカラなどを使って　自分を強化したとき……"
+SAY "{VOICE=08}For example, against a dragon opponent who uses buff on themselves..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「そのツボが　しげきされて{BREAK} テンションが上がることが　あるのよ!"
+SAY "{VOICE=08}...It might cause a monster to get fired up!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「たびのこころえにも　けいとうについて{BREAK} のせておいたから　あとで　よんでみてね!"
+SAY "{VOICE=08}I've added details about it to your traveler's log."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41c80000
@@ -4924,22 +4924,22 @@ JMP_ABS 0xc L_15548
 L_13cbc:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x40000000
 JMP_IFNOT 0xc L_13f88
-SAY "{VOICE=08}「ワォ　おみごとよっ!　たしかに{BREAK} ただしい　モンスターを　つれてきたようね!"
+SAY "{VOICE=08}Oh, goody, you did! THAT is the beast you were meant to bring!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「Guestマークがついていると　Wi-Fi通信の{BREAK} 最強マスター決定戦に　さんかできないの。"
+SAY "{VOICE=08}While it has a guest mark, it can't participate in Wi-Fi battles."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「でもね　系図から　Guestマークがなくなると{BREAK} そのモンスターは　Guestではなくなるのよ!"
+SAY "{VOICE=08}But once the mark is gone, it's not a guest anymore!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「つまり　Guestマークのない　モンスターと{BREAK} くりかえし　配合をしていけば……"
+SAY "{VOICE=08}If you synthesize that monster a whole lot, it'll vanish."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「そのモンスターから　Guestマークが　きえて{BREAK} 最強マスター決定戦で　使えるようになるわ!"
+SAY "{VOICE=08}After that, it's all yours."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「たびのこころえにも　Guestマークのけしかたを{BREAK} のせておいたから　あとで　よんでみてね!"
+SAY "{VOICE=08}I've added some notes about it to your traveler's log!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41300000
@@ -4949,48 +4949,48 @@ JMP_ABS 0xc L_15548
 L_13f88:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x40400000
 JMP_IFNOT 0xc L_14138
-SAY "{VOICE=08}「ワォ　おみごとよっ!　たしかに{BREAK} ただしい　モンスターを　つれてきたようね!"
+SAY "{VOICE=08}Oh, goody, you did! THAT is the beast you were meant to bring!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「特性の中には　いきなり　や　ときどき　が{BREAK} つくものが　たくさん　あるわ!"
+SAY "{VOICE=08}There's a number of Sudden and Random traits."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「いきなり　は　戦闘が　はじまったときに{BREAK} 効果が　きたいできる特性よ。"
+SAY "{VOICE=08}'Sudden' traits will take effect at the start of a battle."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「ときどき　は　ラウンドごとに　効果が{BREAK} きたいできる特性よ!　おぼえといてね!"
+SAY "{VOICE=08}'Random' traits can activate at any time. Keep that in mind!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_15548
 L_14138:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x40800000
 JMP_IFNOT 0xc L_142fc
-SAY "{VOICE=08}「ワォ　おみごとよっ!　たしかに{BREAK} ただしい　モンスターを　つれてきたようね!"
+SAY "{VOICE=08}Oh, goody, you did! THAT is the beast you were meant to bring!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「呪文で　相手を攻撃したとき　たまに{BREAK} 思いもよらない　いりょくになることがあるわ。"
+SAY "{VOICE=08}Sometimes, attacking with a spell can unleash destructive power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「これを　呪文会心と　よぶの!{BREAK} まさに　呪文による　会心のいちげきってワケ!"
+SAY "{VOICE=08}That's a 'critical spell'! A critical hit, delivered by a magic attack."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「『呪文会心　出やすい』は　その呪文会心が{BREAK} 出やすくなる　特性よ!　わかりやすいでしょ?"
+SAY "{VOICE=08}With 'Spell Satisfaction', critical spells become more common."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_15548
 L_142fc:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x40a00000
 JMP_IFNOT 0xc L_144f4
-SAY "{VOICE=08}「ワォ　おみごとよっ!　たしかに{BREAK} ただしい　モンスターを　つれてきたようね!"
+SAY "{VOICE=08}Oh, goody, you did! THAT is the beast you were meant to bring!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「F～D　RANKのモンスターなら　どのコも{BREAK} おなじやり方で　『強』モンスターにできるわ!"
+SAY "{VOICE=08}Any F-D rank monster can become an 'X' monster the same way."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「さらに!　C～A　RANKのモンスターと{BREAK} 『強』モンスターは　『最強』にも　なれるの!"
+SAY "{VOICE=08}And that's not all! Any C-A rank monsters can become 'XY' monsters."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「これを　しんか配合と　よぶわ!{BREAK} くわしくは　たびのこころえを　みてね!"
+SAY "{VOICE=08}I've added some notes about this to your traveler's log!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41f80000
@@ -5000,144 +5000,144 @@ JMP_ABS 0xc L_15548
 L_144f4:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x40c00000
 JMP_IFNOT 0xc L_146a0
-SAY "{VOICE=08}「ワォ　おみごとよっ!　たしかに{BREAK} ただしい　モンスターを　つれてきたようね!"
+SAY "{VOICE=08}Oh, goody, you did! THAT is the beast you were meant to bring!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「『ラッキー』の特性をもっていると{BREAK} いろいろと　おトクなの!"
+SAY "{VOICE=08}The 'Lucky' trait gives you a ton of neat effects."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「成功と失敗がある　特技を　使ったとき{BREAK} いつもより　成功が　おおくなるわ!"
+SAY "{VOICE=08}Using skills always has a chance of success or failure. With 'Lucky'..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「ぎゃくに　失敗が増える『アンラッキー』って{BREAK} 特性もあるから　ちゅういしてね!"
+SAY "{VOICE=08}...success becomes more common! But watch out for 'Unlucky' as well!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_15548
 L_146a0:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x40e00000
 JMP_IFNOT 0xc L_148b4
-SAY "{VOICE=08}「ワォ　おみごとよっ!　たしかに{BREAK} ただしい　モンスターを　つれてきたようね!"
+SAY "{VOICE=08}Oh, goody, you did! THAT is the beast you were meant to bring!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「この　『ねむりガード+』みたいな特性は{BREAK} なかなか　あなどれないわよ!"
+SAY "{VOICE=08}Abilities like 'Sleep Guard ↑' shouldn't be underestimated!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「ねむりが　じゃくてんだった　モンスターに{BREAK} 1つ　つければ　じゃくてんではなくなり……"
+SAY "{VOICE=08}Give it to a monster with a sleep weakness, and it won't be weak anymore!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「2つ　つければ　なんと!{BREAK} ねむりが　ほとんど　きかなくなるのよ!"
+SAY "{VOICE=08}With two of them, sleep becomes almost entirely ineffective."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「ガード+　ってのがついた　特性は　みんな{BREAK} そういう効果があるから　おぼえといてね!"
+SAY "{VOICE=08}Keep guard abilities in mind when deciding traits for your monsters!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_15548
 L_148b4:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x41000000
 JMP_IFNOT 0xc L_14ae4
-SAY "{VOICE=08}「ワォ　おみごとよっ!　たしかに{BREAK} ただしい　モンスターを　つれてきたようね!"
+SAY "{VOICE=08}Oh, goody, you did! THAT is the beast you were meant to bring!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「『たいでんたいしつ』は　マヒしているときに{BREAK} 攻撃されると　相手もマヒさせちゃう　特性よ。"
+SAY "{VOICE=08}'Static' is a trait that paralyzes attackers if you're also paralyzed."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「このように　モンスターの中には　ころんでも{BREAK} ただではおきない　特性をもつコが　いるわ!"
+SAY "{VOICE=08}With a trait like that, even a bad situation can be turned around."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「たとえば　『ねがえり』や　『きょうせんし』{BREAK} 『ふくつのとうし』なんかの特性が　そうね!"
+SAY "{VOICE=08}Toss & Turn, Berserker, and Stalwart Spirit are all similar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「かれらを　うまく使いこなせば　ぎゃくてんも{BREAK} ゆめじゃないわ!　ネバーギブアップよ!"
+SAY "{VOICE=08}Good use of them can make the comeback a reality."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_15548
 L_14ae4:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x41100000
 JMP_IFNOT 0xc L_14cd4
-SAY "{VOICE=08}「ワォ　おみごとよっ!　たしかに{BREAK} してい通りの　パーティになっているようね!"
+SAY "{VOICE=08}Oh, goody, you did! Your team is as I asked!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x40c00000
 SYS_A8 0x8 
-SAY "{VOICE=08}「ついに　パーティランク☆{E322}をこえる{BREAK} パーティを　つれてくるなんて……。"
+SAY "{VOICE=08}To think you have a team of {E322}☆ rank already..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「ふつうに　すごいわ!　きっと　あなたなら{BREAK} 最強マスター決定戦でも　いいセンいくわね!"
+SAY "{VOICE=08}That's fantastic! I bet you can really hold your own!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「これからは　Wi-Fi通信を使って{BREAK} いろんな人と　戦ってみると　いいわよ!"
+SAY "{VOICE=08}You should really try battling over Wi-Fi!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_15548
 L_14cd4:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x41200000
 JMP_IFNOT 0xc L_14ea0
-SAY "{VOICE=08}「ワォ　おみごとよっ!　たしかに{BREAK} ただしい　モンスターを　つれてきたようね!"
+SAY "{VOICE=08}Oh, goody, you did! THAT is the beast you were meant to bring!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「『スタンダードキラー』は　ふつうサイズのコに{BREAK} 大ダメージを　あたえることができる　特性よ。"
+SAY "{VOICE=08}'Standard Killer' lets you deal additional damage to normal-size monsters."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「はんたいに　巨大モンスターに強い{BREAK} 『ギガキラー』という　特性もあるわ。"
+SAY "{VOICE=08}There's also 'Giant Killer', which does as the name implies."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「どのサイズのモンスターで　戦うか……。{BREAK} 試合の前から　勝負は　はじまっているのよ!"
+SAY "{VOICE=08}Knowing your enemy is more than half of the battle!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_15548
 L_14ea0:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x41300000
 JMP_IFNOT 0xc L_15060
-SAY "{VOICE=08}「ワォ　おみごとよっ!　たしかに{BREAK} ただしい　モンスターを　つれてきたようね!"
+SAY "{VOICE=08}Oh, goody, you did! THAT is the beast you were meant to bring!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「メタルスライムや　はぐれメタルといった{BREAK} メタルボディのコたちは　かたくて　イヤよね!"
+SAY "{VOICE=08}Monsters with the 'Metal Body' trait are awfully annoying, aren't they?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「でも　『メタルキラー』があれば　あのコたちに{BREAK} ふつうに　ダメージを　あたえられるの!"
+SAY "{VOICE=08}But with 'Metal Killer', you deal normal damage to them!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「どうやら　この特性をマスターできる　スキルが{BREAK} あるみたいだけど……。ほんとうかしらね?"
+SAY "{VOICE=08}There's a skill that lets you gain this trait, or so I've heard."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_15548
 L_15060:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x41400000
 JMP_IFNOT 0xc L_15548
-SAY "{VOICE=08}「ワォ　おみごとよっ!　たしかに{BREAK} してい通りの　パーティになっているようね!"
+SAY "{VOICE=08}Oh, goody, you did! Your team is as I asked!
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x40e00000
 SYS_A8 0x8 
-SAY "{VOICE=08}「……かんどうよ!　パーティランク☆{E322}をこえる{BREAK} パーティを　つれてくるなんて!"
+SAY "{VOICE=08}It's simply amazing to see a team of {E322}☆ rank."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「あなたの相手は　もう　この島にはいないわ!{BREAK} 世界に　目をむけて　カツヤクすべきよ!"
+SAY "{VOICE=08}You've become an exceptional scout in such a short time!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「ぜひ　最強マスター決定戦に　さんかしてみて!{BREAK} あなたなら　上位入賞も　ゆめじゃないわ!"
+SAY "{VOICE=08}Grander enemies await you beyond this island, make no mistake."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「そして　ついに　このときがきたのね……!{BREAK} 私の　スカウトQプロが　せいはされるときが!"
+SAY "{VOICE=08}And that's... it!{WAIT}{CLEAR}You have cleaned up in the one and only True Monster Scout Proficiency Test!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_33 0x8 
-SAY "{VOICE=08}「あなたこそ　プロ中のプロ!{BREAK} スカウトQプロフェッショナルよ!"
+SAY "{VOICE=08}You're on top of the Professional world!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「これで　スカウトQプロは　おしまいよ。{BREAK} でも　最後に　ひとつだけ　おねがいが……。"
+SAY "{VOICE=08}All I have left is one favor to ask..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「{NAME}プロ!{BREAK} どうか　私を　きたえてください!"
+SAY "{VOICE=08}{NAME}! Please take me with you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「こうみえて　私　最強どろにんぎょうなんです!{BREAK} 決して　プロのあしを　ひっぱりませんから!"
+SAY "{VOICE=08}I'm the strongest mud mannequin there is!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「気がむいたら　私に　話しかけてくれますか?{BREAK} おねがいしますね　{NAME}プロ!"
+SAY "{VOICE=08}Please consider it! I'll be waiting here for you."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5151,7 +5151,7 @@ SYS_11B 0x8
 JMP_ABS 0xc L_16b38
 JMP_ABS 0xc L_15548
 L_15548:
-SAY "{VOICE=08}「はい!　それじゃあ{BREAK} こんかいの賞品を　うけとってね!"
+SAY "{VOICE=08}Now you've polished off that level,{BREAK}I'll give you your spic-and-span prize!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5222,7 +5222,7 @@ SYS_73 0x8
 STORE 0x18 0x1 0x0 0x2 0x42b80000
 SYS_33 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}{COLOR=0}{232}{COLOR=2}のつえを　うけとった。"
+SAY "{COLOR=2}{E321}{NAME} obtains {E32A}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5277,14 +5277,14 @@ L_15cbc:
 STORE 0x18 0x1 0x0 0x2 0x42b80000
 SYS_33 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}{E328}を　うけとった。"
+SAY "{COLOR=2}{E321}{NAME} obtains {E32A}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 L_15d2c:
 SYS_42 0x8 
 SETNAME "Marsha"
-SAY "{VOICE=08}「つぎのクエストを　うけるときは{BREAK} また　私に話しかけてね!"
+SAY "{VOICE=08}Now, talk to me again when you're ready to take on the next challenge!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5375,39 +5375,39 @@ JMP_IFNOT 0xc L_16214
 JMP_ABS 0xc L_162dc
 JMP_ABS 0xc L_16214
 L_16214:
-SAY "{VOICE=08}「あらら……　ただしい　モンスターは{BREAK} まだ　いないようね!"
+SAY "{VOICE=08}Tut-tut-tut-tut. No, no, no.{BREAK}You don't have the monster I want!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「たびのこころえに　ちょっとしたヒントが{BREAK} あるから　さんこうにしてねっ!"
+SAY "{VOICE=08}Remember to look at the tips I've given you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_11B 0x8 
 JMP_ABS 0xc L_16b38
 L_162dc:
-SAY "{VOICE=08}「あらら……　してい通りの　パーティは{BREAK} まだ　できていないようね!"
+SAY "{VOICE=08}Tut-tut-tut-tut. No, no, no.{BREAK}Your party isn't as I requested!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「たびのこころえに　ちょっとしたヒントが{BREAK} あるから　さんこうにしてねっ!"
+SAY "{VOICE=08}Remember to look at the tips I've given you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_11B 0x8 
 JMP_ABS 0xc L_16b38
-SAY "{VOICE=08}「あらら……　モンスターのタマゴは{BREAK} まだ　手に入れていないようね!"
+SAY "{VOICE=08}You haven't gotten the egg yet!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「でも　がんばって!　あなたなら　できるわっ!{BREAK} なんてったって　プロなんですもの!"
+SAY "{VOICE=08}Remember to look at the tips I've given you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_11B 0x8 
 JMP_ABS 0xc L_16b38
 L_16488:
-SAY "{VOICE=08}「あらら……　ただしい　モンスターは{BREAK} まだ　いないようね!"
+SAY "{VOICE=08}Tut-tut-tut-tut. No, no, no.{BREAK}You don't have the monster I want!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「このクエスト　あるイミ　むずかしいから{BREAK} リタイアも　できるけど……　リタイアする?{VOICE=09}"
+SAY "{VOICE=08}This one may be too difficult. Would you like to give up?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -5416,35 +5416,35 @@ CMP_EQ 0x18 0x0 0x42da0000 0x2 0x0
 JMP_IFNOT 0xc L_16aa8
 STORE 0x18 0x1 0x0 0x2 0x41f80000
 SYS_55 0x8 
-SAY "{VOICE=08}「ごほうびの　{E328}も{BREAK} もらえないけど　ほんとに　リタイアする?{VOICE=09}"
+SAY "{VOICE=08}You won't get a reward! Are you certain?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42da0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42da0000 0x2 0x0
 JMP_IFNOT 0xc L_16a1c
-SAY "{VOICE=08}「うん。わかったわ。それじゃ　Guestマークの{BREAK} かいせつだけ　しておくわね。"
+SAY "{VOICE=08}Understood, but not to worry! I'll explain."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「Guestマークがついていると　Wi-Fi通信の{BREAK} 最強マスター決定戦に　さんかできないの。"
+SAY "{VOICE=08}While it has the guest mark, it can't participate in Wi-Fi battles."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「でもね　系図から　Guestマークがなくなると{BREAK} そのモンスターは　Guestではなくなるのよ!"
+SAY "{VOICE=08}But once the guest mark is gone, it's not a guest anymore!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「つまり　Guestマークのない　モンスターと{BREAK} くりかえし　配合をしていけば……"
+SAY "{VOICE=08}After synthesizing it a whole lot, the guest mark with vanish!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「そのモンスターから　Guestマークが　きえて{BREAK} 最強マスター決定戦で　使えるようになるわ!"
+SAY "{VOICE=08}After that, it's all yours!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「たびのこころえにも　Guestマークのけしかたを{BREAK} のせておいたから　あとで　よんでみてね!"
+SAY "{VOICE=08}I've added some notes about it to your traveler's log."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41300000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_DC 0x8 
-SAY "{VOICE=08}「つぎのクエストを　うけるときは{BREAK} また　私に話しかけてね!"
+SAY "{VOICE=08}Now, talk to me again when you're ready to take on the next challenge!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5466,7 +5466,7 @@ JMP_REL L_16a24
 L_16a24:
 JMP_ABS 0xc L_16a30
 L_16a30:
-SAY "{VOICE=08}「うん!　あなたなら　そう言ってくれると{BREAK} 信じてたわ!　それじゃ　がんばってね!"
+SAY "{VOICE=08}Of course! I wish you good luck."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_16a9c
@@ -5477,7 +5477,7 @@ JMP_REL L_16ab0
 L_16ab0:
 JMP_ABS 0xc L_16abc
 L_16abc:
-SAY "{VOICE=08}「うん!　あなたなら　そう言ってくれると{BREAK} 信じてたわ!　それじゃ　がんばってね!"
+SAY "{VOICE=08}Of course! I wish you good luck."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_16b28
@@ -6123,10 +6123,10 @@ STORE 0x18 0x0 0x42f00000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_193f0
 SYS_42 0x8 
-SAY "{COLOR=2}この島の　れきしについて{BREAK}かかれた本のようだ。"
+SAY "{COLOR=2}It appears to be a book describing the history of the island."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}……しかし　使われている　ことばが　古く{BREAK}{NAME}には　よめなかった……。"
+SAY "{COLOR=2}But {NAME} cannot read the ancient script in which it is written."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6135,16 +6135,16 @@ L_193f0:
 CMP_EQ 0x18 0x0 0x42f00000 0x2 0x40000000
 JMP_IFNOT 0xc L_195c0
 SYS_42 0x8 
-SAY "{COLOR=2}『なるほど　バトルトリビア』という本がある。{BREAK}{NAME}は　手にとって　よんだ。"
+SAY "{COLOR=2}It's a book called 'The Smart Battler'. {E321}{NAME} starts to read..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}じつは!　敵の　はいごをとり　戦闘に入れば{BREAK}せんせい攻撃の　かくりつが上がるのだ!"
+SAY "{COLOR=2}'It's a fact! If you start a battle by approaching the enemy from the rear...{WAIT}{CLEAR}...you'll be more likely to hit the enemy group with a surprise first strike."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}さらに!　スタンバイモンスターは{BREAK}戦闘中にも　入れかえることが　できるのだ!"
+SAY "{COLOR=2}'Also, you can switch in your substitute monsters in the middle of a fight."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}そして!　テンションを上げて　スカウトすると{BREAK}成功かくりつが　グッと上がるのだっ!"
+SAY "{COLOR=2}'And that's not all! If you try to scout a monster while your team is psyched up...{WAIT}{CLEAR}...the odds of a successful show of force go WAY up!'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6153,10 +6153,10 @@ L_195c0:
 CMP_EQ 0x18 0x0 0x42f00000 0x2 0x40400000
 JMP_IFNOT 0xc L_196a8
 SYS_42 0x8 
-SAY "{COLOR=2}巨大モンスターについて{BREAK}かかれた本のようだ。"
+SAY "{COLOR=2}It appears to be a book about giant monsters."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}……しかし　使われている　ことばが　古く{BREAK}{NAME}には　よめなかった……。"
+SAY "{COLOR=2}But {NAME} cannot read the ancient script in which it is written."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6165,19 +6165,19 @@ L_196a8:
 CMP_EQ 0x18 0x0 0x42f00000 0x2 0x40800000
 JMP_IFNOT 0xc L_198ac
 SYS_42 0x8 
-SAY "{COLOR=2}『配合とスキルポイント』という本がある。{BREAK}{NAME}は　手にとって　よんだ。"
+SAY "{COLOR=2}The book is called 'Synth & Synthability'.{WAIT}{CLEAR}{E321}{NAME} begins to read..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}配合のさい　親のもっていたスキルポイントは{BREAK}その　はんぶんずつが　うけつがれます。"
+SAY "{COLOR=2}'When two monsters are synthesised...{WAIT}{CLEAR}'...each passes on half its skill points to the new monster."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}のこしておいた　ポイントも　はんぶんずつ。"
+SAY "{COLOR=2}'This is true for all skill points, used and unused."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}だから配合のとき　ポイントをのこすと{BREAK}ソンになる　ということはありません。"
+SAY "{COLOR=2}'So there's no need to worry about wasting skill points..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}のこりポイントのことは　気にせず{BREAK}配合しても　だいじょうぶ　です。"
+SAY "{COLOR=2}'Your new monster will receive its fair share, one way or another!'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6191,16 +6191,16 @@ STORE 0x18 0x0 0x42f40000 0x1 0x0
 CMP_LT 0x18 0x0 0x42f40000 0x2 0x41300000
 JMP_IFNOT 0xc L_19ab0
 SYS_42 0x8 
-SAY "{COLOR=2}『謎のチケット』という本がある。{BREAK}{NAME}は　手にとって　よんだ。"
+SAY "{COLOR=2}The cover of this book reads 'Your Ticket to Success'.{WAIT}{CLEAR}{E321}{NAME} begins to read..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}メタルチケットという　謎のチケットを{BREAK}ごぞんじだろうか?"
+SAY "{COLOR=2}'Perhaps you have heard of the enigmatic metal tickets?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}メタル系スライムばかりが出る　エリアに{BREAK}人びとをいざなう　ユメのチケット……。"
+SAY "{COLOR=2}'They transport the bearer to strange lands where only metal slimes dwell."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}メタルチケットは　あおい宝箱などにも{BREAK}ときどき　かくされているらしい。"
+SAY "{COLOR=2}'Tickets can sometimes be found in blue treasure boxes.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6211,16 +6211,16 @@ L_19ab8:
 JMP_ABS 0xc L_19ac4
 L_19ac4:
 SYS_42 0x8 
-SAY "{COLOR=2}『謎のトビラ』という本がある。{BREAK}{NAME}は　手にとって　よんだ。"
+SAY "{COLOR=2}It's a book entitled 'Portals of Portent'. {E321}{NAME} opens a page..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}エリアを　くまなく　あるいていると{BREAK}謎のトビラに　出くわすことがあるでしょう。"
+SAY "{COLOR=2}'As you intrepidly explore certain regions, you may find strange portals..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}おくすることは　ありません。そのトビラを{BREAK}みかけたら　中に入ってみましょう。"
+SAY "{COLOR=2}'Do not fear these portals - step boldly into them and see where they lead!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}きっと　ステキな出会いが{BREAK}あなたを　まっているはずです!"
+SAY "{COLOR=2}'Who knows what wonderful discovery will be waiting at the other side?'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6241,20 +6241,20 @@ STORE 0x18 0x0 0x42f20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f20000 0x2 0x0
 JMP_IFNOT 0xc L_1a648
 SYS_42 0x8 
-SAY "{COLOR=2}『シャーマンじいさんの　いまのうんせい』{BREAK}という　ふしぎな本がある。"
+SAY "{COLOR=2}It's an odd book called 'Heedoovoodoo's Instant Fortunes!'."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}どうやら　この本は　ページをひらくと{BREAK}いまのうんせいを　うらなってくれるようだ。"
+SAY "{COLOR=2}The blurb claims that the book will tell the fortune of anyone who opens it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}手にとって　よんでみますか?{VOICE=09}"
+SAY "{COLOR=2}Want to try reading it?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42f80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x0
 JMP_IFNOT 0xc L_1a614
-SAY "{COLOR=2}{NAME}は　ねんじながら{BREAK}ページを　ひらいた……!"
+SAY "{COLOR=2}With a certain amount of trepidation, {NAME} opens the book..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6264,65 +6264,65 @@ STORE 0x18 0x0 0x42f60000 0x1 0x0
 SYS_42 0x8 
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x0
 JMP_IFNOT 0xc L_1a05c
-SAY "{VOICE=03}「おぬしの　いまのうんせいは　大ラッキーじゃ!{BREAK} ラッキーアイテムは　しもふりにくじゃな!"
+SAY "{VOICE=03}'You are currently Super Lucky!{BREAK}Your lucky item is beastie bites!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「この　いきおいに乗じて　ゲキ強のモンスターを{BREAK} しもふりにくを使って　スカウトしてみい!"
+SAY "{VOICE=03}'Now's the time to scout those extra-powerful monsters.{WAIT}{CLEAR}'Try enticing them with beastie bites!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「まあ　もし　スカウトに失敗しても{BREAK} ワシは　せきにんを　おわんがな。"
+SAY "{VOICE=03}'WARNING: The information in this book is for entertainment purposes only.{WAIT}{CLEAR}'The author is not liable for any injuries sustained by the reader.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_1a5c8
 L_1a05c:
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1a1b8
-SAY "{VOICE=03}「おぬしの　いまのうんせいは　中ラッキーじゃ。{BREAK} ラッキーナンバーは　11じゃな。"
+SAY "{VOICE=03}'You are currently Very Lucky!{BREAK}Your lucky number is 11!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「レベル11になったときは　スキルポイントが{BREAK} わりと　おおめに　もらえるんじゃ。"
+SAY "{VOICE=03}'When monsters reach level 11, they receive an extra dose of skill points. "
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「レベル10で　すぐに配合したくなる気もちも{BREAK} わかるが　レベル11まで　がんばってみい。"
+SAY "{VOICE=03}'Although it's tempting to start synthesis right away at level 10...{WAIT}{CLEAR}'...try to hold out just a little bit longer.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_1a5c8
 L_1a1b8:
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x40000000
 JMP_IFNOT 0xc L_1a310
-SAY "{VOICE=03}「いまのうんせいは　ふつうに　ラッキーじゃ。{BREAK} ラッキー武器は　プラントフォークじゃな。"
+SAY "{VOICE=03}'You are currently Just Lucky!{BREAK}Your lucky weapon is the pitchfork! "
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「プラントフォークを　装備していると{BREAK} 会心の　いちげきが　出やすいそうじゃ。"
+SAY "{VOICE=03}'A monster equipped with a pitchfork is more likely to deliver critical hits."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「武器にも　いろんな特性があるから{BREAK} 説明を　よんでおくと　いいぞ。"
+SAY "{VOICE=03}'Weapons have different strengths. Be sure to check the info on each weapon.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_1a5c8
 L_1a310:
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x40400000
 JMP_IFNOT 0xc L_1a46c
-SAY "{VOICE=03}「おぬしの　いまのうんせいは　ぷちラッキーじゃ。{BREAK} ラッキーモンスターは　スカルゴンじゃな。"
+SAY "{VOICE=03}'You are currently a Little Bit Lucky!{BREAK}Your lucky monster is a skelegon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「スカルゴンは　バトルレックスか　ドラゴンを{BREAK} ゾンビ系と　配合させないと　できんのじゃ。"
+SAY "{VOICE=03}'To produce a skelegon, you need a hackasaurus or green dragon...{WAIT}{CLEAR}'...which you can synthesise with an Undead Family monster."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「レアなモンスターを　もってれば{BREAK} おぬしの　うんも　ひらけてくるじゃろう。"
+SAY "{VOICE=03}'By synthesising rare monsters, you can make your own luck!'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_1a5c8
 L_1a46c:
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x40800000
 JMP_IFNOT 0xc L_1a5c8
-SAY "{VOICE=03}「おぬしの　いまのうんせいは　アンラッキーか。{BREAK} こんなときは　雨のふる場所に　行くがいい。"
+SAY "{VOICE=03}'You are currently Unlucky!{BREAK}You should go somewhere rainy."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ふこうな自分に　なみだしても{BREAK} 雨が　そっと　あらいながしてくれるわい。"
+SAY "{VOICE=03}'That way, no one will notice your tears of misfortune..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「レアモンスターに　出会えるかも　しれんしな。{BREAK} うんめいは　自分で　きりひらくもんじゃよ。"
+SAY "{VOICE=03}'Oh, and you might meet a rare monster or two.{WAIT}{CLEAR}'Remember, good scouts make their own luck!'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_1a5c8
@@ -6347,10 +6347,10 @@ L_1a650:
 JMP_ABS 0xc L_1a65c
 L_1a65c:
 SYS_42 0x8 
-SAY "{COLOR=2}『シャーマンじいさんの　いまのうんせい』{BREAK}という　ふしぎな本がある。"
+SAY "{COLOR=2}It's an odd book called 'Heedoovoodoo's Instant Fortunes!'."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}しかし　この本は　しばらくしないと{BREAK}ふたたび　よむことが　できないようだ。"
+SAY "{COLOR=2}But it's a magic book, so you must wait a while before you read it again."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6368,20 +6368,20 @@ STORE 0x18 0x0 0x42f20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f20000 0x2 0x0
 JMP_IFNOT 0xc L_1b14c
 SYS_42 0x8 
-SAY "{COLOR=2}『シャーマンじいさんの　いまのうんせい』{BREAK}という　ふしぎな本がある。"
+SAY "{COLOR=2}It's an odd book called 'Heedoovoodoo's Instant Fortunes!'."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}どうやら　この本は　ページをひらくと{BREAK}いまのうんせいを　うらなってくれるようだ。"
+SAY "{COLOR=2}The blurb claims that the book will tell the fortune of anyone who opens it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}手にとって　よんでみますか?{VOICE=09}"
+SAY "{COLOR=2}Want to try reading it?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42f80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x0
 JMP_IFNOT 0xc L_1b118
-SAY "{COLOR=2}{NAME}は　ねんじながら{BREAK}ページを　ひらいた……!"
+SAY "{COLOR=2}With a certain amount of trepidation, {NAME} opens the book..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6391,68 +6391,68 @@ STORE 0x18 0x0 0x42f60000 0x1 0x0
 SYS_42 0x8 
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x0
 JMP_IFNOT 0xc L_1ab54
-SAY "{VOICE=03}「おぬしの　いまのうんせいは　大ラッキーじゃ!{BREAK} ラッキー特性は　ギャンブルボディじゃな!"
+SAY "{VOICE=03}'Your are currently Super Lucky!{BREAK}Lucky scouts use Perilous Parrier!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ギャンブルボディは　うんがよいと{BREAK} くらったダメージをゼロにする　特性なんじゃ!"
+SAY "{VOICE=03}'Perilous Parrier is a trait that can reduce damage to zero - if you're lucky!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「自分のうんを　味方につけ{BREAK} すべてのダメージを　ゼロにしてみい!"
+SAY "{VOICE=03}'Monsters can share the luck and negate all damage taken in a foe's attack."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「……ただし　攻撃をくらうと　ダメージは{BREAK} いつもより　でかくなる。気を　つけんしゃい。"
+SAY "{VOICE=03}'But it's a gamble - if the attack gets through, it'll hurt more than usual!'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_1b0cc
 L_1ab54:
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1acb4
-SAY "{VOICE=03}「おぬしの　いまのうんせいは　中ラッキーじゃ。{BREAK} ラッキーナンバーは　21じゃな。"
+SAY "{VOICE=03}'You are currently Very Lucky!{BREAK}Your lucky number is 21!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「レベル11のつぎに　スキルポイントが{BREAK} おおめに　もらえるのが　レベル21じゃ。"
+SAY "{VOICE=03}'At level 21, monsters get bonus skill points second only to level 11."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ここまで　そだてあげてから　配合すれば{BREAK} かなり強いモンスターに　しあがるじゃろうな。"
+SAY "{VOICE=03}'If you grow your monsters to level 21 first...{WAIT}{CLEAR}...you can synthesise very powerful new allies!'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_1b0cc
 L_1acb4:
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x40000000
 JMP_IFNOT 0xc L_1ae1c
-SAY "{VOICE=03}「いまのうんせいは　ふつうに　ラッキーじゃ。{BREAK} ラッキー通信は　Wi-Fi通信じゃな。"
+SAY "{VOICE=03}You are currently Just Lucky! Lucky scouts use Nintendo Wi-Fi Connection!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「Wi-Fi通信の　最強マスター決定戦は{BREAK} プロフェッショナルたちのランキングバトルじゃ。"
+SAY "{VOICE=03}'You'll be able to battle scouts in the World Monster Championships!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ふつうに参加するだけで　賞品が　もらえるし{BREAK} いまの　おぬしに　ピッタリじゃよ。"
+SAY "{VOICE=03}'You can win great prizes, so it's worth venturing out!'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_1b0cc
 L_1ae1c:
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x40400000
 JMP_IFNOT 0xc L_1af70
-SAY "{VOICE=03}「おぬしの　いまのうんせいは　ぷちラッキーじゃ。{BREAK} ラッキーバトルは　すれちがいバトルじゃな。"
+SAY "{VOICE=03}'You are currently a Little Bit Lucky! Lucky scouts battle in Tag Mode!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「この　わずかな　うんにかけ{BREAK} すれちがいバトルに　ちょうせんしてみい!"
+SAY "{VOICE=03}'It's worth trying your scouting hand at Tag Mode Battles."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「うまくいけば　レアなモンスターが{BREAK} おぬしに　勝負を　いどんでくるかもしれんぞ!"
+SAY "{VOICE=03}'Who knows? You might end up battling some rare and unusual monsters!'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_1b0cc
 L_1af70:
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x40800000
 JMP_IFNOT 0xc L_1b0cc
-SAY "{VOICE=03}「おぬしの　いまのうんせいは　アンラッキーか。{BREAK} こんなときは　ともだちリストを　みてみい。"
+SAY "{VOICE=03}'You are currently Unlucky!{BREAK}Check out your Friend Roster."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ともに戦った　ともだちのカオを思いだせば{BREAK} 自分の　うんのなさなど　気にならんじゃろう。"
+SAY "{VOICE=03}'Battling your Friends might help you forget your rotten luck!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「リストが　からっぽでも　おちこむでないぞ!{BREAK} わしが　ともだちではないかっ!"
+SAY "{VOICE=03}'Don't be blue if your Friend Roster is empty - you've always got me!'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_1b0cc
@@ -6477,10 +6477,10 @@ L_1b154:
 JMP_ABS 0xc L_1b160
 L_1b160:
 SYS_42 0x8 
-SAY "{COLOR=2}『シャーマンじいさんの　いまのうんせい』{BREAK}という　ふしぎな本がある。"
+SAY "{COLOR=2}It's an odd book called 'Heedoovoodoo's Instant Fortunes!'."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}しかし　この本は　しばらくしないと{BREAK}ふたたび　よむことが　できないようだ。"
+SAY "{COLOR=2}But it's a magic book, so you must wait a while before you read it again."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

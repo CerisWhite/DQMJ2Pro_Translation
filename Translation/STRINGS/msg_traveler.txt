@@ -50,10 +50,10 @@ Memo 13
 
 32
 ????????
-Professionals are fearless souls{315}who bend monsters to their will.{315}{315}A scout that masters the art,{315}will become able to command even the monsters{315}who threaten the entire world.
+Professionals are fearless souls{315}who bend monsters to their will.{315}{315}A scout that masters the art,{315}will be able to command even the monsters{315}who threaten the world.
 Monsters are your most stalwart allies{315}and bravely do battle alongside you.{315}You can battle with up to three monsters{315}in your active team at a time. It's{315}possible to scout and keep up to 100{315}monsters at once.
 Bring injured monsters back to the{315}Albatross and they will make a full{315}recovery.{315}Defeated monsters will be brought{315}back to life. You can use items in battle{315}to support your monsters and help them{315}recover HP and MP.
-Party Rank is determined by the{315}stats of your monsters, such as HP and Attack.{315}Certain skills and traits also influence{315}the rank.{315}{315}Rank is displayed as stars above your team.
+Party Rank is determined by the{315}stats of your monsters, such as HP and{315}Attack. Certain skills and traits also{315}influence the rank.{315}{315}Rank is displayed as stars above{315}your team.
 Zoom is a skill used by the hero to{315}travel instantaneously to regions he{315}has visited before.{315}Zoom can even be used inside caves,{315}but there are some areas where it{315}does not work.
 You can save your game at almost any{315}time or point during the adventure.{315}However, there are a small number of{315}scenes where you cannot save.
 Press the Y Button to read up on item{315}effects. There are items the hero can{315}use while travelling and those he can{315}use during battle.{315}Weapons, are equipped by monsters.{315}They serve mostly to boost attack power.

@@ -51,9 +51,6 @@ MAX_RECORDS      = 100       # nursery pool: 100 slots total
 # Compact party table: 3×u16 species + 3×u8 level for the active party
 PARTY_TABLE      = 0x007C
 
-# Pen display order: u8 slot indices, terminated by 0xFF, max 27 entries
-ACTIVE_LIST      = 0x01CC
-
 # Party (0..2) then standby (3..5) creation IDs — 6 × u32
 TEAM_OFF         = 0x00B4
 
@@ -420,11 +417,7 @@ def json_to_save(json_path: Path, save_path: Path):
         slot = role_to_slot.get(role)
         _write_u32(copy, TEAM_OFF + i * 4, slot_to_id.get(slot, 0) if slot is not None else 0)
 
-    # Regenerate the pen slot list in the header.
-    pen_slots = sorted(by_slot.keys())
-    pen_capacity = RECORD_START - ACTIVE_LIST - 1  # reserve 1 byte for terminator
-    pen_bytes = bytes(pen_slots[:pen_capacity]) + b'\xff'
-    copy[ACTIVE_LIST: RECORD_START] = pen_bytes + bytes(RECORD_START - ACTIVE_LIST - len(pen_bytes))
+
 
     # Recompute checksums.
     # +0x88: additive sum of 0x1C10 u32 words starting at +0x90 (covers all game data)
