@@ -9269,7 +9269,7 @@ SYS_44 0x8
 SAY "{VOICE=03}Powerful attacks that leave no breathing room..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}For you, Little Demon!"
+SAY "{VOICE=03}A Little Demon is perfect for you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_25388
@@ -9279,10 +9279,10 @@ JMP_IFNOT 0xc L_2525c
 SAY "{VOICE=03}You are a lone wolf type!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Perhaps a fire-based all-around offensive!"
+SAY "{VOICE=03}A fire-based, all-around offensive would be a solid strategy!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}For you, Wax Murderer!"
+SAY "{VOICE=03}You're best suited to a Wax Murderer!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_25388
@@ -9292,10 +9292,10 @@ JMP_IFNOT 0xc L_25388
 SAY "{VOICE=03}You are calculating!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Flaming offenses and defenses alike."
+SAY "{VOICE=03}Flaming offenses and defenses alike will serve you well."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}For you, a Blazeghost!"
+SAY "{VOICE=03}You're best suited to a Blazeghost!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_25388
