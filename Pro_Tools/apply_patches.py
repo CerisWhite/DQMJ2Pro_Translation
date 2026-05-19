@@ -332,23 +332,28 @@ def run_menu() -> dict:
 
 # ── file discovery ────────────────────────────────────────────────────────────
 
+def _find_one(rom_dir: Path, name: str) -> Path | None:
+    """Return the first file named *name* found anywhere under rom_dir."""
+    return next(rom_dir.rglob(name), None)
+
+
 def find_rom(rom_dir: Path) -> dict:
-    candidates = {
-        'arm9':   rom_dir / 'arm9.bin',
-        'ov0000': rom_dir / 'overlay_dir' / 'overlay_0000.bin',
-        'ov0001': rom_dir / 'overlay_dir' / 'overlay_0001.bin',
-        'y9':     rom_dir / 'y9.bin',
-        'nftr':   rom_dir / 'data_dir' / 'font_16x16.NFTR',
+    searches = {
+        'arm9':   'arm9.bin',
+        'ov0000': 'overlay_0000.bin',
+        'ov0001': 'overlay_0001.bin',
+        'y9':     'y9.bin',
+        'nftr':   'font_16x16.NFTR',
     }
     found, missing = {}, []
-    for key, path in candidates.items():
-        if path.exists():
+    for key, name in searches.items():
+        path = _find_one(rom_dir, name)
+        if path:
             found[key] = path
         else:
-            missing.append(str(path))
+            missing.append(name)
     if missing:
-        print('Warning: files not found:')
-        for m in missing: print(f'  {m}')
+        print('Warning: files not found:', ', '.join(missing))
     return found
 
 
