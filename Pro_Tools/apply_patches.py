@@ -8,10 +8,10 @@ Usage:
     apply_patches.py
     apply_patches.py --rom Pro_ROM
 """
-import argparse, curses, math, os, struct, subprocess, sys, tempfile
+import argparse, math, os, struct, subprocess, sys, tempfile
 from pathlib import Path
 
-BLZ = str(Path(__file__).parent / 'blz.out')
+BLZ = str(Path(__file__).parent / 'blz.exe')
 
 ARM9_BASE        = 0x02000000
 ARM9_PLAINTEXT   = 0x4000
@@ -74,7 +74,7 @@ def update_y9(y9_path: Path, overlay_id: int, new_size: int):
           f'(size 0x{new_size:x})')
 
 
-# ── patch logic (each mutates dec in-place, no mismatch exits) ────────────────
+# ── patch logic (each mutates dec in-place) ───────────────────────────────────
 
 def _encode_mov_imm(rd, value):
     for rot in range(16):
@@ -184,7 +184,7 @@ def apply_scout_offense(dec: bytearray):
 
 
 def apply_scout_penalty(dec: bytearray):
-    off = 0x021fa3f8 - OV_RAM_BASE   # ADD r1,r1,#1 → MOV r1,#1 (divisor always 1)
+    off = 0x021fa3f8 - OV_RAM_BASE
     cur = struct.unpack_from('<I', dec, off)[0]
     struct.pack_into('<I', dec, off, 0xE3A01001)
     print(f'  scout_penalty: 0x021fa3f8: 0x{cur:08x} → 0xE3A01001 (MOV r1,#1)')
@@ -255,152 +255,78 @@ PATCHES = [
 ]
 
 
-# ── curses menu ───────────────────────────────────────────────────────────────
+# ── text menu ─────────────────────────────────────────────────────────────────
 
-def _readline(stdscr, y, x, width, initial='') -> str | None:
-    """Minimal line editor inside a curses window. ESC cancels (returns None)."""
-    buf = list(initial)
-    pos = len(buf)
-    curses.curs_set(1)
-    while True:
-        visible = ''.join(buf)
-        stdscr.addstr(y, x, visible[:width].ljust(width))
-        stdscr.move(y, x + min(pos, width - 1))
-        stdscr.refresh()
-        ch = stdscr.getch()
-        if ch in (curses.KEY_ENTER, 10, 13):
-            curses.curs_set(0)
-            return ''.join(buf)
-        if ch == 27:                          # ESC — cancel
-            curses.curs_set(0)
-            return None
-        if ch in (curses.KEY_BACKSPACE, 127, 8):
-            if pos > 0:
-                buf.pop(pos - 1); pos -= 1
-        elif ch == curses.KEY_DC:
-            if pos < len(buf): buf.pop(pos)
-        elif ch == curses.KEY_LEFT:
-            pos = max(0, pos - 1)
-        elif ch == curses.KEY_RIGHT:
-            pos = min(len(buf), pos + 1)
-        elif ch == curses.KEY_HOME:
-            pos = 0
-        elif ch == curses.KEY_END:
-            pos = len(buf)
-        elif 32 <= ch <= 126:
-            buf.insert(pos, chr(ch)); pos += 1
-
-
-def _edit_value(stdscr, h, p, current):
-    """Prompt for a new param value at the bottom of the screen.
-    Returns new value, or current if cancelled/blank."""
-    pd = p['param']
-    prompt = f' {p["label"]}: '
-    stdscr.addstr(h - 2, 0, prompt, curses.A_BOLD)
-    stdscr.clrtoeol()
-    stdscr.addstr(h - 1, 0, ' Enter confirm  Esc cancel', curses.A_DIM)
-    stdscr.clrtoeol()
-
-    raw = _readline(stdscr, h - 2, len(prompt), stdscr.getmaxyx()[1] - len(prompt) - 1,
-                    initial=pd['fmt'](current))
-    if raw is None or raw.strip() == '':
-        return current
-    try:
-        v = pd['parse'](raw.strip())
-    except (ValueError, OverflowError):
-        stdscr.addstr(h - 2, 0, ' Invalid value — press any key', curses.A_BOLD)
-        stdscr.clrtoeol(); stdscr.getch()
-        return current
-    if not pd['validate'](v):
-        stdscr.addstr(h - 2, 0, f' {pd["validate_msg"]} — press any key', curses.A_BOLD)
-        stdscr.clrtoeol(); stdscr.getch()
-        return current
-    return v
-
-
-def _run_curses_menu(stdscr, state: dict) -> dict:
-    curses.curs_set(0)
-    curses.use_default_colors()
-    curses.init_pair(1, -1, -1)                           # normal
-    curses.init_pair(2, curses.COLOR_BLACK, curses.COLOR_WHITE)  # highlight
-
-    cursor = 0
-    status = ''
-
-    while True:
-        stdscr.erase()
-        h, w = stdscr.getmaxyx()
-
-        stdscr.addstr(0, 0, 'DQMJ2P Pro ROM Patcher — patch selection', curses.A_BOLD)
-        stdscr.addstr(1, 0, '─' * min(w - 1, 50))
-
-        for i, p in enumerate(PATCHES):
-            s = state[p['key']]
-            y = i + 3
-            if y >= h - 3:
-                break
-
-            mark  = '*' if s['selected'] else ' '
-            vstr  = (': ' + p['param']['fmt'](s['value'])) if p['param'] else ''
-            line  = f'  [{mark}] {p["label"]}{vstr}'
-            line  = line[:w - 1]
-
-            attr = curses.color_pair(2) if i == cursor else curses.color_pair(1)
-            if p['required'] and i != cursor:
-                attr |= curses.A_DIM
-            stdscr.addstr(y, 0, line.ljust(w - 1) if i == cursor else line, attr)
-
-        if status:
-            stdscr.addstr(h - 2, 0, f' {status}', curses.A_BOLD)
-        stdscr.addstr(h - 1, 0,
-                      ' ↑↓ move   Space toggle   Enter edit value   A apply   Q quit',
-                      curses.A_DIM)
-        stdscr.refresh()
-        status = ''
-
-        key = stdscr.getch()
-
-        if key in (curses.KEY_UP, ord('k')):
-            cursor = (cursor - 1) % len(PATCHES)
-
-        elif key in (curses.KEY_DOWN, ord('j')):
-            cursor = (cursor + 1) % len(PATCHES)
-
-        elif key == ord(' '):
-            p = PATCHES[cursor]
-            s = state[p['key']]
-            if p['required']:
-                status = f'{p["label"]} is required and cannot be disabled.'
-            else:
-                s['selected'] = not s['selected']
-
-        elif key in (curses.KEY_ENTER, 10, 13):
-            p = PATCHES[cursor]
-            s = state[p['key']]
-            if p['param']:
-                s['value'] = _edit_value(stdscr, h, p, s['value'])
-                if not p['required']:
-                    s['selected'] = True
-            elif not p['required']:
-                s['selected'] = not s['selected']
-            else:
-                status = f'{p["label"]} is required and cannot be disabled.'
-
-        elif key in (ord('a'), ord('A')):
-            break
-
-        elif key in (ord('q'), ord('Q'), 27):
-            curses.endwin()
-            sys.exit('Aborted.')
-
-    return state
+def _print_menu(state: dict) -> None:
+    print()
+    print('DQMJ2P Pro ROM Patcher — patch selection')
+    print('─' * 50)
+    for i, p in enumerate(PATCHES):
+        s    = state[p['key']]
+        mark = '*' if s['selected'] else ' '
+        vstr = ': ' + p['param']['fmt'](s['value']) if p['param'] else ''
+        req  = '  (required)' if p['required'] else ''
+        print(f'  {i+1:2d}. [{mark}] {p["label"]}{vstr}{req}')
+    print()
+    print('  Enter a number to toggle/edit, A to apply all, Q to quit.')
 
 
 def run_menu() -> dict:
     state = {p['key']: {'selected': p['required'],
                          'value':    p['param']['default'] if p['param'] else None}
              for p in PATCHES}
-    curses.wrapper(_run_curses_menu, state)
+
+    while True:
+        _print_menu(state)
+        try:
+            raw = input('> ').strip()
+        except (EOFError, KeyboardInterrupt):
+            sys.exit('\nAborted.')
+
+        if raw.lower() == 'q':
+            sys.exit('Aborted.')
+        if raw.lower() == 'a':
+            break
+
+        try:
+            idx = int(raw) - 1
+        except ValueError:
+            print('  Enter a number, A, or Q.')
+            continue
+        if not (0 <= idx < len(PATCHES)):
+            print(f'  Number must be 1–{len(PATCHES)}.')
+            continue
+
+        p = PATCHES[idx]
+        s = state[p['key']]
+
+        if p['param']:
+            pd      = p['param']
+            default = pd['fmt'](s['value'])
+            try:
+                val_str = input(f'  {p["label"]} [{default}]: ').strip()
+            except (EOFError, KeyboardInterrupt):
+                continue
+            if not val_str:
+                if not p['required']:
+                    s['selected'] = True
+                continue
+            try:
+                v = pd['parse'](val_str)
+            except (ValueError, OverflowError):
+                print('  Invalid value — not changed.')
+                continue
+            if not pd['validate'](v):
+                print(f'  {pd["validate_msg"]} — not changed.')
+                continue
+            s['value'] = v
+            if not p['required']:
+                s['selected'] = True
+        elif p['required']:
+            print(f'  {p["label"]} is required and cannot be disabled.')
+        else:
+            s['selected'] = not s['selected']
+
     return state
 
 
@@ -427,7 +353,10 @@ def find_rom(rom_dir: Path) -> dict:
 
 
 def _input_path(prompt: str, default: str = '') -> Path:
-    raw = input(prompt).strip()
+    try:
+        raw = input(prompt).strip()
+    except (EOFError, KeyboardInterrupt):
+        sys.exit('\nAborted.')
     if len(raw) >= 2 and raw[0] == raw[-1] and raw[0] in ('"', "'"):
         raw = raw[1:-1]
     return Path(raw if raw else default)
@@ -443,7 +372,7 @@ def main():
     args = ap.parse_args()
 
     if not os.path.isfile(BLZ):
-        sys.exit(f'blz binary not found at {BLZ}')
+        sys.exit(f'blz.exe not found at {BLZ}')
 
     if args.rom:
         rom_dir = Path(args.rom)
@@ -480,11 +409,11 @@ def main():
     # ── overlay_0001 ──────────────────────────────────────────────────────────
     if 'ov0001' in files and 'y9' in files:
         print('overlay_0001.bin:')
-        ov1      = files['ov0001']
-        orig     = ov1.stat().st_size
-        dec      = overlay_decompress(ov1)
+        ov1  = files['ov0001']
+        orig = ov1.stat().st_size
+        dec  = overlay_decompress(ov1)
         apply_grow_actionhelp(dec)
-        if sel('xp_mult'):      apply_xp_mult(dec, val('xp_mult'))
+        if sel('xp_mult'):       apply_xp_mult(dec, val('xp_mult'))
         if sel('scout_offense'): apply_scout_offense(dec)
         if sel('scout_penalty'): apply_scout_penalty(dec)
         comp = overlay_compress(bytes(dec))
