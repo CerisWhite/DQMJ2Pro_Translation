@@ -33,9 +33,9 @@ COMPRESSED_END_OFF     = 0x14           # field offset within ModuleParams
 PLAINTEXT_PREFIX_LEN   = 0x4000         # boot stub + decompressor (uncompressed)
 ARM9_LOAD_ADDR         = 0x02000000
 
-BLZ = str(Path(__file__).parent / 'blz.out')
+BLZ = str(Path(__file__).parent / 'blz.exe')
 if not os.path.isfile(BLZ):
-    sys.exit(f'blz binary not found at {BLZ}; build with: gcc blz.c -o blz.out')
+    sys.exit(f'blz binary not found at {BLZ}')
 
 
 def decompress(src_path, dst_path):
