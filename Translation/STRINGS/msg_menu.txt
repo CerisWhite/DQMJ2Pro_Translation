@@ -219,7 +219,7 @@ C
 B
 A
 S
-SS
+X
 ??
 Any
 RANK

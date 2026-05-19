@@ -65,11 +65,13 @@ void  BLZ_Encode(char *filename, int mode);
 char *BLZ_Code(unsigned char *raw_buffer, int raw_len, int *new_len, int best);
 void  BLZ_Invert(char *buffer, int length);
 
+#ifndef _WIN32
 static long filelength(int fd) {
     struct stat st;                                                                                                                                                           
     if (fstat(fd, &st) != 0) return -1;                   
     return st.st_size;
 }
+#endif
 
 /*----------------------------------------------------------------------------*/
 int main(int argc, char **argv) {
