@@ -253,7 +253,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41980000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「はさみうちか……。ヒヒュルデめ。{BREAK} どこまでも　ひきょうな……。"
+SAY "{VOICE=07}A pincer attack...? Hihyurude...{BREAK}You coward..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -367,11 +367,11 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「{NAME}!{BREAK} 我のことは　心配いらぬ!"
+SAY "{VOICE=07}{NAME}!{BREAK}Do not worry about me!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}「ヒヒュルデを　うってくれ!{BREAK} 汝なら　かならず　できるはずだ!"
+SAY "{VOICE=07}Defeat Hihyurude!{BREAK}I know you can!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

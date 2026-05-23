@@ -251,14 +251,14 @@ STORE 0x18 0x1 0x0 0x2 0x41f00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「ウソ…だろ……?"
+SETNAME "Leokid"
+SAY "{VOICE=07}No... way..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「これが　モンスターマスターの強さだ。"
+SAY "{VOICE=07}So this is a Monster Master."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -282,8 +282,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「モンスターマスター……。"
+SETNAME "Leokid"
+SAY "{VOICE=07}Monster Master..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -303,11 +303,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「汝は　決して　よわくはない。{BREAK} ただ……"
+SAY "{VOICE=07}You are not weak.{BREAK}But..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}「真の強さとは　おのれのチカラだけで{BREAK} はかれるものでは　ないはずだ。"
+SAY "{VOICE=07}True strength is not measured{BREAK}by your power alone."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -319,8 +319,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「……オレに　手をくめ　とでも言うのか?"
+SETNAME "Leokid"
+SAY "{VOICE=07}...You want me to join forces?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -330,12 +330,12 @@ WAIT 0x10 0x2 0x41f00000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x437a0000
 SYS_18 0x8 
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「……ごめんだね。{BREAK} オレは　オレのやり方で　強くなってきた。"
+SETNAME "Leokid"
+SAY "{VOICE=07}...No thanks.{BREAK}I got strong my own way."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「ただひとり　自分と　むきあい{BREAK} ウデを　みがいてきたんだ。"
+SETNAME "Leokid"
+SAY "{VOICE=07}I faced myself alone{BREAK}and honed my skills."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41700000
@@ -376,8 +376,8 @@ STORE 0x18 0x0 0x40a00000 0x2 0x3f800000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x43780000
 SYS_18 0x8 
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「いまさら　それを　かえるつもりはない。{BREAK} ……オレは　ひとりで行く。"
+SETNAME "Leokid"
+SAY "{VOICE=07}I will not change now.{BREAK}...I go alone."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -401,8 +401,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43470000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "ククリ"
-SAY "{VOICE=08}「えっ!?　あっ　ちょっと!{BREAK} いい話じゃない　手をくみましょうよ～!"
+SETNAME "Kukri"
+SAY "{VOICE=08}Huh!? Hey, wait!{BREAK}It is a good offer! Team up!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -569,8 +569,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「やれやれ。あの　レオソードってコ……。{BREAK} ロクな大人に　ならないわね。"
+SETNAME "Tiko"
+SAY "{VOICE=08}Good grief. That Leokid kid...{BREAK}He will not grow up well."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -598,19 +598,19 @@ SPAWN 0x10 L_3648
 DATA 0x0000000c
 WAIT 0x10 0x2 0x42a00000
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「{NAME}……。ついに　きたわ。{BREAK} ここが　アタシたちの聖地　ブランパレスよ。"
+SETNAME "Tiko"
+SAY "{VOICE=08}{NAME}... We made it.{BREAK}This is Blanc Palace."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「ヒヒュルデを　うてば　我は　心おきなく{BREAK} 友のまつ世界へ　かえることができる……。"
+SAY "{VOICE=07}Defeat Hihyurude, and I can return{BREAK}to my friend without regret..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}「さあ　行こう　{NAME}よ。"
+SAY "{VOICE=07}Come, {NAME}. Let us go."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

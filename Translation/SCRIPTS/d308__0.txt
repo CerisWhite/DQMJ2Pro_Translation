@@ -181,7 +181,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Ugh... Ngh...{BREAK} Where am I...?"
+SAY "{VOICE=07}Ugh... Ngh...{BREAK}Where am I...?"
 WAIT 0x10 0x2 0x41a00000
 STORE 0x18 0x1 0x0 0x2 0x41800000
 STORE 0x18 0x1 0x3f800000 0x2 0x42480000
@@ -218,7 +218,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Oh! Incarnus!{BREAK} You have awakened!"
+SAY "{VOICE=03}Oh! Incarnus!{BREAK}You are awake!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -269,11 +269,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42f00000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}I see...{BREAK} I was chasing after him..."
+SAY "{VOICE=07}I see...{BREAK}I was chasing him..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}You are the ones who saved me, then.{BREAK} You have my thanks."
+SAY "{VOICE=07}You saved me, then.{BREAK}You have my thanks."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -296,7 +296,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}No need for thanks, Incarnus.{BREAK} More importantly, why were you in such a place?"
+SAY "{VOICE=03}But Incarnus,{BREAK}why were you in that place?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -330,23 +330,23 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}...My mission was to travel to a land{BREAK} overflowing with monsters and seal that world away."
+SAY "{VOICE=07}...I had a mission to go to a monster-filled land{BREAK}and seal that world."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}To fulfill that mission, I fought there{BREAK} against countless monsters."
+SAY "{VOICE=07}To fulfill it, I fought there{BREAK}against countless monsters."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}But just when I thought{BREAK} my mission was finally complete..."
+SAY "{VOICE=07}But just as I thought{BREAK}my mission was complete..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}One creature alone escaped the seal{BREAK} and fled into the outside world."
+SAY "{VOICE=07}One alone escaped the seal{BREAK}and fled to the outside world."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}His name is Hihyurude, the Evil Beast."
+SAY "{VOICE=07}His name is the Evil Beast Hihyurude."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41a00000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -366,7 +366,7 @@ STORE 0x18 0x1 0x0 0x2 0x41a80000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Yes. He is the one who descended upon this land{BREAK} and is defiling your sacred place."
+SAY "{VOICE=07}Yes. He came here{BREAK}and defiles your holy land."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41a00000
@@ -390,7 +390,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}The Evil Beast Hihyurude...{BREAK} So that's the Uninvited Guest's name..."
+SAY "{VOICE=08}The Evil Beast Hihyurude...{BREAK}So that iss the Univited Guest\'s name..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -408,11 +408,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}I came to this land{BREAK} in pursuit of Hihyurude. However..."
+SAY "{VOICE=07}I followed Hihyurude{BREAK}to this land. But..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}I could not break through the barrier he created,{BREAK} and it seems my strength failed me."
+SAY "{VOICE=07}I could not break his barrier{BREAK}and lost my strength."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40800000
@@ -450,11 +450,11 @@ STORE 0x18 0x1 0x0 0x2 0x424c0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}I know someone with eyes like yours."
+SAY "{VOICE=07}I know one with eyes like yours."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}You, too, are a Monster Master, are you not?{BREAK} Will you lend me your strength?"
+SAY "{VOICE=07}You too are a Monster Master, yes?{BREAK}Please lend me your strength."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -483,7 +483,7 @@ SYS_8C 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}O-Of course you will, right, {NAME}?{BREAK} If Incarnus is with us, we'll be much safer!"
+SAY "{VOICE=08}O-of course, right, {NAME}?{BREAK}With Incarnus, we can do this!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -511,11 +511,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Indeed. Now that I have the power of the Soma,{BREAK} I should be able to break his barrier."
+SAY "{VOICE=07}Yes. With the Soma\'s power,{BREAK}I should break his barrier."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}I shall follow behind you,{BREAK} so pay me no mind and go on ahead."
+SAY "{VOICE=07}I will follow behind you,{BREAK}so go on ahead."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -539,15 +539,15 @@ WAIT 0x10 0x2 0x42200000
 STORE 0x18 0x0 0x40000000 0x2 0x3f800000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Hey! This is the first time{BREAK} I've heard the term Monster Master..."
+SAY "{VOICE=08}Hey! Monster Master{BREAK}is new to me, but..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}But if even Incarnus is relying on you,{BREAK} you must be amazing, {NAME}!"
+SAY "{VOICE=08}If Incarnus is relying on you,{BREAK}you must be amazing!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}I knew I had an eye for talent!{BREAK} Come on, let's go to where the barrier is!"
+SAY "{VOICE=08}I knew I had a good eye!{BREAK}Let us go to the barrier!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

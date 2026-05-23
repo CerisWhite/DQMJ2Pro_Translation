@@ -121,7 +121,7 @@ SPAWN 0x10 L_11c8
 DATA 0x00000001
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「{NAME}……。汝も　また{BREAK} このような　はしを　へいきで　わたるのだな。"
+SAY "{VOICE=07}{NAME}... You too cross{BREAK}bridges without fear."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -148,11 +148,11 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}「ふふふ。こうして　汝と　旅していると{BREAK} かつての友のことが　思いだされる……。"
+SAY "{VOICE=07}Heh. Traveling with you{BREAK}reminds me of an old friend..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}「我は　ひめられたチカラを　とりもどすため{BREAK} その友と　ほこらを　めぐったものだ。"
+SAY "{VOICE=07}I toured shrines with him{BREAK}to regain my hidden power."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -172,7 +172,7 @@ STORE 0x18 0x1 0x0 0x2 0x424c0000
 STORE 0x18 0x1 0x3f800000 0x2 0x42b40000
 SYS_17 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「あのころは　我も　あのレオソードとかいう{BREAK} こわっぱのように　人間を　信じていなかった。"
+SAY "{VOICE=07}Back then, I too trusted no humans,{BREAK}like that Leokid boy."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -189,7 +189,7 @@ STORE 0x18 0x1 0x0 0x2 0x42740000
 STORE 0x18 0x1 0x3f800000 0x2 0x42f00000
 SYS_17 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「……だが　いまの我があるのは{BREAK} あのときに出会った　かれの　おかげだ。"
+SAY "{VOICE=07}...But I am who I am now{BREAK}thanks to him."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -213,11 +213,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43480000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}「我は　やみの世界へと　旅だつ前……{BREAK} その友と　あるやくそくを　かわした。"
+SAY "{VOICE=07}Before I left for the dark world,{BREAK}I made him a promise."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}「そのやくそくを　守るためにも{BREAK} 我は　使命を果たさねば　ならぬ……。"
+SAY "{VOICE=07}To keep that promise,{BREAK}I must fulfill my mission..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x0
@@ -237,7 +237,7 @@ STORE 0x18 0x1 0x0 0x2 0x428c0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}「あしを　とめさせて　すまなかったな。{BREAK} さあ　行こう。ブランパレスは　もうすぐだ。"
+SAY "{VOICE=07}Sorry to stop us.{BREAK}Come, Blanc Palace is near."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

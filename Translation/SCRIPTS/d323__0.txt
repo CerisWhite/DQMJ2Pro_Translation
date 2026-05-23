@@ -36,7 +36,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}「どうした　{NAME}。{BREAK} 我に　なにか言いたいことでもあるのか?"
+SAY "{VOICE=07}What is it, {NAME}?{BREAK}Something to say?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -84,15 +84,15 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}「……なにっ!　おさないころの我に{BREAK} 会ってきただと!?"
+SAY "{VOICE=07}...What!? You met me{BREAK}when I was young!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「しかも　ヒヒュルデの前で　あしがふるえて{BREAK} 動けなくなっていたというのかっ!?"
+SAY "{VOICE=07}And before Hihyurude,{BREAK}I froze in fear!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「な…なぜ　そなたが　そのことを{BREAK} 知っているのだ……。"
+SAY "{VOICE=07}H-how do you{BREAK}know that...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -112,11 +112,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}「そんな　はるか大むかしのこと{BREAK} 自分でも　わすれてしまっていたが……"
+SAY "{VOICE=07}That was so long ago,{BREAK}even I forgot..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}「いまの話　決して　だれにも言ってはならぬぞ。{BREAK} これは　我と　そなたとの　やくそくだ!"
+SAY "{VOICE=07}Tell no one of this.{BREAK}That is our promise!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

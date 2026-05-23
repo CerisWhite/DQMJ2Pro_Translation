@@ -490,15 +490,15 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
-SAY "{VOICE=03}「……ふぉっふぉっふぉ。ごきげんよう。{BREAK} わしが　ピピッ島の王　キングモーモンじゃ。"
+SAY "{VOICE=03}...Ho ho ho. Greetings.{BREAK}I am King sanguini of Pipit."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「いやはや　おどろかせて　すまなかった。{BREAK} じゃが　わしは　この通り　無事じゃぞ。"
+SETNAME "King sanguini"
+SAY "{VOICE=03}Sorry to startle you.{BREAK}But as you see, I am safe."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「ヒヒュルデが　くるなり　べつ世界のトビラを{BREAK} ひらき　そこに　かくれていたからのう。"
+SETNAME "King sanguini"
+SAY "{VOICE=03}When Hihyurude came, I opened{BREAK}a world-door and hid there."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -521,8 +521,8 @@ DATA 0x00000002
 WAIT 0x10 0x2 0x41700000
 STORE 0x18 0x0 0x40a00000 0x2 0x3f800000
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「ま　そんなことだろうと　思ってましたよ。{BREAK} だから　あんまり　心配してなかったです。"
+SETNAME "Tiko"
+SAY "{VOICE=08}I figured as much.{BREAK}So I was not too worried."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -544,8 +544,8 @@ STORE 0x18 0x1 0x0 0x2 0x42ba0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「ふぉっふぉっふぉ。そうか　そうか。{BREAK} きついのう　ティコは。"
+SETNAME "King sanguini"
+SAY "{VOICE=03}Ho ho ho. I see.{BREAK}So harsh, Tiko."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -589,16 +589,16 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x428c0000
 SYS_42 0x8 
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「……さて　みなのしゅう{BREAK} こたびの　かつやく　あっぱれであった。"
+SETNAME "King sanguini"
+SAY "{VOICE=03}...Now, everyone.{BREAK}Your deeds were splendid."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「特に　{NAME}。そなたの　はたらきは{BREAK} 目を　みはるものが　あったぞ。"
+SETNAME "King sanguini"
+SAY "{VOICE=03}Especially you, {NAME}.{BREAK}Your work was remarkable."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「なにか　ほうびを　とらせようと思うが……{BREAK} そなたは　モンスターマスターだったな?"
+SETNAME "King sanguini"
+SAY "{VOICE=03}I wish to reward you...{BREAK}You are a Monster Master, yes?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x422c0000
@@ -606,8 +606,8 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x422c0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41a00000
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「では　われらいち族に　伝わる{BREAK} チカラを使い……"
+SETNAME "King sanguini"
+SAY "{VOICE=03}Then, with the power{BREAK}passed down in our clan..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x439c8000
@@ -627,12 +627,12 @@ STORE 0x18 0x1 0x0 0x2 0x42300000
 STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41a00000
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「勝ちぬきバトルと　最強マスター闘技場の{BREAK} トビラを　ひらいてしんぜよう!"
+SETNAME "King sanguini"
+SAY "{VOICE=03}I shall open Survival Battle{BREAK}and Ultimate Master Arena!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「くわしい話は　じゅんびが　できてからじゃ。{BREAK} のちほど　また　ここにくるがよい。"
+SETNAME "King sanguini"
+SAY "{VOICE=03}Details can wait.{BREAK}Return here later."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -645,8 +645,8 @@ STORE 0x18 0x1 0x0 0x2 0x42b80000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「……それから　レオソード。わしらのために{BREAK} よくぞ　がんばってくれたのう。"
+SETNAME "King sanguini"
+SAY "{VOICE=03}...And Leokid.{BREAK}You fought well for us."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -663,8 +663,8 @@ STORE 0x18 0x1 0x0 0x0 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x43780000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「オレは　べつに　なにも……。"
+SETNAME "Leokid"
+SAY "{VOICE=07}I did not really do anything..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -686,12 +686,12 @@ STORE 0x18 0x1 0x0 0x2 0x42ba0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「いや　そなたは　リッパな戦士であった。{BREAK} わしらは　そなたのことを　かたりつぐぞ。"
+SETNAME "King sanguini"
+SAY "{VOICE=03}No, you were a fine warrior.{BREAK}We will tell your tale."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「さあ　そなたが　もとの世界へかえれるよう{BREAK} わしが　トビラを　ひらいてやろう。"
+SETNAME "King sanguini"
+SAY "{VOICE=03}Now I shall open a door{BREAK}back to your own world."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -812,12 +812,12 @@ STORE 0x18 0x1 0x0 0x0 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x43780000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「ありがとう　{NAME}。{BREAK} アンタのおかげで　目が　さめたぜ。"
+SETNAME "Leokid"
+SAY "{VOICE=07}Thanks, {NAME}.{BREAK}You opened my eyes."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「……オレは　人間を　みとめてはいなかった。{BREAK} ただ　チカラのよわい者だと　思っていたんだ。"
+SETNAME "Leokid"
+SAY "{VOICE=07}...I never accepted humans.{BREAK}I thought they were weak."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -839,8 +839,8 @@ SYS_16 0x8
 STORE 0x18 0x1 0x0 0x2 0x42ce0000
 STORE 0x18 0x1 0x3f800000 0x2 0x41f00000
 SYS_17 0x8 
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「だが　人間は　チカラをあわせて戦うという{BREAK} 真の強さを　ひめた者たちだったんだな。"
+SETNAME "Leokid"
+SAY "{VOICE=07}But humans hold true strength:{BREAK}fighting together."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41600000
@@ -862,12 +862,12 @@ SYS_14 0x8
 STORE 0x18 0x1 0x0 0x0 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x437c0000
 SYS_18 0x8 
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「これからは　その強さを　人間たちにおしえ{BREAK} いっしょに　ウデを　みがいていくよ。"
+SETNAME "Leokid"
+SAY "{VOICE=07}I will teach them that strength{BREAK}and train with them."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「へへっ。人間たちと　強さを　きそいあう{BREAK} まつりが　あっても　おもしろいかもな!"
+SETNAME "Leokid"
+SAY "{VOICE=07}Heh. A strength festival{BREAK}with humans might be fun!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -883,8 +883,8 @@ STORE 0x18 0x1 0x0 0x2 0x42dc0000
 SYS_13 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42dc0000
 SYS_14 0x8 
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「じゃあな　{NAME}!{BREAK} また　どこかで　会おうぜ!"
+SETNAME "Leokid"
+SAY "{VOICE=07}See you, {NAME}!{BREAK}Let us meet again!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -916,8 +916,8 @@ STORE 0x18 0x1 0x0 0x2 0x42ba0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「……レオソードよ。自らを　ぎせいにし{BREAK} 仲間をすくった　勇気は　みごとであった。"
+SETNAME "King sanguini"
+SAY "{VOICE=03}...Leokid. Your courage to risk yourself{BREAK}and save friends was grand."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41600000
@@ -943,8 +943,8 @@ STORE 0x18 0x1 0x0 0x2 0x42de0000
 SYS_13 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42de0000
 SYS_14 0x8 
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「いつか　そなたが　キケンに　さらされたとき{BREAK} かならず　われらいち族が　チカラになろう。"
+SETNAME "King sanguini"
+SAY "{VOICE=03}If you are ever in danger,{BREAK}our clan will aid you."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x42e00000
@@ -954,8 +954,8 @@ STORE 0x18 0x1 0x0 0x2 0x42e00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x42480000
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「では　さらばじゃ!"
+SETNAME "King sanguini"
+SAY "{VOICE=03}Then farewell!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1025,27 +1025,27 @@ STORE 0x18 0x1 0x3f800000 0x2 0x447d8000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「……{NAME}　世話になったな。{BREAK} 汝とは　ここで　おわかれだ。"
+SAY "{VOICE=07}...{NAME}, you have helped me.{BREAK}Here we part."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}「だが　その前に　ひとつ{BREAK} 我の話を　きいてくれるか。"
+SAY "{VOICE=07}But before that,{BREAK}will you hear me out?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}「我とおなじ　Incarnusの仲間が　そのこどもを{BREAK} たくすことができる　マスターをさがしている。"
+SAY "{VOICE=07}Another Incarnus seeks a Master{BREAK}to entrust their child to."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}「これからさき　地上で　そのIncarnusに出会ったら{BREAK} 手を　さしのべてやってほしいのだ。"
+SAY "{VOICE=07}If you meet that Incarnus on land,{BREAK}please lend them aid."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}「汝ならば　そのこどもを　ただしき道に{BREAK} みちびくことが　できるだろう。"
+SAY "{VOICE=07}You can guide that child{BREAK}down the right path."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}「……それでは　我は　友のまつ世界へ{BREAK} かえるとしよう。"
+SAY "{VOICE=07}...Now I shall return{BREAK}to my waiting friend."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1141,7 +1141,7 @@ STORE 0x18 0x1 0x0 0x2 0x42f80000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「さらばだ　{NAME}!"
+SAY "{VOICE=07}Farewell, {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x437e0000
@@ -1240,8 +1240,8 @@ WAIT 0x10 0x2 0x425c0000
 STORE 0x18 0x0 0x41000000 0x2 0x3f800000
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「みんな　行っちゃったね……。"
+SETNAME "Tiko"
+SAY "{VOICE=08}Everyone is gone now..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41a00000
@@ -1249,8 +1249,8 @@ SPAWN 0x10 L_63bc
 DATA 0x00000005
 WAIT 0x10 0x2 0x41100000
 STORE 0x18 0x0 0x40e00000 0x2 0x3f800000
-SETNAME "ティコ"
-SAY "{VOICE=08}「さ　{NAME}{BREAK} アタシたちも　町に　かえりましょう!"
+SETNAME "Tiko"
+SAY "{VOICE=08}Come, {NAME}.{BREAK}Let us return to town!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1298,16 +1298,16 @@ SPAWN 0x10 L_676c
 DATA 0x00000009
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「うむ　そうじゃな。町のみんなにも{BREAK} ピピッ島が　すくわれたことを伝えるがいい。"
+SETNAME "King sanguini"
+SAY "{VOICE=03}Yes. Tell everyone in town{BREAK}that Pipit Island is saved."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「その間に　わしは　いろいろと{BREAK} じゅんびを　すすめているとしよう。"
+SETNAME "King sanguini"
+SAY "{VOICE=03}Meanwhile, I shall make{BREAK}various preparations."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「それでは　{NAME}よ!{BREAK} また　会おう!"
+SETNAME "King sanguini"
+SAY "{VOICE=03}Until then, {NAME}!{BREAK}We shall meet again!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

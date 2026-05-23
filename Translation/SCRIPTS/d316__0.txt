@@ -232,8 +232,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x450f9000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
-SETNAME "邪獣ヒヒュルデ"
-SAY "{VOICE=03}「ぐはあああぁぁぁッ!!"
+SETNAME "Hihyurude"
+SAY "{VOICE=03}Gwaaaaagh!!"
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x43650000
 SYS_41 0x8 
@@ -272,8 +272,8 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "邪獣ヒヒュルデ"
-SAY "{VOICE=03}「ま…まってくれッ!!{BREAK} こうさんだ!　オレさまが　わるかった!!"
+SETNAME "Hihyurude"
+SAY "{VOICE=03}W-wait!!{BREAK}I give up! I was wrong!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -285,7 +285,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「なに……?"
+SAY "{VOICE=07}What...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -296,8 +296,8 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "邪獣ヒヒュルデ"
-SAY "{VOICE=03}「たのむ!　ゆるしてくれ!　これからは{BREAK} 心を　入れかえて　はたらくから!　なっ!?"
+SETNAME "Hihyurude"
+SAY "{VOICE=03}Please! Forgive me! From now on,{BREAK}I will work hard! Okay!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -329,8 +329,8 @@ STORE 0x18 0x1 0x0 0x2 0x41f00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「はたらくって……。{BREAK} アンタねえ……!"
+SETNAME "Tiko"
+SAY "{VOICE=08}Work hard...?{BREAK}Seriously...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -437,7 +437,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「動くな!　ワナだ!!"
+SAY "{VOICE=07}Do not move! It is a trap!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -506,8 +506,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41000000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41000000
 SYS_42 0x8 
-SETNAME "邪獣ヒヒュルデ"
-SAY "{VOICE=03}「バカめ!　ゆだんしおって!!"
+SETNAME "Hihyurude"
+SAY "{VOICE=03}Fool! You let your guard down!!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -531,8 +531,8 @@ SYS_16 0x8
 STORE 0x18 0x1 0x0 0x2 0x41b80000
 STORE 0x18 0x1 0x3f800000 0x2 0x42200000
 SYS_17 0x8 
-SETNAME "邪獣ヒヒュルデ"
-SAY "{VOICE=03}「くらええええッ!!"
+SETNAME "Hihyurude"
+SAY "{VOICE=03}Take this!!"
 WAIT 0x10 0x2 0x41f00000
 STORE 0x18 0x1 0x0 0x2 0x44028000
 SYS_33 0x8 
@@ -628,8 +628,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_4E 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「うおおおおッ!"
+SETNAME "Leokid"
+SAY "{VOICE=07}Uooooh!"
 WAIT 0x10 0x2 0x41700000
 STORE 0x18 0x1 0x0 0x0 0x41500000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f19999a
@@ -721,8 +721,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41300000
 SYS_54 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「ぐわああああッ!!!"
+SETNAME "Leokid"
+SAY "{VOICE=07}Gwaaaaaah!!!"
 STORE 0x18 0x1 0x0 0x0 0x41500000
 STORE 0x18 0x1 0x3f800000 0x2 0x42c80000
 SYS_1F 0x8 
@@ -816,8 +816,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3fc00000
 SYS_4E 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "ククリ"
-SAY "{VOICE=08}「レ…レオソードさまっ!!"
+SETNAME "Kukri"
+SAY "{VOICE=08}M-Master Leokid!!"
 WAIT 0x10 0x2 0x42b40000
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1008,21 +1008,21 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f99999a
 SYS_4E 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「こわっぱ!{BREAK} なぜだ!　なぜ　我らを……!?"
+SAY "{VOICE=07}Young fool!{BREAK}Why save us...!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「自分でも　わかんねえ……。{BREAK} でも……"
+SETNAME "Leokid"
+SAY "{VOICE=07}I do not know myself...{BREAK}But..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「{NAME}……　お前をみてたら{BREAK} 勇気を　もらった気がしたんだ……。"
+SETNAME "Leokid"
+SAY "{VOICE=07}{NAME}... Watching you{BREAK}gave me courage..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「オレひとりじゃ　アイツには勝てねえ……。{BREAK} でも　お前なら…きっと……。"
+SETNAME "Leokid"
+SAY "{VOICE=07}I cannot beat him alone...{BREAK}But you... surely..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1123,16 +1123,16 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41000000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "邪獣ヒヒュルデ"
-SAY "{VOICE=03}「チィィッ!　さっきまで　ブルってたガキが{BREAK} よけいなマネ　しやがって……!"
+SETNAME "Hihyurude"
+SAY "{VOICE=03}Tch! A brat shaking moments ago{BREAK}dares to meddle...!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "邪獣ヒヒュルデ"
-SAY "{VOICE=03}「こうなったら　やるしかねえ。おくの手は{BREAK} あまり　使いたくはなかったが…… "
+SETNAME "Hihyurude"
+SAY "{VOICE=03}Then I have no choice.{BREAK}I did not want to use this..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "邪獣ヒヒュルデ"
-SAY "{VOICE=03}「この地で　たくわえた　すべてのチカラを使い{BREAK} オレさまの　真のすがたを　みせてくれるッ!"
+SETNAME "Hihyurude"
+SAY "{VOICE=03}With all the power stored here,{BREAK}I show my true form!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1147,8 +1147,8 @@ DATA 0x00000002
 WAIT 0x10 0x2 0x41f00000
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "邪獣ヒヒュルデ"
-SAY "{VOICE=03}「かああああああッッ!!!"
+SETNAME "Hihyurude"
+SAY "{VOICE=03}Kaaaaaaaah!!!"
 WAIT 0x10 0x2 0x42700000
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42ba0000

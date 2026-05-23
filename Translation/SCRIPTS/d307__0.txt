@@ -123,7 +123,7 @@ STORE 0x18 0x0 0x0 0x2 0x3f800000
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Ah, Tiko and {NAME}.{BREAK} What seems to be the matter?"
+SAY "{VOICE=03}Ah, Tiko and {NAME}.{BREAK}What is the matter?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -148,7 +148,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Elder... We found this monster{BREAK} collapsed outside town."
+SAY "{VOICE=08}Elder... This monster was{BREAK}collapsed outside town."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -192,7 +192,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Th-This is...!"
+SAY "{VOICE=03}Th-this is...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -227,7 +227,7 @@ STORE 0x18 0x1 0x0 0x0 0x41200000
 SYS_53 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Why, it is the Incarnus!"
+SAY "{VOICE=03}It is the Incarnus!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -264,15 +264,15 @@ SYS_43 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Indeed. The Incarnus is a sacred monster{BREAK} entrusted with a noble mission..."
+SAY "{VOICE=03}Yes. The Incarnus is a sacred monster{BREAK}with a noble mission..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}To fulfill that mission, he travels through{BREAK} dark worlds inhabited by evil monsters."
+SAY "{VOICE=03}To fulfill it, he travels dark worlds{BREAK}where evil monsters dwell."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}Judging by his wounds, the Incarnus must have{BREAK} fought those monsters quite fiercely..."
+SAY "{VOICE=03}By these wounds, he must have fought{BREAK}some fierce monsters..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -290,17 +290,17 @@ SYS_54 0x8
 WAIT 0x10 0x2 0x41c80000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Oh! Then was the Incarnus{BREAK} chasing after the Uninvited Guest...?"
+SAY "{VOICE=08}Ah! Then the Incarnus was{BREAK}chasing the Uninvited Guest...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Indeed. The Incarnus and the Uninvited Guest...{BREAK} I cannot believe they came to this world by chance."
+SAY "{VOICE=03}Yes. The Incarnus, the Uninvited Guest...{BREAK}This cannot be chance."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}For now, it would be quickest to wait{BREAK} for the Incarnus to recover and hear his story."
+SAY "{VOICE=03}Best to wait for him to recover,{BREAK}then hear his story."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
@@ -312,7 +312,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41700000
 SETNAME "Elder"
-SAY "{VOICE=03}Very well! To heal the Incarnus's wounds,{BREAK} let us prepare Godbird Soma!"
+SAY "{VOICE=03}Good! To heal the Incarnus,{BREAK}we shall make Godbird Soma!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_1f78
@@ -340,23 +340,23 @@ WAIT 0x10 0x2 0x40a00000
 STORE 0x18 0x0 0x40c00000 0x2 0x3f800000
 WAIT 0x10 0x2 0x41700000
 SETNAME "Elder"
-SAY "{VOICE=03}I am sorry to ask, but we will need{BREAK} your help as well, {NAME}."
+SAY "{VOICE=03}I am sorry, {NAME},{BREAK}but I need your help."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}The ingredients for Godbird Soma{BREAK} are all very difficult to obtain."
+SAY "{VOICE=03}The Godbird Soma ingredients{BREAK}are all hard to obtain."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}I would like you to gather them for us."
+SAY "{VOICE=03}I would like you{BREAK}to gather them."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}I will explain the details later,{BREAK} so please speak with me again."
+SAY "{VOICE=03}I will explain later,{BREAK}so speak to me again."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}We are counting on you!"
+SAY "{VOICE=03}I am counting on you!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

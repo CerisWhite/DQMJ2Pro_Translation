@@ -136,8 +136,8 @@ SPAWN 0x10 L_20e8
 DATA 0x00000003
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "邪獣ヒヒュルデ"
-SAY "{VOICE=03}「カカカ……。おそかったなあ　Incarnus。{BREAK} まちくたびれたぞ。"
+SETNAME "Hihyurude"
+SAY "{VOICE=03}Kahaha... Late, Incarnus.{BREAK}I tired of waiting."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -155,11 +155,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「キサマ……。ほんとうに{BREAK} あの　ヒヒュルデなのか?"
+SAY "{VOICE=07}You... Are you really{BREAK}that Hihyurude?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}「にげあしだけが　とりえのような{BREAK} ただの　すばしっこい大ザルだったのに……。"
+SAY "{VOICE=07}You were just a quick ape{BREAK}good only at running..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -172,8 +172,8 @@ SPAWN 0x10 L_20e8
 DATA 0x00000003
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "邪獣ヒヒュルデ"
-SAY "{VOICE=03}「ククク……。キサマらが　のんびりしている間に{BREAK} 聖地のチカラとやらを　もらっていたのだ。"
+SETNAME "Hihyurude"
+SAY "{VOICE=03}Kukuku... While you dawdled,{BREAK}I took the holy land\'s power."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41b80000
@@ -183,8 +183,8 @@ STORE 0x18 0x1 0x0 0x2 0x41b80000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
-SETNAME "邪獣ヒヒュルデ"
-SAY "{VOICE=03}「おかげで　この通り……。オレさまは{BREAK} すばらしい身体を　手に入れることができたぞ。"
+SETNAME "Hihyurude"
+SAY "{VOICE=03}Thanks to that, behold...{BREAK}I gained this fine body!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -216,8 +216,8 @@ STORE 0x18 0x1 0x0 0x0 0x40e00000
 STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「アタシたちのチカラが　失われていったのは{BREAK} そのせいだったのね……。"
+SETNAME "Tiko"
+SAY "{VOICE=08}So that is why our power{BREAK}was fading away..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -237,12 +237,12 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "邪獣ヒヒュルデ"
-SAY "{VOICE=03}「カカカカ……。ここに　まよいこんできたのは{BREAK} ほんとうに　ツイていたわ。"
+SETNAME "Hihyurude"
+SAY "{VOICE=03}Kakakaka... How lucky{BREAK}to wander in here."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "邪獣ヒヒュルデ"
-SAY "{VOICE=03}「オレさまは　このチカラを　すいつくし{BREAK} マモノたちの王となる!"
+SETNAME "Hihyurude"
+SAY "{VOICE=03}I will drain this power{BREAK}and rule all monsters!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40400000
@@ -259,8 +259,8 @@ STORE 0x18 0x1 0x0 0x2 0x428e0000
 STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "邪獣ヒヒュルデ"
-SAY "{VOICE=03}「そして　この地を　あらたな　やみの世界へと{BREAK} ぬりかえるのだ!　グァハハハハハ……!"
+SETNAME "Hihyurude"
+SAY "{VOICE=03}Then I will make this land{BREAK}a new dark world! Gwahaha!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -311,7 +311,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「どうした　こわっぱ?{BREAK} あしが　すくんで　動けぬか?"
+SAY "{VOICE=07}What is wrong, boy?{BREAK}Too scared to move?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -332,18 +332,18 @@ STORE 0x18 0x1 0x0 0x0 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_4E 0x8 
 SYS_42 0x8 
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「な…なんだと!?{BREAK} そんなわけねえだろ!"
+SETNAME "Leokid"
+SAY "{VOICE=07}Wh-what!?{BREAK}No way!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「強がらなくても　いい。あれほどの相手に{BREAK} おびえるのも　ムリからぬことだ。"
+SAY "{VOICE=07}No need to act tough.{BREAK}Fear is natural here."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}「ただ……　汝に　勇気を　ふるいたたせる{BREAK} 友がいたら　まよわず　剣をとっただろうがな。"
+SAY "{VOICE=07}But with friends to stir your courage,{BREAK}you would draw your blade."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -400,7 +400,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41000000
 SYS_17 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「ヒヒュルデッ!　キサマを　うちほろぼし{BREAK} 我は　その使命を果たす!"
+SAY "{VOICE=07}Hihyurude! I will destroy you{BREAK}and fulfill my mission!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -414,12 +414,12 @@ STORE 0x18 0x1 0x0 0x2 0x42700000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "邪獣ヒヒュルデ"
-SAY "{VOICE=03}「ククク……　いいだろう。{BREAK} このまま　かえりうちにしてくれるわ。"
+SETNAME "Hihyurude"
+SAY "{VOICE=03}Kukuku... Very well.{BREAK}I will cut you down."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "邪獣ヒヒュルデ"
-SAY "{VOICE=03}「……だが　キサマの相手をするのは{BREAK} オレさまだけじゃないがな。"
+SETNAME "Hihyurude"
+SAY "{VOICE=03}...But I am not the only one{BREAK}you must face."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

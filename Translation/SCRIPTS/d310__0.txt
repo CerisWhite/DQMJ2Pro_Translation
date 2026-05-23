@@ -173,7 +173,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_4E 0x8 
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Ah! Look over there!!"
+SAY "{VOICE=08}Ah! Look!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -313,7 +313,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
 SETNAME "Leokid"
-SAY "{VOICE=07}Damn it. Why...?{BREAK} Is this all the power I have...?"
+SAY "{VOICE=07}Damn it. Why...?{BREAK}Is this all my power...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -514,11 +514,11 @@ SYS_B1 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}What is strength...? It seems the time has come{BREAK} to teach that young fool."
+SAY "{VOICE=07}What is strength...? It is time{BREAK}to teach that young fool."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Show him everything you have!{BREAK} Show him your strength as a Monster Master!"
+SAY "{VOICE=07}Show him all you have!{BREAK}Your strength as a Master!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -565,7 +565,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Leokid"
-SAY "{VOICE=07}Don't stick your nose in...{BREAK} A runt like you is no match for him."
+SAY "{VOICE=07}Stay out of this...{BREAK}A runt like you cannot win."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
