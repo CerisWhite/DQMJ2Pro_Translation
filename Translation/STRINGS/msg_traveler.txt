@@ -94,8 +94,8 @@ Scout Q level 7 asks you to bring{315}a Lucky monster!{315}{315}I think one with
 Scout Q level 8 asks you to bring{315}Sleep Suppressor+!{315}{315}Give a monster Sleep Suppressor{315}or Nightmare, then spend enough{315}skill points to learn{315}Sleep Suppressor+!
 Scout Q level 9 asks you to bring{315}Static Discharge!{315}{315}Corrupt carter and Killing machine{315}have this trait!
 Scout Q level 10 asks you to bring{315}a rank ☆6+ party!{315}{315}Set a ☆6+ party and talk to me!{315}Check party rank in the{315}main menu with X!
-Scout Q level 11 asks you to bring{315}a Giant Killer monster!{315}{315}Baalzack and Strong jargon{315}have this trait!
-Scout Q level 12 asks you to bring{315}a Metal Killer monster!{315}{315}Strong headhunter and{315}Strongest mecha-mynah{315}have this trait!
+Scout Q level 11 asks you to bring{315}a Big bully monster!{315}{315}Baalzack and Strong jargon{315}have this trait!
+Scout Q level 12 asks you to bring{315}a Metal medley monster!{315}{315}Strong headhunter and{315}Strongest mecha-mynah{315}have this trait!
 Scout Q level 13 asks you to bring{315}a rank ☆7+ party!{315}{315}Set a ☆7+ party and talk to me!{315}Check party rank in the{315}main menu with X!
 
 
