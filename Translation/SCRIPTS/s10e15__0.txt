@@ -3466,16 +3466,16 @@ SYS_99 0x8
 CMP_LT 0x18 0x0 0x42a60000 0x2 0x41e00000
 JMP_IFNOT 0xc L_d3ac
 SYS_42 0x8 
-SAY "{VOICE=07}「へい　らっしゃい!{BREAK} お客さん　なんに　しやしょう?"
+SAY "{VOICE=07}Hey, welcome!{BREAK}What can I do for ya?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「……と　いせいよく　言いてえところだが{BREAK} うちは　いま　みせを　しめてるんだよ。"
+SAY "{VOICE=07}...Wish I could say that,{BREAK}but shop is closed now."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「島で　えらいことが　おきてるだろ?{BREAK} だから　仕入れに　でかけられねえのさ。"
+SAY "{VOICE=07}Big trouble on the island, right?{BREAK}So I cannot restock."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「島が　へいわになったら　活きのいいタマゴを{BREAK} 仕入れてくるから　カンベンしてくれよなっ。"
+SAY "{VOICE=07}Once peace returns, I will stock{BREAK}fresh eggs. Forgive me!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3489,25 +3489,25 @@ STORE 0x18 0x0 0x42c20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c20000 0x2 0x0
 JMP_IFNOT 0xc L_d708
 SYS_42 0x8 
-SAY "{VOICE=07}「へい　らっしゃい!{BREAK} よくきてくれたね　お客さん!"
+SAY "{VOICE=07}Hey, welcome!{BREAK}Good to see ya, customer!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ピピッ島が　へいわになったんで{BREAK} いよいよ　うちも　みせびらきするぜ!"
+SAY "{VOICE=07}Pipit Island is peaceful,{BREAK}so my shop finally opens!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「このみせの　めだまは　ズバリ!{BREAK} モンスターのタマゴよ!"
+SAY "{VOICE=07}Our big draw is obvious:{BREAK}monster eggs!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「モンスターの中には　うちのタマゴからしか{BREAK} 手に入らないヤツも　いるんだぜ!"
+SAY "{VOICE=07}Some monsters only come{BREAK}from our eggs!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ただ……　タマゴみたいな　めずらしいもんは{BREAK} ちまたじゃ　なかなか　手に入らなくってな。"
+SAY "{VOICE=07}But rare stuff like eggs{BREAK}is hard to get around town."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「最強マスター決定戦のあった会場でしか{BREAK} 仕入れることが　できねえんだよ。"
+SAY "{VOICE=07}I can only restock at sites{BREAK}of the Ultimate Master Cup."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「つうわけで　最強マスター決定戦のあとに{BREAK} また　うちに　きてくれよ!"
+SAY "{VOICE=07}So come back after{BREAK}the Ultimate Master Cup!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3526,13 +3526,13 @@ STORE 0x18 0x0 0x42c40000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c40000 0x2 0x0
 JMP_IFNOT 0xc L_d8bc
 SYS_42 0x8 
-SAY "{VOICE=07}「モンスターのタマゴみたいな　めずらしいもんは{BREAK} ちまたじゃ　なかなか　手に入らなくってな。"
+SAY "{VOICE=07}Rare stuff like monster eggs{BREAK}is hard to get around town."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「最強マスター決定戦のあった会場でしか{BREAK} 仕入れることが　できねえんだよ。"
+SAY "{VOICE=07}I can only restock at sites{BREAK}of the Ultimate Master Cup."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「つうわけで　最強マスター決定戦のあとに{BREAK} また　うちに　きてくれよ!"
+SAY "{VOICE=07}So come back after{BREAK}the Ultimate Master Cup!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3543,10 +3543,10 @@ L_d8c4:
 JMP_ABS 0xc L_d8d0
 L_d8d0:
 SYS_42 0x8 
-SAY "{VOICE=07}「へい　らっしゃい!{BREAK} 活きのいい売りものを　仕入れてきたぜ!"
+SAY "{VOICE=07}Hey, welcome!{BREAK}I stocked fresh goods!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「うちの　めだまは　モンスターのタマゴ!{BREAK} 売りものに入ってたら　ラッキーだよ!"
+SAY "{VOICE=07}Our big draw is monster eggs!{BREAK}Lucky if they are in stock!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3840,7 +3840,7 @@ SYS_49 0x8
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x40000000
 JMP_IFNOT 0xc L_e66c
 SYS_42 0x8 
-SAY "{VOICE=07}「ありがとよ!　最強マスター決定戦に{BREAK} 参加すると　売りものが　かわるぜ!"
+SAY "{VOICE=07}Thanks! Enter the Master Cup{BREAK}and my goods change!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

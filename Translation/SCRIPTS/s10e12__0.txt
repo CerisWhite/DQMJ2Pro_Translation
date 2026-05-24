@@ -3706,14 +3706,14 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40800000
 JMP_IFNOT 0xc L_e450
 L_e300:
 SYS_42 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「まねかれざる客は　この島の中心にある聖地{BREAK} ブランパレスに　むかったようですじゃ。"
+SETNAME "Elder"
+SAY "{VOICE=03}The Uninvited Guest went{BREAK}to Blanc Palace at island's center."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「おねがいします　{NAME}どの。{BREAK} われらのチカラが　失われる前に……"
+SAY "{VOICE=03}Please, {NAME}.{BREAK}Before our power is lost..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「われらの聖地に　わざわいを　もたらす{BREAK} まねかれざる客を　たおしてきてくだされ!"
+SAY "{VOICE=03}Defeat the Uninvited Guest{BREAK}ruining our holy land!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3732,35 +3732,35 @@ STORE 0x18 0x1 0x0 0x2 0x44038000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_2A 0x8 
 SYS_42 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「Incarnusさまをいやす　天鳥のソーマをつくるのに{BREAK} ひつような　ざいりょうは……"
+SETNAME "Elder"
+SAY "{VOICE=03}To make Godbird Soma{BREAK}and heal Incarnus..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ふっかつのほのおと　りゅうのなみだ……{BREAK} そして　ときのすいしょうの　3つですじゃ。"
+SAY "{VOICE=03}we need Flame of Resurrection,{BREAK}Dragon's Tear, and Chronocrystal."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「これらの　ざいりょうをもつ　モンスターを{BREAK} ワシが　いまから　うらなうので……"
+SAY "{VOICE=03}I will divine the monsters{BREAK}that hold these items..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「それをたよりに　ざいりょうを手に入れ{BREAK} ひとつずつ　もってきてくだされ。"
+SAY "{VOICE=03}Use that to get each item,{BREAK}then bring them to me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「それでは　まず　ふっかつのほのおをもつ{BREAK} モンスターについて　うらないましょう。"
+SAY "{VOICE=03}First, let me divine the{BREAK}Flame of Resurrection monster."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「……むう～ん!　かああっつ!!"
+SAY "{VOICE=03}...Mmmmmm! Kaaah!!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「……ふむ。これは　しっぽか?{BREAK} まっかにもえる　しっぽが　みえますぞ……。"
+SAY "{VOICE=03}...Hmm. A tail?{BREAK}I see a red-burning tail..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「くもの上……　なにやら{BREAK} はげしい　いななきが　きこえますわい……!"
+SAY "{VOICE=03}Above the clouds...{BREAK}I hear fierce neighing...!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「そして　ふっかつのほのおを　もっている者と{BREAK} もっていない者が　いるようですじゃ……!"
+SAY "{VOICE=03}Some hold the Flame,{BREAK}and some do not...!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ふむ。ワシにわかるのは　ここまでのようです。{BREAK} あとは　よろしく　たのみましたぞ。"
+SAY "{VOICE=03}Hmm. That is all I can see.{BREAK}The rest is in your hands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3771,8 +3771,8 @@ L_e90c:
 JMP_ABS 0xc L_e918
 L_e918:
 SYS_42 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「おお　{NAME}どの。{BREAK} ふっかつのほのおは　手に入りましたか?{VOICE=09}"
+SETNAME "Elder"
+SAY "{VOICE=03}Oh, {NAME}. Got the{BREAK}Flame of Resurrection?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -3784,16 +3784,16 @@ SYS_74 0x8
 STORE 0x18 0x0 0x42c00000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c00000 0x2 0x0
 JMP_IFNOT 0xc L_ebb0
-SAY "{VOICE=03}「おや?　{NAME}どのは　まだ{BREAK} ふっかつのほのおを　もっていない　ようす。"
+SAY "{VOICE=03}Oh? You do not have{BREAK}the Flame of Resurrection."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ワシの　うらないによると{BREAK} ふっかつのほのおを　もっているのは……"
+SAY "{VOICE=03}According to my divination,{BREAK}the Flame holder is..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「まっかにもえる　しっぽがあり　くもの上で{BREAK} はげしく　いななく　モンスターのようですぞ。"
+SAY "{VOICE=03}a monster with a burning tail,{BREAK}neighing above the clouds."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ざいりょうを　もっていない者もいるようなので{BREAK} 手に入るまで　こんきよく　やってくだされ。"
+SAY "{VOICE=03}Some may not have it,{BREAK}so keep trying."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3805,7 +3805,7 @@ JMP_ABS 0xc L_ebc4
 L_ebc4:
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　ふっかつのほのおを{BREAK}長老に　手わたした!"
+SAY "{COLOR=2}{NAME} handed the Flame{BREAK}to the Elder!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3816,26 +3816,26 @@ STORE 0x18 0x1 0x0 0x2 0x43540000
 STORE 0x18 0x1 0x3f800000 0x2 0xbf800000
 SYS_73 0x8 
 SYS_42 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「おお　たしかに　ふっかつのほのおですじゃ!{BREAK} ありがたく　ちょうだいしますぞ。"
+SETNAME "Elder"
+SAY "{VOICE=03}Yes, the Flame of Resurrection!{BREAK}I gratefully accept it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「それでは　つぎに　りゅうのなみだをもつ{BREAK} モンスターについて　うらないましょう。"
+SAY "{VOICE=03}Next, let me divine{BREAK}the Dragon's Tear monster."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「……むう～ん!　かああっつ!!"
+SAY "{VOICE=03}...Mmmmmm! Kaaah!!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「……ふむ。これは　水か?{BREAK} 水の　ひろがる場所が　みえますぞ……。"
+SAY "{VOICE=03}...Hmm. Is this water?{BREAK}I see a watery place..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ふむふむ　海岸のどうくつのようじゃな。"
+SAY "{VOICE=03}Hmm. It seems to be Unshore Cave."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「それから　これは……　3本のあし?{BREAK} クネクネとした　あしが　みえますわい……!"
+SAY "{VOICE=03}And this is... three legs?{BREAK}I see wriggling legs...!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ふむ。ワシにわかるのは　ここまでのようです。{BREAK} あとは　よろしく　たのみましたぞ。"
+SAY "{VOICE=03}Hmm. That is all I can see.{BREAK}The rest is in your hands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3847,16 +3847,16 @@ JMP_REL L_ef4c
 L_ef4c:
 JMP_ABS 0xc L_ef58
 L_ef58:
-SAY "{VOICE=03}「そうでしたか。それでは　ひきつづき{BREAK} よろしく　おねがいします。"
+SAY "{VOICE=03}I see. Then please{BREAK}keep at it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ワシの　うらないによると{BREAK} ふっかつのほのおを　もっているのは……"
+SAY "{VOICE=03}According to my divination,{BREAK}the Flame holder is..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「まっかにもえる　しっぽがあり　くもの上で{BREAK} はげしく　いななく　モンスターのようですぞ。"
+SAY "{VOICE=03}a monster with a burning tail,{BREAK}neighing above the clouds."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ざいりょうを　もっていない者もいるようなので{BREAK} 手に入るまで　こんきよく　やってくだされ。"
+SAY "{VOICE=03}Some may not have it,{BREAK}so keep trying."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3869,8 +3869,8 @@ L_f0fc:
 CMP_EQ 0x18 0x0 0x42c20000 0x2 0x3f800000
 JMP_IFNOT 0xc L_f7e0
 SYS_42 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「おお　{NAME}どの。{BREAK} りゅうのなみだは　手に入りましたか?{VOICE=09}"
+SETNAME "Elder"
+SAY "{VOICE=03}Oh, {NAME}.{BREAK}Got the Dragon's Tear?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -3882,13 +3882,13 @@ SYS_74 0x8
 STORE 0x18 0x0 0x42c00000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c00000 0x2 0x0
 JMP_IFNOT 0xc L_f34c
-SAY "{VOICE=03}「おや?　{NAME}どのは　まだ{BREAK} りゅうのなみだを　もっていない　ようす。"
+SAY "{VOICE=03}Oh? You do not seem{BREAK}to have the Dragon's Tear."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ワシの　うらないによると{BREAK} りゅうのなみだを　もっているのは……"
+SAY "{VOICE=03}According to my divination,{BREAK}the Dragon's Tear holder is..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「海岸のどうくつにすみ　クネクネとした{BREAK} 3本あしをもつ　モンスターのようですぞ。"
+SAY "{VOICE=03}a monster in Unshore Cave{BREAK}with three wriggling legs."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3900,7 +3900,7 @@ JMP_ABS 0xc L_f360
 L_f360:
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　りゅうのなみだを{BREAK}長老に　手わたした!"
+SAY "{COLOR=2}{NAME} handed Dragon's Tear{BREAK}to the Elder!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3911,23 +3911,23 @@ STORE 0x18 0x1 0x0 0x2 0x43550000
 STORE 0x18 0x1 0x3f800000 0x2 0xbf800000
 SYS_73 0x8 
 SYS_42 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「おお　たしかに　りゅうのなみだですじゃ!{BREAK} ありがたく　ちょうだいしますぞ。"
+SETNAME "Elder"
+SAY "{VOICE=03}Yes, the Dragon's Tear!{BREAK}I gratefully accept it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「それでは　最後に　ときのすいしょうをもつ{BREAK} モンスターについて　うらないましょう。"
+SAY "{VOICE=03}Last, let me divine{BREAK}the Chronocrystal monster."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「……むう～ん!　かああっつ!!"
+SAY "{VOICE=03}...Mmmmmm! Kaaah!!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「……まがまがしい　めいきゅうが　みえる。{BREAK} これは　魔の世界のようですな。"
+SAY "{VOICE=03}...I see an evil maze.{BREAK}This seems to be the Dark World."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「そして　魔の世界の　はるか　ふかきところで{BREAK} うごめく　はぐるまが　みえますぞ……!"
+SAY "{VOICE=03}Deep in the Dark World,{BREAK}I see writhing gears...!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ふむ。ワシにわかるのは　ここまでのようです。{BREAK} あとは　よろしく　たのみましたぞ。"
+SAY "{VOICE=03}Hmm. That is all I can see.{BREAK}The rest is in your hands."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3939,13 +3939,13 @@ JMP_REL L_f6a8
 L_f6a8:
 JMP_ABS 0xc L_f6b4
 L_f6b4:
-SAY "{VOICE=03}「そうでしたか。それでは　ひきつづき{BREAK} よろしく　おねがいします。"
+SAY "{VOICE=03}I see. Then please{BREAK}keep at it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ワシの　うらないによると{BREAK} りゅうのなみだを　もっているのは……"
+SAY "{VOICE=03}According to my divination,{BREAK}the Dragon's Tear holder is..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「海岸のどうくつにすみ　クネクネとした{BREAK} 3本あしをもつ　モンスターのようですぞ。"
+SAY "{VOICE=03}a monster in Unshore Cave{BREAK}with three wriggling legs."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3956,8 +3956,8 @@ L_f7e0:
 CMP_EQ 0x18 0x0 0x42c20000 0x2 0x40000000
 JMP_IFNOT 0xc L_ffbc
 SYS_42 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「おお　{NAME}どの。{BREAK} ときのすいしょうは　手に入りましたか?{VOICE=09}"
+SETNAME "Elder"
+SAY "{VOICE=03}Oh, {NAME}.{BREAK}Got the Chronocrystal?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -3969,13 +3969,13 @@ SYS_74 0x8
 STORE 0x18 0x0 0x42c00000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c00000 0x2 0x0
 JMP_IFNOT 0xc L_fa34
-SAY "{VOICE=03}「おや?　{NAME}どのは　まだ{BREAK} ときのすいしょうを　もっていない　ようす。"
+SAY "{VOICE=03}Oh? You do not seem{BREAK}to have the Chronocrystal."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ワシの　うらないによると{BREAK} ときのすいしょうを　もっているのは……"
+SAY "{VOICE=03}According to my divination,{BREAK}the Chronocrystal holder is..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「魔の世界の　ふかきところで　うごめく{BREAK} はぐるまのついた　モンスターのようですぞ。"
+SAY "{VOICE=03}a geared monster writhing{BREAK}deep in the Dark World."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3987,7 +3987,7 @@ JMP_ABS 0xc L_fa48
 L_fa48:
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　ときのすいしょうを{BREAK}長老に　手わたした!"
+SAY "{COLOR=2}{NAME} handed Chronocrystal{BREAK}to the Elder!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4004,14 +4004,14 @@ STORE 0x18 0x1 0x0 0x2 0x44038000
 STORE 0x18 0x1 0x3f800000 0x2 0x0
 SYS_2A 0x8 
 SYS_42 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「おお　たしかに　ときのすいしょうですじゃ!{BREAK} ありがたく　ちょうだいしますぞ。"
+SETNAME "Elder"
+SAY "{VOICE=03}Yes, the Chronocrystal!{BREAK}I gratefully accept it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「よし!　これで　天鳥のソーマをつくるための{BREAK} ざいりょうが　すべて　そろいましたわい!"
+SAY "{VOICE=03}Good! Now all ingredients{BREAK}for Godbird Soma are ready!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「さっそく　これらを調合して{BREAK} Incarnusさまに　のませるとしましょう!"
+SAY "{VOICE=03}Let us mix them at once{BREAK}and give it to Incarnus!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4046,13 +4046,13 @@ JMP_REL L_fe80
 L_fe80:
 JMP_ABS 0xc L_fe8c
 L_fe8c:
-SAY "{VOICE=03}「そうでしたか。それでは　ひきつづき{BREAK} よろしく　おねがいします。"
+SAY "{VOICE=03}I see. Then please{BREAK}keep at it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ワシの　うらないによると{BREAK} ときのすいしょうを　もっているのは……"
+SAY "{VOICE=03}According to my divination,{BREAK}the Chronocrystal holder is..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「魔の世界の　ふかきところで　うごめく{BREAK} はぐるまのついた　モンスターのようですぞ。"
+SAY "{VOICE=03}a geared monster writhing{BREAK}deep in the Dark World."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4106,20 +4106,20 @@ STORE 0x18 0x0 0x42b40000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42b40000 0x2 0x0
 JMP_IFNOT 0xc L_10444
 SYS_42 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「Incarnusさまの使命は　やみの世界のトビラを{BREAK} とざして　マモノたちを　ふういんすること。"
+SETNAME "Elder"
+SAY "{VOICE=03}Incarnus's duty is to shut{BREAK}the Dark World gate."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「そのスキに　やみの世界から　にげてきたのが{BREAK} まねかれざる客……　ヒヒュルデというわけか。"
+SAY "{VOICE=03}Then the Uninvited Guest,{BREAK}Hihyurude, escaped it..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ふう……。それにしても　いぜんにまして{BREAK} 身体に　チカラが入りませぬな……。"
+SAY "{VOICE=03}Whew... My body feels{BREAK}weaker than before..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「これは　ヒヒュルデのヤツが　われらの聖地を{BREAK} けがしつづけている　なによりの証……。"
+SAY "{VOICE=03}That proves Hihyurude{BREAK}still defiles our holy land..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「{NAME}どの　たのみましたぞ。{BREAK} 手おくれとなる前に　ヤツを　うってくだされ。"
+SAY "{VOICE=03}{NAME}, I beg you.{BREAK}Strike him down before too late."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4133,14 +4133,14 @@ L_1044c:
 JMP_ABS 0xc L_10458
 L_10458:
 SYS_42 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「ふう……。それにしても　いぜんにまして{BREAK} 身体に　チカラが入りませぬな……。"
+SETNAME "Elder"
+SAY "{VOICE=03}Whew... My body feels{BREAK}weaker than before..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「これは　ヒヒュルデのヤツが　われらの聖地を{BREAK} けがしつづけている　なによりの証……。"
+SAY "{VOICE=03}That proves Hihyurude{BREAK}still defiles our holy land..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「{NAME}どの　たのみましたぞ。{BREAK} 手おくれとなる前に　ヤツを　うってくだされ。"
+SAY "{VOICE=03}{NAME}, I beg you.{BREAK}Strike him down before too late."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4192,17 +4192,17 @@ STORE 0x18 0x0 0x42b40000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42b40000 0x2 0x0
 JMP_IFNOT 0xc L_10a44
 SYS_42 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「{NAME}どの。{BREAK} ティコのこと　よろしく　たのみましたぞ。"
+SETNAME "Elder"
+SAY "{VOICE=03}{NAME}.{BREAK}Please take care of Tiko."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「配合すると　いなくなってしまうので{BREAK} くれぐれも　お気をつけくだされ。"
+SAY "{VOICE=03}She will vanish if synthesized,{BREAK}so please be careful."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「それから　ブランパレスのおくじょうに{BREAK} 行ってみては　いかがですかな?"
+SAY "{VOICE=03}Also, why not visit{BREAK}Blanc Palace's roof?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「勝ちぬきバトルと　最強マスター闘技場の{BREAK} じゅんびが　そろそろ　できるころですからな。"
+SAY "{VOICE=03}Survival Battle and the Arena{BREAK}should be ready soon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4213,11 +4213,11 @@ L_10a4c:
 JMP_ABS 0xc L_10a58
 L_10a58:
 SYS_42 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「{NAME}どの。{BREAK} ティコのこと　よろしく　たのみましたぞ。"
+SETNAME "Elder"
+SAY "{VOICE=03}{NAME}.{BREAK}Please take care of Tiko."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「配合すると　いなくなってしまうので{BREAK} くれぐれも　お気をつけくだされ。"
+SAY "{VOICE=03}She will vanish if synthesized,{BREAK}so please be careful."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4232,14 +4232,14 @@ JMP_IFNOT 0xc L_11dc0
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40000000
 JMP_IFNOT 0xc L_10cdc
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「レオソードさま～…なんて　うかれてる{BREAK} ククリなんかに　負けるものですか!"
+SETNAME "Tiko"
+SAY "{VOICE=08}Kukri is swooning over Leokid...{BREAK}I will not lose to her!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「さあ　行きましょう　{NAME}!{BREAK} めざすは　まねかれざる客のいる　聖地よ!"
+SAY "{VOICE=08}Come on, {NAME}!{BREAK}To where the Uninvited Guest waits!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「とりあえず　みなみのつうろから　町を出て。{BREAK} 聖地への行き方は　そこで　おしえるわ!"
+SAY "{VOICE=08}Leave town by the south path.{BREAK}I will show the way there!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4248,14 +4248,14 @@ L_10cdc:
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40800000
 JMP_IFNOT 0xc L_10e50
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「さあ　行きましょう　{NAME}!{BREAK} めざすは　まねかれざる客のいる　聖地よ!"
+SETNAME "Tiko"
+SAY "{VOICE=08}Come on, {NAME}!{BREAK}To where the Uninvited Guest waits!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「まわりの　うき島を　わたりあるきながら{BREAK} 上をめざせば　かならず　聖地にたどりつくわ。"
+SAY "{VOICE=08}Cross the floating islands{BREAK}and climb to reach the holy land."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「とりあえず　町を出たところの　つうろを{BREAK} 道なりに　すすんでいけば　いいからね。"
+SAY "{VOICE=08}For now, follow the path{BREAK}outside town."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4264,14 +4264,14 @@ L_10e50:
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40c00000
 JMP_IFNOT 0xc L_10fa8
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「Incarnusさまみたいな　エライお方を{BREAK} ほっとくなんて　ククリたちも　バカよねー。"
+SETNAME "Tiko"
+SAY "{VOICE=08}Ignoring someone as great{BREAK}as Incarnus? Kukri is dumb."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「とりあえず　まねかれざる客を　おうのは{BREAK} いったん　おいといて……"
+SAY "{VOICE=08}For now, let us put chasing{BREAK}the Uninvited Guest aside..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「いまは　Incarnusさまを　なおすことに{BREAK} せんねんしましょう!"
+SAY "{VOICE=08}Right now, let us focus{BREAK}on healing Incarnus!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4280,14 +4280,14 @@ L_10fa8:
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40e00000
 JMP_IFNOT 0xc L_1110c
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「モンスターマスターって{BREAK} はじめて　きく　ことばだけど……"
+SETNAME "Tiko"
+SAY "{VOICE=08}Monster Master is a term{BREAK}I have never heard..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「あのIncarnusさまに　たよりにされるなんて{BREAK} {NAME}って　すごいんじゃない!?"
+SAY "{VOICE=08}But Incarnus relies on you!{BREAK}That means you are amazing!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「アタシの目に　くるいはなかったんだわ!{BREAK} さあ　結界のある場所に　行きましょう!"
+SAY "{VOICE=08}My eyes were not wrong!{BREAK}Let us go to the barrier!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4296,14 +4296,14 @@ L_1110c:
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41000000
 JMP_IFNOT 0xc L_11268
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「Incarnusさまのおかげで{BREAK} なんとか　結界は　とっぱできたわ。"
+SETNAME "Tiko"
+SAY "{VOICE=08}Thanks to Incarnus,{BREAK}we broke through the barrier."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「さっそく　邪獣ヒヒュルデのいる{BREAK} 聖地　ブランパレスを　めざしましょう。"
+SAY "{VOICE=08}Now let us head to Blanc Palace,{BREAK}where Hihyurude waits."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「さきに行った　レオソードなんか{BREAK} すぐに　おいぬけるわよ!"
+SAY "{VOICE=08}We will catch up to Leonyx{BREAK}in no time!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4323,11 +4323,11 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41d00000
 JMP_IFNOT 0xc L_113f0
 L_11304:
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「なんとか　アタシたちの聖地　ブランパレスまで{BREAK} たどりつくことが　できたわね。"
+SETNAME "Tiko"
+SAY "{VOICE=08}We finally reached{BREAK}our holy land, Blanc Palace."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「あとは　ヒヒュルデとの決戦を　のこすのみ!{BREAK} もう　ひとふんばりよ　{NAME}!"
+SAY "{VOICE=08}Only the final fight remains!{BREAK}One more push, {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4341,20 +4341,20 @@ STORE 0x18 0x0 0x42b40000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42b40000 0x2 0x0
 JMP_IFNOT 0xc L_116a0
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「あっ!　おかえり　{NAME}!{BREAK} みんなで　あなたのことを　まっていたのよ!"
+SETNAME "Tiko"
+SAY "{VOICE=08}Ah! Welcome back, {NAME}!{BREAK}We were waiting for you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「あなたが　ヒヒュルデを　たおしたから{BREAK} ククリとの勝負は　アタシの勝ちね!"
+SAY "{VOICE=08}You beat Hihyurude,{BREAK}so I beat Kukri!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「あなたを　地上で　スカウトしたときは{BREAK} どうなることかと　思ったけど……。"
+SAY "{VOICE=08}When I scouted you below,{BREAK}I wondered how this would go..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「ほんとうに　強くて　おどろいちゃった!{BREAK} いままで　ありがとう　{NAME}!"
+SAY "{VOICE=08}You were really strong!{BREAK}Thank you, {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「さ　長老さまにも　話をきいて。{BREAK} きっと　ごほうびが　よういしてあるわよ。"
+SAY "{VOICE=08}Now talk to the Elder.{BREAK}He must have a reward ready."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4368,14 +4368,14 @@ L_116a8:
 JMP_ABS 0xc L_116b4
 L_116b4:
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「あなたを　地上で　スカウトしたときは{BREAK} どうなることかと　思ったけど……。"
+SETNAME "Tiko"
+SAY "{VOICE=08}When I scouted you below,{BREAK}I wondered how this would go..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「ほんとうに　強くて　おどろいちゃった!{BREAK} いままで　ありがとう　{NAME}!"
+SAY "{VOICE=08}You were really strong!{BREAK}Thank you, {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「さ　長老さまにも　話をきいて。{BREAK} きっと　ごほうびが　よういしてあるわよ。"
+SAY "{VOICE=08}Now talk to the Elder.{BREAK}He must have a reward ready."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4386,8 +4386,8 @@ L_11804:
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41e80000
 JMP_IFNOT 0xc L_11db4
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「さあ　{NAME}!{BREAK} アタシを　スカウトしてくれる?{VOICE=09}"
+SETNAME "Tiko"
+SAY "{VOICE=08}Come on, {NAME}!{BREAK}Will you scout me?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4404,17 +4404,17 @@ SYS_2A 0x8
 STORE 0x18 0x1 0x0 0x0 0x42b00000
 STORE 0x18 0x1 0x3f800000 0x2 0x43470000
 SYS_4C 0x8 
-SAY "{VOICE=08}「やったーっ!　これで　アタシも{BREAK} {NAME}たちの　仲間入りね!"
+SAY "{VOICE=08}Yay! Now I am{BREAK}part of your team!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}ピピット族の　ティコが{BREAK}仲間に　なった!"
+SAY "{COLOR=2}Tiko of the Pipit tribe{BREAK}joined the party!"
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}「これからは　名前も　すきに　よんで。{BREAK} それじゃ　よろしくね　{NAME}!"
+SAY "{VOICE=08}Call me whatever you like.{BREAK}Glad to join you, {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4443,10 +4443,10 @@ JMP_REL L_11c18
 L_11c18:
 JMP_ABS 0xc L_11c24
 L_11c24:
-SAY "{VOICE=08}「……あっ!　そのへんじは　うれしいけど{BREAK} いまは　預かり所に　空きがないみたいね。"
+SAY "{VOICE=08}...Ah! I am glad, but{BREAK}storage seems full now."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「預かり所に　空きをつくったら　またきてね。{BREAK} アタシは　ここで　まってるから!"
+SAY "{VOICE=08}Make room, then come back.{BREAK}I will wait here!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4461,7 +4461,7 @@ L_11d18:
 STORE 0x18 0x1 0x0 0x0 0x42b00000
 STORE 0x18 0x1 0x3f800000 0x2 0x43460000
 SYS_4C 0x8 
-SAY "{VOICE=08}「そんな～。たのしみに　してたのに～。"
+SAY "{VOICE=08}No way... I was so excited..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4477,13 +4477,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40e00000
 JMP_IFNOT 0xc L_11f64
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「我は　マモノのあふれる地へ　むかう前{BREAK} 汝と　おなじ目をした者と　旅をした。"
+SAY "{VOICE=07}Before the monster-filled land,{BREAK}I traveled with eyes like yours."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ゆえに　我には　わかるのだ。汝が{BREAK} すぐれたモンスターマスターであると……。"
+SAY "{VOICE=07}So I know you are{BREAK}a fine Monster Master..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「さあ　ヒヒュルデのつくった結界を　めざすぞ。{BREAK} いまの我ならば　あの結界も　やぶれるはずだ。"
+SAY "{VOICE=07}Now to Hihyurude's barrier.{BREAK}I can break it now."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4496,14 +4496,14 @@ JMP_IFNOT 0xc L_12220
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41e00000
 JMP_IFNOT 0xc L_120f4
 SYS_42 0x8 
-SETNAME "ククリ"
-SAY "{VOICE=08}「まさか　あんなバケモノじみた　サルを{BREAK} たおしちゃうなんてね……。"
+SETNAME "Kukri"
+SAY "{VOICE=08}You actually beat{BREAK}that monster ape..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「キケンをさっして　にげてきた{BREAK} ククリが　バカみたいじゃないの!"
+SAY "{VOICE=08}I sensed danger and ran,{BREAK}so now I look stupid!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「……どっちみち　つぎの長老になるのは{BREAK} ティコで　決まりね。あ～あ……。"
+SAY "{VOICE=08}...Either way, Tiko will be{BREAK}the next Elder. Aww..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4512,11 +4512,11 @@ L_120f4:
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41e80000
 JMP_IFNOT 0xc L_12214
 SYS_42 0x8 
-SETNAME "ククリ"
-SAY "{VOICE=08}「なによー!　ティコが　長老にならないなら{BREAK} くりあがりで　ククリが　つぎの長老でしょ!?"
+SETNAME "Kukri"
+SAY "{VOICE=08}What!? If Tiko refuses,{BREAK}then I should be next Elder!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「みんなを　こき使ってやろうと思ったのに……。{BREAK} まったく　長老も　アタマが　かたいわね!"
+SAY "{VOICE=08}I wanted to boss everyone around...{BREAK}The Elder is so stubborn!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4559,12 +4559,12 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40c00000
 JMP_IFNOT 0xc L_12480
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「ハア…　ハア……。"
+SAY "{VOICE=07}Hah... hah..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Incarnusは　ぐったりとしている。"
+SAY "{COLOR=2}Incarnus is limp and weak."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4579,10 +4579,10 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x41200000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}『しんぴのクスリ大全』という本がある。{BREAK}{NAME}は　手にとって　よんだ。"
+SAY "{COLOR=2}There is a book, Mystery Medicines.{BREAK}{NAME} picked it up and read."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}……しかし　むずかしすぎて{BREAK}{NAME}には　よめなかった……。"
+SAY "{COLOR=2}...But it was too hard{BREAK}for {NAME} to read..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4595,16 +4595,16 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x41300000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}『ゆりかごの木』という本がある。{BREAK}{NAME}は　手にとって　よんだ。"
+SAY "{COLOR=2}There is a book, Cradle Tree.{BREAK}{NAME} picked it up and read."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}この世界の　どこかにあったという{BREAK}すべてを　やさしくつつみこむ　大きな木……。"
+SAY "{COLOR=2}Somewhere in this world stood{BREAK}a great tree that held all..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}人びとは　その木に　よりそうように{BREAK}クニをつくり　ゆたかに　くらしていました。"
+SAY "{COLOR=2}People built a nation by it{BREAK}and lived in plenty."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}そして　ゆりかごのように　心地よい木の中では{BREAK}たくさんの　命が　生まれたといいます。"
+SAY "{COLOR=2}Inside that cradle-like tree,{BREAK}many lives were born."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4617,15 +4617,15 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x41400000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}『長老の配合にっき』という本がある。{BREAK}{NAME}は　手にとって　よんだ。"
+SAY "{COLOR=2}There is a book, Elder's Synth Diary.{BREAK}{NAME} picked it up and read."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}さいきん　モノわすれが　ひどくて{BREAK}こまっておる。"
+SAY "{COLOR=2}My memory is so poor lately,{BREAK}it troubles me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 CMP_LT 0x18 0x0 0x42a60000 0x2 0x41e00000
 JMP_IFNOT 0xc L_12968
-SAY "{COLOR=2}バッファロンと　シュプリンガーを配合すると{BREAK}なにが　できるんじゃっけかのう……。"
+SAY "{COLOR=2}What do you get by synthesizing{BREAK}Buffalogre and Mandrake marshal...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_12ab8
@@ -4634,13 +4634,13 @@ JMP_REL L_12970
 L_12970:
 JMP_ABS 0xc L_1297c
 L_1297c:
-SAY "{COLOR=2}バッファロンと　シュプリンガーを配合すると{BREAK}なにが　できるんじゃっけかのう……。"
+SAY "{COLOR=2}What do you get by synthesizing{BREAK}Buffalogre and Mandrake marshal...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}いや　それどころか　ライオネックと{BREAK}カプリゴンの配合結果も　わすれてしもうた!"
+SAY "{COLOR=2}Worse, I forgot Hyperanemon{BREAK}and Kapurigon's result!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}なにか　とんでもない結果になる気がしたが……。{BREAK}いよいよ　ワシも　ボケてしまったんかのう……。"
+SAY "{COLOR=2}I feel it was something wild...{BREAK}Am I truly senile now...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_12ab8

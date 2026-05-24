@@ -3296,22 +3296,22 @@ SYS_42 0x8
 SETNAME "Eugene Poole"
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x0
 JMP_IFNOT 0xc L_cf8c
-SAY "{VOICE=03}「おお　よくきてくれたな!{BREAK} わしゃ　お前さんを　さがしておったんじゃよ!"
+SAY "{VOICE=03}Oh, good of you to come!{BREAK}I was looking for you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「はじめて　ここに　まよいこんできたときは{BREAK} どうようして　なにも　できんかったが……"
+SAY "{VOICE=03}When I first wandered here,{BREAK}I panicked and did nothing..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「目がさめたら　どういうわけか{BREAK} お前さんと　戦ってみたくなったんじゃ。"
+SAY "{VOICE=03}When I awoke, somehow{BREAK}I wanted to fight you."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「わかいころ　モンスターマスターだった{BREAK} わしの　ちが　さわいでしまったんじゃろうな。"
+SAY "{VOICE=03}My old Monster Master blood{BREAK}must be stirring again."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「そういうわけで　どうじゃ?{BREAK} わしと　マスター戦を　やってみんか?"
+SAY "{VOICE=03}So, what do you say?{BREAK}Want a Master battle?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「わしに勝てたら　ほうびを　やるぞい!{BREAK} さあ　いますぐ　戦ってくれるかの?{VOICE=09}"
+SAY "{VOICE=03}Beat me and you get a prize!{BREAK}Fight me now?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000
@@ -3321,14 +3321,14 @@ JMP_ABS 0xc L_d0a8
 L_cf8c:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_d018
-SAY "{VOICE=03}「おお　お前さん。やっぱり　わしと{BREAK} マスター戦を　してくれるのかっ?{VOICE=09}"
+SAY "{VOICE=03}Oh, you! Will you have{BREAK}a Master battle with me?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d0a8
 L_d018:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x40000000
 JMP_IFNOT 0xc L_d0a8
-SAY "{VOICE=03}「おお　お前さん!　また　あったな!{BREAK} どうじゃ　わしとマスター戦と　いかんか?{VOICE=09}"
+SAY "{VOICE=03}Oh, you again!{BREAK}How about a Master battle?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d0a8
@@ -3345,10 +3345,10 @@ L_d128:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_d230
 L_d14c:
-SAY "{VOICE=03}「そうか　そうか!　うけてくれるか!"
+SAY "{VOICE=03}I see! You accept!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「マスター戦なんぞ　ひさしぶりじゃ。{BREAK} ちっとは　手かげんしとくれよ。"
+SAY "{VOICE=03}It has been ages.{BREAK}Go easy on me, will you?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000
@@ -3358,10 +3358,10 @@ JMP_ABS 0xc L_d2f4
 L_d230:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x40000000
 JMP_IFNOT 0xc L_d2f4
-SAY "{VOICE=03}「ほっほっほ!{BREAK} そうこなくてはのう。"
+SAY "{VOICE=03}Ho ho ho!{BREAK}That is the spirit!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「さあ　いくぞ!{BREAK} わしは　手かげんせんからなっ!"
+SAY "{VOICE=03}Here I come!{BREAK}I will not hold back!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d2f4
@@ -3375,10 +3375,10 @@ JMP_REL L_d340
 L_d340:
 JMP_ABS 0xc L_d34c
 L_d34c:
-SAY "{VOICE=03}「……おお　そうか　そうか。{BREAK} まあ　お前さんにも　つごうがあるわな。"
+SAY "{VOICE=03}...Oh, I see.{BREAK}You have things to do too."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ちょっぴり　センチな気分になったが{BREAK} まあ　気にしないでおくれ。"
+SAY "{VOICE=03}I feel a bit sentimental,{BREAK}but never mind me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000
@@ -3493,20 +3493,20 @@ SYS_24 0x8
 STORE 0x18 0x0 0x42bc0000 0x1 0x0
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}「か～っ!　負けてしまったわ!{BREAK} やはり　お前さんは　強いのう。"
+SAY "{VOICE=03}Bah! I lost!{BREAK}You really are strong."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「どれ　たのしませてもらったほうびに{BREAK} お前さんに　ひとつ　モンスターをやろう。"
+SAY "{VOICE=03}For that fun battle,{BREAK}I shall give you a monster."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「Eugene Pooleのイケイケコレクションの{BREAK} モンスターに　するかの?{VOICE=09}"
+SAY "{VOICE=03}Want one from Eugene Poole\'s{BREAK}Go-Getter Collection?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ba0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ba0000 0x2 0x0
 JMP_IFNOT 0xc L_e0e8
-SAY "{VOICE=03}「よし!　それでは{BREAK} こいつを　もっていけい!"
+SAY "{VOICE=03}Good! Then{BREAK}take this one!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3553,7 +3553,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e088
 L_e088:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　Eugene Pooleから{BREAK}{E322}を　もらった!"
+SAY "{COLOR=2}{NAME} received{BREAK}{E322} from Eugene Poole!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3563,14 +3563,14 @@ JMP_REL L_e0f0
 L_e0f0:
 JMP_ABS 0xc L_e0fc
 L_e0fc:
-SAY "{VOICE=03}「ならば　Eugene Pooleの　ムキムキコレクションの{BREAK} モンスターに　するかの?{VOICE=09}"
+SAY "{VOICE=03}Then one from Eugene Poole\'s{BREAK}Muscle Collection?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ba0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ba0000 0x2 0x0
 JMP_IFNOT 0xc L_e548
-SAY "{VOICE=03}「よし!　それでは{BREAK} こいつを　もっていけい!"
+SAY "{VOICE=03}Good! Then{BREAK}take this one!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3617,7 +3617,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e4e8
 L_e4e8:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　Eugene Pooleから{BREAK}{E322}を　もらった!"
+SAY "{COLOR=2}{NAME} received{BREAK}{E322} from Eugene Poole!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3627,14 +3627,14 @@ JMP_REL L_e550
 L_e550:
 JMP_ABS 0xc L_e55c
 L_e55c:
-SAY "{VOICE=03}「むむ。それでは　Eugene Pooleのとっておき{BREAK} ドキドキコレクションが　いいんじゃな?{VOICE=09}"
+SAY "{VOICE=03}Hmm. Then Eugene Poole\'s prized{BREAK}Thrill Collection?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ba0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ba0000 0x2 0x0
 JMP_IFNOT 0xc L_e9e8
-SAY "{VOICE=03}「よし!　それでは{BREAK} こいつを　もっていけい!"
+SAY "{VOICE=03}Good! Then{BREAK}take this one!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3684,7 +3684,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e988
 L_e988:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　Eugene Pooleから{BREAK}{E322}を　もらった!"
+SAY "{COLOR=2}{NAME} received{BREAK}{E322} from Eugene Poole!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3694,7 +3694,7 @@ JMP_REL L_e9f0
 L_e9f0:
 JMP_ABS 0xc L_e9fc
 L_e9fc:
-SAY "{VOICE=03}「ええいっ!　年よりを　もてあそぶでないわ!{BREAK} もう　わしが　決めたのを　もってけ!　ほれ!"
+SAY "{VOICE=03}Enough! Do not toy with an old man!{BREAK}I will choose. Here!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3828,7 +3828,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_f3a4
 L_f3a4:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　Eugene Pooleに{BREAK}{E322}を　おしつけられた!"
+SAY "{COLOR=2}Eugene Poole forced{BREAK}{E322} on {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3845,13 +3845,13 @@ SYS_42 0x8
 SETNAME "Eugene Poole"
 CMP_LE 0x18 0x0 0x42b80000 0x2 0x40400000
 JMP_IFNOT 0xc L_f5b4
-SAY "{VOICE=03}「やっぱり　マスター戦は　たのしいのう。{BREAK}  年よりの相手をしてくれて　ありがとうよ。"
+SAY "{VOICE=03}Master battles are fun.{BREAK}Thanks for humoring this old man."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「さて　わしは　さらに強いモンスターをもとめ{BREAK} しばらく　さすらうことにするかの。"
+SAY "{VOICE=03}Now I shall wander awhile{BREAK}in search of stronger monsters."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「あしたになったら　また　わしをみつけとくれ。{BREAK} たのしみに　まっとるぞい。"
+SAY "{VOICE=03}Find me again tomorrow.{BREAK}I will be waiting."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_f698
@@ -3860,10 +3860,10 @@ JMP_REL L_f5bc
 L_f5bc:
 JMP_ABS 0xc L_f5c8
 L_f5c8:
-SAY "{VOICE=03}「やっぱり　マスター戦は　たのしいのう。{BREAK} 年よりの相手をしてくれて　ありがとうよ。"
+SAY "{VOICE=03}Master battles are fun.{BREAK}Thanks for humoring this old man."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「さて　お前さんとも　いっぱい戦ったことだし{BREAK} わしは　そろそろ　めざめるとするかの。"
+SAY "{VOICE=03}We have battled plenty.{BREAK}I suppose I should wake up."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_f698
@@ -4296,13 +4296,13 @@ SYS_99 0x8
 STORE 0x18 0x1 0x0 0x2 0x40400000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}「ピピーッ!　これよりさきは　ダメだ!{BREAK} いま　そとに出るのは　キケンだからな!"
+SAY "{VOICE=07}Pipii! No farther!{BREAK}It is dangerous outside!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「さきほど　ワガハイの目を　ぬすんで{BREAK} しろいケモノが　出ていったようだが……。"
+SAY "{VOICE=07}That white beast slipped past me{BREAK}a moment ago, but..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「おなじ　あやまちは　もう　くりかえさぬぞ!{BREAK} さあ　町の中で　おとなしくしていたまえ!"
+SAY "{VOICE=07}I will not err twice!{BREAK}Now stay quietly in town!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4665,16 +4665,16 @@ CMP_EQ 0x18 0x0 0x42f80000 0x2 0x0
 JMP_IFNOT 0xc L_1253c
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}「おおっ!　人間が　きたぞい!{BREAK} お前さんは　ここが　どこだか　わかるか?"
+SAY "{VOICE=03}Oh! A human came!{BREAK}Do you know where this is?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「たしか　ここにくる前　わしは{BREAK} 飛行船の中で　ねむってしまったんじゃが……。"
+SAY "{VOICE=03}Before I came here,{BREAK}I fell asleep on an airship..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「そうか!　ここは　ゆめの中か!{BREAK} わしは　ゆめの世界に　きてしまったんじゃな!"
+SAY "{VOICE=03}I see! This is a dream!{BREAK}I came to a dream world!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「……にしては　やけに　リアルな世界じゃのう。{BREAK} これは　いったい　どういうことじゃ?"
+SAY "{VOICE=03}...But it feels very real.{BREAK}What in the world is this?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4689,10 +4689,10 @@ JMP_ABS 0xc L_12550
 L_12550:
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}「む?　お前さん　よくみると{BREAK} どこかでみた　カオじゃな……。"
+SAY "{VOICE=03}Hm? Looking closer,{BREAK}I have seen your face..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「まあ　そんなこと　どうでもいいわい!{BREAK} とにかく　ここは　どこなんじゃ!?"
+SAY "{VOICE=03}Well, never mind that!{BREAK}Where am I, anyway!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4750,16 +4750,16 @@ CMP_EQ 0x18 0x0 0x42f80000 0x2 0x0
 JMP_IFNOT 0xc L_12a80
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}「おおっ!　人間が　きたぞい!{BREAK} お前さんは　ここが　どこだか　わかるか?"
+SAY "{VOICE=03}Oh! A human came!{BREAK}Do you know where this is?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「たしか　ここにくる前　わしは{BREAK} 飛行船の中で　ねむってしまったんじゃが……。"
+SAY "{VOICE=03}Before I came here,{BREAK}I fell asleep on an airship..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「そうか!　ここは　ゆめの中か!{BREAK} わしは　ゆめの世界に　きてしまったんじゃな!"
+SAY "{VOICE=03}I see! This is a dream!{BREAK}I came to a dream world!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「……にしては　やけに　リアルな世界じゃのう。{BREAK} これは　いったい　どういうことじゃ?"
+SAY "{VOICE=03}...But it feels very real.{BREAK}What in the world is this?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4774,13 +4774,13 @@ JMP_ABS 0xc L_12a94
 L_12a94:
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}「このまま　ピピットたちが　いなくなったら{BREAK} わしは　どうなるんじゃ?"
+SAY "{VOICE=03}If the Pipits vanish,{BREAK}what will happen to me?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「もとの世界のわしは　めざめることなく{BREAK} ただ　死を　まつばかりなのか……?"
+SAY "{VOICE=03}Will I never wake in my world,{BREAK}and only wait for death...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「うおおー!　そんなのイヤじゃー!{BREAK} だれかー　なんとかしてくれー!"
+SAY "{VOICE=03}Uoooooh! I hate that!{BREAK}Someone, do something!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4795,20 +4795,20 @@ JMP_IFNOT 0xc L_133e0
 CMP_LE 0x18 0x0 0x42ca0000 0x2 0x40c00000
 JMP_IFNOT 0xc L_12e84
 SYS_42 0x8 
-SAY "{VOICE=07}「なにやら　ティコと{BREAK} 話していたみたいだが……"
+SAY "{VOICE=07}Looks like you were{BREAK}talking with Tiko..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ひょっとして　アンタ{BREAK} ティコの　つれてきた戦士なのか?{VOICE=09}"
+SAY "{VOICE=07}Could you be the warrior{BREAK}Tiko brought?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42f60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x0
 JMP_IFNOT 0xc L_12df4
-SAY "{VOICE=07}「なんてこった!　ティコのやつ　よりによって{BREAK} 人間なんか　スカウトしてきたってのか!"
+SAY "{VOICE=07}No way! Tiko went and scouted{BREAK}a human of all things!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ラッキーで　のしあがってきた　アイツだが{BREAK} こんかいばかりは　ババをひいたな。"
+SAY "{VOICE=07}She got by on luck,{BREAK}but this time she drew junk."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4818,7 +4818,7 @@ JMP_REL L_12dfc
 L_12dfc:
 JMP_ABS 0xc L_12e08
 L_12e08:
-SAY "{VOICE=07}「そうだよな。ウデっぷしのよわい人間なんか{BREAK} つれてくるわけねーよなあ。"
+SAY "{VOICE=07}Right. No one would bring{BREAK}a weak human here."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4865,13 +4865,13 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41d00000
 JMP_IFNOT 0xc L_1317c
 L_1304c:
 SYS_42 0x8 
-SAY "{VOICE=07}「きいたぞ!　アンタ　あのIncarnusさまを{BREAK} すくったそうだな!"
+SAY "{VOICE=07}I heard! You saved{BREAK}the Incarnus!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「人間も　なかなか　やるもんだ!{BREAK} オレ　アンタのこと　みなおしたよ!"
+SAY "{VOICE=07}Humans can do it too!{BREAK}I see you differently now!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「……と　アンタのこと　もっと　ほめたいんだが{BREAK} もう　チカラが出ねえんだ。すまねえ……。"
+SAY "{VOICE=07}...I would praise you more,{BREAK}but I have no strength. Sorry..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4880,13 +4880,13 @@ L_1317c:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e00000
 JMP_IFNOT 0xc L_132d8
 SYS_42 0x8 
-SAY "{VOICE=07}「きいたぞ!　オレらの聖地　ブランパレスを{BREAK} 魔の手から　すくってくれたそうだな!"
+SAY "{VOICE=07}I heard! You saved Blanc Palace,{BREAK}our holy land, from evil!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「おかげで　ホラ　この通り!{BREAK} オレらも　チカラを　とりもどしたぜ!"
+SAY "{VOICE=07}Thanks to you, look!{BREAK}We got our power back!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「さあ　長老さまにも　あいさつしてきな!{BREAK} きっと　アンタのことを　まってるぜ!"
+SAY "{VOICE=07}Go greet the Elder too!{BREAK}He must be waiting for you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4895,10 +4895,10 @@ L_132d8:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e80000
 JMP_IFNOT 0xc L_133d4
 SYS_42 0x8 
-SAY "{VOICE=07}「きいたぞ!　オレらの聖地　ブランパレスを{BREAK} 魔の手から　すくってくれたそうだな!"
+SAY "{VOICE=07}I heard! You saved Blanc Palace,{BREAK}our holy land, from evil!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「おかげで　ホラ　この通り!{BREAK} オレらも　チカラを　とりもどしたぜ!"
+SAY "{VOICE=07}Thanks to you, look!{BREAK}We got our power back!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4911,13 +4911,13 @@ JMP_IFNOT 0xc L_13d48
 CMP_LE 0x18 0x0 0x42ca0000 0x2 0x40c00000
 JMP_IFNOT 0xc L_13568
 SYS_42 0x8 
-SAY "{VOICE=07}「この島にふく風は　さまざまな世界をわたり{BREAK} ここへ　はこばれてくると　いいます。"
+SAY "{VOICE=07}They say winds cross many worlds{BREAK}before reaching this island."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「それゆえ　私たちは　この島のことを{BREAK} 風の通り道　ピピッ島と　よんでいるのです。"
+SAY "{VOICE=07}So we call this island{BREAK}Pipit, the Wind Path."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「そんな　風のいたずらか。さきほど{BREAK} ある老人が　ここへ　まよいこんできましたよ。"
+SAY "{VOICE=07}By a trick of that wind,{BREAK}an old man wandered here."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4962,13 +4962,13 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41d00000
 JMP_IFNOT 0xc L_13874
 L_13730:
 SYS_42 0x8 
-SAY "{VOICE=07}「どうしたことでしょう。身体中のチカラが{BREAK} ぬけていくのが　わかります……。"
+SAY "{VOICE=07}What is happening? I can feel{BREAK}my strength draining away..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「どうやら　私たちの　世界をつなぐチカラは{BREAK} いよいよもって　失われてしまうようです……。"
+SAY "{VOICE=07}Our power to link worlds{BREAK}seems almost lost..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「まねかれざる客め……。{BREAK} 私たちの聖地で　いったい　なにを……?"
+SAY "{VOICE=07}That Uninvited Guest...{BREAK}What is it doing there...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4977,10 +4977,10 @@ L_13874:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e00000
 JMP_IFNOT 0xc L_13980
 SYS_42 0x8 
-SAY "{VOICE=07}「さきほどまで　ここにいた　Eugene Pooleという老人も{BREAK} 無事　自分の世界に　かえっていったようです。"
+SAY "{VOICE=07}That old man Eugene Poole{BREAK}made it back safely."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ピピットのチカラを　とりもどしてくれた{BREAK} あなたに　とても　かんしゃしていましたよ。"
+SAY "{VOICE=07}He was grateful to you{BREAK}for restoring Pipit power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4994,10 +4994,10 @@ STORE 0x18 0x0 0x42f80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x0
 JMP_IFNOT 0xc L_13ae8
 SYS_42 0x8 
-SAY "{VOICE=07}「さきほどまで　ここにいた　Eugene Pooleという老人も{BREAK} 無事　自分の世界に　かえっていったようです。"
+SAY "{VOICE=07}That old man Eugene Poole{BREAK}made it back safely."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ピピットのチカラを　とりもどしてくれた{BREAK} あなたに　とても　かんしゃしていましたよ。"
+SAY "{VOICE=07}He was grateful to you{BREAK}for restoring Pipit power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5013,10 +5013,10 @@ STORE 0x18 0x0 0x42f80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x0
 JMP_IFNOT 0xc L_13c34
 SYS_42 0x8 
-SAY "{VOICE=07}「おや?　さきほど　あのEugene Pooleという老人がきて{BREAK} 町のそとへ出ていくのが　みえたのですが……。"
+SAY "{VOICE=07}Oh? Eugene Poole came by{BREAK}and left town earlier..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「また　この島に　きてしまうなんて{BREAK} なかなか　きとくな方ですねえ。"
+SAY "{VOICE=07}Coming back to this island...{BREAK}How odd of him."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5027,10 +5027,10 @@ L_13c3c:
 JMP_ABS 0xc L_13c48
 L_13c48:
 SYS_42 0x8 
-SAY "{VOICE=07}「ここに　まよいこんできた　Eugene Pooleという老人も{BREAK} 無事　自分の世界に　かえっていったようです。"
+SAY "{VOICE=07}That old man Eugene Poole{BREAK}made it back safely."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「また　この島に　きてしまうなんて{BREAK} なかなか　きとくな方ですねえ。"
+SAY "{VOICE=07}Coming back to this island...{BREAK}How odd of him."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5047,13 +5047,13 @@ JMP_IFNOT 0xc L_14618
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_13ec4
 SYS_42 0x8 
-SAY "{VOICE=03}「ピピット族の中で　長老の　つぎに{BREAK} 長く生きているのが　わたしですじゃ。"
+SAY "{VOICE=03}Among Pipits, only the Elder{BREAK}has lived longer than me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「わたしのような　ばあさまには{BREAK} いつ　おむかえが　きてもいいのですが……"
+SAY "{VOICE=03}An old hen like me{BREAK}can go anytime, but..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「せめて　わかい　ピピットたちだけでも{BREAK} たすかってほしいものですわい。"
+SAY "{VOICE=03}I just want the young Pipits{BREAK}to be saved."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5073,13 +5073,13 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x40c00000
 JMP_IFNOT 0xc L_1409c
 L_13f60:
 SYS_42 0x8 
-SAY "{VOICE=03}「わたしゃ　長老の　あとつぎ対決が{BREAK} 気になって　気になって　しかたなくてのう。"
+SAY "{VOICE=03}I cannot stop thinking{BREAK}of the Elder\'s contest."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「クチでは　いつ　おむかえが　きてもいい{BREAK} みたいなことを　言っとるが……"
+SAY "{VOICE=03}I say I am ready{BREAK}to go anytime, but..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ティコとククリ　どっちが勝つか{BREAK} みとどけるまでは　死んでも死にきれんわい。"
+SAY "{VOICE=03}I cannot die till I see{BREAK}Tiko or Kukri win."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5124,10 +5124,10 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41d00000
 JMP_IFNOT 0xc L_14350
 L_14264:
 SYS_42 0x8 
-SAY "{VOICE=03}「フウフウ……。身体が　おもい……。{BREAK} ついに　おむかえが　きたのじゃろうか……。"
+SAY "{VOICE=03}Huff... I feel heavy...{BREAK}Is my time here...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「うう…。せめて　長老の　あとつぎ対決を{BREAK} みとどけるまでは　まってほしかったわい……。"
+SAY "{VOICE=03}Ugh... I hoped to see{BREAK}the Elder\'s contest end..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5136,13 +5136,13 @@ L_14350:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e00000
 JMP_IFNOT 0xc L_144a8
 SYS_42 0x8 
-SAY "{VOICE=03}「あなたさまが　ヒヒュルデを　たおした{BREAK} {NAME}さんじゃな。"
+SAY "{VOICE=03}You are {NAME},{BREAK}who beat Hihyurude."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ということは　長老の　あとつぎ対決は{BREAK} ティコが　勝ったということか……。"
+SAY "{VOICE=03}So Tiko won{BREAK}the Elder\'s contest..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「いやはや　決着がついて　ひとあんしんじゃ。{BREAK} これで　いつ　おむかえがきても　いいわい。"
+SAY "{VOICE=03}Good, it is settled.{BREAK}Now I can go anytime."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5151,13 +5151,13 @@ L_144a8:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e80000
 JMP_IFNOT 0xc L_1460c
 SYS_42 0x8 
-SAY "{VOICE=03}「ききましたぞい!　なんでも　ティコが{BREAK} つぎの長老になるのを　ことわったとか!"
+SAY "{VOICE=03}I heard! Tiko refused{BREAK}to be the next Elder!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「これでまた　つぎの長老が　だれになるか{BREAK} わからなくなったということじゃ。"
+SAY "{VOICE=03}So now we do not know{BREAK}who the next Elder is."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「こうなったら　つぎの長老が　決まるまで{BREAK} わたしゃ　カンタンには　くたばらんぞい!"
+SAY "{VOICE=03}Then I will not croak{BREAK}till the next Elder is set!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5170,13 +5170,13 @@ JMP_IFNOT 0xc L_14df4
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_14798
 SYS_42 0x8 
-SAY "{VOICE=08}「たいへん!　たいへんですのよ!{BREAK} 町が　こんなに　こわれてしまいましたの!"
+SAY "{VOICE=08}Oh no! Oh no!{BREAK}The town is wrecked!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「町をこわしていったのは　そとの世界から{BREAK} とつぜん　やってきた　まねかれざる客……。"
+SAY "{VOICE=08}The Uninvited Guest came{BREAK}from outside and wrecked it..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「ああ!　あのときのことを　思いだすだけで{BREAK} トリはだが　たちますわっ!"
+SAY "{VOICE=08}Ah! Just recalling it{BREAK}gives me chills!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5196,13 +5196,13 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x40c00000
 JMP_IFNOT 0xc L_14960
 L_14834:
 SYS_42 0x8 
-SAY "{VOICE=08}「たいへん!　たいへんですのよ!{BREAK} 町が　こんなに　こわれてしまいましたの!"
+SAY "{VOICE=08}Oh no! Oh no!{BREAK}The town is wrecked!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「そとの世界から　やってきた{BREAK} あの　まねかれざる客が　あるくたびに……"
+SAY "{VOICE=08}Each time that Guest{BREAK}from outside walked..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「じひびきが　おきて{BREAK} 町が　こんなふうに　なってしまいましたの!"
+SAY "{VOICE=08}the earth shook,{BREAK}and town became this!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5247,10 +5247,10 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41d00000
 JMP_IFNOT 0xc L_14c04
 L_14b28:
 SYS_42 0x8 
-SAY "{VOICE=08}「ゲホッ　ゲホホッ!{BREAK} なんだか　身体に　チカラが入らないわ……。"
+SAY "{VOICE=08}Cough, cough!{BREAK}My body feels so weak..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「あの　バカでかい　バケモノの　しわざよね?{BREAK} 私たち　このまま　きえちゃうのかしら……。"
+SAY "{VOICE=08}That huge monster did this?{BREAK}Will we just vanish...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5259,10 +5259,10 @@ L_14c04:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e00000
 JMP_IFNOT 0xc L_14cfc
 SYS_42 0x8 
-SAY "{VOICE=08}「アラ!　あなたが　{NAME}さんね!{BREAK} ほんとうに　ありがとうございました!"
+SAY "{VOICE=08}Oh! You are {NAME}!{BREAK}Thank you so much!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「あのまま　ヒヒュルデが　いついたら{BREAK} 私たち　きえちゃうところでしたもの!"
+SAY "{VOICE=08}If Hihyurude stayed,{BREAK}we would have vanished!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5271,10 +5271,10 @@ L_14cfc:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e80000
 JMP_IFNOT 0xc L_14de8
 SYS_42 0x8 
-SAY "{VOICE=08}「アラ!　{NAME}さん!{BREAK} そのせつは　ありがとうございました!"
+SAY "{VOICE=08}Oh! {NAME}!{BREAK}Thank you for before!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「あのまま　ヒヒュルデが　いついたら{BREAK} 私たち　きえちゃうところでしたわ!"
+SAY "{VOICE=08}If Hihyurude stayed,{BREAK}we would have vanished!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5287,10 +5287,10 @@ JMP_IFNOT 0xc L_1569c
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_14f14
 SYS_42 0x8 
-SAY "{VOICE=08}「長老さまのおうちなら　このハシゴを{BREAK} のぼったさきに　あるでチュン。"
+SAY "{VOICE=08}The Elder lives{BREAK}up this ladder, chirp."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「長老さまも　ようやく　ごいんきょってときに{BREAK} こんなことになって　かわいそうでチュン。"
+SAY "{VOICE=08}Poor Elder, chirp.{BREAK}This hit near retirement."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5310,13 +5310,13 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x40c00000
 JMP_IFNOT 0xc L_150f0
 L_14fb0:
 SYS_42 0x8 
-SAY "{VOICE=08}「ククリは　なまいきで　クチがわるいけど{BREAK} 仕事のできる　ゆうしゅうなピピット。"
+SAY "{VOICE=08}Kukri is rude and brash,{BREAK}but very able, chirp."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「ティコは　ラッキーを武器に　がんばる{BREAK} どりょくかのピピット。"
+SAY "{VOICE=08}Tiko works hard,{BREAK}using luck, chirp."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「長老さまは　このふたりのうち　いずれかを{BREAK} つぎの長老にと　かんがえていたでチュン。"
+SAY "{VOICE=08}The Elder wanted one of them{BREAK}to follow him, chirp."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5366,10 +5366,10 @@ STORE 0x18 0x0 0x42f80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x0
 JMP_IFNOT 0xc L_15414
 SYS_42 0x8 
-SAY "{VOICE=08}「町のみんなの　ようすが{BREAK} おかしいでチュン。"
+SAY "{VOICE=08}Everyone in town{BREAK}seems odd, chirp."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「……うう～ん。そういう　わたちも{BREAK} チカラがぬけて　ねむくなってきたチュン……。"
+SAY "{VOICE=08}...Ugh. I feel weak{BREAK}and sleepy too, chirp..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5383,7 +5383,7 @@ L_1541c:
 JMP_ABS 0xc L_15428
 L_15428:
 SYS_42 0x8 
-SAY "{VOICE=08}「う…うう～ん……{BREAK}  チカラがぬけて　ねむいチュン……。"
+SAY "{VOICE=08}U...ugh...{BREAK}So weak and sleepy, chirp..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5394,10 +5394,10 @@ L_154a4:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e00000
 JMP_IFNOT 0xc L_155a0
 SYS_42 0x8 
-SAY "{VOICE=08}「戦いの最中　ククリが　にげかえってきたのに{BREAK} 気づいていたでチュン?"
+SAY "{VOICE=08}Did you see Kukri flee back{BREAK}during battle, chirp?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「ククリは　いま　そのことで　長老さまに{BREAK} こってり　しぼられているところでチュン。"
+SAY "{VOICE=08}The Elder is scolding Kukri{BREAK}hard for it, chirp."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5406,10 +5406,10 @@ L_155a0:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e80000
 JMP_IFNOT 0xc L_15690
 SYS_42 0x8 
-SAY "{VOICE=08}「ククリが　長老にならなくて{BREAK} ほんとうに　よかったでチュン。"
+SAY "{VOICE=08}Good thing Kukri{BREAK}is not Elder, chirp."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「もし　そんなことになったら　死ぬまで{BREAK} ククリの　めしつかいに　なってたでチュン。"
+SAY "{VOICE=08}I would have served Kukri{BREAK}for life, chirp."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5422,13 +5422,13 @@ JMP_IFNOT 0xc L_16568
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1582c
 SYS_42 0x8 
-SAY "{VOICE=07}「ピピーッ!　これよりさきは　ダメだ!{BREAK} いま　そとに出るのは　キケンだからな!"
+SAY "{VOICE=07}Pipii! No farther!{BREAK}It is dangerous outside!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「さきほど　ワガハイの目を　ぬすんで{BREAK} しろいケモノが　出ていったようだが……。"
+SAY "{VOICE=07}That white beast slipped past me{BREAK}a moment ago, but..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「おなじ　あやまちは　もう　くりかえさぬぞ!{BREAK} さあ　町の中で　おとなしくしていたまえ!"
+SAY "{VOICE=07}I will not err twice!{BREAK}Now stay quietly in town!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5443,23 +5443,23 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x40800000
 JMP_IFNOT 0xc L_15bac
 L_1588c:
 SYS_42 0x8 
-SAY "{VOICE=07}「あなたは　ティコの　つれてきた戦士{BREAK} {NAME}どのですな?"
+SAY "{VOICE=07}You are {NAME}, the warrior{BREAK}Tiko brought, yes?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「レオソードどのは　もう　町を出ましたぞ。{BREAK} おくれをとらないよう　がんばってくだされ。"
+SAY "{VOICE=07}Leokid already left town.{BREAK}Do not fall behind."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「……ところで　しろいケモノについて{BREAK} あなたは　なにか　心あたりがありますかな?{VOICE=09}"
+SAY "{VOICE=07}...About that white beast,{BREAK}do you know anything?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42f60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x0
 JMP_IFNOT 0xc L_15ac0
-SAY "{VOICE=07}「さきほど　ワガハイの目を　ぬすんで{BREAK} しろいケモノが　町を　出ていったのです。"
+SAY "{VOICE=07}A white beast slipped past me{BREAK}and left town earlier."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「心あたりがあるのなら　すぐに{BREAK} あとをおうと　よいでしょう。"
+SAY "{VOICE=07}If you know something,{BREAK}you should follow it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5469,10 +5469,10 @@ JMP_REL L_15ac8
 L_15ac8:
 JMP_ABS 0xc L_15ad4
 L_15ad4:
-SAY "{VOICE=07}「さきほど　ワガハイの目を　ぬすんで{BREAK} しろいケモノが　町を　出ていったのです。"
+SAY "{VOICE=07}A white beast slipped past me{BREAK}and left town earlier."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「あの　しろいケモノは　いったい{BREAK} なんだったんでしょうなあ……。"
+SAY "{VOICE=07}What in the world{BREAK}was that white beast...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5483,13 +5483,13 @@ L_15bac:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x40c00000
 JMP_IFNOT 0xc L_15d14
 SYS_42 0x8 
-SAY "{VOICE=07}「ややっ!　この間　町を飛びだしていった{BREAK} しろいケモノは　Incarnusさまだったのですか!?"
+SAY "{VOICE=07}What! That white beast{BREAK}was the Incarnus!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「話にはきいていたが　まさか{BREAK} あれが　Incarnusさまだったとは……。"
+SAY "{VOICE=07}I had heard tales,{BREAK}but never guessed..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ワガハイの　きびしい目を　ぬすんで{BREAK} 町を出るあたり　さすがは　Incarnusさまですな。"
+SAY "{VOICE=07}Slipping past my keen eye...{BREAK}That is the Incarnus."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5539,10 +5539,10 @@ STORE 0x18 0x0 0x42f80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x0
 JMP_IFNOT 0xc L_16198
 SYS_42 0x8 
-SAY "{VOICE=07}「……こっくり　こっくり。"
+SAY "{VOICE=07}...Nod... nod..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ハッ!"
+SAY "{VOICE=07}Hah!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x43510000
@@ -5561,7 +5561,7 @@ SYS_54 0x8
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x42cc0000
 SYS_99 0x8 
-SAY "{VOICE=07}「ワガハイとしたことが　いねむりなど……。{BREAK} これは　いったい　どうしたことだ?"
+SAY "{VOICE=07}I dozed off...?{BREAK}What is happening?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5577,10 +5577,10 @@ L_161ac:
 STORE 0x18 0x1 0x0 0x0 0x42cc0000
 SYS_99 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}「きゅうに　全身のチカラがぬけ{BREAK} モーレツな　ねむけに　おそわれました。"
+SAY "{VOICE=07}My strength left me,{BREAK}and fierce sleep hit."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「まさか　われらのチカラの　みなもとである{BREAK} ブランパレスが　まねかれざる客の手に……?"
+SAY "{VOICE=07}Has our power source,{BREAK}Blanc Palace, fallen...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5591,13 +5591,13 @@ L_162b4:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e00000
 JMP_IFNOT 0xc L_16408
 SYS_42 0x8 
-SAY "{VOICE=07}「おかえりなさい　{NAME}どの!{BREAK} みごと　ヒヒュルデを　たおしたそうですな!"
+SAY "{VOICE=07}Welcome back, {NAME}!{BREAK}You beat Hihyurude!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「おかげさまで　町の者たちは{BREAK} すっかり　げんきを　とりもどしましたぞ!"
+SAY "{VOICE=07}Thanks to you,{BREAK}the town is lively again!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「よろこぶ　みなのカオを　みてから{BREAK} 長老さまに　あいさつすると　よいでしょう。"
+SAY "{VOICE=07}See the happy townsfolk,{BREAK}then greet the Elder."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5606,13 +5606,13 @@ L_16408:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e80000
 JMP_IFNOT 0xc L_1655c
 SYS_42 0x8 
-SAY "{VOICE=07}「{NAME}どのの　おかげで{BREAK} きょうも　ピピットの町は　へいわです!"
+SAY "{VOICE=07}Thanks to you, {NAME},{BREAK}Pipit Town is peaceful!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ヒヒュルデが　いなくなったことで{BREAK} ピピッ島のようすも　かわったことでしょう。"
+SAY "{VOICE=07}With Hihyurude gone,{BREAK}Pipit Island may change."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「島を　くまなく　あるいていれば{BREAK} いろんな　はっけんが　あるかもしれませんな。"
+SAY "{VOICE=07}Search the whole island.{BREAK}You may find new things."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5625,10 +5625,10 @@ JMP_IFNOT 0xc L_16dec
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_16670
 SYS_42 0x8 
-SAY "{VOICE=07}「長老さまに　あいたいんスか?"
+SAY "{VOICE=07}Want to see the Elder?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「そこにみえるスロープを　あがっていけば{BREAK} 長老さまのうちに　たどりつくっスよ。"
+SAY "{VOICE=07}Go up that slope,{BREAK}and you reach his house."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5648,13 +5648,13 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x40c00000
 JMP_IFNOT 0xc L_16844
 L_1670c:
 SYS_42 0x8 
-SAY "{VOICE=07}「あの　レオソードとかいう戦士……。{BREAK} あれは　なかなか　デキるっスね。"
+SAY "{VOICE=07}That Leokid warrior...{BREAK}He is pretty good."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「……え?　あなた　大人になったレオソードに{BREAK} あったことが　あるんスか?"
+SAY "{VOICE=07}...What? You met{BREAK}grown-up Leokid?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「だとしたら　ククリは　時間をさかのぼって{BREAK} レオソードを　つれてきたんスね。"
+SAY "{VOICE=07}Then Kukri went back in time{BREAK}and brought Leokid."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5699,13 +5699,13 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41d00000
 JMP_IFNOT 0xc L_16b2c
 L_16a0c:
 SYS_42 0x8 
-SAY "{VOICE=07}「なんか　身体が　ダルいっス……。"
+SAY "{VOICE=07}My body feels heavy..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「あんだけ　強そうなレオソードを　もってしても{BREAK} まだ　まねかれざる客を　たおせないなんて……"
+SAY "{VOICE=07}Even Leokid, that strong,{BREAK}cannot beat the Guest..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ブランパレスにいる　王さまは{BREAK} だいじょうぶスかね……?"
+SAY "{VOICE=07}Is the king in Blanc Palace{BREAK}safe...?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5714,13 +5714,13 @@ L_16b2c:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e00000
 JMP_IFNOT 0xc L_16c80
 SYS_42 0x8 
-SAY "{VOICE=07}「{NAME}さん　おかえりなさいっス!{BREAK} ティコから　話は　きいたっスよ!"
+SAY "{VOICE=07}Welcome back, {NAME}!{BREAK}I heard from Tiko!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「なんでも　城みたいにでかい　ヒヒュルデに{BREAK} ひるむことなく　いどんでいったとか!"
+SAY "{VOICE=07}You faced Hihyurude,{BREAK}huge as a castle!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「いや～。すごいっス　{NAME}さん。{BREAK} あなたは　ピピッ島の　えいゆうっスよ!"
+SAY "{VOICE=07}Wow, {NAME}.{BREAK}You are Pipit Island’s hero!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5729,13 +5729,13 @@ L_16c80:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e80000
 JMP_IFNOT 0xc L_16de0
 SYS_42 0x8 
-SAY "{VOICE=07}「ブランパレスの王　キングモーモンさまも{BREAK} 無事だったようで　なによりっス。"
+SAY "{VOICE=07}King sanguini of Blanc Palace{BREAK}is safe too. Good."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ひょうひょうとしてる王さまっスが　ああみえて{BREAK} 聖なるチカラに　あふれているんスよ。"
+SAY "{VOICE=07}He acts carefree,{BREAK}but he is full of holy power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「モーモンの中でも　王さまのいち族は{BREAK} 聖なるチカラを　もっているって話っス。"
+SAY "{VOICE=07}They say his sanguini line{BREAK}has holy power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

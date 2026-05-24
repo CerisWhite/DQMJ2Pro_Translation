@@ -3249,7 +3249,7 @@ STORE 0x18 0x1 0x0 0x2 0x417d999a
 SYS_10A 0x8 
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
-SAY "{COLOR=2}ブランパレスに　かえりますか?{VOICE=09}"
+SAY "{COLOR=2}Return to Blanc Palace?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -3810,10 +3810,10 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x42c00000
 SYS_A8 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}なんと!　{NAME}は{BREAK}最強クラスのマスターに　勝ってしまった!"
+SAY "{COLOR=2}Amazing! {NAME}{BREAK}beat a top-class Master!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}{NAME}は　最強マスター決定戦の{BREAK}ボーナス勝ち点を　{E322}点　手に入れた!"
+SAY "{COLOR=2}{NAME} earned {E322} bonus points{BREAK}for the Ultimate Master Cup!"
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3954,10 +3954,10 @@ L_f514:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_f688
 L_f538:
-SAY "{VOICE=07}「まいった!　わしの負けじゃ!{BREAK} やはり　ギラギラしたもんには　かなわんわい!"
+SAY "{VOICE=07}I yield! I lost!{BREAK}I cannot beat such fire!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「老兵は　ただ　さるのみじゃな。{BREAK} みらいは　おぬしのものじゃ!　わかものよ!"
+SAY "{VOICE=07}Old soldiers just fade away.{BREAK}The future is yours, youth!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3974,10 +3974,10 @@ JMP_REL L_f690
 L_f690:
 JMP_ABS 0xc L_f69c
 L_f69c:
-SAY "{VOICE=07}「かあっつ!　なんじゃ　そのヘッピリごしは!{BREAK} それでも　みらいをになう　わかものか!"
+SAY "{VOICE=07}Bah! What a timid stance!{BREAK}Is that our future youth?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「とは言え　おぬしは　スジがいい!{BREAK} こんごのかつやくに　きたいしておるぞ!"
+SAY "{VOICE=07}Still, you have talent!{BREAK}I expect great things!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3999,10 +3999,10 @@ L_f818:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_f994
 L_f83c:
-SAY "{VOICE=07}「なんてこった!　このオレが　負けちまうとは{BREAK} アンタ　べらぼうに　強いじゃねえか!"
+SAY "{VOICE=07}No way! I lost!?{BREAK}You are insanely strong!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「そのウデ前なら　トップを　ねらえるぜ!{BREAK} どこかで会ったら　また　バトってくれよな!"
+SAY "{VOICE=07}With skill like that, aim high!{BREAK}Battle me again someday!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4019,10 +4019,10 @@ JMP_REL L_f99c
 L_f99c:
 JMP_ABS 0xc L_f9a8
 L_f9a8:
-SAY "{VOICE=07}「はっはっはっは!{BREAK} どうやら　オレの勝ちのようだな!"
+SAY "{VOICE=07}Ha ha ha ha!{BREAK}Looks like I won!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「だが　アンタには　センスがある!{BREAK} どこかで会ったら　また　バトってくれよな!"
+SAY "{VOICE=07}But you have talent!{BREAK}Battle me again someday!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4044,10 +4044,10 @@ L_fb14:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_fc84
 L_fb38:
-SAY "{VOICE=07}「ナイスファイトッ!　オレさまの負けだ。{BREAK} 息がつまるような　いい戦いだった。"
+SAY "{VOICE=07}Nice fight! I lost.{BREAK}That was a real thriller."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「こんなことじゃ　ふるさと　{E30B}{00}に{BREAK} まだ　かえることなど　できないな……。"
+SAY "{VOICE=07}At this rate, I still cannot{BREAK}go home to {E30B}{00}..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4064,10 +4064,10 @@ JMP_REL L_fc8c
 L_fc8c:
 JMP_ABS 0xc L_fc98
 L_fc98:
-SAY "{VOICE=07}「よし!　オレさまの　勝ちみたいだな。{BREAK} 息がつまるような　いい戦いだった。"
+SAY "{VOICE=07}Good! Looks like I won.{BREAK}That was a real thriller."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ふるさとにかえる　自信が　ついたぞ。{BREAK} それじゃ　オレさまは　行くぜ。"
+SAY "{VOICE=07}Now I can go home with pride.{BREAK}Well, I am off."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4089,10 +4089,10 @@ L_fe10:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_ff88
 L_fe34:
-SAY "{VOICE=07}「オーマイガッ!　信じられないよ。{BREAK} このボクが　負けるなんて……。"
+SAY "{VOICE=07}Oh my gosh! I cannot believe{BREAK}I lost..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「戦いのさなか　はげしく　もえあがった{BREAK} キミのパッションに　カンパイ!　また会おう!"
+SAY "{VOICE=07}To your passion in battle:{BREAK}cheers! See you again!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4109,10 +4109,10 @@ JMP_REL L_ff90
 L_ff90:
 JMP_ABS 0xc L_ff9c
 L_ff9c:
-SAY "{VOICE=07}「ヒュー!　勝負あったね。{BREAK} こんかいは　ボクの勝ちみたいだ。"
+SAY "{VOICE=07}Whew! That settles it.{BREAK}Looks like I won."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「キミのパッションも　なかなかだったよ。{BREAK} また　どこかで会えるといいね!"
+SAY "{VOICE=07}Your passion was pretty good.{BREAK}Hope we meet again!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4134,10 +4134,10 @@ L_1010c:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_1027c
 L_10130:
-SAY "{VOICE=07}「キャハハハ!　おにーちゃん　つよーい!{BREAK} スゴイ　スゴイ　スゴーイ!"
+SAY "{VOICE=07}Ahahaha! You are strong!{BREAK}Wow, wow, wooow!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「よーし!　おにーちゃんに勝てるよう{BREAK} もっと　強くなろっと!　またあそんでね!"
+SAY "{VOICE=07}Okay! I will get stronger{BREAK}and beat you! Play again!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4154,10 +4154,10 @@ JMP_REL L_10284
 L_10284:
 JMP_ABS 0xc L_10290
 L_10290:
-SAY "{VOICE=07}「ありゃりゃ!　おにーちゃん{BREAK} あんま　たいしたこと　なかったね!"
+SAY "{VOICE=07}Oopsie! Onii-chan,{BREAK}you were not much!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「わたしが　こどもだから　ゆだんしたんでしょ?{BREAK} つぎは　本気でやってよね!　じゃあねー!"
+SAY "{VOICE=07}You went easy on me, right?{BREAK}Go all out next time! Bye!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4179,10 +4179,10 @@ L_1040c:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_1057c
 L_10430:
-SAY "{VOICE=07}「オレっちの負けか。これじゃ　{E30B}{00}の{BREAK} おっかさんに　あわせるカオがねえや……。"
+SAY "{VOICE=07}I lost. Now I cannot face{BREAK}my ma back in {E30B}{00}..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「でも　コソコソせずに戦うのも　わるくないな!{BREAK} たのしかったぜ　ありがとよ!"
+SAY "{VOICE=07}Still, fighting fair is not bad!{BREAK}That was fun. Thanks!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4199,10 +4199,10 @@ JMP_REL L_10584
 L_10584:
 JMP_ABS 0xc L_10590
 L_10590:
-SAY "{VOICE=07}「お…おお　オレっちの勝ちか!?　やったぞ!{BREAK} {E30B}{00}の　おっかさんに　ほうこくだ!"
+SAY "{VOICE=07}O-oh, I won!? Yes!{BREAK}I will tell ma in {E30B}{00}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「へへ。コソコソせずに戦うのも　わるくないな!{BREAK} たのしかったぜ　ありがとよ!"
+SAY "{VOICE=07}Heh. Fighting fair is not bad!{BREAK}That was fun. Thanks!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4224,10 +4224,10 @@ L_1070c:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_10880
 L_10730:
-SAY "{VOICE=07}「バトルもうしこんで　負けてるアタシいるし。{BREAK} カオはわらってるけど　心で　ないてるし。"
+SAY "{VOICE=07}I asked to battle and lost.{BREAK}I smile, but I cry inside."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「でも　こんなアタシに　つきあってくれて{BREAK} ホント　ありがとう。また　こえかけて。"
+SAY "{VOICE=07}But thanks for putting up{BREAK}with me. Talk to me again."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4244,10 +4244,10 @@ JMP_REL L_10888
 L_10888:
 JMP_ABS 0xc L_10894
 L_10894:
-SAY "{VOICE=07}「あ　いつの間にか　バトルおわってるし。{BREAK} つか　勝っちゃって　マジ　ゴメン。"
+SAY "{VOICE=07}Oh, battle is over already.{BREAK}Also, sorry I won."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「アンタ　いいセン　いってるから　がんばって。{BREAK} 心のどっかで　おうえんしてる　アタシいるし。"
+SAY "{VOICE=07}You have promise, so keep at it.{BREAK}I will root for you inside."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4269,10 +4269,10 @@ L_10a14:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_10b84
 L_10a38:
-SAY "{VOICE=07}「うわーっ!　負けちゃいました!{BREAK} あなた　めちゃくちゃ　強いじゃないですか!"
+SAY "{VOICE=07}Whoa! I lost!{BREAK}You are really strong!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「負けたのは　くやしいですが{BREAK} たのしかったですよ。また　会いましょう!"
+SAY "{VOICE=07}Losing stings,{BREAK}but it was fun. See you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4289,10 +4289,10 @@ JMP_REL L_10b8c
 L_10b8c:
 JMP_ABS 0xc L_10b98
 L_10b98:
-SAY "{VOICE=07}「すみません。むねをかりるつもりでしたが{BREAK} 私　勝っちゃいましたね……。"
+SAY "{VOICE=07}Sorry. I meant to learn from you,{BREAK}but I won..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ま…まあ　そんな　気をおとさず!{BREAK} また　どこかで会いましょう。それでは!"
+SAY "{VOICE=07}W-well, do not feel bad!{BREAK}See you again. Farewell!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4314,10 +4314,10 @@ L_10d10:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_10e78
 L_10d34:
-SAY "{VOICE=07}「やだー!　あなた　強いわねえ。{BREAK} おねえさん　負けちゃったわ。"
+SAY "{VOICE=07}Oh my! You are strong.{BREAK}I lost."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「おとなしく　じもとに　かえって{BREAK} うちのコたちを　きたえてきまーす!　バーイ!"
+SAY "{VOICE=07}I will go home quietly{BREAK}and train my darlings! Bye!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4334,10 +4334,10 @@ JMP_REL L_10e80
 L_10e80:
 JMP_ABS 0xc L_10e8c
 L_10e8c:
-SAY "{VOICE=07}「ゴメーン!　おねえさん　加減ができないから{BREAK} 本気で　あなたのこと　たおしにいっちゃった!"
+SAY "{VOICE=07}Sorry! I cannot hold back,{BREAK}so I went all out!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「なかなかアツい　いい勝負だったわよね?{BREAK} とっても　たのしかったわ!　ありがとう!"
+SAY "{VOICE=07}That was a hot match, right?{BREAK}So much fun! Thanks!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4388,27 +4388,27 @@ STORE 0x18 0x1 0x0 0x2 0x429e0000
 STORE 0x18 0x1 0x3f800000 0x2 0x40400000
 SYS_28 0x8 
 SYS_42 0x8 
-SETNAME "マポレーナ"
-SAY "{VOICE=07}「最強マスター闘技場へ　ようこそ!{BREAK} ボクから　キミに　アドバイスだよ!"
+SETNAME "Genie sanguini"
+SAY "{VOICE=07}Welcome to Ultimate Master Arena!{BREAK}I have advice for you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 L_11264:
-SAY "{VOICE=07}「ここには3人　最強クラスのマスターがいる。{BREAK} かれらに　話しかけると　勝負かいしさ。"
+SAY "{VOICE=07}Three top-class Masters are here.{BREAK}Talk to them to battle."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「闘技場の中心に　ちかづくにつれ{BREAK} ランキング上位のマスターになるんだ。"
+SAY "{VOICE=07}Closer to the arena center,{BREAK}the higher their rank."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「相手は　プロ級のウデ前だからね。{BREAK} こっちは　道具の使用が　みとめられてるよ。"
+SAY "{VOICE=07}They are pros,{BREAK}so you may use items."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「キミには　どんな手を使ってでも勝ってほしい。{BREAK} だって　もし　試合に勝てたら……"
+SAY "{VOICE=07}Win by any means you can.{BREAK}Because if you win..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「じかいの　最強マスター決定戦で使える{BREAK} ボーナス勝ち点が　もらえるんだからね!"
+SAY "{VOICE=07}you get bonus points for{BREAK}the next Ultimate Master Cup!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ただし　おなじマスターと戦えるチャンスは{BREAK} 勝っても負けても　1回きりさ。がんばりなよ!"
+SAY "{VOICE=07}But each Master fights once,{BREAK}win or lose. Good luck!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4419,8 +4419,8 @@ L_114e8:
 JMP_ABS 0xc L_114f4
 L_114f4:
 SYS_42 0x8 
-SETNAME "マポレーナ"
-SAY "{VOICE=07}「最強マスター闘技場へ　ようこそ!{BREAK} ボクのアドバイスを　もういちど　きくかい?{VOICE=09}"
+SETNAME "Genie sanguini"
+SAY "{VOICE=07}Welcome to Ultimate Master Arena!{BREAK}Hear my advice again?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4434,7 +4434,7 @@ JMP_REL L_115d8
 L_115d8:
 JMP_ABS 0xc L_115e4
 L_115e4:
-SAY "{VOICE=07}「りょうかい。{BREAK} キミの　けんとうを　いのるよ!"
+SAY "{VOICE=07}Got it.{BREAK}Good luck!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4447,8 +4447,8 @@ L_11658:
 CMP_EQ 0x18 0x3 0x0 0x0 0x42b40000
 JMP_IFNOT 0xc L_125c4
 SYS_42 0x8 
-SETNAME "マポレーナ"
-SAY "{VOICE=07}「こんかいの対戦相手と戦って　ためた{BREAK} ボーナス勝ち点の合計を　知りたいかい?{VOICE=09}"
+SETNAME "Genie sanguini"
+SAY "{VOICE=07}Want to know the bonus points{BREAK}earned from these foes?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4493,20 +4493,20 @@ L_119b0:
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x42d20000
 SYS_A8 0x8 
-SAY "{VOICE=07}「キミが　これまでに　ためた{BREAK} ボーナス勝ち点の　合計は　{E322}点だね。"
+SAY "{VOICE=07}Your total bonus points{BREAK}so far are {E322}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ボーナス勝ち点は　最強マスター決定戦を{BREAK} 最後まで　戦いぬいたとき　プラスされるよ!"
+SAY "{VOICE=07}Bonus points are added after{BREAK}finishing the Ultimate Master Cup!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「もう　ブランパレスに　もどるかい?{VOICE=09}"
+SAY "{VOICE=07}Return to Blanc Palace now?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_11f9c
-SAY "{VOICE=07}「それじゃ　また　きてくれよな!"
+SAY "{VOICE=07}Then come again!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4574,7 +4574,7 @@ JMP_REL L_11fa4
 L_11fa4:
 JMP_ABS 0xc L_11fb0
 L_11fb0:
-SAY "{VOICE=07}「ブランパレスに　もどりたかったら{BREAK} いつでも　ボクに　言ってくれよな。"
+SAY "{VOICE=07}If you want back to Blanc Palace,{BREAK}just tell me anytime."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4586,14 +4586,14 @@ JMP_REL L_12034
 L_12034:
 JMP_ABS 0xc L_12040
 L_12040:
-SAY "{VOICE=07}「もう　ブランパレスに　もどるかい?{VOICE=09}"
+SAY "{VOICE=07}Return to Blanc Palace now?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_12528
-SAY "{VOICE=07}「それじゃ　また　きてくれよな!"
+SAY "{VOICE=07}Then come again!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4661,7 +4661,7 @@ JMP_REL L_12530
 L_12530:
 JMP_ABS 0xc L_1253c
 L_1253c:
-SAY "{VOICE=07}「ブランパレスに　もどりたかったら{BREAK} いつでも　ボクに　言ってくれよな。"
+SAY "{VOICE=07}If you want back to Blanc Palace,{BREAK}just tell me anytime."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4742,26 +4742,26 @@ L_12924:
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}「かあっつ!　{E30B}{00}では知らぬ者なし!{BREAK} わしゃ　ガンコじじいモンスターマスターじゃ!"
+SAY "{VOICE=07}Bah! Known all over {E30B}{00}!{BREAK}I am the stubborn old Master!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「最強マスター決定戦では　いつも{BREAK} {E30B}D級で　せいを出しておるが……"
+SAY "{VOICE=07}In the Ultimate Master Cup,{BREAK}I always work hard in {E30B}D..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「{E30B}T月{E30B}j日のランキングでは　わしのひきいる{BREAK} {E30B}zが　上位に　なったわ!"
+SAY "{VOICE=07}On {E30B}T/{E30B}j, my team{BREAK}{E30B}z ranked high!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「わかいもんには　まだまだ　負けん!{BREAK} おぬし　わしと　勝負せい!{VOICE=09}"
+SAY "{VOICE=07}I will not lose to youth!{BREAK}Will you fight me?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_12c5c
-SAY "{VOICE=07}「おお!　さいきんの　わかものにしては{BREAK} みどころがあるぞ!"
+SAY "{VOICE=07}Oh! For today’s youth,{BREAK}you show promise!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「よし!　わしは　ようしゃせんからな!{BREAK} 本気で　かかってくるがいい!"
+SAY "{VOICE=07}Good! I will show no mercy!{BREAK}Come at me for real!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4778,7 +4778,7 @@ JMP_REL L_12c64
 L_12c64:
 JMP_ABS 0xc L_12c70
 L_12c70:
-SAY "{VOICE=07}「これだから　さいきんの　わかいもんは……。{BREAK} 気がむいたら　わしと勝負せいよ!"
+SAY "{VOICE=07}This is youth today...{BREAK}Fight me when you feel like it!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4789,26 +4789,26 @@ L_12cf0:
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}「よう!　オレは　強いヤツに会うため{BREAK} {E30B}{00}から　はるばる　やってきた!"
+SAY "{VOICE=07}Yo! I came from {E30B}{00}{BREAK}to meet strong foes!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「最強マスター決定戦の　{E30B}D級に{BREAK} ガッツリ　参加しているが……"
+SAY "{VOICE=07}I am deep in the{BREAK}Ultimate Master Cup {E30B}D class..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「{E30B}T月{E30B}j日のランキングでは　オレのひきいる{BREAK} {E30B}zが　上位をもぎとったぜ!"
+SAY "{VOICE=07}On {E30B}T/{E30B}j, my team{BREAK}{E30B}z took a high rank!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「アンタも　モンスターマスターのようだな。{BREAK} どうだ　オレと　バトってみねえか?{VOICE=09}"
+SAY "{VOICE=07}You look like a Monster Master.{BREAK}Want to battle me?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_1300c
-SAY "{VOICE=07}「よっしゃ!　そうこなくっちゃな!{BREAK} 全力で　かかってこいよ!"
+SAY "{VOICE=07}All right! That is the spirit!{BREAK}Come at me full force!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「それじゃ　いくぜっ!"
+SAY "{VOICE=07}Here I go!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4825,7 +4825,7 @@ JMP_REL L_13014
 L_13014:
 JMP_ABS 0xc L_13020
 L_13020:
-SAY "{VOICE=07}「なはは!　トップクラスのマスターを前にして{BREAK} おじけづいちまったか!"
+SAY "{VOICE=07}Nahaha! Scared before{BREAK}a top-class Master?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4836,26 +4836,26 @@ L_13098:
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}「オレさまは　{E30B}zひきいる{BREAK} 謎の　ふくめんモンスターマスター。"
+SAY "{VOICE=07}I am the masked Monster Master{BREAK}leading {E30B}z."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「最強マスター決定戦では　いつも{BREAK} {E30B}D級で　あせを　ながしている。"
+SAY "{VOICE=07}In the Ultimate Master Cup,{BREAK}I sweat it out in {E30B}D."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「そして　ついに　{E30B}T月{E30B}j日のランキングでは{BREAK} オレさまのチームが　上位に　なれたんだ。"
+SAY "{VOICE=07}And on {E30B}T/{E30B}j,{BREAK}my team finally ranked high."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ふるさと　{E30B}{00}に　にしきをかざるため{BREAK} 戦いつづけるオレさまと　戦ってくれないか?{VOICE=09}"
+SAY "{VOICE=07}I fight to honor {E30B}{00}.{BREAK}Will you fight me?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_133c4
-SAY "{VOICE=07}「うむ。男らしい　いいへんじだ。{BREAK} オレさまの相手に　ふさわしい!"
+SAY "{VOICE=07}Good. A manly answer.{BREAK}Worthy of facing me!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「さあ　どこからでも　かかってこい!"
+SAY "{VOICE=07}Come at me from anywhere!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4872,7 +4872,7 @@ JMP_REL L_133cc
 L_133cc:
 JMP_ABS 0xc L_133d8
 L_133d8:
-SAY "{VOICE=07}「まあ　ムリにとは言わん。{BREAK} 気がかわったら　また　こえをかけてくれ。"
+SAY "{VOICE=07}I will not force you.{BREAK}Talk to me if you change your mind."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4883,26 +4883,26 @@ L_13450:
 STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}「やあ!　ボクは　{E30B}zひきいる{BREAK} {E30B}{00}が生んだ　ナイスガイさ!"
+SAY "{VOICE=07}Hi! I lead {E30B}z,{BREAK}a nice guy from {E30B}{00}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「最強マスター決定戦では　いつも{BREAK} {E30B}D級に　参加しているんだけど……"
+SAY "{VOICE=07}I always join{BREAK}Ultimate Master Cup {E30B}D..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「{E30B}T月{E30B}j日のランキングでは　ボクのチームが{BREAK} みごと　上位に　かがやいたよ!"
+SAY "{VOICE=07}On {E30B}T/{E30B}j, my team{BREAK}shone in the top ranks!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「フッ。キミも　モンスターマスターのようだね。{BREAK} ボクと　かれいなバトルを　くりひろげないか?{VOICE=09}"
+SAY "{VOICE=07}Heh. You are a Master too.{BREAK}Care for a stylish battle?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_137a0
-SAY "{VOICE=07}「ヒュー!　いいへんじだ!{BREAK} キミのすべてを　ボクに　ぶつけてきなよ!"
+SAY "{VOICE=07}Whew! Good answer!{BREAK}Throw all you have at me!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ボクは　それを全力で　うけとめる!{BREAK} さあ　いくよ!　レディ……　ゴーッ!"
+SAY "{VOICE=07}I will take it all!{BREAK}Here we go! Ready... go!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4919,7 +4919,7 @@ JMP_REL L_137a8
 L_137a8:
 JMP_ABS 0xc L_137b4
 L_137b4:
-SAY "{VOICE=07}「つれないなあ。まあ　気がむいたら{BREAK} また　こえを　かけてくれたまえ。"
+SAY "{VOICE=07}Cold, are we? Well,{BREAK}talk to me when you feel like it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4930,26 +4930,26 @@ L_1382c:
 STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}「こんにちはっ。わたし　{E30B}{00}にすむ{BREAK} おこちゃま　モンスターマスターなの。"
+SAY "{VOICE=07}Hi! I am a kiddie{BREAK}Monster Master from {E30B}{00}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「最強マスター決定戦では　いつも{BREAK} {E30B}D級に　参加してるんだけど……"
+SAY "{VOICE=07}I always join{BREAK}Ultimate Master Cup {E30B}D..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「{E30B}T月{E30B}j日のランキングでは　わたしの{BREAK} {E30B}zが　上位に　なったわ!"
+SAY "{VOICE=07}On {E30B}T/{E30B}j,{BREAK}my {E30B}z ranked high!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「おにーちゃんも　マスターだよね?{BREAK} ねえねえ　わたしと勝負してよ。{VOICE=09}"
+SAY "{VOICE=07}You are a Master too, right?{BREAK}Battle me, okay?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_13b54
-SAY "{VOICE=07}「やったー!{BREAK} おにーちゃん　ありがとう!"
+SAY "{VOICE=07}Yay!{BREAK}Thanks, Onii-chan"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「こどもだからって　手をぬかないでね!{BREAK} それじゃ　いっくよー!"
+SAY "{VOICE=07}Do not hold back!{BREAK}Here I go!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4966,7 +4966,7 @@ JMP_REL L_13b5c
 L_13b5c:
 JMP_ABS 0xc L_13b68
 L_13b68:
-SAY "{VOICE=07}「ちぇー。つまんないのー。{BREAK} いいじゃん　バトルしようよー。"
+SAY "{VOICE=07}Aww. Boring.{BREAK}Come on, battle me!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4977,26 +4977,26 @@ L_13bdc:
 STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}「よ…よう。よく　ここがわかったな。{BREAK} オレっちは　コソどろモンスターマスターだ。"
+SAY "{VOICE=07}Y-yo. You found me.{BREAK}I am a sneaky thief Master."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「最強マスター決定戦では　いつも{BREAK} {E30B}D級あたりで　コソコソしている。"
+SAY "{VOICE=07}I always skulk around{BREAK}Ultimate Master Cup {E30B}D."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「……とは言え　{E30B}T月{E30B}j日のランキングでは{BREAK} オレっちのチームが　上位になっちまったがな。"
+SAY "{VOICE=07}...Still, on {E30B}T/{E30B}j,{BREAK}my team ranked high."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「な…なあ　アンタ。オレっちがひきいる{BREAK} {E30B}zと　戦ってくれるか?{VOICE=09}"
+SAY "{VOICE=07}H-hey. Will you fight{BREAK}my {E30B}z?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_13f2c
-SAY "{VOICE=07}「お…おお　そうか!　コソコソせずに戦うのは{BREAK} はじめてだから　キンチョーしちまうぜ!"
+SAY "{VOICE=07}O-oh, yeah! First fair fight,{BREAK}so I am nervous!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ふるさと　{E30B}{00}の　みんなー!{BREAK} オレっちに　チカラを　かしてくれー!"
+SAY "{VOICE=07}Everyone back in {E30B}{00}!{BREAK}Lend me strength!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5013,7 +5013,7 @@ JMP_REL L_13f34
 L_13f34:
 JMP_ABS 0xc L_13f40
 L_13f40:
-SAY "{VOICE=07}「そ…そうか。このへんで　コソコソしてるから{BREAK} 気がかわったら　また　こえをかけてくれ。"
+SAY "{VOICE=07}O-okay. I will skulk here.{BREAK}Talk if you change your mind."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5024,26 +5024,26 @@ L_13fc0:
 STORE 0x18 0x1 0x0 0x2 0x40400000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}「アタシ　いちおう　モンスターマスター。{BREAK} じもと?　なにげに　{E30B}{00}。"
+SAY "{VOICE=07}I am kinda a Monster Master.{BREAK}Local? Basically {E30B}{00}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「つか　最強マスター決定戦では　いつも{BREAK} {E30B}D級に　参加してるけど……。"
+SAY "{VOICE=07}I mean, I always enter{BREAK}Ultimate Master Cup {E30B}D..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「{E30B}T月{E30B}j日のランキングでは　アタシのチーム{BREAK} {E30B}zが　上位に　なったし!"
+SAY "{VOICE=07}On {E30B}T/{E30B}j, my team{BREAK}{E30B}z ranked high!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「かるがるしく　話しかけられた　アタシ{BREAK} アンタのともだち?　じゃ　マスター戦どう?{VOICE=09}"
+SAY "{VOICE=07}You just talk to me?{BREAK}Are we friends? Master battle?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_14318
-SAY "{VOICE=07}「あっさり　オーケー出て　かるくビックリ。{BREAK} じつは　心のじゅんび　できてないかも。"
+SAY "{VOICE=07}That quick yes surprised me.{BREAK}Maybe I am not ready."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「でも　いまので　テンション上がっちゃったし{BREAK} エンリョなく　いかせてもらいまーす!"
+SAY "{VOICE=07}But now I am hyped,{BREAK}so I will not hold back!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5060,7 +5060,7 @@ JMP_REL L_14320
 L_14320:
 JMP_ABS 0xc L_1432c
 L_1432c:
-SAY "{VOICE=07}「あっさり　ことわられて　かるくショック。{BREAK} たちなおれるか　ふあんなんですけど。"
+SAY "{VOICE=07}That quick no kinda hurt.{BREAK}Not sure I can recover."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5071,26 +5071,26 @@ L_143a8:
 STORE 0x18 0x1 0x0 0x2 0x40400000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}「どうもどうも!　私は　{E30B}{00}出身の{BREAK} しがない　モンスターマスターです。"
+SAY "{VOICE=07}Hello there! I am a humble{BREAK}Master from {E30B}{00}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「私ね　最強マスター決定戦の　{E30B}D級に{BREAK} コツコツ　参加しているんですが……"
+SAY "{VOICE=07}I keep joining{BREAK}Ultimate Master Cup {E30B}D..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ついに　私のひきいる　{E30B}zが{BREAK} {E30B}T月{E30B}j日のランキングで　上位になったんです!"
+SAY "{VOICE=07}At last, my {E30B}z{BREAK}ranked high on {E30B}T/{E30B}j!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「あなたも　モンスターマスターのようですね。{BREAK} どうでしょう　ひとつ　手合わせしませんか?{VOICE=09}"
+SAY "{VOICE=07}You seem to be a Master.{BREAK}Care to spar?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_146e0
-SAY "{VOICE=07}「ありがとうございます!{BREAK} むねをかりるつもりで　がんばりますね。"
+SAY "{VOICE=07}Thank you!{BREAK}I will do my best."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「それでは　いきますよっ!"
+SAY "{VOICE=07}Here I go!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5107,7 +5107,7 @@ JMP_REL L_146e8
 L_146e8:
 JMP_ABS 0xc L_146f4
 L_146f4:
-SAY "{VOICE=07}「いやあ　私なんて　たいしたことありません。{BREAK} そう　身がまえなくても　いいですよ。"
+SAY "{VOICE=07}Oh, I am nothing special.{BREAK}No need to brace yourself."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5118,26 +5118,26 @@ L_14774:
 STORE 0x18 0x1 0x0 0x2 0x40400000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}「ハァーイ!　私は　{E30B}{00}で{BREAK} ブイブイ言わせてる　おねえさんマスターよん。"
+SAY "{VOICE=07}Hii! I am the Onee-san Master{BREAK}making waves in {E30B}{00}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「最強マスター決定戦では　{E30B}D級で{BREAK} いつも　ハッスルしてるけど……"
+SAY "{VOICE=07}I always hustle in{BREAK}Ultimate Master Cup {E30B}D..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「{E30B}T月{E30B}j日のランキングでは　おねえさんの{BREAK} {E30B}zが　上位になっちゃった!"
+SAY "{VOICE=07}On {E30B}T/{E30B}j,{BREAK}my {E30B}z ranked high!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ねえ　あなた。そんな　イケイケな私と{BREAK} いまから　マスター戦してみない?{VOICE=09}"
+SAY "{VOICE=07}Hey you. Battle{BREAK}this go-getter Master?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_14aac
-SAY "{VOICE=07}「アハ!　そうこなくっちゃ!{BREAK} おねえさん　がぜん　もえてきたわ!"
+SAY "{VOICE=07}Aha! That is it!{BREAK}Now I am fired up!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「おんなだからって　アマくみないでね!{BREAK} それじゃ　いっくわよー!"
+SAY "{VOICE=07}Don\	 go easy on a woman!{BREAK}Here I come!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5154,7 +5154,7 @@ JMP_REL L_14ab4
 L_14ab4:
 JMP_ABS 0xc L_14ac0
 L_14ac0:
-SAY "{VOICE=07}「あらら……。ザンネンねえ。{BREAK} うちのチームは　けっこう　ツブよりよー。"
+SAY "{VOICE=07}Oh my... Too bad.{BREAK}My team is quite choice."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

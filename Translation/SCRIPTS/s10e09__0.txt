@@ -3302,22 +3302,22 @@ SYS_42 0x8
 SETNAME "Eugene Poole"
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x0
 JMP_IFNOT 0xc L_cf8c
-SAY "{VOICE=03}「おお　よくきてくれたな!{BREAK} わしゃ　お前さんを　さがしておったんじゃよ!"
+SAY "{VOICE=03}Oh, good of you to come!{BREAK}I was looking for you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「はじめて　ここに　まよいこんできたときは{BREAK} どうようして　なにも　できんかったが……"
+SAY "{VOICE=03}When I first came here,{BREAK}I panicked and did nothing..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「目がさめたら　どういうわけか{BREAK} お前さんと　戦ってみたくなったんじゃ。"
+SAY "{VOICE=03}When I awoke, somehow{BREAK}I wanted to fight you."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「わかいころ　モンスターマスターだった{BREAK} わしの　ちが　さわいでしまったんじゃろうな。"
+SAY "{VOICE=03}My old Master blood{BREAK}must be stirring again."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「そういうわけで　どうじゃ?{BREAK} わしと　マスター戦を　やってみんか?"
+SAY "{VOICE=03}So, what say you?{BREAK}Have a Master battle?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「わしに勝てたら　ほうびを　やるぞい!{BREAK} さあ　いますぐ　戦ってくれるかの?{VOICE=09}"
+SAY "{VOICE=03}Beat me and get a prize!{BREAK}Fight me now?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000
@@ -3327,14 +3327,14 @@ JMP_ABS 0xc L_d0a8
 L_cf8c:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_d018
-SAY "{VOICE=03}「おお　お前さん。やっぱり　わしと{BREAK} マスター戦を　してくれるのかっ?{VOICE=09}"
+SAY "{VOICE=03}Oh, you! Will you have{BREAK}a Master battle?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d0a8
 L_d018:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x40000000
 JMP_IFNOT 0xc L_d0a8
-SAY "{VOICE=03}「おお　お前さん!　また　あったな!{BREAK} どうじゃ　わしとマスター戦と　いかんか?{VOICE=09}"
+SAY "{VOICE=03}Oh, you again!{BREAK}How about a Master battle?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d0a8
@@ -3351,10 +3351,10 @@ L_d128:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_d230
 L_d14c:
-SAY "{VOICE=03}「そうか　そうか!　うけてくれるか!"
+SAY "{VOICE=03}I see! You accept!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「マスター戦なんぞ　ひさしぶりじゃ。{BREAK} ちっとは　手かげんしとくれよ。"
+SAY "{VOICE=03}It has been ages.{BREAK}Go easy on me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000
@@ -3364,10 +3364,10 @@ JMP_ABS 0xc L_d2f4
 L_d230:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x40000000
 JMP_IFNOT 0xc L_d2f4
-SAY "{VOICE=03}「ほっほっほ!{BREAK} そうこなくてはのう。"
+SAY "{VOICE=03}Ho ho ho!{BREAK}That is the spirit!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「さあ　いくぞ!{BREAK} わしは　手かげんせんからなっ!"
+SAY "{VOICE=03}Here I come!{BREAK}I will not hold back!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d2f4
@@ -3381,10 +3381,10 @@ JMP_REL L_d340
 L_d340:
 JMP_ABS 0xc L_d34c
 L_d34c:
-SAY "{VOICE=03}「……おお　そうか　そうか。{BREAK} まあ　お前さんにも　つごうがあるわな。"
+SAY "{VOICE=03}...Oh, I see.{BREAK}You have things to do too."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ちょっぴり　センチな気分になったが{BREAK} まあ　気にしないでおくれ。"
+SAY "{VOICE=03}I feel sentimental,{BREAK}but never mind me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000
@@ -3499,20 +3499,20 @@ SYS_24 0x8
 STORE 0x18 0x0 0x42bc0000 0x1 0x0
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}「か～っ!　負けてしまったわ!{BREAK} やはり　お前さんは　強いのう。"
+SAY "{VOICE=03}Bah! I lost!{BREAK}You really are strong."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「どれ　たのしませてもらったほうびに{BREAK} お前さんに　ひとつ　モンスターをやろう。"
+SAY "{VOICE=03}For that fun battle,{BREAK}I will give you a monster."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「Eugene Pooleのイケイケコレクションの{BREAK} モンスターに　するかの?{VOICE=09}"
+SAY "{VOICE=03}Want one from Eugene Poole's{BREAK}Go-Getter Collection?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ba0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ba0000 0x2 0x0
 JMP_IFNOT 0xc L_e0e8
-SAY "{VOICE=03}「よし!　それでは{BREAK} こいつを　もっていけい!"
+SAY "{VOICE=03}Good! Then{BREAK}take this one!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3559,7 +3559,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e088
 L_e088:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　Eugene Pooleから{BREAK}{E322}を　もらった!"
+SAY "{COLOR=2}{NAME} received{BREAK}{E322} from Eugene Poole!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3569,14 +3569,14 @@ JMP_REL L_e0f0
 L_e0f0:
 JMP_ABS 0xc L_e0fc
 L_e0fc:
-SAY "{VOICE=03}「ならば　Eugene Pooleの　ムキムキコレクションの{BREAK} モンスターに　するかの?{VOICE=09}"
+SAY "{VOICE=03}Then Eugene Poole's{BREAK}Muscle Collection?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ba0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ba0000 0x2 0x0
 JMP_IFNOT 0xc L_e548
-SAY "{VOICE=03}「よし!　それでは{BREAK} こいつを　もっていけい!"
+SAY "{VOICE=03}Good! Then{BREAK}take this one!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3623,7 +3623,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e4e8
 L_e4e8:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　Eugene Pooleから{BREAK}{E322}を　もらった!"
+SAY "{COLOR=2}{NAME} received{BREAK}{E322} from Eugene Poole!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3633,14 +3633,14 @@ JMP_REL L_e550
 L_e550:
 JMP_ABS 0xc L_e55c
 L_e55c:
-SAY "{VOICE=03}「むむ。それでは　Eugene Pooleのとっておき{BREAK} ドキドキコレクションが　いいんじゃな?{VOICE=09}"
+SAY "{VOICE=03}Hmm. Then Eugene Poole's{BREAK}Thrill Collection?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ba0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ba0000 0x2 0x0
 JMP_IFNOT 0xc L_e9e8
-SAY "{VOICE=03}「よし!　それでは{BREAK} こいつを　もっていけい!"
+SAY "{VOICE=03}Good! Then{BREAK}take this one!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3690,7 +3690,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e988
 L_e988:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　Eugene Pooleから{BREAK}{E322}を　もらった!"
+SAY "{COLOR=2}{NAME} received{BREAK}{E322} from Eugene Poole!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3700,7 +3700,7 @@ JMP_REL L_e9f0
 L_e9f0:
 JMP_ABS 0xc L_e9fc
 L_e9fc:
-SAY "{VOICE=03}「ええいっ!　年よりを　もてあそぶでないわ!{BREAK} もう　わしが　決めたのを　もってけ!　ほれ!"
+SAY "{VOICE=03}Enough! Do not toy with me!{BREAK}I will choose. Here!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3834,7 +3834,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_f3a4
 L_f3a4:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　Eugene Pooleに{BREAK}{E322}を　おしつけられた!"
+SAY "{COLOR=2}Eugene Poole forced{BREAK}{E322} on {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3851,13 +3851,13 @@ SYS_42 0x8
 SETNAME "Eugene Poole"
 CMP_LE 0x18 0x0 0x42b80000 0x2 0x40400000
 JMP_IFNOT 0xc L_f5b4
-SAY "{VOICE=03}「やっぱり　マスター戦は　たのしいのう。{BREAK}  年よりの相手をしてくれて　ありがとうよ。"
+SAY "{VOICE=03}Master battles are fun.{BREAK}Thanks for humoring me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「さて　わしは　さらに強いモンスターをもとめ{BREAK} しばらく　さすらうことにするかの。"
+SAY "{VOICE=03}Now I shall wander awhile{BREAK}for stronger monsters."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「あしたになったら　また　わしをみつけとくれ。{BREAK} たのしみに　まっとるぞい。"
+SAY "{VOICE=03}Find me again tomorrow.{BREAK}I will be waiting."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_f698
@@ -3866,10 +3866,10 @@ JMP_REL L_f5bc
 L_f5bc:
 JMP_ABS 0xc L_f5c8
 L_f5c8:
-SAY "{VOICE=03}「やっぱり　マスター戦は　たのしいのう。{BREAK} 年よりの相手をしてくれて　ありがとうよ。"
+SAY "{VOICE=03}Master battles are fun.{BREAK}Thanks for humoring me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「さて　お前さんとも　いっぱい戦ったことだし{BREAK} わしは　そろそろ　めざめるとするかの。"
+SAY "{VOICE=03}We have battled plenty.{BREAK}Time for me to wake up."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_f698
@@ -4677,11 +4677,11 @@ JMP_IFNOT 0xc L_12544
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41600000
 JMP_IFNOT 0xc L_12538
 SYS_42 0x8 
-SETNAME "レオソード"
-SAY "{VOICE=07}「どういうことだ?　すみずみまで　調べてみたが{BREAK} おやだまは　どこにも　いねえじゃねえか。"
+SETNAME "Leonyx"
+SAY "{VOICE=07}What is this? I searched all over,{BREAK}but the boss is gone."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「……ん!?"
+SAY "{VOICE=07}...Hm!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x40c00000
@@ -4724,8 +4724,8 @@ STORE 0x18 0x0 0x42ea0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ea0000 0x2 0x0
 JMP_IFNOT 0xc L_12650
 SYS_42 0x8 
-SETNAME "モーモン"
-SAY "{VOICE=07}「まずは　キングモーモンさまの{BREAK} お話を　きくんだモン。"
+SETNAME "Sanguini"
+SAY "{VOICE=07}First, hear what{BREAK}King sanguini says."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4749,8 +4749,8 @@ STORE 0x18 0x0 0x42ea0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ea0000 0x2 0x0
 JMP_IFNOT 0xc L_1279c
 SYS_42 0x8 
-SETNAME "ピンクモーモン"
-SAY "{VOICE=08}「まずは　キングモーモンさまの{BREAK} お話を　おききくださいませ。"
+SETNAME "Pink sanguini"
+SAY "{VOICE=08}First, please hear what{BREAK}King sanguini says."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4763,27 +4763,27 @@ STORE 0x18 0x1 0x0 0x2 0x429e0000
 STORE 0x18 0x1 0x3f800000 0x2 0x40000000
 SYS_28 0x8 
 SYS_42 0x8 
-SETNAME "ピンクモーモン"
-SAY "{VOICE=08}「こちらは　最強マスター闘技場の{BREAK} ごあんないまどぐちで　ございます。"
+SETNAME "Pink sanguini"
+SAY "{VOICE=08}This is the desk for{BREAK}Ultimate Master Arena."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「まずは　最強マスター闘技場について{BREAK} カンタンに　説明させていただきますわ。"
+SAY "{VOICE=08}First, allow me to explain{BREAK}Ultimate Master Arena."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 L_128d8:
-SAY "{VOICE=08}「最強マスター闘技場とは　最強マスター決定戦の{BREAK} 上位入賞者と戦える　ゆめぶたいでございます。"
+SAY "{VOICE=08}There you can battle top placers{BREAK}from the Ultimate Master Cup."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「あなたが　最強マスター決定戦に　参加したのち{BREAK} こちらまで　あしをはこんでいただければ……"
+SAY "{VOICE=08}After you enter{BREAK}the Ultimate Master Cup..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「そのときの上位入賞者が　3名ほど{BREAK} 最強マスター闘技場に　やってきますわ。"
+SAY "{VOICE=08}about three top placers{BREAK}will come to the arena."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「自分のチカラが　いかほどか……{BREAK} こちらで試してみては　いかがでしょう?"
+SAY "{VOICE=08}Why not test{BREAK}your strength there?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「それでは　さっそく{BREAK} 最強マスター闘技場に　行かれますか?{VOICE=09}"
+SAY "{VOICE=08}Will you go now{BREAK}to Ultimate Master Arena?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4797,7 +4797,7 @@ JMP_REL L_12b44
 L_12b44:
 JMP_ABS 0xc L_12b50
 L_12b50:
-SAY "{VOICE=08}「かしこまりました。またの　おこしを{BREAK} おまちもうしあげております。"
+SAY "{VOICE=08}Understood. We await{BREAK}your next visit."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4831,20 +4831,20 @@ JMP_ABS 0xc L_12d74
 L_12d74:
 CMP_EQ 0x18 0x0 0x42e80000 0x2 0x40400000
 JMP_IFNOT 0xc L_13000
-SAY "{VOICE=08}「あの　お客さま。{BREAK} たいへん　もうしあげにくいのですが……。"
+SAY "{VOICE=08}Excuse me, dear guest.{BREAK}I hate to say this, but..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「げんざい　最強マスター闘技場に{BREAK} 対戦相手が　いないようです。"
+SAY "{VOICE=08}Ultimate Master Arena{BREAK}has no opponents now."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「ちなみに　お客さまは　本日{BREAK} 最強マスター決定戦に　参加されましたか?{VOICE=09}"
+SAY "{VOICE=08}By the way, did you enter{BREAK}the Master Cup today?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ec0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ec0000 0x2 0x0
 JMP_IFNOT 0xc L_12f64
-SAY "{VOICE=08}「それでは　あした　最強マスター決定戦に{BREAK} 参加してから　こちらに　いらしてください。"
+SAY "{VOICE=08}Then enter tomorrow's Cup,{BREAK}then return here."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_12fec
@@ -4853,7 +4853,7 @@ JMP_REL L_12f6c
 L_12f6c:
 JMP_ABS 0xc L_12f78
 L_12f78:
-SAY "{VOICE=08}「それでは　のちほど　最強マスター決定戦に{BREAK} 参加してから　こちらに　いらしてください。"
+SAY "{VOICE=08}Then enter the Cup later,{BREAK}then return here."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_12fec
@@ -4865,10 +4865,10 @@ JMP_REL L_13008
 L_13008:
 JMP_ABS 0xc L_13014
 L_13014:
-SAY "{VOICE=08}「かしこまりました。それでは{BREAK} 最強マスター闘技場に　ごあんないいたします。"
+SAY "{VOICE=08}Understood. I will guide you{BREAK}to Ultimate Master Arena."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「お客さまの　ごぶうんを{BREAK} おいのりもうしあげて　おりますわ!"
+SAY "{VOICE=08}I pray for your{BREAK}good fortune!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4914,8 +4914,8 @@ L_13358:
 CMP_GE 0x18 0x0 0x42ea0000 0x2 0x40000000
 JMP_IFNOT 0xc L_136e0
 SYS_42 0x8 
-SETNAME "ピンクモーモン"
-SAY "{VOICE=08}「こちらは　最強マスター闘技場の{BREAK} ごあんないまどぐちで　ございます。"
+SETNAME "Pink sanguini"
+SAY "{VOICE=08}This is the desk for{BREAK}Ultimate Master Arena."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x44028000
@@ -4923,12 +4923,12 @@ SYS_29 0x8
 STORE 0x18 0x0 0x42e80000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42e80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_134c8
-SAY "{VOICE=08}「お客さま!　闘技場の　対戦相手が　前回から{BREAK} かわったようで　ございますわよ!"
+SAY "{VOICE=08}Dear guest! The arena foes{BREAK}have changed since last time!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_134c8
 L_134c8:
-SAY "{VOICE=08}「さっそく　最強マスター闘技場に{BREAK} 行かれますか?{VOICE=09}"
+SAY "{VOICE=08}Will you go right away{BREAK}to Ultimate Master Arena?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4942,7 +4942,7 @@ JMP_REL L_13580
 L_13580:
 JMP_ABS 0xc L_1358c
 L_1358c:
-SAY "{VOICE=08}「それでは　最強マスター闘技場の説明を{BREAK} もういちど　させていただきましょうか?{VOICE=09}"
+SAY "{VOICE=08}Shall I explain{BREAK}Ultimate Master Arena again?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4956,7 +4956,7 @@ JMP_REL L_13654
 L_13654:
 JMP_ABS 0xc L_13660
 L_13660:
-SAY "{VOICE=08}「かしこまりました。またの　おこしを{BREAK} おまちもうしあげております。"
+SAY "{VOICE=08}Understood. We await{BREAK}your next visit."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4971,16 +4971,16 @@ L_136ec:
 CMP_EQ 0x18 0x0 0x42e60000 0x0 0x42da0000
 JMP_IFNOT 0xc L_1388c
 SYS_42 0x8 
-SAY "{VOICE=07}「わーい!　ボクたちの　お城{BREAK} ブランパレスに　かえってきたんだー!"
+SAY "{VOICE=07}Yay! We came back{BREAK}to our castle, Blanc Palace!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ボクら　キングモーモンさまと　いっしょに{BREAK} べつ世界に　にげて　かくれてたの!"
+SAY "{VOICE=07}We fled with King sanguini{BREAK}and hid in another world!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「キングモーモンさまったら　ブルブルふるえて{BREAK} ほんっと　たよりなかったなー。"
+SAY "{VOICE=07}King sanguini was shaking.{BREAK}He was no help at all."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「おこると　すっごい　こわいカオなのにね!"
+SAY "{VOICE=07}But he looks scary when mad!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4997,10 +4997,10 @@ STORE 0x18 0x1 0x0 0x2 0x440fc000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_2A 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}「アナタが　ブランパレスをすくってくれた{BREAK} えいゆうの　{NAME}ね!"
+SAY "{VOICE=08}You are {NAME}, the hero{BREAK}who saved Blanc Palace!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「ありがとっ!　おれいに{BREAK} もふもふ　してあげましょうか?{VOICE=09}"
+SAY "{VOICE=08}Thanks! As thanks,{BREAK}want a Puff-Puff?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 L_139f4:
@@ -5008,7 +5008,7 @@ SYS_7A 0x8
 STORE 0x18 0x0 0x42ec0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ec0000 0x2 0x0
 JMP_IFNOT 0xc L_13e10
-SAY "{VOICE=08}「それじゃ　目を　とじて。{BREAK} いくわよ……。"
+SAY "{VOICE=08}Then close your eyes.{BREAK}Here I go..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5025,13 +5025,13 @@ SYS_3E 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SAY "{VOICE=08}「もふもふ……。もふもふ……。"
+SAY "{VOICE=08}Puff-Puff... Puff-Puff..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「もふもふ……。もふもふ……。"
+SAY "{VOICE=08}Puff-Puff... Puff-Puff..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「最後は　はげしく　もふもふもふっ!"
+SAY "{VOICE=08}And a fierce Puff-Puff-Puff!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5049,12 +5049,12 @@ SYS_3E 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　やわらかな　けなみに　ふれ{BREAK}戦いの世界にいることを　しばし　わすれた……。"
+SAY "{COLOR=2}{NAME} touched soft fur{BREAK}and forgot the world of battle..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}「うふふ。私の　もふもふ　どうだった?{BREAK} 気に入ったなら　またきてね!"
+SAY "{VOICE=08}Hehe. How was my Puff-Puff?{BREAK}Come again if you liked it!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5064,7 +5064,7 @@ JMP_REL L_13e18
 L_13e18:
 JMP_ABS 0xc L_13e24
 L_13e24:
-SAY "{VOICE=08}「あら　そう?　まあ　ムリにとは言わないわ。{BREAK} 気がむいたら　もふもふ　してみてね!"
+SAY "{VOICE=08}Oh, really? I will not force you.{BREAK}Try Puff-Puff sometime!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5077,10 +5077,10 @@ L_13eac:
 JMP_ABS 0xc L_13eb8
 L_13eb8:
 SYS_42 0x8 
-SAY "{VOICE=08}「ハーイ!　{NAME}!{BREAK} なんだか　つかれてるカオしてるけど……"
+SAY "{VOICE=08}Hi, {NAME}!{BREAK}You look tired..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「どう?　もふもふ　してく?{VOICE=09}"
+SAY "{VOICE=08}Well? Want Puff-Puff?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_139f4
@@ -5188,14 +5188,14 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40000000
 STORE 0x18 0x1 0x40000000 0x2 0x41700000
 SYS_02 0x8 
 SYS_42 0x8 
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「ピピットの町の　みんなにも{BREAK} この島が　すくわれたことを　伝えるがいい。"
+SETNAME "King sanguini"
+SAY "{VOICE=03}Tell everyone in Pipit Town{BREAK}that the island is saved."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「その間に　わしは　いろいろと{BREAK} じゅんびを　すすめているとしよう。"
+SAY "{VOICE=03}Meanwhile, I shall{BREAK}prepare many things."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「それでは　{NAME}よ!{BREAK} また　会おう!"
+SAY "{VOICE=03}Farewell, {NAME}!{BREAK}We shall meet again!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5248,7 +5248,7 @@ STORE 0x18 0x1 0x0 0x2 0x40c00000
 SYS_60 0x8 
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
-SAY "{COLOR=2}空に　なにかが　ういているようだ。{BREAK}ちかづいて　みてみますか?{VOICE=09} "
+SAY "{COLOR=2}Something floats in the sky.{BREAK}Go closer?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -5282,7 +5282,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41700000
 SYS_3E 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}空にうかぶ　巨大な　なにかは{BREAK}じーっと　こちらをみている……。"
+SAY "{COLOR=2}The huge thing in the sky{BREAK}stares at you..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5325,7 +5325,7 @@ STORE 0x18 0x1 0x40a00000 0x2 0x0
 SYS_51 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{VOICE=03}「前方に　モンスターマスターを　はっけん!{BREAK} これより　そのチカラを　みきわめます!"
+SAY "{VOICE=03}Monster Master ahead!{BREAK}Now measuring power!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5340,10 +5340,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3e800000
 SYS_B2 0x8 
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
-SAY "{VOICE=03}「つねにマホカンタ　バリア　オン!{BREAK} つねにアタックカンタ　バリア　オン!"
+SAY "{VOICE=03}Auto-Bounce barrier on!{BREAK}Counter barrier on!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「マスター　{NAME}を　ロックオン!{BREAK} ぎんが機動兵器　スラ・ブラスター　はっしん!"
+SAY "{VOICE=03}Locking on to Master {NAME}!{BREAK}Slime blaster, launch!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5435,23 +5435,23 @@ SYS_03 0x8
 CMP_EQ 0x18 0x0 0x43000000 0x2 0x0
 JMP_IFNOT 0xc L_159b4
 SYS_42 0x8 
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「おお　{NAME}　よくきたのう。"
+SETNAME "King sanguini"
+SAY "{VOICE=03}Oh, {NAME}. You came."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「勝ちぬきバトルと　最強マスター闘技場の{BREAK} じゅんびが　できたぞ!"
+SAY "{VOICE=03}Survival Battle and{BREAK}Ultimate Master Arena are ready!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「勝ちぬきバトルに　チャレンジしたいときは{BREAK} そこの　モーモンに　話しかけてくれ。"
+SAY "{VOICE=03}For Survival Battle,{BREAK}talk to that sanguini."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「最強マスター闘技場に　チャレンジしたいときは{BREAK} そこの　ピンクモーモンに　話しかけるんじゃ。"
+SAY "{VOICE=03}For Ultimate Master Arena,{BREAK}talk to that pink sanguini."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「はじめてチャレンジするときは{BREAK} ふたりの説明を　よく　きくんじゃぞ。"
+SAY "{VOICE=03}Before your first try,{BREAK}hear their explanations."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「それでは　ぞんぶんに　たのしむがよい!{BREAK} ふぉっふぉっふぉっふぉ。"
+SAY "{VOICE=03}Now enjoy yourself!{BREAK}Fo ho ho ho ho."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5468,14 +5468,14 @@ L_159bc:
 JMP_ABS 0xc L_159c8
 L_159c8:
 SYS_42 0x8 
-SETNAME "キングモーモン"
-SAY "{VOICE=03}「おお　{NAME}　よくきたのう。{BREAK} どうじゃ　ちょうしのほうは?"
+SETNAME "King sanguini"
+SAY "{VOICE=03}Oh, {NAME}. Welcome.{BREAK}How goes it?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「勝ちぬきバトルも　最強マスター闘技場も{BREAK} あれで　なかなか　おくがふかい。"
+SAY "{VOICE=03}Survival Battle and the Arena{BREAK}both have hidden depth."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「あせらず　じっくり　たのしむのじゃぞ。{BREAK} ふぉっふぉっふぉっふぉ。"
+SAY "{VOICE=03}Take your time and enjoy them.{BREAK}Fo ho ho ho ho."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5865,22 +5865,22 @@ STORE 0x18 0x1 0x40000000 0x2 0x0
 STORE 0x18 0x1 0x40400000 0x2 0x42040000
 SYS_FD 0x8 
 SYS_42 0x8 
-SETNAME "モーモン"
-SAY "{VOICE=07}「キミには　100連勝したときの　ごほうびを{BREAK} まだ　わたしていなかったモン。"
+SETNAME "Sanguini"
+SAY "{VOICE=07}I still owe you the prize{BREAK}for 100 wins, mon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「さあ　この　{E322}を{BREAK} うけとるんだモン!"
+SAY "{VOICE=07}Now take this{BREAK}{E322}, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{E322}が{BREAK}仲間になった!"
+SAY "{COLOR=2}{E322}{BREAK}joined the party!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SETNAME "モーモン"
-SAY "{VOICE=07}「それじゃ　つぎのチャレンジも{BREAK} たのしみに　まってるモン!"
+SETNAME "Sanguini"
+SAY "{VOICE=07}I will await{BREAK}your next challenge, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5904,11 +5904,11 @@ L_1731c:
 JMP_ABS 0xc L_17328
 L_17328:
 SYS_42 0x8 
-SETNAME "モーモン"
-SAY "{VOICE=07}「キミには　100連勝したときの　ごほうびを{BREAK} まだ　わたしていなかったモン。"
+SETNAME "Sanguini"
+SAY "{VOICE=07}I still owe you the prize{BREAK}for 100 wins, mon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「預かり所に　空きをつくってから{BREAK} また　ボクのところに　くるんだモン。"
+SAY "{VOICE=07}Make room in storage,{BREAK}then come back, mon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5924,11 +5924,11 @@ STORE 0x18 0x0 0x43180000 0x1 0x0
 CMP_EQ 0x18 0x0 0x43180000 0x2 0x0
 JMP_IFNOT 0xc L_17558
 SYS_42 0x8 
-SETNAME "モーモン"
-SAY "{VOICE=07}「ごめんなさいだモン。{BREAK} 勝ちぬきバトルは　1日1回までなんだモン。"
+SETNAME "Sanguini"
+SAY "{VOICE=07}Sorry, mon.{BREAK}Survival Battle is once a day."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「あしたのチャレンジを{BREAK} たのしみに　まってるモン!"
+SAY "{VOICE=07}I await tomorrow's{BREAK}challenge, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5938,42 +5938,42 @@ L_17558:
 CMP_EQ 0x18 0x0 0x43130000 0x2 0x3f800000
 JMP_IFNOT 0xc L_17b7c
 SYS_42 0x8 
-SETNAME "モーモン"
-SAY "{VOICE=07}「勝ちぬきバトルへ　ようこそだモン!{BREAK} モー　さっそく　説明をさせてもらうモン。"
+SETNAME "Sanguini"
+SAY "{VOICE=07}Welcome to Survival Battle!{BREAK}Moo, I will explain, mon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「勝ちぬきバトルとは　つぎつぎ　あらわれる敵と{BREAK} 戦いつづける　サバイバルマッチのことだモン。"
+SAY "{VOICE=07}Survival Battle means fighting{BREAK}foes one after another, mon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「試合をおうごとに　対戦相手は　強くなり{BREAK} キミが負けるまで　むげんに　つづくんだモン!"
+SAY "{VOICE=07}Foes grow stronger each match,{BREAK}until you lose, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「めいれいと　入れかえは　じゆうにできるけど{BREAK} 道具を使ったり　スカウトは　できないモン。"
+SAY "{VOICE=07}Orders and swaps are allowed,{BREAK}but no items or scouting, mon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ただ　負けても　お金は減ったりしないから{BREAK} そのあたりは　心配無用だモン!"
+SAY "{VOICE=07}But losing costs no money,{BREAK}so no worries, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「それどころか　連勝のきろくに　おうじて{BREAK} ボクから　賞金を　プレゼントするモン!"
+SAY "{VOICE=07}In fact, I give prize money{BREAK}based on your streak, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「さらに!　100試合　つづけて勝ちぬいたら{BREAK} げきレアモンスターも　あげちゃうんだモン!"
+SAY "{VOICE=07}Win 100 in a row,{BREAK}and get a rare monster, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「でも　勝ちぬきバトルは　1日1回までだモン。{BREAK} そこだけ　気をつけてほしいんだモン。"
+SAY "{VOICE=07}But Survival Battle is once a day.{BREAK}Remember that, mon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「説明は　これで　おしまいだモン。{BREAK} さっそく　勝ちぬきバトルを　はじめるモン?{VOICE=09}"
+SAY "{VOICE=07}That is all, mon.{BREAK}Start Survival Battle?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x43160000 0x1 0x0
 CMP_EQ 0x18 0x0 0x43160000 0x2 0x0
 JMP_IFNOT 0xc L_17ab0
-SAY "{VOICE=07}「モー!　それじゃ　強敵モンスターひしめく{BREAK} 勝ちぬきバトルのトビラを　ひらくモン!"
+SAY "{VOICE=07}Moo! I open the door{BREAK}to strong foes, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「最高きろくを　ぬりかえられるよう{BREAK} チカラいっぱい　戦うんだモン!"
+SAY "{VOICE=07}Fight hard and set{BREAK}a new record, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5989,7 +5989,7 @@ JMP_REL L_17ab8
 L_17ab8:
 JMP_ABS 0xc L_17ac4
 L_17ac4:
-SAY "{VOICE=07}「それじゃ　気がむいたら{BREAK} また　ボクのところに　くるんだモン。"
+SAY "{VOICE=07}Then come back{BREAK}when you feel like it, mon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6007,10 +6007,10 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x43100000
 SYS_A8 0x8 
 SYS_42 0x8 
-SETNAME "モーモン"
+SETNAME "Sanguini"
 CMP_LE 0x18 0x0 0x43100000 0x2 0x40000000
 JMP_IFNOT 0xc L_17c88
-SAY "{VOICE=07}「キミは　まだ　連勝きろくがないんだモン。{BREAK} さっそく　勝ちぬきバトルを　はじめるモン?{VOICE=09}"
+SAY "{VOICE=07}You have no streak yet, mon.{BREAK}Start Survival Battle?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_17d0c
@@ -6019,7 +6019,7 @@ JMP_REL L_17c90
 L_17c90:
 JMP_ABS 0xc L_17c9c
 L_17c9c:
-SAY "{VOICE=07}「キミのきろくは　{E322}連勝なんだモン。{BREAK} さっそく　勝ちぬきバトルを　はじめるモン?{VOICE=09}"
+SAY "{VOICE=07}Your record is {E322} wins, mon.{BREAK}Start Survival Battle?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_17d0c
@@ -6028,10 +6028,10 @@ SYS_7A 0x8
 STORE 0x18 0x0 0x43160000 0x1 0x0
 CMP_EQ 0x18 0x0 0x43160000 0x2 0x0
 JMP_IFNOT 0xc L_17e58
-SAY "{VOICE=07}「モー!　それじゃ　強敵モンスターひしめく{BREAK} 勝ちぬきバトルのトビラを　ひらくモン!"
+SAY "{VOICE=07}Moo! I open the door{BREAK}to strong foes, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「最高きろくを　ぬりかえられるよう{BREAK} チカラいっぱい　戦うんだモン!"
+SAY "{VOICE=07}Fight hard and set{BREAK}a new record, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6044,45 +6044,45 @@ JMP_REL L_17e60
 L_17e60:
 JMP_ABS 0xc L_17e6c
 L_17e6c:
-SAY "{VOICE=07}「それじゃ　勝ちぬきバトルの説明を{BREAK} もういちど　ききたいモン?{VOICE=09}"
+SAY "{VOICE=07}Want to hear Survival Battle{BREAK}explained again, mon?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x43160000 0x1 0x0
 CMP_EQ 0x18 0x0 0x43160000 0x2 0x0
 JMP_IFNOT 0xc L_18414
-SAY "{VOICE=07}「勝ちぬきバトルとは　つぎつぎ　あらわれる敵と{BREAK} 戦いつづける　サバイバルマッチのことだモン。"
+SAY "{VOICE=07}Survival Battle means fighting{BREAK}foes one after another, mon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「試合をおうごとに　対戦相手は　強くなり{BREAK} キミが負けるまで　むげんに　つづくんだモン!"
+SAY "{VOICE=07}Foes grow stronger each match,{BREAK}until you lose, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「めいれいと　入れかえは　じゆうにできるけど{BREAK} 道具を使ったり　スカウトは　できないモン。"
+SAY "{VOICE=07}Orders and swaps are allowed,{BREAK}but no items or scouting, mon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ただ　負けても　お金は減ったりしないから{BREAK} そのあたりは　心配無用だモン!"
+SAY "{VOICE=07}But losing costs no money,{BREAK}so no worries, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「それどころか　連勝のきろくに　おうじて{BREAK} ボクから　賞金を　プレゼントするモン!"
+SAY "{VOICE=07}In fact, I give prize money{BREAK}based on your streak, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「さらに!　100試合　つづけて勝ちぬいたら{BREAK} げきレアモンスターも　あげちゃうんだモン!"
+SAY "{VOICE=07}Win 100 in a row,{BREAK}and get a rare monster, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「でも　勝ちぬきバトルは　1日1回までだモン。{BREAK} そこだけ　気をつけてほしいんだモン。"
+SAY "{VOICE=07}But Survival Battle is once a day.{BREAK}Remember that, mon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「説明は　これで　おしまいだモン。{BREAK} さっそく　勝ちぬきバトルを　はじめるモン?{VOICE=09}"
+SAY "{VOICE=07}That is all, mon.{BREAK}Start Survival Battle?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x43160000 0x1 0x0
 CMP_EQ 0x18 0x0 0x43160000 0x2 0x0
 JMP_IFNOT 0xc L_1838c
-SAY "{VOICE=07}「モー!　それじゃ　強敵モンスターひしめく{BREAK} 勝ちぬきバトルのトビラを　ひらくモン!"
+SAY "{VOICE=07}Moo! I open the door{BREAK}to strong foes, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「最高きろくを　ぬりかえられるよう{BREAK} チカラいっぱい　戦うんだモン!"
+SAY "{VOICE=07}Fight hard and set{BREAK}a new record, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6095,7 +6095,7 @@ JMP_REL L_18394
 L_18394:
 JMP_ABS 0xc L_183a0
 L_183a0:
-SAY "{VOICE=07}「それじゃ　気がむいたら{BREAK} また　ボクのところに　くるんだモン。"
+SAY "{VOICE=07}Then come back{BREAK}when you feel like it, mon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6107,7 +6107,7 @@ JMP_REL L_1841c
 L_1841c:
 JMP_ABS 0xc L_18428
 L_18428:
-SAY "{VOICE=07}「わかったモン。気がむいたら{BREAK} また　ボクのところに　くるんだモン。"
+SAY "{VOICE=07}Okay, mon. Come back{BREAK}when you feel like it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6197,46 +6197,46 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x43110000
 SYS_A8 0x8 
 SYS_42 0x8 
-SETNAME "モーモン"
-SAY "{VOICE=07}「おつかれさまでしたモン。{BREAK} さあ　キミのきろくは……"
+SETNAME "Sanguini"
+SAY "{VOICE=07}Good work, mon.{BREAK}Now, your record is..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 CMP_EQ 0x18 0x0 0x431d0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_18ae0
-SAY "{VOICE=07}「モーッ!　{E322}戦　勝ちぬきだモン!{BREAK} みごと　最高きろくを　ぬりかえたモン!"
+SAY "{VOICE=07}Moo! {E322} wins, mon!{BREAK}A new high record!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「勝ちぬきバトルは　おのれとの戦いだモン!{BREAK} さらなる高みをめざし　がんばるんだモン!"
+SAY "{VOICE=07}Survival Battle is self-battle!{BREAK}Aim higher, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_18ea8
 L_18ae0:
 CMP_LE 0x18 0x0 0x43110000 0x2 0x41100000
 JMP_IFNOT 0xc L_18bcc
-SAY "{VOICE=07}「モー……。{E322}戦　勝ちぬきかモン。{BREAK} まだまだ　さきは　長いモン。"
+SAY "{VOICE=07}Moo... {E322} wins, mon.{BREAK}Still a long way to go."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「もうすこし　仲間のレベルを上げてから{BREAK} チャレンジしてみては　どうモン?"
+SAY "{VOICE=07}Maybe level your team more,{BREAK}then try again, mon?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_18ea8
 L_18bcc:
 CMP_LE 0x18 0x0 0x43110000 0x2 0x42440000
 JMP_IFNOT 0xc L_18cbc
-SAY "{VOICE=07}「モー!　{E322}戦　勝ちぬきだったモン!{BREAK} なかなか　やるんだモン!"
+SAY "{VOICE=07}Moo! {E322} wins, mon!{BREAK}Not bad at all!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「でも　キミなら　もっと上をめざせるモン!{BREAK} 仲間を強くしてから　さいチャレンジだモン!"
+SAY "{VOICE=07}But you can aim higher, mon!{BREAK}Train and try again!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_18ea8
 L_18cbc:
 CMP_LE 0x18 0x0 0x43110000 0x2 0x42c60000
 JMP_IFNOT 0xc L_18db8
-SAY "{VOICE=07}「モモーッ!　{E322}戦も　勝ちぬいたんだモン!{BREAK} 100戦　勝ちぬきも　ゆめではないモン!"
+SAY "{VOICE=07}Moo-moo! {E322} wins, mon!{BREAK}100 wins is no dream!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「とちゅう　MPが　きれたりはしてないモン?{BREAK} おぼえさせる特技も　よくかんがえるんだモン!"
+SAY "{VOICE=07}Did MP run out midway?{BREAK}Choose skills well, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_18ea8
@@ -6245,10 +6245,10 @@ JMP_REL L_18dc0
 L_18dc0:
 JMP_ABS 0xc L_18dcc
 L_18dcc:
-SAY "{VOICE=07}「モモモーッ!　{E322}連勝とか　ありえないモン!{BREAK} みごとな　プロフェッショナルぶりだモン!"
+SAY "{VOICE=07}Moo-moo-moo! {E322} wins!{BREAK}Truly professional, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「モー　ボクから　言うことはなにもないモン。{BREAK} とにかく　高みをめざして　がんばるんだモン!"
+SAY "{VOICE=07}Moo, I have nothing to add.{BREAK}Keep aiming high, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_18ea8
@@ -6266,8 +6266,8 @@ L_18f28:
 JMP_ABS 0xc L_18f34
 L_18f34:
 SYS_42 0x8 
-SETNAME "モーモン"
-SAY "{VOICE=07}「勝ちぬきバトルは　1日1回までだモン。{BREAK} あしたになったら　また　きてほしいモン。"
+SETNAME "Sanguini"
+SAY "{VOICE=07}Survival Battle is once a day.{BREAK}Come again tomorrow, mon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6343,13 +6343,13 @@ STORE 0x18 0x1 0x0 0x2 0x40000000
 STORE 0x18 0x1 0x3f800000 0x0 0x43120000
 SYS_A8 0x8 
 SYS_42 0x8 
-SETNAME "モーモン"
-SAY "{VOICE=07}「さあ　これが　こんかいの賞金だモン。{BREAK} おつかれさまでしたモン。"
+SETNAME "Sanguini"
+SAY "{VOICE=07}Here is today's prize money.{BREAK}Good work, mon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{E322}連勝した　{NAME}は{BREAK}賞金として　{E324}{COLOR=0}{226}{COLOR=2}　もらった!"
+SAY "{COLOR=2}{NAME}, with {E322} wins,{BREAK}got {E324}{COLOR=0}{226}{COLOR=2} prize money!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -6376,11 +6376,11 @@ STORE 0x18 0x1 0x40000000 0x2 0x0
 STORE 0x18 0x1 0x40400000 0x2 0x42040000
 SYS_FD 0x8 
 SYS_42 0x8 
-SETNAME "モーモン"
-SAY "{VOICE=07}「モー!　それじゃ　やくそく通り{BREAK} 100戦　勝ちぬいた　ごほうびに……"
+SETNAME "Sanguini"
+SAY "{VOICE=07}Moo! As promised,{BREAK}for winning 100 battles..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「{E322}を{BREAK} キミに　プレゼントするモン!"
+SAY "{VOICE=07}I give you{BREAK}{E322}, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6389,13 +6389,13 @@ STORE 0x18 0x0 0x43220000 0x1 0x0
 CMP_GE 0x18 0x0 0x43220000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1982c
 SYS_42 0x8 
-SAY "{COLOR=2}{E322}が{BREAK}仲間になった!"
+SAY "{COLOR=2}{E322}{BREAK}joined the party!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SETNAME "モーモン"
-SAY "{VOICE=07}「それじゃ　つぎのチャレンジも{BREAK} たのしみに　まってるモン!"
+SETNAME "Sanguini"
+SAY "{VOICE=07}I will await{BREAK}your next challenge, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6415,14 +6415,14 @@ L_19834:
 JMP_ABS 0xc L_19840
 L_19840:
 SYS_42 0x8 
-SETNAME "モーモン"
-SAY "{VOICE=07}「……と思ったけど{BREAK} 預かり所に　空きがないモンっ。"
+SETNAME "Sanguini"
+SAY "{VOICE=07}...Or I would,{BREAK}but storage is full, mon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「預かり所に　空きをつくってから{BREAK} また　ボクのところに　くるんだモン。"
+SAY "{VOICE=07}Make room in storage,{BREAK}then come back, mon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「それじゃ　つぎのチャレンジも{BREAK} たのしみに　まってるモン!"
+SAY "{VOICE=07}I will await{BREAK}your next challenge, mon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6658,7 +6658,7 @@ STORE 0x18 0x0 0x432c0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x432c0000 0x2 0x0
 JMP_IFNOT 0xc L_1a6fc
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}ぎんが機動兵器　スラ・ブラスターを　たおした!"
+SAY "{COLOR=2}{NAME} defeated{BREAK}the Slime blaster!"
 SYS_165 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
@@ -6688,11 +6688,11 @@ STORE 0x18 0x1 0x0 0x2 0x429e0000
 STORE 0x18 0x1 0x3f800000 0x2 0x40000000
 SYS_28 0x8 
 SYS_42 0x8 
-SETNAME "ピンクモーモン"
-SAY "{VOICE=08}「おかえりなさいませ　お客さま。{BREAK} 最強マスター闘技場は　いかがでしたか?"
+SETNAME "Pink sanguini"
+SAY "{VOICE=08}Welcome back, dear guest.{BREAK}How was the Arena?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「またの　おこしを{BREAK} おまちもうしあげております。"
+SAY "{VOICE=08}We await{BREAK}your next visit."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6704,11 +6704,11 @@ STORE 0x18 0x1 0x0 0x2 0x429e0000
 STORE 0x18 0x1 0x3f800000 0x2 0x40400000
 SYS_28 0x8 
 SYS_42 0x8 
-SETNAME "ピンクモーモン"
-SAY "{VOICE=08}「おかえりなさいませ　お客さま。{BREAK} 最強マスター闘技場は　いかがでしたか?"
+SETNAME "Pink sanguini"
+SAY "{VOICE=08}Welcome back, dear guest.{BREAK}How was the Arena?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}「またの　おこしを{BREAK} おまちもうしあげております。"
+SAY "{VOICE=08}We await{BREAK}your next visit."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

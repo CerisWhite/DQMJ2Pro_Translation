@@ -3298,22 +3298,22 @@ SYS_42 0x8
 SETNAME "Eugene Poole"
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x0
 JMP_IFNOT 0xc L_cf8c
-SAY "{VOICE=03}「おお　よくきてくれたな!{BREAK} わしゃ　お前さんを　さがしておったんじゃよ!"
+SAY "{VOICE=03}Oh, good of you to come!{BREAK}I was looking for you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「はじめて　ここに　まよいこんできたときは{BREAK} どうようして　なにも　できんかったが……"
+SAY "{VOICE=03}When I first came here,{BREAK}I panicked and did nothing..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「目がさめたら　どういうわけか{BREAK} お前さんと　戦ってみたくなったんじゃ。"
+SAY "{VOICE=03}When I awoke, somehow{BREAK}I wanted to fight you."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「わかいころ　モンスターマスターだった{BREAK} わしの　ちが　さわいでしまったんじゃろうな。"
+SAY "{VOICE=03}My old Master blood{BREAK}must be stirring again."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「そういうわけで　どうじゃ?{BREAK} わしと　マスター戦を　やってみんか?"
+SAY "{VOICE=03}So, what say you?{BREAK}Have a Master battle?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「わしに勝てたら　ほうびを　やるぞい!{BREAK} さあ　いますぐ　戦ってくれるかの?{VOICE=09}"
+SAY "{VOICE=03}Beat me and get a prize!{BREAK}Fight me now?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000
@@ -3323,14 +3323,14 @@ JMP_ABS 0xc L_d0a8
 L_cf8c:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_d018
-SAY "{VOICE=03}「おお　お前さん。やっぱり　わしと{BREAK} マスター戦を　してくれるのかっ?{VOICE=09}"
+SAY "{VOICE=03}Oh, you! Will you have{BREAK}a Master battle?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d0a8
 L_d018:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x40000000
 JMP_IFNOT 0xc L_d0a8
-SAY "{VOICE=03}「おお　お前さん!　また　あったな!{BREAK} どうじゃ　わしとマスター戦と　いかんか?{VOICE=09}"
+SAY "{VOICE=03}Oh, you again!{BREAK}How about a Master battle?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d0a8
@@ -3347,10 +3347,10 @@ L_d128:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_d230
 L_d14c:
-SAY "{VOICE=03}「そうか　そうか!　うけてくれるか!"
+SAY "{VOICE=03}I see! You accept!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「マスター戦なんぞ　ひさしぶりじゃ。{BREAK} ちっとは　手かげんしとくれよ。"
+SAY "{VOICE=03}It has been ages.{BREAK}Go easy on me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000
@@ -3360,10 +3360,10 @@ JMP_ABS 0xc L_d2f4
 L_d230:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x40000000
 JMP_IFNOT 0xc L_d2f4
-SAY "{VOICE=03}「ほっほっほ!{BREAK} そうこなくてはのう。"
+SAY "{VOICE=03}Ho ho ho!{BREAK}That is the spirit!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「さあ　いくぞ!{BREAK} わしは　手かげんせんからなっ!"
+SAY "{VOICE=03}Here I come!{BREAK}I will not hold back!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d2f4
@@ -3377,10 +3377,10 @@ JMP_REL L_d340
 L_d340:
 JMP_ABS 0xc L_d34c
 L_d34c:
-SAY "{VOICE=03}「……おお　そうか　そうか。{BREAK} まあ　お前さんにも　つごうがあるわな。"
+SAY "{VOICE=03}...Oh, I see.{BREAK}You have things to do too."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「ちょっぴり　センチな気分になったが{BREAK} まあ　気にしないでおくれ。"
+SAY "{VOICE=03}I feel sentimental,{BREAK}but never mind me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000
@@ -3495,20 +3495,20 @@ SYS_24 0x8
 STORE 0x18 0x0 0x42bc0000 0x1 0x0
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}「か～っ!　負けてしまったわ!{BREAK} やはり　お前さんは　強いのう。"
+SAY "{VOICE=03}Bah! I lost!{BREAK}You really are strong."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「どれ　たのしませてもらったほうびに{BREAK} お前さんに　ひとつ　モンスターをやろう。"
+SAY "{VOICE=03}For that fun battle,{BREAK}I will give you a monster."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「Eugene Pooleのイケイケコレクションの{BREAK} モンスターに　するかの?{VOICE=09}"
+SAY "{VOICE=03}Want one from Eugene Poole's{BREAK}Go-Getter Collection?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ba0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ba0000 0x2 0x0
 JMP_IFNOT 0xc L_e0e8
-SAY "{VOICE=03}「よし!　それでは{BREAK} こいつを　もっていけい!"
+SAY "{VOICE=03}Good! Then{BREAK}take this one!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3555,7 +3555,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e088
 L_e088:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　Eugene Pooleから{BREAK}{E322}を　もらった!"
+SAY "{COLOR=2}{NAME} received{BREAK}{E322} from Eugene Poole!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3565,14 +3565,14 @@ JMP_REL L_e0f0
 L_e0f0:
 JMP_ABS 0xc L_e0fc
 L_e0fc:
-SAY "{VOICE=03}「ならば　Eugene Pooleの　ムキムキコレクションの{BREAK} モンスターに　するかの?{VOICE=09}"
+SAY "{VOICE=03}Then Eugene Poole's{BREAK}Muscle Collection?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ba0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ba0000 0x2 0x0
 JMP_IFNOT 0xc L_e548
-SAY "{VOICE=03}「よし!　それでは{BREAK} こいつを　もっていけい!"
+SAY "{VOICE=03}Good! Then{BREAK}take this one!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3619,7 +3619,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e4e8
 L_e4e8:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　Eugene Pooleから{BREAK}{E322}を　もらった!"
+SAY "{COLOR=2}{NAME} received{BREAK}{E322} from Eugene Poole!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3629,14 +3629,14 @@ JMP_REL L_e550
 L_e550:
 JMP_ABS 0xc L_e55c
 L_e55c:
-SAY "{VOICE=03}「むむ。それでは　Eugene Pooleのとっておき{BREAK} ドキドキコレクションが　いいんじゃな?{VOICE=09}"
+SAY "{VOICE=03}Hmm. Then Eugene Poole's{BREAK}Thrill Collection?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ba0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ba0000 0x2 0x0
 JMP_IFNOT 0xc L_e9e8
-SAY "{VOICE=03}「よし!　それでは{BREAK} こいつを　もっていけい!"
+SAY "{VOICE=03}Good! Then{BREAK}take this one!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3686,7 +3686,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_e988
 L_e988:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　Eugene Pooleから{BREAK}{E322}を　もらった!"
+SAY "{COLOR=2}{NAME} received{BREAK}{E322} from Eugene Poole!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3696,7 +3696,7 @@ JMP_REL L_e9f0
 L_e9f0:
 JMP_ABS 0xc L_e9fc
 L_e9fc:
-SAY "{VOICE=03}「ええいっ!　年よりを　もてあそぶでないわ!{BREAK} もう　わしが　決めたのを　もってけ!　ほれ!"
+SAY "{VOICE=03}Enough! Do not toy with me!{BREAK}I will choose. Here!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3830,7 +3830,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_f3a4
 L_f3a4:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は　Eugene Pooleに{BREAK}{E322}を　おしつけられた!"
+SAY "{COLOR=2}Eugene Poole forced{BREAK}{E322} on {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3847,13 +3847,13 @@ SYS_42 0x8
 SETNAME "Eugene Poole"
 CMP_LE 0x18 0x0 0x42b80000 0x2 0x40400000
 JMP_IFNOT 0xc L_f5b4
-SAY "{VOICE=03}「やっぱり　マスター戦は　たのしいのう。{BREAK}  年よりの相手をしてくれて　ありがとうよ。"
+SAY "{VOICE=03}Master battles are fun.{BREAK}Thanks for humoring me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「さて　わしは　さらに強いモンスターをもとめ{BREAK} しばらく　さすらうことにするかの。"
+SAY "{VOICE=03}Now I shall wander awhile{BREAK}for stronger monsters."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「あしたになったら　また　わしをみつけとくれ。{BREAK} たのしみに　まっとるぞい。"
+SAY "{VOICE=03}Find me again tomorrow.{BREAK}I will be waiting."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_f698
@@ -3862,10 +3862,10 @@ JMP_REL L_f5bc
 L_f5bc:
 JMP_ABS 0xc L_f5c8
 L_f5c8:
-SAY "{VOICE=03}「やっぱり　マスター戦は　たのしいのう。{BREAK} 年よりの相手をしてくれて　ありがとうよ。"
+SAY "{VOICE=03}Master battles are fun.{BREAK}Thanks for humoring me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}「さて　お前さんとも　いっぱい戦ったことだし{BREAK} わしは　そろそろ　めざめるとするかの。"
+SAY "{VOICE=03}We have battled plenty.{BREAK}Time for me to wake up."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_f698
@@ -4218,7 +4218,7 @@ STORE 0x18 0x1 0x0 0x2 0x40c00000
 SYS_60 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{COLOR=2}このさきから　じゃあくな気配を　かんじる。{BREAK}さきに　すすみますか?{VOICE=09}"
+SAY "{COLOR=2}An evil aura lies ahead.{BREAK}Proceed?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4501,7 +4501,7 @@ WAIT 0x10 0x2 0x41f00000
 CMP_EQ 0x18 0x0 0x42cc0000 0x2 0x430b0000
 JMP_IFNOT 0xc L_119c4
 SYS_42 0x8 
-SAY "{COLOR=2}このさきから　じゃあくな気配を　かんじる。{BREAK}さきに　すすみますか?{VOICE=09}"
+SAY "{COLOR=2}An evil aura lies ahead.{BREAK}Proceed?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_11a5c
@@ -4509,7 +4509,7 @@ L_119c4:
 CMP_EQ 0x18 0x0 0x42cc0000 0x2 0x43140000
 JMP_IFNOT 0xc L_11a5c
 SYS_42 0x8 
-SAY "{COLOR=2}あたりから　じゃあくな気配がする。{BREAK}それでも　たき火に　ちかづきますか?{VOICE=09}"
+SAY "{COLOR=2}An evil aura fills the area.{BREAK}Approach the campfire?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_11a5c
@@ -4627,7 +4627,7 @@ STORE 0x18 0x1 0x0 0x2 0x40c00000
 SYS_60 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{COLOR=2}あたりから　じゃあくな気配がする。{BREAK}それでも　たき火に　ちかづきますか?{VOICE=09}"
+SAY "{COLOR=2}An evil aura fills the area.{BREAK}Approach the campfire?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -5088,7 +5088,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_49 0x8 
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
-SAY "{COLOR=2}強力な結界が　ほどこされていて{BREAK}さきには　すすめないようだ。"
+SAY "{COLOR=2}A strong barrier blocks{BREAK}the way ahead."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5390,13 +5390,13 @@ CMP_EQ 0x18 0x0 0x42de0000 0x2 0x41000000
 JMP_IFNOT 0xc L_15180
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}「さあ　{NAME}よ。ヒヒュルデのまつ{BREAK} 聖地　ブランパレスを　めざそう。"
+SAY "{VOICE=07}Come, {NAME}. Let us head{BREAK}for Hihyurude at Blanc Palace."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「だが　これよりさきは{BREAK} じゃあくな気配が　いっそう　強くなっている。"
+SAY "{VOICE=07}But beyond here,{BREAK}the evil aura grows stronger."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「じゅうぶん　気をつけて　すすむのだぞ。{BREAK} 我は　汝のあとを　ついていくからな。"
+SAY "{VOICE=07}Proceed with care.{BREAK}I will follow behind you."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -9554,7 +9554,7 @@ SYS_42 0x8
 SAY "{COLOR=2}The flames of the bonfire dance in the cold air."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}たいまつを　とり出しますか?{VOICE=09}"
+SAY "{COLOR=2}Take out torch?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -9714,7 +9714,7 @@ JMP_IFNOT 0xc L_2ac44
 CMP_EQ 0x18 0x0 0x43230000 0x2 0x3f800000
 JMP_IFNOT 0xc L_2ac38
 SYS_42 0x8 
-SAY "{COLOR=2}たいまつは　チカラ強く　ともっている。{BREAK}なんど戦っても　きえそうにない。"
+SAY "{COLOR=2}The torch burns bright.{BREAK}It will not go out."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -9772,7 +9772,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x0
 SYS_A6 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}たいまつの火が　きえてしまった!"
+SAY "{COLOR=2}The torch went out!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -9991,7 +9991,7 @@ STORE 0x18 0x1 0x0 0x2 0x44024000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_2A 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}れんごく天馬は{BREAK}なにかを　おとしていった。"
+SAY "{COLOR=2}The Hellfire Pegasus{BREAK}dropped something."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -9999,7 +9999,7 @@ STORE 0x18 0x1 0x0 0x2 0x41500000
 SYS_A7 0x8 
 SYS_AC 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME}は{BREAK}ふっかつのほのおを　手に入れた!"
+SAY "{COLOR=2}{NAME} obtained{BREAK}the Revival Flame!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
