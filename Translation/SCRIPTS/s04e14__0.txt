@@ -5015,7 +5015,7 @@ SYS_42 0x8
 SAY "{COLOR=2}The flames of the bonfire dance in the cold air."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}たいまつを　とり出しますか?{VOICE=09}"
+SAY "{COLOR=2}Take out the torch?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -5091,7 +5091,7 @@ STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_AD 0x8 
 WAIT 0x10 0x2 0x40a00000
 SYS_42 0x8 
-SAY "{COLOR=2}火は　きえてしまったようだ。{BREAK}もう　使えそうにない……。"
+SAY "{COLOR=2}The fire has gone out.{BREAK}It can no longer be used..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5116,10 +5116,10 @@ L_15530:
 STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}たきぎが　つんである……。"
+SAY "{COLOR=2}Firewood is piled here..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}火を　つけますか?{VOICE=09}"
+SAY "{COLOR=2}Light a fire?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -5130,7 +5130,7 @@ CMP_EQ 0x18 0x0 0x42a80000 0x2 0x0
 JMP_IFNOT 0xc L_156a8
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}しかし　火種をもってない……。"
+SAY "{COLOR=2}But you have no flame..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5190,7 +5190,7 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}たき火をするための{BREAK}たきぎが　つまれている。"
+SAY "{COLOR=2}Firewood for a campfire{BREAK}is piled here."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5203,10 +5203,10 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}たきぎが　つんである。"
+SAY "{COLOR=2}Firewood is piled here."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}あたりには　大きな　あしあとが{BREAK}ついているようだ……。"
+SAY "{COLOR=2}Large footprints seem to be{BREAK}all around here..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5241,7 +5241,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x42d00000
 SYS_A8 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}たいまつの火が　ちいさくなってしまった!{BREAK}あと　{E322}回ぐらい戦えば　きえてしまいそうだ。"
+SAY "{COLOR=2}The torch flame has grown weak!{BREAK}It may go out after {E322} battles."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5332,7 +5332,7 @@ STORE 0x18 0x1 0x0 0x2 0x40800000
 STORE 0x18 0x1 0x3f800000 0x2 0x0
 SYS_2A 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}たいまつの火が　きえてしまった!"
+SAY "{COLOR=2}The torch flame went out!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6539,7 +6539,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1a0fc
 SYS_42 0x8 
-SAY "{COLOR=2}密林らしい　もようが　えがかれたセキヒだ。{BREAK}だいざに　なにかをはめる　くぼみがある。"
+SAY "{COLOR=2}A tablet with a jungle pattern.{BREAK}The base has a socket."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6550,7 +6550,7 @@ L_1a104:
 JMP_ABS 0xc L_1a110
 L_1a110:
 SYS_42 0x8 
-SAY "{COLOR=2}密林らしい　もようが　えがかれたセキヒは{BREAK}チカラ強く　かがやいている。"
+SAY "{COLOR=2}A tablet with a jungle pattern{BREAK}shines with great power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6561,13 +6561,13 @@ L_1a190:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1a5ec
 SYS_42 0x8 
-SAY "{COLOR=2}密林らしい　もようが　えがかれたセキヒだ。{BREAK}だいざに　なにかをはめる　くぼみがある。"
+SAY "{COLOR=2}A tablet with a jungle pattern.{BREAK}The base has a socket."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}密林で　手に入れたプレートを{BREAK}はめることが　できるようだ。"
+SAY "{COLOR=2}The jungle plate{BREAK}seems to fit here."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}密林のプレートを　はめますか?{VOICE=09}"
+SAY "{COLOR=2}Insert the Jungle Plate?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -6607,7 +6607,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}密林らしい　もようが　えがかれたセキヒに{BREAK}チカラが　たくわえられたようだ。"
+SAY "{COLOR=2}Power seems stored in the{BREAK}jungle-pattern tablet."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6642,7 +6642,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1a794
 SYS_42 0x8 
-SAY "{COLOR=2}平原らしい　もようが　えがかれたセキヒだ。{BREAK}だいざに　なにかをはめる　くぼみがある。"
+SAY "{COLOR=2}A tablet with a plains pattern.{BREAK}The base has a socket."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6653,7 +6653,7 @@ L_1a79c:
 JMP_ABS 0xc L_1a7a8
 L_1a7a8:
 SYS_42 0x8 
-SAY "{COLOR=2}平原らしい　もようが　えがかれたセキヒは{BREAK}チカラ強く　かがやいている。"
+SAY "{COLOR=2}A tablet with a plains pattern{BREAK}shines with great power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6664,13 +6664,13 @@ L_1a828:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1ac84
 SYS_42 0x8 
-SAY "{COLOR=2}平原らしい　もようが　えがかれたセキヒだ。{BREAK}だいざに　なにかをはめる　くぼみがある。"
+SAY "{COLOR=2}A tablet with a plains pattern.{BREAK}The base has a socket."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}平原で　手に入れたプレートを{BREAK}はめることが　できるようだ。"
+SAY "{COLOR=2}The plains plate{BREAK}seems to fit here."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}平原のプレートを　はめますか?{VOICE=09}"
+SAY "{COLOR=2}Insert the Plains Plate?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -6710,7 +6710,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}平原らしい　もようが　えがかれたセキヒに{BREAK}チカラが　たくわえられたようだ。"
+SAY "{COLOR=2}Power seems stored in the{BREAK}plains-pattern tablet."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6745,7 +6745,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1ae2c
 SYS_42 0x8 
-SAY "{COLOR=2}雪山らしい　もようが　えがかれたセキヒだ。{BREAK}だいざに　なにかをはめる　くぼみがある。"
+SAY "{COLOR=2}A tablet with a snowy peak pattern.{BREAK}The base has a socket."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6756,7 +6756,7 @@ L_1ae34:
 JMP_ABS 0xc L_1ae40
 L_1ae40:
 SYS_42 0x8 
-SAY "{COLOR=2}雪山らしい　もようが　えがかれたセキヒは{BREAK}チカラ強く　かがやいている。"
+SAY "{COLOR=2}A tablet with a snowy peak pattern{BREAK}shines with great power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6767,13 +6767,13 @@ L_1aec0:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1b31c
 SYS_42 0x8 
-SAY "{COLOR=2}雪山らしい　もようが　えがかれたセキヒだ。{BREAK}だいざに　なにかをはめる　くぼみがある。"
+SAY "{COLOR=2}A tablet with a snowy peak pattern.{BREAK}The base has a socket."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}雪山で　手に入れたプレートを{BREAK}はめることが　できるようだ。"
+SAY "{COLOR=2}The snowy peak plate{BREAK}seems to fit here."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}雪山のプレートを　はめますか?{VOICE=09}"
+SAY "{COLOR=2}Insert the Snowy Peak Plate?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -6813,7 +6813,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}雪山らしい　もようが　えがかれたセキヒに{BREAK}チカラが　たくわえられたようだ。"
+SAY "{COLOR=2}Power seems stored in the{BREAK}snowy peak-pattern tablet."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6848,7 +6848,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1b4c4
 SYS_42 0x8 
-SAY "{COLOR=2}断崖らしい　もようが　えがかれたセキヒだ。{BREAK}だいざに　なにかをはめる　くぼみがある。"
+SAY "{COLOR=2}A tablet with a cliff pattern.{BREAK}The base has a socket."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6859,7 +6859,7 @@ L_1b4cc:
 JMP_ABS 0xc L_1b4d8
 L_1b4d8:
 SYS_42 0x8 
-SAY "{COLOR=2}断崖らしい　もようが　えがかれたセキヒは{BREAK}チカラ強く　かがやいている。"
+SAY "{COLOR=2}A tablet with a cliff pattern{BREAK}shines with great power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6870,13 +6870,13 @@ L_1b558:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1b9b4
 SYS_42 0x8 
-SAY "{COLOR=2}断崖らしい　もようが　えがかれたセキヒだ。{BREAK}だいざに　なにかをはめる　くぼみがある。"
+SAY "{COLOR=2}A tablet with a cliff pattern.{BREAK}The base has a socket."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}断崖で　手に入れたプレートを{BREAK}はめることが　できるようだ。"
+SAY "{COLOR=2}The cliff plate{BREAK}seems to fit here."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}断崖のプレートを　はめますか?{VOICE=09}"
+SAY "{COLOR=2}Insert the Cliff Plate?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -6916,7 +6916,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}断崖らしい　もようが　えがかれたセキヒに{BREAK}チカラが　たくわえられたようだ。"
+SAY "{COLOR=2}Power seems stored in the{BREAK}cliff-pattern tablet."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6951,7 +6951,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1bb5c
 SYS_42 0x8 
-SAY "{COLOR=2}海岸らしい　もようが　えがかれたセキヒだ。{BREAK}だいざに　なにかをはめる　くぼみがある。"
+SAY "{COLOR=2}A tablet with a shore pattern.{BREAK}The base has a socket."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6962,7 +6962,7 @@ L_1bb64:
 JMP_ABS 0xc L_1bb70
 L_1bb70:
 SYS_42 0x8 
-SAY "{COLOR=2}海岸らしい　もようが　えがかれたセキヒは{BREAK}チカラ強く　かがやいている。"
+SAY "{COLOR=2}A tablet with a shore pattern{BREAK}shines with great power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6973,13 +6973,13 @@ L_1bbf0:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1c04c
 SYS_42 0x8 
-SAY "{COLOR=2}海岸らしい　もようが　えがかれたセキヒだ。{BREAK}だいざに　なにかをはめる　くぼみがある。"
+SAY "{COLOR=2}A tablet with a shore pattern.{BREAK}The base has a socket."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}海岸で　手に入れたプレートを{BREAK}はめることが　できるようだ。"
+SAY "{COLOR=2}The shore plate{BREAK}seems to fit here."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}海岸のプレートを　はめますか?{VOICE=09}"
+SAY "{COLOR=2}Insert the Shore Plate?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -7019,7 +7019,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}海岸らしい　もようが　えがかれたセキヒに{BREAK}チカラが　たくわえられたようだ。"
+SAY "{COLOR=2}Power seems stored in the{BREAK}shore-pattern tablet."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7054,7 +7054,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1c1f8
 SYS_42 0x8 
-SAY "{COLOR=2}巨大な　ししの　もようが　えがかれたセキヒだ。{BREAK}だいざに　なにかをはめる　くぼみがある。"
+SAY "{COLOR=2}A tablet with a giant lion pattern.{BREAK}The base has a socket."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7065,7 +7065,7 @@ L_1c200:
 JMP_ABS 0xc L_1c20c
 L_1c20c:
 SYS_42 0x8 
-SAY "{COLOR=2}巨大な　ししの　もようが　えがかれたセキヒは{BREAK}チカラ強く　かがやいている。"
+SAY "{COLOR=2}A tablet with a giant lion pattern{BREAK}shines with great power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7076,13 +7076,13 @@ L_1c290:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1cb6c
 SYS_42 0x8 
-SAY "{COLOR=2}巨大な　ししの　もようが　えがかれたセキヒだ。{BREAK}だいざに　なにかをはめる　くぼみがある。"
+SAY "{COLOR=2}A tablet with a giant lion pattern.{BREAK}The base has a socket."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}遺跡地下で　手に入れたプレートを{BREAK}はめることが　できるようだ。"
+SAY "{COLOR=2}The ruins plate{BREAK}seems to fit here."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}闘神のプレートを　はめますか?{VOICE=09}"
+SAY "{COLOR=2}Insert the War God Plate?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -7122,7 +7122,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}巨大な　ししの　もようが　えがかれたセキヒに{BREAK}チカラが　たくわえられたようだ。"
+SAY "{COLOR=2}Power seems stored in the{BREAK}giant lion tablet."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
