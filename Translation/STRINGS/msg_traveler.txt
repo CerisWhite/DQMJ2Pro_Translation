@@ -8,7 +8,7 @@ Saving
 Items and Weapons
 Monster Championship
 Tag Mode Battles
-モンスターの交換
+Monster Trading
 Guest Monsters
 The 'Guest' Mark
 Scouting
@@ -24,13 +24,13 @@ Gold Bank ATM
 Favorite Teams
 Virtual Battle
 Weather
-けいとうについて1
-けいとうについて2
+Monster Families 1
+Monster Families 2
 Synthesis
-How to Synthesize
+How to Synthesise
 Inheriting Skills
-Leveling Up
-しんか配合の仕方
+Levelling Up Limits
+How to Evolve Synthesis
 Heal All
 Monster Mender
 Memo 1
@@ -58,45 +58,45 @@ Zoom is a skill used by the hero to{315}travel instantaneously to regions he{315
 You can save your game at almost any{315}time or point during the adventure.{315}However, there are a small number of{315}scenes where you cannot save.
 Press the Y Button to read up on item{315}effects. There are items the hero can{315}use while travelling and those he can{315}use during battle.{315}Weapons, are equipped by monsters.{315}They serve mostly to boost attack power.
 The ultimate monster scout tournament{315}takes place via Nintendo WFC.{315}Participants from all over the world are{315}ranked after daily Home and Away Bouts.
-ワイヤレス通信を使って　すれちがった{315}ほかのプレイヤーと　対戦します。{315}対戦相手は　思い出の戦いとして　ほぞんでき{315}さらに　配信することが　かのうです。{315}{315}ただし　RANKがSいじょうのモンスターは{315}スカウトすることが　できないので{315}ちゅういしてください。
-ほかのプレイヤーが　そだてたモンスターや{315}DQMジョーカー2で　そだてたモンスターを{315}ワイヤレス通信を使い　交換することができます。{315}{315}ただし　DQMジョーカー2と　交換できるのは{315}RANKがAまでの　モンスターにかぎられ{315}レベルは　1になってしまうので{315}ちゅういしてください。
-すれちがいバトルで　仲間にしたモンスターは{315}ゲストモンスターとよばれ　名前のよこに{315}「Guest」マークが　つきます。{315}あなたの　そだてたモンスターと　おなじように{315}パーティメンバーに入れて　戦わせたり{315}すれちがいバトルに　使うこともできますが{315}Wi-Fi通信の　最強マスター決定戦には{315}参加できないので　ちゅういしてください。
-系図から　「Guest」マークがきえると{315}そのモンスターの　「Guest」マークもきえます。{315}つまり　「Guest」マークのないモンスターと{315}くりかえし配合していけば　そのモンスターから{315}「Guest」マークはきえ　自分のものにできます。{315}{315}「Guest」マークがきえれば　Wi-Fi通信の{315}最強マスター決定戦にも　参加ができます。
-戦闘で「スカウト」を選ぶと　仲間モンスターは{315}相手のモンスターを　仲間にするため{315}スカウトアタックを　行います。{315}{315}スカウトは　相手が　おこりだすまで{315}なんどでも　トライできます。
-スカウトアタックで　ひょうじされるすうじは{315}スカウトが成功するかどうかの　かくりつです。{315}この　かくりつが　たかければ　たかいほど{315}モンスターは　仲間に　なりやすくなります。{315}また　相手を　ひん死まで　よわらせると{315}成功かくりつは　たかくなると言われています。{315}思いどおりに　かくりつが上がらないときは{315}レベルを上げてから　トライしてみましょう。
-「入れかえ」で　ひょうじされる　みぎがわの3体が{315}スタンバイモンスターです。{315}メインで戦う　パーティモンスターとは　べつに{315}ひかえの仲間として　つれあるくことができます。
-戦闘中に　パーティモンスターと{315}スタンバイモンスターを{315}Yボタンで　入れかえることができます。{315}{315}HPの減ったモンスターを　休ませるなど{315}スタンバイモンスターの使い方しだいで{315}ぐっと戦闘に　勝ちやすくなるはずです。{315}いろいろと　ためしてみましょう。
-あおく光る　いしのはしらは　回復ポイントです。{315}仲間のHPとMPを　かんぜんに回復して{315}死んでいるモンスターも　ふっかつします。{315}{315}いちど使った回復ポイントは{315}エリアのそとに出ることで{315}また　使えるようになります。
-モンスターの中には　おおにわとりのような{315}ひときわ　体の大きな者たちがいます。{315}かけだしのマスターでは　強力なチカラをもつ{315}かれらに　かなわないでしょう。{315}{315}もし　かれらに出会ってしまったら{315}戦わずに　にげるのも　ひとつの手です。
-この島には　そうぞうを　はるかにこえる{315}巨大なモンスターが　生息しているようです。{315}ふつうに戦っても　勝ちめはないでしょう。{315}{315}モンスターマスターとしての　チカラをつけ{315}かれらと　わたりあう日が　くるかもしれませんが{315}まともに　相手をしてもらえないうちは{315}ちかづかないほうが　よさそうです。
-レベルアップなどで増えるスキルポイントを{315}スキルにわりふることで　新しい特技や特性を{315}おぼえることができます。
-道具や武器を　売り買いできます。{315}売りもののしゅるいを　増やすほうほうが{315}あるようですが……?
-しょじきんを　預けておくことができます。{315}てもちのモンスターが　ぜんめつしてしまうと{315}しょじきんが　半分になってしまいますが{315}ATMに預けたお金は　減りません。
-お気に入り編成とは{315}すきなモンスターを　すきなくみあわせで{315}とうろくできるシステムです。{315}とうろくしたメンバーは　そのままパーティや{315}スタンバイと　入れかえることができます。{315}ワイヤレス通信や　Wi-Fi通信での対戦用や　{315}すれちがい対戦用などに　わけて{315}メンバーを　とうろくしておくと　べんりです。
-バーチャルバトルとは　自分の仲間モンスターと{315}じゆうに対戦できるシステムです。{315}{315}敵と　味方を　じゆうにせっていできるので{315}対戦相手の攻撃パターンを　よみといたり{315}仲間モンスターの　行動チェックを{315}行うことが　かのうです。
-いちどクリアしたエリアに　入ると{315}てんきが　かわっていることがあり{315}エリアのようすも　かわります。{315}{315}てんきは　全体マップに出るたびに{315}かわることが　あります。
-モンスターは　スライム系　ドラゴン系　しぜん系{315}まじゅう系　ぶっしつ系　あくま系　ゾンビ系{315}???系の　8つのけいとうに　わけられます。{315}{315}また　それらのけいとうには　それぞれ{315}テンションの上がるツボが　よういされており{315}戦闘中　そのツボを　しげきされると{315}テンションが上がることが　あります。
-たとえば　スライム系ならば　戦闘中{315}ルカニなどの　よわくなる攻撃をうけると{315}テンションが　上がることがあり{315}ゾンビ系ならば　戦闘中　だれかが　たおれると{315}テンションが　上がることがあります。{315}{315}ほかのけいとうの　テンションの上がるツボも{315}ぜひ　自分で　みつけてみてください。
-配合とは　2体のモンスターをかけあわせ{315}新たなモンスターを生み出す　キセキの技です。{315}{315}かけあわせた　2体のモンスターは　親とよばれ{315}新たに生まれたモンスターは　その　こどもです。{315}こどものモンスターは　親をこえて{315}強くなっていくので　どんどん配合しましょう。
-配合をするためには　こどもの　親となる{315}{231}と{232}のモンスターが　ひつようです。{315}レベル10をこえると　親に　なれます。{315}{315}モンスターは　F　から　A　というように{315}RANKが　上がるほど　強くなります。{315}配合して　より　RANKが　うえの{315}モンスターを　そだてましょう。
-配合で生まれるモンスターは　親のスキルを{315}つうじょう3コまで　ひきつぐことができます。{315}{315}さらに　親のもっていたスキルポイントの{315}半分を　こどもは　うけつぎます。{315}スキルに　ふりわけてあろうが　なかろうが{315}スキルポイントはすべて　半分になって{315}うけつがれるので　おぼえておきましょう。
-モンスターが成長できる　げんかいは{315}レベル50です。{315}ただし　配合をくりかえし　さらに親のレベルが{315}たかいと　もっと成長できるモンスターを{315}生み出すことができます。
-しんか配合とは　『強』や『最強』がつく{315}モンスターを生み出す　配合のことです。{315}RANKがF　E　Dで　レベルが20いじょうの{315}モンスターを　おなじ種族のモンスターと{315}配合すると　『強』モンスターが生まれ{315}RANKがC　B　Aで　レベルが50いじょうの{315}モンスターを　おなじ種族のモンスターと{315}配合すると　『最強』モンスターが生まれます。
-モンスターの特技を使って　全員のHPを{315}全回復するまで　回復します。{315}ただし　とちゅうでMPがなくなった場合は{315}そこまでしか　回復しません。
-てもちのモンスターの　HPとMPを全回復します。{315}いどう中に　3回まで使うことができ{315}使いきってしまっても　飛行船にもどれば{315}また　使えるようになります。
-スカウトQレベル1の　クリアじょうけんは{315}特性『ぼやき』をもつ{315}モンスターを　つれてくること!{315}{315}ポンポコだぬきや　アイアンタートルが{315}この特性を　もっているわね!
-スカウトQレベル2の　クリアじょうけんは{315}ドラゴン系のモンスターを{315}2体　つれてくること!{315}{315}ドラゴン系のモンスター2体を　パーティに{315}セットして　私に話しかければ　クリアよ!{315}コドラや　いばらドラゴンや{315}ダッシュランが　ドラゴン系ね!
-スカウトQレベル3の　クリアじょうけんは{315}Guestマークのついた　モンスターを{315}なんでもいいから　つれてくること!{315}{315}すれちがいバトルや　配信などで手に入れた{315}モンスターをつれてくれば　クリアよ!{315}{315}つれてくるのは　どのモンスターでも　いいわ!
-スカウトQレベル4の　クリアじょうけんは{315}『いきなりスカラ』と　『ときどきスカラ』の{315}特性をもつ　モンスターを　つれてくること!{315}{315}パーティの中で　1体が　2つもっていてもいいし{315}2体で　1つずつ　もっていてもいいわ!{315}ぐんたいアリや　ブッチョマンが{315}これらの特性を　もっているわね!
-スカウトQレベル5の　クリアじょうけんは{315}特性『呪文会心　出やすい』をもつ{315}モンスターを　つれてくること!{315}{315}ジャンバラヤンや　ダークホーンが{315}この特性を　もっているわね!
-スカウトQレベル6の　クリアじょうけんは{315}強スライムのように『強』のついたモンスターを{315}なんでもいいから　つれてくること!{315}{315}F～D RANKの　モンスターを　レベル20より{315}上にしてから　おなじモンスターと　配合すると{315}『強』のついたモンスターが　生まれるわ!{315}相手のレベルは　10いじょうなら　オーケーよ!
-スカウトQレベル7の　クリアじょうけんは{315}特性『ラッキー』をもつ{315}モンスターを　つれてくること!{315}{315}この特性をもった　モンスターは{315}たしか　海岸に　いたわね!
-スカウトQレベル8の　クリアじょうけんは{315}特性『ねむりガード+』をもつ{315}モンスターを　つれてくること!{315}{315}モンスターに　スキル『ねむりガード』や{315}『ナイトメア』を　もたせてから{315}きていのスキルポイントを　ふれば{315}特性『ねむりガード+』を　おぼえるわよ!
-スカウトQレベル9の　クリアじょうけんは{315}特性『たいでんたいしつ』をもつ{315}モンスターを　つれてくること!{315}{315}エビルチャリオットや　キラーマシンが{315}この特性を　もっているわね!
-スカウトQレベル10の　クリアじょうけんは{315}パーティランク☆6いじょうの{315}パーティを　つれてくること!{315}{315}パーティランク☆6いじょうとなる　パーティを{315}セットして　私に話しかければ　クリアよ!{315}パーティランクは　Xボタンをおすと　ひらく{315}メインメニューで　かくにんできるわ!
-スカウトQレベル11の　クリアじょうけんは{315}特性『スタンダードキラー』をもつ{315}モンスターを　つれてくること!{315}{315}バルザックや　強デンデン竜が{315}この特性を　もっているわね!
-スカウトQレベル12の　クリアじょうけんは{315}特性『メタルキラー』をもつ{315}モンスターを　つれてくること!{315}{315}強くびかり族や　最強メタッピーが{315}この特性を　もっているわね!
-スカウトQレベル13の　クリアじょうけんは{315}パーティランク☆7いじょうの{315}パーティを　つれてくること!{315}{315}パーティランク☆7いじょうとなる　パーティを{315}セットして　私に話しかければ　クリアよ!{315}パーティランクは　Xボタンをおすと　ひらく{315}メインメニューで　かくにんできるわ!
+Use wireless to battle players{315}you pass by.{315}Foes can be saved as memory battles{315}and sent to others.{315}{315}Note that monsters of rank S or higher{315}cannot be scouted.
+You can trade monsters raised by{315}other players or in DQM Joker 2{315}using wireless communication.{315}{315}Only rank A or lower monsters can be{315}traded with DQM Joker 2,{315}and their level becomes 1.
+Monsters scouted in Tag Mode Battles{315}are guest monsters, and get a{315}'Guest' mark by their name.{315}You can add them to your team{315}and use them in Tag Mode Battles,{315}but not in the Wi-Fi{315}Ultimate Master Cup.
+When the 'Guest' mark leaves the{315}family tree, it leaves the monster too.{315}So keep synthesising it with monsters{315}that have no 'Guest' mark, and it will{315}eventually become yours.{315}{315}Once the mark is gone, it can join{315}the Wi-Fi Ultimate Master Cup.
+Select 'Scout' in battle and your{315}monsters will use a scout attack{315}to win over the enemy monster.{315}{315}You can try scouting until the foe{315}gets angry.
+The number shown during a scout attack{315}is your chance of success.{315}The higher it is, the easier the monster{315}is to win over.{315}It is said that weakening the foe{315}near defeat raises your chances.{315}If the number stays low,{315}level up and try again.
+The three monsters shown on the right{315}in 'Switch' are standby monsters.{315}They travel with you as reserves,{315}separate from your active team.
+During battle, press Y to switch{315}active and standby monsters.{315}{315}Rest hurt monsters and use your{315}standby team well. It can make battles{315}much easier. Try different tactics.
+Blue glowing stone pillars are{315}healing spots. They fully restore{315}your team's HP and MP, and revive{315}defeated monsters.{315}{315}After using one, leave the area{315}to make it usable again.
+Some monsters, like Bantamweight,{315}are far larger than normal.{315}New masters likely cannot match{315}their overwhelming strength.{315}{315}If you encounter one,{315}running away is also an option.
+Giant monsters beyond imagination{315}live on this island.{315}Fighting them normally{315}would likely end badly.{315}{315}When your power grows,{315}you may challenge them someday,{315}but stay away for now.
+Assign skill points gained from{315}levelling up to skills{315}to learn new abilities and traits.
+Buy and sell items and weapons.{315}There may be ways to increase{315}the shop selection...?
+You can deposit your gold here.{315}If your party is wiped out,{315}carried gold is cut in half,{315}but deposited gold stays safe.
+Favorite Teams let you save{315}monster groups you like.{315}Saved members can be swapped{315}into your party or standby.{315}Registering teams for Wireless,{315}Wi-Fi or Tag Mode is useful.
+Virtual Battle lets you freely{315}battle using your own monsters.{315}{315}Enemy and ally settings{315}can be changed freely,{315}letting you study patterns{315}or test your monsters.
+When you enter a cleared area,{315}the weather may have changed,{315}altering the area too.{315}{315}Weather may change each time{315}you enter the world map.
+Monsters are split into 8 families:{315}Slime, Dragon, Nature, Beast,{315}Material, Demon, Undead and ???.{315}{315}Each family has a trigger that may{315}raise its tension in battle.
+For example, Slimes may tense up{315}when weakened by Sap or similar skills.{315}Undead may tense up when someone{315}falls in battle.{315}{315}Try to discover each family trigger{315}for yourself.
+Synthesis is a miracle art that{315}combines 2 monsters into a new one.{315}{315}The 2 used monsters are parents,{315}and the new monster is their child.{315}Children can surpass their parents,{315}so synthesise often.
+To synthesise, you need {231} and {232}{315}monsters to be the child's parents.{315}They can be parents above level 10.{315}{315}Monsters grow stronger as their rank{315}rises from F to A.{315}Synthesise higher-rank monsters.
+A synthesised monster can usually{315}inherit up to 3 parent skills.{315}{315}It also inherits half the parents'{315}skill points.{315}Assigned or not, all skill points{315}are halved and passed on.
+A monster's growth limit is level 50.{315}Repeated synthesis and high-level parents{315}can produce monsters that grow further.
+Evolve synthesis creates Strong{315}or Strongest monsters.{315}Fuse a rank F, E or D monster{315}at level 20+ with the same species{315}to make a Strong monster.{315}Fuse a rank C, B or A monster{315}at level 50+ with the same species{315}to make a Strongest monster.
+Uses monster skills to restore{315}all allies' HP to full.{315}If MP runs out midway,{315}healing stops there.
+Fully restores your monsters' HP and MP.{315}You can use it up to 3 times while out.{315}Return to the airship to recharge it.
+Scout Q level 1 asks you to bring{315}a monster with Heckling Hector!{315}{315}Boppin' badger and Armoured wartoise{315}have this trait!
+Scout Q level 2 asks you to bring{315}2 Dragon family monsters!{315}{315}Set 2 Dragons in your party{315}and talk to me!{315}Komodo, Dragonthorn and{315}Drag racer are Dragons!
+Scout Q level 3 asks you to bring{315}any monster with a Guest mark!{315}{315}Bring one from Tag Mode{315}or downloads to clear it!{315}{315}Any monster works!
+Scout Q level 4 asks you to bring{315}Insta-Buff and Rando-Buff!{315}{315}One monster may have both,{315}or two monsters one each!{315}Army ant and Axecutioner{315}have these traits!
+Scout Q level 5 asks you to bring{315}Spell Critical Booster!{315}{315}Swingin' Hipster and Damned Ram{315}have this trait!
+Scout Q level 6 asks you to bring{315}any Strong monster!{315}{315}Raise an F-D monster above 20{315}and synthesise it with the same monster{315}to create a Strong monster!{315}The other parent only needs level 10!
+Scout Q level 7 asks you to bring{315}a Lucky monster!{315}{315}I think one with that trait{315}was on the coast!
+Scout Q level 8 asks you to bring{315}Sleep Suppressor+!{315}{315}Give a monster Sleep Suppressor{315}or Nightmare, then spend enough{315}skill points to learn{315}Sleep Suppressor+!
+Scout Q level 9 asks you to bring{315}Static Discharge!{315}{315}Corrupt carter and Killing machine{315}have this trait!
+Scout Q level 10 asks you to bring{315}a rank ☆6+ party!{315}{315}Set a ☆6+ party and talk to me!{315}Check party rank in the{315}main menu with X!
+Scout Q level 11 asks you to bring{315}a Giant Killer monster!{315}{315}Baalzack and Strong jargon{315}have this trait!
+Scout Q level 12 asks you to bring{315}a Metal Killer monster!{315}{315}Strong headhunter and{315}Strongest mecha-mynah{315}have this trait!
+Scout Q level 13 asks you to bring{315}a rank ☆7+ party!{315}{315}Set a ☆7+ party and talk to me!{315}Check party rank in the{315}main menu with X!
 
 
 
