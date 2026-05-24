@@ -4758,7 +4758,7 @@ SYS_7A 0x8
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_12c5c
-SAY "{VOICE=07}Oh! For today’s youth,{BREAK}you show promise!"
+SAY "{VOICE=07}Oh! For today's youth,{BREAK}you show promise!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Good! I will show no mercy!{BREAK}Come at me for real!"
@@ -5137,7 +5137,7 @@ JMP_IFNOT 0xc L_14aac
 SAY "{VOICE=07}Aha! That is it!{BREAK}Now I am fired up!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Don\	 go easy on a woman!{BREAK}Here I come!"
+SAY "{VOICE=07}Dont go easy on a woman!{BREAK}Here I come!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

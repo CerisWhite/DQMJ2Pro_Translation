@@ -5720,7 +5720,7 @@ SYS_44 0x8
 SAY "{VOICE=07}You faced Hihyurude,{BREAK}huge as a castle!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Wow, {NAME}.{BREAK}You are Pipit Island’s hero!"
+SAY "{VOICE=07}Wow, {NAME}.{BREAK}You are Pipit Island's hero!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
