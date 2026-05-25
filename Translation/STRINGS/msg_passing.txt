@@ -125,7 +125,7 @@ Legendary Masters{315}Luca and Iru have appeared!
 Encountered {324}'s team{315}from {322}!
 A challenge from{315}{322}!
 DQM Joker 2's{315}{322} team appeared!
-You are visitor #{322}
+You are visitor No.{322}
 Received Master History
 Encountered {324}{315}from an unset region!
 Party
