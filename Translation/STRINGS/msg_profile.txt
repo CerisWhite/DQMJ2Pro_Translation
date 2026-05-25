@@ -1,8 +1,8 @@
-プロフィールせってい
-名前へんこう
-出身地せってい
-せっていかんりょう
-出身地をせんたくする
+Profile Settings
+Change Name
+Set Region
+Finish Settings
+Select Region
 
 
 
@@ -30,87 +30,87 @@
 
 
 
-しゅじんこうの名前を　へんこうできます。{315}ふせいな名前を　入力していると{315}Wi-Fi通信で　あそべません。{315}ふせいな名前を　入力している場合は{315}しゅじんこうの名前を　へんこうしてください。
-出身地を　せっていできます。{315}せっていした出身地は　すれちがいバトルや{315}ワイヤレス対戦　Wi-Fi通信の　がめんに{315}ひょうじされます。
-しゅじんこうの名前と出身地を　決定します。
+You can change the hero's name.{315}Invalid names cannot be used{315}with Wi-Fi communication.{315}If your name is invalid,{315}please change it.
+You can set your region.{315}It appears in Tag Mode Battles,{315}Wireless Battles and Wi-Fi screens.
+Confirm the hero's name and region.
 
 
-出身のちいきを　せんたくしてください。
-出身のくにを　せんたくしてください。
-出身地方を　せんたくしてください。
-出身地を　せんたくしてください。
-出身地を　{30b}{00}に　せっていしました。
-
-
-
+Select your region.
+Select your country.
+Select your area.
+Select your region.
+Region set to {30b}{00}.
 
 
 
-アジア
-ヨーロッパ・NIS
-ちゅうとう
-ほくべい
-ちゅうなんべい
-アフリカ
-たいようしゅう
-ほっかいどう・とうほく
-かんとう
-こうしんえつ
-ほくりく
-とうかい
-きんき
-ちゅうごく
-しこく
-きゅうしゅう・おきなわ
-地方
-みとうろく
-ほっかいどう
-あおもり
-いわて
-みやぎ
-あきた
-やまがた
-ふくしま
-いばらき
-とちぎ
-ぐんま
-さいたま
-ちば
-とうきょう
-かながわ
-にいがた
-やまなし
-ながの
-とやま
-いしかわ
-ふくい
-ぎふ
-しずおか
-あいち
-みえ
-しが
-きょうと
-おおさか
-ひょうご
-なら
-わかやま
-とっとり
-しまね
-おかやま
-ひろしま
-やまぐち
-とくしま
-かがわ
-えひめ
-こうち
-ふくおか
-さが
-ながさき
-くまもと
-おおいた
-みやざき
-かごしま
-おきなわ
+
+
+
+Asia
+Europe / CIS
+Middle East
+North America
+Latin America
+Africa
+Oceania
+Hokkaido/Tohoku
+Kanto
+Koshinetsu
+Hokuriku
+Tokai
+Kinki
+Chugoku
+Shikoku
+Kyushu/Okinawa
+Region
+Unregistered
+Hokkaido
+Aomori
+Iwate
+Miyagi
+Akita
+Yamagata
+Fukushima
+Ibaraki
+Tochigi
+Gunma
+Saitama
+Chiba
+Tokyo
+Kanagawa
+Niigata
+Yamanashi
+Nagano
+Toyama
+Ishikawa
+Fukui
+Gifu
+Shizuoka
+Aichi
+Mie
+Shiga
+Kyoto
+Osaka
+Hyogo
+Nara
+Wakayama
+Tottori
+Shimane
+Okayama
+Hiroshima
+Yamaguchi
+Tokushima
+Kagawa
+Ehime
+Kochi
+Fukuoka
+Saga
+Nagasaki
+Kumamoto
+Oita
+Miyazaki
+Kagoshima
+Okinawa
 IND
 IDN
 KHM
@@ -303,13 +303,13 @@ FJI
 MHL
 FSM
 JPN
-アジアちいきのくにを　せんたくします。
-ヨーロッパ・NISちいきのくにを　せんたくします。
-ちゅうとうちいきのくにを　せんたくします。
-ほくべいちいきのくにを　せんたくします。
-ちゅうなんべいちいきのくにを　せんたくします。
-アフリカちいきのくにを　せんたくします。
-たいようしゅうちいきのくにを　せんたくします。
+Select an Asian country.
+Select a Europe/CIS country.
+Select a Middle East country.
+Select a North American country.
+Select a Latin American country.
+Select an African country.
+Select an Oceanian country.
 
 
 
@@ -358,195 +358,195 @@ JPN
 
 
 
-出身地を　インドに　せっていします。
-出身地を　インドネシアに　せっていします。
-出身地を　カンボジアに　せっていします。
-出身地を　シンガポールに　せっていします。
-出身地を　スリランカに　せっていします。
-出身地を　タイに　せっていします。
-出身地を　だいかんみんこくに{315}せっていします。
-出身地を　ちゅうかじんみんきょうわこくに{315}せっていします。
-出身地を{315}ちょうせんみんしゅしゅぎじんみんきょうわこくに{315}せっていします。
-出身地を　ネパールに　せっていします。
-出身地を　パキスタンに　せっていします。
-出身地を　バングラデシュに{315}せっていします。
-出身地を　ひがしティモールに{315}せっていします。
-出身地を　フィリピンに　せっていします。
-出身地を　ブータンに　せっていします。
-出身地を　ブルネイに　せっていします。
-出身地を　ベトナムに　せっていします。
-出身地を　マレーシアに　せっていします。
-出身地を　ミャンマーに　せっていします。
-出身地を　モルディブに　せっていします。
-出身地を　モンゴルに　せっていします。
-出身地を　ラオスに　せっていします。
-出身地を　アイスランドに　せっていします。
-出身地を　アイルランドに　せっていします。
-出身地を　アゼルバイジャンに{315}せっていします。
-出身地を　アルバニアに　せっていします。
-出身地を　アルメニアに　せっていします。
-出身地を　アンドラに　せっていします。
-出身地を　イタリアに　せっていします。
-出身地を　ウクライナに　せっていします。
-出身地を　ウズベキスタンに{315}せっていします。
-出身地を　イギリスに　せっていします。
-出身地を　エストニアに　せっていします。
-出身地を　オーストリアに　せっていします。
-出身地を　オランダに　せっていします。
-出身地を　カザフスタンに　せっていします。
-出身地を　キプロスに　せっていします。
-出身地を　ギリシャに　せっていします。
-出身地を　キルギスに　せっていします。
-出身地を　グルジアに　せっていします。
-出身地を　クロアチアに　せっていします。
-出身地を　サンマリノに　せっていします。
-出身地を　スイスに　せっていします。
-出身地を　スウェーデンに　せっていします。
-出身地を　スペインに　せっていします。
-出身地を　スロバキアに　せっていします。
-出身地を　スロベニアに　せっていします。
-出身地を　セルビアに　せっていします。
-出身地を　タジキスタンに　せっていします。
-出身地を　チェコに　せっていします。
-出身地を　デンマークに　せっていします。
-出身地を　ドイツに　せっていします。
-出身地を　トルクメニスタンに{315}せっていします。
-出身地を　ノルウェーに　せっていします。
-出身地を　ハンガリーに　せっていします。
-出身地を　フィンランドに　せっていします。
-出身地を　フランスに　せっていします。
-出身地を　ブルガリアに　せっていします。
-出身地を　ベラルーシに　せっていします。
-出身地を　ベルギーに　せっていします。
-出身地を　ポーランドに　せっていします。
-出身地を　ボスニア・ヘルツェゴビナに{315}せっていします。
-出身地を　ポルトガルに　せっていします。
-出身地を　マケドニアに　せっていします。
-出身地を　マルタに　せっていします。
-出身地を　モナコに　せっていします。
-出身地を　モルドバに　せっていします。
-出身地を　モンテネグロに　せっていします。
-出身地を　ラトビアに　せっていします。
-出身地を　リトアニアに　せっていします。
-出身地を　リヒテンシュタインに{315}せっていします。
-出身地を　ルーマニアに　せっていします。
-出身地を　ルクセンブルクに{315}せっていします。
-出身地を　ロシアに　せっていします。
-出身地を　アフガニスタンに{315}せっていします。
-出身地を　アラブしゅちょうこくれんぽうに{315}せっていします。
-出身地を　イエメンに　せっていします。
-出身地を　イスラエルに　せっていします。
-出身地を　イラクに　せっていします。
-出身地を　イランに　せっていします。
-出身地を　オマーンに　せっていします。
-出身地を　カタールに　せっていします。
-出身地を　クウェートに　せっていします。
-出身地を　サウジアラビアに{315}せっていします。
-出身地を　シリアに　せっていします。
-出身地を　トルコに　せっていします。
-出身地を　バーレーンに　せっていします。
-出身地を　ヨルダンに　せっていします。
-出身地を　レバノンに　せっていします。
-出身地を　アメリカがっしゅうこくに{315}せっていします。
-出身地を　カナダに　せっていします。
-出身地を　アルゼンチンに　せっていします。
-出身地を　アンティグア・バーブーダに{315}せっていします。
-出身地を　ウルグアイに　せっていします。
-出身地を　エクアドルに　せっていします。
-出身地を　エルサルバドルに{315}せっていします。
-出身地を　ガイアナに　せっていします。
-出身地を　キューバに　せっていします。
-出身地を　グアテマラに　せっていします。
-出身地を　グレナダに　せっていします。
-出身地を　コスタリカに　せっていします。
-出身地を　コロンビアに　せっていします。
-出身地を　ジャマイカに　せっていします。
-出身地を　スリナムに　せっていします。
-出身地を{315}セントクリストファー・ネイビスに{315}せっていします。
-出身地を{315}セントビンセント・グレナディーンに{315}せっていします。
-出身地を　セントルシアに　せっていします。
-出身地を　チリに　せっていします。
-出身地を　ドミニカこくに　せっていします。
-出身地を　ドミニカきょうわこくに{315}せっていします。
-出身地を　トリニダード・トバゴに{315}せっていします。
-出身地を　ニカラグアに　せっていします。
-出身地を　ハイチに　せっていします。
-出身地を　パナマに　せっていします。
-出身地を　バハマに　せっていします。
-出身地を　パラグアイに　せっていします。
-出身地を　バルバドスに　せっていします。
-出身地を　ブラジルに　せっていします。
-出身地を　ベネズエラに　せっていします。
-出身地を　ベリーズに　せっていします。
-出身地を　ペルーに　せっていします。
-出身地を　ボリビアに　せっていします。
-出身地を　ホンジュラスに　せっていします。
-出身地を　メキシコに　せっていします。
-出身地を　アルジェリアに　せっていします。
-出身地を　アンゴラに　せっていします。
-出身地を　ウガンダに　せっていします。
-出身地を　エジプトに　せっていします。
-出身地を　エチオピアに　せっていします。
-出身地を　エリトリアに　せっていします。
-出身地を　ガーナに　せっていします。
-出身地を　カーボベルデに　せっていします。
-出身地を　ガボンに　せっていします。
-出身地を　カメルーンに　せっていします。
-出身地を　ガンビアに　せっていします。
-出身地を　ギニアに　せっていします。
-出身地を　ギニアビサウに　せっていします。
-出身地を　ケニアに　せっていします。
-出身地を　コートジボワールに{315}せっていします。
-出身地を　コモロに　せっていします。
-出身地を　コンゴきょうわこくに{315}せっていします。
-出身地を　コンゴみんしゅきょうわこくに{315}せっていします。
-出身地を　サントメ・プリンシペに{315}せっていします。
-出身地を　ザンビアに　せっていします。
-出身地を　シエラレオネに　せっていします。
-出身地を　ジブチに　せっていします。
-出身地を　ジンバブエに　せっていします。
-出身地を　スーダンに　せっていします。
-出身地を　スワジランドに　せっていします。
-出身地を　セーシェルに　せっていします。
-出身地を　せきどうギニアに{315}せっていします。
-出身地を　セネガルに　せっていします。
-出身地を　ソマリアに　せっていします。
-出身地を　タンザニアに　せっていします。
-出身地を　チャドに　せっていします。
-出身地を　ちゅうおうアフリカに{315}せっていします。
-出身地を　チュニジアに　せっていします。
-出身地を　トーゴに　せっていします。
-出身地を　ナイジェリアに　せっていします。
-出身地を　ナミビアに　せっていします。
-出身地を　ニジェールに　せっていします。
-出身地を　ブルキナファソに{315}せっていします。
-出身地を　ブルンジに　せっていします。
-出身地を　ベナンに　せっていします。
-出身地を　ボツワナに　せっていします。
-出身地を　マダガスカルに　せっていします。
-出身地を　マラウイに　せっていします。
-出身地を　マリに　せっていします。
-出身地を　みなみアフリカきょうわこくに{315}せっていします。
-出身地を　モーリシャスに　せっていします。
-出身地を　モーリタニアに　せっていします。
-出身地を　モザンビークに　せっていします。
-出身地を　モロッコに　せっていします。
-出身地を　リビアに　せっていします。
-出身地を　リベリアに　せっていします。
-出身地を　ルワンダに　せっていします。
-出身地を　レソトに　せっていします。
-出身地を　オーストラリアに{315}せっていします。
-出身地を　キリバスに　せっていします。
-出身地を　サモアに　せっていします。
-出身地を　ソロモンしょとうに{315}せっていします。
-出身地を　ツバルに　せっていします。
-出身地を　トンガに　せっていします。
-出身地を　ナウルに　せっていします。
-出身地を　ニュージーランドに{315}せっていします。
-出身地を　バヌアツに　せっていします。
-出身地を　パプアニューギニアに{315}せっていします。
-出身地を　パラオに　せっていします。
-出身地を　フィジーに　せっていします。
-出身地を　マーシャルしょとうに{315}せっていします。
-出身地を　ミクロネシアれんぽうに{315}せっていします。
-出身地を　にほんに　せっていします。
+Set region to India.
+Set region to Indonesia.
+Set region to Cambodia.
+Set region to Singapore.
+Set region to Sri Lanka.
+Set region to Thailand.
+Set region to{315}South Korea.
+Set region to{315}China.
+Set region to{315}North Korea.
+Set region to Nepal.
+Set region to Pakistan.
+Set region to{315}Bangladesh.
+Set region to{315}East Timor.
+Set region to Philippines.
+Set region to Bhutan.
+Set region to Brunei.
+Set region to Vietnam.
+Set region to Malaysia.
+Set region to Myanmar.
+Set region to Maldives.
+Set region to Mongolia.
+Set region to Laos.
+Set region to Iceland.
+Set region to Ireland.
+Set region to{315}Azerbaijan.
+Set region to Albania.
+Set region to Armenia.
+Set region to Andorra.
+Set region to Italy.
+Set region to Ukraine.
+Set region to{315}Uzbekistan.
+Set region to United Kingdom.
+Set region to Estonia.
+Set region to Austria.
+Set region to Netherlands.
+Set region to Kazakhstan.
+Set region to Cyprus.
+Set region to Greece.
+Set region to Kyrgyzstan.
+Set region to Georgia.
+Set region to Croatia.
+Set region to San Marino.
+Set region to Switzerland.
+Set region to Sweden.
+Set region to Spain.
+Set region to Slovakia.
+Set region to Slovenia.
+Set region to Serbia.
+Set region to Tajikistan.
+Set region to Czech Republic.
+Set region to Denmark.
+Set region to Germany.
+Set region to{315}Turkmenistan.
+Set region to Norway.
+Set region to Hungary.
+Set region to Finland.
+Set region to France.
+Set region to Bulgaria.
+Set region to Belarus.
+Set region to Belgium.
+Set region to Poland.
+Set region to{315}Bosnia-Herzegovina.
+Set region to Portugal.
+Set region to Macedonia.
+Set region to Malta.
+Set region to Monaco.
+Set region to Moldova.
+Set region to Montenegro.
+Set region to Latvia.
+Set region to Lithuania.
+Set region to{315}Liechtenstein.
+Set region to Romania.
+Set region to{315}Luxembourg.
+Set region to Russia.
+Set region to{315}Afghanistan.
+Set region to{315}UAE.
+Set region to Yemen.
+Set region to Israel.
+Set region to Iraq.
+Set region to Iran.
+Set region to Oman.
+Set region to Qatar.
+Set region to Kuwait.
+Set region to{315}Saudi Arabia.
+Set region to Syria.
+Set region to Turkey.
+Set region to Bahrain.
+Set region to Jordan.
+Set region to Lebanon.
+Set region to{315}United States.
+Set region to Canada.
+Set region to Argentina.
+Set region to{315}Antigua/Barbuda.
+Set region to Uruguay.
+Set region to Ecuador.
+Set region to{315}El Salvador.
+Set region to Guyana.
+Set region to Cuba.
+Set region to Guatemala.
+Set region to Grenada.
+Set region to Costa Rica.
+Set region to Colombia.
+Set region to Jamaica.
+Set region to Suriname.
+Set region to{315}St Kitts/Nevis.
+Set region to{315}St Vincent/Grenadines.
+Set region to St Lucia.
+Set region to Chile.
+Set region to Dominica.
+Set region to{315}Dominican Republic.
+Set region to{315}Trinidad/Tobago.
+Set region to Nicaragua.
+Set region to Haiti.
+Set region to Panama.
+Set region to Bahamas.
+Set region to Paraguay.
+Set region to Barbados.
+Set region to Brazil.
+Set region to Venezuela.
+Set region to Belize.
+Set region to Peru.
+Set region to Bolivia.
+Set region to Honduras.
+Set region to Mexico.
+Set region to Algeria.
+Set region to Angola.
+Set region to Uganda.
+Set region to Egypt.
+Set region to Ethiopia.
+Set region to Eritrea.
+Set region to Ghana.
+Set region to Cape Verde.
+Set region to Gabon.
+Set region to Cameroon.
+Set region to Gambia.
+Set region to Guinea.
+Set region to Guinea-Bissau.
+Set region to Kenya.
+Set region to{315}Cote d'Ivoire.
+Set region to Comoros.
+Set region to{315}Congo.
+Set region to{315}DR Congo.
+Set region to{315}Sao Tome/Principe.
+Set region to Zambia.
+Set region to Sierra Leone.
+Set region to Djibouti.
+Set region to Zimbabwe.
+Set region to Sudan.
+Set region to Swaziland.
+Set region to Seychelles.
+Set region to{315}Equatorial Guinea.
+Set region to Senegal.
+Set region to Somalia.
+Set region to Tanzania.
+Set region to Chad.
+Set region to{315}Central Africa.
+Set region to Tunisia.
+Set region to Togo.
+Set region to Nigeria.
+Set region to Namibia.
+Set region to Niger.
+Set region to{315}Burkina Faso.
+Set region to Burundi.
+Set region to Benin.
+Set region to Botswana.
+Set region to Madagascar.
+Set region to Malawi.
+Set region to Mali.
+Set region to{315}South Africa.
+Set region to Mauritius.
+Set region to Mauritania.
+Set region to Mozambique.
+Set region to Morocco.
+Set region to Libya.
+Set region to Liberia.
+Set region to Rwanda.
+Set region to Lesotho.
+Set region to{315}Australia.
+Set region to Kiribati.
+Set region to Samoa.
+Set region to{315}Solomon Islands.
+Set region to Tuvalu.
+Set region to Tonga.
+Set region to Nauru.
+Set region to{315}New Zealand.
+Set region to Vanuatu.
+Set region to{315}Papua New Guinea.
+Set region to Palau.
+Set region to Fiji.
+Set region to{315}Marshall Islands.
+Set region to{315}Micronesia.
+Set region to Japan.

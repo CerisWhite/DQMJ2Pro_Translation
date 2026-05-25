@@ -205,51 +205,51 @@ This feature is not available until you have more than {315}20 monsters.
 
 
 
-みとうろく
-お気に入りメンバーの　とうろくを　行います。{315}モンスターを　選んでください。
-お気に入りメンバーの　名前
-いまのパーティと入れかえ
-いまのスタンバイと入れかえ
-メンバーを　へんこうする
-このメンバーの中に　いまはもう{315}預かり所にいないモンスターが　いました。{315}とうろくから　はずれているので{315}メンバーを　とうろくしなおしてください。
-いまのパーティと{315}{30b}{00}を　入れかえますか?
-いまのスタンバイと{315}{30b}{00}を　入れかえますか?
-いまのパーティと{315}{30b}{00}を　入れかえました。
-いまのスタンバイと{315}{30b}{00}を　入れかえました。
-パーティが　いなくなるので{315}入れかえできません。
-メンバーのとうろくが　かんりょうしました!
-メンバーのへんこうが　かんりょうしました!
-いまは　このモンスターを{315}メンバーにすることはできません。
-F～D　RANK級
-C～A　RANK級
-S・SS　RANK級
-いまは　{322}に　とうろくしているため{315}このモンスターで　最強マスター決定戦に{315}出場することは　できません。
-{322}に　せっていしているため{315}いまのままでは　このメンバーで　戦えません。{315}それでも　入れかえますか?
-いまの配信パーティと入れかえ
-いまの配信パーティと{315}{30b}{00}を　入れかえますか?
-いまの配信パーティと{315}{30b}{00}を　入れかえました。
-配信パーティが　いなくなるので{315}入れかえできません。
+Unregistered
+Register Favorite Members.{315}Please select monsters.
+Favorite Members Name
+Swap with Party
+Swap with Standby
+Change Members
+Some members are no longer{315}in the monster pen.{315}They were removed, so please{315}register members again.
+Swap current party with{315}{30b}{00}?
+Swap current standby with{315}{30b}{00}?
+Swapped current party with{315}{30b}{00}.
+Swapped current standby with{315}{30b}{00}.
+Cannot swap because{315}the party would be empty.
+Member registration complete!
+Member change complete!
+This monster cannot be{315}made a member now.
+F-D Rank Class
+C-A Rank Class
+S/SS Rank Class
+This monster is registered to {322},{315}so it cannot enter the{315}World Monster Championship.
+Because it is set to {322},{315}these members cannot battle now.{315}Swap anyway?
+Swap with Sent Party
+Swap current sent party with{315}{30b}{00}?
+Swapped current sent party with{315}{30b}{00}.
+Cannot swap because{315}the sent party would be empty.
 
 
 
-いまの相手パーティと入れかえ
-いまの相手スタンバイと入れかえ
-いまの相手パーティと{315}{30b}{00}を　入れかえますか?
-いまの相手スタンバイと{315}{30b}{00}を　入れかえますか?
-いまの相手パーティと{315}{30b}{00}を　入れかえました。
-いまの相手スタンバイと{315}{30b}{00}を　入れかえました。
-相手パーティが　いなくなるので{315}入れかえできません。
+Swap with Opponent Party
+Swap with Opponent Standby
+Swap opponent party with{315}{30b}{00}?
+Swap opponent standby with{315}{30b}{00}?
+Swapped opponent party with{315}{30b}{00}.
+Swapped opponent standby with{315}{30b}{00}.
+Cannot swap because{315}opponent party would be empty.
 
 
 
-ここでは　お気に入りのモンスターを{315}3わく分　選んで　とうろくすることができます。
-とうろくしたモンスターは　そのまま{315}パーティメンバーと　入れかえが　できます。
-まずは　「みとうろく」を選んで{315}モンスターを　じゆうに　とうろくしましょう。
+Here you can register{315}3 slots of favorite monsters.
+Registered monsters can be{315}swapped with party members.
+First, select Unregistered{315}and freely register monsters.
 
 
 
-いちらんにもどると　「みとうろく」が{315}さきほど入力した名前に　かわっています。
-Wi-Fi対戦用や　すれちがい対戦用などに　わけて{315}メンバーを　とうろくしておくと　べんりです。
+Return to the list and Unregistered{315}will become the name you entered.
+Registering separate members for{315}Wi-Fi or Tag Mode battles is useful.
 
-「Guest」マークが　ついたモンスターは{315}最強マスター決定戦に{315}出場することは　できません。
+Monsters with a Guest mark{315}cannot enter the{315}World Monster Championship.
 

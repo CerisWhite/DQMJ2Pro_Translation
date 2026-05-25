@@ -1,80 +1,77 @@
-バーチャルバトル
-対戦かいし
-相手チームセットアップ
-味方チームセットアップ
-ルールへんこう
-やめる
-対戦ルール
-なし
+Virtual Battle
+Start Battle
+Opponent Setup
+Ally Setup
+Change Rules
+Quit
+Battle Rules
+None
 
 
-相手パーティモンスター
-相手スタンバイモンスター
-相手メンバーを編成する
-作戦をかえる
-相手メンバー編成
+Opponent Party
+Opponent Standby
+Edit Opponent
+Change Tactics
+Opponent Members
 
-預かり所から選ぶ
-お気に入りメンバーから選ぶ
-
-
-
-パーティモンスター
-スタンバイモンスター
-メンバーを編成する
-作戦をかえる
+Choose from Pen
+Choose Favorites
 
 
 
+Party Monsters
+Standby Monsters
+Edit Members
+Change Tactics
 
 
 
 
-対戦ルール
-ラウンド
-作戦
-入れかえ
-しゅぞく
-入力時間
+
+
+
+Battle Rules
+Rounds
+Tactics
+Switch
+Species
+Input Time
 RANK
-せっていかんりょう
+Finish Settings
 
 
-スタンダードルール
-SQEXルール
-決定戦ルール
-カスタムルール
+Standard Rules
+SQEX Rules
+Championship Rules
+Custom Rules
 
 
-むせいげん
-5ラウンド
-10ラウンド
-フリー
-AIのみ
-1回のみ
-きんし
-すべてOK
-どうけいとうOK
-どうけいとうきんし
-むせいげん
-15びょう
-30びょう
-むさべつ級
-
-
-
+No Limit
+5 Rounds
+10 Rounds
+Free
+AI Only
+Once Only
+Banned
+All OK
+Same Family OK
+Same Family Banned
+No Limit
+15 sec.
+30 sec.
+Open Class
 
 
 
 
 
-対戦を　はじめます。
-パーティの中に　おなじけいとうの{315}モンスターが　2体いじょういるため{315}対戦をかいしできません。
-パーティの中に　おなじしゅぞくの{315}モンスターが　2体いじょういるため{315}対戦をかいしできません。
-いまは　このモンスターを{315}{23a} 預かり所から　出すことはできません。
 
 
 
+Start the battle.
+Battle cannot start because{315}2 or more monsters in the party{315}are from the same family.
+Battle cannot start because{315}2 or more monsters in the party{315}are the same species.
+This monster cannot be{315}taken from the pen now.
 
 
 
@@ -86,39 +83,42 @@ AIのみ
 
 
 
-スタンダードのルールで　対戦します。
-こうしきせんのルールで　対戦します。
-最強マスター決定戦のルールで　対戦します。
-対戦のルールを　じゆうに　せっていします。
-
-
-対戦しゅうりょうとなる{315}ラウンドのせっていをします。
-命令を　できるようにするか{315}せっていします。
-入れかえを　できるようにするか{315}せっていします。
-対戦に出せるモンスターを　せいげんするか{315}せっていします。
-行動の入力時間に{315}せいげん時間を　せっていします。
-カスタムせっていのルールで　対戦します。
-
-どちらかが　ぜんめつするまで{315}対戦を　つづけます。
-5ラウンドで{315}対戦を　しゅうりょうします。
-10ラウンドで{315}対戦を　しゅうりょうします。
-モンスターに{315}命令できるようにします。
-作戦(AI)で{315}行動するようにします。
-せんとうちゅうに{315}1回だけ　入れかえができます。
-モンスターの入れかえを{315}きんしします。
-すべてのモンスターを{315}じゆうに使うことができます。
-おなじけいとうのモンスターを{315}じゆうに使うことができます。{315}ただし　おなじしゅぞくのモンスターを{315}使うことはできません。
-おなじけいとうのモンスターを{315}使用きんしにします。
-入力の　まち時間を{315}むせいげんにします。
-入力の　まち時間を{315}15びょうにします。
-入力の　まち時間を{315}30びょうにします。
-じゆうに　入れかえを{315}することができます。
 
 
 
-相手チームに　勝ちました!
-相手チームに　負けました。
-相手チームと　ひきわけました。
+Battle with Standard Rules.
+Battle with official rules.
+Battle with Championship Rules.
+Set battle rules freely.
+
+
+Set the round limit{315}for battle end.
+Set whether orders{315}can be given.
+Set whether switching{315}is allowed.
+Set monster restrictions{315}for battle.
+Set the time limit{315}for action input.
+Battle with custom rules.
+
+Battle until either side{315}is wiped out.
+Battle ends after{315}5 rounds.
+Battle ends after{315}10 rounds.
+Allow orders{315}to monsters.
+Monsters act by{315}Tactics (AI).
+Switch once{315}during battle.
+Ban monster switching.
+All monsters{315}may be used freely.
+Same-family monsters may be used.{315}However, same-species monsters{315}cannot be used.
+Ban monsters from{315}the same family.
+Set input wait time{315}to no limit.
+Set input wait time{315}to 15 seconds.
+Set input wait time{315}to 30 seconds.
+Switching is free.
+
+
+
+You beat the opponent team!
+You lost to the opponent team.
+You drew with the opponent team.
 
 
 
