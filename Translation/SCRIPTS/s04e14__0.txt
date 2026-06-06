@@ -5015,7 +5015,7 @@ SYS_42 0x8
 SAY "{COLOR=2}The flames of the bonfire dance in the cold air."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Take out the torch?{VOICE=09}"
+SAY "{COLOR=2}Want to take out a torch?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -5091,7 +5091,7 @@ STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_AD 0x8 
 WAIT 0x10 0x2 0x40a00000
 SYS_42 0x8 
-SAY "{COLOR=2}The fire has gone out.{BREAK}It can no longer be used..."
+SAY "{COLOR=2}The flame has gone out.{BREAK}You can no longer use it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5116,10 +5116,10 @@ L_15530:
 STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Firewood is piled here..."
+SAY "{COLOR=2}Firewood is stacked up."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Light a fire?{VOICE=09}"
+SAY "{COLOR=2}Do you want to light it?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -5130,7 +5130,7 @@ CMP_EQ 0x18 0x0 0x42a80000 0x2 0x0
 JMP_IFNOT 0xc L_156a8
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}But you have no flame..."
+SAY "{COLOR=2}But you don't have a light."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5190,7 +5190,7 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Firewood for a campfire{BREAK}is piled here."
+SAY "{COLOR=2}Firewood is stacked to{BREAK}build a fire."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5203,10 +5203,10 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Firewood is piled here."
+SAY "{COLOR=2}Firewood is stacked here."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Large footprints seem to be{BREAK}all around here..."
+SAY "{COLOR=2}There is a big footprint{BREAK}over there."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5241,7 +5241,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x42d00000
 SYS_A8 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The torch flame has grown weak!{BREAK}It may go out after {E322} battles."
+SAY "{COLOR=2}The torch light has shrunk!{BREAK}It will go out after {E322} fights."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5332,7 +5332,7 @@ STORE 0x18 0x1 0x0 0x2 0x40800000
 STORE 0x18 0x1 0x3f800000 0x2 0x0
 SYS_2A 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The torch flame went out!"
+SAY "{COLOR=2}The torch has gone out!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6539,7 +6539,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1a0fc
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a jungle pattern.{BREAK}The base has a socket."
+SAY "{COLOR=2}It's a monument carved like a thick{BREAK}grove. There is a hole on the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6550,7 +6550,7 @@ L_1a104:
 JMP_ABS 0xc L_1a110
 L_1a110:
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a jungle pattern{BREAK}shines with great power."
+SAY "{COLOR=2}The monument carved like a thick{BREAK}grove glows in a strong power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6561,13 +6561,13 @@ L_1a190:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1a5ec
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a jungle pattern.{BREAK}The base has a socket."
+SAY "{COLOR=2}It's a monument shaped like a thick{BREAK}grove. There is a hole on the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}The jungle plate{BREAK}seems to fit here."
+SAY "{COLOR=2}You can put the plate{BREAK}you got in the thick grove."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Insert the Jungle Plate?{VOICE=09}"
+SAY "{COLOR=2}Will you insert the grove plate?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -6607,7 +6607,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Power seems stored in the{BREAK}jungle-pattern plate."
+SAY "{COLOR=2}Power builds up in the monument{BREAK}shaped like a thick grove."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6642,7 +6642,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1a794
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a plains pattern.{BREAK}The base has a socket."
+SAY "{COLOR=2}It's a monument carved like the steppes.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6653,7 +6653,7 @@ L_1a79c:
 JMP_ABS 0xc L_1a7a8
 L_1a7a8:
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a plains pattern{BREAK}shines with great power."
+SAY "{COLOR=2}The monument carved like the steppes{BREAK}is glowing with a strong power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6664,13 +6664,13 @@ L_1a828:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1ac84
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a plains pattern.{BREAK}The base has a socket."
+SAY "{COLOR=2}It's a monument carved like the steppes.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}The plains plate{BREAK}seems to fit here."
+SAY "{COLOR=2}You can fit the plate you got{BREAK}in the steppes in the hole."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Insert the Plains Plate?{VOICE=09}"
+SAY "{COLOR=2}Will you insert the steppes plate?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -6710,7 +6710,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Power seems stored in the{BREAK}plains-pattern plate."
+SAY "{COLOR=2}The monument carved like the steppes{BREAK}begins to store power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6745,7 +6745,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1ae2c
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a snowy peak pattern.{BREAK}The base has a socket."
+SAY "{COLOR=2}It's a monument carved like a crag.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6756,7 +6756,7 @@ L_1ae34:
 JMP_ABS 0xc L_1ae40
 L_1ae40:
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a snowy peak pattern{BREAK}shines with great power."
+SAY "{COLOR=2}The monument carved like a crag{BREAK}is glowing in a strong power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6767,13 +6767,13 @@ L_1aec0:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1b31c
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a snowy peak pattern.{BREAK}The base has a socket."
+SAY "{COLOR=2}It's a monument carved like a crag.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}The snowy peak plate{BREAK}seems to fit here."
+SAY "{COLOR=2}It seems the plate you got{BREAK}on the crag will fit."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Insert the Snowy Peak Plate?{VOICE=09}"
+SAY "{COLOR=2}Insert the crag plate in the hole?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -6813,7 +6813,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Power seems stored in the{BREAK}snowy peak-pattern plate."
+SAY "{COLOR=2}The monument carved like a crag{BREAK}begins to store power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6848,7 +6848,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1b4c4
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a cliff pattern.{BREAK}The base has a socket."
+SAY "{COLOR=2}It's a monument carved like a cliff.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6859,7 +6859,7 @@ L_1b4cc:
 JMP_ABS 0xc L_1b4d8
 L_1b4d8:
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a cliff pattern{BREAK}shines with great power."
+SAY "{COLOR=2}The monument carved like a cliff{BREAK}is glowing in a strong power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6870,13 +6870,13 @@ L_1b558:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1b9b4
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a cliff pattern.{BREAK}The base has a socket."
+SAY "{COLOR=2}It's a monument carved like a cliff.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}The cliff plate{BREAK}seems to fit here."
+SAY "{COLOR=2}The plate you got on the cliff{BREAK}seems to fit the hole."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Insert the Cliff Plate?{VOICE=09}"
+SAY "{COLOR=2}Will you insert the cliff plate?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -6916,7 +6916,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Power seems stored in the{BREAK}cliff-pattern plate."
+SAY "{COLOR=2}The monument carved like a cliff{BREAK}begins to store power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6951,7 +6951,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1bb5c
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a shore pattern.{BREAK}The base has a socket."
+SAY "{COLOR=2}It's a monument carved like the coast.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6962,7 +6962,7 @@ L_1bb64:
 JMP_ABS 0xc L_1bb70
 L_1bb70:
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a shore pattern{BREAK}shines with great power."
+SAY "{COLOR=2}The monument carved like the coast{BREAK}is glowing in a strong power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6973,13 +6973,13 @@ L_1bbf0:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1c04c
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a shore pattern.{BREAK}The base has a socket."
+SAY "{COLOR=2}It's a monument carved like the coast.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}The shore plate{BREAK}seems to fit here."
+SAY "{COLOR=2}The plate you got on the coast{BREAK}seems to fit the hole."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Insert the Shore Plate?{VOICE=09}"
+SAY "{COLOR=2}Will you inserlt the coast plate?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -7019,7 +7019,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Power seems stored in the{BREAK}shore-pattern plate."
+SAY "{COLOR=2}The monument carved like the coast{BREAK}begins to store power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7054,7 +7054,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1c1f8
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a giant lion pattern.{BREAK}The base has a socket."
+SAY "{COLOR=2}It's a monument carved like a giant{BREAK}lion. There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7065,7 +7065,7 @@ L_1c200:
 JMP_ABS 0xc L_1c20c
 L_1c20c:
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a giant lion pattern{BREAK}shines with great power."
+SAY "{COLOR=2}The monument carved like a giant{BREAK}lion glows in a strong power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -7076,13 +7076,13 @@ L_1c290:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1cb6c
 SYS_42 0x8 
-SAY "{COLOR=2}A plate with a giant lion pattern.{BREAK}The base has a socket."
+SAY "{COLOR=2}It's a monument carved like a giant{BREAK}lion. There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}The ruins plate{BREAK}seems to fit here."
+SAY "{COLOR=2}The plate you got in the ruins{BREAK}below seems to fit the hole."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Insert the War God Plate?{VOICE=09}"
+SAY "{COLOR=2}Will you insert the war god{BREAK}plate?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -7122,7 +7122,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Power seems stored in the{BREAK}giant lion plate."
+SAY "{COLOR=2}The monument carved like a giant{BREAK}lion begins to store power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

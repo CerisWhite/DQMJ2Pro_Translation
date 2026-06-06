@@ -182,7 +182,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}What is that...?"
+SAY "{VOICE=08}What's that?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -249,7 +249,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{VOICE=07}Hah... hah..."
+SAY "{VOICE=07}Huff... Hoo..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -268,7 +268,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3e4ccccd
 SYS_54 0x8 
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Oh no!{BREAK}It is badly hurt!"
+SAY "{VOICE=08}This is not good!{BREAK}They've got a huge gash!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -312,7 +312,7 @@ STORE 0x18 0x1 0x0 0x2 0x42ec0000
 SYS_33 0x8 
 SYS_42 0x8 
 SETNAME "Leokid"
-SAY "{VOICE=07}Hey. You came too?{BREAK}Looks like we cannot go on."
+SAY "{VOICE=07}'Sup. So you've come too?{BREAK}But doesn't look like we can continue further."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -445,7 +445,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x437a0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Leokid"
-SAY "{VOICE=07}Look. The Uninvited Guest must have{BREAK}put up some kind of barrier."
+SAY "{VOICE=07}Look. The uninvited guest's tricks have{BREAK}erected a special barrier."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -482,7 +482,7 @@ WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x40a00000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}H-hey, wait!{BREAK}Forget the barrier..."
+SAY "{VOICE=08}H-H-Hold on a moment!{BREAK}Before dealing with that..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41900000
@@ -530,7 +530,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40a00000
 SYS_EA 0x8 
 WAIT 0x10 0x2 0x40a00000
 SETNAME "Tiko"
-SAY "{VOICE=08}This monster is hurt!{BREAK}Do you not care at all!?"
+SAY "{VOICE=08}Don't you think you should be{BREAK}taking a look at this injured monster!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -548,11 +548,11 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Leokid"
-SAY "{VOICE=07}Oh, that thing...?{BREAK}It was down when we got here."
+SAY "{VOICE=07}Ohh, them? They were already trashed{BREAK}when I came here."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leokid"
-SAY "{VOICE=07}Weaklings do not interest me,{BREAK}so I left it there."
+SAY "{VOICE=07}I ain't got any interest in weak{BREAK}ones, so I'm leavin' them there."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41400000
@@ -594,7 +594,7 @@ STORE 0x18 0x1 0x0 0x0 0x41100000
 STORE 0x18 0x1 0x3f800000 0x2 0x43780000
 SYS_18 0x8 
 SETNAME "Leokid"
-SAY "{VOICE=07}Well then... I will look around{BREAK}for a way past the barrier."
+SAY "{VOICE=07}Now then, since I can't break the barrier,{BREAK}I guess I'll search for another way."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -615,8 +615,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41f00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Kukri"
-SAY "{VOICE=08}Ah! Master Leokid!{BREAK}Please wait!"
+SETNAME "Kukuri"
+SAY "{VOICE=08}Ahh! Wait for me,{BREAK}Leokid!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -670,11 +670,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42000000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Hey, {NAME}.{BREAK}I cannot leave this monster."
+SAY "{VOICE=08}Hey, {NAME}. I can't leave{BREAK}this monster like this."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Let us take it to town{BREAK}and show the Elder!"
+SAY "{VOICE=08}Let's bring it back to town,{BREAK}and let the elder look after it!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

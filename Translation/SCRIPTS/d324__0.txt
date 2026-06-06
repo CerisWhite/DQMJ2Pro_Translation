@@ -121,7 +121,7 @@ SPAWN 0x10 L_11c8
 DATA 0x00000001
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}{NAME}... You too cross{BREAK}bridges without fear."
+SAY "{VOICE=07}{NAME}. You have crossed this{BREAK}bridge again safely."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -148,11 +148,11 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Heh. Traveling with you{BREAK}reminds me of an old friend..."
+SAY "{VOICE=07}Hee-hee-hee. Traveling with you like this{BREAK}reminds me of my friend long ago."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}I toured shrines with him{BREAK}to regain my hidden power."
+SAY "{VOICE=07}To restore my hidden power,{BREAK}I visited shrines with them."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -172,7 +172,7 @@ STORE 0x18 0x1 0x0 0x2 0x424c0000
 STORE 0x18 0x1 0x3f800000 0x2 0x42b40000
 SYS_17 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Back then, I too trusted no humans,{BREAK}like that Leokid boy."
+SAY "{VOICE=07}Back then I didn't believe in humans{BREAK}similar to that brat of a Leonyx."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -189,7 +189,7 @@ STORE 0x18 0x1 0x0 0x2 0x42740000
 STORE 0x18 0x1 0x3f800000 0x2 0x42f00000
 SYS_17 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}...But I am who I am now{BREAK}thanks to him."
+SAY "{VOICE=07}But thanks to having met him{BREAK}the me now is different."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -213,11 +213,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43480000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Before I left for the dark world,{BREAK}I made him a promise."
+SAY "{VOICE=07}Before I journey to the dark world.{BREAK}I made my friend a promise."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}To keep that promise,{BREAK}I must fulfill my mission..."
+SAY "{VOICE=07}In order to keep that promise{BREAK}I must fulfill my duty."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x0
@@ -237,7 +237,7 @@ STORE 0x18 0x1 0x0 0x2 0x428c0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Sorry to stop us.{BREAK}Come, Blanc Palace is near."
+SAY "{VOICE=07}I am sorry to have stopped you.{BREAK}Okay, let's go. We're almost to Blanc Palace."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

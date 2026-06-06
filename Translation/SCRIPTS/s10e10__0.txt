@@ -3423,7 +3423,7 @@ STORE 0x18 0x1 0x0 0x2 0x40c00000
 SYS_60 0x8 
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
-SAY "{COLOR=2}A giant whale monster is here.{BREAK}Go closer?{VOICE=09}"
+SAY "{COLOR=2}There's a giant whale monster.{BREAK}Will you take a closer look?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -3458,7 +3458,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41700000
 SYS_3E 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The giant whale monster{BREAK}sleeps peacefully..."
+SAY "{COLOR=2}The giant whale monster is{BREAK}having a good nap."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3490,12 +3490,12 @@ SYS_07 0x8
 STORE 0x18 0x1 0x0 0x2 0xc2abc7ae
 SYS_10A 0x8 
 SYS_42 0x8 
-SAY "{VOICE=03}Uuuuuugh...{BREAK}Gwooooooooooooh!!!"
+SAY "{VOICE=03}OooOooOooOoo.{BREAK}Grrrrrrrrrrraaaaagh!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The giant whale monster{BREAK}attacked in its sleep!"
+SAY "{COLOR=2}The giant whale monster{BREAK}attacked sleepily!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3641,19 +3641,19 @@ CMP_LT 0x18 0x0 0x42bc0000 0x2 0x41e00000
 JMP_IFNOT 0xc L_df14
 SYS_01 0x18 9286837b83588ce382cc89ef98620000
 SYS_42 0x8 
-SAY "{VOICE=08}I watered this child daily{BREAK}and watched it grow."
+SAY "{VOICE=08}I protected it growing up{BREAK}watering it every day."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}But Hihyurude defiled the holy land,{BREAK}and it lost its life."
+SAY "{VOICE=08}But when Babarood wounded the{BREAK}holy land, it began to lose life."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}It should become a great tree{BREAK}that shelters many lives..."
+SAY "{VOICE=08}It must devour a lot of life{BREAK}to grow into a tall, tall tree."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Please, traveler!{BREAK}Bury Hihyurude..."
+SAY "{VOICE=08}I beg you, traveler!{BREAK}Destroy Babarood who wounded the holy land."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Please save{BREAK}this child!"
+SAY "{VOICE=08}Please somehow save{BREAK}this sapling!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3668,22 +3668,22 @@ CMP_LT 0x18 0x0 0x42bc0000 0x2 0x41e80000
 JMP_IFNOT 0xc L_e254
 SYS_01 0x20 8371837183858368838991de8ea18ce382cc89ef98620000
 SYS_42 0x8 
-SAY "{VOICE=08}I watered this child daily{BREAK}and watched it grow."
+SAY "{VOICE=08}I protected it growing up{BREAK}watering it every day."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}While Hihyurude defiled the land,{BREAK}this child nearly died..."
+SAY "{VOICE=08}Its life was threatened{BREAK}when Babarood wounded the holy land,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}By your hand, Hihyurude fell,{BREAK}and life returned."
+SAY "{VOICE=08}but by your hand he's gone,{BREAK}and it has life once again."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}It should become a great tree{BREAK}that shelters many lives..."
+SAY "{VOICE=08}It must devour a lot of life{BREAK}to grow into a tall, tall tree."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Yes. Legend says this child{BREAK}can hatch eggs."
+SAY "{VOICE=08}Yes. According to legend, it{BREAK}has the power to hatch eggs."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}If you find a monster egg,{BREAK}offer it here."
+SAY "{VOICE=08}If you come across a monster{BREAK}egg, try offering it up to it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3704,22 +3704,22 @@ CMP_EQ 0x18 0x0 0x42bc0000 0x2 0x0
 JMP_IFNOT 0xc L_e5cc
 SYS_01 0x20 93568a45834e838a83418ce382cc8f8991ce96ca00000000
 SYS_42 0x8 
-SAY "{VOICE=08}I watered this child daily{BREAK}and watched it grow."
+SAY "{VOICE=08}I protected it growing up{BREAK}watering it every day."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}While Hihyurude defiled the land,{BREAK}this child nearly died..."
+SAY "{VOICE=08}Its life was threatened{BREAK}when Babarood wounded the holy land,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}By your hand, Hihyurude fell,{BREAK}and life returned."
+SAY "{VOICE=08}but by your hand he's gone,{BREAK}and it has life once again."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}It should become a great tree{BREAK}that shelters many lives..."
+SAY "{VOICE=08}It must devour a lot of life{BREAK}to grow into a tall, tall tree."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Yes. Legend says this child{BREAK}can hatch eggs."
+SAY "{VOICE=08}Yes. According to legend, it{BREAK}has the power to hatch eggs."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}If you find a monster egg,{BREAK}offer it here."
+SAY "{VOICE=08}If you come across a monster{BREAK}egg, try offering it up to it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3743,16 +3743,16 @@ SYS_42 0x8
 CMP_EQ 0x18 0x0 0x42bc0000 0x2 0x0
 JMP_IFNOT 0xc L_e810
 SYS_01 0x18 835e837d835382cd96a2947a92750000
-SAY "{VOICE=08}It should become a great tree{BREAK}that shelters many lives..."
+SAY "{VOICE=08}It must devour a lot of life{BREAK}to grow into a tall, tall tree."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Yes. Legend says this child{BREAK}can hatch eggs."
+SAY "{VOICE=08}Yes. According to legend, it{BREAK}has the power to hatch eggs."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}If you find a monster egg,{BREAK}offer it here."
+SAY "{VOICE=08}If you come across a monster{BREAK}egg, try to offer it up to it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}But only one egg a day.{BREAK}That is this child's limit."
+SAY "{VOICE=08}However only 1 egg per day.{BREAK}That's the limit for this tree."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_e970
@@ -3760,13 +3760,13 @@ L_e810:
 CMP_EQ 0x18 0x0 0x42bc0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_e970
 SYS_01 0x18 835e837d835382cd947a92758dcf0000
-SAY "{VOICE=08}The time from offering to hatching{BREAK}depends on the egg."
+SAY "{VOICE=08}It takes time to hatch depending{BREAK}on the egg that you offer it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Some eggs can take{BREAK}quite a long time..."
+SAY "{VOICE=08}And since it takes quite{BREAK}some time to hatch an egg,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Pass time with Tag Battles{BREAK}while you wait."
+SAY "{VOICE=08}Please spend that time{BREAK}doing StreetPass Battles."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_e970
@@ -3868,7 +3868,7 @@ JMP_IFNOT 0xc L_ef94
 CMP_LT 0x18 0x0 0x42c60000 0x2 0x41e00000
 JMP_IFNOT 0xc L_eef8
 SYS_42 0x8 
-SAY "{COLOR=2}The strange tree{BREAK}seems weak..."
+SAY "{COLOR=2}The mysterious tree{BREAK}doesn't look very healthy."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3878,7 +3878,7 @@ L_eef8:
 CMP_EQ 0x18 0x0 0x42c60000 0x2 0x41e00000
 JMP_IFNOT 0xc L_ef88
 SYS_42 0x8 
-SAY "{COLOR=2}The strange tree brims with life."
+SAY "{COLOR=2}The mysterious tree is brimming{BREAK}with life."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3902,7 +3902,7 @@ STORE 0x18 0x0 0x42c60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c60000 0x2 0x0
 JMP_IFNOT 0xc L_f0dc
 SYS_42 0x8 
-SAY "{COLOR=2}The strange tree brims with life."
+SAY "{COLOR=2}The mysterious tree is brimming{BREAK}with life."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3915,7 +3915,7 @@ STORE 0x18 0x0 0x42c60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c60000 0x2 0x0
 JMP_IFNOT 0xc L_f198
 SYS_42 0x8 
-SAY "{COLOR=2}The strange tree brims with life."
+SAY "{COLOR=2}The mysterious tree is brimming{BREAK}with life."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3926,10 +3926,10 @@ L_f1a0:
 JMP_ABS 0xc L_f1ac
 L_f1ac:
 SYS_42 0x8 
-SAY "{COLOR=2}The tree brims with life{BREAK}and wants your egg."
+SAY "{COLOR=2}The mysterious tree is brimming{BREAK}with life, and you could offer it an{BREAK}egg you are holding."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Offering an egg auto-saves.{BREAK}Offer egg to the tree?{VOICE=09}"
+SAY "{COLOR=2}Your game will auto-save.{BREAK}Do you want to offer an egg?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4021,7 +4021,7 @@ SYS_01 0x1c 835e837d83538fc194ef2d3e90ac8cf700000000
 JMP_ABS 0xc L_f7c0
 L_f7c0:
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} offered the monster egg{BREAK}to the strange tree."
+SAY "{COLOR=2}{NAME} offered a monster egg{BREAK}to the mysterious tree."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4148,7 +4148,7 @@ L_10008:
 CMP_EQ 0x18 0x0 0x42c60000 0x2 0x0
 JMP_IFNOT 0xc L_100cc
 SYS_42 0x8 
-SAY "{COLOR=2}The monster egg{BREAK}is not ready to hatch."
+SAY "{COLOR=2}It does not look like the{BREAK}egg will hatch any time soon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4160,10 +4160,10 @@ L_100cc:
 CMP_EQ 0x18 0x0 0x42c60000 0x2 0x3f800000
 JMP_IFNOT 0xc L_101e4
 SYS_42 0x8 
-SAY "{COLOR=2}The monster egg moved a little...!"
+SAY "{COLOR=2}The monster egg needs just{BREAK}a bit more time!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}But it will take longer{BREAK}for a monster to hatch."
+SAY "{COLOR=2}But it will still take{BREAK}some time for it to hatch."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4175,10 +4175,10 @@ L_101e4:
 CMP_EQ 0x18 0x0 0x42c60000 0x2 0x40000000
 JMP_IFNOT 0xc L_102f8
 SYS_42 0x8 
-SAY "{COLOR=2}The monster egg is moving a lot!"
+SAY "{COLOR=2}The monster egg wiggles happily!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}But it will take a bit longer{BREAK}for a monster to hatch."
+SAY "{COLOR=2}But it will still take{BREAK}some time for it to hatch."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4221,7 +4221,7 @@ STORE 0x18 0x1 0x0 0x0 0x42a40000
 STORE 0x18 0x1 0x3f800000 0x2 0xc2b40000
 SYS_93 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}Ah, look!{BREAK}The egg...!"
+SAY "{VOICE=08}Ohh, please look!{BREAK}The egg is..!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4268,16 +4268,16 @@ L_1083c:
 JMP_ABS 0xc L_10848
 L_10848:
 SYS_42 0x8 
-SAY "{COLOR=2}The monster egg is moving a lot!"
+SAY "{COLOR=2}The monster egg wiggles happily!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}A monster seems ready{BREAK}to hatch from the egg!"
+SAY "{COLOR=2}A monster is about to{BREAK}hatch from the monster egg!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}But storage has no room!"
+SAY "{COLOR=2}But you don't have enough{BREAK}space!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Make room in storage,{BREAK}then check again!"
+SAY "{COLOR=2}Free up some room for the{BREAK}monster and come back!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4456,7 +4456,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43470000
 STORE 0x18 0x1 0x40000000 0x2 0x3f800000
 SYS_4C 0x8 
 SYS_42 0x8 
-SAY "{VOICE=08}Ah, look!{BREAK}The egg...!"
+SAY "{VOICE=08}Ohh, please look!{BREAK}The egg is..!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5045,7 +5045,7 @@ STORE 0x18 0x0 0x43180000 0x1 0x0
 CMP_EQ 0x18 0x0 0x43180000 0x2 0x0
 JMP_IFNOT 0xc L_13748
 SYS_42 0x8 
-SAY "{COLOR=2}To apologize for attacking asleep,{BREAK}the Lleviathan joined {NAME}! "
+SAY "{COLOR=2}The sleepy beast that attacked{BREAK}joins {NAME}'s party as an{BREAK}apology!"
 SYS_165 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 

@@ -232,8 +232,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x450f9000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
-SETNAME "Hihyurude"
-SAY "{VOICE=03}Gwaaaaagh!!"
+SETNAME "Beastly Baboorude"
+SAY "{VOICE=03}Gwaaaaaaaah!!"
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x43650000
 SYS_41 0x8 
@@ -272,8 +272,8 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Hihyurude"
-SAY "{VOICE=03}W-wait!!{BREAK}I give up! I was wrong!!"
+SETNAME "Beastly Baboorude"
+SAY "{VOICE=03}P-Please wait!!{BREAK}I surrender! I was wrong!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -285,7 +285,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}What...?"
+SAY "{VOICE=07}What?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -296,8 +296,8 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Hihyurude"
-SAY "{VOICE=03}Please! Forgive me! From now on,{BREAK}I will work hard! Okay!?"
+SETNAME "Beastly Baboorude"
+SAY "{VOICE=03}I beg you! Forgive me! I'll work{BREAK}to change my ways! Come on!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -330,7 +330,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Work hard...?{BREAK}Seriously...?"
+SAY "{VOICE=08}Work, he says.{BREAK}Listen up, you!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -437,7 +437,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Do not move! It is a trap!!"
+SAY "{VOICE=07}「動くな!　ワナだ!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -506,8 +506,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41000000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41000000
 SYS_42 0x8 
-SETNAME "Hihyurude"
-SAY "{VOICE=03}Fool! You let your guard down!!"
+SETNAME "Beastly Baboorude"
+SAY "{VOICE=03}Idiots! Prepare yourselves!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -531,7 +531,7 @@ SYS_16 0x8
 STORE 0x18 0x1 0x0 0x2 0x41b80000
 STORE 0x18 0x1 0x3f800000 0x2 0x42200000
 SYS_17 0x8 
-SETNAME "Hihyurude"
+SETNAME "Beastly Baboorude"
 SAY "{VOICE=03}Take this!!"
 WAIT 0x10 0x2 0x41f00000
 STORE 0x18 0x1 0x0 0x2 0x44028000
@@ -628,8 +628,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_4E 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Leokid"
-SAY "{VOICE=07}Uooooh!"
+SETNAME "少年レオソード"
+SAY "{VOICE=07}「うおおおおッ!"
 WAIT 0x10 0x2 0x41700000
 STORE 0x18 0x1 0x0 0x0 0x41500000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f19999a
@@ -721,8 +721,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41300000
 SYS_54 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Leokid"
-SAY "{VOICE=07}Gwaaaaaah!!!"
+SETNAME "少年レオソード"
+SAY "{VOICE=07}「ぐわああああッ!!!"
 STORE 0x18 0x1 0x0 0x0 0x41500000
 STORE 0x18 0x1 0x3f800000 0x2 0x42c80000
 SYS_1F 0x8 
@@ -816,8 +816,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3fc00000
 SYS_4E 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Kukri"
-SAY "{VOICE=08}M-Master Leokid!!"
+SETNAME "Kukuri"
+SAY "{VOICE=08}L-L-Leokid!!"
 WAIT 0x10 0x2 0x42b40000
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1008,21 +1008,21 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f99999a
 SYS_4E 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Young fool!{BREAK}Why save us...!?"
+SAY "{VOICE=07}Brat!{BREAK}Why!? Why did you save us!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Leokid"
-SAY "{VOICE=07}I do not know myself...{BREAK}But..."
+SAY "{VOICE=07}I don't even know myself...{BREAK}But..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leokid"
-SAY "{VOICE=07}{NAME}... Watching you{BREAK}gave me courage..."
+SAY "{VOICE=07}{NAME}... Lookin' at you{BREAK}filled me with courage."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leokid"
-SAY "{VOICE=07}I cannot beat him alone...{BREAK}But you... surely..."
+SAY "{VOICE=07}I couldn't ever beat him alone.{BREAK}But you... Surely..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1123,16 +1123,16 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41000000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Hihyurude"
-SAY "{VOICE=03}Tch! A brat shaking moments ago{BREAK}dares to meddle...!"
+SETNAME "Beastly Baboorude"
+SAY "{VOICE=03}Grah! That sad kid from earlier{BREAK}had a little leftover!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Hihyurude"
-SAY "{VOICE=03}Then I have no choice.{BREAK}I did not want to use this..."
+SETNAME "Beastly Baboorude"
+SAY "{VOICE=03}In that case, I've no choice. I didn't{BREAK}want to have to use what's back there."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Hihyurude"
-SAY "{VOICE=03}With all the power stored here,{BREAK}I show my true form!"
+SETNAME "Beastly Baboorude"
+SAY "{VOICE=03}But I will use ALL the power here{BREAK}and show you my TRUE FORM!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1147,8 +1147,8 @@ DATA 0x00000002
 WAIT 0x10 0x2 0x41f00000
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Hihyurude"
-SAY "{VOICE=03}Kaaaaaaaah!!!"
+SETNAME "Beastly Baboorude"
+SAY "{VOICE=03}Kraaaaaaaaaaaaaaaah!!!"
 WAIT 0x10 0x2 0x42700000
 SYS_43 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42ba0000

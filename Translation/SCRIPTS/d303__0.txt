@@ -422,7 +422,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}This is where we live.{BREAK}A town on Pipit Island."
+SAY "{VOICE=08} This is the place where we live.{BREAK}The town at the center island known as Pipit Island."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_28b4
@@ -430,15 +430,15 @@ DATA 0x00000001
 WAIT 0x10 0x2 0x41c80000
 STORE 0x18 0x0 0x0 0x2 0x3f800000
 SETNAME "Tiko"
-SAY "{VOICE=08}This island is strange.{BREAK}Dream worlds, memory worlds..."
+SAY "{VOICE=08}It is a mysterious place.{BREAK}The world of dreams, the world of memories..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}It seems travelers to such worlds{BREAK}pass through here."
+SAY "{VOICE=08}It has become the passage for{BREAK}travelers going to those worlds."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}So dazed travelers sometimes{BREAK}wander into this town."
+SAY "{VOICE=08}And so, aimless travelers sometimes{BREAK}get lost here in our town."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_2988
@@ -468,11 +468,11 @@ SYS_4E 0x8
 STORE 0x18 0x0 0x40000000 0x2 0x3f800000
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}But it is okay. We have power{BREAK}to link world to world..."
+SAY "{VOICE=08}But it works out. We have the power to{BREAK}connect worlds to each other."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Using that power to guide lost travelers{BREAK}is the Pipit tribe\'s duty."
+SAY "{VOICE=08}It the duty of our tribe to use that{BREAK}power to guide the lost."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_2c54
@@ -496,11 +496,11 @@ STORE 0x18 0x1 0x0 0x2 0x44044000
 SYS_33 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}...But that power of ours{BREAK}is fading now."
+SAY "{VOICE=08}But now we are losing that{BREAK}that power."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}You saw the ruined town, right?{BREAK}Pipit Island is in big trouble."
+SAY "{VOICE=08}You saw how our town was in shambles?{BREAK}Pipisle is facing an unprecedented crisis."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40800000
@@ -530,11 +530,11 @@ STORE 0x18 0x1 0x0 0x2 0x42240000
 STORE 0x18 0x1 0x3f800000 0x2 0x40e00000
 SYS_17 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}...And! The one to save us{BREAK}is you, {NAME}!"
+SAY "{VOICE=08}And so! It is your job, {NAME},{BREAK}to save us in this crisis!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Why were you chosen...?{BREAK}Ask the Elder for details."
+SAY "{VOICE=08}I do not know why you were chosen,{BREAK}but you can ask the elder for details."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x42480000
@@ -549,11 +549,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43160000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}The Elder is beyond that door{BREAK}you can see over there."
+SAY "{VOICE=08}The elder is through that door{BREAK}that stounds out over yonder."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}I will go ahead and wait.{BREAK}See you there!"
+SAY "{VOICE=08}I'll head there now and wait for you.{BREAK}Well then, it's nice to have met you!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

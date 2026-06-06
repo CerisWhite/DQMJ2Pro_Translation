@@ -117,11 +117,11 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42c80000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Oh! {NAME}!{BREAK}You have returned!"
+SAY "{VOICE=03}Ohh! It's you, {NAME}!{BREAK}Welcome back!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}Tiko told me all!{BREAK}Splendid work indeed!"
+SAY "{VOICE=03}I heard the news from Tiko!{BREAK}You have done splendidly!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41400000
@@ -138,14 +138,14 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Now, please take this.{BREAK}It is my thanks."
+SAY "{VOICE=03}Now, please take this.{BREAK}It is thanks for what you did."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x42b80000
 SYS_33 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} obtained{BREAK}10 Seeds of Hope!"
+SAY "{COLOR=2}{NAME} got{BREAK}Seeds of Hope×10!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -183,7 +183,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}...Now, Tiko and Kukri.{BREAK}You recall the scout contest?"
+SAY "{VOICE=03}Now then, Tiko, Kukuri.{BREAK}I know you haven't forgotten the scout match."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -196,7 +196,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Whoever brought Hihyurude\'s slayer{BREAK}becomes the next Elder, right?"
+SAY "{VOICE=08}You mean that the next elder would{BREAK}be the one who brought the warrior to defeat Baboorude?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -207,8 +207,8 @@ STORE 0x18 0x1 0x0 0x2 0x41a80000
 STORE 0x18 0x1 0x3f800000 0x2 0x42f00000
 SYS_17 0x8 
 SYS_42 0x8 
-SETNAME "Elder"
-SAY "{VOICE=03}Yes, exactly.{BREAK}So the next Elder is..."
+SETNAME "ELder"
+SAY "{VOICE=03}Yes. That's right.{BREAK}And so the next elder will be..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -245,7 +245,7 @@ SYS_EA 0x8
 WAIT 0x10 0x2 0x41980000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Please wait, Elder!"
+SAY "{VOICE=08}Please wait, elder!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -283,7 +283,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}What now? I was about to point{BREAK}and make it dramatic..."
+SAY "{VOICE=03}What. I had just decided to point{BREAK}at you."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -296,7 +296,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Um, Elder. About that..."
+SAY "{VOICE=08}Umm, elder. It's about that..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x3f800000
@@ -329,7 +329,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41a00000
 SETNAME "Tiko"
-SAY "{VOICE=08}I do not want to be Elder!"
+SAY "{VOICE=08}But I don't wanna become elder!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -363,13 +363,13 @@ STORE 0x18 0x1 0x3f800000 0x2 0x402ccccd
 SYS_4E 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Wh-what, Tiko!?{BREAK}Are you mocking me!?"
+SAY "{VOICE=03}W-What are you saying, Tiko!?{BREAK}You playing me for a fool!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Ah, no, not like that..."
+SAY "{VOICE=08}Uh, no, that's not it."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x3f800000
@@ -400,7 +400,7 @@ STORE 0x18 0x1 0x0 0x2 0x42740000
 STORE 0x18 0x1 0x3f800000 0x2 0x42200000
 SYS_17 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}I... want to see more worlds{BREAK}together with {NAME}!"
+SAY "{VOICE=08}I... Want to check out more{BREAK}worlds together with {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -430,8 +430,8 @@ STORE 0x18 0x1 0x0 0x0 0x40000000
 STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Kukri"
-SAY "{VOICE=08}What does that mean?{BREAK}You are leaving the island?"
+SETNAME "Kukuri"
+SAY "{VOICE=08}What do you mean by that?{BREAK}You want to leave the island?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -463,15 +463,15 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Yeah. With {NAME},{BREAK}my world grows so much."
+SAY "{VOICE=08}Yes. I'll follow you, {NAME}, 'kay?{BREAK}That much bigger world of your sawaits."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}There are all kinds of monsters,{BREAK}each with its own strength..."
+SAY "{VOICE=08}There are many monsters in the world,{BREAK}and they all have various strengths."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}I want to know so much more!{BREAK}Things I cannot learn here..."
+SAY "{VOICE=08}I wanna learn so much more about them!{BREAK}If I stay here, I won't ever learn anything."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -498,15 +498,15 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Good grief...{BREAK}It cannot be helped."
+SAY "{VOICE=03}My, my.{BREAK}If that's how you feel."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_3290
 DATA 0x00000004
 SYS_42 0x8 
-SETNAME "Kukri"
-SAY "{VOICE=08}Oh, Elder! Then the next Elder{BREAK}will be Kukri..."
+SETNAME "Kukuri"
+SAY "{VOICE=08}Oh, elder! Does that mean that{BREAK}I am the next elder?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -516,7 +516,7 @@ WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x0 0x40a00000 0x2 0x3f800000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Fool. One who fled a key battle{BREAK}cannot be Elder."
+SAY "{VOICE=03}Idiot. There's no way one that ran{BREAK}away in the heat of battle could be elder."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
@@ -526,7 +526,7 @@ WAIT 0x10 0x2 0x41700000
 STORE 0x18 0x0 0x40e00000 0x2 0x3f800000
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}I shall remain Elder.{BREAK}Tiko... go on."
+SAY "{VOICE=03}I guess I will remain elder a while longer.{BREAK}Tiko. Take leave and come back to us."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41b00000
@@ -540,7 +540,7 @@ DATA 0x00000005
 WAIT 0x10 0x2 0x40e00000
 STORE 0x18 0x0 0x40a00000 0x2 0x3f800000
 SETNAME "Elder"
-SAY "{VOICE=03}{NAME}.{BREAK}Please look after Tiko."
+SAY "{VOICE=03}{NAME}.{BREAK}Please take care of Tiko."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -550,7 +550,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Elder...{BREAK}Thank you so much!"
+SAY "{VOICE=08}Elder.{BREAK}Thank you so much!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -590,7 +590,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Come on, {NAME}.{BREAK}Sorry to decide alone, but..."
+SAY "{VOICE=08}Okay, {NAME}.{BREAK}I'm sorry it's come down to this."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41300000
@@ -637,11 +637,11 @@ STORE 0x18 0x1 0x0 0x0 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x43430000
 SYS_18 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}This time,{BREAK}you will scout me!"
+SAY "{VOICE=08}But next you're going to{BREAK}scoute ME!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}No sirloin needed!{BREAK}I am already all in!"
+SAY "{VOICE=08}You don't even need Beastie Bites!{BREAK}I'm already on your side!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41300000
@@ -664,7 +664,7 @@ SYS_14 0x8
 SPAWN 0x10 L_2ff0
 DATA 0x00000001
 SETNAME "Tiko"
-SAY "{VOICE=08}...Just kidding. Anyway,{BREAK}talk to me later, okay?"
+SAY "{VOICE=08}What am I saying. Okay,{BREAK}please talk to me later. See ya!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

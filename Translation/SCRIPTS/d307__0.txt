@@ -123,7 +123,7 @@ STORE 0x18 0x0 0x0 0x2 0x3f800000
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Ah, Tiko and {NAME}.{BREAK}What is the matter?"
+SAY "{VOICE=03}Oh, it's you, Tiko and {NAME}.{BREAK}How has it been?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -148,7 +148,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Elder... This monster was{BREAK}collapsed outside town."
+SAY "{VOICE=08}Elder. Honestly we found this monster{BREAK}collapsed outside of town."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -192,7 +192,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Th-this is...!"
+SAY "{VOICE=03}Th-This is!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -227,7 +227,7 @@ STORE 0x18 0x1 0x0 0x0 0x41200000
 SYS_53 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}It is the Incarnus!"
+SAY "{VOICE=03}This is the Incarnus!?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -258,21 +258,21 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}The Incarnus...?"
+SAY "{VOICE=08}Incarnus?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Yes. The Incarnus is a sacred monster{BREAK}with a noble mission..."
+SAY "{VOICE=03}Yes. They are a holy monster that{BREAK}have a sacred duty."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}To fulfill it, he travels dark worlds{BREAK}where evil monsters dwell."
+SAY "{VOICE=03}Their sacred duty is to wander{BREAK}the dark world where evil monsters live."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}By these wounds, he must have fought{BREAK}some fierce monsters..."
+SAY "{VOICE=03}That the incarnus sustained injury{BREAK}means it was in a fierce fight with monsters."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -290,17 +290,17 @@ SYS_54 0x8
 WAIT 0x10 0x2 0x41c80000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Ah! Then the Incarnus was{BREAK}chasing the Uninvited Guest...?"
+SAY "{VOICE=08}Oh! So maybe the Incarnus came{BREAK}after the uninvited guest?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Yes. The Incarnus, the Uninvited Guest...{BREAK}This cannot be chance."
+SAY "{VOICE=03}Hmm. The Incarnus and the uninvited...{BREAK}I don't think it is a coincidence."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}Best to wait for him to recover,{BREAK}then hear his story."
+SAY "{VOICE=03}We'll heal the Incarnus here first{BREAK}immediately, and then ask its story."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
@@ -311,8 +311,8 @@ STORE 0x18 0x1 0x0 0x2 0x42500000
 STORE 0x18 0x1 0x3f800000 0x2 0x41700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41700000
-SETNAME "Elder"
-SAY "{VOICE=03}Good! To heal the Incarnus,{BREAK}we shall make Godbird Soma!"
+SETNAME "ELder"
+SAY "{VOICE=03}Okay! And now I will use a Godbird Soma{BREAK}to heal the Incarnus' wounds!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_1f78
@@ -340,23 +340,23 @@ WAIT 0x10 0x2 0x40a00000
 STORE 0x18 0x0 0x40c00000 0x2 0x3f800000
 WAIT 0x10 0x2 0x41700000
 SETNAME "Elder"
-SAY "{VOICE=03}I am sorry, {NAME},{BREAK}but I need your help."
+SAY "{VOICE=03}I'm sorry, but could you lend{BREAK}us your aid, {NAME}?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}The Godbird Soma ingredients{BREAK}are all hard to obtain."
+SAY "{VOICE=03}It is quite difficult to get the{BREAK}ingredients for a Godbird Soma."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}I would like you{BREAK}to gather them."
+SAY "{VOICE=03}I would like for you to{BREAK}gather them for us."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}I will explain later,{BREAK}so speak to me again."
+SAY "{VOICE=03}I'll explain more afterwards,{BREAK}so please speak with me again."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}I am counting on you!"
+SAY "{VOICE=03}Now please I'm counting on you!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

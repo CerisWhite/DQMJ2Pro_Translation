@@ -36,7 +36,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}What is it, {NAME}?{BREAK}Something to say?"
+SAY "{VOICE=07}「どうした　{NAME}。{BREAK}我に　なにか言いたいことでもあるのか?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -84,15 +84,15 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}...What!? You met me{BREAK}when I was young!?"
+SAY "{VOICE=07}WHAT! You met me when I{BREAK}was younger!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}And before Hihyurude,{BREAK}I froze in fear!?"
+SAY "{VOICE=07}AND you say that I shook in my boots{BREAK}before Baboorude!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}H-how do you{BREAK}know that...?"
+SAY "{VOICE=07}H-How in the world do you{BREAK}know that."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -112,11 +112,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}That was so long ago,{BREAK}even I forgot..."
+SAY "{VOICE=07}Even I had forgotten all about{BREAK}what happened in the distant past."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}Tell no one of this.{BREAK}That is our promise!"
+SAY "{VOICE=07}And I never told a soul about that.{BREAK}This is a secret between us!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

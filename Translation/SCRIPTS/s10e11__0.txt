@@ -3466,13 +3466,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40c00000
 JMP_IFNOT 0xc L_d3a0
 L_d248:
 SYS_42 0x8 
-SAY "{VOICE=07}You are Tiko's warrior?{BREAK}Choosing a human was bold."
+SAY "{VOICE=07}You're the warrior Tiko brought?{BREAK}What was she thinking to choose a human?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But you do not look like one{BREAK}who beat those giants..."
+SAY "{VOICE=07}But I never thought you could{BREAK}defeat that giant monster."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}...Not a warrior, a Monster Master?{BREAK}What is that? Never heard of it."
+SAY "{VOICE=07}What? You're not a warrior,{BREAK}but a monster scout? What's that?{BREAK}I've never heard of it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3517,10 +3517,10 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41d00000
 JMP_IFNOT 0xc L_d63c
 L_d568:
 SYS_42 0x8 
-SAY "{VOICE=08}Huff... My eyes blur,{BREAK}and breathing is hard."
+SAY "{VOICE=08}Huff. Puff. My eyes are{BREAK}blurry, and I can't breathe."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Defeat the Uninvited Guest quickly,{BREAK}or we really will vanish..."
+SAY "{VOICE=08}We... really will disappear if{BREAK}no one defeats the uninvited guest."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3529,10 +3529,10 @@ L_d63c:
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41e00000
 JMP_IFNOT 0xc L_d730
 SYS_42 0x8 
-SAY "{VOICE=07}Thank you, {NAME}!{BREAK}You saved Pipit Island!"
+SAY "{VOICE=07}Thanks, {NAME}!{BREAK}You're the hero of Pipisle!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Monster Masters are strong!{BREAK}They may catch on!"
+SAY "{VOICE=07}Monster scouts're strong!{BREAK}I bet they'll be hip now!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3541,13 +3541,13 @@ L_d730:
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41e80000
 JMP_IFNOT 0xc L_d890
 SYS_42 0x8 
-SAY "{VOICE=07}The plate you used to come here{BREAK}was made by ancient humans."
+SAY "{VOICE=07}The monument you used when you{BREAK}came here was made by ancient humans."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Ancient humans believed{BREAK}this was the gods' world..."
+SAY "{VOICE=07}They believed that this was{BREAK}the world of gods."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Only those who beat six giants{BREAK}could open the path."
+SAY "{VOICE=07}It would only open for the{BREAK}one who defeated the 6 giant monsters."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3584,17 +3584,17 @@ STORE 0x18 0x0 0x42be0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x0
 JMP_IFNOT 0xc L_dd10
 SYS_42 0x8 
-SAY "{VOICE=08}Are you a customer, ppi?{VOICE=09}"
+SAY "{VOICE=08}「もしかして　お客さんッピ?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42c00000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c00000 0x2 0x0
 JMP_IFNOT 0xc L_dc7c
-SAY "{VOICE=08}Good, ppi. At a time like this,{BREAK}I almost closed shop."
+SAY "{VOICE=08}Thank goodness. I thought{BREAK}the shop was done for."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}As a human, you may see{BREAK}new wares. Take a look, ppi."
+SAY "{VOICE=08}There should be some items{BREAK}new to human eyes, so take your{BREAK}time."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3617,7 +3617,7 @@ JMP_REL L_dc84
 L_dc84:
 JMP_ABS 0xc L_dc90
 L_dc90:
-SAY "{VOICE=08}Sigh... At a time like this,{BREAK}no one shops slowly, ppi."
+SAY "{VOICE=08}Sigh. At times like these{BREAK}people really can't just shop."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3630,7 +3630,7 @@ L_dd18:
 JMP_ABS 0xc L_dd24
 L_dd24:
 SYS_42 0x8 
-SAY "{VOICE=08}Welcome, ppi!{BREAK}Please shop at your leisure."
+SAY "{VOICE=08}Welcome in!{BREAK}Please take your time."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3658,13 +3658,13 @@ STORE 0x18 0x0 0x42be0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x0
 JMP_IFNOT 0xc L_e10c
 SYS_42 0x8 
-SAY "{VOICE=08}Welcome, ppi!"
+SAY "{VOICE=08}Welcome in!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}The Elder gave me Pipit Island{BREAK}medicine recipes to sell, ppi."
+SAY "{VOICE=08}I'm selling the legendary Pipisle{BREAK}medicinal recipe that the elder told me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}They are pricey, but useful{BREAK}against tough Masters, ppi."
+SAY "{VOICE=08}It's a bit high-priced, but{BREAK}it'll come in handy against any strong{BREAK}monster you come across."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3691,7 +3691,7 @@ L_e114:
 JMP_ABS 0xc L_e120
 L_e120:
 SYS_42 0x8 
-SAY "{VOICE=08}Welcome, ppi!{BREAK}Please shop at your leisure."
+SAY "{VOICE=08}Welcome in!{BREAK}Please take your time."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3938,7 +3938,7 @@ SYS_49 0x8
 CMP_EQ 0x18 0x0 0x42f20000 0x2 0x40000000
 JMP_IFNOT 0xc L_ebb4
 SYS_42 0x8 
-SAY "{VOICE=08}Thank you, ppi!{BREAK}Please come again."
+SAY "{VOICE=08}Thank you very much.{BREAK}I hope you come back."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

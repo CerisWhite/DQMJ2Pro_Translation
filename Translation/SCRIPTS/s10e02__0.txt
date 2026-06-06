@@ -3298,22 +3298,22 @@ SYS_42 0x8
 SETNAME "Eugene Poole"
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x0
 JMP_IFNOT 0xc L_cf8c
-SAY "{VOICE=03}Oh, good of you to come!{BREAK}I was looking for you!"
+SAY "{VOICE=03}Ohh, thanks for coming!{BREAK}I've been searching for you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}When I first came here,{BREAK}I panicked and did nothing..."
+SAY "{VOICE=03}When I first got lost here{BREAK}I didn't know what to do,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}When I awoke, somehow{BREAK}I wanted to fight you."
+SAY "{VOICE=03}but maybe 'cause I woke up{BREAK}I've wanted to fight you."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}My old Master blood{BREAK}must be stirring again."
+SAY "{VOICE=03}I was a monster scout in my day.{BREAK}And I'm itching to give it a go again."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}So, what say you?{BREAK}Have a Master battle?"
+SAY "{VOICE=03}And so how 'bout it?{BREAK}Won't you scout battle with me?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Beat me and get a prize!{BREAK}Fight me now?{VOICE=09}"
+SAY "{VOICE=03}If you beat me, I'll give you{BREAK}a prize! So won't you fight me now?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000
@@ -3323,14 +3323,14 @@ JMP_ABS 0xc L_d0a8
 L_cf8c:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_d018
-SAY "{VOICE=03}Oh, you! Will you have{BREAK}a Master battle?{VOICE=09}"
+SAY "{VOICE=03}Ohh, you. So you do really{BREAK}want to scout battle?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d0a8
 L_d018:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x40000000
 JMP_IFNOT 0xc L_d0a8
-SAY "{VOICE=03}Oh, you again!{BREAK}How about a Master battle?{VOICE=09}"
+SAY "{VOICE=03}Ohh, it's you! We meet again!{BREAK}Well? Want go a round with me?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d0a8
@@ -3347,10 +3347,10 @@ L_d128:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_d230
 L_d14c:
-SAY "{VOICE=03}I see! You accept!"
+SAY "{VOICE=03}Really!! You will!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}It has been ages.{BREAK}Go easy on me."
+SAY "{VOICE=03}It's been such a long time.{BREAK}Just go a bit easy on me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000
@@ -3360,10 +3360,10 @@ JMP_ABS 0xc L_d2f4
 L_d230:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x40000000
 JMP_IFNOT 0xc L_d2f4
-SAY "{VOICE=03}Ho ho ho!{BREAK}That is the spirit!"
+SAY "{VOICE=03}Ho-ho-ho!{BREAK}You really shouldn't."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Here I come!{BREAK}I will not hold back!"
+SAY "{VOICE=03}Okay, let's go!{BREAK}Don't go easy on me!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d2f4
@@ -3377,10 +3377,10 @@ JMP_REL L_d340
 L_d340:
 JMP_ABS 0xc L_d34c
 L_d34c:
-SAY "{VOICE=03}...Oh, I see.{BREAK}You have things to do too."
+SAY "{VOICE=03}Ohh, I see.{BREAK}Well, you got other fish to fry."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I feel sentimental,{BREAK}but never mind me."
+SAY "{VOICE=03}I was feelin' a bit sentimental,{BREAK}but, well, I don't really care."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000
@@ -3495,20 +3495,20 @@ SYS_24 0x8
 STORE 0x18 0x0 0x42bc0000 0x1 0x0
 SYS_42 0x8 
 SETNAME "Eugene Poole"
-SAY "{VOICE=03}Bah! I lost!{BREAK}You really are strong."
+SAY "{VOICE=03}Kah! I lost!{BREAK}You really are strong."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}For that fun battle,{BREAK}I will give you a monster."
+SAY "{VOICE=03}I'll give you a monster as {BREAK}a reward for showing me a good time."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Want one from Eugene Poole's{BREAK}Go-Getter Collection?{VOICE=09}"
+SAY "{VOICE=03}Do you want one of the monsters{BREAK}in my lively collection?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ba0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ba0000 0x2 0x0
 JMP_IFNOT 0xc L_e0e8
-SAY "{VOICE=03}Good! Then{BREAK}take this one!"
+SAY "{VOICE=03}Good! Now go ahead{BREAK}and take them with you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3565,14 +3565,14 @@ JMP_REL L_e0f0
 L_e0f0:
 JMP_ABS 0xc L_e0fc
 L_e0fc:
-SAY "{VOICE=03}Then Eugene Poole's{BREAK}Muscle Collection?{VOICE=09}"
+SAY "{VOICE=03}Then how about a monster from{BREAK}my muscle collection?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ba0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ba0000 0x2 0x0
 JMP_IFNOT 0xc L_e548
-SAY "{VOICE=03}Good! Then{BREAK}take this one!"
+SAY "{VOICE=03}Good! Now go ahead{BREAK}and take them with you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3629,14 +3629,14 @@ JMP_REL L_e550
 L_e550:
 JMP_ABS 0xc L_e55c
 L_e55c:
-SAY "{VOICE=03}Hmm. Then Eugene Poole's{BREAK}Thrill Collection?{VOICE=09}"
+SAY "{VOICE=03}Hmm. Then how about one from{BREAK}my heart throb collection?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ba0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ba0000 0x2 0x0
 JMP_IFNOT 0xc L_e9e8
-SAY "{VOICE=03}Good! Then{BREAK}take this one!"
+SAY "{VOICE=03}Good! Now go ahead{BREAK}and takem with you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3696,7 +3696,7 @@ JMP_REL L_e9f0
 L_e9f0:
 JMP_ABS 0xc L_e9fc
 L_e9fc:
-SAY "{VOICE=03}Enough! Do not toy with me!{BREAK}I will choose. Here!"
+SAY "{VOICE=03}What! I'm too old for these games!{BREAK}So I decide what you get! HERE!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3830,7 +3830,7 @@ SYS_A3 0x8
 JMP_ABS 0xc L_f3a4
 L_f3a4:
 SYS_42 0x8 
-SAY "{COLOR=2}Eugene Poole forced{BREAK}{E322} on {NAME}!"
+SAY "{COLOR=2}{NAME} was forced a{BREAK}{E322} by Eugene Poole!"
 STORE 0x18 0x1 0x0 0x2 0x42800000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3847,13 +3847,13 @@ SYS_42 0x8
 SETNAME "Eugene Poole"
 CMP_LE 0x18 0x0 0x42b80000 0x2 0x40400000
 JMP_IFNOT 0xc L_f5b4
-SAY "{VOICE=03}Master battles are fun.{BREAK}Thanks for humoring me."
+SAY "{VOICE=03}Scout battles really are fun.{BREAK}Thanks for humoring an old man."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Now I shall wander awhile{BREAK}for stronger monsters."
+SAY "{VOICE=03}Now, I want a strong monster{BREAK}so I guess I'll roam about for one."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Find me again tomorrow.{BREAK}I will be waiting."
+SAY "{VOICE=03}Come see me again tomorrow.{BREAK}Fun times await."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_f698
@@ -3862,10 +3862,10 @@ JMP_REL L_f5bc
 L_f5bc:
 JMP_ABS 0xc L_f5c8
 L_f5c8:
-SAY "{VOICE=03}Master battles are fun.{BREAK}Thanks for humoring me."
+SAY "{VOICE=03}Scout battles really are fun.{BREAK}Thanks for humoring an old man."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}We have battled plenty.{BREAK}Time for me to wake up."
+SAY "{VOICE=03}Now, I guess it's about time{BREAK}to wake up after all those battles."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_f698
@@ -4218,7 +4218,7 @@ STORE 0x18 0x1 0x0 0x2 0x40c00000
 SYS_60 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{COLOR=2}An evil aura lies ahead.{BREAK}Proceed?{VOICE=09}"
+SAY "{COLOR=2}You sense an evil presence ahead.{BREAK}Do you want to continue?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4501,7 +4501,7 @@ WAIT 0x10 0x2 0x41f00000
 CMP_EQ 0x18 0x0 0x42cc0000 0x2 0x430b0000
 JMP_IFNOT 0xc L_119c4
 SYS_42 0x8 
-SAY "{COLOR=2}An evil aura lies ahead.{BREAK}Proceed?{VOICE=09}"
+SAY "{COLOR=2}You sense an evil presence up ahead.{BREAK}Do you want to continue?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_11a5c
@@ -4509,7 +4509,7 @@ L_119c4:
 CMP_EQ 0x18 0x0 0x42cc0000 0x2 0x43140000
 JMP_IFNOT 0xc L_11a5c
 SYS_42 0x8 
-SAY "{COLOR=2}An evil aura fills the area.{BREAK}Approach the campfire?{VOICE=09}"
+SAY "{COLOR=2}You sense an evil presence around.{BREAK}Do you still want to approach the fire?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_11a5c
@@ -4627,7 +4627,7 @@ STORE 0x18 0x1 0x0 0x2 0x40c00000
 SYS_60 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SAY "{COLOR=2}An evil aura fills the area.{BREAK}Approach the campfire?{VOICE=09}"
+SAY "{COLOR=2}You sense an evil presence around.{BREAK}Do you still want to approach the fire?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 

@@ -3249,7 +3249,7 @@ STORE 0x18 0x1 0x0 0x2 0x417d999a
 SYS_10A 0x8 
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
-SAY "{COLOR=2}Return to Blanc Palace?{VOICE=09}"
+SAY "{COLOR=2}Will you return to Blanc Palace?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -3810,10 +3810,10 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x42c00000
 SYS_A8 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}Amazing! {NAME}{BREAK}beat a top-class Master!"
+SAY "{COLOR=2}What! {NAME}{BREAK}won against the scouts of the Ultimate Class!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}{NAME} earned {E322} bonus points{BREAK}for the Ultimate Master Cup!"
+SAY "{COLOR=2}{NAME} got {E322} points{BREAK}as bonus points for the Ultimate Class final!"
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -3954,10 +3954,10 @@ L_f514:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_f688
 L_f538:
-SAY "{VOICE=07}I yield! I lost!{BREAK}I cannot beat such fire!"
+SAY "{VOICE=07}Shucks! That's my loss!{BREAK}I'm really no match for all that!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Old soldiers just fade away.{BREAK}The future is yours, youth!"
+SAY "{VOICE=07}I'm just a tired-old monkey.{BREAK}The future is yours, young one!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3974,10 +3974,10 @@ JMP_REL L_f690
 L_f690:
 JMP_ABS 0xc L_f69c
 L_f69c:
-SAY "{VOICE=07}Bah! What a timid stance!{BREAK}Is that our future youth?"
+SAY "{VOICE=07}What's with that timidness! You think{BREAK}you can carry the future, young one?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Still, you have talent!{BREAK}I expect great things!"
+SAY "{VOICE=07}That said, you've got nice muscles!{BREAK}I expect smashing things from you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3999,10 +3999,10 @@ L_f818:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_f994
 L_f83c:
-SAY "{VOICE=07}No way! I lost!?{BREAK}You are insanely strong!"
+SAY "{VOICE=07}What the heck! You must be absurdly strong{BREAK}for me to have lost!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}With skill like that, aim high!{BREAK}Battle me again someday!"
+SAY "{VOICE=07}You could aim for the top with your skill!{BREAK}If we meet again, let's have another match!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4019,10 +4019,10 @@ JMP_REL L_f99c
 L_f99c:
 JMP_ABS 0xc L_f9a8
 L_f9a8:
-SAY "{VOICE=07}Ha ha ha ha!{BREAK}Looks like I won!"
+SAY "{VOICE=07}Ha-ha-ha-ha!{BREAK}It seems victory is mine!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But you have talent!{BREAK}Battle me again someday!"
+SAY "{VOICE=07}But you've some senses about you!{BREAK}If we meet again, let's have another match!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4044,10 +4044,10 @@ L_fb14:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_fc84
 L_fb38:
-SAY "{VOICE=07}Nice fight! I lost.{BREAK}That was a real thriller."
+SAY "{VOICE=07}NICE FIGHT! My loss.{BREAK}It was a good breath-taking fight."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}At this rate, I still cannot{BREAK}go home to {E30B}{00}..."
+SAY "{VOICE=07}I can't return home to {E30B}{00}{BREAK}leaving it like this."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4064,10 +4064,10 @@ JMP_REL L_fc8c
 L_fc8c:
 JMP_ABS 0xc L_fc98
 L_fc98:
-SAY "{VOICE=07}Good! Looks like I won.{BREAK}That was a real thriller."
+SAY "{VOICE=07}Good! It appears victory is mine.{BREAK}It was a good breath-taking fight."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Now I can go home with pride.{BREAK}Well, I am off."
+SAY "{VOICE=07}I feel confident I can return home.{BREAK}Well then, I'll be leaving now."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4089,10 +4089,10 @@ L_fe10:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_ff88
 L_fe34:
-SAY "{VOICE=07}Oh my gosh! I cannot believe{BREAK}I lost..."
+SAY "{VOICE=07}OH! MY! GOD! I can't believ it.{BREAK}How could I lose."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}To your passion in battle:{BREAK}cheers! See you again!"
+SAY "{VOICE=07}Cheers to your fierce, burning{BREAK}passion for fighting! Let's meet again!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4109,10 +4109,10 @@ JMP_REL L_ff90
 L_ff90:
 JMP_ABS 0xc L_ff9c
 L_ff9c:
-SAY "{VOICE=07}Whew! That settles it.{BREAK}Looks like I won."
+SAY "{VOICE=07}Phew! What a match.{BREAK}It seems I won this time."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Your passion was pretty good.{BREAK}Hope we meet again!"
+SAY "{VOICE=07}Your passion is something though.{BREAK}I hope we can meet again somewhere!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4134,10 +4134,10 @@ L_1010c:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_1027c
 L_10130:
-SAY "{VOICE=07}Ahahaha! You are strong!{BREAK}Wow, wow, wooow!"
+SAY "{VOICE=07}Kya-ha-ha-ha! You're strong, bruv!{BREAK}Amazing! Amazing! A-mazing!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Okay! I will get stronger{BREAK}and beat you! Play again!"
+SAY "{VOICE=07}It's setlted! I'm gonna get stronger{BREAK}so I can beat you! Let's play again, 'kay!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4154,10 +4154,10 @@ JMP_REL L_10284
 L_10284:
 JMP_ABS 0xc L_10290
 L_10290:
-SAY "{VOICE=07}Oopsie! Onii-chan,{BREAK}you were not much!"
+SAY "{VOICE=07}Oh, my! You really weren't that great,{BREAK}bruv!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You went easy on me, right?{BREAK}Go all out next time! Bye!"
+SAY "{VOICE=07}You think you'd go easy on me 'cuz{BREAK}Imma kid? Fight for real, 'kay! Byeeee!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4179,10 +4179,10 @@ L_1040c:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_1057c
 L_10430:
-SAY "{VOICE=07}I lost. Now I cannot face{BREAK}my ma back in {E30B}{00}..."
+SAY "{VOICE=07}My loss, huh? I can't face my mother{BREAK}{E30B}{00} now."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Still, fighting fair is not bad!{BREAK}That was fun. Thanks!"
+SAY "{VOICE=07}But fighting fairly isn't{BREAK}so bad! That was fun. Thanks!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4199,10 +4199,10 @@ JMP_REL L_10584
 L_10584:
 JMP_ABS 0xc L_10590
 L_10590:
-SAY "{VOICE=07}O-oh, I won!? Yes!{BREAK}I will tell ma in {E30B}{00}!"
+SAY "{VOICE=07}O-Oh... My win!? I did it!{BREAK}My mother {E30B}{00} will be proud!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Heh. Fighting fair is not bad!{BREAK}That was fun. Thanks!"
+SAY "{VOICE=07}He-he. Fighting fair isn't so bad!{BREAK}That was fun. Thanks!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4224,10 +4224,10 @@ L_1070c:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_10880
 L_10730:
-SAY "{VOICE=07}I asked to battle and lost.{BREAK}I smile, but I cry inside."
+SAY "{VOICE=07}I learned a lot despite losing.{BREAK}I'm smiling on the outside, but not the inside."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But thanks for putting up{BREAK}with me. Talk to me again."
+SAY "{VOICE=07}But truly thanks for having a bout{BREAK}with me. Call me up anytime."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4244,10 +4244,10 @@ JMP_REL L_10888
 L_10888:
 JMP_ABS 0xc L_10894
 L_10894:
-SAY "{VOICE=07}Oh, battle is over already.{BREAK}Also, sorry I won."
+SAY "{VOICE=07}Oh, when did the fight end?{BREAK}I guess I won. Wow, really, sorry."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You have promise, so keep at it.{BREAK}I will root for you inside."
+SAY "{VOICE=07}I guess it went well since{BREAK}I fought hard. And I got someone cheering for me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4269,10 +4269,10 @@ L_10a14:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_10b84
 L_10a38:
-SAY "{VOICE=07}Whoa! I lost!{BREAK}You are really strong!"
+SAY "{VOICE=07}Woah! I got floored!{BREAK}Are you really that strong!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Losing stings,{BREAK}but it was fun. See you!"
+SAY "{VOICE=07}It's frustrating to lose,{BREAK}but it was enjoyable. Let's meet again!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4289,10 +4289,10 @@ JMP_REL L_10b8c
 L_10b8c:
 JMP_ABS 0xc L_10b98
 L_10b98:
-SAY "{VOICE=07}Sorry. I meant to learn from you,{BREAK}but I won..."
+SAY "{VOICE=07}Excuse me. I just wanted to spar with{BREAK}a higher rank, but I seem to have won."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}W-well, do not feel bad!{BREAK}See you again. Farewell!"
+SAY "{VOICE=07}W-Well, don't be discouraged!{BREAK}Let's meet again somewhere. See you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4314,10 +4314,10 @@ L_10d10:
 CMP_EQ 0x18 0x0 0x42be0000 0x2 0x40400000
 JMP_IFNOT 0xc L_10e78
 L_10d34:
-SAY "{VOICE=07}Oh my! You are strong.{BREAK}I lost."
+SAY "{VOICE=07}No way! You're strong.{BREAK}I guess I'm no match for you, hun."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I will go home quietly{BREAK}and train my darlings! Bye!"
+SAY "{VOICE=07}I'll head on home now,{BREAK}and train with my kids! Bye!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4334,10 +4334,10 @@ JMP_REL L_10e80
 L_10e80:
 JMP_ABS 0xc L_10e8c
 L_10e8c:
-SAY "{VOICE=07}Sorry! I cannot hold back,{BREAK}so I went all out!"
+SAY "{VOICE=07}Sorry! I can't tell how good I am so{BREAK}I went all out, and beat you, hun!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}That was a hot match, right?{BREAK}So much fun! Thanks!"
+SAY "{VOICE=07}It was a quite an exhilerating fight,{BREAK}y'know? Super fun and all that! Thanks, hun!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4388,27 +4388,27 @@ STORE 0x18 0x1 0x0 0x2 0x429e0000
 STORE 0x18 0x1 0x3f800000 0x2 0x40400000
 SYS_28 0x8 
 SYS_42 0x8 
-SETNAME "Genie sanguini"
-SAY "{VOICE=07}Welcome to Ultimate Master Arena!{BREAK}I have advice for you!"
+SETNAME "Genie Sanguini"
+SAY "{VOICE=07}Welcome to the Ultimate Scout Arena!{BREAK}I'm here to give you advice!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 L_11264:
-SAY "{VOICE=07}Three top-class Masters are here.{BREAK}Talk to them to battle."
+SAY "{VOICE=07}There are 3 Ultimate class scouts here.{BREAK}If you talk to them, you'll battle."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Closer to the arena center,{BREAK}the higher their rank."
+SAY "{VOICE=07}As you make it closer to the center{BREAK}you'll fight higher ranked scouts."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}They are pros,{BREAK}so you may use items."
+SAY "{VOICE=07}Since they're all pros,{BREAK}you'll be allowed to use items."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Win by any means you can.{BREAK}Because if you win..."
+SAY "{VOICE=07}We'd like you to win no matter how.{BREAK}And if you happen to win a match,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}you get bonus points for{BREAK}the next Ultimate Master Cup!"
+SAY "{VOICE=07}you'll receive bonus points that{BREAK}you can use on the next Ultimate Scout!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But each Master fights once,{BREAK}win or lose. Good luck!"
+SAY "{VOICE=07}However you only have 1 win and 1 loss{BREAK}against the same scout. good luck!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4419,8 +4419,8 @@ L_114e8:
 JMP_ABS 0xc L_114f4
 L_114f4:
 SYS_42 0x8 
-SETNAME "Genie sanguini"
-SAY "{VOICE=07}Welcome to Ultimate Master Arena!{BREAK}Hear my advice again?{VOICE=09}"
+SETNAME "Genie Sanguini"
+SAY "{VOICE=07}Welcome to the Ultimate Scout Arena!{BREAK}Wanna hear my advice again?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4434,7 +4434,7 @@ JMP_REL L_115d8
 L_115d8:
 JMP_ABS 0xc L_115e4
 L_115e4:
-SAY "{VOICE=07}Got it.{BREAK}Good luck!"
+SAY "{VOICE=07}Understood.{BREAK}I pray for your victory!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4447,8 +4447,8 @@ L_11658:
 CMP_EQ 0x18 0x3 0x0 0x0 0x42b40000
 JMP_IFNOT 0xc L_125c4
 SYS_42 0x8 
-SETNAME "Genie sanguini"
-SAY "{VOICE=07}Want to know the bonus points{BREAK}earned from these foes?{VOICE=09}"
+SETNAME "Genie Sanguini"
+SAY "{VOICE=07}Do you want to know the bonus points{BREAK}you've earned before your next opponent?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -4493,20 +4493,20 @@ L_119b0:
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x42d20000
 SYS_A8 0x8 
-SAY "{VOICE=07}Your total bonus points{BREAK}so far are {E322}."
+SAY "{VOICE=07}You have earned {E322} bonus{BREAK}points so far."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Bonus points are added after{BREAK}finishing the Ultimate Master Cup!"
+SAY "{VOICE=07}Bonus points will be added when you{BREAK}fight until the final Ultimate Scout battle!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Return to Blanc Palace now?{VOICE=09}"
+SAY "{VOICE=07}Want to return to{BREAK}Blanc Palace?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_11f9c
-SAY "{VOICE=07}Then come again!"
+SAY "{VOICE=07}Okay, come again!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4574,7 +4574,7 @@ JMP_REL L_11fa4
 L_11fa4:
 JMP_ABS 0xc L_11fb0
 L_11fb0:
-SAY "{VOICE=07}If you want back to Blanc Palace,{BREAK}just tell me anytime."
+SAY "{VOICE=07}Tell me anytime when you want{BREAK}to return to Blanc Palace, 'kay?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4586,14 +4586,14 @@ JMP_REL L_12034
 L_12034:
 JMP_ABS 0xc L_12040
 L_12040:
-SAY "{VOICE=07}Return to Blanc Palace now?{VOICE=09}"
+SAY "{VOICE=07}Want to return to{BREAK}Blanc Palace?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_12528
-SAY "{VOICE=07}Then come again!"
+SAY "{VOICE=07}Okay, come again!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4661,7 +4661,7 @@ JMP_REL L_12530
 L_12530:
 JMP_ABS 0xc L_1253c
 L_1253c:
-SAY "{VOICE=07}If you want back to Blanc Palace,{BREAK}just tell me anytime."
+SAY "{VOICE=07}Talk to me anytime you want{BREAK}to return to Blanc Palace, 'kay?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4742,26 +4742,26 @@ L_12924:
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}Bah! Known all over {E30B}{00}!{BREAK}I am the stubborn old Master!"
+SAY "{VOICE=07}Ah! A fresh face for me, {E30B}{00}!{BREAK}I'm the Ol' Stubbon Scout!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}In the Ultimate Master Cup,{BREAK}I always work hard in {E30B}D..."
+SAY "{VOICE=07}Who always appears in the Ultimate Scout{BREAK}finale is {E30B} D Rank."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}On {E30B}T/{E30B}j, my team{BREAK}{E30B}z ranked high!"
+SAY "{VOICE=07}In the {E30B}T/{E30B}j rankings, under my lead{BREAK}{E30B}z increased in rank!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I will not lose to youth!{BREAK}Will you fight me?{VOICE=09}"
+SAY "{VOICE=07}I won't lose to no child!{BREAK}Now you, me, battle!{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_12c5c
-SAY "{VOICE=07}Oh! For today's youth,{BREAK}you show promise!"
+SAY "{VOICE=07}Ohh! You youngsters these days{BREAK}are so brilliant!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Good! I will show no mercy!{BREAK}Come at me for real!"
+SAY "{VOICE=07}Fine! I won't go easy on you either!{BREAK}I'm going to fight for real this time!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4778,7 +4778,7 @@ JMP_REL L_12c64
 L_12c64:
 JMP_ABS 0xc L_12c70
 L_12c70:
-SAY "{VOICE=07}This is youth today...{BREAK}Fight me when you feel like it!"
+SAY "{VOICE=07}And so you youngster of the present{BREAK}if you're willing, you can fight me!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4789,26 +4789,26 @@ L_12cf0:
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}Yo! I came from {E30B}{00}{BREAK}to meet strong foes!"
+SAY "{VOICE=07}'Sup! In order to meet strong folks{BREAK}I came from far off {E30B}{00}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I am deep in the{BREAK}Ultimate Master Cup {E30B}D class..."
+SAY "{VOICE=07}I entered the Ultimate Scout finale{BREAK}as {E30B} D rank,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}On {E30B}T/{E30B}j, my team{BREAK}{E30B}z took a high rank!"
+SAY "{VOICE=07}But in the {E30B}T/{E30B}j rankings,{BREAK}led by me, {E30B}z has increased in rank!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You look like a Monster Master.{BREAK}Want to battle me?{VOICE=09}"
+SAY "{VOICE=07}You seem to be a monster scout too.{BREAK}How about it? Won't you battle with me?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_1300c
-SAY "{VOICE=07}All right! That is the spirit!{BREAK}Come at me full force!"
+SAY "{VOICE=07}Alright! I knew it!{BREAK}You better fight me full strength!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Here I go!"
+SAY "{VOICE=07}Now let's rumble!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4825,7 +4825,7 @@ JMP_REL L_13014
 L_13014:
 JMP_ABS 0xc L_13020
 L_13020:
-SAY "{VOICE=07}Nahaha! Scared before{BREAK}a top-class Master?"
+SAY "{VOICE=07}Na-ha-ha! You scared of fighting{BREAK}a top class scout!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4836,26 +4836,26 @@ L_13098:
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}I am the masked Monster Master{BREAK}leading {E30B}z."
+SAY "{VOICE=07}I am a mysteriously-masked scout{BREAK}with {E30B}z under my command."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}In the Ultimate Master Cup,{BREAK}I sweat it out in {E30B}D."
+SAY "{VOICE=07}In the Ultimate Scout final{BREAK}I always appear in {E30B} D Rank."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}And on {E30B}T/{E30B}j,{BREAK}my team finally ranked high."
+SAY "{VOICE=07}And lately in the {E30B}T/{E30B}j rankings,{BREAK}MY TEAM has increased its rank."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I fight to honor {E30B}{00}.{BREAK}Will you fight me?{VOICE=09}"
+SAY "{VOICE=07}Do you think you can fight ME{BREAK}wearing the dress of my hometown {E30B}{00}?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_133c4
-SAY "{VOICE=07}Good. A manly answer.{BREAK}Worthy of facing me!"
+SAY "{VOICE=07}Hmm. A reply suitable for a man.{BREAK}You are fit to be MY opponent!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Come at me from anywhere!"
+SAY "{VOICE=07}Now, come at me, anyway you can!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4872,7 +4872,7 @@ JMP_REL L_133cc
 L_133cc:
 JMP_ABS 0xc L_133d8
 L_133d8:
-SAY "{VOICE=07}I will not force you.{BREAK}Talk to me if you change your mind."
+SAY "{VOICE=07}Well, I won't ask the impossible.{BREAK}Speak to me if you change your mind."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4883,26 +4883,26 @@ L_13450:
 STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}Hi! I lead {E30B}z,{BREAK}a nice guy from {E30B}{00}!"
+SAY "{VOICE=07}Hey! I, with {E30B} under my command,{BREAK}am the nice guy born in {E30B}{00}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I always join{BREAK}Ultimate Master Cup {E30B}D..."
+SAY "{VOICE=07}In the Ultimate Scout Arena I always{BREAK}join {E30B} D Rank,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}On {E30B}T/{E30B}j, my team{BREAK}shone in the top ranks!"
+SAY "{VOICE=07}But in the {E30B}T/{E30B}j rankings,{BREAK}my team splendidly increased in rank!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Heh. You are a Master too.{BREAK}Care for a stylish battle?{VOICE=09}"
+SAY "{VOICE=07}Phew. You seem to be a monster scout too.{BREAK}Would you be open to a brilliant fight wit me?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_137a0
-SAY "{VOICE=07}Whew! Good answer!{BREAK}Throw all you have at me!"
+SAY "{VOICE=07}Whoo! Good answer!{BREAK}You better bring your A game!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I will take it all!{BREAK}Here we go! Ready... go!"
+SAY "{VOICE=07}I'm going to fight full strength!{BREAK}Now, let's go! Ready! Set! GO!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4919,7 +4919,7 @@ JMP_REL L_137a8
 L_137a8:
 JMP_ABS 0xc L_137b4
 L_137b4:
-SAY "{VOICE=07}Cold, are we? Well,{BREAK}talk to me when you feel like it."
+SAY "{VOICE=07}How boring. Well, if you change{BREAK}your mind, talk to me again."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4930,26 +4930,26 @@ L_1382c:
 STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}Hi! I am a kiddie{BREAK}Monster Master from {E30B}{00}."
+SAY "{VOICE=07}Hello, there. I live in {E30B}{00}.{BREAK}I'm the monster scout princess."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I always join{BREAK}Ultimate Master Cup {E30B}D..."
+SAY "{VOICE=07}In the Ultimate Scout final,{BREAK}I join {E30B} D rank,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}On {E30B}T/{E30B}j,{BREAK}my {E30B}z ranked high!"
+SAY "{VOICE=07}But in the {E30B}T/{E30B}j rankings,{BREAK}my {E30B}z has ranked up!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You are a Master too, right?{BREAK}Battle me, okay?{VOICE=09}"
+SAY "{VOICE=07}You're a scout too, right, bruv?{BREAK}So, come on, fight with me.{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_13b54
-SAY "{VOICE=07}Yay!{BREAK}Thanks, Onii-chan"
+SAY "{VOICE=07}Yay!{BREAK}Thanks, bruv!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Do not hold back!{BREAK}Here I go!"
+SAY "{VOICE=07}Don't go easy on me 'cause I'm a kid!{BREAK}Well then, let's go!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4966,7 +4966,7 @@ JMP_REL L_13b5c
 L_13b5c:
 JMP_ABS 0xc L_13b68
 L_13b68:
-SAY "{VOICE=07}Aww. Boring.{BREAK}Come on, battle me!"
+SAY "{VOICE=07}Ugh. How boring.{BREAK}It would've been a good battle."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4977,26 +4977,26 @@ L_13bdc:
 STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}Y-yo. You found me.{BREAK}I am a sneaky thief Master."
+SAY "{VOICE=07}H-Hey. I really get it here.{BREAK}I'm the monster scout thief."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I always skulk around{BREAK}Ultimate Master Cup {E30B}D."
+SAY "{VOICE=07}In the Ultimate Scout final,{BREAK}I always sneak in {E30B} aruond D rank."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}...Still, on {E30B}T/{E30B}j,{BREAK}my team ranked high."
+SAY "{VOICE=07}That said, in the {E30B}T/{E30B}j rankings,{BREAK}my team has ranked up."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}H-hey. Will you fight{BREAK}my {E30B}z?{VOICE=09}"
+SAY "{VOICE=07}S-So, you. Will you fight against{BREAK}my {E30B}z?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_13f2c
-SAY "{VOICE=07}O-oh, yeah! First fair fight,{BREAK}so I am nervous!"
+SAY "{VOICE=07}O-Oh, really!? This'll be the first{BREAK}fight not sneakin' around so I'm pretty nervous!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Everyone back in {E30B}{00}!{BREAK}Lend me strength!"
+SAY "{VOICE=07}Everyone back in my {E30B}{00}!{BREAK}Please lend me your strength!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5013,7 +5013,7 @@ JMP_REL L_13f34
 L_13f34:
 JMP_ABS 0xc L_13f40
 L_13f40:
-SAY "{VOICE=07}O-okay. I will skulk here.{BREAK}Talk if you change your mind."
+SAY "{VOICE=07}I-I see. I'll be lurkin' around here{BREAK}so if you change your mind, talk to me again."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5024,26 +5024,26 @@ L_13fc0:
 STORE 0x18 0x1 0x0 0x2 0x40400000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}I am kinda a Monster Master.{BREAK}Local? Basically {E30B}{00}."
+SAY "{VOICE=07}I'm pretty much a monster scout.{BREAK}My home? Just the normal {E30B}{00}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I mean, I always enter{BREAK}Ultimate Master Cup {E30B}D..."
+SAY "{VOICE=07}Anyway, in the Ultimate Scout final,{BREAK}I join {E30B} D rank,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}On {E30B}T/{E30B}j, my team{BREAK}{E30B}z ranked high!"
+SAY "{VOICE=07}But in the {E30B}T/{E30B}j rankings,{BREAK}my team {E30B}z ranked up!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You just talk to me?{BREAK}Are we friends? Master battle?{VOICE=09}"
+SAY "{VOICE=07}You think a chatty girl like me{BREAK}could be your friend? Then, shall we fight??{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_14318
-SAY "{VOICE=07}That quick yes surprised me.{BREAK}Maybe I am not ready."
+SAY "{VOICE=07}I'm a little shocked how fast you{BREAK}said yes. Maybe I'm not ready yet."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But now I am hyped,{BREAK}so I will not hold back!"
+SAY "{VOICE=07}But the tension's raised now{BREAK}so I will show you what I'm made of!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5060,7 +5060,7 @@ JMP_REL L_14320
 L_14320:
 JMP_ABS 0xc L_1432c
 L_1432c:
-SAY "{VOICE=07}That quick no kinda hurt.{BREAK}Not sure I can recover."
+SAY "{VOICE=07}I'm a little shocked you refused.{BREAK}I'd be worried when you want to though."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5071,26 +5071,26 @@ L_143a8:
 STORE 0x18 0x1 0x0 0x2 0x40400000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}Hello there! I am a humble{BREAK}Master from {E30B}{00}."
+SAY "{VOICE=07}Sorry, sorry! Of the unimportant {E30B}{00}{BREAK}I am a monster scout."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I keep joining{BREAK}Ultimate Master Cup {E30B}D..."
+SAY "{VOICE=07}I, umm, join {E30B} D rank{BREAK}in the Ultimate Scout final,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}At last, my {E30B}z{BREAK}ranked high on {E30B}T/{E30B}j!"
+SAY "{VOICE=07}But finally the {E30B}z under me{BREAK}have ranked up in the {E30B}T/{E30B}j rankings!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You seem to be a Master.{BREAK}Care to spar?{VOICE=09}"
+SAY "{VOICE=07}You're a monster scout too, right?{BREAK}How about it? Won't you face off against me?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_146e0
-SAY "{VOICE=07}Thank you!{BREAK}I will do my best."
+SAY "{VOICE=07}Thank you!{BREAK}I will try hard for this chance."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Here I go!"
+SAY "{VOICE=07}Now let's go!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5107,7 +5107,7 @@ JMP_REL L_146e8
 L_146e8:
 JMP_ABS 0xc L_146f4
 L_146f4:
-SAY "{VOICE=07}Oh, I am nothing special.{BREAK}No need to brace yourself."
+SAY "{VOICE=07}Well, it's not like I'm anybody.{BREAK}Yeah, it's fine if you overlook me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5118,26 +5118,26 @@ L_14774:
 STORE 0x18 0x1 0x0 0x2 0x40400000
 SYS_152 0x8 
 SYS_42 0x8 
-SAY "{VOICE=07}Hii! I am the Onee-san Master{BREAK}making waves in {E30B}{00}."
+SAY "{VOICE=07}Yeeeees! From {E30B}{00}, it's me,{BREAK}the cute scout that's quick to anger."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I always hustle in{BREAK}Ultimate Master Cup {E30B}D..."
+SAY "{VOICE=07}In the Ultimate Scout final, I always{BREAK}hussle {E30B} D rank,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}On {E30B}T/{E30B}j,{BREAK}my {E30B}z ranked high!"
+SAY "{VOICE=07}But in the {E30B}T/{E30B}j rankings{BREAK}your girl's {E30B}z ranked up!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Hey you. Battle{BREAK}this go-getter Master?{VOICE=09}"
+SAY "{VOICE=07}Hey, you. Do you have what it takes{BREAK}to fight a lively girl like me?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
 STORE 0x18 0x0 0x42ca0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x0
 JMP_IFNOT 0xc L_14aac
-SAY "{VOICE=07}Aha! That is it!{BREAK}Now I am fired up!"
+SAY "{VOICE=07}Aha! I knew it!{BREAK}I got that burning feeling too!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Dont go easy on a woman!{BREAK}Here I come!"
+SAY "{VOICE=07}Don't go easy on me as a woman!{BREAK}Okay, let's fight!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5154,7 +5154,7 @@ JMP_REL L_14ab4
 L_14ab4:
 JMP_ABS 0xc L_14ac0
 L_14ac0:
-SAY "{VOICE=07}Oh my... Too bad.{BREAK}My team is quite choice."
+SAY "{VOICE=07}Oh, my. That's too bad.{BREAK}I picked out my team special for you."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

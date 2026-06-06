@@ -3466,16 +3466,16 @@ SYS_99 0x8
 CMP_LT 0x18 0x0 0x42a60000 0x2 0x41e00000
 JMP_IFNOT 0xc L_d3ac
 SYS_42 0x8 
-SAY "{VOICE=07}Hey, welcome!{BREAK}What can I do for ya?"
+SAY "{VOICE=07}Yo, welcome!{BREAK}What can I do for ya?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}...Wish I could say that,{BREAK}but shop is closed now."
+SAY "{VOICE=07}Well, that's what I wanna say,{BREAK}but my shop's closed now."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Big trouble on the island, right?{BREAK}So I cannot restock."
+SAY "{VOICE=07}Somethin' fabulous is happenin' now.{BREAK}So ya can't buy anythin' now."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Once peace returns, I will stock{BREAK}fresh eggs. Forgive me!"
+SAY "{VOICE=07}When the island's at peac, I'll{BREAK}sellin' some good eggs so{BREAK}drop on by."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3489,25 +3489,25 @@ STORE 0x18 0x0 0x42c20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c20000 0x2 0x0
 JMP_IFNOT 0xc L_d708
 SYS_42 0x8 
-SAY "{VOICE=07}Hey, welcome!{BREAK}Good to see ya, customer!"
+SAY "{VOICE=07}Yo, welcome!{BREAK}Thanks for comin' in!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Pipit Island is peaceful,{BREAK}so my shop finally opens!"
+SAY "{VOICE=07}With Pipisle at peace,{BREAK}I can finally open up shop!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Our big draw is obvious:{BREAK}monster eggs!"
+SAY "{VOICE=07}My shop's specialty is!{BREAK}Monster eggs!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Some monsters only come{BREAK}from our eggs!"
+SAY "{VOICE=07}You can get some monsters{BREAK}you can't get anywhere else inside!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But rare stuff like eggs{BREAK}is hard to get around town."
+SAY "{VOICE=07}But... Ya can't just get{BREAK}somethin' rare that easily."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I can only restock at sites{BREAK}of the Ultimate Master Cup."
+SAY "{VOICE=07}Ya can only get those{BREAK}from the Ultimate Scout Arena."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}So come back after{BREAK}the Ultimate Master Cup!"
+SAY "{VOICE=07}And so, come back again{BREAK}when ya do those fights!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3526,13 +3526,13 @@ STORE 0x18 0x0 0x42c40000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c40000 0x2 0x0
 JMP_IFNOT 0xc L_d8bc
 SYS_42 0x8 
-SAY "{VOICE=07}Rare stuff like monster eggs{BREAK}is hard to get around town."
+SAY "{VOICE=07}Ya can't just get somethin'{BREAK}rare that easily."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I can only restock at sites{BREAK}of the Ultimate Master Cup."
+SAY "{VOICE=07}Ya can only get those{BREAK}from the Ultimate Scout Arena."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}So come back after{BREAK}the Ultimate Master Cup!"
+SAY "{VOICE=07}And so, come back again{BREAK}when ya do those fights!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3543,10 +3543,10 @@ L_d8c4:
 JMP_ABS 0xc L_d8d0
 L_d8d0:
 SYS_42 0x8 
-SAY "{VOICE=07}Hey, welcome!{BREAK}I stocked fresh goods!"
+SAY "{VOICE=07}Yo, welcome!{BREAK}I've got some good stuff to sell!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Our big draw is monster eggs!{BREAK}Lucky if they are in stock!"
+SAY "{VOICE=07}My specialty is monster eggs!{BREAK}You're in luck that I sell 'em!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3840,7 +3840,7 @@ SYS_49 0x8
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x40000000
 JMP_IFNOT 0xc L_e66c
 SYS_42 0x8 
-SAY "{VOICE=07}Thanks! Enter the Master Cup{BREAK}and my goods change!"
+SAY "{VOICE=07}Thanks! What I sell changes{BREAK}when ya join the Ultimate Scout Arena!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
