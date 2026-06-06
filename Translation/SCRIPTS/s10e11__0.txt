@@ -3472,7 +3472,7 @@ SYS_44 0x8
 SAY "{VOICE=07}But I never thought you could{BREAK}defeat that giant monster."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}What? You're not a warrior,{BREAK}but a monster scout? What's that?{BREAK}I've never heard of it."
+SAY "{VOICE=07}What? You're not a warrior, but a{BREAK}scout? What's that? I've never heard of it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3594,7 +3594,7 @@ JMP_IFNOT 0xc L_dc7c
 SAY "{VOICE=08}Thank goodness. I thought{BREAK}the shop was done for."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}There should be some items{BREAK}new to human eyes, so take your{BREAK}time."
+SAY "{VOICE=08}There should be some items new to{BREAK}human eyes, so take your time."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3664,7 +3664,7 @@ SYS_44 0x8
 SAY "{VOICE=08}I'm selling the legendary Pipisle{BREAK}medicinal recipe that the elder told me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}It's a bit high-priced, but{BREAK}it'll come in handy against any strong{BREAK}monster you come across."
+SAY "{VOICE=08}It's a bit high-priced, but it'll{BREAK}be useful against strong monsters you'll face."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

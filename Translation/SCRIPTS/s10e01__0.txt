@@ -4674,7 +4674,7 @@ SYS_44 0x8
 SAY "{VOICE=03}I know! This must be a dream!{BREAK}I must've come to the dream world!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}But this world seems quite real.{BREAK}Just what is the meaning of this?"
+SAY "{VOICE=03}But it seems quite real.{BREAK}Just what is the meaning of this?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4759,7 +4759,7 @@ SYS_44 0x8
 SAY "{VOICE=03}I know! This must be a dream!{BREAK}I've come the dream world!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}But this world seems quite real.{BREAK}So maybe it's the real world.{BREAK}Just what is the meaning of this?"
+SAY "{VOICE=03}But it seems quite real, so maybe it's{BREAK}the real world. What could it mean?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5732,7 +5732,7 @@ SYS_42 0x8
 SAY "{VOICE=07}I'm glad King of Blanc Palace{BREAK}King Teeny Sanguini is safe more than anything."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}He's pretty aloof for a king,{BREAK}but even so he is brimming{BREAK}with holy power."
+SAY "{VOICE=07}He's pretty aloof for a king, but{BREAK}even so he radiates with holy power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Even among Sanguini, it's said{BREAK}the royal family has holy power."

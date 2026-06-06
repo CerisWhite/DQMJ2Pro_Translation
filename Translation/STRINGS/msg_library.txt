@@ -247,7 +247,7 @@ Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts 2-
 Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts twice{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
 Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts 1-3 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
 Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts 0-4 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
-Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts 1-2 times{315}in a row, and remaining actions{315}are not cancelled even if orders are given.
+Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts 1-2 times{315}in a row, and remaining actions are{315}not cancelled even if orders are given.
 The critical hit rate{315}of spells is doubled.
 When near death,{315}the critical hit rate{315}of spells increases.
 At the start of battle,{315}may cast Underworld Fog.

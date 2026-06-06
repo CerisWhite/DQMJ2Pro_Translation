@@ -3790,10 +3790,10 @@ SYS_44 0x8
 SAY "{VOICE=03}According to my foresight,{BREAK}the Restoration Fire is held by..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}A monster with a burning red{BREAK}tail, above the clouds, with{BREAK}the fiercest of neighs."
+SAY "{VOICE=03}A monster with a burning red tail, above{BREAK}the clouds, with the fiercest of neighs."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}There are ones that do not{BREAK}hav it, so keep trying until you{BREAK}get it."
+SAY "{VOICE=03}There are ones without the it, so{BREAK}keep trying until you get it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3853,10 +3853,10 @@ SYS_44 0x8
 SAY "{VOICE=03}According to my foresight{BREAK}the one with Restoration Fire..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Is a monster with burning{BREAK}red tail, above the clouds,{BREAK}with the fiercest neighs."
+SAY "{VOICE=03}A monster with burning red tail, above{BREAK}the clouds, with the fiercest neighs."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}There are ones without the{BREAK}item, so keep trying until you{BREAK}get it."
+SAY "{VOICE=03}There are ones without it, so keep{BREAK}trying until you get it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3888,7 +3888,7 @@ SYS_44 0x8
 SAY "{VOICE=03}According to my foresight,{BREAK}the Dragon's Wave is held by..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}A monster with 3 legs,{BREAK}that wiggles, and lives in{BREAK}a cave on the coast."
+SAY "{VOICE=03}A monster with 3 legs, that wiggles, and{BREAK}lives in a cave on the coast."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3945,7 +3945,7 @@ SYS_44 0x8
 SAY "{VOICE=03}According to my foresight,{BREAK}the one with the Dragon's Wave..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Is a monster with 3 legs,{BREAK}wiggling around and lives{BREAK}in a cave on the coast."
+SAY "{VOICE=03}A monster with 3 legs, that wiggles, and{BREAK}lives in a cave on the coast."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4011,7 +4011,7 @@ SYS_44 0x8
 SAY "{VOICE=03}Good! NowI have all the materials{BREAK}to craft the Godbird Soma!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I will hurry and synthesize{BREAK}it so we can give it to{BREAK}the Incarnus!"
+SAY "{VOICE=03}I will hurry and synthesize it so{BREAK}we can give it to the Incarnus!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4252,7 +4252,7 @@ SETNAME "Tiko"
 SAY "{VOICE=08}Okay, let's go, {NAME}!{BREAK}To the uninvited guest in the holy land!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}While walking across the surrounding{BREAK}floating islands, if we keep heading{BREAK}up, we'll reach the holy land."
+SAY "{VOICE=08}While walking across the floating islands,{BREAK}if we continue up, we'll reach the holy land."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}So first leave town and keep{BREAK}straight on the road."
@@ -4477,7 +4477,7 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40e00000
 JMP_IFNOT 0xc L_11f64
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Before I went to the land{BREAK}of monsters, I traveled with one{BREAK}that had the same eyes as you."
+SAY "{VOICE=07}Before I went to the land of monsters,{BREAK}I traveled with one with the same eyes as you."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}And it is clear to me. That{BREAK}you are a monster scout."
@@ -4500,7 +4500,7 @@ SETNAME "Kukuri"
 SAY "{VOICE=08}I can't believe you actually{BREAK}defeated that stupid monkey."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Well, don't I look like a{BREAK}fool for running away in the{BREAK}face of danger!"
+SAY "{VOICE=08}Well, don't I look like a fool for{BREAK}running away in the face of danger!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}And now the next elder will{BREAK}be Tiko. Awww."
@@ -4513,10 +4513,10 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41e80000
 JMP_IFNOT 0xc L_12214
 SYS_42 0x8 
 SETNAME "Kukuri"
-SAY "{VOICE=08}What! If Tiko isn't going to{BREAK}be the next elder, than it had{BREAK}to be me, right!?"
+SAY "{VOICE=08}What! If Tiko won't be the next{BREAK}next elder, then it's gotta be me, right!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}And I thought I'd be able{BREAK}to work everyone hard. That{BREAK}elder is really stubborn!"
+SAY "{VOICE=08}And I thought I'd be able work{BREAK}everyone hard. That elder is really stubborn!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4598,7 +4598,7 @@ SYS_42 0x8
 SAY "{COLOR=2}There's a book, "Cradletree".{BREAK}{NAME} picked it up and read it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}There is a tall tree somewhere{BREAK}in the world that gently feeds on{BREAK}everything."
+SAY "{COLOR=2}There is a tall tree in the world{BREAK}that gently feeds on everything."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}People created a country close{BREAK}to it, and lived peacefully."

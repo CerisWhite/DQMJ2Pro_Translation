@@ -5049,7 +5049,7 @@ SYS_3E 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} was beset by fluffy fur,{BREAK}and forgot about the world of{BREAK}battle for a brief time."
+SAY "{COLOR=2}{NAME} was beset by fluffy fur, and forgot{BREAK}about the world of battle for a brief time."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5942,10 +5942,10 @@ SETNAME "Sanguini"
 SAY "{VOICE=07}Welcome to Endless Battle!{BREAK}I will now explain right away."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}You will continue to fight{BREAK}foes one after another in{BREAK}this survival match."
+SAY "{VOICE=07}You will continue to fight foes one{BREAK}after another in this survival match."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Your foes will get stronger,{BREAK}and you'll continue to fight{BREAK}until you lose!"
+SAY "{VOICE=07}Your foes will get stronger, and you'll{BREAK}continue to fight until you lose!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}You can Swap and Order freely,{BREAK}but you cannot Scout or use items."
@@ -6054,7 +6054,7 @@ JMP_IFNOT 0xc L_18414
 SAY "{VOICE=07}Endless Battle is a survival match{BREAK}where you fight foes one after another."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Your foes will get stronger,{BREAK}and you'll continue to fight{BREAK}until you lose!"
+SAY "{VOICE=07}Your foes will get stronger, and you'll{BREAK}continue to fight until you lose!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}You can Swap and Order freely,{BREAK}but you cannot Scout or use items."
