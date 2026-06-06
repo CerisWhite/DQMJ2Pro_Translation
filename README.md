@@ -1,3 +1,5 @@
+This fork of Ceris White's Joker 2 Professional repository includes a post-game translation by Gerb, bits and pieces or remaining Japanese text has been replaced with a draft machine-learning translation, pending proper localisation. 
+
 You will need the J2P ROM, BLZ, ndstool (<https://github.com/devkitpro/ndstool>), and python. A compiled build of BLZ is provided for Windows as blz_win.exe; The scripts expect it to be named blz.exe when used.
 You will have to find a compiled ndstool or build it yourself.
 The ndstool command I usually use comes out to this (inside of a `Pro_ROM` folder):
