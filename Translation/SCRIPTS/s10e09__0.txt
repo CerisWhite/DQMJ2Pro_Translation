@@ -4771,7 +4771,7 @@ SAY "{VOICE=08}First I will simply explain{BREAK}about the Ultimate Scout Arena.
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 L_128d8:
-SAY "{VOICE=08}In here is a dream come true to{BREAK}fight top-ranked scouts."
+SAY "{VOICE=08}It is a dream arena to fight top{BREAK}ranked scouts in an Ultimate Scout Showdown."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}If you want to join, all you{BREAK}have to do is amble over here."
@@ -5954,7 +5954,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Even if you lose, you won't lose{BREAK}gold, so don't worry about losing!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}And I'll gift you gold{BREAK}commensurate to your victories!"
+SAY "{VOICE=07}And I'll gift you gold{BREAK}proportionate to your victories!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}AND! If you surpass 100 victories{BREAK}I'll give you a rare monster!"
@@ -6063,13 +6063,13 @@ SYS_44 0x8
 SAY "{VOICE=07}Even if you lose, you won't lose{BREAK}gold, so don't worry about losing!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}And I'll gift you gold{BREAK}commensurate to your victories!"
+SAY "{VOICE=07}And I'll gift you gold{BREAK}proportionate to your victories!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}AND! If you surpass 100 victorcies{BREAK}I'll give you a rare monster!"
+SAY "{VOICE=07}AND! If you surpass 100 victories{BREAK}I'll give you a rare monster!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But you can only place once a day.{BREAK}So I want you to keep that in mind."
+SAY "{VOICE=07}But you can only play once a day.{BREAK}So I want you to keep that in mind."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}And that's all there is to it.{BREAK}Do you want to start now?{VOICE=09}"

@@ -1,37 +1,37 @@
 
-medicinal herb
-strong medicine
-special medicine
-multi medicine
-Yggdrasil dew
-magic elixir
-sage's elixir
-elfin elixir
-Yggdrasil leaf
-antidotal herb
-moonwort bulb
-panacea
-antimagic powder
-Oomph powder
-wizard's penny
-wizard's shilling
+Medicinal Herb
+Strong Medicine
+Special Medicine
+Multi Medicine
+Yggdrasil Dew
+Magic Elixir
+Sage's Elixir
+Elfin Elixir
+Yggdrasil Leaf
+Antidotal Herb
+Moonwort Bulb
+Panacea
+Antimagic Powder
+Oomph Powder
+Wizard's Penny
+Wizard's Shilling
 Insulade
-jumbo Insulade
-seed of skill
-seed of life
-seed of magic
-seed of strength
-seed of defence
-seed of agility
-seed of wisdom
-monster manure
-seed of hope
-loyalty card
-gold nugget
+Jumbo Insulade
+Seed of Skill
+Seed of Life
+Seed of Magic
+Seed of Strength
+Seed of Defence
+Seed of Agility
+Seed of Wisdom
+Monster Manure
+Seed of Hope
+Loyalty Card
+Gold Nugget
 'Positive Puller'
 'Think Negative'
 'Neutral Ground'
-amor seco essence
+Amor Seco Essence
 
 
 
@@ -40,32 +40,32 @@ amor seco essence
 
 
 
-metal ticket
+Metal Ticket
 
 
-beastie bites
-smelling salts
+Beastie Bites
+Smelling Salts
 
 Book of Wulfspade
 Book of Hawkhart
 Book of Diamagon
 Book of Cluboon
-warrior's scroll
-mage's scroll
-priest's scroll
-martial artist's scroll
-sage's scroll
-thief's scroll
-pinball
-rockbomb shard
+Warrior's Scroll
+Mage's Scroll
+Priest's Scroll
+Martial Artist's Scroll
+Sage's Scroll
+Thief's Scroll
+Pinball
+Rockbomb Shard
 
-mistake medicine
-
-
+Mistake Medicine
 
 
-timbrel of tension
-Sag powder
+
+
+Timbrel of Tension
+Sag Powder
 Sapperine
 Deceleratonic
 Dimium
@@ -75,13 +75,13 @@ Pingium
 'The Healing Touch'
 'Secret Sorcery'
 'Brawn Over Brains'
-'Duck and Cover'
-'Life in the Fast Lane'
-'Knowledge is Power'
-mysterious medal
-Bemusoleum key
-scout ring
-soggy letter
+'Duck And Cover'
+'Life In The Fast Lane'
+'Knowledge Is Power'
+Mysterious Medal
+Bemusoleum Key
+Scout Ring
+Soggy Letter
 'Head Over Heals'
 
 
@@ -91,9 +91,9 @@ soggy letter
 
 
 
-pretty pebble
-bronze bit
-silver sliver
+Pretty Pebble
+Bronze Bit
+Silver Sliver
 
 
 
@@ -105,101 +105,101 @@ silver sliver
 
 
 
-machine parts
+Machine Parts
 
 Medal of Merit
 
-heart of mud
-copper sword
-divine dagger
-rapier
-steel broadsword
-zombiesbane
-dragonsbane
-obsidian sword
-silver broadsword
-zombiesblight
-dragonsblight
-giant's sword
-zombie slayer
-dragon slayer
-lost katana
-metal king sword
-iron lance
-pitchfork
-sacred spear
-partisan
-holy lance
-hunting spear
-dragon lance
-halberd
-hero spear
+Heart of Mud
+Copper Sword
+Divine Dagger
+Rapier
+Steel Broadsword
+Zombiesbane
+Dragonsbane
+Obsidian Sword
+Silver Broadsword
+Zombiesblight
+Dragonsblight
+Giant's Sword
+Zombie Slayer
+Dragon Slayer
+Lost Katana
+Metal King Sword
+Iron Lance
+Pitchfork
+Sacred Spear
+Partisan
+Holy Lance
+Hunting Spear
+Dragon Lance
+Halberd
+Hero Spear
 Gáe Bolg
-stone axe
-woodcutter's axe
-iron axe
-woodsman's axe
-headsman's axe
-battleaxe
-forester's axe
-king axe
-ranger's axe
-executioner's axe
-oaken club
-sludgehammer
-iron hammer
-war hammer
-miracle mallet
-giant wrench
-sledgehammer
-marauder's maul
-warlord's hammer
-miracle mace
-leather whip
-battle whip
-thorn whip
-sidewinder
-snakeskin whip
-chain whip
-dragontail whip
-spiked steel whip
-scourge whip
-Gringham whip
-stone claws
-metal claws
-iron claws
-sacred claws
-razor claws
-steel claws
-metal talons
-gryphon talons
-sacred talons
-orichalcum claws
-cypress staff
-rune staff
-phoenix sceptre
+Stone Axe
+Woodcutter's Axe
+Iron Axe
+Woodsman's Axe
+Headsman's Axe
+Battleaxe
+Forester's Axe
+King Axe
+Ranger's Axe
+Executioner's Axe
+Oaken Club
+Sludgehammer
+Iron Hammer
+War Hammer
+Miracle Mallet
+Giant Wrench
+Sledgehammer
+Marauder's Maul
+Warlord's Hammer
+Miracle Mace
+Leather Whip
+Battle Whip
+Thorn Whip
+Sidewinder
+Snakeskin Whip
+Chain Whip
+Dragontail Whip
+Spiked Steel Whip
+Scourge Whip
+Gringham Whip
+Stone Claws
+Metal Claws
+Iron Claws
+Sacred Claws
+Razor Claws
+Steel Claws
+Metal Talons
+Gryphon Talons
+Sacred Talons
+Orichalcum Claws
+Cypress Staff
+Rune Staff
+Phoenix Sceptre
 
-Plus sceptre
-Minus sceptre
-crystal staff
-staff of darkness
-sage's staff
-royal rod
-Leonine greatsword
-schleiman shooter
-malevomace
-ebony talons
-diablo spear
+Plus Sceptre
+Minus Sceptre
+Crystal Staff
+Staff of Darkness
+Sage's Staff
+Royal Rod
+Leonine Greatsword
+Schleiman Shooter
+Malevomace
+Ebony Talons
+Diablo Spear
 
 
-paws
-pile-on
-miracle sword
-falcon claws
-staff of Ghent
-dragon claws
-gracos's trident
-wizardly whip
+Paws
+Pile-On
+Miracle Sword
+Falcon Claws
+Staff of Ghent
+Dragon Claws
+Gracos's Trident
+Wizardly Whip
 
 
 
@@ -218,36 +218,36 @@ Mountain Plate
 Crags Plate
 Coast Plate
 War God's Plate
-hypernova sword
-burn blade
-red-hot poker
-Aha spear
-galaxy axe
-sword breaker
-star crusher
-tension crusher
-Uber gringham whip
-witch's whip
-Xenlon claws
-core driller
-bright staff
-slime stick
-monster egg
-jumbo oomph powder
-jumbo bufferine
-jumbo acceleratonic
-jumbo pingium
-jumbo sag powder
-jumbo sapperine
-jumbo deceleratonic
-jumbo dimium
-sainted soma
-swordbreaker scroll
-spellbreaker scroll
-breathbreaker scroll
-cleanser scroll
-morrie's book
-battle road scroll
+Hypernova Sword
+Burn Blade
+Red-Hot Poker
+Aha Spear
+Galaxy Axe
+Sword Breaker
+Star Crusher
+Tension Crusher
+Uber Gringham Whip
+Witch's Whip
+Xenlon Claws
+Core Driller
+Bright Staff
+Slime Stick
+Monster Egg
+Jumbo Oomph Powder
+Jumbo Bufferine
+Jumbo Acceleratonic
+Jumbo Pingium
+Jumbo Sag Powder
+Jumbo Sapperine
+Jumbo Deceleratonic
+Jumbo Dimium
+Sainted Soma
+Swordbreaker Scroll
+Spellbreaker Scroll
+Breathbreaker Scroll
+Cleanser Scroll
+Morrie's Book
+Battle Road Scroll
 
 
 'Metal Slayer's Primer'

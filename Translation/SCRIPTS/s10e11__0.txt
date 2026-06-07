@@ -3664,7 +3664,7 @@ SYS_44 0x8
 SAY "{VOICE=08}I'm selling the legendary Pipisle{BREAK}medicinal recipe that the elder told me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}It's a bit high-priced, but it'll{BREAK}be useful against strong monsters you'll face."
+SAY "{VOICE=08}It's a bit high-priced, but it'll be handy{BREAK}against strong monsters you'll face."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

@@ -4516,7 +4516,7 @@ SETNAME "Kukuri"
 SAY "{VOICE=08}What! If Tiko won't be the next{BREAK}next elder, then it's gotta be me, right!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}And I thought I'd be able work{BREAK}everyone hard. That elder is really stubborn!"
+SAY "{VOICE=08}I thought I'd be able work everyone{BREAK}hard. That elder's so stubborn!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
