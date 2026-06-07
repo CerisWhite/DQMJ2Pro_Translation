@@ -1,9 +1,9 @@
 This fork of Ceris White's Joker 2 Professional repository includes a post-game translation by Gerb, bits and pieces or remaining Japanese text has been replaced with a draft machine-learning translation, pending proper localisation. 
 
-[Guide to patch your legally obtained rom](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/translation/gerbs-postgame-translation/patching_guide/patching_guide.md)
+[Guide to patch your legally obtained rom.](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/translation/gerbs-postgame-translation/patching_guide/patching_guide.md)
 
 There is an unofficial english translation by GemSlime of a copyrighted Joker 2 Professional save editor utility on the internet. Although the original may be considered abandonware, I can't host it here. It is titled:
-DQMJ2 Pro English Save Editor (Translated by Gemslimee) Translation Version 1.2 Program Version 0.6.0.7 Copyright asa-o.net
+`DQMJ2 Pro English Save Editor (Translated by Gemslimee) Translation Version 1.2 Program Version 0.6.0.7 Copyright asa-o.net`
 
 You will need the J2P ROM, BLZ, ndstool (<https://github.com/devkitpro/ndstool>), and python. A compiled build of BLZ is provided for Windows as blz_win.exe; The scripts expect it to be named blz.exe when used.
 You will have to find a compiled ndstool or build it yourself.
