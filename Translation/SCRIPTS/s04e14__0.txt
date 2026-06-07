@@ -6642,7 +6642,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1a794
 SYS_42 0x8 
-SAY "{COLOR=2}It's a monument carved like the steppes.{BREAK}There is a hole in the altar."
+SAY "{COLOR=2}It's a monument carved like the plains.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6653,7 +6653,7 @@ L_1a79c:
 JMP_ABS 0xc L_1a7a8
 L_1a7a8:
 SYS_42 0x8 
-SAY "{COLOR=2}The monument carved like the steppes{BREAK}is glowing with a strong power."
+SAY "{COLOR=2}The monument carved like the plains{BREAK}is glowing with a strong power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6664,13 +6664,13 @@ L_1a828:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1ac84
 SYS_42 0x8 
-SAY "{COLOR=2}It's a monument carved like the steppes.{BREAK}There is a hole in the altar."
+SAY "{COLOR=2}It's a monument carved like the plains.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}You can fit the plate you got{BREAK}in the steppes in the hole."
+SAY "{COLOR=2}You can fit the plate you got{BREAK}in the plains in the hole."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Will you insert the steppes plate?{VOICE=09}"
+SAY "{COLOR=2}Will you insert the plains plate?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -6710,7 +6710,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The monument carved like the steppes{BREAK}begins to store power."
+SAY "{COLOR=2}The monument carved like the plains{BREAK}begins to store power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6745,7 +6745,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1ae2c
 SYS_42 0x8 
-SAY "{COLOR=2}It's a monument carved like a crag.{BREAK}There is a hole in the altar."
+SAY "{COLOR=2}It's a monument carved like an icy peak.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6756,7 +6756,7 @@ L_1ae34:
 JMP_ABS 0xc L_1ae40
 L_1ae40:
 SYS_42 0x8 
-SAY "{COLOR=2}The monument carved like a crag{BREAK}is glowing in a strong power."
+SAY "{COLOR=2}The monument carved like an icy peak{BREAK}is glowing in a strong power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6767,13 +6767,13 @@ L_1aec0:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1b31c
 SYS_42 0x8 
-SAY "{COLOR=2}It's a monument carved like a crag.{BREAK}There is a hole in the altar."
+SAY "{COLOR=2}It's a monument carved like a icy peak.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}It seems the plate you got{BREAK}on the crag will fit."
+SAY "{COLOR=2}It seems the plate you got{BREAK}in Iceolation will fit."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Insert the crag plate in the hole?{VOICE=09}"
+SAY "{COLOR=2}Insert the ice plate in the hole?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -6813,7 +6813,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The monument carved like a crag{BREAK}begins to store power."
+SAY "{COLOR=2}The monument carved like an icy{BREAK}peak begins to store power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6848,7 +6848,7 @@ STORE 0x18 0x0 0x42fa0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42fa0000 0x2 0x0
 JMP_IFNOT 0xc L_1b4c4
 SYS_42 0x8 
-SAY "{COLOR=2}It's a monument carved like a cliff.{BREAK}There is a hole in the altar."
+SAY "{COLOR=2}It's a monument carved like a crag.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6859,7 +6859,7 @@ L_1b4cc:
 JMP_ABS 0xc L_1b4d8
 L_1b4d8:
 SYS_42 0x8 
-SAY "{COLOR=2}The monument carved like a cliff{BREAK}is glowing in a strong power."
+SAY "{COLOR=2}The monument carved like a crag{BREAK}is glowing in a strong power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6870,13 +6870,13 @@ L_1b558:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1b9b4
 SYS_42 0x8 
-SAY "{COLOR=2}It's a monument carved like a cliff.{BREAK}There is a hole in the altar."
+SAY "{COLOR=2}It's a monument carved like a rag.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}The plate you got on the cliff{BREAK}seems to fit the hole."
+SAY "{COLOR=2}The plate you got on Cragvation{BREAK}seems to fit the hole."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Will you insert the cliff plate?{VOICE=09}"
+SAY "{COLOR=2}Will you insert the crag plate?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -6916,7 +6916,7 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 SYS_03 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The monument carved like a cliff{BREAK}begins to store power."
+SAY "{COLOR=2}The monument carved like a crag{BREAK}begins to store power."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -6976,10 +6976,10 @@ SYS_42 0x8
 SAY "{COLOR=2}It's a monument carved like the coast.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}The plate you got on the coast{BREAK}seems to fit the hole."
+SAY "{COLOR=2}The plate you got on the Unshore{BREAK}seems to fit the hole."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Will you inserlt the coast plate?{VOICE=09}"
+SAY "{COLOR=2}Will you insert the coast plate?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -7079,7 +7079,7 @@ SYS_42 0x8
 SAY "{COLOR=2}It's a monument carved like a giant{BREAK}lion. There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}The plate you got in the ruins{BREAK}below seems to fit the hole."
+SAY "{COLOR=2}The plate you got in the Bemusoleum{BREAK}below seems to fit the hole."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Will you insert the war god{BREAK}plate?{VOICE=09}"

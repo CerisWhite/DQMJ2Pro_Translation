@@ -3733,10 +3733,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_2A 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}To make the Godbird Soma to heal{BREAK}the Incarnus I need the materials"
+SAY "{VOICE=03}To make the sainted soma to heal{BREAK}the Incarnus I need the materials"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Restoration Fire and Dragon's Wave.{BREAK}And 3 Time Crystals."
+SAY "{VOICE=03}Vivifying Flame and Dragon's Tears.{BREAK}And 3 Time Crystals."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}I foresee that monsters have{BREAK}those items, and so..."
@@ -3745,7 +3745,7 @@ SYS_44 0x8
 SAY "{VOICE=03}I ask you to get them,{BREAK}and please bring each back to me."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}And now I will tell you{BREAK}the monster that has Restoration Fire."
+SAY "{VOICE=03}And now I will tell you{BREAK}the monster that has Vivifying Flame."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}HRUMMMM! KAAAAAAAAH!"
@@ -3757,7 +3757,7 @@ SYS_44 0x8
 SAY "{VOICE=03}Above the clouds. And I hear{BREAK}the fiercest of neighs!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}And there are ones that have{BREAK}and do not have Restoration Fire!"
+SAY "{VOICE=03}And there are ones that have{BREAK}and do not have Vivifying Flame!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Hmm. That is all that I can see.{BREAK}I'll leave the rest to you."
@@ -3772,7 +3772,7 @@ JMP_ABS 0xc L_e918
 L_e918:
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Ohh, {NAME}.{BREAK}So you got the Restoration Fire?{VOICE=09}"
+SAY "{VOICE=03}Ohh, {NAME}.{BREAK}So you got the Vivifying Flame?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -3787,7 +3787,7 @@ JMP_IFNOT 0xc L_ebb0
 SAY "{VOICE=03}Huh? It seems you have yet{BREAK}to get it, {NAME}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}According to my foresight,{BREAK}the Restoration Fire is held by..."
+SAY "{VOICE=03}According to my foresight,{BREAK}the Vivifying Flame is held by..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}A monster with a burning red tail, above{BREAK}the clouds, with the fiercest of neighs."
@@ -3805,7 +3805,7 @@ JMP_ABS 0xc L_ebc4
 L_ebc4:
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} handed over the{BREAK}Restoration Fire to the elder!"
+SAY "{COLOR=2}{NAME} handed over the{BREAK}Vivifying Flame to the elder!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3820,7 +3820,7 @@ SETNAME "Elder"
 SAY "{VOICE=03}Ahh, this is definitely it!{BREAK}I'll take it gratefully."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}And now about the monster{BREAK}that has the Dragon's Wave."
+SAY "{VOICE=03}And now about the monster{BREAK}that has the Dragon's Tears."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}HRUMMMM! KAAAAAAAAH!"
@@ -3850,7 +3850,7 @@ L_ef58:
 SAY "{VOICE=03}Is that so? Then please take{BREAK}care on the next task."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}According to my foresight{BREAK}the one with Restoration Fire..."
+SAY "{VOICE=03}According to my foresight{BREAK}the one with Vivifying Flame..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}A monster with burning red tail, above{BREAK}the clouds, with the fiercest neighs."
@@ -3870,7 +3870,7 @@ CMP_EQ 0x18 0x0 0x42c20000 0x2 0x3f800000
 JMP_IFNOT 0xc L_f7e0
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Ohh, {NAME}.{BREAK}Did you get the Dragon's Wave?{VOICE=09}"
+SAY "{VOICE=03}Ohh, {NAME}.{BREAK}Did you get the Dragon's Tears?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -3885,7 +3885,7 @@ JMP_IFNOT 0xc L_f34c
 SAY "{VOICE=03}Huh? It does not seem like{BREAK}you have it yet, {NAME}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}According to my foresight,{BREAK}the Dragon's Wave is held by..."
+SAY "{VOICE=03}According to my foresight,{BREAK}the Dragon's Tears is held by..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}A monster with 3 legs, that wiggles, and{BREAK}lives in a cave on the coast."
@@ -3900,7 +3900,7 @@ JMP_ABS 0xc L_f360
 L_f360:
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} handed the Dragon's{BREAK}Wave to the elder!"
+SAY "{COLOR=2}{NAME} handed the Dragon's{BREAK}Tears to the elder!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3912,7 +3912,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0xbf800000
 SYS_73 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Ahh, this is most certainly the{BREAK}Dragon's Wave. I'll take it gratefully."
+SAY "{VOICE=03}Ahh, this is most certainly the{BREAK}Dragon's Tears. I'll take it gratefully."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}And now about the monster that{BREAK}has the final Time Crystal."
@@ -3942,7 +3942,7 @@ L_f6b4:
 SAY "{VOICE=03}Is that so? Then please take care{BREAK}on the next task."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}According to my foresight,{BREAK}the one with the Dragon's Wave..."
+SAY "{VOICE=03}According to my foresight,{BREAK}the one with the Dragon's Tears..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}A monster with 3 legs, that wiggles, and{BREAK}lives in a cave on the coast."
@@ -4008,7 +4008,7 @@ SETNAME "Elder"
 SAY "{VOICE=03}Ohh, this is definitely the Time{BREAK}Crystal! I'll take it gratefully."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Good! NowI have all the materials{BREAK}to craft the Godbird Soma!"
+eAY "{VOICE=03}Good! NowI have all the materials{BREAK}to craft the sainted soma!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}I will hurry and synthesize it so{BREAK}we can give it to the Incarnus!"
@@ -4196,7 +4196,7 @@ SETNAME "Elder"
 SAY "{VOICE=03}{NAME}.{BREAK}Please take care of Tiko."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}She'll be lost if you{BREAK}fuse her, so please watch out."
+SAY "{VOICE=03}She'll be lost if you{BREAK}synthesise her, so please watch out."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}How about checking the{BREAK}Blanc Palace rooftap after?"
@@ -4217,7 +4217,7 @@ SETNAME "Elder"
 SAY "{VOICE=03}{NAME}.{BREAK}Please take care of Tiko."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}She'll be lost if you{BREAK}fuse her, so please watch out."
+SAY "{VOICE=03}She'll be lost if you{BREAK}synthesise her, so please watch out."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4625,7 +4625,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 CMP_LT 0x18 0x0 0x42a60000 0x2 0x41e00000
 JMP_IFNOT 0xc L_12968
-SAY "{COLOR=2}Just what happens when you fuse{BREAK}a Buffalogre and a Mandrake Marshal?"
+SAY "{COLOR=2}Just what happens when you synthesise{BREAK}a Buffalogre and a Mandrake Marshal?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_12ab8
@@ -4634,7 +4634,7 @@ JMP_REL L_12970
 L_12970:
 JMP_ABS 0xc L_1297c
 L_1297c:
-SAY "{COLOR=2}Just what happens when you fuse{BREAK}a Buffalogre and a Mandrake Marshal?"
+SAY "{COLOR=2}Just what happens when you synthesise{BREAK}a Buffalogre and a Mandrake Marshal?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Wait, or did I forget the result{BREAK}of a Hyperanemon and a Kaurigon!"

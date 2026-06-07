@@ -312,7 +312,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41700000
 SETNAME "ELder"
-SAY "{VOICE=03}Okay! And now I will use a Godbird Soma{BREAK}to heal the Incarnus' wounds!"
+SAY "{VOICE=03}Okay! And now I will use a sainted soma{BREAK}to heal the Incarnus' wounds!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_1f78
@@ -344,7 +344,7 @@ SAY "{VOICE=03}I'm sorry, but could you lend{BREAK}us your aid, {NAME}?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}It is quite difficult to get the{BREAK}ingredients for a Godbird Soma."
+SAY "{VOICE=03}It is quite difficult to get the{BREAK}ingredients for a sainted soma."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
