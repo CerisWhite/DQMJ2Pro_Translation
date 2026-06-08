@@ -38,7 +38,7 @@ Att.
 Def.
 Agi.
 Wis.
-RANK
+Rank
 Size
 Exp
 Max. HP
@@ -51,7 +51,7 @@ Resistances
 Skills
 E
 None
-Monster
+Monsters
 New Monster Status
 Next Lv
 Next
@@ -70,7 +70,7 @@ Monster A
 Monster B
 Confirm
 Points
-You need {322} points to learn {315}{324}
+Need {322} points to learn {315}{324}
 {31c}1Skill boosted!{31c}{00}{315}{30b}T
 Points
 Strongest Weapon
@@ -101,12 +101,12 @@ You will receive:
 Team {322}
 Standard Battle
 None
-Please name the hero
+Please name the hero.
 Please name this {30b}{00}.
 Change {30b}{00}'s name.
-Please name your team
+Please name your team.
 Continue
-New game
+New Game
 DS Wireless Play
 Nintendo Wi-Fi Connection
 Profile Settings
@@ -115,7 +115,7 @@ Location:
 Load
 {238} Team
 {239} Substitutes
-{23a} Storage
+{23a} Monster Pen
 OK
 Cancel
 DQM: Joker 2 Professional
@@ -144,10 +144,10 @@ Defence
 Agility
 Wisdom
 Insulatle
-Poison
+Poisoned
 Offended
 Tension
-Paralyzed
+Paralysed
 Asleep
 Confused
 Tongue Lashed
@@ -202,7 +202,7 @@ Zero Shock
 
 Envenomated
 None
-Place your new monster
+Place your new monster.
 
 OK
 Cancel
@@ -237,10 +237,10 @@ This can't be used until {30f} returns to the Albatross.
 Now saving.{315}Please do not turn power OFF.
 Save completed!
 Thanks for playing.{315}Returning to title screen.
-{321}{30b}{00} learns{315}{31c}1{30b}T{31c}{00}
+{321}{30b}{00} learns{315}{31c}1{30b}T{31c}{00}.
 {321}{30b}{00}'s {30b}z becomes {31c}1{30b}T{31c}{00}!
 {321}{30b}{00} already knows {31c}T{30b}T{31c}{00}.
-{321}{30b}{00} already knows {31c}T{30b}z{31c}{00}
+{321}{30b}{00} already knows {31c}T{30b}z{31c}{00}.
 
 
 This can't be used now.
@@ -360,7 +360,7 @@ Return to the previous screen.
 
 
 {321}{30b}{00} got {322} skill points!
-{321}{30b}{00}'s {30b}T increased by {322} points
+{321}{30b}{00}'s {30b}T increased by {322} points.
 
 
 
