@@ -61,7 +61,7 @@ Full Critical Guard
 Spell Splurger
 Attallergic
 Toss & Turn
-Static
+Static Discharge
 Berserker
 Stalwart Spirit
 Metal Killer

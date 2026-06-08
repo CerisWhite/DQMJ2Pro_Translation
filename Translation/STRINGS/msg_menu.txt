@@ -1,5 +1,5 @@
 
-Spells and Abilities
+Monster Skills
 Items
 Equipment
 Switch Monsters
@@ -36,9 +36,9 @@ HP
 MP
 Att.
 Def.
-Agil.
+Agi.
 Wis.
-Rank
+RANK
 Size
 Exp
 Max. HP
@@ -51,14 +51,14 @@ Resistances
 Skills
 E
 None
-Monsters
+Monster
 New Monster Status
 Next Lv
 Next
 Family
 Sort
 Info
-Attrb.
+Attr.
 Yes
 No
 Skills
@@ -70,7 +70,7 @@ Monster A
 Monster B
 Confirm
 Points
-You need {322} points to learn{315}{324}.
+You need {322} points to learn {315}{324}
 {31c}1Skill boosted!{31c}{00}{315}{30b}T
 Points
 Strongest Weapon
@@ -80,8 +80,8 @@ Master!
 Can't use
 Amount
 Use
-Learnt
-Can learn
+Learned
+Can Learn
 Points
 →
 Switch
@@ -101,12 +101,12 @@ You will receive:
 Team {322}
 Standard Battle
 None
-Please name the hero.
+Please name the hero
 Please name this {30b}{00}.
 Change {30b}{00}'s name.
-Please name your team.
+Please name your team
 Continue
-New Game
+New game
 DS Wireless Play
 Nintendo Wi-Fi Connection
 Profile Settings
@@ -115,7 +115,7 @@ Location:
 Load
 {238} Team
 {239} Substitutes
-{23a} Monster Pen
+{23a} Storage
 OK
 Cancel
 DQM: Joker 2 Professional
@@ -125,9 +125,9 @@ etc.
 Unknown
 Monsters with this skill:
 Other
-Habitat etc.
-None
-None
+Habitat
+Nobody has
+Without
 Possessed by wild monsters.
 Equipped
 ☆
@@ -144,16 +144,16 @@ Defence
 Agility
 Wisdom
 Insulatle
-Poisoned
+Poison
 Offended
 Tension
-Paralysed
+Paralyzed
 Asleep
 Confused
 Tongue Lashed
 Dancing
-Shocked
-Shocked
+Frightened
+Frightened
 Fizzled
 Dance Banned
 Gobstopped
@@ -186,14 +186,14 @@ Tacticlamped
 Dead
 Malhazed
 Disordered
-Anticipate Slash
-Anticipate Physical
-Anticipate Spell
-Anticipate Breath
-Anticipate Dance
+Counter Slash
+Counter Physical
+Counter Spell
+Counter Breath
+Counter Dance
 Break Seal
 Waltz of Binding
-Spiritual Focus
+Meditating
 Underworld Fog
 Chain
 Cover Seal
@@ -202,7 +202,7 @@ Zero Shock
 
 Envenomated
 None
-Place your new monster.
+Place your new monster
 
 OK
 Cancel
@@ -225,26 +225,26 @@ Any
 RANK
 F-D
 C-A
-S/SS
+S/X
 {321}{30b}{00} has equipped {328}!
 This can be used {322} more times!{315}Use now?
-{321}{30f}'s team recovers HP!
-No one in {30f}'s team can use healing magic.
+{321}{30f}'s team's HP restored!
+No one on {30f}'s team can use healing magic.
 {321}{30f}'s team already has maximum HP!
 {321}{30f}'s team fully recover HP and MP!
 {321}{30f}'s team already have maximum HP and MP!
 This can't be used until {30f} returns to the Albatross.
-Now saving...{315}Do not turn power OFF.
+Now saving.{315}Please do not turn power OFF.
 Save completed!
-Returning to the title screen.
-{321}{30b}{00} learns{315}{31c}1{30b}T{31c}{00}!
+Thanks for playing.{315}Returning to title screen.
+{321}{30b}{00} learns{315}{31c}1{30b}T{31c}{00}
 {321}{30b}{00}'s {30b}z becomes {31c}1{30b}T{31c}{00}!
 {321}{30b}{00} already knows {31c}T{30b}T{31c}{00}.
-{321}{30b}{00} already knows {31c}T{30b}z{31c}{00}.
+{321}{30b}{00} already knows {31c}T{30b}z{31c}{00}
 
 
 This can't be used now.
-{321}{30b}{00} doesn't have any spells or abilities that can be used outside battle.
+{321}{30b}{00} does not have any skills that can be used outside battle.
 
 Insufficient MP!
 
@@ -253,56 +253,56 @@ Insufficient MP!
 But {30b}{00} could not be revived.
 
 
-Sorted by family!
-Sorted by level!
-Sorted by rank!
-Now loading...{315}Do not turn power OFF.
+Sorted by family.
+Sorted by level.
+Sorted by rank.
+Now loading...{315}Please do not turn power OFF.
 Data loaded successfully!
-The save data could not be accessed. Please turn off the power and reinsert the DS Game Card.
-Adventure log already exists.{315}Saving will overwrite the current adventure log.
+Loading failed! Please turn off the power and reinsert the DS Game Card.
+Warning: A new adventure log will overwrite the old adventure log.
 There are still {322} items hidden in this area.
-Your team may contain unauthorised{315}monster data.{315}Please reorganise your team.
-There are no items hidden in this area.
-The adventure log is corrupted and has{315}been deleted.{315}Press the A Button to return to the{315}title screen.
-The save data could not be accessed. Please turn off the power and reinsert the DS Game Card.
+Invalid data detected in monster data.{315}Please reorganise your team.
+There are no hidden items remaining in this area.
+The adventure log is corrupt,{315}and has been deleted.{315}Returning to title screen.{315}Press A to continue.
+Save failed!{315}Please turn off the power and reinsert the DS Game Card.
 
 You cannot save your game at the moment.
-You cannot engage in Tag Mode Battles at the moment.
-You cannot remove this monster from the monster pen {23a} at the moment.
+You cannot engage in Tag Mode battles at the moment.
+You cannot remove this monster from pen {23a} at the moment.
 You cannot create this monster at the moment.
 You cannot add this monster to your team at the moment.
 
 
 
-Sorted from smallest to largest!
-The save data is corrupted.{315}It may be possible to revert to a previous version,{315}Attempt recovery?
-The save data will be deleted.{315}Are you sure about it?
-The corrupted save data has been deleted.{315}Returning to the title screen.{315}Press A to continue.
-Attempting to recover save data…
-Unfortunately, the save data{315}could not be recovered.
-The save data has been{315}successfully recovered!
+Sorted from smallest to largest.
+The adventure log is corrupt.{315}It may be possible to revert to a previous version.{315}Attempt recovery?
+The adventure log will be deleted.{315}Are you really sure?
+Corrupt adventure log deleted.{315}Returning to the title screen.{315}Press A to continue.
+Recovering adventure log...
+Unfortunately the adventure log{315}could not be recovered.
+Successfully recovered the{315}adventure log!
 This monster cannot be traded{315}due to its high rank.
 This monster cannot be traded{315}because it is a Professional version{315}only monster.
-Please select the monster{315}you want to release.
-Say goodbye to {30b}{00}?
-You will never see this monster again.{315}Are you sure?
-I can't believe you'd trade this monster!
+Please select the monster you{315}want to release.
+Release {30b}{00}?
+You may never find another one again.{315}Are you sure?
+How could you want to trade away{315}this monster!?
 
 
 
-Spells and Abilities
-Items
-Equipment
-Switch Monsters
-Change Tactics
-Skill Allocation
-Heal All
-Save
-Scouting Skills
-Scout's Handbook
-Monster Mender
-Tag Mode Battles
-View information about the team.
+Using monster skills
+Using items
+Equipping
+Switching monsters
+Changing tactics
+Allocating skill points
+Heal all
+Saving
+Using scouting skills
+Using the scout's handbook
+Using Monster Mender
+Starting a Tag Mode battle
+Viewing team information
 End skill point allocation.
 
 
@@ -322,35 +322,35 @@ End skill point allocation.
 
 
 
-
+Under construction...
 Travel to any previously-visited area.
-Use in an area with an opened Zip Portal to travel straight there.
+Use in area with an opened Zip Portal to travel directly there.
 Use to reveal how many items are nearby.
-Evade enemies by vanishing into thin air.
-
+Use to hide yourself, and enemies can't find you. but it can't be used in some areas.
 
 
 
 
 
 ????????
+???
 
 
 
 
 
 
-{238} Select monsters to{315}add to active team.
-{239} Select substitutes to{315}accompany active team.
-{23a} Select monsters{315}to send to storage.
+{238} Select up to 3 monsters{315}to add to the active team.
+{239} Select up to 3 monsters{315}to add as substitutes.
+{23a} Select monsters{315}to send to the monster pen.
 
 
 Equip the most powerful weapon available.
-End weapon selection.
+Finish selecting a weapon.
 Form a team by selecting up to 3 monsters.
 Organise substitutes to take with you on your adventure.
-Organise monsters to be sent to the{315}monster pen.
-Use the current setup.
+Organise monsters to send to the monster pen.
+Confirm team setup.
 Cancel changes and revert to the original setup.
 Return to the previous screen.
 
@@ -359,12 +359,12 @@ Return to the previous screen.
 
 
 
-{321}{30b}{00} obtains {322} skill points!
-{321}{30b}{00}'s {30b}T increases by {322} points!
+{321}{30b}{00} got {322} skill points!
+{321}{30b}{00}'s {30b}T increased by {322} points
 
 
 
-There should be a {30b}{00} monster in the next battle.
+A {30b}{00} monster should appear next.
 {321}{30b}{00} learns{315}{30b}T!
 {321}{30b}{00} has too many skills. Please choose a skill to forget.
 
@@ -387,20 +387,21 @@ There should be a {30b}{00} monster in the next battle.
 
 
 
-Sorted alphabetically!
-Sorted by type!
-Sorted by weapon type!
+Sorted by name.
+Sorted by type.
+Sorted by weapon type.
 {30b}{00}'s EXP is{315}just 1 point away from the next level!
 
 
 
 Use a metal ticket to unlock the Metal menagerie?
-{30f} used a Metal Ticket!
-The Metal Ticket can't be used here.{315}Try using it somewhere else!
+{30f} used a metal ticket!
+The metal ticket cannot be used here.{315}Try using it somewhere else!
 Yes
 No
 Start
 Cancel
+
 
 
 

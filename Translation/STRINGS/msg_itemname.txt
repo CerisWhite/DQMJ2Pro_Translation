@@ -214,8 +214,8 @@ Vivifying Flame
 Dragon's Tears
 Time Crystal
 Plains Plate
-Mountain Plate
-Crags Plate
+Ice Plate
+Crag Plate
 Coast Plate
 War God's Plate
 Hypernova Sword
@@ -250,8 +250,8 @@ Morrie's Book
 Battle Road Scroll
 
 
-'Metal Slayer's Primer'
+'Metal Slayer Primer'
 'The Zero Seal'
-'Giant Slayer's Primer'
+'Giant Slayer Primer'
 
 

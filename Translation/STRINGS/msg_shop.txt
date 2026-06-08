@@ -14,20 +14,20 @@ OK
 Place your new monster.
 Inherited Skills:
 Synthesise
-Monster level is too low, so synthesis cannot take place.
-More {226} is required for synthesis.
+Monster level is too low for synthesis.
+Not enough {226} for synthesis.
 
 Left:
 OK
 
 Select {30b}{00} skills for the new monster to inherit.
-End
+Finish
 Monster Pen
 Switch Monsters
 Member List
 Cancel
-Spaces Free In Pen: 
-Skill Points Remaining: 
+Space Remaining:
+Skill Points Remaining:
 Skill Allocation
 Release
 End
@@ -41,14 +41,14 @@ Points Remaining
 
 
 Monsters that are released are lost forever.
-{30b}{00} reluctantly returns to the wild!
+{30b}{00} relunctantly returns to the wild.
 There must be at least one monster in the team.
 Change Name
 Monsters
 Skills
 Traits
 Library
-The monster is transferred from the pen {23a} and added to the party {238}.
+Select a monster to transfer from pen {23a} to the party.
 Info
 Synthesis
 Favorite Teams
@@ -56,13 +56,13 @@ Virtual Battle
 
 Buy
 Sell
-Cancel
+Leave
 This item cannot be sold.
-This item cannot be sold as it is currently equipped by a monster.
+This item cannot be sold as it is currently equipped.
 
 {226}:
 -
-x
+×
 
 E
 Equip
@@ -76,7 +76,7 @@ Item Shop
 Item Shop
 Sold Out
 Can't carry any more
-Missing {226}
+{226} short
 
 
 
@@ -118,7 +118,7 @@ All
 {213}Demon Family
 {214}Undead Family
 {215}??? Family
-Spells and Abilities
+Monster Skills
 Attribute Bonuses
 Special Effects
 Parameter Tweaks
@@ -127,25 +127,25 @@ Resistance +/-
 
 Unknown
 Victories
-Scouted
-Synth.
+Scouts
+Synths
 Types Befriended:
-Total: 
+Total:
 Equippable Weapons:
-Habitat:
-How to Synthesise:
-X
+Habitats:
+Synthesis Steps:
+×
 
-{30b}{00} cannot be checked on right now.
+You cannot check out {30b}{00} now.
 {30b}{00} checks on {30b}T.
-That monster isn't in the monster pen, so {30f} can't check on them.
-{30b}{00} is not in the party, so {30f} can't check their status.
-Sorted by ID!
-Sorted by rank!
-Sorted alphabetically!
-Moved open entries to the top of the list!
-Go on and look for one. It should be in the monster pen somewhere.
-Try heading out the door by the monster pen.
+You cannot check {30b}{00} because they are not in the pen.
+You cannot check on {30b}{00} because they are not in the party.
+Sorted by ID.
+Sorted by rank.
+Sorted by name.
+Sorted open entries to the top.
+Try searching the monster pen for one.
+Try heading out from the monster pen door.
 
 Monsters with Trait:
 
@@ -189,14 +189,14 @@ Philiage
 
 
 
-Organise the monsters in your team.
-Form Favorite Parties.
-Check the monsters in your team.{315}You can also edit monster names and allocate skill points.
-Browse a wide range of monster data.
-Engage in Virtual Battles.
-Exit the monster pen.
-This feature is not available until you have more than {315}20 monsters.
-This feature is not available until you have more than {315}20 monsters.
+Form the party by deciding which monsters to bring with you.
+Form favorite parties.
+Check monsters on your team. You may change their name or allocate skill points.
+Check various data about monsters.
+Freely battle with your party.
+Exit monster pen
+You cannot use this until you get 20 monsters.
+You cannot use this until you get 30 monsters.
 
 
 
@@ -206,50 +206,50 @@ This feature is not available until you have more than {315}20 monsters.
 
 
 Unregistered
-Register Favorite Members.{315}Please select monsters.
-Favorite Members Name
-Swap with Party
-Swap with Standby
-Change Members
-Some members are no longer{315}in the monster pen.{315}They were removed, so please{315}register members again.
-Swap current party with{315}{30b}{00}?
-Swap current standby with{315}{30b}{00}?
-Swapped current party with{315}{30b}{00}.
-Swapped current standby with{315}{30b}{00}.
-Cannot swap because{315}the party would be empty.
-Member registration complete!
-Member change complete!
-This monster cannot be{315}made a member now.
-F-D Rank Class
-C-A Rank Class
-S/SS Rank Class
-This monster is registered to {322},{315}so it cannot enter the{315}World Monster Championship.
-Because it is set to {322},{315}these members cannot battle now.{315}Swap anyway?
-Swap with Sent Party
-Swap current sent party with{315}{30b}{00}?
-Swapped current sent party with{315}{30b}{00}.
-Cannot swap because{315}the sent party would be empty.
+Register your favorite party members.{315}Please select a monster.
+Favorites name
+Switch with current party
+Switch with substitutes
+Change members
+A monster in the list is no longer in the pen. Please register a member as the old one has been removed.
+Switch the current party with {30b}{00}?
+Switch the substitutes with {30b}{00}?
+The current party has been switched with {30b}{00}.
+The substitutes have been switched with {30b}{00}.
+The party cannot be switched as they are dead.
+Completed registering favorite!
+Completed changing favorites!
+You cannot add this monster at this time.
+F-D Rank
+C-A Rank
+S/X Rank
+With {322}, you cannot enter the Ultimate Scout Arena.
+The current members cannot fight as {322} is set. Do you still want to switch?
+Switch with the current online party.
+Switch the current online party with {30b}{00}?
+The current online party was switched with {30b}{00}.
+The current online party cannot be switched as they are dead.
 
 
 
-Swap with Opponent Party
-Swap with Opponent Standby
-Swap opponent party with{315}{30b}{00}?
-Swap opponent standby with{315}{30b}{00}?
-Swapped opponent party with{315}{30b}{00}.
-Swapped opponent standby with{315}{30b}{00}.
-Cannot swap because{315}opponent party would be empty.
+Switch with the current VS party.
+Switch with the current VS substitutes.
+Switch the current VS party with {30b}{00}?
+Switch the current VS substitutes with {30b}{00}?
+The current VS party has been switched with {30b}{00}.
+The current VS substitutes have been switched with {30b}{00}.
+The current VS party cannot be switched as they are dead.
 
 
 
-Here you can register{315}3 slots of favorite monsters.
-Registered monsters can be{315}swapped with party members.
-First, select Unregistered{315}and freely register monsters.
+You can register up to 3 monsters as a favorite team.
+You can switch favorite teams with the party.
+First choose Unregistered, and then you can freely register monsters.
 
 
 
-Return to the list and Unregistered{315}will become the name you entered.
-Registering separate members for{315}Wi-Fi or Tag Mode battles is useful.
+When returning, Unregistered will be replaced by the name you provided.
+It is useful to register teams for Nintendo Wi-Fi Connection and Tag Mode battles.
 
-Monsters with a Guest mark{315}cannot enter the{315}World Monster Championship.
+You cannot use monsters with the Guest tag in the Ultimate Scout Arena.
 

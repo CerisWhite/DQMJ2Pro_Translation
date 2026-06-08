@@ -9,20 +9,20 @@ None
 
 
 Opponent Party
-Opponent Standby
-Edit Opponent
-Change Tactics
+Opponent Substitutes
+Edit
+Tactics
 Opponent Members
 
-Choose from Pen
-Choose Favorites
+Choose from Storage
+Choose from Favorites
 
 
 
 Party Monsters
-Standby Monsters
-Edit Members
-Change Tactics
+Substitute Monsters
+Edit
+Tactics
 
 
 
@@ -34,31 +34,31 @@ Battle Rules
 Rounds
 Tactics
 Switch
-Species
+Types
 Input Time
-RANK
-Finish Settings
+Rank
+Confirm
 
 
-Standard Rules
-SQEX Rules
-Championship Rules
-Custom Rules
+Standard rules
+SQEX rules
+Championship rules
+Custom rules
 
 
-No Limit
-5 Rounds
-10 Rounds
-Free
-AI Only
-Once Only
+No limit
+5
+10
+Unlimited
+AI only
+Once only
 Banned
 All OK
-Same Family OK
-Same Family Banned
-No Limit
-15 sec.
-30 sec.
+Same Lineage OK
+Same Lineage Banned
+No limit
+15s
+30s
 Open Class
 
 
@@ -68,10 +68,10 @@ Open Class
 
 
 
-Start the battle.
-Battle cannot start because{315}2 or more monsters in the party{315}are from the same family.
-Battle cannot start because{315}2 or more monsters in the party{315}are the same species.
-This monster cannot be{315}taken from the pen now.
+The battle will begin.
+Cannot begin because there are 2 monsters from the same lineage.
+Cannot begin because there aer 2 monsters from the same family.
+You cannot take this monster from the monster pen at this time.
 
 
 
@@ -86,39 +86,38 @@ This monster cannot be{315}taken from the pen now.
 
 
 
-Battle with Standard Rules.
-Battle with official rules.
-Battle with Championship Rules.
+Battle with standard rules.
+Battle with official match rules.
+Battle with Ultimate Scout Championship rules.
 Set battle rules freely.
 
 
-Set the round limit{315}for battle end.
-Set whether orders{315}can be given.
-Set whether switching{315}is allowed.
-Set monster restrictions{315}for battle.
-Set the time limit{315}for action input.
-Battle with custom rules.
+Set the round that will end the battle.
+Set whether orders can be given.
+Set whether Switch can be used.
+Set restrictions on what monsters can be used.
+Set a time limit for entering commands.
+Battle with a custom ruleset.
 
-Battle until either side{315}is wiped out.
-Battle ends after{315}5 rounds.
-Battle ends after{315}10 rounds.
-Allow orders{315}to monsters.
-Monsters act by{315}Tactics (AI).
-Switch once{315}during battle.
-Ban monster switching.
-All monsters{315}may be used freely.
-Same-family monsters may be used.{315}However, same-species monsters{315}cannot be used.
-Ban monsters from{315}the same family.
-Set input wait time{315}to no limit.
-Set input wait time{315}to 15 seconds.
-Set input wait time{315}to 30 seconds.
-Switching is free.
+The battle will continue until one team is wiped out.
+The battle will end after 5 rounds.
+The battle will end after 10 rounds.
+You can give orders to monsters.
+Monsters will behave according to Tactics (AI).
+You can use Switch once per battle.
+You cannot use Switch at all.
+You can use any of your monsters.
+You can use monsters from any lineage. But you cannot use monsters of the same family.
+You cannot use monsters from the same lineage.
+There will be unlimited time to enter commands.
+Commands are entered within 15 seconds.
+Commands are entered within 30 seconds.
+You can freely Switch party members.
 
 
 
-You beat the opponent team!
-You lost to the opponent team.
-You drew with the opponent team.
-
+The opposing team won!
+The opposing team lost.
+The battle ended in a draw.
 
 

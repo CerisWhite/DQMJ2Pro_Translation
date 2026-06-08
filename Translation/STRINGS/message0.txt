@@ -62,17 +62,17 @@
 
 
 Show No Mercy
-Use Debuffs
-Mix It Up
+Weaken Foes
+Support
 Focus On Healing
 Don't Use Magic
 
 
 
 Defeat the enemy as quickly as possible, regardless of MP used.
-Focus on debuffing the enemy.
-Fight using a variety of support spells and abilities.
-Pay attention to the remaining HP of fellow team members.
+Prioritize applying debuffs and weakening the enemy.
+Prioritize healing debuffs and strengthening allies.
+Prioritize restoring when ally HP is low.
 Fight without using any MP.
 
 

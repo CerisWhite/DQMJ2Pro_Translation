@@ -1,15 +1,15 @@
-Attack!
-Defend!
-Psyche Up!
+Attack
+Defend
+Psyche Up
 High Tension
 Super High Tension
 Flee
 Do nothing
 
-Gigacross Break
-Beast King Strike
+Giga Slash
+Furious Slash
 Flawless Slash
-All-Creation Slash
+Universal Slash
 Aurora Breath
 Cataclysm
 Kazapple
@@ -38,9 +38,9 @@ Zam
 Zammle
 Kazam
 Kazammle
-Kamikaze Seal
-Titan Slash
-Zero Impact
+Scapegoat Seal
+Smelly Slash
+Showstopper
 Giga Drain Magic
 Whack
 Thwack
@@ -184,30 +184,30 @@ Amor Seco Rain
 Critical Miss
 Reheal
 Mercurial Thrust
-Predict Slash
-Predict Martial
-Predict Spell
-Predict Breath
-Predict Dance
-Party Magic Burst
+Counter Slash
+Counter Martial
+Counter Magic
+Counter Breath
+Counter Dance
+Thordain
 Break Seal
 Tension Passer
 Anchor Knuckle
-Waltz of Doom
-Earth Slash
-Wave Slash
-Air Slash
-Shining Shot
+Partner Waltz
+Fissure Strike
+Ocean Slash
+Quake Strike
+Shining Bow
 Take this!
 Wicked Waltz
-Charming Slash
+Peep Slash
 Still confused!
 Still confused!
 Cowering in fear!
 Assessing the situation.
 Staring blankly.
 Has no idea what to do!
-Concentrate
+Focus Pocus
 GLOBLITERATE ALL INTRUDERS!
 The rockbomb's acting a bit oddly!
 Kadonk!
