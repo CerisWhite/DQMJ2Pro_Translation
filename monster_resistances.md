@@ -1,8 +1,5 @@
 # DQMJ2 Pro Monster Resistance Database
 
-Entries included: 421  
-Source: monster_resistance_database.csv  
-
 | Rank | # | Monster (Eng) | Sz. | Family | Frizz | Bang | Woosh | Crack | Zap | Zam | Sizz | F. Brth | C. Brth | Donk | Whack | Dazzle | Poison | Conf. | Inact. | Para. | Sleep | Sag | Sap | Decel. | Dim | Gob. | Ban D. | Blunt | Drain | Fizzle | Abil. | M. Sab. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | F | 1 | Weedie | 1 | Slime |  |  |  |  |  |  | ^50% | Immune |  | -25% |  | ^50% | -25% |  |  |  |  |  | -25% |  |  | Immune |  | Immune |  |  |  | -25% |

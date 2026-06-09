@@ -1,8 +1,5 @@
 # DQMJ2 Pro Monster Database
 
-Monsters included: 421  
-Source: DQMJ2 Pro Monster Database.csv
-
 | Rank | # | Monster (Eng) | Sz. | Family | HP | MP | Atk. | Def. | Agi. | Wis. | Skill 1 | Skill 2 | Skill 3 | Skill 4 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | F | 1 | Weedie | 1 | Slime | 760 | 340 | 550 | 660 | 670 | 500 | Health Professional | Crafty Whacker | Whack Attack | Starting Accelerate |

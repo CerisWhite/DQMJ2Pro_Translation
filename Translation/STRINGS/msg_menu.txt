@@ -1,5 +1,5 @@
 
-Monster Skills
+Spells and Abilities
 Items
 Equipment
 Switch Monsters
@@ -51,14 +51,14 @@ Resistances
 Skills
 E
 None
-Monsters
+Monster
 New Monster Status
 Next Lv
 Next
 Family
 Sort
 Info
-Attr.
+Attrb.
 Yes
 No
 Skills
@@ -290,19 +290,19 @@ How could you want to trade away{315}this monster!?
 
 
 
-Using monster skills
-Using items
-Equipping
-Switching monsters
-Changing tactics
-Allocating skill points
-Heal all
-Saving
-Using scouting skills
-Using the scout's handbook
-Using Monster Mender
-Starting a Tag Mode battle
-Viewing team information
+Spells and Abilities
+Items
+Equipment
+Switch Monsters
+Change Tactics
+Skill Allocation
+Heal All
+Save
+Scouting Skills
+Scout's Handbook
+Monster Mender
+Tag Mode Battles
+View information about the team.
 End skill point allocation.
 
 

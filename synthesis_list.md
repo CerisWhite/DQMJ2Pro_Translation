@@ -1,9 +1,5 @@
 # DQMJ2 Pro Synthesis List
 
-Recipes included: 374  
-Rank/family source: DQMJ2 Pro Monster Database.csv, mapped by English monster name  
-Sorted by Family, then Rank.  
-
 Note: Unknown # entries are left blank because their monster-name entries are blank in the extracted Pro string data.
 
 | Result | Rank | Family | Monster 1 | Monster 2 | Monster 3 | Monster 4 | Notes |

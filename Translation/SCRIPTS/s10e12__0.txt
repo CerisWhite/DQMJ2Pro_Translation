@@ -4008,7 +4008,7 @@ SETNAME "Elder"
 SAY "{VOICE=03}Ohh, this is definitely the Time{BREAK}Crystal! I'll take it gratefully."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-eAY "{VOICE=03}Good! NowI have all the materials{BREAK}to craft the sainted soma!"
+SAY "{VOICE=03}Good! Now I have all the materials{BREAK}to craft the sainted soma!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}I will hurry and synthesize it so{BREAK}we can give it to the Incarnus!"
