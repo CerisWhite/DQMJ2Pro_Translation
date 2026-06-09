@@ -364,35 +364,35 @@ Set region to Cambodia.
 Set region to Singapore.
 Set region to Sri Lanka.
 Set region to Thailand.
-Set region to{315}South Korea.
-Set region to{315}China.
-Set region to{315}North Korea.
+Set region to South Korea.
+Set region to China.
+Set region to North Korea.
 Set region to Nepal.
 Set region to Pakistan.
-Set region to{315}Bangladesh.
-Set region to{315}East Timor.
+Set region to Bangladesh.
+Set region to East Timor.
 Set region to Philippines.
 Set region to Bhutan.
 Set region to Brunei.
 Set region to Vietnam.
 Set region to Malaysia.
 Set region to Myanmar.
-Set region to Maldives.
+Set region to{315}the Maldives.
 Set region to Mongolia.
 Set region to Laos.
 Set region to Iceland.
 Set region to Ireland.
-Set region to{315}Azerbaijan.
+Set region to Azerbaijan.
 Set region to Albania.
 Set region to Armenia.
 Set region to Andorra.
 Set region to Italy.
 Set region to Ukraine.
-Set region to{315}Uzbekistan.
-Set region to United Kingdom.
+Set region to Uzbekistan.
+Set region to the{315}United Kingdom.
 Set region to Estonia.
 Set region to Austria.
-Set region to Netherlands.
+Set region to the Netherlands.
 Set region to Kazakhstan.
 Set region to Cyprus.
 Set region to Greece.
@@ -407,10 +407,10 @@ Set region to Slovakia.
 Set region to Slovenia.
 Set region to Serbia.
 Set region to Tajikistan.
-Set region to Czech Republic.
+Set region to the{315}Czech Republic.
 Set region to Denmark.
 Set region to Germany.
-Set region to{315}Turkmenistan.
+Set region to Turkmenistan.
 Set region to Norway.
 Set region to Hungary.
 Set region to Finland.
@@ -430,10 +430,10 @@ Set region to Latvia.
 Set region to Lithuania.
 Set region to{315}Liechtenstein.
 Set region to Romania.
-Set region to{315}Luxembourg.
+Set region to Luxembourg.
 Set region to Russia.
-Set region to{315}Afghanistan.
-Set region to{315}UAE.
+Set region to Afghanistan.
+Set region to the{315}United Arab Emirates.
 Set region to Yemen.
 Set region to Israel.
 Set region to Iraq.
@@ -441,19 +441,19 @@ Set region to Iran.
 Set region to Oman.
 Set region to Qatar.
 Set region to Kuwait.
-Set region to{315}Saudi Arabia.
+Set region to Saudi Arabia.
 Set region to Syria.
 Set region to Turkey.
 Set region to Bahrain.
 Set region to Jordan.
 Set region to Lebanon.
-Set region to{315}United States.
+Set region to the{315}United States.
 Set region to Canada.
 Set region to Argentina.
 Set region to{315}Antigua/Barbuda.
 Set region to Uruguay.
 Set region to Ecuador.
-Set region to{315}El Salvador.
+Set region to El Salvador.
 Set region to Guyana.
 Set region to Cuba.
 Set region to Guatemala.
@@ -467,7 +467,7 @@ Set region to{315}St Vincent/Grenadines.
 Set region to St Lucia.
 Set region to Chile.
 Set region to Dominica.
-Set region to{315}Dominican Republic.
+Set region to the{315}Dominican Republic.
 Set region to{315}Trinidad/Tobago.
 Set region to Nicaragua.
 Set region to Haiti.
@@ -498,8 +498,8 @@ Set region to Guinea-Bissau.
 Set region to Kenya.
 Set region to{315}Cote d'Ivoire.
 Set region to Comoros.
-Set region to{315}Congo.
-Set region to{315}DR Congo.
+Set region to Congo.
+Set region to the{315}DR Congo.
 Set region to{315}Sao Tome/Principe.
 Set region to Zambia.
 Set region to Sierra Leone.
@@ -526,7 +526,7 @@ Set region to Botswana.
 Set region to Madagascar.
 Set region to Malawi.
 Set region to Mali.
-Set region to{315}South Africa.
+Set region to South Africa.
 Set region to Mauritius.
 Set region to Mauritania.
 Set region to Mozambique.
@@ -535,18 +535,18 @@ Set region to Libya.
 Set region to Liberia.
 Set region to Rwanda.
 Set region to Lesotho.
-Set region to{315}Australia.
+Set region to Australia.
 Set region to Kiribati.
 Set region to Samoa.
-Set region to{315}Solomon Islands.
+Set region to the{315}Solomon Islands.
 Set region to Tuvalu.
 Set region to Tonga.
 Set region to Nauru.
-Set region to{315}New Zealand.
+Set region to New Zealand.
 Set region to Vanuatu.
 Set region to{315}Papua New Guinea.
 Set region to Palau.
 Set region to Fiji.
-Set region to{315}Marshall Islands.
-Set region to{315}Micronesia.
+Set region to the{315}Marshall Islands.
+Set region to Micronesia.
 Set region to Japan.

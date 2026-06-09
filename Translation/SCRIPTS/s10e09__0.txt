@@ -4771,7 +4771,7 @@ SAY "{VOICE=08}First I will simply explain{BREAK}about the Ultimate Scout Arena.
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 L_128d8:
-SAY "{VOICE=08}It is a dream arena to fight top{BREAK}ranked scouts in an Ultimate Scout Showdown."
+SAY "{VOICE=08}It is a dream arena to fight top-ranked{BREAK}scouts in the World Monster Championships."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}If you want to join, all you{BREAK}have to do is amble over here."
@@ -4928,7 +4928,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_134c8
 L_134c8:
-SAY "{VOICE=08}Will you be joining the{BREAK}Ultimate Scout Arena right away?{VOICE=09}"
+SAY "{VOICE=08}Will you be joining the{BREAK}World Monster Chamipionship now?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -5445,7 +5445,7 @@ SYS_44 0x8
 SAY "{VOICE=03}When you want to challenge{BREAK}Endless Battle, talk to Sanguini."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}When you want to challenge{BREAK}Ultimate Scout Arena, talk to Pink Sanguini."
+SAY "{VOICE=03}When you want to challenge the{BREAK}Ultimate Scout Arena, talk to Pink Sanguini."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}Listen carefully to them{BREAK}when you first do a challenge."

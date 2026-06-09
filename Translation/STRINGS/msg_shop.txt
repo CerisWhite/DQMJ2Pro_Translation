@@ -206,50 +206,50 @@ This feature is not available until you have more than {315}20 monsters.
 
 
 Unregistered
-Register Favorite Members.{315}Please select monsters.
-Favorite Members Name
+Register Favorite members.{315}Please select monsters.
+Favorite Member Name
 Swap with Party
-Swap with Standby
+Swap with Substitutes
 Change Members
-Some members are no longer{315}in the monster pen.{315}They were removed, so please{315}register members again.
+There monsters that are not{315}in the monster pen anymore.{315}They have been removed, so please register members again.
 Swap current party with{315}{30b}{00}?
-Swap current standby with{315}{30b}{00}?
+Swap substitutes with{315}{30b}{00}?
 Swapped current party with{315}{30b}{00}.
-Swapped current standby with{315}{30b}{00}.
+Swapped substitutes with{315}{30b}{00}.
 Cannot swap because{315}the party would be empty.
-Member registration complete!
-Member change complete!
-This monster cannot be{315}made a member now.
+Completed registering favorite!
+Completed changing favorite!
+This monster cannot be{315}a favorite at the moment.
 F-D Rank Class
 C-A Rank Class
-S/SS Rank Class
-This monster is registered to {322},{315}so it cannot enter the{315}World Monster Championship.
-Because it is set to {322},{315}these members cannot battle now.{315}Swap anyway?
+S/X Rank Class
+This monster cannot enter the{315}World Monster Championship because it{315}is registered to {322}.
+You cannot fight with these{315}favorites now because they are{315}set to {322}.{315}Swap anyway?
 Swap with Sent Party
-Swap current sent party with{315}{30b}{00}?
-Swapped current sent party with{315}{30b}{00}.
-Cannot swap because{315}the sent party would be empty.
+Swap current Sent party with{315}{30b}{00}?
+Swapped current Sent party with{315}{30b}{00}.
+Cannot swap because{315}the Sent party would be empty.
 
 
 
 Swap with Opponent Party
-Swap with Opponent Standby
+Swap with Opponent Substitutes
 Swap opponent party with{315}{30b}{00}?
-Swap opponent standby with{315}{30b}{00}?
+Swap opponent substitutes with{315}{30b}{00}?
 Swapped opponent party with{315}{30b}{00}.
-Swapped opponent standby with{315}{30b}{00}.
+Swapped opponent substitutes with{315}{30b}{00}.
 Cannot swap because{315}opponent party would be empty.
 
 
 
-Here you can register{315}3 slots of favorite monsters.
-Registered monsters can be{315}swapped with party members.
-First, select Unregistered{315}and freely register monsters.
+Here you can choose up to 3{315}monsters to register as favorites.
+You can swap these monsters{315}with your current party.
+First, choose 'Unregistered', then{315}register the monster of your choice.
 
 
 
-Return to the list and Unregistered{315}will become the name you entered.
-Registering separate members for{315}Wi-Fi or Tag Mode battles is useful.
+When you return, 'Unregistered'{315}will be changed to the name you entered.
+It is useful to register favorites{315}for Wi-Fi or Tag Mode battles.
 
-Monsters with a Guest mark{315}cannot enter the{315}World Monster Championship.
+Monsters with the 'Guest' mark{315}cannot enter the{315}World Monster Championship.
 

@@ -3810,10 +3810,10 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x0 0x42c00000
 SYS_A8 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}What! {NAME}{BREAK}won against the scouts of the Ultimate Class!"
+SAY "{COLOR=2}What! {NAME}{BREAK}won against the scouts of the Ultimate rank!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}{NAME} got {E322} points{BREAK}as bonus points for the Ultimate Class final!"
+SAY "{COLOR=2}{NAME} got {E322} points as{BREAK}a bonus for the World Monster Championship!"
 STORE 0x18 0x1 0x0 0x2 0x42780000
 SYS_A5 0x8 
 SYS_43 0x8 
@@ -4745,7 +4745,7 @@ SYS_42 0x8
 SAY "{VOICE=07}Ah! A fresh face for me, {E30B}{00}!{BREAK}I'm the Ol' Stubbon Scout!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Who always appears in the Ultimate Scout{BREAK}finale is {E30B} D Rank."
+SAY "{VOICE=07}Who always appears in the World{BREAK}Monster Championship is {E30B} D Rank."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}In the {E30B}T/{E30B}j rankings, under my lead{BREAK}{E30B}z increased in rank!"
@@ -4792,7 +4792,7 @@ SYS_42 0x8
 SAY "{VOICE=07}'Sup! In order to meet strong folks{BREAK}I came from far off {E30B}{00}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I entered the Ultimate Scout finale{BREAK}as {E30B} D rank,"
+SAY "{VOICE=07}I entered the World Monster Championship{BREAK}as {E30B} D rank,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}But in the {E30B}T/{E30B}j rankings,{BREAK}led by me, {E30B}z has increased in rank!"
@@ -4839,7 +4839,7 @@ SYS_42 0x8
 SAY "{VOICE=07}I am a mysteriously-masked scout{BREAK}with {E30B}z under my command."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}In the Ultimate Scout final{BREAK}I always appear in {E30B} D Rank."
+SAY "{VOICE=07}In the World Monster Championship{BREAK}I always appear in {E30B} D Rank."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}And lately in the {E30B}T/{E30B}j rankings,{BREAK}MY TEAM has increased its rank."
@@ -4886,7 +4886,7 @@ SYS_42 0x8
 SAY "{VOICE=07}Hey! I, with {E30B} under my command,{BREAK}am the nice guy born in {E30B}{00}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}In the Ultimate Scout Arena I always{BREAK}join {E30B} D Rank,"
+SAY "{VOICE=07}In the World Monster Chamiponship{BREAK}I always join {E30B} D Rank,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}But in the {E30B}T/{E30B}j rankings,{BREAK}my team splendidly increased in rank!"
@@ -4933,7 +4933,7 @@ SYS_42 0x8
 SAY "{VOICE=07}Hello, there. I live in {E30B}{00}.{BREAK}I'm the monster scout princess."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}In the Ultimate Scout final,{BREAK}I join {E30B} D rank,"
+SAY "{VOICE=07}In the World Monster Chamiponship,{BREAK}I join {E30B} D rank,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}But in the {E30B}T/{E30B}j rankings,{BREAK}my {E30B}z has ranked up!"
@@ -4980,7 +4980,7 @@ SYS_42 0x8
 SAY "{VOICE=07}H-Hey. I really get it here.{BREAK}I'm the monster scout thief."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}In the Ultimate Scout final,{BREAK}I always sneak in {E30B} aruond D rank."
+SAY "{VOICE=07}In the World Monster Chamiponship,{BREAK}I always sneak in {E30B} aruond D rank."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}That said, in the {E30B}T/{E30B}j rankings,{BREAK}my team has ranked up."
@@ -5027,7 +5027,7 @@ SYS_42 0x8
 SAY "{VOICE=07}I'm pretty much a monster scout.{BREAK}My home? Just the normal {E30B}{00}."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Anyway, in the Ultimate Scout final,{BREAK}I join {E30B} D rank,"
+SAY "{VOICE=07}Anyway, in the World Monster Championship,{BREAK}I join {E30B} D rank,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}But in the {E30B}T/{E30B}j rankings,{BREAK}my team {E30B}z ranked up!"
@@ -5074,7 +5074,7 @@ SYS_42 0x8
 SAY "{VOICE=07}Sorry, sorry! Of the unimportant {E30B}{00}{BREAK}I am a monster scout."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I, umm, join {E30B} D rank{BREAK}in the Ultimate Scout final,"
+SAY "{VOICE=07}I, umm, join {E30B} D rank{BREAK}in the World Monster Chamiponship,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}But finally the {E30B}z under me{BREAK}have ranked up in the {E30B}T/{E30B}j rankings!"
@@ -5121,7 +5121,7 @@ SYS_42 0x8
 SAY "{VOICE=07}Yeeeees! From {E30B}{00}, it's me,{BREAK}the cute scout that's quick to anger."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}In the Ultimate Scout final, I always{BREAK}hussle {E30B} D rank,"
+SAY "{VOICE=07}In the World Monster Championship, I always{BREAK}hussle {E30B} D rank,"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}But in the {E30B}T/{E30B}j rankings{BREAK}your girl's {E30B}z ranked up!"

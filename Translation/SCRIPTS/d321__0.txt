@@ -628,7 +628,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41a00000
 SETNAME "King Teeny Sanguini"
-SAY "{VOICE=03}I will open the door to the{BREAK}Survival Battle Mode and Ultimate Scoute Arena!"
+SAY "{VOICE=03}I will open the door to the{BREAK}Survival Battle Mode and Ultimate Scout Arena!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "King Teeny Sanguini"

@@ -3840,7 +3840,7 @@ SYS_49 0x8
 CMP_EQ 0x18 0x0 0x42f60000 0x2 0x40000000
 JMP_IFNOT 0xc L_e66c
 SYS_42 0x8 
-SAY "{VOICE=07}Thanks! What I sell changes{BREAK}when ya join the Ultimate Scout Arena!"
+SAY "{VOICE=07}Thanks! What I sell changes when{BREAK}ya join the World Monster Championship!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

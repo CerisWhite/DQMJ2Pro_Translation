@@ -14,13 +14,13 @@ Edit
 Tactics
 Opponent Members
 
-Choose from Storage
-Choose from Favorites
+From Monster Pen
+From Favorites
 
 
 
-Party Monsters
-Substitute Monsters
+Party
+Substitutes
 Edit
 Tactics
 
@@ -40,10 +40,10 @@ Rank
 Confirm
 
 
-Standard rules
-SQEX rules
-Championship rules
-Custom rules
+Standard Rules
+SQEX Rules
+WBC Rules
+Custom Rules
 
 
 No limit
@@ -69,9 +69,9 @@ Open Class
 
 
 The battle will begin.
-Cannot begin because there are 2 monsters from the same lineage.
-Cannot begin because there aer 2 monsters from the same family.
-You cannot take this monster from the monster pen at this time.
+Cannot begin because there{315}are 2 monsters from the same{315}lineage.
+Cannot begin because there{315}2 monsters from the same{315}family.
+You can't take this monster{315}from the monster pen{315}at this time.
 
 
 
@@ -88,31 +88,31 @@ You cannot take this monster from the monster pen at this time.
 
 Battle with standard rules.
 Battle with official match rules.
-Battle with Ultimate Scout Championship rules.
+Battle with Championship rules.
 Set battle rules freely.
 
 
-Set the round that will end the battle.
-Set whether orders can be given.
-Set whether Switch can be used.
-Set restrictions on what monsters can be used.
-Set a time limit for entering commands.
-Battle with a custom ruleset.
+Set the round that will{315}end the battle.
+Set whether orders can{315}be given.
+Set whether Switch can{315}be used.
+Set restrictions on what{315}monsters can be used.
+Set a time limit for{315}entering commands.
+Battle with a custom{315}ruleset.
 
-The battle will continue until one team is wiped out.
-The battle will end after 5 rounds.
-The battle will end after 10 rounds.
-You can give orders to monsters.
-Monsters will behave according to Tactics (AI).
-You can use Switch once per battle.
-You cannot use Switch at all.
-You can use any of your monsters.
-You can use monsters from any lineage. But you cannot use monsters of the same family.
-You cannot use monsters from the same lineage.
-There will be unlimited time to enter commands.
-Commands are entered within 15 seconds.
-Commands are entered within 30 seconds.
-You can freely Switch party members.
+The battle will continue{315}until one team is wiped out.
+The battle will end after{315}5 rounds.
+The battle will end after{315}10 rounds.
+You can give orders to{315}monsters.
+Monsters will behave{315}according to Tactics (AI).
+You can use Switch once{315}per battle.
+You cannot use Switch{315}at all.
+You can use any of your{315}monsters.
+You can use monsters from{315}any lineage. But you cannot use{315}monsters of the same family.
+You cannot use monsters{315}from the same lineage.
+There will be unlimited{315}time to enter commands.
+Commands are entered within{315}15 seconds.
+Commands are entered within{315}30 seconds.
+You can freely Switch party{315}members.
 
 
 
