@@ -1,6 +1,6 @@
 This fork of Ceris White's Joker 2 Professional repository includes a post-game translation by Gerb, bits and pieces or remaining Japanese text has been replaced with a draft machine-learning translation, pending proper localisation.
 
-[Guide to patch your legally obtained rom.](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/patching_guide/patching_guide.md)
+[Guide to patch your legally obtained rom.](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/step-by-step.md)
 
 Eugene Pool missing is an anti-piracy measure (among others) by the developers.
 This can be circumvented by pre-applying an anti-piracy (AP) patch before apply the translation patch.
