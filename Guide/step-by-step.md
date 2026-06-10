@@ -9,7 +9,7 @@ SELECT “Add python.exe to PATH”.
 
 ![Add python.exe to PATH](1.png)
 
-2. Download the code from the [repository](https://github.com/CerisWhite/DQMJ2Pro_Translation) (edit: or [this fork](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/step-by-step.md))
+2. Download the code from the [repository](https://github.com/CerisWhite/DQMJ2Pro_Translation) (edit: or [this fork](https://github.com/saneezore07/DQMJ2Pro_Translation)
 
 ![Download the code from the repository](2.png)
 
