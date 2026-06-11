@@ -1,6 +1,6 @@
 This fork of Ceris White's Joker 2 Professional repository includes a post-game translation by Gerb, bits and pieces or remaining Japanese text has been replaced with a draft machine-learning translation, pending proper localisation.
 
-[Guide to patch your legally obtained rom.](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/step-by-step.md)
+[Guide](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/step-by-step.md) to patch your legally obtained rom. [Linux](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/linux_guide.md)
 
 Eugene Pool (the old man on the airship) missing is an anti-piracy measure (among others) by the developers.
 This can be circumvented by [pre-applying an anti-piracy (AP) patch](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/ap_patching.md) before apply the translation patch.
