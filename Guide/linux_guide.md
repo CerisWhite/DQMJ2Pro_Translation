@@ -2,14 +2,19 @@
 `python` `ndstool` `wine`
 
 ### Arch/Cachy/EndevourOS
-`sudo pacman -S python wine
-yay -S ndstool`
+`sudo pacman -S python wine`
+
+`yay -S ndstool`
 
 ### Debian/Mint/Ubuntu
 `sudo apt install -y python3 wine build-essential`
+
 `wget https://github.com/devkitPro/ndstool/releases/download/v2.1.2/ndstool-2.1.2.tar.bz2`
+
 `tar -xjf ndstool-2.1.2.tar.bz2`
+
 `cd ndstool-2.1.2`
+
 `./configure && make && sudo make install`
 
 ---
