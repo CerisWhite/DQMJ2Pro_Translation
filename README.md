@@ -2,8 +2,8 @@ This fork of Ceris White's Joker 2 Professional repository includes a post-game 
 
 [Guide to patch your legally obtained rom.](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/step-by-step.md)
 
-Eugene Pool missing is an anti-piracy measure (among others) by the developers.
-This can be circumvented by pre-applying an anti-piracy (AP) patch before apply the translation patch.
+Eugene Pool (the old man on the airship) missing is an anti-piracy measure (among others) by the developers.
+This can be circumvented by [pre-applying an anti-piracy (AP) patch](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/ap_patching.md) before apply the translation patch.
 This happens on hardware (DS, 3DS), but not emulation (desume, melonDS)
 
 You will need the J2P ROM, BLZ, ndstool (<https://github.com/devkitpro/ndstool>), and python. A compiled build of BLZ is provided for Windows as blz_win.exe; The scripts expect it to be named blz.exe when used.
