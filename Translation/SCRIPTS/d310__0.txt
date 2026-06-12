@@ -486,8 +486,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "ククリ"
-SAY "{VOICE=08}「あぶない!　レオソードさまあっ!!"
+SETNAME "Kukuri"
+SAY "{VOICE=08}WATCH OUT, LEOKID!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -514,11 +514,11 @@ SYS_B1 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}It appears  the time has come{BREAK}to teach that brat... What real strength is."
+SAY "{VOICE=07}It appears the time has come{BREAK}to teach that brat… What real strength is."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Unleash as much as you desire!{BREAK}Your... Monster  Scout strength that is!"
+SAY "{VOICE=07}Unleash as much as you desire!{BREAK}Your… Monster Scout strength that is!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -565,7 +565,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Leokid"
-SAY "{VOICE=07}You don't have to go overboard.{BREAK}A pipsqueak like you is not who I want for a foe."
+SAY "{VOICE=07}You don't have to go overboard. A{BREAK}pipsqueak like you's not who I want for a foe."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -597,7 +597,7 @@ SYS_17 0x8
 STORE 0x18 0x1 0x0 0x2 0x42700000
 SYS_9C 0x8 
 SYS_42 0x8 
-SETNAME "Clause"
+SETNAME "Taurus"
 SAY "{VOICE=03}Grrrraaaaaaa!!!"
 WAIT 0x10 0x2 0x42600000
 SYS_43 0x8 

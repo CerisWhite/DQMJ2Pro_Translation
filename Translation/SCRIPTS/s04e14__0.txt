@@ -6870,10 +6870,10 @@ L_1b558:
 CMP_EQ 0x18 0x0 0x42f80000 0x2 0x3f800000
 JMP_IFNOT 0xc L_1b9b4
 SYS_42 0x8 
-SAY "{COLOR=2}It's a monument carved like a rag.{BREAK}There is a hole in the altar."
+SAY "{COLOR=2}It's a monument carved like a crag.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}The plate you got on Cragvation{BREAK}seems to fit the hole."
+SAY "{COLOR=2}The plate you got on Cragravation seems{BREAK}to fit the hole."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Will you insert the crag plate?{VOICE=09}"

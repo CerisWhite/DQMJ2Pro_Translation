@@ -4871,7 +4871,7 @@ SYS_44 0x8
 SAY "{VOICE=07}I guess humans CAN fight!{BREAK}I'm seeing you in a new light!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Well, I'd like to praise you more,{BREAK}, but I'm all pooped out. Sorry."
+SAY "{VOICE=07}Well, I'd like to praise you more, but{BREAK}I'm all pooped out. Sorry."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4962,7 +4962,7 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41d00000
 JMP_IFNOT 0xc L_13874
 L_13730:
 SYS_42 0x8 
-SAY "{VOICE=07}What am I gonna do. I know{BREAK}the power is draining from my body."
+SAY "{VOICE=07}What am I gonna do? I know the power{BREAK}is draining from my body."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}It seems we are losing the{BREAK}power to connect worlds."
@@ -5047,7 +5047,7 @@ JMP_IFNOT 0xc L_14618
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x3f800000
 JMP_IFNOT 0xc L_13ec4
 SYS_42 0x8 
-SAY "{VOICE=03}I am the oldest of the Pipit{BREAK}tribe second to the elder."
+SAY "{VOICE=03}I am the oldest of the Pipit tribe,{BREAK}second to the elder."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}I am at peace knowing that{BREAK}my long life is coming to an end,"
@@ -5073,13 +5073,13 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x40c00000
 JMP_IFNOT 0xc L_1409c
 L_13f60:
 SYS_42 0x8 
-SAY "{VOICE=03}I am the oldest of the Pipit{BREAK}tribe second to the elder."
+SAY "{VOICE=03}I am the oldest of the Pipit tribe,{BREAK}second to the elder."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I've been saying that I welcome{BREAK}peace to my long life,"
+SAY "{VOICE=03}I've been saying that I welcome{BREAK}peace to my long life."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}but I won't die until I know{BREAK}who wins, Tiko or Kukuri."
+SAY "{VOICE=03}But I won't die until I know who wins,{BREAK}Tiko or Kukuri."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5316,7 +5316,7 @@ SYS_44 0x8
 SAY "{VOICE=08}Tiko is a hard worker who{BREAK}is lucky at weapons."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Our elder is thinking about{BREAK}which of the two to suceed him, squeak."
+SAY "{VOICE=08}Our elder is thinking about which of{BREAK}the two will succeed him, squeak."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5369,7 +5369,7 @@ SYS_42 0x8
 SAY "{VOICE=08}Something's off with everyone{BREAK}in town, squeak."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}No. It seems we also{BREAK}are losing power and sleepy, squeak."
+SAY "{VOICE=08}Unnnnh… It seems I too have lost my{BREAK}power, and have gotten tired, squeak."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5483,13 +5483,13 @@ L_15bac:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x40c00000
 JMP_IFNOT 0xc L_15d14
 SYS_42 0x8 
-SAY "{VOICE=07}Hey! Are you saying the white{BREAK}beast who fled town was the Incarnus!"
+SAY "{VOICE=07}Hey! Are you saying the white beast{BREAK}who fled town was the Incarnus!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}I heard the story, but I can't{BREAK}believe it was really them."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I mean it would bet they{BREAK}who could escape my sharp eyes."
+SAY "{VOICE=07}I mean it would be the Incarnus{BREAK}who could escape my sharp eyes."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5542,7 +5542,7 @@ SYS_42 0x8
 SAY "{VOICE=07}Zzz... Zzz..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「ハッ!"
+SAY "{VOICE=07}Hut!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x43510000

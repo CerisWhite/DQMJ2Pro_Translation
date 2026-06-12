@@ -189,7 +189,7 @@ STORE 0x18 0x1 0x0 0x2 0x42740000
 STORE 0x18 0x1 0x3f800000 0x2 0x42f00000
 SYS_17 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}But thanks to having met him{BREAK}the me now is different."
+SAY "{VOICE=07}But thanks to having met him, the me{BREAK}now is different."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40000000
@@ -213,7 +213,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43480000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Before I journey to the dark world.{BREAK}I made my friend a promise."
+SAY "{VOICE=07}Before I journeyed to the dark world.{BREAK}I made my friend a promise."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
@@ -237,7 +237,7 @@ STORE 0x18 0x1 0x0 0x2 0x428c0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}I am sorry to have stopped you.{BREAK}Okay, let's go. We're almost to Blanc Palace."
+SAY "{VOICE=07}I am sorry to have stopped you. Okay,{BREAK}let's go. We're near Blanc Palace."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

@@ -618,7 +618,7 @@ SAY "{VOICE=08}W-Wait, what! A h-h-human!??"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08} No way. A HUMAN beat that huge monster,{BREAK}and collected the PLATES?"
+SAY "{VOICE=08}No way. A HUMAN beat that huge monster,{BREAK}and collected the PLATES?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x3f800000

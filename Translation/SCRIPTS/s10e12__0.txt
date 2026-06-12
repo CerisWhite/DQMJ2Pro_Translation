@@ -3772,7 +3772,7 @@ JMP_ABS 0xc L_e918
 L_e918:
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Ohh, {NAME}.{BREAK}So you got the Vivifying Flame?{VOICE=09}"
+SAY "{VOICE=03}Ohh, {NAME}.{BREAK}Did you get the Vivifying Flame?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -3793,7 +3793,7 @@ SYS_44 0x8
 SAY "{VOICE=03}A monster with a burning red tail, above{BREAK}the clouds, with the fiercest of neighs."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}There are ones without the it, so{BREAK}keep trying until you get it."
+SAY "{VOICE=03}There are ones without it, so{BREAK}keep trying until you get it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4199,7 +4199,7 @@ SYS_44 0x8
 SAY "{VOICE=03}She'll be lost if you{BREAK}synthesise her, so please watch out."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}How about checking the{BREAK}Blanc Palace rooftap after?"
+SAY "{VOICE=03}How about checking the{BREAK}Blanc Palace rooftop after?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}They'll have finished the{BREAK}Endless Battle and Ultimate Scout Arena."
@@ -4348,10 +4348,10 @@ SYS_44 0x8
 SAY "{VOICE=08}Since you beat Babarood, I've{BREAK}won the match against Kukuri!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}When I scouted you on the surface,{BREAK}I didn't know what to think,"
+SAY "{VOICE=08}When I scouted you on the surface,{BREAK}I didn't know what to think."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}but you turned out surprisingly{BREAK}strong! Thanks for everything, {NAME}!"
+SAY "{VOICE=08}But you turned out surprisingly{BREAK}strong! Thanks for everything, {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}'Kay, let's ask the elder.{BREAK}I'm sure he'll reward you."
@@ -4369,10 +4369,10 @@ JMP_ABS 0xc L_116b4
 L_116b4:
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}I didn't know what to think{BREAK}when I scouted you on the surface,"
+SAY "{VOICE=08}I didn't know what to think{BREAK}when I scouted you on the surface."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}but you turned out surprisingly{BREAK}strong! Thanks for everything, {NAME}!"
+SAY "{VOICE=08}But you turned out surprisingly{BREAK}strong! Thanks for everything, {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}'Kay, let's ask the elder.{BREAK}I'm sure he'll reward you."
@@ -4559,7 +4559,7 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40c00000
 JMP_IFNOT 0xc L_12480
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Huff... Puff..."
+SAY "{VOICE=07}Huff… Puff…"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

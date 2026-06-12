@@ -3641,7 +3641,7 @@ CMP_LT 0x18 0x0 0x42bc0000 0x2 0x41e00000
 JMP_IFNOT 0xc L_df14
 SYS_01 0x18 9286837b83588ce382cc89ef98620000
 SYS_42 0x8 
-SAY "{VOICE=08}I protected it growing up{BREAK}watering it every day."
+SAY "{VOICE=08}I protected it growing up,{BREAK}watering it every day."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}But when Babarood wounded the{BREAK}holy land, it began to lose life."
@@ -3650,7 +3650,7 @@ SYS_44 0x8
 SAY "{VOICE=08}It must devour a lot of life{BREAK}to grow into a tall, tall tree."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}I beg you, traveler!{BREAK}Destroy Babarood who wounded the holy land."
+SAY "{VOICE=08}I beg you, traveler! Destroy Babarood{BREAK}who wounded the holy land."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Please somehow save{BREAK}this sapling!"
@@ -3668,7 +3668,7 @@ CMP_LT 0x18 0x0 0x42bc0000 0x2 0x41e80000
 JMP_IFNOT 0xc L_e254
 SYS_01 0x20 8371837183858368838991de8ea18ce382cc89ef98620000
 SYS_42 0x8 
-SAY "{VOICE=08}I protected it growing up{BREAK}watering it every day."
+SAY "{VOICE=08}I protected it growing up,{BREAK}watering it every day."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Its life was threatened{BREAK}when Babarood wounded the holy land,"
@@ -3704,7 +3704,7 @@ CMP_EQ 0x18 0x0 0x42bc0000 0x2 0x0
 JMP_IFNOT 0xc L_e5cc
 SYS_01 0x20 93568a45834e838a83418ce382cc8f8991ce96ca00000000
 SYS_42 0x8 
-SAY "{VOICE=08}I protected it growing up{BREAK}watering it every day."
+SAY "{VOICE=08}I protected it growing up,{BREAK}watering it every day."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Its life was threatened{BREAK}when Babarood wounded the holy land,"

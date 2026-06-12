@@ -36,7 +36,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Leonyx"
-SAY "{VOICE=07}「どうした　{NAME}。{BREAK}我に　なにか言いたいことでもあるのか?"
+SAY "{VOICE=07}What's wrong, {NAME}?{BREAK}You wanna say something to me?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
