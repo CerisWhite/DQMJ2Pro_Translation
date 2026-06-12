@@ -667,7 +667,7 @@ SAY "{VOICE=07}A-ha-ha! What're you sayin'!?{BREAK}You're tryin' to pull one ove
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leokid"
-SAY "{VOICE=07}I came here to test my blade os I{BREAK}was told some strong foes were here."
+SAY "{VOICE=07}I came here to test my blade as I{BREAK}was told some strong foes were here."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41500000
