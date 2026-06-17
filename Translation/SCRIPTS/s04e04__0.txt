@@ -6283,7 +6283,7 @@ SETNAME "Lily Gilder"
 SAY "{VOICE=08}I dropped my lighter when I was trying to escape that oversized buffoon."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}}Not to worry though, I've have something that will do the trick..."
+SAY "{VOICE=08}Not to worry though, I've have something that will do the trick..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}I came across a campfire a monster had made and managed to grab a torch."
