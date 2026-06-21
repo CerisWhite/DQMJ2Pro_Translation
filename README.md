@@ -1,4 +1,4 @@
-[This](This) fork of Ceris White's Joker 2 Professional repository includes a post-game translation by Gerb.
+This fork of Ceris White's Joker 2 Professional repository includes a post-game translation by Gerb.
 
 <img src="./Database/credits.png" width="700">
 
