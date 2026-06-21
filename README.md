@@ -1,8 +1,10 @@
 [This](This) fork of Ceris White's Joker 2 Professional repository includes a post-game translation by Gerb.
 
-<img src="./Database/credits.png" width="800">
+<img src="./Database/credits.png" width="700">
 
 [Guide](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/step-by-step.md) to patch your legally obtained rom. [Linux](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/linux_guide.md)
+
+[New synthesis recipes](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/adding_new_synths.md) has been added to the game for monsters that exist in the game files, but were either wi-fi exclusive monsters or otherwise not obtainable in gameplay.
 
 Eugene Pool (the old man on the airship) missing is an anti-piracy measure (among others) by the developers.
 This can be circumvented by [pre-applying an anti-piracy (AP) patch](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/ap_patching.md) before apply the translation patch.
