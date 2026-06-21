@@ -1,6 +1,6 @@
-This fork of Ceris White's Joker 2 Professional repository includes a post-game translation by Gerb.
+[This](This) fork of Ceris White's Joker 2 Professional repository includes a post-game translation by Gerb.
 
-![Credits](Database/credits.png)
+<img src="./Database/credits.png" width="800">
 
 [Guide](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/step-by-step.md) to patch your legally obtained rom. [Linux](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/linux_guide.md)
 
