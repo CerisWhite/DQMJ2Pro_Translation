@@ -9,10 +9,10 @@ python Pro_Tools/synthesis_parser.py --in Pro_ROM/data/CombinationKindTbl.bin --
 python Pro_Tools/synthesis_parser.py --in Pro_ROM/data/Combination4GTbl.bin --out 4g.csv --type 4g
 ```
 ```bat
-python -c "from pathlib import Path; open('Kind.csv','a',encoding='utf-8',newline='').write(''.join(Path('Database/new_synths_kind.csv').read_text(encoding='utf-8').splitlines(True)[1:]))"
+python -c "from pathlib import Path; open('Kind.csv','a',encoding='utf-8',newline='').write(''.join(Path('Database/new_synths_kind.csv').read_text(encoding='utf-8').splitlines(True)))"
 ```
 ```bat
-python -c "from pathlib import Path; open('4g.csv','a',encoding='utf-8',newline='').write(''.join(Path('Database/new_synths_4g.csv').read_text(encoding='utf-8').splitlines(True)[1:]))"
+python -c "from pathlib import Path; open('4g.csv','a',encoding='utf-8',newline='').write(''.join(Path('Database/new_synths_4g.csv').read_text(encoding='utf-8').splitlines(True)))"
 ```
 ```bat
 python Pro_Tools/synthesis_parser.py --in Kind.csv --out Pro_ROM/data/CombinationKindTbl.bin
