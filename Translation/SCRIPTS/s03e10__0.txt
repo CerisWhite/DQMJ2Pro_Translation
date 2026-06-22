@@ -8716,10 +8716,10 @@ STORE 0x18 0x1 0x3f800000 0x2 0x0
 SYS_28 0x8 
 SYS_42 0x8 
 SETNAME "Don Mole"
-SAY "{VOICE=07}Whew! You must've been feelin' the pain{BREAK}to quit before your monsters were slain!"
+SAY "{VOICE=07}Hey-ho, human brother.{BREAK}Losin' ain't the end."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}We hope you'll bounce back stronger than ever, little dude."
+SAY "{VOICE=07}You fought bravely and well. Next time,{BREAK}the battle may well tell a different tale..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
