@@ -30,9 +30,9 @@ Select Region
 
 
 
-You can change the hero's name.{315}Invalid names cannot be used{315}with Wi-Fi communication.{315}If your name is invalid,{315}please change it.
-You can set your region.{315}It appears in Tag Mode Battles,{315}Wireless Battles and Wi-Fi screens.
-Confirm the hero's name and region.
+You can change your display name.{315}If you enter an inappropriate name,{315}you cannot use Wi-Fi communications.{315}If your name is inappropriate,{315}please change it before playing.
+Set your region / country.{315}It appears in Tag Mode Battles,{315}Wireless Battles and Wi-Fi communications.
+Confirm your changes and save.
 
 
 Select your region.
