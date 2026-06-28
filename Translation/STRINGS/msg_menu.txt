@@ -127,7 +127,7 @@ Monsters with this skill:
 Other
 Habitat
 Nobody has
-Without
+None
 Possessed by wild monsters.
 Equipped
 ☆
