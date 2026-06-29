@@ -10,7 +10,12 @@ from tkinter import filedialog, messagebox, ttk
 import gui_backend
 
 
-ROOT = Path(__file__).resolve().parents[3]
+def app_root():
+    if getattr(sys, "frozen", False):
+        return Path.cwd()
+    return Path(__file__).resolve().parents[3]
+
+ROOT = app_root()
 
 
 class QueueWriter:
