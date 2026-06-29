@@ -1,0 +1,123 @@
+Virtual Battle
+Start Battle
+Opponent Setup
+Ally Setup
+Change Rules
+Quit
+Battle Rules
+None
+
+
+Opponent Party
+Opponent Substitutes
+Edit
+Tactics
+Opponent Members
+
+From Monster Pen
+From Favorites
+
+
+
+Party
+Substitutes
+Edit
+Tactics
+
+
+
+
+
+
+
+Battle Rules
+Rounds
+Tactics
+Switch
+Types
+Input Time
+Rank
+Confirm
+
+
+Standard Rules
+SQEX Rules
+WBC Rules
+Custom Rules
+
+
+No limit
+5
+10
+Unlimited
+AI only
+Once only
+Banned
+All OK
+Same Lineage OK
+Same Lineage Banned
+No limit
+15s
+30s
+Open Class
+
+
+
+
+
+
+
+
+The battle will begin.
+Cannot begin because there{315}are 2 monsters from the same{315}lineage.
+Cannot begin because there{315}2 monsters from the same{315}family.
+You can't take this monster{315}from the monster pen{315}at this time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Battle with standard rules.
+Battle with official match rules.
+Battle with Championship rules.
+Set battle rules freely.
+
+
+Set the round that will{315}end the battle.
+Set whether orders can{315}be given.
+Set whether Switch can{315}be used.
+Set restrictions on what{315}monsters can be used.
+Set a time limit for{315}entering commands.
+Battle with a custom{315}ruleset.
+
+The battle will continue{315}until one team is wiped out.
+The battle will end after{315}5 rounds.
+The battle will end after{315}10 rounds.
+You can give orders to{315}monsters.
+Monsters will behave{315}according to Tactics (AI).
+You can use Switch once{315}per battle.
+You cannot use Switch{315}at all.
+You can use any of your{315}monsters.
+You can use monsters from{315}any lineage. But you cannot use{315}monsters of the same family.
+You cannot use monsters{315}from the same lineage.
+There will be unlimited{315}time to enter commands.
+Commands are entered within{315}15 seconds.
+Commands are entered within{315}30 seconds.
+You can freely Switch party{315}members.
+
+
+
+The opposing team won!
+The opposing team lost.
+The battle ended in a draw.
+
+

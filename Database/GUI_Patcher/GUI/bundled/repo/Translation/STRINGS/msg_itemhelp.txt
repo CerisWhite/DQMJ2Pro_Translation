@@ -1,0 +1,257 @@
+
+Restores 30 HP to a single ally.
+Restores 60 HP to a single ally.
+Restores 120 HP to a single ally.
+Restores 30 HP to all allies.
+Restores around 100 HP to all allies.
+Restores 30 MP to a single ally.
+Restores 90 MP to a single ally.
+Fully restores the MP of a single ally.
+A mystical leaf that resurrects a single fallen ally.
+Cures a single ally of the effects{315}of poison.
+Cures a single ally of the effects{315}of paralysis.
+Cures a single ally of poison, paralysis, sleep and confusion.
+Enchanted dust used to seal an{315}enemy's magic.
+Greatly increases the attack power of a single ally for 2 to 5 turns.
+Increases one ally's resistance to magic.
+Increases all allies' resistance to{315}enemy magic.
+Increases one ally's resistance to fire and ice breath attacks.
+Increases all allies' resistance to fire and ice breath attacks.
+Allocates 3 skill points to a single ally.
+Permanently increases the maximum HP of a single ally by 2 to 4 points.
+Permanently increases the maximum MP of a single ally by 2 to 4 points.
+Permanently increases the attack power of a single ally by 1 to 2 points.
+Permanently increases the defence of a single ally by 1 to 2 points.
+Permanently increases the agility of a single ally by 1 to 2 points.
+Permanently increases the wisdom of a single ally by 1 to 2 points.
+Smells horrific, but you can fling it at enemies in battle. Will only inflict 0 or 1 point of damage on a single enemy, but it works well against foes with metal bodies.
+The target will be set to 1 XP away from the next level.
+Allows you to purchase goods at{315}lower prices.
+A heavy chunk of solid gold.
+Lures {231} monsters into battle. The effect wears off after the battle.
+Lures {232} monsters into battle. The effect wears off after the battle.
+Lures {233} monsters into battle. The effect wears off after the battle.
+Restores around 40 HP to all your allies.
+
+
+
+
+
+
+
+
+Use this special ticket to travel to the metal menagerie. Just don't waste it by using it while the metal menagerie is accessible.
+
+
+Monsters love this tasty meat and it increases the chances of scouting them.
+Cures a single ally of the effects of sleep and confusion.
+
+A book that bestows the Wulfspade skill.
+A book that bestows the Hawkhart skill.
+A book that bestows the Diamagon skill.
+A book that bestows the Cluboon skill.
+A scroll that bestows the Warrior skill.
+A scroll that bestows the Mage skill.
+A scroll that bestows the Priest skill.
+A scroll that bestows the{315}Martial Artist skill.
+A scroll that bestows the Sage skill.
+A scroll that bestows the Thief skill.
+Hard stones for throwing in battle. Only deal between 1 and 3 points of damage to a single enemy, but are effective against metallic monsters.
+Explosive stones for throwing in battle. Reduces the HP of a single enemy to 1.
+
+Inflicts a status ailment on a single foe.
+
+
+
+
+Increases the team's level of tension.
+Greatly decreases the attack of a single enemy for 2 to 5 turns.
+Greatly decreases the defence of a single enemy for 4 to 7 turns.
+Greatly decreases the agility of a single enemy for 4 to 7 turns.
+Greatly decreases the wisdom of a single enemy for 4 to 7 turns.
+Greatly increases the defence of a single ally for 4 to 7 turns.
+Greatly increases the agility of a single ally for 4 to 7 turns.
+Greatly increases the wisdom of a single ally for 4 to 7 turns.
+A book that bestows the Healer skill.
+A book that bestows the{315}Mage Aid skill.
+A book that bestows the{315}Attack Boost skill.
+A book that bestows the{315}Defence Boost skill.
+A book that bestows the Agility Boost skill.
+A book that bestows the{315}Wisdom Boost skill.
+A large medal with a lion's face engraved on it.
+A key granting access to the ruins of the Bemusoleum.
+An essential accessory for any monster scout, this ring allows its wearer to scout monsters and add them to their team.
+The slightly soggy letter received from the slime outside the moles' base.
+A book that bestows the Cure-all skill.
+
+
+
+
+
+
+
+
+Pebbles for throwing in battle. Only deal between 0 and 1 point of damage to a single enemy, but are effective against metallic monsters.
+An item that should be worth a few{315}gold coins.
+An item that should be worth a good amount of gold coins.
+
+
+
+
+
+
+
+
+
+
+
+Bears the same logo as the item vendor on board the Albatross.
+
+The medal that grants the bearer the right to compete in the last stage of the moles' Monster Scout Challenge.
+
+A magical item that can invest mud with{315}a soul.
+Attack +10
+Attack +13{315}Rather effective against the undead.
+Attack +18{315}Rather effective against dragons.
+Attack +30{315}An ordinary steel sword.
+Attack +36{315}Rather effective against the undead.
+Attack +41{315}Rather effective against dragons.
+Attack +48{315}Highly likely to land a hit against{315}metal monsters.
+Attack +62
+Attack +67{315}Effective against the undead.
+Attack +72{315}Effective against dragons.
+Attack +90
+Attack +81{315}Highly effective against the undead.
+Attack +86{315}Highly effective against dragons.
+Attack +110
+Attack +102{315}Highly likely to land a hit against{315}metal monsters.
+Attack +9{315}Rather effective against slimes.
+Attack +16{315}Rather effective against naturalists.{315}Makes critical hits easier to land.
+Attack +22{315}Rather effective against demons.
+Attack +28{315}Rather effective against materialists.
+Attack +34{315}Rather effective against the undead.
+Attack +40{315}Rather effective against beasts.{315}Makes critical hits easier to land.
+Attack +45{315}Rather effective against dragons.
+Attack +57
+Attack +82
+Attack +94{315}Makes critical hits easier to land.
+Attack +7
+Attack +14{315}Rather effective against beasts{315}and naturalists.
+Attack +23
+Attack +32{315}Rather effective against beasts{315}and naturalists.
+Attack +39{315}Makes critical hits easier to land.
+Attack +52
+Attack +60{315}Effective against beasts and naturalists.
+Attack +81
+Attack +90{315}Highly effective against beasts and naturalists.
+Attack +93{315}Makes critical hits easier to land.
+Attack +3{315}Increases defence.
+Attack +12{315}Rather effective against materialists{315}and slimes.
+Attack +24{315}Increases defence.
+Attack +31{315}Occasionally crushes foes in a single blow.
+Attack +37{315}Restores some of the wielder's HP.
+Attack +49{315}Increases defence.
+Attack +97{315}Highly effective against materialists{315}and slimes.
+Attack +80{315}Increases defence.
+Attack +58{315}Occasionally crushes foes in a single blow.
+Attack +87{315}Restores some of the wielder's HP.
+Attack +4{315}Deals damage to all enemies.
+Attack +10{315}Deals damage to all enemies.
+Attack +14{315}Deals damage to all enemies.
+Attack +30{315}Deals damage to all enemies.
+Attack +20{315}Deals damage to all enemies.
+Attack +36{315}Deals damage to all enemies.
+Attack +42{315}Deals damage to all enemies.
+Attack +48{315}Deals damage to all enemies.
+Attack +58{315}Deals damage to all enemies.
+Attack +68{315}Deals damage to all enemies.
+Attack +5{315}Increases agility.
+Attack +15{315}Highly likely to land a hit against{315}metal monsters.{315}Increases agility.
+Attack +11{315}Increases agility.
+Attack +25{315}Effective against demons.{315}Increases agility.
+Attack +33{315}Increases agility.
+Attack +43{315}Increases agility.
+Attack +51{315}Highly likely to land a hit against metal monsters.{315}Increases agility.
+Attack +77{315}Increases agility.
+Attack +84{315}Highly effective against demons.{315}Increases agility.
+Attack +95{315}Increases agility.
+Attack +4{315}Increases wisdom.
+Attack +12{315}Increases wisdom.
+Attack +8{315}A monster wielding this staff will pass on its form when synthesised.
+
+Attack +23{315}Used to ensure a synthesised monster is {231}.
+Attack +23{315}Used to ensure a synthesised monster is {232}.
+Attack +34{315}Increases wisdom.
+Attack +47{315}Increases wisdom.
+Attack +61{315}Increases wisdom.
+Attack +83{315}Increases wisdom.
+Attack +95{315}Increases agility and wisdom.
+Attack +46{315}Effective against materialists.
+Attack +42{315}Increases wisdom.
+Attack +88{315}Increases agility.
+Attack +76{315}Effective against demons.{315}Makes critical hits easier to land.
+
+
+Attack +10{315}Increases agility.
+Attack +20{315}Increases defence.
+Attack +77{315}Restores some of the wielder's HP.
+Attack +15{315}Greatly increases agility.
+Attack +7{315}Restores some of the wielder's HP.
+Attack +44{315}Rather effective against dragons.
+Attack +58{315}Effective against naturalists.{315}Increases defence.
+Attack +76{315}Deals damage to all enemies.
+
+
+
+
+
+
+
+
+
+
+The flames that cloak the heavenly steed.{315}One ingredient in a recipe of a hundred.
+The tears shed by the Three-Headed Dragon.{315}One ingredient in a recipe of a hundred.
+A crystal filled with brilliant light.{315}One ingredient in a recipe of a hundred.
+A mysterious plate found in the Doubtback.
+A mysterious plate found in Iceolation.
+A mysterious plate found in Cragravation.
+A mysterious plate found in Unshore.
+A mysterious plate received from Leonyx.
+Attack +150{315}May lower enemy defense.
+Attack +85{315}Increases the chance of firing up.
+Attack +130
+Attack +12{315}May reveal enemy stats.
+Attack +130{315}May lower enemy tension.
+Attack +65{315}May dispel Break.
+Attack +120
+Attack +70{315}May lower enemy tension.
+Attack +100{315}Deals damage to all enemies.
+Attack +25{315}Deals damage to all enemies.{315}Makes critical spells more likely.
+Attack +130{315}Deals extra damage to dragons.
+Attack +55{315}Deals extra damage to enemies with metal bodies.
+Attack +110{315}May cast Disruptive Wave.
+Attack +35{315}Luck is increased when at low HP.
+A precious monster egg. Try offering it to the mysterious tree on Pipit Island!
+Increases the attack of all allies for 2-5 rounds.
+Increases the defense of all allies for 4-7 rounds.
+Increases the agility of all allies for 4-7 rounds.
+Increases the wisdom of all allies for 4-7 rounds.
+Reduces the attack of all enemies for 2-5 rounds.
+Reduces the defense of all enemies for 4-7 rounds.
+Reduces the agility of all enemies for 4-7 rounds.
+Reduces the wisdom of all enemies for 4-7 rounds.
+Revives all allies and restores health to the entire party.
+A scroll that bestows the 'Swordbreaker' skill.
+A scroll that bestows the 'Spellbreaker' skill.
+A scroll that bestows the 'Breathbreaker' skill.
+A scroll that bestows the 'Cleanser' skill.
+A book that bestows the 'Morrie's Melange' skill.
+A scroll that bestows the 'Battle Road Master' skill.
+
+
+A book that bestows the 'Metal Crusher' skill.
+A book that bestows the 'Zero Seal' skill.
+A book that bestows the 'Giant Killer' skill.
+
+

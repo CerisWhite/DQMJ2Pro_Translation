@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "GUI/**"
+      - "Database/GUI_Patcher/GUI/**"
       - "Pro_Tools/**"
       - "Translation/**"
       - "Database/**"
@@ -28,15 +28,15 @@ jobs:
       - name: Prepare bundled tools
         run: |
           Copy-Item Pro_Tools/blz_win.exe Pro_Tools/blz.exe
-          New-Item -ItemType Directory -Force GUI/bundled/tools/windows
-          Copy-Item Database/ndstool.exe GUI/bundled/tools/windows/ndstool.exe
-          Copy-Item Database/windows_dlls/*.dll GUI/bundled/tools/windows/ -ErrorAction SilentlyContinue
+          New-Item -ItemType Directory -Force Database/GUI_Patcher/GUI/bundled/tools/windows
+          Copy-Item Database/ndstool.exe Database/GUI_Patcher/GUI/bundled/tools/windows/ndstool.exe
+          Copy-Item Database/windows_dlls/*.dll Database/GUI_Patcher/GUI/bundled/tools/windows/ -ErrorAction SilentlyContinue
 
       - name: Prepare bundle
         run: |
           gcc Pro_Tools/blz_linux.c -O2 -o Pro_Tools/blz.exe
           chmod +x Pro_Tools/blz.exe
-          python GUI/make_bundle.py
+          python Database/GUI_Patcher/GUI/make_bundle.py
 
       - name: Build Windows exe
         run: |
@@ -48,8 +48,8 @@ jobs:
             --hidden-import json `
             --hidden-import csv `
             --hidden-import struct `
-            --add-data "GUI/bundled;bundled" `
-            GUI/patcher_gui.py
+            --add-data "Database/GUI_Patcher/GUI/bundled;bundled" `
+            Database/GUI_Patcher/GUI/patcher_gui.py
 
       - name: Upload Windows exe
         uses: actions/upload-artifact@v4
@@ -77,7 +77,7 @@ jobs:
         run: python -m pip install pyinstaller
 
       - name: Prepare bundle
-        run: python GUI/make_bundle.py
+        run: python Database/GUI_Patcher/GUI/make_bundle.py
 
       - name: Build Linux executable
         run: |
@@ -89,8 +89,8 @@ jobs:
             --hidden-import json \
             --hidden-import csv \
             --hidden-import struct \
-            --add-data "GUI/bundled:bundled" \
-            GUI/patcher_gui.py
+            --add-data "Database/GUI_Patcher/GUI/bundled:bundled" \
+            Database/GUI_Patcher/GUI/patcher_gui.py
 
       - name: Make AppImage
         run: |

@@ -1,0 +1,272 @@
+Physically attacks a single enemy.
+Any damage received by the defender is usually halved.
+Increases the user's tension level, raising the strength of most attacks. Can be used multiple times for added effect.
+
+
+
+
+
+Has a chance to deal colossal{315}Bang and Zap type slashing damage{315}to all enemies.{315}Becomes more powerful as the{315}monster level increases.
+Unleashes two fierce tornadoes that{315}deal colossal damage to all enemies.
+Deals extra slashing damage to{315}Demon, Undead, Material,{315}and ??? family enemies.
+Deals extra slashing damage to{315}Slime, Dragon, Nature,{315}and Beast family enemies.
+Deals massive Fire and Ice{315}breath damage to all enemies.
+Hurls giant boulders from the sky{315}that deal massive damage to all enemies.
+Deals massive Zap damage to 1 enemy.{315}Uses MP from the whole party.
+
+Singes a single enemy with a small fireball.
+Burns a single enemy with a large fireball.
+Incinerates a single enemy with a huge fireball.
+Cremates a single enemy with an enormous fireball.
+damage all enemies with a small explosion.
+Engulfs all enemies in a large explosion.
+Blasts all enemies with a massive explosion.
+Blasts all enemies with an incredibly violent explosion.
+Flays all enemies with a small whirlwind.
+Flays all enemies with a large whirlwind.
+Flays all enemies with a mighty whirlwind.
+Flays all enemies with a ferociously destructive whirlwind.
+Pierces a single enemy with sharp icicles.
+Strikes all enemies with sharp icicles.
+Rips into all enemies with a hail of razor-sharp icicles.
+Skewers all enemies with a barrage of razor-sharp icicles.
+Strikes a single enemy with holy lightning.
+Strikes a single enemy with hallowed lightning.
+Strikes a single enemy with sacred lightning.
+Strikes a single enemy with divine lightning.
+Strikes a single enemy with dark lightning.
+Strikes a single enemy with hellish lightning.
+Strikes a single enemy with abyssal lightning.
+Strikes a single enemy with stygian lightning.
+Prevents a single enemy from using Selflessness.
+Ignores Cover and other effects{315}to deal slashing damage to all enemies.
+If a monster uses any{315}battlefield-altering abilities,{315}sends them to the hereafter.{315}If none are used, targets the user instead.
+A spell that drains MP four times{315}from random enemies and adds it to its own MP.
+A cursed incantation that can send a single enemy to the hereafter.
+A cursed incantation that can send all enemies to the hereafter.
+Sacrifices caster's own life in an attempt to destroy all enemies.
+Restores around 30 HP to a single ally.
+Restores around 75 HP to a single ally.
+Restores around 350 HP to a single ally.
+Restores around 90 HP to all allies.
+Restores around 350 HP to all allies.
+Gives half the caster's MP to another ally.
+Gives all the caster's MP to another ally.
+Resurrects a fallen ally with half their maximum HP. Sometimes fails.
+Resurrects a fallen ally with half their maximum HP. Never fails.
+Sacrifices the caster's life to resurrect all allies.
+Cures a single ally of the effects{315}of poison.
+Cures all allies of the effects{315}of sleep and paralysis.
+Greatly increases the attack of a single ally for 2 to 5 turns.
+Increases the attack of all allies for 2 to 5 turns.
+Greatly decreases the attack of a single enemy for 2 to 5 turns.
+Decreases the attack of all enemies for 2 to 5 turns.
+Greatly increases the defence of a single ally for 4 to 7 turns.
+Increases the defence of all allies for 4 to 7 turns.
+Greatly decreases the defence of a single enemy for 4 to 7 turns.
+Decreases the defence of all enemies for 4 to 7 turns.
+Greatly increases the agility of a single ally for 4 to 7 turns.
+Increases the agility of all allies for 4 to 7 turns.
+Greatly decreases the agility of a single enemy for 4 to 7 turns.
+Decreases the agility of all enemies for 4 to 7 turns.
+Greatly increases the wisdom of a single ally for 4 to 7 turns.
+Increases the wisdom of all allies for 4 to 7 turns.
+Greatly decreases the wisdom of a single enemy for 4 to 7 turns.
+Decreases the wisdom of all enemies for 4 to 7 turns.
+Reduces the accuracy of all enemies' attacks.
+Puts a single enemy to sleep.
+Puts all enemies to sleep.
+Steals MP from a single enemy.
+Prevents a single enemy from using magic.
+Prevents all enemies from using magic.
+Forms a protective barrier that reflects the enemy's and team's spells alike.
+Sends a single enemy into confusion.
+Sends all enemies into confusion.
+Forms an impenetrable wall that nullifies all of the enemy's attacks, but the caster is unable to move for a short time.
+Protects all allies from fire and ice breath attacks.
+Greatly protects one ally from fire and ice breath attacks.
+Blows hot breath at all enemies.
+Blows fiery breath at all enemies.
+Blows blazing breath at all enemies.
+Blows scorching breath at all enemies.
+Blows cool breath at all enemies.
+Blows chilly breath at all enemies.
+Blows cold breath at all enemies.
+Blows f-f-freezing breath at all enemies.
+Unleashes all remaining MP at enemies in an extreme magical assault. The more MP the caster has, the more damage is dealt.
+Forms a barrier that reduces the effectiveness of foes' offensive spells.
+Decreases all enemies' resistance to offensive spells.
+Hones in on enemy's weakpoint and slices them with a fiery slash.
+Hones in on enemy's weakpoint and slices them with a blazing slash.
+Hones in on enemy's weakpoint and slices them with an explosive slash.
+Hones in on enemy's weakpoint and slices them with a devastatingly explosive slash.
+Hones in on enemy's weakpoint and slices them with a tailwind-inducing slash.
+Hones in on enemy's weakpoint and slices them with a howling wind slash.
+Hones in on enemy's weakpoint and slices them with a steaming slash.
+Hones in on enemy's weakpoint and slices them with a scalding slash.
+Hones in on enemy's weakpoint and slices them with a chilling slash.
+Hones in on enemy's weakpoint and slices them with a freezing slash.
+Hones in on enemy's weakpoint and slices them with a slash imbued with holy energy.
+Hones in on enemy's weakpoint and slices them with a most divine slash.
+Hones in on enemy's weakpoint and slices them with a slash infused with dark energy.
+Hones in on enemy's weakpoint and slices them with a hellishly dark slash.
+An attack that's sure to damage enemies with metal bodies.
+An attack that deals heavy damage to dragons.
+An attack that deals heavy damage to monsters from the ??? family.
+damage all enemies with a single slash.
+A mighty slash that deals Bang damage to a single enemy. Effectiveness increases with the user's level.
+A mighty slash that deals Bang damage to all enemies. Effectiveness increases with the user's level.
+A skull-splitting smash that lowers an enemy's defence.
+An unpredictable attack that can deal critical damage if it connects.
+A technique that can sometimes fell an enemy with a single blow.
+Deals massive damage to an enemy, but attacker takes some damage too.
+An attack that deals damage to the target and can cause them to miss a turn.
+An attack that can steal gold coins as it inflicts damage.
+An attack that can steal an item as it inflicts damage.
+An attack that can poison its target as it inflicts damage.
+An attack that can envenomate its target as it inflicts damage.
+An attack that can paralyse its target as it inflicts damage.
+An attack that can put its target to sleep as it inflicts damage.
+An attack that can confuse its target as it inflicts damage.
+An attack that can decrease the target's attack power as it inflicts damage.
+An attack that can decrease the target's agility as it inflicts damage.
+An attack that can decrease the target's wisdom as it inflicts damage.
+An attack that can stop the target from using breath attacks as it inflicts damage.
+An attack that can stop the target performing dancing attacks as it inflicts damage.
+An attack that can decrease the target's accuracy as it inflicts damage.
+Hurls a rock at a single enemy.
+Splits the earth, piercing all enemies with deadly rocks.
+Sprays a jet of water at a single enemy.
+Blasts all enemies with a powerful jet of water.
+Strikes a single enemy with lightning.
+Strikes all enemies with powerful lightning.
+Lightly flambés a single enemy.
+Badly chars all enemies.
+Hurls jagged rocks at all enemies.
+Overwhelms all enemies with a devastating deluge.
+Strikes all enemies with devastating lightning bolts.
+Consumes all enemies in a towering inferno.
+Poise to strike an enemy with a counter-attack. Can counter almost any attack.
+A defensive ability that greatly reduces damage taken.
+Deals extra-large damage while greatly reducing the user's defence for one turn.
+Reduces both the target and the user's HP to 1.
+Deals heavy damage to the target and the user.
+A fragrant sigh that puts all enemies to sleep.
+A blistering burp that can paralyse all enemies.
+A toxic cloud that can poison all enemies.
+A deadly haze that can envenomate all enemies.
+A boisterous belch that can confuse all enemies.
+A dance that can decrease a single enemy's MP.
+A dance that can steal MP from a single enemy.
+A dance that can confuse all enemies.
+A dance that can send all enemies to the hereafter.
+A dance that can entice a single enemy to start dancing.
+Resurrects all allies at the cost of the dancer's own life.
+A dance that restores around 70 HP to all allies.
+Prepares one dancer in your team to make evasive manoeuvres.
+Kicks sand in the eyes of all enemies, reducing their accuracy.
+Emits a glaring light that reduces all enemies' accuracy.
+Reduces all enemies' resistance to magic.
+Removes most ailments from all allies.
+Impairs the attributes of a single enemy.
+Removes almost all magical effects from all enemies.
+Increases the attack power of your next breath attack.
+A lengthy licking that reduces the target's defence to 1, and can also leave them stunned.
+A hideous battle cry that paralyses all enemies with fear.
+Prevents all enemies from dancing.
+Prevents a single enemy from using breath attacks.
+Whips up a storm that will blow back the next breath attack.
+Causes a fog to descend that blocks a single attack of almost any kind.
+Absorbs damage from breath attacks, then sends it back at the enemy.
+Restores around 400 HP to the user.
+A song that has a 50% chance of reviving all allies on the next turn.
+A revitalising shower that heals all allies on the next turn.
+Prevents an enemy from landing critical hits.
+Restores some HP after each action for a short time.
+A lightning-fast strike that allows its user to attack first.
+A martial skill that can counter{315}all slash attacks when an enemy uses them.
+A martial skill that can counter{315}all physical skills when an enemy uses them.
+A martial skill that can reflect{315}all spells when an enemy uses them.
+A martial skill that can reflect{315}all breath attacks when an enemy uses them.
+A martial skill that can reflect{315}all dance attacks when an enemy uses them.
+Consumes all allies MP{315}to deal massive magic damage to all enemies.{315}The effect increases as more MP is used.
+A martial skill that prevents{315}all enemies from using disruption abilities.
+Transfers the current user's tension{315}to one of its allies.
+The user will act last, but deal{315}increased slashing damage to the target.
+A dance that will cause the user{315}to perish after several rounds, but{315}takes a target of the same size with them.
+Discerns enemy weaknesses and deals{315}heavy Woosh-type slash damage to all enemies.
+Discerns enemy weaknesses and deals{315}heavy Crack-type slash damage to all enemies.
+Discerns enemy weaknesses and deals{315}heavy Sizz-type slash damage to all enemies.
+Unleashes 4-12 consecutive slash attacks at random.
+
+A dastardly dance that deals damage in an undetermined direction.
+Deals weaker slash damage,{315}but reveals the ennemy stats.
+
+
+
+
+
+
+A physical skill that grants the user{315}a second action at the start of the next round.{315}Remaining actions are not lost{315}even if orders are given.
+
+
+
+
+
+
+
+Launches a critical hit towards a friend or a foe at random.
+Protects a single ally from all attacks by taking damage in their place.
+Removes almost all magical effects from all enemies. Allies and enemies will not be able to use magic for a short time afterwards.
+Reveals information about an enemy's attributes.
+Prevents a single enemy from using certain abilities.
+Sets an ally up to be resurrected should they fall during battle.
+Cancels all other actions during the turn after the user's move. It can only be used once in a battle.
+Forces one foe to use the same tactic over and over.
+Prevents a single enemy from using certain slash attacks.
+Causes monsters with the lowest agility to move first in battle.
+A breath skill that locks the tactics of all enemies,{315}preventing them from being changed.
+A breath skill that seals all enemies' slash attacks.
+A breath skill that seals all enemies' physical skills.
+A dance that deals 3 to 7 hits{315}at random.
+A physical skill that turns{315}HP and MP recovery into damage instead.{315}Affects both enemies and allies.
+Singes all enemies with a blazing fire.
+Burns all enemies with a blazing wall of fire.
+Incinerates all enemies with a blazing wall of flame.
+Cremates all enemies with blazing hellfire.
+Smites all enemies with divinely powerful holy light.
+Deals damage to the enemy, then heals the user for half the amount.
+Deals extra damage to slimes.
+Deals extra damage to naturalists.
+Deals extra damage to beasts.
+Deals extra damage to materialists.
+Deals extra damage to demons.
+Deals extra damage to the undead.
+Attacks the enemy at random with four weak strikes.
+Blasts all enemies with a malevolent wave of dark energy.
+Cures all allies of the effects of confusion.
+Restores a small amount of the caster's MP.
+Greatly reduces the MP of a single enemy.
+Cuts up a single enemy in a vortex.
+Slices up all enemies in a vortex.
+Tears all enemies to shreds in a vortex.
+A spell that chains together action turns,{315}allowing consecutive attacks.
+Reduces a single enemy's HP by 1/4.
+Reduces all enemy's HP by 1/6.
+A violent disturbance in the world's natural equilibrium deals ferocious damage to a single enemy.
+Use skill
+Configure AI skill use in battle.
+
+
+
+Help 1
+Help 2
+
+
+
+
+
+
+
+
+

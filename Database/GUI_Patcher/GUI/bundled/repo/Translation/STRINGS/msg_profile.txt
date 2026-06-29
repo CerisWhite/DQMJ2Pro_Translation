@@ -1,0 +1,552 @@
+Profile Settings
+Change Name
+Set Region
+Finish Settings
+Select Region
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You can change your display name.{315}If you enter an inappropriate name,{315}you cannot use Wi-Fi communications.{315}If your name is inappropriate,{315}please change it before playing.
+Set your region / country.{315}It appears in Tag Mode Battles,{315}Wireless Battles and Wi-Fi communications.
+Confirm your changes and save.
+
+
+Select your region.
+Select your country.
+Select your area.
+Select your region.
+Region set to {30b}{00}.
+
+
+
+
+
+
+Asia
+Europe / CIS
+Middle East
+North America
+Latin America
+Africa
+Oceania
+Hokkaido/Tohoku
+Kanto
+Koshinetsu
+Hokuriku
+Tokai
+Kinki
+Chugoku
+Shikoku
+Kyushu/Okinawa
+Region
+Unregistered
+Hokkaido
+Aomori
+Iwate
+Miyagi
+Akita
+Yamagata
+Fukushima
+Ibaraki
+Tochigi
+Gunma
+Saitama
+Chiba
+Tokyo
+Kanagawa
+Niigata
+Yamanashi
+Nagano
+Toyama
+Ishikawa
+Fukui
+Gifu
+Shizuoka
+Aichi
+Mie
+Shiga
+Kyoto
+Osaka
+Hyogo
+Nara
+Wakayama
+Tottori
+Shimane
+Okayama
+Hiroshima
+Yamaguchi
+Tokushima
+Kagawa
+Ehime
+Kochi
+Fukuoka
+Saga
+Nagasaki
+Kumamoto
+Oita
+Miyazaki
+Kagoshima
+Okinawa
+IND
+IDN
+KHM
+SGP
+LKA
+THA
+KOR
+CHN
+PRK
+NPL
+PAK
+BGD
+TLS
+PHL
+BTN
+BRN
+VNM
+MYS
+MMR
+MDV
+MNG
+LAO
+ISL
+IRL
+AZE
+ALB
+ARM
+AND
+ITA
+UKR
+UZB
+GBR
+EST
+AUT
+NLD
+KAZ
+CYP
+GRC
+KGZ
+GEO
+HRV
+SMR
+CHE
+SWE
+ESP
+SVK
+SVN
+SRB
+TJK
+CZE
+DNK
+DEU
+TKM
+NOR
+HUN
+FIN
+FRA
+BGR
+BLR
+BEL
+POL
+BIH
+PRT
+MKD
+MLT
+MCO
+MDA
+MNE
+LVA
+LTU
+LIE
+ROU
+LUX
+RUS
+AFG
+ARE
+YEM
+ISR
+IRQ
+IRN
+OMN
+QAT
+KWT
+SAU
+SYR
+TUR
+BHR
+JOR
+LBN
+USA
+CAN
+ARG
+ATG
+URY
+ECU
+SLV
+GUY
+CUB
+GTM
+GRD
+CRI
+COL
+JAM
+SUR
+KNA
+VCT
+LCA
+CHL
+DMA
+DOM
+TTO
+NIC
+HTI
+PAN
+BHS
+PRY
+BRB
+BRA
+VEN
+BLZ
+PER
+BOL
+HND
+MEX
+DZA
+AGO
+UGA
+EGY
+ETH
+ERI
+GHA
+CPV
+GAB
+CMR
+GMB
+GIN
+GNB
+KEN
+CIV
+COM
+COG
+COD
+STP
+ZMB
+SLE
+DJI
+ZWE
+SDN
+SWZ
+SYC
+GNQ
+SEN
+SOM
+TZA
+TCD
+CAF
+TUN
+TGO
+NGA
+NAM
+NER
+BFA
+BDI
+BEN
+BWA
+MDG
+MWI
+MLI
+ZAF
+MUS
+MRT
+MOZ
+MAR
+LBY
+LBR
+RWA
+LSO
+AUS
+KIR
+WSM
+SLB
+TUV
+TON
+NRU
+NZL
+VUT
+PNG
+PLW
+FJI
+MHL
+FSM
+JPN
+Select an Asian country.
+Select a Europe/CIS country.
+Select a Middle East country.
+Select a North American country.
+Select a Latin American country.
+Select an African country.
+Select an Oceanian country.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Set region to India.
+Set region to Indonesia.
+Set region to Cambodia.
+Set region to Singapore.
+Set region to Sri Lanka.
+Set region to Thailand.
+Set region to South Korea.
+Set region to China.
+Set region to North Korea.
+Set region to Nepal.
+Set region to Pakistan.
+Set region to Bangladesh.
+Set region to East Timor.
+Set region to Philippines.
+Set region to Bhutan.
+Set region to Brunei.
+Set region to Vietnam.
+Set region to Malaysia.
+Set region to Myanmar.
+Set region to{315}the Maldives.
+Set region to Mongolia.
+Set region to Laos.
+Set region to Iceland.
+Set region to Ireland.
+Set region to Azerbaijan.
+Set region to Albania.
+Set region to Armenia.
+Set region to Andorra.
+Set region to Italy.
+Set region to Ukraine.
+Set region to Uzbekistan.
+Set region to the{315}United Kingdom.
+Set region to Estonia.
+Set region to Austria.
+Set region to the Netherlands.
+Set region to Kazakhstan.
+Set region to Cyprus.
+Set region to Greece.
+Set region to Kyrgyzstan.
+Set region to Georgia.
+Set region to Croatia.
+Set region to San Marino.
+Set region to Switzerland.
+Set region to Sweden.
+Set region to Spain.
+Set region to Slovakia.
+Set region to Slovenia.
+Set region to Serbia.
+Set region to Tajikistan.
+Set region to the{315}Czech Republic.
+Set region to Denmark.
+Set region to Germany.
+Set region to Turkmenistan.
+Set region to Norway.
+Set region to Hungary.
+Set region to Finland.
+Set region to France.
+Set region to Bulgaria.
+Set region to Belarus.
+Set region to Belgium.
+Set region to Poland.
+Set region to{315}Bosnia-Herzegovina.
+Set region to Portugal.
+Set region to Macedonia.
+Set region to Malta.
+Set region to Monaco.
+Set region to Moldova.
+Set region to Montenegro.
+Set region to Latvia.
+Set region to Lithuania.
+Set region to{315}Liechtenstein.
+Set region to Romania.
+Set region to Luxembourg.
+Set region to Russia.
+Set region to Afghanistan.
+Set region to the{315}United Arab Emirates.
+Set region to Yemen.
+Set region to Israel.
+Set region to Iraq.
+Set region to Iran.
+Set region to Oman.
+Set region to Qatar.
+Set region to Kuwait.
+Set region to Saudi Arabia.
+Set region to Syria.
+Set region to Turkey.
+Set region to Bahrain.
+Set region to Jordan.
+Set region to Lebanon.
+Set region to the{315}United States.
+Set region to Canada.
+Set region to Argentina.
+Set region to{315}Antigua/Barbuda.
+Set region to Uruguay.
+Set region to Ecuador.
+Set region to El Salvador.
+Set region to Guyana.
+Set region to Cuba.
+Set region to Guatemala.
+Set region to Grenada.
+Set region to Costa Rica.
+Set region to Colombia.
+Set region to Jamaica.
+Set region to Suriname.
+Set region to{315}St Kitts/Nevis.
+Set region to{315}St Vincent/Grenadines.
+Set region to St Lucia.
+Set region to Chile.
+Set region to Dominica.
+Set region to the{315}Dominican Republic.
+Set region to{315}Trinidad/Tobago.
+Set region to Nicaragua.
+Set region to Haiti.
+Set region to Panama.
+Set region to Bahamas.
+Set region to Paraguay.
+Set region to Barbados.
+Set region to Brazil.
+Set region to Venezuela.
+Set region to Belize.
+Set region to Peru.
+Set region to Bolivia.
+Set region to Honduras.
+Set region to Mexico.
+Set region to Algeria.
+Set region to Angola.
+Set region to Uganda.
+Set region to Egypt.
+Set region to Ethiopia.
+Set region to Eritrea.
+Set region to Ghana.
+Set region to Cape Verde.
+Set region to Gabon.
+Set region to Cameroon.
+Set region to Gambia.
+Set region to Guinea.
+Set region to Guinea-Bissau.
+Set region to Kenya.
+Set region to{315}Cote d'Ivoire.
+Set region to Comoros.
+Set region to Congo.
+Set region to the{315}DR Congo.
+Set region to{315}Sao Tome/Principe.
+Set region to Zambia.
+Set region to Sierra Leone.
+Set region to Djibouti.
+Set region to Zimbabwe.
+Set region to Sudan.
+Set region to Swaziland.
+Set region to Seychelles.
+Set region to{315}Equatorial Guinea.
+Set region to Senegal.
+Set region to Somalia.
+Set region to Tanzania.
+Set region to Chad.
+Set region to{315}Central Africa.
+Set region to Tunisia.
+Set region to Togo.
+Set region to Nigeria.
+Set region to Namibia.
+Set region to Niger.
+Set region to{315}Burkina Faso.
+Set region to Burundi.
+Set region to Benin.
+Set region to Botswana.
+Set region to Madagascar.
+Set region to Malawi.
+Set region to Mali.
+Set region to South Africa.
+Set region to Mauritius.
+Set region to Mauritania.
+Set region to Mozambique.
+Set region to Morocco.
+Set region to Libya.
+Set region to Liberia.
+Set region to Rwanda.
+Set region to Lesotho.
+Set region to Australia.
+Set region to Kiribati.
+Set region to Samoa.
+Set region to the{315}Solomon Islands.
+Set region to Tuvalu.
+Set region to Tonga.
+Set region to Nauru.
+Set region to New Zealand.
+Set region to Vanuatu.
+Set region to{315}Papua New Guinea.
+Set region to Palau.
+Set region to Fiji.
+Set region to the{315}Marshall Islands.
+Set region to Micronesia.
+Set region to Japan.

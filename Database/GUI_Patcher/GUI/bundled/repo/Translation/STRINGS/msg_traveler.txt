@@ -1,0 +1,118 @@
+????????
+Professionals
+Your Team
+Healing Your Monsters
+Party Rank
+Zoom
+Saving
+Items and Weapons
+Monster Championship
+Tag Mode Battles
+Monster Trading
+Guest Monsters
+The 'Guest' Mark
+Scouting
+Successful Scouting
+Substitute Monsters
+Switching in Battle
+Healing Spots
+Mighty Monsters
+Giant Monsters
+Skill Allocation
+Item Vendor
+Gold Bank ATM
+Favorite Teams
+Virtual Battle
+Weather
+Monster Families 1
+Monster Families 2
+Synthesis
+How to Synthesise
+Inheriting Skills
+Levelling Up Limits
+How to Evolve Synthesis
+Heal All
+Monster Mender
+Memo 1
+Memo 2
+Memo 3
+Memo 4
+Memo 5
+Memo 6
+Memo 7
+Memo 8
+Memo 9
+Memo 10
+Memo 11
+Memo 12
+Memo 13
+
+
+32
+????????
+Professionals are fearless souls{315}who bend monsters to their will.{315}{315}A scout that masters the art,{315}will be able to command even the monsters{315}who threaten the world.
+Monsters are your most stalwart allies{315}and bravely do battle alongside you.{315}You can battle with up to three monsters{315}in your active team at a time. It's{315}possible to scout and keep up to 100{315}monsters at once.
+Bring injured monsters back to the{315}Albatross and they will make a full{315}recovery.{315}Defeated monsters will be brought{315}back to life. You can use items in battle{315}to support your monsters and help them{315}recover HP and MP.
+Party Rank is determined by the{315}stats of your monsters, such as HP and{315}Attack. Certain skills and traits also{315}influence the rank.{315}{315}Rank is displayed as stars above{315}your team.
+Zoom is a skill used by the hero to{315}travel instantaneously to regions he{315}has visited before.{315}Zoom can even be used inside caves,{315}but there are some areas where it{315}does not work.
+You can save your game at almost any{315}time or point during the adventure.{315}However, there are a small number of{315}scenes where you cannot save.
+Press the Y Button to read up on item{315}effects. There are items the hero can{315}use while travelling and those he can{315}use during battle.{315}Weapons, are equipped by monsters.{315}They serve mostly to boost attack power.
+The ultimate monster scout tournament{315}takes place via Nintendo WFC.{315}Participants from all over the world are{315}ranked after daily Home and Away Bouts.
+Use wireless to battle players{315}you pass by.{315}Foes can be saved as memory battles{315}and sent to others.{315}{315}Note that monsters of rank S or higher{315}cannot be scouted.
+You can trade monsters raised by{315}other players or in DQM Joker 2{315}using wireless communication.{315}{315}Only rank A or lower monsters can be{315}traded with DQM Joker 2,{315}and their level becomes 1.
+Monsters scouted in Tag Mode Battles{315}are guest monsters, and get a{315}'Guest' mark by their name.{315}You can add them to your team{315}and use them in Tag Mode Battles,{315}but not in the Wi-Fi{315}Ultimate Master Cup.
+When the 'Guest' mark leaves the{315}family tree, it leaves the monster too.{315}So keep synthesising it with monsters{315}that have no 'Guest' mark, and it will{315}eventually become yours.{315}{315}Once the mark is gone, it can join{315}the Wi-Fi Ultimate Master Cup.
+Select 'Scout' in battle and your{315}monsters will use a scout attack{315}to win over the enemy monster.{315}{315}You can try scouting until the foe{315}gets angry.
+The number shown during a scout attack{315}is your chance of success.{315}The higher it is, the easier the monster{315}is to win over.{315}It is said that weakening the foe{315}near defeat raises your chances.{315}If the number stays low,{315}level up and try again.
+The three monsters shown on the right{315}in 'Switch' are standby monsters.{315}They travel with you as reserves,{315}separate from your active team.
+During battle, press Y to switch{315}active and standby monsters.{315}{315}Rest hurt monsters and use your{315}standby team well. It can make battles{315}much easier. Try different tactics.
+Blue glowing stone pillars are{315}healing spots. They fully restore{315}your team's HP and MP, and revive{315}defeated monsters.{315}{315}After using one, leave the area{315}to make it usable again.
+Some monsters, like Bantamweight,{315}are far larger than normal.{315}New masters likely cannot match{315}their overwhelming strength.{315}{315}If you encounter one,{315}running away is also an option.
+Giant monsters beyond imagination{315}live on this island.{315}Fighting them normally{315}would likely end badly.{315}{315}When your power grows,{315}you may challenge them someday,{315}but stay away for now.
+Assign skill points gained from{315}levelling up to skills{315}to learn new abilities and traits.
+Buy and sell items and weapons.{315}There may be ways to increase{315}the shop selection...?
+You can deposit your gold here.{315}If your party is wiped out,{315}carried gold is cut in half,{315}but deposited gold stays safe.
+Favorite Teams let you save{315}monster groups you like.{315}Saved members can be swapped{315}into your party or standby.{315}Registering teams for Wireless,{315}Wi-Fi or Tag Mode is useful.
+Virtual Battle lets you freely{315}battle using your own monsters.{315}{315}Enemy and ally settings{315}can be changed freely,{315}letting you study patterns{315}or test your monsters.
+When you enter a cleared area,{315}the weather may have changed,{315}altering the area too.{315}{315}Weather may change each time{315}you enter the world map.
+Monsters are split into 8 families:{315}Slime, Dragon, Nature, Beast,{315}Material, Demon, Undead and ???.{315}{315}Each family has a trigger that may{315}raise its tension in battle.
+For example, Slimes may tense up{315}when weakened by Sap or similar skills.{315}Undead may tense up when someone{315}falls in battle.{315}{315}Try to discover each family trigger{315}for yourself.
+Synthesis is a miracle art that{315}combines 2 monsters into a new one.{315}{315}The 2 used monsters are parents,{315}and the new monster is their child.{315}Children can surpass their parents,{315}so synthesise often.
+To synthesise, you need {231} and {232}{315}monsters to be the child's parents.{315}They can be parents above level 10.{315}{315}Monsters grow stronger as their rank{315}rises from F to A.{315}Synthesise higher-rank monsters.
+A synthesised monster can usually{315}inherit up to 3 parent skills.{315}{315}It also inherits half the parents'{315}skill points.{315}Assigned or not, all skill points{315}are halved and passed on.
+A monster's growth limit is level 50.{315}Repeated synthesis and high-level parents{315}can produce monsters that grow further.
+Evolve synthesis creates Strong{315}or Strongest monsters.{315}Fuse a rank F, E or D monster{315}at level 20+ with the same species{315}to make a Strong monster.{315}Fuse a rank C, B or A monster{315}at level 50+ with the same species{315}to make a Strongest monster.
+Uses monster skills to restore{315}all allies' HP to full.{315}If MP runs out midway,{315}healing stops there.
+Fully restores your monsters' HP and MP.{315}You can use it up to 3 times while out.{315}Return to the airship to recharge it.
+Scout Q level 1 asks you to bring{315}a monster with Heckling Hector!{315}{315}Boppin' badger and Armoured wartoise{315}have this trait!
+Scout Q level 2 asks you to bring{315}2 Dragon family monsters!{315}{315}Set 2 Dragons in your party{315}and talk to me!{315}Komodo, Dragonthorn and{315}Drag racer are Dragons!
+Scout Q level 3 asks you to bring{315}any monster with a Guest mark!{315}{315}Bring one from Tag Mode{315}or downloads to clear it!{315}{315}Any monster works!
+Scout Q level 4 asks you to bring{315}Insta-Buff and Rando-Buff!{315}{315}One monster may have both,{315}or two monsters one each!{315}Army ant and Axecutioner{315}have these traits!
+Scout Q level 5 asks you to bring{315}Spell Critical Booster!{315}{315}Swingin' Hipster and Damned Ram{315}have this trait!
+Scout Q level 6 asks you to bring{315}any Strong monster!{315}{315}Raise an F-D monster above 20{315}and synthesise it with the same monster{315}to create a Strong monster!{315}The other parent only needs level 10!
+Scout Q level 7 asks you to bring{315}a Lucky monster!{315}{315}I think one with that trait{315}was on the coast!
+Scout Q level 8 asks you to bring{315}Sleep Suppressor+!{315}{315}Give a monster Sleep Suppressor{315}or Nightmare, then spend enough{315}skill points to learn{315}Sleep Suppressor+!
+Scout Q level 9 asks you to bring{315}Static Discharge!{315}{315}Corrupt carter and Killing machine{315}have this trait!
+Scout Q level 10 asks you to bring{315}a rank ☆6+ party!{315}{315}Set a ☆6+ party and talk to me!{315}Check party rank in the{315}main menu with X!
+Scout Q level 11 asks you to bring{315}a Big bully monster!{315}{315}Baalzack and Strong jargon{315}have this trait!
+Scout Q level 12 asks you to bring{315}a Metal medley monster!{315}{315}Strong headhunter and{315}Strongest mecha-mynah{315}have this trait!
+Scout Q level 13 asks you to bring{315}a rank ☆7+ party!{315}{315}Set a ☆7+ party and talk to me!{315}Check party rank in the{315}main menu with X!
+
+
+
+{30b}{00}.{30b}D{30b}T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

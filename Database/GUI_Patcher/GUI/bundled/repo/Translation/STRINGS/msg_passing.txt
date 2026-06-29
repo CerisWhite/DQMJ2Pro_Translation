@@ -1,0 +1,380 @@
+Tag Mode Battles
+Search for Opponent
+Memorable Match-Ups
+Edit Members
+Return to Game
+
+
+Memorable Match-Ups
+Scouted / Sent 
+---　/　---
+--------
+Yes / Yes
+Yes / If Win
+-
+Done / Yes
+Done / If Win
+Battle Now
+Battle Later
+Delete
+
+No / Yes
+No / If Win
+Battle
+View Status
+Delete
+
+Use Party
+From Monster Pen
+From Favorites
+Send
+Don't Send
+Baffling Bandits
+Terry
+Tara and Cobi
+Search for opponents via Tag Mode.
+View Tag Mode opponents' data{315}and battle them again.{315}You can scout one monster{315}from each registered opponent!
+Edit the party used{315}for Tag Mode Battles.
+Quit Tag Mode and return{315}to the game screen.
+
+
+Battle with this opponent.{315}You may be able to scout monsters.
+Save this opponent to{315}your Memorable Match-Ups.
+Delete this opponent{315}without battling.
+
+
+
+Do battle against this opponent again.{315}Remember, you can only scout{315}one monster from each opponent.
+Win the battle to view{315}the status of monsters{315}used by your opponent.
+Delete this opponent from{315}your Memorable Match-Ups.
+
+
+Use the main party set{315}in the field for Tag Mode.
+Set the party used for{315}Tag Mode Battles from Edit Members.
+Set the party used for Tag Mode{315}from Favorite Members.{315}You can also edit Favourite Members.
+
+Activate Tag Mode?
+Searching for an opponent.{315}You may close the DS system.{315}Press B to end Tag Mode.
+Choose what to do with{315}each opponent you encountered.
+{322} opponents found!{315}Press B to leave Tag Mode.
+{322} has issued a challenge!
+DQM Joker 2's {322}{315}has issued a challenge!
+
+Congratulations on a fine victory!
+Congratulations on {322} wins!{315}Please claim your prize.
+Ah! The bitter taste of defeat.
+Scouting successful!{315}Monsters scouted in Memorable Match-Ups{315}are treated as guests.{315}For details, consult Guest Monsters{315}in the Scout's Handbook.
+Ah! It got away.
+Next, aim for {322} wins!
+More special prizes await.{315}Aim for the top!
+Save this opponent to{315}your Memorable Match-Ups?
+{322} has been saved to{315}your Memorable Match-Ups!
+You cannot save more opponents.{315}Please select some to delete.
+Delete {322} from{315}your Memorable Match-Ups?
+Do not save {322}{315}to your Memorable Match-Ups?
+{322} has not been saved{315}to your Memorable Match-Ups.
+Legendary Master Terry{315}has issued a challenge!
+Legendary Masters Luca and Iru{315}have issued a challenge!
+The Baffling Bandits{315}has issued a challenge!
+You defeated Legendary Master Terry!
+You defeated Tara and Cobi!
+You defeated the Baffling Bandits!
+Delete {322}{315}without battling?
+{322} has been deleted.
+Do battle with {322}?
+{322} has been removed from{315}your Memorable Match-Ups.
+Set party members for{315}Tag Mode Battles.
+Disconnecting from DS Wireless.
+
+
+Your team may contain bad data.{315}Please change your monsters.
+Battle against {322}!
+Battle against {322}!
+Press any button to start battle!
+Terry's {322} wants to join you.{315}Let it join?
+Tara and Cobi's {322} wants to join.{315}Let it join?
+Baffling Bandits's {322} wants to join.{315}Let it join?
+{322} joined the party!
+{322} left sadly...
+You defeated {322}!
+You defeated DQM Joker 2's{315}{322}!
+{324} wants to join you.{315}Let it join?
+
+Data was sent from{315}DQM Joker 2!
+{322}'s{315}library has opened!
+This cannot be used until{315}Favorite Teams in the pen{315}are available.
+You can send one party saved in{315}Memorable Match-Ups with yours.{315}Send one too?
+Choose a party to send with yours{315}from Memorable Match-Ups.
+Send {322}'s party{315}with yours.
+You cannot send a party{315}you have not beaten.
+Use wireless without sending{315}a Memorable Match-Ups party?
+Sanguini seems to have found something.
+Tag Mode
+Start Sending
+Victories
+Times
+Scouts
+Wins
+Losses
+Play Time
+Monster Comp.
+%
+The Baffling Bandits have appeared!
+Legendary Scout{315}Terry has appeared!
+Legendary Scouts{315}Tara and Cobi have appeared!
+Encountered {324}'s team{315}from {322}!
+A challenge from{315}{322}!
+DQM Joker 2's{315}{322} team appeared!
+You are visitor No.{322}
+Received Scout History
+Encountered {324}{315}from an unset region!
+Party
+Rank:
+☆1
+☆2
+☆3
+☆4
+☆5
+☆6
+☆7
+☆PRO
+(Unregistered)
+Hokkaido
+Aomori
+Iwate
+Miyagi
+Akita
+Yamagata
+Fukushima
+Ibaraki
+Tochigi
+Gunma
+Saitama
+Chiba
+Tokyo
+Kanagawa
+Niigata
+Yamanashi
+Nagano
+Toyama
+Ishikawa
+Fukui
+Gifu
+Shizuoka
+Aichi
+Mie
+Shiga
+Kyoto
+Osaka
+Hyogo
+Nara
+Wakayama
+Tottori
+Shimane
+Okayama
+Hiroshima
+Yamaguchi
+Tokushima
+Kagawa
+Ehime
+Kochi
+Fukuoka
+Saga
+Nagasaki
+Kumamoto
+Oita
+Miyazaki
+Kagoshima
+Okinawa
+IND
+IDN
+KHM
+SGP
+LKA
+THA
+KOR
+CHN
+PRK
+NPL
+PAK
+BGD
+TLS
+PHL
+BTN
+BRN
+VNM
+MYS
+MMR
+MDV
+MNG
+LAO
+ISL
+IRL
+AZE
+ALB
+ARM
+AND
+ITA
+UKR
+UZB
+GBR
+EST
+AUT
+NLD
+KAZ
+CYP
+GRC
+KGZ
+GEO
+HRV
+SMR
+CHE
+SWE
+ESP
+SVK
+SVN
+SRB
+TJK
+CZE
+DNK
+DEU
+TKM
+NOR
+HUN
+FIN
+FRA
+BGR
+BLR
+BEL
+POL
+BIH
+PRT
+MKD
+MLT
+MCO
+MDA
+MNE
+LVA
+LTU
+LIE
+ROU
+LUX
+RUS
+AFG
+ARE
+YEM
+ISR
+IRQ
+IRN
+OMN
+QAT
+KWT
+SAU
+SYR
+TUR
+BHR
+JOR
+LBN
+USA
+CAN
+ARG
+ATG
+URY
+ECU
+SLV
+GUY
+CUB
+GTM
+GRD
+CRI
+COL
+JAM
+SUR
+KNA
+VCT
+LCA
+CHL
+DMA
+DOM
+TTO
+NIC
+HTI
+PAN
+BHS
+PRY
+BRB
+BRA
+VEN
+BLZ
+PER
+BOL
+HND
+MEX
+DZA
+AGO
+UGA
+EGY
+ETH
+ERI
+GHA
+CPV
+GAB
+CMR
+GMB
+GIN
+GNB
+KEN
+CIV
+COM
+COG
+COD
+STP
+ZMB
+SLE
+DJI
+ZWE
+SDN
+SWZ
+SYC
+GNQ
+SEN
+SOM
+TZA
+TCD
+CAF
+TUN
+TGO
+NGA
+NAM
+NER
+BFA
+BDI
+BEN
+BWA
+MDG
+MWI
+MLI
+ZAF
+MUS
+MRT
+MOZ
+MAR
+LBY
+LBR
+RWA
+LSO
+AUS
+KIR
+WSM
+SLB
+TUV
+TON
+NRU
+NZL
+VUT
+PNG
+PLW
+FJI
+MHL
+FSM
+JPN

@@ -1,0 +1,391 @@
+DS Wireless Play
+Battle
+Monster Exchange
+Battle nearby opponents via DS Wireless Communications.
+Trade monsters with nearby players via DS Wireless Communications.
+Battle Rules
+Head-To-Head Battle
+Tournament
+Play As Host
+Play As Guest
+--------
+--------
+--------
+
+Battle against a single opponent in this mode.
+Compete against up to seven opponents in this mode.
+Become the host and invite players to challenge you in battle.
+Search for a host and request to do battle with them as a guest.
+Challenge the selected opponent to a battle.
+
+Rules
+Standard Rules
+SQUARE ENIX Rules
+Custom Rules
+Quit Battle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Begin Battle
+Team Setup
+Check Rules
+
+Switch Monsters
+Change Equipment
+Change Tactics
+Length
+Orders
+Switch Monsters
+Same Type
+Turn Time
+Confirm Settings
+RANK
+
+No Limit
+5 Turns
+10 Turns
+On
+Off
+
+
+All OK
+Same Family OK
+Same Family Prohibited
+No Limit
+15 Seconds
+30 Seconds
+
+Unrestricted Class
+F-D RANK Class
+C-A RANK Class
+S/SS RANK Class
+Choose from Pen
+Choose from Favorites
+Free
+Once Only
+Prohibited
+Battle using standard rules.
+Play using official SQUARE ENIX rules.
+Customise battle rules to your liking.
+Quit head-to-head battle.
+
+
+
+
+
+
+You cannot use this{315}until you are able to{315}form favorite parties in the Pen.
+
+
+
+
+Select the number of turns the battle will last.
+Select whether or not orders can be issued to monsters.
+Select whether or not monsters can be switched around during battle.
+
+Select the number of rounds{315}until the battle ends.
+Select whether{315}commands can be given.
+Select whether{315}switching can be done.
+Select whether to limit{315}the monsters allowed in battle.
+Select the time limit for entering commands.
+Battle with these rules.
+The battle ends when one team is wiped out.
+End battle after 5 turns.
+End battle after 10 turns.
+Enables players to give orders to monsters during battle.
+Monsters will fight using selected tactics.
+
+
+Allows players to have two or more monsters of the same family on their team.
+Monsters of the same family{315}can be used.{315}However, monsters of the same{315}species cannot be used.
+Prevents players from having two or more monsters of the same family on their team.
+Sets no time limit for issuing commands during battle.
+Sets a time limit of 15 seconds for issuing commands during battle.
+Sets a time limit of 30 seconds for issuing commands during battle.
+All monsters can{315}participate.
+Battle with F-D RANK monsters.{315}Monsters of other RANKS{315}cannot participate.
+Battle with C-A RANK monsters.{315}Monsters of other RANKS{315}cannot participate.
+Battle with S-SS RANK monsters.{315}Monsters of other RANKS{315}cannot participate.
+Begin DS Wireless Communications?
+Waiting for a response from the other player...{315}Press the B Button to cancel.
+
+Exchanging data...{315}Please wait.
+Unable to receive data because{315}your Friend Roster is full.{315}Please reduce the size of your{315}Friend Roster.
+
+Now saving...{315}Do not turn power OFF.
+Save completed!
+Save completed!{315}Please wait.
+Communication error.{315}Please try again later.
+Inviting {322} to battle.{315}Please wait.{315}Press the B Button to cancel.
+{322} wants to battle.{315}Accept the challenge?
+Issuing challenge to opponent...{315}Please wait.
+You refuse the challenge.
+Your challenge has been refused.
+Inviting opponents to battle you...{315}Press the B Button to cancel.
+Opponent is selecting the battle rules...{315}Please wait.
+Waiting for opponent...
+Preparations complete. Now beginning the battle...
+The save data could not be accessed. Please turn off the power and reinsert the DS Game Card.
+Battle rules are displayed on the upper screen.
+Waiting for opponent...
+Disconnecting from DS Wireless Communications.
+You beat {322}!
+You lost to {322}.
+You drew with {322}.
+Monsters not in the F-D RANK range{315}are included.{315}Please change monsters{315}in "Team Setup."
+Monsters not in the C-A RANK range{315}are included.{315}Please change monsters{315}in "Team Setup."
+Monsters not in the S-SS RANK range{315}are included.{315}Please change monsters{315}in "Team Setup."
+Two or more monsters{315}of the same family are included.{315}Please re-select your monsters.
+Two or more monsters{315}of the same species are included.{315}Please re-select your monsters.
+Seek a Trade Partner
+Request a Trade
+--------
+--------
+--------
+Cancel
+Select Monsters
+Confirm
+Cancel Trade
+Begin Trade
+View Attributes
+Select Monsters
+Continue
+Stop Trading
+
+Monsters
+Back
+Trade with DQM Joker 2 Pro
+Trade with DQM Joker 2
+Recruiting a trade partner.
+Search for people recruiting trade partners{315}and request a monster trade.
+Request a monster trade{315}with the selected person.
+Cancel the request{315}for a monster trade.
+Trade with DQM Joker 2 Pro.
+Trade with DQM Joker 2.
+Inviting other player to trade monsters...{315}Please wait.
+{322} wants to trade monsters.{315}Accept the invitation?
+Inviting other player to trade monsters...{315}Please wait.
+You refuse the invitation.
+Your invitation has been refused.
+If the player you are trading with{315}doesn't have an enhanced scout ring,{315}they won't be able to use monsters{315}of this size in the game. Please{315}discuss this before trading.
+Let the exchange begin!{315}Select monsters to trade.
+The opponent is choosing.{315}Please wait.
+The offer has changed.{315}Press the B Button to modify your offer.
+Preparing for exchange.
+No one has selected monsters for trading.
+Choose different monsters to trade.{315}Waiting for the trade partner's confirmation...
+Please wait while the trade partner modifies their offer.
+Starting the monster trade. {315}{315} Please note that if the power is turned off{315}during the process, monsters may be lost.
+Sent {322}{315}to the trade partner.
+{324} joins the team!
+Your new monsters will be sent to the monster pen.{30c}
+Waiting for the trade partner...{315}Please wait.
+You do not have enough room in your{315}monster pen.{315}{315}Reduce the number of monsters that{315}you'll receive in this exchange,{315}or reorganise your monster pen.
+The trade partner does not have enough{315}room in their monster pen.{315}{315}Reduce the number of monsters you{315}will offer in this exchange.
+Your team may contain unauthorised{315}monster data.{315}Please reorganise your team.
+Your opponent's team may contain{315}unauthorised monster data.{315}Please ask them to reorganise their team.
+You must keep at least one monster{315}in your team.
+You have chosen not to trade.{315}Awaiting the trade partner's response.
+The trade partner does not wish to trade.{315}Please wait.
+Wireless signal is weak or blocked. Cannot find trading partner.{315}Please try again.
+Monster trading has ended.
+The trade partner has chosen to end current monster trade.{315}This monster trade transaction has been completed.
+Let the exchange begin!{315}Select monsters to trade.{315}Notice!{315}Since this is a trade with Dragon Quest Monsters Joker 2,{315}the level of the exchanged monsters{315}will become 1, and skills/traits{315}will be converted.
+Because there is a high RANK monster{315}among the monsters received from the opponent,{315}the trade cannot be performed.{315}Please have them change the monster.
+
+
+
+Tournament
+Host Tournament
+Join Tournament
+Participants
+Names
+--------
+--------
+--------
+
+Rules
+Tournament Rules
+SQUARE ENIX Rules
+Survival Rules
+Custom Rules
+Quit Tournament
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Begin Battle
+Team Setup
+Check Rules
+
+
+
+
+Results
+Final Results
+Sprout
+Raul Ghoul
+Grace
+Swelter
+Sir Berus
+Mon Starr
+Chill Blaine
+Mark Smann
+Blizzard
+Sham Armour
+Esmerelda
+Burly Barry
+Virgo
+Luke Warm
+Juve E Nile
+Rawger
+Slobber
+Dr Darf
+Lucy Fur
+Loomin' Harry
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Length
+Orders
+Switch
+Same Type
+Turn Time
+Recovery
+Confirm Settings
+5 Turns
+10 Turns
+On
+Off
+On
+Off
+On
+Off
+15 Seconds
+30 Seconds
+On
+Off
+As the host, you can accept participants for the tournament.
+As a guest, you can participate in a tournament by selecting from a list of hosts.
+Participate in the selected player's tournament.
+End search for tournaments.
+Play by tournament rules.
+Play by official SQUARE ENIX rules.
+Play by survival rules.{315}The winner's HP and MP does not recover between battles.
+Customise battle rules to your liking.
+Exit the tournament.
+Select the number of turns the battle will last.
+Select whether or not orders can be issued to monsters.
+Select whether or not monsters can be switched around during battle.
+Prevent players from having two or more monsters of the same family on their team.
+Select the time limit for inputting commands.
+Select whether or not MP and HP is restored before battles.
+Use the customised rules you've selected.
+Restore MP and HP before battles.
+Don't restore victor's MP and HP before battles.
+
+Searching for tournament participants...{315}Please wait.
+
+There are not enough participants.{315}A tournament requires two or more players.
+Waiting for a response from the other player...{315}Press the B Button to cancel.
+The tournament has been called off.
+
+
+
+
+
+Please wait while the other participants edit their teams.{315}Press the B Button to reconfigure your team.
+Round one is about to begin!{315}Your opponent is going to be{315}Team {322}.{315}Get ready for the rampage that's{315}about to ensue!
+Round two is about to begin!{315}Your opponent is going to be{315}Team {322}.{315}Get ready for the rampage that's{315}about to ensue!
+Now it's time for the final!{315}This time your opponent will be{315}Team {322}.{315}Let's find out who has the top team!
+The winner of this battle will net{315}a spot in third place.{315}You're set to face off against{315}Team {322}.
+Although this is a battle between losers, you can still come out a winner!{315}Your opponent is Team {322}.{315}This is your chance! Make it count!
+The winner of this battle will gain fifth place.{315}Never give up hope and never surrender!{315}Your opponent is going to be{315}Team {322}.
+The winner of this battle will slide{315}into seventh place.{315}Never give up hope and never surrender!{315}Your opponent is going to be{315}Team {322}.
+The other participants are still battling.{315}Please wait.
+All the participants have finished battling.{315}After viewing the results, press the A Button.
+The other participants are still viewing the results.{315}Please wait.
+All the participants have finished battling.{315}The tournament is over, and here are the final results!
+Congratulations on winning the tournament!{315}You're an inspiration to all scouts, young{315}and old. Keep on training your monsters and{315}honing your skills, and bring honour to the{315}title of Tournament Champion!
+Congratulations on coming in second place!{315}Your perseverance is matched only by your{315}perspiration! Next time, aim for the top!
+Congratulations on coming in third place!{315}You may not be THE best, but you're{315}one of the best! Next time, aim for the top!
+You've come {322}th in the tournament, but don't lose hope!{315}Train your monsters and your mind, then take on the challenge again!
+Preparing to begin tournament{315}Please wait.
+You have selected two or more monsters from the same family.{315}Please select different monsters.
+Vs Team {322}
+Number Of Battles:
+Wins:
+Losses:
+
+
+
+
+
+
+Your opponent's team may contain unauthorised monster data.{315}The battle has been called off.
+Your team may contain unauthorised monster data.{315}The battle has been called off.
+The battle could not be started.
+The battle could not be started.
+
+Team Members
+Substitutes
+Party Rank: {322}
+☆1
+☆2
+☆3
+☆4
+☆5
+☆6
+☆7
+☆PRO

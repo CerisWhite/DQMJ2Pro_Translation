@@ -1,0 +1,127 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Show No Mercy
+Weaken Foes
+Support
+Focus On Healing
+Don't Use Magic
+
+
+
+Defeat the enemy as quickly as possible, regardless of MP used.
+Prioritize applying debuffs and weakening the enemy.
+Prioritize healing debuffs and strengthening allies.
+Prioritize restoring when ally HP is low.
+Fight without using any MP.
+
+
+
+Yes{315}No
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The save data could not be accessed. Please turn off the power and reinsert the DS Game Card.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cancel
+Rank F
+Rank E
+Rank D
+Rank C
+Rank B
+Rank A
+Rank X
+
+
+
+
+
+
+
+

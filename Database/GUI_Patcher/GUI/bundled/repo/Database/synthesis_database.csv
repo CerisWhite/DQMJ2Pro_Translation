@@ -1,0 +1,331 @@
+Result,Rank,Family,Monster 1,Monster 2,Monster 3,Monster 4
+Mottle Slime,E,Slime,Slime,She-Slime,,
+Beshemoth Slime,D,Slime,Behemoth Slime,She-Slime,,
+Metal Slime Knight,D,Slime,Metal Slime,Demonrider,,
+Metal Slime Knight,D,Slime,Metal Slime,Slime Knight,,
+Mottle King Slime,D,Slime,Mottle Slime,Mottle Slime,Mottle Slime,Mottle Slime
+Mottle King Slime,D,Slime,Behemoth Slime,Beshemoth Slime,,
+Cureslime,C,Slime,Healslime,Beshemoth Slime,,
+King Slime,C,Slime,Behemoth Slime,Behemoth Slime,,
+Liquid Metal Slime,C,Slime,Metal Slime,Metal Slime,,
+Dark Slime Knight,B,Slime,Dark Slime,Demonrider,,
+Dark Slime Knight,B,Slime,Dark Slime,Slime Knight,,
+King Cureslime,B,Slime,King Slime,King Slime,,
+Rotten Egg,B,Slime,Bad Egg,Mottle King Slime,,
+King Bubble Slime,A,Slime,Bubble Slime,Bubble Slime,King Slime,King Slime
+Metal Kaiser Slime,A,Slime,Metal Slime Knight,Metal Slime Knight,King Cureslime,King Cureslime
+Metal King Slime,A,Slime,Liquid Metal Slime,Liquid Metal Slime,Liquid Metal Slime,Liquid Metal Slime
+Canzar,S,Slime,Gem Slime,Gem Slime,Dark Crab,Dark Crab
+Darkonium Slime,S,Slime,Beshemoth Slime,Beshemoth Slime,Metal King Slime,Metal King Slime
+Grandpa Slime,S,Slime,King Cureslime,King Cureslime,Metal Kaiser Slime,Metal Kaiser Slime
+Shogum,S,Slime,Metal Kaiser Slime,Metal Kaiser Slime,,
+Diamond Slime,SS,Slime,Gem Slime,Gem Slime,Darkonium Slime,Darkonium Slime
+Gem Slime,SS,Slime,Grandpa Slime,Grandpa Slime,Balhib,Balhib
+Liquid Metal King Slime,SS,Slime,Slime Blaster,Diamond Slime,,
+Drag Racer,E,Dragon,Komodo,Argon Lizard,,
+Drag Racer,E,Dragon,Komodo,Frou-Fry,,
+Green Dragon,E,Dragon,Small Fry,Small Fry,,
+Metal Dragon,C,Dragon,Red Dragon,Hunter Mech,,
+Sea Dragon,C,Dragon,Seasaur,Eveel,,
+Sea Dragon,C,Dragon,Seasaur,Sentripede,,
+Dragon Rider,B,Dragon,Drag-goof,Demonrider,,
+Dragon Rider,B,Dragon,Drag-goof,Slime Knight,,
+Ethereal Serpent,B,Dragon,Boreal Serpent,Boreal Serpent,Boreal Serpent,Boreal Serpent
+Frou-Frou,B,Dragon,Frou-Fry,Frou-Fry,Frou-Fry,Frou-Fry
+Great Argon Lizard,B,Dragon,Argon Lizard,Argon Lizard,Argon Lizard,Argon Lizard
+Mandrake Marshal,B,Dragon,Phantom Fencer,Red Dragon,,
+Great Dragon,A,Dragon,Rashaverak,Alphyn,,
+Great Dragon,A,Dragon,Rashaverak,Sintaur,,
+Great Dragon,A,Dragon,Rashaverak,Tortoceratops,,
+Great Dragon,A,Dragon,Rashaverak,Wishmaster,,
+Mechanowyrm,A,Dragon,Metal Dragon,Great Dragon,,
+Mechanowyrm,A,Dragon,Metal Dragon,Rashaverak,,
+Rashaverak,A,Dragon,Great Argon Lizard,Great Argon Lizard,Frou-Frou,Frou-Frou
+Sintaur,A,Dragon,Knight Aberrant,Dragon Rider,,
+Sintaur,A,Dragon,Knight Aberrant,Drakularge,,
+Sintaur,A,Dragon,Knight Aberrant,Mandrake Marshal,,
+Sintaur,A,Dragon,Knight Aberrant,Tortoceratops,,
+Alabast Dragon,S,Dragon,Mechanowyrm,Drakulard,,
+Bilhaw,S,Dragon,Balhib,Beetlebully,,
+Bilhaw,S,Dragon,Balhib,Black Dragon,,
+Black Dragon,S,Dragon,Great Dragon,Bone Baron,,
+Black Dragon,S,Dragon,Great Dragon,Gemon,,
+Dracolord,S,Dragon,Great Dragon,Demon-At-Arms,,
+Drakulard,S,Dragon,Drakularge,Atlas,,
+Drakulard,S,Dragon,Drakularge,Belial,,
+Drakulard,S,Dragon,Drakularge,Pazuzu,,
+Tri Winder,S,Dragon,Octavian Sentry,Great Dragon,,
+Tri Winder,S,Dragon,Octavian Sentry,Rashaverak,,
+Dragonlord,SS,Dragon,Dracolord,Alabast Dragon,,
+Dragovian Lord,SS,Dragon,Dragonlord,Rhapthorne II,,
+Greygnarl,SS,Dragon,Barbarus,Dragovian Lord,,
+Orochi,SS,Dragon,Tri Winder,Tri Winder,Bilhaw,Bilhaw
+Xenlon,SS,Dragon,Greygnarl,Dimensional Dragon,,
+Xenlon,SS,Dragon,Greygnarl,Prism Peacock,,
+Xenlon,SS,Dragon,Greygnarl,Yggdrasil,,
+Xiphos,SS,Dragon,Captain Crow,Nokturnus,,
+Zenith Dragon,SS,Dragon,Dragonlord,Xenlon,,
+Scissor Beatle,F,Nature,Army Ant,Pocus Poppet,,
+Great Sabrecat,C,Nature,Great Sabrecub,Great Sabrecub,Great Sabrecub,Great Sabrecub
+Lleviathan,C,Nature,Sea Dragon,Missing Lynx,,
+Lleviathan,C,Nature,Sea Dragon,Wormonger,,
+Treeface,C,Nature,Stump Chump,Stump Chump,Capsichum,Capsichum
+Treeface,C,Nature,Stump Chump,Stump Chump,Mental Pitcher,Mental Pitcher
+Yabby,C,Nature,Crabid,Crabid,,
+Beetleboy,B,Nature,Scissor Beatle,Scissor Beatle,Scissor Beatle,Scissor Beatle
+Compos Mantis,B,Nature,Scorpion,Sentripede,,
+Flamethrower,B,Nature,Grim Keeper,Firebird,,
+Blizzybody,A,Nature,Grim Keeper,Snowbird,,
+Garuda,A,Nature,Hades Condor,Heligator,,
+Gripevine,A,Nature,Marquis De Léon,Hyper Heyedra,,
+Heligator,A,Nature,Paws,Megalodon,,
+Kon The Knight,A,Nature,Bone Baron,Mandrake Marshal,,
+Riptide,A,Nature,Heligator,Beetleboy,,
+Riptide,A,Nature,Heligator,Jumping Jackal,,
+Riptide,A,Nature,Heligator,Prickly Prankster,,
+Beetlebully,S,Nature,Beetleboy,Beetleboy,Beetleboy,Beetleboy
+Beetlebully,S,Nature,Beetleboy,Metal King Slime,,
+Goresby-Purrvis,S,Nature,Great Sabrecat,Ladja,Roseguardin,Demon-At-Arms
+Khalamari,S,Nature,Khalamari Kid,Khalamari Kid,King Squid,King Squid
+King Squid,S,Nature,Heligator,Gigalumph,,
+King Squid,S,Nature,Heligator,Gracos,,
+Prism Peacock,S,Nature,Firebird,Firebird,Snowbird,Snowbird
+Prism Peacock,S,Nature,Pipit,Garuda,,
+Great Godbird,SS,Nature,Dragovian Lord,Empyrea,,
+Leopold,SS,Nature,Dhoulmagus,Cerberwretch,,
+Leopold,SS,Nature,Dhoulmagus,Chainine,,
+Munchie,SS,Nature,Greygnarl,Fluffy,,
+Trode,SS,Nature,Darck,Don Mole,Rottney,King Sanguini
+Yggdrasil,SS,Nature,Fluffy,Rottney,,
+Snowbird,E,Beast,Florajay,Boreal Serpent,,
+Snowbird,E,Beast,Florajay,Powie Yowie,,
+Snowbird,E,Beast,Florajay,Snowmangler,,
+Diemon,C,Beast,Winky,Winky,Winky,Winky
+Mortoad,C,Beast,Frogface,Discombombulator,,
+Cockateer,B,Beast,Phantom Fencer,Hades Condor,,
+Eyevory Tusk-Tusk,B,Beast,Diemon,Lleviathan,,
+Eyevory Tusk-Tusk,B,Beast,Half Hog,Lleviathan,,
+Eyevory Tusk-Tusk,B,Beast,Notso Macho,Lleviathan,,
+Firebird,B,Beast,Hades Condor,Dancing Flame,,
+Pink Sanguini,B,Beast,Teeny Sanguini,Teeny Sanguini,Teeny Sanguini,Teeny Sanguini
+Tantamount,B,Beast,Grim Rider,Firebird,,
+Alphyn,A,Beast,Marquis De Léon,Moosifer,,
+Buffalogre,A,Beast,Damned Ram,Damned Ram,Damned Ram,Damned Ram
+Gigantes,A,Beast,Lleviathan,Boss Troll,,
+Gigantes,A,Beast,Lleviathan,Cross Eye,,
+Goreham-Hogg,A,Beast,Mohawker,Slon The Rook,,
+Marquis De Léon,A,Beast,Eyevory Tusk-Tusk,Eyevory Tusk-Tusk,,
+Marquis De Léon,A,Beast,Mohawker,Buffalogre,,
+Mohawker,A,Beast,Wishmaster,Great Sabrecat,,
+Mohawker,A,Beast,Wishmaster,Sintaur,,
+Mohawker,A,Beast,Wishmaster,Wild Slime,,
+Moosifer,A,Beast,Buffalogre,Damned Ram,,
+Slon The Rook,A,Beast,Buffalogre,Mandrake Marshal,,
+Taurus,A,Beast,Buffalogre,Gigantes,,
+Atlas,S,Beast,Gigantes,Gigantes,Gigantes,Gigantes
+Atlas,S,Beast,Gigantes,Garuda,,
+Atlas,S,Beast,Gigantes,Moosifer,,
+Baalzack,S,Beast,Gigantes,Belial,,
+Baalzack,S,Beast,Gigantes,Drakularge,,
+Baalzack,S,Beast,Gigantes,Great Argon Lizard,,
+Dhoulmagus,S,Beast,Alabast Dragon,Tyrannosaurus Wrecks,,
+Don Mole,S,Beast,Mischievous Mole,Mischievous Mole,Night Clubber,Night Clubber
+King Sanguini,S,Beast,Pink Sanguini,Genie Sanguini,Pipit,Elder Pipit
+Mossferatu,S,Beast,Baron Von Bellycose,Gigalumph,,
+Night Clubber,S,Beast,Boss Troll,Drakularge,,
+Night Clubber,S,Beast,Boss Troll,Frou-Frou,,
+Night Clubber,S,Beast,Boss Troll,Pazuzu,,
+Aquarion,SS,Beast,Gracos,Nokturnus,,
+Pruslas,SS,Beast,Ruin,Alabast Dragon,,
+Pruslas,SS,Beast,Ruin,Atlas,,
+Pruslas,SS,Beast,Ruin,Drakulard,,
+Frostburn,F,Material,Dancing Flame,Boreal Serpent,,
+Frostburn,F,Material,Dancing Flame,Powie Yowie,,
+Dancing Flame,E,Material,Frostburn,Firespirit,,
+Dancing Flame,E,Material,Frostburn,Spitnik,,
+Goodybag,E,Material,Bag O' Laughs,Bag O' Laughs,,
+Cannibox,D,Material,Bag O' Laughs,Rockbomb,,
+Firn Fiend,D,Material,Snowbird,Golem,,
+Gold Golem,D,Material,Golem,Gem Slime,,
+Gold Golem,D,Material,Golem,Goodybag,,
+Cumulus Rex,C,Material,Dancing Flame,Frostburn,,
+Golem,C,Material,Mud Mannequin,Mud Mannequin,Mud Mannequin,Mud Mannequin
+Octagoon,C,Material,Damned Ram,Foo Dog,,
+Puppeteer,C,Material,Slime,Lump Wizard,,
+Automaton,B,Material,Hunter Mech,Hunter Mech,,
+Corrupt Carter,B,Material,Chariot Chappie,Chariot Chappie,Chariot Chappie,Chariot Chappie
+Magmalice,B,Material,Firebird,Golem,,
+Mimic,B,Material,Cannibox,Cannibox,Cannibox,Cannibox
+Wishmaster,B,Material,Diemon,Golem,,
+Wishmaster,B,Material,Half Hog,Golem,,
+Wishmaster,B,Material,Notso Macho,Golem,,
+Balhib,A,Material,Golem,Golem,Gold Golem,Gold Golem
+Balhib,A,Material,Magmalice,Firn Fiend,Golem,Gold Golem
+Balhib,A,Material,Magmalice,Magmalice,Firn Fiend,Firn Fiend
+Killing Machine,A,Material,Hunter Mech,Hunter Mech,Hunter Mech,Hunter Mech
+Living Statue,A,Material,Golem,Golem,Golem,Golem
+Scytheborg,A,Material,Juggular,Cyber Slime,,
+Terracotta Warrior,A,Material,Pocus Poppet,Pocus Poppet,Pocus Poppet,Pocus Poppet
+Escudogre,S,Material,Scytheborg,Living Statue,,
+Escudogre,S,Material,Scytheborg,Terracotta Warrior,,
+Escudogre,S,Material,Scytheborg,Trap Box,,
+Mumboh-Jumboe,S,Material,Mum,Boh,Jum,Boe
+Overkilling Machine,S,Material,Balhib,Balhib,Killing Machine,Killing Machine
+Ruin,S,Material,Mumboh-Jumboe,Gold Golem,,
+Ruin,S,Material,Mumboh-Jumboe,Living Statue,,
+Ruin,S,Material,Stormsgate Citadel,Gold Golem,,
+Ruin,S,Material,Stormsgate Citadel,Living Statue,,
+The Time Being,S,Material,Fallen Priest,Fallen Priest,Tortured Soul,Tortured Soul
+Trap Box,S,Material,Mimic,Mimic,Cannibox,Metal Kaiser Slime
+Trap Box,S,Material,Mimic,Mimic,Mechanowyrm,Mechanowyrm
+Estark,SS,Material,Titanis,Xiphos,,
+Psaro,SS,Material,Blackmar,Ruin,,
+Sagittar,SS,Material,Trauminator,Overkilling Machine,Killing Machine,Automaton
+Sagittar,SS,Material,Trauminator,Overkilling Machine,Killing Machine,Trap Box
+Sagittar,SS,Material,Uberkilling Machine,Uberkilling Machine,,
+Trauminator,SS,Material,Overkilling Machine,Ruin,,
+Great Dracky,C,Demon,Dracky,Dracky,Dracky,Dracky
+Grim Keeper,C,Demon,Aggrosculpture,Erazor Blade,,
+Grim Keeper,C,Demon,Aggrosculpture,Gryphon,,
+Grim Keeper,C,Demon,Aggrosculpture,Octavian Sentry,,
+Grim Keeper,C,Demon,Aggrosculpture,Prickly Prankster,,
+Archdemon,B,Demon,Dessert Demon,Dessert Demon,Dessert Demon,Dessert Demon
+Boss Troll,B,Demon,Diemon,Gorerilla,,
+Boss Troll,B,Demon,Half Hog,Gorerilla,,
+Boss Troll,B,Demon,Notso Macho,Gorerilla,,
+Fallen Priest,B,Demon,Wrecktor,Puppeteer,,
+High Djinks,B,Demon,Malevolamp,Cumulus Rex,,
+Jamirus,B,Demon,Gryphon,Grim Keeper,,
+Knight Aberrant,B,Demon,Restless Armour,Hacksaurus,,
+Baron Von Bellycose,A,Demon,High Djinks,Archdemon,,
+Baron Von Bellycose,A,Demon,High Djinks,Boss Troll,,
+Baron Von Bellycose,A,Demon,High Djinks,Fallen Priest,,
+Belial,A,Demon,Archdemon,Archdemon,Archdemon,Archdemon
+Belial,A,Demon,Archdemon,Balhib,,
+Belial,A,Demon,Archdemon,Great Dragon,,
+Conkettes,A,Demon,Conklave,Mortella,,
+Conkettes,A,Demon,Conklave,Thornella,,
+Dhuran,A,Demon,Flamethrower,Blizzybody,,
+Gemon,A,Demon,Jamirus,Atlas,,
+Gemon,A,Demon,Jamirus,Belial,,
+Gemon,A,Demon,Jamirus,Pazuzu,,
+Gracos,A,Demon,Belial,Merman,,
+Gracos,A,Demon,Belial,Octavian Sentry,,
+Hootingham-Gore,A,Demon,Jamirus,Kon The Knight,,
+King Korol,A,Demon,Tortured Soul,Great Dragon,,
+King Korol,A,Demon,Tortured Soul,Rashaverak,,
+Pazuzu,A,Demon,Silvapithecus,Silvapithecus,Silvapithecus,Silvapithecus
+Pazuzu,A,Demon,Silvapithecus,Dierantula,,
+Pazuzu,A,Demon,Silvapithecus,Rashaverak,,
+Aamon,S,Demon,King Korol,Baron Von Bellycose,,
+Aamon,S,Demon,King Korol,Terracotta Warrior,,
+Baramos,S,Demon,Tortoceratops,Beetlebully,,
+Baramos,S,Demon,Tortoceratops,The Time Being,,
+Blackmar,S,Demon,Aamon,Ladja,,
+Hargon,S,Demon,Dhuran,Dierantula,,
+Hargon,S,Demon,Dhuran,Wight King,,
+Malroth,S,Demon,Hargon,Demon-At-Arms,,
+Malroth,S,Demon,Hargon,Khalamari,,
+Murdaw,S,Demon,Bjorn,Mossferatu,,
+Murdaw,S,Demon,Bjorn,Night Clubber,,
+Titanis,S,Demon,Moosifer,Atlas,,
+Titanis,S,Demon,Moosifer,Tri Winder,,
+Tyrannosaurus Wrecks,S,Demon,Hyperanemon,Kapurigon,,
+Tyrannosaurus Wrecks,S,Demon,Hyperanemon,Taurus,,
+Nokturnus,SS,Demon,Dhuran,Dr Snapped,,
+Cobra Cardinal,B,Zombie,Ethereal Serpent,Fallen Priest,,
+Fright Knight,B,Zombie,Skeleton Soldier,Lethal Armour,,
+Grim Rider,B,Zombie,Diemon,Demonrider,,
+Grim Rider,B,Zombie,Half Hog,Demonrider,,
+Grim Rider,B,Zombie,Notso Macho,Demonrider,,
+Phantom Swordsman,B,Zombie,Phantom Fencer,Phantom Fencer,Phantom Fencer,Phantom Fencer
+Ragin' Contagion,B,Zombie,Walking Corpse,Soulspawn,,
+Skeleton Soldier,B,Zombie,Skeleton,Skeleton,Skeleton,Skeleton
+Soulspawn,B,Zombie,Firespirit,Firespirit,Firespirit,Firespirit
+Soulspawn,B,Zombie,Ghost,Ghost,Ghost,Ghost
+Wight Knight,B,Zombie,Grim Rider,Phantom Swordsman,,
+Bone Baron,A,Zombie,Grim Rider,Grim Rider,,
+Dierantula,A,Zombie,Wormonger,Gripevine,,
+Dierantula,A,Zombie,Wormonger,Night Knight,,
+Dierantula,A,Zombie,Wormonger,Tortured Soul,,
+Gigalumph,A,Zombie,Mortoad,Mortoad,,
+Grotwyrm,A,Zombie,Ragin' Contagion,Great Dragon,,
+Grotwyrm,A,Zombie,Ragin' Contagion,Rashaverak,,
+Kapurigon,A,Zombie,Moosifer,Garuda,,
+Monkey Zombie,A,Zombie,Gorerilla,Squign,,
+Monkey Zombie,A,Zombie,Whackanape,Squign,,
+Night Knight,A,Zombie,Fright Knight,Fright Knight,,
+Roseguardin,A,Zombie,Lethal Armour,Bone Baron,,
+Roseguardin,A,Zombie,Lethal Armour,Riptide,,
+Tortured Soul,A,Zombie,Fright Knight,Cobra Cardinal,,
+Tortured Soul,A,Zombie,Fright Knight,Ragin' Contagion,,
+Tortured Soul,A,Zombie,Fright Knight,Wailin' Weed,,
+Tortured Soul,A,Zombie,Fright Knight,Wight Knight,,
+Wailin' Weed,A,Zombie,King Kelp,Phantom Swordsman,,
+Wailin' Weed,A,Zombie,King Kelp,Skeleton Soldier,,
+Dullahan,S,Zombie,Bone Baron,Night Knight,,
+Dullahan,S,Zombie,Bone Baron,Ruin,,
+Dullahan,S,Zombie,Bone Baron,Tortured Soul,,
+King Godwyn II,S,Zombie,Goreham-Hogg,Hootingham-Gore,Goresby-Purrvis,Barbarus
+Ladja,S,Zombie,Slon The Rook,Kon The Knight,,
+Wight King,S,Zombie,Tortured Soul,King Bubble Slime,,
+Wight King,S,Zombie,Tortured Soul,King Slime,,
+Dr Snapped,SS,Zombie,Darkonium Slime,Murdaw,,
+Darck,S,???,Murdaw,Blackmar,,
+Ace Of Spades,SS,???,Wulfspade Ace,Leopold,,
+Baboon Beast,SS,???,Aquarion,Monkey Zombie,Malevolynx,Ace Of Spades
+Corvus,SS,???,King Godwyn II,Magarugi,,
+Evil Beast,SS,???,Baboon Beast,Corvus,,
+Gadis,SS,???,Xiphos,Sagittar,,
+Leonyx,SS,???,Wildcard,Leokid,,
+Magarugi,SS,???,Rigor Mortex,Orochi,Pruslas,Rottney
+Mortamor,SS,???,Psaro,Escudogre,,
+Mortamor,SS,???,Psaro,The Time Being,,
+Nimzo,SS,???,Baramos,Khalamari,,
+Nimzo,SS,???,Baramos,Mossferatu,,
+Orgodemir,SS,???,Tyrannosaurus Wrecks,Bilhaw,,
+Orgodemir,SS,???,Tyrannosaurus Wrecks,Tri Winder,,
+Rhapthorne,SS,???,Zoma,Nimzo,Mortamor,Orgodemir
+Rhapthorne II,SS,???,Rhapthorne,Estark,,
+Rigor Mortex,SS,???,Leonyx,Zenith Dragon,,
+Wildcard,SS,???,Wulfspade Ace,Great Godbird,,
+Zoma,SS,???,Malroth,Dullahan,,
+Zoma,SS,???,Malroth,Wight King,,
+___,,,,,,
+New Recipes,,,,,,
+Weedie,F,Slime,Stump Chump,Slime,,
+Seedy Weedie,B,Slime,Rotten Egg,Florajay,,
+Slime Gang,A,Slime,Beshemoth Slime,Metal Slime,King Slime,King Cureslime
+Ultra Slime,A,Slime,Dhuran,Slime,She-Slime,Rubble Slime
+Nemeslime,A,Slime,Ultra Slime,Wight Knight,,
+Schleiman Tank,S,Slime,Stormsgate Citadel,Behemoth Slime,Mortoad,Cyber Slime
+Slider Girl,S,Slime,Mortella,Angel Slime,Shogum,Metal Dragon
+Slime Blaster,S,Slime,Schleiman Tank,Empyrea,Canzar,Metal King Slime
+Dark Mecha-Slime,SS,Slime,Schleiman Tank,Schwarzman Tank,Sagittar,Nemeslime
+Barbarus,SS,Dragon,Orochi,Goreham-Hogg,Goresby-Purrvis,Hootingham-Gore
+Dimensional Dragon,SS,Dragon,Barbarus,Orgodemir,Alabast Dragon,Black Dragon
+Wild Boarfish,D,Nature,Headhunter,Swarmtroop,,
+Pipit,C,Nature,Hades Condor,Bad Egg,,
+Elder Pipit,S,Nature,Pipit,Grandpa Slime,,
+Numen,SS,Nature,Trode,Captain Crow,,
+Teeny Sanguini,E,Beast,Chainine,Dracky,,
+Maniacal Mole,B,Beast,Mischievous Mole,Corrupt Carter,,
+Squign,B,Beast,Fencing Fox,Fencing Fox,Boppin' Badger,Boppin' Badger
+Robbin's Old Lady,SS,Beast,Psaro,Malroth,Robbin' Hood,Yabby
+Fluffy,SS,Beast,Numen,Teeny Sanguini,,
+Hunter Mech,C,Material,Metal Slime Knight,Lethal Armour,,
+Stormsgate Citadel,A,Material,Terracotta Warrior,Living Statue,,
+Uberkilling Machine,S,Material,Overkilling Machine,Atlas,Tyrantosaurus,Erazor Blade
+Schwarzman Tank,SS,Material,Stormsgate Citadel,Escudogre,Trauminator,Ruin
+Conklave,F,Demon,Winky,Argon Lizard,,
+Robbin' Huddle,D,Demon,Conklave,Imp,,
+Robbin' Hood,A,Demon,Gigantes,Robbin' Huddle,,
+Prince O' Thieves,SS,Demon,Robbin's Old Lady,Goodybag,Robbin' Hood,Goodybag
+Scruffy,SS,Demon,Pruslas,Pruslas,,
+Drohl Diabolist,E,Zombie,Drohl Drone,Swingin' Hipster,,
+Captain Crow,S,Zombie,Bone Baron,Cross Bones,Killing Machine,Dorsal Fiend
+Leokid,B,？？？,Missing Lynx,Marquis De Léon,,
+Stella,A,？？？,Thornella,Garuda,,
+Zoma's Devil,A,？？？,Malroth,Bad Egg,Dullahan,Bad Egg
+Malevolynx,SS,？？？,Leokid,Ace Of Spades,,
+Wulfspade,SS,？？？,Empyrea,Leopold,,

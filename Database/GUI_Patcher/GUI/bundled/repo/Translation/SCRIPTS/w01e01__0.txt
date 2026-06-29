@@ -1,0 +1,9 @@
+ASH const=0x64 hash=0xfed26
+ENTRY 128 L_0
+
+L_0:
+JMP_ABS 0xc L_c
+L_c:
+RET
+DATA 0x0000000c
+DATA 0x00000000

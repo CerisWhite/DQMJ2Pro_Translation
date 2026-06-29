@@ -1,0 +1,151 @@
+
+
+{30f} managed to escape!
+You were defeated...
+
+But you were surrounded!
+You surprised the enemy!
+Preemptive strike!
+This looks like a good time to scout!
+{321}{328}
+And the result is...
+{321}{30f}'s team wins!
+{321}{30f}'s team loses!
+It's a draw!
+The opponent forfeits!
+{321}{30f}'s team forfeits!
+Both teams forfeit, so it's a draw!
+The Standby Team is here to help!
+The missing lynx wanders off.
+But they can't cast spells!
+A gigantic monster is nearby.
+The enemy flees!
+{30f} dropped {322}G!
+A gigantic monster attacks!
+The gigantic monster wandered off.
+The enemy is flustered!
+Everybody gets psyched up!
+The enemy is annihilated!
+The gigantic monster attacks!
+Everybody cowers in fear!
+Everybody is confused!
+{321}{30f}'s team prays...
+An enemy joined {30f}'s team!
+But the gigantic monster wanders off.
+{321}{30b}{00} has disappeared.
+The gigantic monster closes in!
+Insufficient MP!
+But the dance is sealed!
+But their mouth is shut!
+Abiliterated!
+Blade is blunted!
+Steals {328}!
+Steals {322}G!
+But nothing happens!
+Attack
+Defence
+Agility
+Wisdom
+The {322} bubbles furiously!
+The {322} roars fiercely!
+The {322} gets aggravated!
+The {322} flails angrily!
+The {322} starts slamming around!
+The {322} screams in anger!
+The {322} seems perturbed...
+The {322} bulks up!
+Do nothing
+Fight
+Order
+Tactics
+Scout
+Items
+Flee
+
+You can't scout because the monster pen is full!
+Switch
+Forfeit
+Turns Remaining: {322}
+Time Remaining: {324}
+Waiting for opponent...
+Can't cast spells!
+Turn {322}
+Battle {324}
+{321}{30f} prepares to scout!
+A talented scouting!
+
+Scouting successful!
+Failed to scout!
+
+The monster is sizing things up.
+The monster took offense!
+
+
+Obtained {322} skill points!
+{322} has reached max level!
+Obtained {328}!
+Forfeit the current battle.
+Return to the current battle.
+This monster is special,{315}so it cannot be scouted!
+This monster is special,{315}so it cannot be scouted!
+
+
+
+
+
+
+
+
+
+
+
+
+Message not supported
+
+Attack restored!
+Defence restored!
+Agility restored!
+Wisdom restored!
+The Insulatle has worn off!
+The poison has worn off!
+The monster is not offended!
+The monster has calmed down a bit!
+The paralysis has worn off!
+The monster woke up!
+The monster is no longer confused!
+The Tongue Lashing has worn off!
+The dance effect has worn off!
+The monster is no longer afraid!
+The monster is no longer afraid!
+The monster can cast spells again!
+The monster can dance again!
+The Gobstop effect has worn off!
+Accuracy restored!
+Accuracy restored!
+Accuracy restored!
+Resistance is restored!
+Resistance is restored!
+Critical Miss has worn off!
+Bounce has worn off!
+Deep Breath has worn off!
+Brake Wind has worn off!
+Mist Me has worn off!
+Resistance is restored!
+Reheal has worn off!
+Artful Dodger has worn off!
+Clang has worn off!
+Counter has worn off!
+Active again!
+The Amor Seco Rain has worn off!
+The Song of Salvation has worn off!
+Blowback has worn off!
+The effect has worn off!
+Prezing has worn off!
+Abiliterator has worn off!
+Blade Blunter has worn off!
+Aha has worn off!
+Selflessness has worn off!
+Tacticlamp has worn off!
+Resurrected!!
+Lingering Mahlhaze has worn off!
+Unnatural Order has worn off!

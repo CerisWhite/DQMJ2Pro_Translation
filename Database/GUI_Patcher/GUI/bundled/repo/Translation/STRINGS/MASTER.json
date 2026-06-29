@@ -1,0 +1,117 @@
+{
+  "message0.txt": {
+    "source": "message0.binA",
+    "fpk_header": "message0.fpkhdr",
+    "entry_count": 127
+  },
+  "msg_actionhelp.txt": {
+    "source": "msg_actionhelp.binA",
+    "fpk_header": "msg_actionhelp.fpkhdr",
+    "entry_count": 272
+  },
+  "msg_actionname.txt": {
+    "source": "msg_actionname.binA",
+    "fpk_header": "msg_actionname.fpkhdr",
+    "entry_count": 256
+  },
+  "msg_battle.txt": {
+    "source": "msg_battle.binA",
+    "fpk_header": "msg_battle.fpkhdr",
+    "entry_count": 151
+  },
+  "msg_itemhelp.txt": {
+    "source": "msg_itemhelp.binA",
+    "fpk_header": "msg_itemhelp.fpkhdr",
+    "entry_count": 257
+  },
+  "msg_itemname.txt": {
+    "source": "msg_itemname.binA",
+    "fpk_header": "msg_itemname.fpkhdr",
+    "entry_count": 257
+  },
+  "msg_library.txt": {
+    "source": "msg_library.binA",
+    "fpk_header": "msg_library.fpkhdr",
+    "entry_count": 272
+  },
+  "msg_map.txt": {
+    "source": "msg_map.binA",
+    "fpk_header": "msg_map.fpkhdr",
+    "entry_count": 38
+  },
+  "msg_menu.txt": {
+    "source": "msg_menu.binA",
+    "fpk_header": "msg_menu.fpkhdr",
+    "entry_count": 443
+  },
+  "msg_monstername.txt": {
+    "source": "msg_monstername.binA",
+    "fpk_header": "msg_monstername.fpkhdr",
+    "entry_count": 515
+  },
+  "msg_monstersname.txt": {
+    "source": "msg_monstersname.binA",
+    "fpk_header": "msg_monstersname.fpkhdr",
+    "entry_count": 512
+  },
+  "msg_passing.txt": {
+    "source": "msg_passing.binA",
+    "fpk_header": "msg_passing.fpkhdr",
+    "entry_count": 380
+  },
+  "msg_place.txt": {
+    "source": "msg_place.binA",
+    "fpk_header": "msg_place.fpkhdr",
+    "entry_count": 240
+  },
+  "msg_profile.txt": {
+    "source": "msg_profile.binA",
+    "fpk_header": "msg_profile.fpkhdr",
+    "entry_count": 552
+  },
+  "msg_shop.txt": {
+    "source": "msg_shop.binA",
+    "fpk_header": "msg_shop.fpkhdr",
+    "entry_count": 255
+  },
+  "msg_skillhelp.txt": {
+    "source": "msg_skillhelp.binA",
+    "fpk_header": "msg_skillhelp.fpkhdr",
+    "entry_count": 2
+  },
+  "msg_skillname.txt": {
+    "source": "msg_skillname.binA",
+    "fpk_header": "msg_skillname.fpkhdr",
+    "entry_count": 257
+  },
+  "msg_taiseiname.txt": {
+    "source": "msg_taiseiname.binA",
+    "fpk_header": "msg_taiseiname.fpkhdr",
+    "entry_count": 256
+  },
+  "msg_tokusei.txt": {
+    "source": "msg_tokusei.binA",
+    "fpk_header": "msg_tokusei.fpkhdr",
+    "entry_count": 256
+  },
+  "msg_traveler.txt": {
+    "source": "msg_traveler.binA",
+    "fpk_header": "msg_traveler.fpkhdr",
+    "entry_count": 118
+  },
+  "msg_virtual.txt": {
+    "source": "msg_virtual.binA",
+    "fpk_header": "msg_virtual.fpkhdr",
+    "entry_count": 124
+  },
+  "msg_wifi.txt": {
+    "source": "msg_wifi.binA",
+    "fpk_header": "msg_wifi.fpkhdr",
+    "entry_count": 797
+  },
+  "msg_wireless.txt": {
+    "source": "msg_wireless.binA",
+    "fpk_header": "msg_wireless.fpkhdr",
+    "entry_count": 391
+  }
+}

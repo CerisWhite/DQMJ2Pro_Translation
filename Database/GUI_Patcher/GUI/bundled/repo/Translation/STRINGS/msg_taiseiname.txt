@@ -1,0 +1,256 @@
+Vulnerable to Frizz
+
+Frizz Damage ↓25%
+Frizz Damage ↓50%
+Frizz Damage ↓75%
+Frizzproof
+Reflects Frizz
+Healed by Frizz
+Vulnerable to Bang
+
+Bang Damage ↓25%
+Bang Damage ↓50%
+Bang Damage ↓75%
+Bangproof
+Reflects Bang
+Healed by Bang
+Vulnerable to Woosh
+
+Woosh Damage ↓25%
+Woosh Damage ↓50%
+Woosh Damage ↓75%
+Wooshproof
+Reflects Woosh
+Healed by Woosh
+Vulnerable to Crack
+
+Crack Damage ↓25%
+Crack Damage ↓50%
+Crack Damage ↓75%
+Crackproof
+Reflects Crack
+Healed by Crack
+Vulnerable to Zap
+
+Zap Damage ↓25%
+Zap Damage ↓50%
+Zap Damage ↓75%
+Zapproof
+Reflects Zap
+Healed by Zap
+Vulnerable to Zam
+
+Zam Damage ↓25%
+Zam Damage ↓50%
+Zam Damage ↓75%
+Zamproof
+Reflects Zam
+Healed by Zam
+Vulnerable to Fire Breath
+
+Fire Breath Damage ↓25%
+Fire Breath Damage ↓50%
+Fire Breath Damage ↓75%
+Fire Breathproof
+Reflects Fire Breath
+Healed by Fire Breath
+Vulnerable to Ice Breath
+
+Ice Breath Damage ↓25%
+Ice Breath Damage ↓50%
+Ice Breath Damage ↓75%
+Ice Breathproof
+Reflects Ice Breath
+Healed by Ice Breath
+Vulnerable to Whack
+
+Whack Resistance ↑25%
+Whack Resistance ↑50%
+Whack Resistance ↑75%
+Whackproof
+Reflects Whack
+Whackproof
+Vulnerable to Dazzle
+
+Dazzle Resistance ↑25%
+Dazzle Resistance ↑50%
+Dazzle Resistance ↑75%
+Dazzleproof
+Reflects Dazzle
+Dazzleproof
+Vulnerable to Poison
+
+Poison Resistance ↑25%
+Poison Resistance ↑50%
+Poison Resistance ↑75%
+Poisonproof
+Reflects Poison
+Poisonproof
+Vulnerable to Drain Magic
+
+Drain Magic Resistance ↑25%
+Drain Magic Resistance ↑50%
+Drain Magic Resistance ↑75%
+Drain Magicproof
+Reflects Drain Magic
+Drain Magicproof
+Vulnerable to Fizzle
+
+Fizzle Resistance ↑25%
+Fizzle Resistance ↑50%
+Fizzle Resistance ↑75%
+Fizzleproof
+Reflects Fizzle
+Fizzleproof
+Vulnerable to Gobstopper
+
+Gobstopper Resistance ↑25%
+Gobstopper Resistance ↑50%
+Gobstopper Resistance ↑75%
+Gobstopperproof
+Reflects Gobstopper
+Gobstopperproof
+Vulnerable to Ban Dance
+
+Ban Dance Resistance ↑25%
+Ban Dance Resistance ↑50%
+Ban Dance Resistance ↑75%
+Ban Danceproof
+Reflects Ban Dance
+Ban Danceproof
+Vulnerable to Confusion
+
+Confusion Resistance ↑25%
+Confusion Resistance ↑50%
+Confusion Resistance ↑75%
+Confusionproof
+Reflects Confusion
+Confusionproof
+Vulnerable to Inaction
+
+Inaction Resistance ↑25%
+Inaction Resistance ↑50%
+Inaction Resistance ↑75%
+Inactionproof
+Reflects Inaction
+Inactionproof
+Vulnerable to Paralysis
+
+Paralysis Resistance ↑25%
+Paralysis Resistance ↑50%
+Paralysis Resistance ↑75%
+Paralysisproof
+Reflects Paralysis
+Paralysisproof
+Vulnerable to Sleep
+
+Sleep Resistance ↑25%
+Sleep Resistance ↑50%
+Sleep Resistance ↑75%
+Sleepproof
+Reflects Sleep
+Sleepproof
+Vulnerable to Sag
+
+Sag Resistance ↑25%
+Sag Resistance ↑50%
+Sag Resistance ↑75%
+Sagproof
+Reflects Sag
+Sagproof
+Vulnerable to Sap
+
+Sap Resistance ↑25%
+Sap Resistance ↑50%
+Sap Resistance ↑75%
+Sapproof
+Reflects Sap
+Sapproof
+Vulnerable to Decelerate
+
+Decelerate Resistance ↑25%
+Decelerate Resistance ↑50%
+Decelerate Resistance ↑75%
+Decelerateproof
+Reflects Decelerate
+Decelerateproof
+Vulnerable to Dim
+
+Dim Resistance ↑25%
+Dim Resistance ↑50%
+Dim Resistance ↑75%
+Dimproof
+Reflects Dim
+Dimproof
+Vulnerable to Sizz
+
+Sizz Damage ↓25%
+Sizz Damage ↓50%
+Sizz Damage ↓75%
+Sizzproof
+Reflects Sizz
+Healed by Sizz
+Vulnerable to Magical Sabotage
+
+Magical Sabotage Resistance ↑25%
+Magical Sabotage Resistance ↑50%
+Magical Sabotage Resistance ↑75%
+Magical Sabotageproof
+Reflects Magical Sabotage
+Magical Sabotageproof
+Vulnerable to Abiliterator
+
+Abiliterator Resistance ↑25%
+Abiliterator Resistance ↑50%
+Abiliterator Resistance ↑75%
+Abiliteratorproof
+Reflects Abiliterator
+Abiliteratorproof
+Vulnerable to Blade Blunter
+
+Blade Blunter Resistance ↑25%
+Blade Blunter Resistance ↑50%
+Blade Blunter Resistance ↑75%
+Blade Blunterproof
+Reflects Blade Blunter
+Blade Blunterproof
+Vulnerable to Donk
+
+Donk Damage ↓25%
+Donk Damage ↓50%
+Donk Damage ↓75%
+Donkproof
+Reflects Donk
+Donkproof
+Practically Invincible
+Attack Magicproof
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
