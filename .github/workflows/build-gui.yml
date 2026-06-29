@@ -33,7 +33,10 @@ jobs:
           Copy-Item Database/windows_dlls/*.dll GUI/bundled/tools/windows/ -ErrorAction SilentlyContinue
 
       - name: Prepare bundle
-        run: python GUI/make_bundle.py
+        run: |
+          gcc Pro_Tools/blz_linux.c -O2 -o Pro_Tools/blz.exe
+          chmod +x Pro_Tools/blz.exe
+          python GUI/make_bundle.py
 
       - name: Build Windows exe
         run: |
