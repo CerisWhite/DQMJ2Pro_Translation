@@ -2,7 +2,7 @@ This fork of Ceris White's Joker 2 Professional repository includes a post-game 
 
 <img src="./Database/credits.png" width="700">
 
-[Patching Program](https://github.com/saneezore07/DQMJ2Pro_Translation/releases/tag/Patcher) <br>
+[Patching Program](https://github.com/saneezore07/DQMJ2Pro_Translation/releases) <br>
 <img src="./Database/GUI_Patcher/gui.png" width="300"> <br>
 Experimental program with friendly user interface for patching your legally obtained rom. Select your rom, check which patch options you want, then run the program.
 
