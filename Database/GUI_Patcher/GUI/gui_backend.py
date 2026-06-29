@@ -41,6 +41,8 @@ def run_py_script(script_path, argv):
 def find_ndstool(root, repo):
     if sys.platform.startswith("win"):
         bundled = root / "bundled" / "tools" / "windows" / "ndstool.exe"
+    elif sys.platform == "darwin":
+        bundled = root / "bundled" / "tools" / "macos" / "ndstool"
     else:
         bundled = root / "bundled" / "tools" / "linux" / "ndstool"
 

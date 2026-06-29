@@ -138,3 +138,57 @@ jobs:
         with:
           name: DQMJ2Patcher-linux-x86_64-AppImage
           path: DQMJ2Patcher-x86_64.AppImage
+
+
+  macos:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PyInstaller
+        run: python -m pip install pyinstaller
+
+      - name: Build macOS ndstool
+        run: |
+          git clone https://codeberg.org/blocksds/ndstool.git /tmp/ndstool
+          cd /tmp/ndstool
+          make clean
+          make
+          mkdir -p "$GITHUB_WORKSPACE/Database/GUI_Patcher/GUI/bundled/tools/macos"
+          cp ndstool "$GITHUB_WORKSPACE/Database/GUI_Patcher/GUI/bundled/tools/macos/ndstool"
+          chmod +x "$GITHUB_WORKSPACE/Database/GUI_Patcher/GUI/bundled/tools/macos/ndstool"
+
+      - name: Prepare bundle
+        run: |
+          clang Pro_Tools/blz_linux.c -O2 -o Pro_Tools/blz.exe
+          chmod +x Pro_Tools/blz.exe
+          python Database/GUI_Patcher/GUI/make_bundle.py
+          ls -lh Database/GUI_Patcher/GUI/bundled/repo/Pro_Tools/blz*
+          file Database/GUI_Patcher/GUI/bundled/repo/Pro_Tools/blz.exe
+          file Database/GUI_Patcher/GUI/bundled/tools/macos/ndstool
+
+      - name: Build macOS app
+        run: |
+          python -m PyInstaller \
+            --noconfirm \
+            --windowed \
+            --name DQMJ2Patcher \
+            --add-data "Database/GUI_Patcher/GUI/bundled:bundled" \
+            Database/GUI_Patcher/GUI/patcher_gui.py
+
+      - name: Zip macOS app
+        run: |
+          cd dist
+          ditto -c -k --sequesterRsrc --keepParent DQMJ2Patcher.app DQMJ2Patcher-macOS.zip
+
+      - name: Upload macOS app
+        uses: actions/upload-artifact@v4
+        with:
+          name: DQMJ2Patcher-macOS
+          path: dist/DQMJ2Patcher-macOS.zip
