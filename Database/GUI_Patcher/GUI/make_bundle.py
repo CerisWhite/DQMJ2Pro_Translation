@@ -4,7 +4,7 @@ import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
-BUNDLE = ROOT / "GUI" / "bundled" / "repo"
+BUNDLE = Path(__file__).resolve().parent / "bundled" / "repo"
 
 REMOVE_DIRS = [
     ".git",
