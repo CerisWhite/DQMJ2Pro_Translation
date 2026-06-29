@@ -4,11 +4,14 @@ This fork of Ceris White's Joker 2 Professional repository includes a post-game 
 
 Before patching: [New synthesis recipes](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/adding_new_synths.md) has been added to the game for monsters that exist in the game files, but were either wi-fi exclusive monsters or otherwise not obtainable in gameplay.
 
-[Guide](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/step-by-step.md) to patch your legally obtained rom. [Linux](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/linux_guide.md). Note: The windows guide tells the patcher to independently source `ndstool.exe`. Since `ndstool` is a GPL+MIT project, a compiled windows binary has been provided in this repository, dated to March 2026.
+[Guide](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/step-by-step.md) to patch your legally obtained rom. [Linux](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/linux_guide.md).
+Note: The windows guide tells the patcher to independently source `ndstool.exe`. Since `ndstool` is a [GPL3](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/ndstool_license_COPYING.gpl3)+[MIT](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/ndstool_license_COPYING.mit) project, a compiled windows binary has been provided in this repository, dated to March 2026.
 
 Eugene Pool (the old man on the airship) missing is an anti-piracy measure (among others) by the developers.
 This can be circumvented by [pre-applying an anti-piracy (AP) patch](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/ap_patching.md) before apply the translation patch.
 This happens on hardware (DS, 3DS), but not emulation (desume, melonDS)
+
+---
 
 You will need the J2P ROM, BLZ, ndstool (<https://github.com/devkitpro/ndstool>), and python. A compiled build of BLZ is provided for Windows as blz_win.exe; The scripts expect it to be named blz.exe when used.
 You will have to find a compiled ndstool or build it yourself.
