@@ -3,6 +3,7 @@ This fork of Ceris White's Joker 2 Professional repository includes a post-game 
 <img src="./Database/credits.png" width="700">
 
 [Patching Program](https://github.com/saneezore07/DQMJ2Pro_Translation/releases/tag/Patcher) <br>
+<img src="./Database/GUI_Patcher/gui.png" width="300"> <br>
 Experimental program with friendly user interface for patching your legally obtained rom. Select your rom, check which patch options you want, then run the program.
 
 Before patching: [New synthesis recipes](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/adding_new_synths.md) has been added to the game for monsters that exist in the game files, but were either wi-fi exclusive monsters or otherwise not obtainable in gameplay.
