@@ -27,6 +27,7 @@ jobs:
 
       - name: Prepare bundled tools
         run: |
+          Copy-Item Pro_Tools/blz_win.exe Pro_Tools/blz.exe
           New-Item -ItemType Directory -Force GUI/bundled/tools/windows
           Copy-Item Database/ndstool.exe GUI/bundled/tools/windows/ndstool.exe
           Copy-Item Database/windows_dlls/*.dll GUI/bundled/tools/windows/ -ErrorAction SilentlyContinue
