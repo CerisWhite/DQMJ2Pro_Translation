@@ -57,6 +57,61 @@ def find_ndstool(root, repo):
 
     raise SystemExit("ndstool not found.")
 
+AP_PATCHES = [
+    (0x00004500,
+     "AB 6C 48 42 E2 00 9B 10 0E E3 62 A1 B4 96 67 FB",
+     "00 00 9F E5 1E FF 2F E1 83 A8 00 00 07 40 2D E9"),
+    (0x00004510,
+     "F8 E8 C7 E2 A8 E1 87 76 96 9D F5 6C A0 3C F0 1A",
+     "14 00 9F E5 14 10 9F E5 00 20 91 E5 02 00 50 E1"),
+    (0x00004520,
+     "FA B2 CF B2 13 94 FE 10 9C 6B 4A 11 C4 5A 4F F3",
+     "0C 00 9F 05 00 00 81 05 07 80 BD E8 EC 90 1D 02"),
+    (0x00004530,
+     "C9 D3 5E 75 00 6E 0B C7",
+     "C8 88 1D 02 00 15 00 02"),
+    (0x000049F8,
+     "1E FF 2F E1",
+     "C3 FE FF EA"),
+]
+
+
+def _hexbytes(s):
+    return bytes.fromhex(s.replace(" ", ""))
+
+
+def apply_antipiracy_patch(input_rom, work_dir):
+    src = Path(input_rom)
+    dst = Path(work_dir) / "input_antipiracy.nds"
+    shutil.copy2(src, dst)
+
+    data = bytearray(dst.read_bytes())
+
+    print("Applying anti-piracy patch for official hardware...")
+
+    for off, old_hex, new_hex in AP_PATCHES:
+        old = _hexbytes(old_hex)
+        new = _hexbytes(new_hex)
+        cur = bytes(data[off:off + len(old)])
+
+        if cur == new:
+            print(f"  0x{off:08X}: already patched")
+            continue
+
+        if cur != old:
+            raise SystemExit(
+                f"Anti-piracy patch mismatch at 0x{off:08X}. "
+                "This ROM does not match the expected clean DQMJ2P ROM, "
+                "or it was already modified differently."
+            )
+
+        data[off:off + len(old)] = new
+        print(f"  0x{off:08X}: patched")
+
+    dst.write_bytes(data)
+    return dst
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description="DQMJ2P GUI patch backend")
     ap.add_argument("--rom", required=True)
@@ -65,6 +120,7 @@ def main(argv=None):
     ap.add_argument("--repo", default="AUTO")
 
     ap.add_argument("--new-synths", action="store_true")
+    ap.add_argument("--anti-piracy", action="store_true")
     ap.add_argument("--xp-mult", type=float, default=None)
     ap.add_argument("--xvariant-suffix", action="store_true")
     ap.add_argument("--gender-icons", action="store_true")
@@ -121,8 +177,10 @@ def main(argv=None):
     print(f"Work dir: {work}")
     print()
 
+    rom_for_extract = apply_antipiracy_patch(rom, work) if args.anti_piracy else rom
+
     run([
-        str(ndstool), "-x", str(rom),
+        str(ndstool), "-x", str(rom_for_extract),
         "-7", str(pro_rom / "arm7.bin"),
         "-9", str(pro_rom / "arm9.bin"),
         "-d", str(pro_rom / "data_dir"),

@@ -37,6 +37,7 @@ class App(tk.Tk):
         self.out_var = tk.StringVar(value=str(Path.home() / "Patched_DQMJ2P.nds"))
 
         self.new_synths_var = tk.BooleanVar(value=False)
+        self.anti_piracy_var = tk.BooleanVar(value=False)
         self.xp_mult_var = tk.BooleanVar(value=False)
         self.xp_mult_value = tk.StringVar(value="2.0")
         self.xvariant_var = tk.BooleanVar(value=False)
@@ -75,6 +76,12 @@ class App(tk.Tk):
         ).pack(anchor="w", padx=10, pady=4)
 
         ttk.Checkbutton(opts, text="Add new synthesis recipes", variable=self.new_synths_var).pack(anchor="w", padx=10, pady=3)
+
+        ttk.Checkbutton(
+            opts,
+            text="Apply anti-piracy patch for official hardware",
+            variable=self.anti_piracy_var,
+        ).pack(anchor="w", padx=10, pady=3)
 
         xp_row = ttk.Frame(opts)
         xp_row.pack(anchor="w", padx=10, pady=3)
@@ -159,6 +166,8 @@ class App(tk.Tk):
 
         if self.new_synths_var.get():
             args.append("--new-synths")
+        if self.anti_piracy_var.get():
+            args.append("--anti-piracy")
         if self.xp_mult_var.get():
             args.extend(["--xp-mult", self.xp_mult_value.get()])
         if self.xvariant_var.get():
