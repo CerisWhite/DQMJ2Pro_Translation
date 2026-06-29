@@ -35,6 +35,9 @@ jobs:
             --onefile `
             --windowed `
             --name DQMJ2Patcher `
+            --hidden-import json `
+            --hidden-import csv `
+            --hidden-import struct `
             --add-data "GUI/bundled;bundled" `
             GUI/patcher_gui.py
 
@@ -73,6 +76,9 @@ jobs:
             --onefile \
             --windowed \
             --name DQMJ2Patcher \
+            --hidden-import json \
+            --hidden-import csv \
+            --hidden-import struct \
             --add-data "GUI/bundled:bundled" \
             GUI/patcher_gui.py
 
