@@ -1,0 +1,19 @@
+
+# local ROM/build/test files
+*.nds
+*.sav
+*.dsv
+*.ml1
+GUI/bundled/
+GUI_WORK/
+Pro_ROM/
+Pro_ROM_YT/
+_roms/
+_graphics/
+Pro_Tools/Pro_ARM9.bin
+Pro_Tools/__pycache__/
+Pro_Tools/blz.exe
+DQMJ2 Pro English Save Editor*.exe
+Patched*.nds
+patched_*.nds
+j2p_youtube.nds
