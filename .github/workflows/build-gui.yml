@@ -77,7 +77,12 @@ jobs:
         run: python -m pip install pyinstaller
 
       - name: Prepare bundle
-        run: python Database/GUI_Patcher/GUI/make_bundle.py
+        run: |
+          gcc Pro_Tools/blz_linux.c -O2 -o Pro_Tools/blz.exe
+          chmod +x Pro_Tools/blz.exe
+          python Database/GUI_Patcher/GUI/make_bundle.py
+          ls -lh Database/GUI_Patcher/GUI/bundled/repo/Pro_Tools/blz*
+          file Database/GUI_Patcher/GUI/bundled/repo/Pro_Tools/blz.exe
 
       - name: Build Linux executable
         run: |
