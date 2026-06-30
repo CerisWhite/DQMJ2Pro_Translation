@@ -75,11 +75,6 @@ class App(tk.Tk):
         opts = ttk.LabelFrame(frm, text="Patch options")
         opts.grid(row=2, column=0, columnspan=3, sticky="ew", **pad)
 
-        ttk.Label(
-            opts,
-            text="Required translation patches are always applied: msg Pool Size Fix + actionhelp Message Fix"
-        ).pack(anchor="w", padx=10, pady=4)
-
         ttk.Checkbutton(opts, text="Add new synthesis recipes", variable=self.new_synths_var).pack(anchor="w", padx=10, pady=3)
 
         ttk.Checkbutton(

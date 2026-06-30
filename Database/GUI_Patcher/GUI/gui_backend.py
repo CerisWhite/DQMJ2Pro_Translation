@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import atexit
 import os
 import importlib.util
 import shutil
@@ -144,6 +145,16 @@ def main(argv=None):
     output = Path(args.output).resolve()
     work = Path(args.work).resolve()
     pro_rom = work / "Pro_ROM"
+
+    def _cleanup_work():
+        try:
+            if work.exists():
+                shutil.rmtree(work)
+                print(f"Cleaned work dir: {work}")
+        except Exception as e:
+            print(f"WARNING: failed to clean work dir {work}: {e}")
+
+    atexit.register(_cleanup_work)
 
     sys.path.insert(0, str(repo / "Pro_Tools"))
 
