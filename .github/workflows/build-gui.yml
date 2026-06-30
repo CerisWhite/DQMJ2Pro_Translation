@@ -23,7 +23,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install PyInstaller
-        run: python -m pip install pyinstaller
+        run: python -m pip install pyinstaller tkinterdnd2
 
       - name: Prepare bundled tools
         run: |
@@ -45,6 +45,7 @@ jobs:
             --onefile `
             --windowed `
             --name DQMJ2Patcher `
+            --hidden-import tkinterdnd2 `
             --hidden-import json `
             --hidden-import csv `
             --hidden-import struct `
@@ -74,7 +75,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install PyInstaller
-        run: python -m pip install pyinstaller
+        run: python -m pip install pyinstaller tkinterdnd2
 
       - name: Prepare bundle
         run: |
@@ -91,6 +92,7 @@ jobs:
             --onefile \
             --windowed \
             --name DQMJ2Patcher \
+            --hidden-import tkinterdnd2 \
             --hidden-import json \
             --hidden-import csv \
             --hidden-import struct \
@@ -152,7 +154,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install PyInstaller
-        run: python -m pip install pyinstaller
+        run: python -m pip install pyinstaller tkinterdnd2
 
       - name: Build macOS ndstool
         run: |
@@ -179,6 +181,7 @@ jobs:
             --noconfirm \
             --windowed \
             --name DQMJ2Patcher \
+            --hidden-import tkinterdnd2 \
             --add-data "Database/GUI_Patcher/GUI/bundled:bundled" \
             Database/GUI_Patcher/GUI/patcher_gui.py
 

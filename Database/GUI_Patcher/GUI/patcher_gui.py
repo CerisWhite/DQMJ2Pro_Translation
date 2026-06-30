@@ -7,6 +7,14 @@ from pathlib import Path
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 
+try:
+    from tkinterdnd2 import DND_FILES, TkinterDnD
+    TKDND_AVAILABLE = True
+except Exception:
+    DND_FILES = None
+    TkinterDnD = None
+    TKDND_AVAILABLE = False
+
 import gui_backend
 
 
@@ -30,7 +38,7 @@ class QueueWriter:
         pass
 
 
-class App(tk.Tk):
+class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
     def __init__(self):
         super().__init__()
         self.title("DQMJ2P Translation Patcher")
@@ -64,16 +72,31 @@ class App(tk.Tk):
         frm = ttk.Frame(self)
         frm.pack(fill="both", expand=True)
 
-        ttk.Label(frm, text="Clean DQMJ2P ROM:").grid(row=0, column=0, sticky="w", **pad)
-        ttk.Entry(frm, textvariable=self.rom_var).grid(row=0, column=1, sticky="ew", **pad)
-        ttk.Button(frm, text="Browse", command=self.browse_rom).grid(row=0, column=2, **pad)
+        self.drop_box = ttk.Label(
+            frm,
+            text="Drag and drop clean DQMJ2P ROM here",
+            anchor="center",
+            relief="ridge",
+            padding=18,
+        )
+        self.drop_box.grid(row=0, column=0, columnspan=3, sticky="ew", padx=10, pady=10)
 
-        ttk.Label(frm, text="Output ROM:").grid(row=1, column=0, sticky="w", **pad)
-        ttk.Entry(frm, textvariable=self.out_var).grid(row=1, column=1, sticky="ew", **pad)
-        ttk.Button(frm, text="Browse", command=self.browse_output).grid(row=1, column=2, **pad)
+        ttk.Label(frm, text="Clean DQMJ2P ROM:").grid(row=1, column=0, sticky="w", **pad)
+        self.rom_entry = ttk.Entry(frm, textvariable=self.rom_var)
+        self.rom_entry.grid(row=1, column=1, sticky="ew", **pad)
+        ttk.Button(frm, text="Browse", command=self.browse_rom).grid(row=1, column=2, **pad)
+
+        if TKDND_AVAILABLE:
+            for widget in (self.drop_box, self.rom_entry):
+                widget.drop_target_register(DND_FILES)
+                widget.dnd_bind("<<Drop>>", self.handle_rom_drop)
+
+        ttk.Label(frm, text="Output ROM:").grid(row=2, column=0, sticky="w", **pad)
+        ttk.Entry(frm, textvariable=self.out_var).grid(row=2, column=1, sticky="ew", **pad)
+        ttk.Button(frm, text="Browse", command=self.browse_output).grid(row=2, column=2, **pad)
 
         opts = ttk.LabelFrame(frm, text="Patch options")
-        opts.grid(row=2, column=0, columnspan=3, sticky="ew", **pad)
+        opts.grid(row=3, column=0, columnspan=3, sticky="ew", **pad)
 
         ttk.Checkbutton(opts, text="Add new synthesis recipes", variable=self.new_synths_var).pack(anchor="w", padx=10, pady=3)
 
@@ -101,30 +124,49 @@ class App(tk.Tk):
         ttk.Checkbutton(opts, text="Remove Synthesis Polarity Requirement", variable=self.synth_polarity_var).pack(anchor="w", padx=10, pady=3)
 
         self.run_btn = ttk.Button(frm, text="Patch ROM", command=self.start_patch)
-        self.run_btn.grid(row=3, column=0, columnspan=3, pady=10)
+        self.run_btn.grid(row=4, column=0, columnspan=3, pady=10)
 
         self.progress = ttk.Progressbar(frm, mode="indeterminate")
-        self.progress.grid(row=4, column=0, columnspan=3, sticky="ew", padx=10)
+        self.progress.grid(row=5, column=0, columnspan=3, sticky="ew", padx=10)
 
         ttk.Checkbutton(
             frm,
             text="Show command log",
             variable=self.show_log_var,
             command=self.toggle_log,
-        ).grid(row=5, column=0, sticky="w", padx=10, pady=6)
+        ).grid(row=6, column=0, sticky="w", padx=10, pady=6)
 
         self.log_frame = ttk.Frame(frm)
         self.log_text = tk.Text(self.log_frame, height=14, wrap="word")
         self.log_text.pack(fill="both", expand=True)
 
         frm.columnconfigure(1, weight=1)
-        frm.rowconfigure(6, weight=1)
+        frm.rowconfigure(7, weight=1)
 
     def toggle_log(self):
         if self.show_log_var.get():
-            self.log_frame.grid(row=6, column=0, columnspan=3, sticky="nsew", padx=10, pady=6)
+            self.log_frame.grid(row=7, column=0, columnspan=3, sticky="nsew", padx=10, pady=6)
         else:
             self.log_frame.grid_forget()
+
+    def clean_dropped_path(self, raw):
+        raw = raw.strip()
+
+        # tkinterdnd2 may wrap paths with braces if they contain spaces.
+        if raw.startswith("{") and raw.endswith("}"):
+            raw = raw[1:-1]
+
+        # If multiple files are dropped, take the first.
+        if "} {" in raw:
+            raw = raw.split("} {", 1)[0].lstrip("{").rstrip("}")
+
+        return raw.strip().strip('"').strip("'")
+
+    def handle_rom_drop(self, event):
+        path = self.clean_dropped_path(event.data)
+        if path:
+            self.rom_var.set(path)
+            self.out_var.set(str(Path(path).with_name("Patched_DQMJ2P.nds")))
 
     def browse_rom(self):
         path = filedialog.askopenfilename(
