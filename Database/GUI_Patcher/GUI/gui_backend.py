@@ -82,9 +82,12 @@ def _hexbytes(s):
     return bytes.fromhex(s.replace(" ", ""))
 
 
-def apply_antipiracy_patch(rom_path, _work_dir=None):
-    rom_path = Path(rom_path)
-    data = bytearray(rom_path.read_bytes())
+def apply_antipiracy_patch(input_rom, work_dir):
+    src = Path(input_rom)
+    dst = Path(work_dir) / "input_antipiracy.nds"
+    shutil.copy2(src, dst)
+
+    data = bytearray(dst.read_bytes())
 
     print("Applying anti-piracy patch for official hardware...")
 
@@ -100,15 +103,15 @@ def apply_antipiracy_patch(rom_path, _work_dir=None):
         if cur != old:
             raise SystemExit(
                 f"Anti-piracy patch mismatch at 0x{off:08X}. "
-                "This ROM does not match the expected bytes, "
+                "This ROM does not match the expected clean DQMJ2P ROM, "
                 "or it was already modified differently."
             )
 
         data[off:off + len(old)] = new
         print(f"  0x{off:08X}: patched")
 
-    rom_path.write_bytes(data)
-
+    dst.write_bytes(data)
+    return dst
 
 
 def main(argv=None):
@@ -176,8 +179,10 @@ def main(argv=None):
     print(f"Work dir: {work}")
     print()
 
+    rom_for_extract = apply_antipiracy_patch(rom, work) if args.anti_piracy else rom
+
     run([
-        str(ndstool), "-x", str(rom),
+        str(ndstool), "-x", str(rom_for_extract),
         "-7", str(pro_rom / "arm7.bin"),
         "-9", str(pro_rom / "arm9.bin"),
         "-d", str(pro_rom / "data_dir"),
@@ -306,9 +311,6 @@ def main(argv=None):
         "-y9", str(pro_rom / "y9.bin"),
         "-o", str(pro_rom / "logo.bin"),
     ])
-
-    if args.anti_piracy:
-        apply_antipiracy_patch(output, work)
 
     print()
     print(f"Done: {output}")
