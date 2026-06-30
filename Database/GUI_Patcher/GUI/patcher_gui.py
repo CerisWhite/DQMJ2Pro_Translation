@@ -49,8 +49,8 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.rom_var = tk.StringVar()
         self.out_var = tk.StringVar(value=str(Path.home() / "Patched_DQMJ2P.nds"))
 
-        self.new_synths_var = tk.BooleanVar(value=False)
-        self.anti_piracy_var = tk.BooleanVar(value=False)
+        self.new_synths_var = tk.BooleanVar(value=True)
+        self.anti_piracy_var = tk.BooleanVar(value=True)
         self.xp_mult_var = tk.BooleanVar(value=False)
         self.xp_mult_value = tk.StringVar(value="2.0")
         self.xvariant_var = tk.BooleanVar(value=False)
