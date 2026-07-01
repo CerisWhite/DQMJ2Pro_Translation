@@ -14,7 +14,7 @@ Database of Monster [Resistances](https://github.com/saneezore07/DQMJ2Pro_Transl
 - New synthesis recipes have been added to the game for monsters that exist in the game files, but were either wi-fi exclusive monsters or otherwise not obtainable in gameplay.
 - A user interface program has been created for a seemless patching process.
 - Anti-Piracy patching has been implemented in the patch, allow users to play on original hardware.
-- Optional QOL and gameplay changes can be provided.
+- Optional QOL and gameplay changes have be provided.
 - Game databases have been provided for synthesis, traits, skills and resistances.
 
 <details>
