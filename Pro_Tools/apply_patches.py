@@ -32,7 +32,20 @@ def _blz_run(args_extra: list, data: bytes) -> bytes:
     with tempfile.NamedTemporaryFile(suffix='.bin', delete=False) as tf:
         tf.write(data); tmp = tf.name
     try:
-        r = subprocess.run([BLZ] + args_extra + [tmp], capture_output=True)
+        creationflags = 0
+        startupinfo = None
+
+        if sys.platform.startswith("win"):
+            creationflags = getattr(subprocess, "CREATE_NO_WINDOW", 0)
+            startupinfo = subprocess.STARTUPINFO()
+            startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+
+        r = subprocess.run(
+            [BLZ] + args_extra + [tmp],
+            capture_output=True,
+            creationflags=creationflags,
+            startupinfo=startupinfo,
+        )
         if r.returncode not in (0, 1):
             sys.exit(f'blz {args_extra} failed:\n{r.stderr.decode()}')
         return Path(tmp).read_bytes()

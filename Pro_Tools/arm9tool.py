@@ -38,6 +38,15 @@ if not os.path.isfile(BLZ):
     sys.exit(f'blz binary not found at {BLZ}')
 
 
+def blz_run_hidden(args, **kwargs):
+    if sys.platform.startswith("win"):
+        kwargs.setdefault("creationflags", getattr(subprocess, "CREATE_NO_WINDOW", 0))
+        startupinfo = subprocess.STARTUPINFO()
+        startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+        kwargs.setdefault("startupinfo", startupinfo)
+    return subprocess.run(args, **kwargs)
+
+
 def decompress(src_path, dst_path):
     data = Path(src_path).read_bytes()
     if not data.endswith(NITRO_TRAILER):
@@ -53,7 +62,7 @@ def decompress(src_path, dst_path):
         tf.write(stripped)
         tmp = tf.name
     try:
-        subprocess.run([BLZ, '-d', tmp], check=True, capture_output=True)
+        blz_run_hidden([BLZ, '-d', tmp], check=True, capture_output=True)
         out = Path(tmp).read_bytes()
     finally:
         os.unlink(tmp)
@@ -84,7 +93,7 @@ def compress(src_path, dst_path):
     try:
         # -eo (optimal) gives smaller output than -en; both produce identical
         # decompressed results.
-        subprocess.run([BLZ, '-eo', tmp], check=True, capture_output=True)
+        blz_run_hidden([BLZ, '-eo', tmp], check=True, capture_output=True)
         comp_body = Path(tmp).read_bytes()
     finally:
         os.unlink(tmp)
