@@ -252,7 +252,8 @@ def main(argv=None):
     orig = ov1.stat().st_size
     dec = overlay_decompress(ov1)
 
-    apply_grow_actionhelp(dec)
+    # TEMP crash workaround: disable actionhelp growth pending proper fix.
+    # apply_grow_actionhelp(dec)
     if args.xp_mult is not None:
         apply_xp_mult(dec, args.xp_mult)
 

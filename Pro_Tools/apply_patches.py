@@ -430,7 +430,8 @@ def main():
         ov1  = files['ov0001']
         orig = ov1.stat().st_size
         dec  = overlay_decompress(ov1)
-        apply_grow_actionhelp(dec)
+        # TEMP crash workaround: disable actionhelp growth pending proper fix.
+        # apply_grow_actionhelp(dec)
         if sel('xp_mult'):       apply_xp_mult(dec, val('xp_mult'))
         if sel('scout_offense'): apply_scout_offense(dec)
         if sel('scout_penalty'): apply_scout_penalty(dec)
