@@ -6,8 +6,16 @@ This fork of Ceris White's Joker 2 Professional repository includes a post-game 
 <img src="./Database/GUI_Patcher/gui.png" width="300">
 
 Database of Monster [Synthesis](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/synthesis_database.csv) Recipes.<br>
-Databse of Monster [Stats and Traits](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/monster_database.csv).<br>
-Databse of Monster [Resistances](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/monster_resistance_database.csv).
+Database of Monster [Stats and Traits](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/monster_database.csv).<br>
+Database of Monster [Resistances](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/monster_resistance_database.csv).
+
+### Features
+- In-game menus, story dialogue, and post-game dialogue have been translated/localised from its original Japanese to English.
+- New synthesis recipes have been added to the game for monsters that exist in the game files, but were either wi-fi exclusive monsters or otherwise not obtainable in gameplay.
+- A user interface program has been created for a seemless patching process.
+- Anti-Piracy patching has been implemented in the patch, allow users to play on original hardware.
+- Optional QOL and gameplay changes can be enabled.
+- Game databases have been provided for synthesis, traits, skills and resistances.
 
 <details>
 <summary>Manually Patching the Translation</summary>
