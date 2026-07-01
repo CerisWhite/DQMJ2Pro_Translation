@@ -6564,7 +6564,7 @@ SYS_42 0x8
 SAY "{COLOR=2}It's a monument shaped like a thick{BREAK}grove. There is a hole on the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}You can put the plate{BREAK}you got in the thick grove."
+SAY "{COLOR=2}It seems the plate you got{BREAK}from Treepidation will fit."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Will you insert the grove plate?{VOICE=09}"
@@ -6667,7 +6667,7 @@ SYS_42 0x8
 SAY "{COLOR=2}It's a monument carved like the plains.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}You can fit the plate you got{BREAK}in the plains in the hole."
+SAY "{COLOR=2}It seems the plate you got{BREAK}from the Doubtback will fit."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Will you insert the plains plate?{VOICE=09}"
@@ -6770,7 +6770,7 @@ SYS_42 0x8
 SAY "{COLOR=2}It's a monument carved like a icy peak.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}It seems the plate you got{BREAK}in Iceolation will fit."
+SAY "{COLOR=2}It seems the plate you got{BREAK}from Iceolation will fit."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Insert the ice plate in the hole?{VOICE=09}"
@@ -6873,7 +6873,7 @@ SYS_42 0x8
 SAY "{COLOR=2}It's a monument carved like a crag.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}The plate you got on Cragravation seems{BREAK}to fit the hole."
+SAY "{COLOR=2}It seems the plate you got{BREAK}from Cragravation will fit."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Will you insert the crag plate?{VOICE=09}"
@@ -6976,7 +6976,7 @@ SYS_42 0x8
 SAY "{COLOR=2}It's a monument carved like the coast.{BREAK}There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}The plate you got on the Unshore{BREAK}seems to fit the hole."
+SAY "{COLOR=2}It seems the plate you got{BREAK}from Unshore will fit."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Will you insert the coast plate?{VOICE=09}"
@@ -7079,7 +7079,7 @@ SYS_42 0x8
 SAY "{COLOR=2}It's a monument carved like a giant{BREAK}lion. There is a hole in the altar."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}The plate you got in the Bemusoleum{BREAK}below seems to fit the hole."
+SAY "{COLOR=2}It seems the plate you got{BREAK}from the Bemusoleum will fit."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Will you insert the war god{BREAK}plate?{VOICE=09}"

@@ -4016,7 +4016,7 @@ SYS_42 0x8
 SAY "{COLOR=2}The flames of the bonfire dance in the cold air."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Will you take out the torch?{VOICE=09}"
+SAY "{COLOR=2}Will you take out a torch?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -5135,7 +5135,7 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}There is a fine candlestick.{BREAK}With a fire you can light it."
+SAY "{COLOR=2}There is a fine candlestick here.{BREAK}With fire, you could light it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5150,7 +5150,7 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}There is a fine candlestick.{BREAK}With a fire you can light it."
+SAY "{COLOR=2}There is a fine candlestick here.{BREAK}With fire, you could light it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Will you light it with{BREAK}the torch?{VOICE=09}"
@@ -5340,7 +5340,7 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}There is a fine candlestick.{BREAK}You could light it with a fire."
+SAY "{COLOR=2}There is a fine candlestick here.{BREAK}With fire, you could light it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5355,7 +5355,7 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x40000000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}There is a fine candlestick.{BREAK}You could light it with a fire."
+SAY "{COLOR=2}There is a fine candlestick here.{BREAK}With fire, you could light it."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{COLOR=2}Will you light it with{BREAK}the torch?{VOICE=09}"

@@ -136,7 +136,7 @@ SPAWN 0x10 L_20e8
 DATA 0x00000003
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Beastly Baboorude"
+SETNAME "Beastly Baboorood"
 SAY "{VOICE=03}K'ha-ha-ha. You're late, Incarnus.{BREAK}I've gotten tired waiting for you."
 SYS_44 0x8 
 SYS_43 0x8 
@@ -155,11 +155,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}YOU. Are you REALLY that{BREAK}Baboorude?"
+SAY "{VOICE=07}YOU! Are you REALLY the{BREAK}Baboorood I remember...?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}You're just a fast monkey that{BREAK}is only good at escaping."
+SAY "{VOICE=07}You were nothing but a quick-footed ape,{BREAK}only good at escaping and little else..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -172,7 +172,7 @@ SPAWN 0x10 L_20e8
 DATA 0x00000003
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Beastly Baboorude"
+SETNAME "Beastly Baboorood"
 SAY "{VOICE=03}K'hee-hee. While you've been dawdling,{BREAK}I've been having my fill of holy power."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -183,7 +183,7 @@ STORE 0x18 0x1 0x0 0x2 0x41b80000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
-SETNAME "Beastly Baboorude"
+SETNAME "Beastly Baboorood"
 SAY "{VOICE=03}Thanks to that, as you can tell. I{BREAK}have obtained such a fabulous body."
 SYS_44 0x8 
 SYS_43 0x8 
@@ -217,7 +217,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}So that's why we have lost our{BREAK}power."
+SAY "{VOICE=08}So that's why we have lost our{BREAK}power..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -237,11 +237,11 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Beastly Baboorude"
-SAY "{VOICE=03}K'ha-ha. I was soooo lucky to have{BREAK}stumbled my way into this place."
+SETNAME "Beastly Baboorood"
+SAY "{VOICE=03}K'ha-ha. I was soooo lucky to have{BREAK}stumbled my way into this place..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Beastly Baboorude"
+SETNAME "Beastly Baboorood"
 SAY "{VOICE=03}I will become the king of monsters{BREAK}with all this power!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -259,7 +259,7 @@ STORE 0x18 0x1 0x0 0x2 0x428e0000
 STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Beastly Baboorude"
+SETNAME "Beastly Baboorood"
 SAY "{VOICE=03}And I will change this land into a NEW{BREAK}dark world! GWA-HA-HA-HA!"
 SYS_44 0x8 
 SYS_43 0x8 
@@ -311,7 +311,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}What's the matter, brat?{BREAK}Are you too afraid to move?"
+SAY "{VOICE=07}What's the matter, brat?{BREAK}Too afraid to move?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -343,7 +343,7 @@ SAY "{VOICE=07}It's okay if you're not strong enough.{BREAK}A foe that strong is
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Just... If we showed you courage, then,{BREAK}no longer lost, you'd rise up."
+SAY "{VOICE=07}If we had teamed up as I said,{BREAK}You wouldn't be so full of fear."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -400,7 +400,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41000000
 SYS_17 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Baboorude! It is my duty to end your{BREAK}reign of destruction!"
+SAY "{VOICE=07}Baboorood! It is my duty to end your{BREAK}reign of destruction!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -414,11 +414,11 @@ STORE 0x18 0x1 0x0 0x2 0x42700000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Beastly Baboorude"
+SETNAME "Beastly Baboorood"
 SAY "{VOICE=03}K'hee-hee-hee. Fine.{BREAK}I guess you've got me there."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Beastly Baboorude"
+SETNAME "Beastly Baboorood"
 SAY "{VOICE=03}But you won't just be facing me{BREAK}as your opponent."
 SYS_44 0x8 
 SYS_43 0x8 

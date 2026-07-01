@@ -346,7 +346,7 @@ Wildcard
 
 Darck
 Magarugi
-Beastly Baboorude
+Beastly Baboorood
 Baboodread
 Zoma's Devil
 Gadis
@@ -479,8 +479,8 @@ Nemeslime
 Estark
 Dimensional Dragon
 Stella
-Baboon Beast
-Evil Beast
+Baboorood
+Baboodread
 Don Mole
 Canzar
 Harmour

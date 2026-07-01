@@ -88,7 +88,7 @@ SAY "{VOICE=07}WHAT! You met me when I{BREAK}was younger!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"
-SAY "{VOICE=07}AND you say that I shook in my boots{BREAK}before Baboorude!?"
+SAY "{VOICE=07}AND you say that I shook in my boots{BREAK}before Baboorood!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leonyx"

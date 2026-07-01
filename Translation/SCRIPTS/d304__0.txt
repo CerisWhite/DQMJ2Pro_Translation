@@ -193,19 +193,19 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{VOICE=08}Gah! Is that pipsqueak who you{BREAK}brought to me, Tiko!?"
+SAY "{VOICE=08}Gah! Is that the pipsqueak you{BREAK}were on about, Tiko!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_3fa8
 DATA 0x00000005
-SAY "{VOICE=08}Wait, SERIOUSLY? They're human! Kya-ha-{BREAK}ha! The match is as good as MINE!"
+SAY "{VOICE=08}Wait, SERIOUSLY? They're human!{BREAK}Kya-ha-ha! I've won this match!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Now, now, Kukuri.{BREAK}Let's not get ahead of ourselves."
+SAY "{VOICE=03}Now, now, Kukuri.{BREAK}Let's not get ahead of ourselves..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41a80000
@@ -230,7 +230,7 @@ STORE 0x18 0x1 0x0 0x2 0x41b00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}And you're wondering what happened{BREAK}here? Why you were chosen? I'll explain."
+SAY "{VOICE=03}I guess you're wondering what happened{BREAK}here? Why you were chosen? I'll explain."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41500000
@@ -248,11 +248,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x446d8000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}A little while ago suddenly a giant monkey{BREAK}monster appeared on our island."
+SAY "{VOICE=03}A little while ago, a giant monkey{BREAK}monster suddenly appeared on our island."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}That monster threatened our island,{BREAK}so we call them the uninvited guest."
+SAY "{VOICE=03}That monster threatened our peace,{BREAK}so we call them 'the uninvited guest'."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
@@ -260,7 +260,7 @@ SAY "{VOICE=03}Soon after he landed, he tore{BREAK}out of here, and went to the 
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}Our king lives at the heart of the island.{BREAK}The holy land, Blanc Palace."
+SAY "{VOICE=03}Our king lives at the heart of that island.{BREAK}The holy land, known as 'Blanc Palace'."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
@@ -268,7 +268,7 @@ SAY "{VOICE=03}Most-likely our power has been lost..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}No doubt by the uninvited guest causing{BREAK}disaster in the holy land."
+SAY "{VOICE=03}No doubt caused by the uninvited guest{BREAK}wrecking havoc in the holy land..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -289,7 +289,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Kukuri"
-SAY "{VOICE=08}If more devestation occurs, we'll{BREAK}lose our power to connect worlds."
+SAY "{VOICE=08}If more devastation occurs, we'll{BREAK}lose our power to connect worlds."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Kukuri"
@@ -317,11 +317,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}And so before we lose the power{BREAK}to connect worlds to each other,"
+SAY "{VOICE=03}And so, before we lose the power{BREAK}to connect worlds to each other,"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}our strategy was to scout warriors{BREAK}who would lend aid to us from the worlds!"
+SAY "{VOICE=03}...our strategy was to scout warriors from{BREAK}other worlds who would lend us aid!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41500000
@@ -342,7 +342,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40e00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}Right! And so you have been scouted{BREAK}as one of those warriors!"
+SAY "{VOICE=03}And so, you have been scouted{BREAK}as one of those warriors!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41600000
@@ -364,11 +364,11 @@ SAY "{VOICE=03}By the way, our scouters are these{BREAK}two here, Tiko and Kukur
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}They are having a little match{BREAK}between themselves."
+SAY "{VOICE=03}They are having a little match{BREAK}between themselves..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}If the one to defeat the uninvited{BREAK}guest is the warrior they chose."
+SAY "{VOICE=03}If the one to defeat the uninvited{BREAK}guest is the warrior they chose,"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41600000
@@ -386,7 +386,7 @@ STORE 0x18 0x1 0x0 0x0 0x41600000
 STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SETNAME "ELder"
-SAY "{VOICE=03}Then I promised the victor would become{BREAK}the next elder!"
+SAY "{VOICE=03}Then I vowed that the victor would become{BREAK}the next elder!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -416,7 +416,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Now, Kukuri. Introduce me to the{BREAK}warrior that you brought."
+SAY "{VOICE=03}Now, Kukuri. Please introduce me to{BREAK}the warrior you've brought."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -590,7 +590,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Ohh... He does look strong!{BREAK}Well done, Kukuri!"
+SAY "{VOICE=03}Oh my, he does look strong!{BREAK}Well done, Kukuri!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -659,7 +659,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x437a0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Leokid"
-SAY "{VOICE=07}What? You know someone who looks like{BREAK}me? But they're an ADULT me!?"
+SAY "{VOICE=07}What? You know someone who looks like{BREAK}me, but they're an ADULT me!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leokid"
@@ -736,7 +736,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Kukuri"
-SAY "{VOICE=08}Ahh! Please wait up,{BREAK}Leokid!"
+SAY "{VOICE=08}Ahh he's amazing!{BREAK}Please wait up, Leokid!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -788,7 +788,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Kukuri's done a good job.{BREAK}They might take this match."
+SAY "{VOICE=03}Kukuri's done a mighty fine job.{BREAK}They might even take this match..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -798,11 +798,11 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}WHAT! Don't be silly, elder!{BREAK}I'm sure {NAME} will do it!"
+SAY "{VOICE=08}WHAT! Don't be silly, elder!{BREAK}I'm sure {NAME} will win!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Let's go, {NAME}! Our destination,{BREAK}the holy land and the uninvited guest!"
+SAY "{VOICE=08}Let's go, {NAME}! Our destination is{BREAK}the holy land, and the uninvited guest!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"

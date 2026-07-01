@@ -3466,13 +3466,13 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40c00000
 JMP_IFNOT 0xc L_d3a0
 L_d248:
 SYS_42 0x8 
-SAY "{VOICE=07}You're the warrior Tiko brought?{BREAK}What was she thinking to choose a human?"
+SAY "{VOICE=07}You're the warrior Tiko brought?{BREAK}What was she thinking, choosing a human?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But I never thought you could{BREAK}defeat that giant monster."
+SAY "{VOICE=07}I can't quite picture you as the{BREAK}warrior who defeated those giant monsters."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}What? You're not a warrior, but a{BREAK}scout? What? Never heard of that."
+SAY "{VOICE=07}What? You're not a warrior, but a{BREAK}scout? What? I've never heard of that."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3517,10 +3517,10 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41d00000
 JMP_IFNOT 0xc L_d63c
 L_d568:
 SYS_42 0x8 
-SAY "{VOICE=08}Huff. Puff. My eyes are{BREAK}blurry, and I can't breathe."
+SAY "{VOICE=08}Huff. Puff. My eyes are blurry,{BREAK}and I can't breathe..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}We... really will disappear if{BREAK}no one defeats the uninvited guest."
+SAY "{VOICE=08}We really will disappear if{BREAK}no one defeats the uninvited guest..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3594,7 +3594,7 @@ JMP_IFNOT 0xc L_dc7c
 SAY "{VOICE=08}Thank goodness. I thought the{BREAK}shop was done for."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}There should be some items new{BREAK}to human eyes, so take your time."
+SAY "{VOICE=08}There should be some items you've{BREAK}never seen before, so take your time."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3938,7 +3938,7 @@ SYS_49 0x8
 CMP_EQ 0x18 0x0 0x42f20000 0x2 0x40000000
 JMP_IFNOT 0xc L_ebb4
 SYS_42 0x8 
-SAY "{VOICE=08}Thank you very much.{BREAK}I hope you come back."
+SAY "{VOICE=08}Thank you very much.{BREAK}Please come back soon!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

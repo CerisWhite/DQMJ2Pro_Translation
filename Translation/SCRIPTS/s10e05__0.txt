@@ -3695,7 +3695,7 @@ JMP_IFNOT 0xc L_e0b8
 L_dfe8:
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Defeating Babarood will let me{BREAK}return to the world my friend awaits."
+SAY "{VOICE=07}Defeating Baboorood will let me return{BREAK}to the world my friend awaits happy."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}Okay, let's go, {NAME}."
@@ -3759,7 +3759,7 @@ WAIT 0x10 0x2 0x40a00000
 STORE 0x18 0x1 0x0 0x2 0x41200000
 SYS_26 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The inviting door of the Pipisle{BREAK}area is open."
+SAY "{COLOR=2}The Zip Portal at Blanc Palace is now open and ready to use!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

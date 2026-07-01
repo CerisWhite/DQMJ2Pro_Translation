@@ -123,7 +123,7 @@ STORE 0x18 0x0 0x0 0x2 0x3f800000
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Oh, it's you, Tiko and {NAME}.{BREAK}How has it been?"
+SAY "{VOICE=03}Oh, it's you two, Tiko and {NAME}.{BREAK}How has it been?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -148,7 +148,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Elder. Honestly we found this monster{BREAK}collapsed outside of town."
+SAY "{VOICE=08}Elder, honestly, not great. We found this{BREAK}monster collapsed outside of town."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -192,7 +192,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Th-This is!"
+SAY "{VOICE=03}Th-This is...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -227,7 +227,7 @@ STORE 0x18 0x1 0x0 0x0 0x41200000
 SYS_53 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}This is the Incarnus!?"
+SAY "{VOICE=03}This is the Incarnus!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -258,21 +258,21 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Incarnus?"
+SAY "{VOICE=08}Incarnus...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Yes. They are a holy monster that{BREAK}have a sacred duty."
+SAY "{VOICE=03}Yes. They are a divine, holy monster{BREAK}that have a important, sacred duty."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}Their sacred duty is to wander{BREAK}the dark world where evil monsters live."
+SAY "{VOICE=03}Their sacred duty is to wander{BREAK}the dark world where evil monsters lie."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}That the incarnus sustained injury means{BREAK}it was in a fierce fight with monsters."
+SAY "{VOICE=03}That fact they are injured means they{BREAK}must've faced something truly dangerous."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -296,11 +296,11 @@ SYS_43 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Hmm. The Incarnus and the uninvited...{BREAK}I don't think it is a coincidence."
+SAY "{VOICE=03}Hmm... yes, of course.{BREAK}I don't think this is a coincidence at all."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}We'll heal the Incarnus here first{BREAK}immediately, and then ask its story."
+SAY "{VOICE=03}We'll heal the Incarnus here first{BREAK}immediately, and then ask questions."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
@@ -311,8 +311,8 @@ STORE 0x18 0x1 0x0 0x2 0x42500000
 STORE 0x18 0x1 0x3f800000 0x2 0x41700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41700000
-SETNAME "ELder"
-SAY "{VOICE=03}Okay! And now I will use a sainted soma{BREAK}to heal the Incarnus' wounds!"
+SETNAME "Elder"
+SAY "{VOICE=03}Okay! I will use a sainted soma{BREAK}to heal the Incarnus' wounds!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_1f78
@@ -340,7 +340,7 @@ WAIT 0x10 0x2 0x40a00000
 STORE 0x18 0x0 0x40c00000 0x2 0x3f800000
 WAIT 0x10 0x2 0x41700000
 SETNAME "Elder"
-SAY "{VOICE=03}I'm sorry, but could you lend{BREAK}us your aid, {NAME}?"
+SAY "{VOICE=03}I'm sorry to ask, but could you lend{BREAK}us your aid again, {NAME}?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
@@ -348,15 +348,15 @@ SAY "{VOICE=03}It is quite difficult to get the{BREAK}ingredients for a sainted 
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}I would like for you to{BREAK}gather them for us."
+SAY "{VOICE=03}I would like for you to gather them{BREAK}for us, if you would be so kind."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}I'll explain more afterwards,{BREAK}so please speak with me again."
+SAY "{VOICE=03}If you need to know what items to get,{BREAK}please, do ask me for information."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}Now please I'm counting on you!"
+SAY "{VOICE=03}Now, please, I'm counting on you!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

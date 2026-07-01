@@ -3475,7 +3475,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Somethin' fabulous is happenin' now.{BREAK}So ya can't buy anythin' now."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}When the island's at peace, I'll be{BREAK}sellin' thee good eggs so drop on by."
+SAY "{VOICE=07}When the island's at peace, I'll be{BREAK}sellin' thee good eggs, so drop on by."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

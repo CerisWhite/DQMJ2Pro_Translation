@@ -422,7 +422,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}This is the place where we live. The town{BREAK}at the center island known as Pipisle"
+SAY "{VOICE=08}This is the place where we live. The town{BREAK}on the center island, known as Pipisle."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_28b4
@@ -430,7 +430,7 @@ DATA 0x00000001
 WAIT 0x10 0x2 0x41c80000
 STORE 0x18 0x0 0x0 0x2 0x3f800000
 SETNAME "Tiko"
-SAY "{VOICE=08}It is a mysterious place. A world of{BREAK}dreams, a world of memories..."
+SAY "{VOICE=08}It's a mysterious place. A world of{BREAK}dreams, a world of memories..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
@@ -472,7 +472,7 @@ SAY "{VOICE=08}But it works out. We have the power to{BREAK}connect worlds to ea
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}It the duty of our tribe to use that{BREAK}power to guide the lost."
+SAY "{VOICE=08}It's the duty of our tribe to use that{BREAK}power to guide the lost."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_2c54
@@ -496,7 +496,7 @@ STORE 0x18 0x1 0x0 0x2 0x44044000
 SYS_33 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}But now we are losing that{BREAK}that power."
+SAY "{VOICE=08}...but now we are losing{BREAK}that power..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
@@ -530,7 +530,7 @@ STORE 0x18 0x1 0x0 0x2 0x42240000
 STORE 0x18 0x1 0x3f800000 0x2 0x40e00000
 SYS_17 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}And so! It is your job, {NAME},{BREAK}to save us in this crisis!"
+SAY "{VOICE=08}And so, it is your job, {NAME},{BREAK}to save us from this crisis!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"

@@ -139,7 +139,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}You have arrived."
+SAY "{VOICE=07}We have arrived."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -212,7 +212,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Good. And now I will break the{BREAK}barrier immediately."
+SAY "{VOICE=07}Stand back, I will now{BREAK}break the barrier."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x0
@@ -375,7 +375,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Okay, now we can go to Baboorude."
+SAY "{VOICE=07}Okay, now we can go{BREAK}and find Baboorood."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -445,7 +445,7 @@ STORE 0x18 0x1 0x0 0x2 0x44044000
 SYS_33 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leokid"
-SAY "{VOICE=07}Well, finally, I can continue on."
+SAY "{VOICE=07}Well then, finally!{BREAK}Looks like I can continue on."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -595,7 +595,7 @@ WAIT 0x10 0x2 0x42700000
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Sigh. There's nothing wrong hanging{BREAK}around humans."
+SAY "{VOICE=07}Sigh. There's nothing wrong with{BREAK}hanging around humans."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -749,11 +749,11 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}{NAME}. The presence of evil grows{BREAK}much stronger from here on."
+SAY "{VOICE=07}{NAME}. The presence of evil grows{BREAK}much stronger from here on out."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Let us take much care as we continue.{BREAK}And so I will follow after you."
+SAY "{VOICE=07}Let us take much care as we continue.{BREAK}I will be following after you."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

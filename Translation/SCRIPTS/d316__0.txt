@@ -232,7 +232,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x450f9000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
-SETNAME "Beastly Baboorude"
+SETNAME "Beastly Baboorood"
 SAY "{VOICE=03}Gwaaaaaaaah!!"
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x43650000
@@ -272,7 +272,7 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Beastly Baboorude"
+SETNAME "Beastly Baboorood"
 SAY "{VOICE=03}P-Please wait!!{BREAK}I surrender! I was wrong!"
 SYS_44 0x8 
 SYS_43 0x8 
@@ -285,7 +285,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}What?"
+SAY "{VOICE=07}What...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -296,7 +296,7 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Beastly Baboorude"
+SETNAME "Beastly Baboorood"
 SAY "{VOICE=03}I beg you! Forgive me! I'll work{BREAK}to change my ways! Come on!"
 SYS_44 0x8 
 SYS_43 0x8 
@@ -506,7 +506,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41000000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41000000
 SYS_42 0x8 
-SETNAME "Beastly Baboorude"
+SETNAME "Beastly Baboorood"
 SAY "{VOICE=03}Idiots! Prepare yourselves!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -531,7 +531,7 @@ SYS_16 0x8
 STORE 0x18 0x1 0x0 0x2 0x41b80000
 STORE 0x18 0x1 0x3f800000 0x2 0x42200000
 SYS_17 0x8 
-SETNAME "Beastly Baboorude"
+SETNAME "Beastly Baboorood"
 SAY "{VOICE=03}Take this!!"
 WAIT 0x10 0x2 0x41f00000
 STORE 0x18 0x1 0x0 0x2 0x44028000
@@ -1018,7 +1018,7 @@ SAY "{VOICE=07}I don't even know myself...{BREAK}But..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leokid"
-SAY "{VOICE=07}{NAME}... Lookin' at you{BREAK}filled me with courage."
+SAY "{VOICE=07}{NAME}... Lookin' at you{BREAK}filled me with such courage."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leokid"
@@ -1123,15 +1123,15 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41000000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Beastly Baboorude"
+SETNAME "Beastly Baboorood"
 SAY "{VOICE=03}Grah! So that sad kid from earlier{BREAK}had a little left in the tank!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Beastly Baboorude"
-SAY "{VOICE=03}In that case, I've no choice. I didn't{BREAK}want to have to use what's back there."
+SETNAME "Beastly Baboorood"
+SAY "{VOICE=03}In that case, I've no choice. I didn't{BREAK}want to have to go this far..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Beastly Baboorude"
+SETNAME "Beastly Baboorood"
 SAY "{VOICE=03}But I will use ALL the power here{BREAK}and show you my TRUE FORM!"
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1147,7 +1147,7 @@ DATA 0x00000002
 WAIT 0x10 0x2 0x41f00000
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Beastly Baboorude"
+SETNAME "Beastly Baboorood"
 SAY "{VOICE=03}Kraaaaaaaaaaaaaaaah!!!"
 WAIT 0x10 0x2 0x42700000
 SYS_43 0x8 

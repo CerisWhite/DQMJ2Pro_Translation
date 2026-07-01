@@ -498,7 +498,7 @@ SAY "{VOICE=03}Now, now, I'm sorry for surprising you.{BREAK}But as you can see,
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "King Teeny Sanguini"
-SAY "{VOICE=03}I was hiding over there by that worldly{BREAK}door that Baboorude came through."
+SAY "{VOICE=03}I was hiding over there by the worldly{BREAK}door that Baboorood came through."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -522,7 +522,7 @@ WAIT 0x10 0x2 0x41700000
 STORE 0x18 0x0 0x40a00000 0x2 0x3f800000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Well, that's what I had thought.{BREAK}So there wasn't anything to worry about."
+SAY "{VOICE=08}Just as I had thought...{BREAK}There wasn't anything to worry about!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -545,7 +545,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "King Teeny Sanguini"
-SAY "{VOICE=03}Ho-ho-ho. I see, I see.{BREAK}You've had it rough, Tiko."
+SAY "{VOICE=03}Ho-ho-ho. I see, I see.{BREAK}Thank you dear Tiko."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -590,7 +590,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x428c0000
 SYS_42 0x8 
 SETNAME "King Teeny Sanguini"
-SAY "{VOICE=03}Now, then, you have all done{BREAK}such a splendid job."
+SAY "{VOICE=03}Now then, you have all done{BREAK}such a splendid job."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "King Teeny Sanguini"
@@ -628,7 +628,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41a00000
 SETNAME "King Teeny Sanguini"
-SAY "{VOICE=03}I will open the door to Endless{BREAK}Battle and the Ultimate Scout Arena!"
+SAY "{VOICE=03}I will open the door to the Endless{BREAK}Battle and the Ultimate Scout Arena!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "King Teeny Sanguini"
@@ -646,7 +646,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "King  Teeny Sanguini"
-SAY "{VOICE=03}And as for you, Leonyx. You have{BREAK}worked hard for my sake."
+SAY "{VOICE=03}And as for you, Leokid.{BREAK}You have worked hard for my sake."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -687,11 +687,11 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "King Teeny Sanguini"
-SAY "{VOICE=03}No, you are a fine warrior.{BREAK}I will pass down something to you."
+SAY "{VOICE=03}No, no, you are a fine warrior.{BREAK}You shall be rewarded."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "King Teeny Sanguini"
-SAY "{VOICE=03}Now, I will open the door so that{BREAK}you can return to your world."
+SAY "{VOICE=03}I will open the portal so that{BREAK}you can return to your world."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -813,11 +813,11 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43780000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Leokid"
-SAY "{VOICE=07}Thanks, {NAME}.{BREAK}I opened my eyes, thanks to you."
+SAY "{VOICE=07}Thanks, {NAME}.{BREAK}My eyes are open thanks to you."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leokid"
-SAY "{VOICE=07}I wasn't judgin' humans.{BREAK}I just thought you were weak."
+SAY "{VOICE=07}I wasn't judgin' humans...{BREAK}I just thought you were weak."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -840,7 +840,7 @@ STORE 0x18 0x1 0x0 0x2 0x42ce0000
 STORE 0x18 0x1 0x3f800000 0x2 0x41f00000
 SYS_17 0x8 
 SETNAME "Leokid"
-SAY "{VOICE=07}But humans are ones that hide their{BREAK}true strength of fighting together."
+SAY "{VOICE=07}But I guess humans hide their{BREAK}true strength of fighting together."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41600000
@@ -863,7 +863,7 @@ STORE 0x18 0x1 0x0 0x0 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x437c0000
 SYS_18 0x8 
 SETNAME "Leokid"
-SAY "{VOICE=07}From now on, I will learn strength from{BREAK}and train together with them."
+SAY "{VOICE=07}From now on, I will train with,{BREAK}and learn skills from them."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leokid"
@@ -884,7 +884,7 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x42dc0000
 SYS_14 0x8 
 SETNAME "Leokid"
-SAY "{VOICE=07}See ya, {NAME}!{BREAK}Let's meet again somewhere!"
+SAY "{VOICE=07}See ya, {NAME}!{BREAK}Hopefully we meet again one day."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -917,7 +917,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "King Teeny Sanguini"
-SAY "{VOICE=03}Leonyx. You sacrificed yourself to{BREAK}save your allies. You displayed courage."
+SAY "{VOICE=03}Leokid. You sacrificed yourself to{BREAK}save your allies. You displayed courage."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41600000
@@ -1025,27 +1025,27 @@ STORE 0x18 0x1 0x3f800000 0x2 0x447d8000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}{NAME}. You've done well.{BREAK}But we must part here."
+SAY "{VOICE=07}{NAME}. You've done well.{BREAK}...but we must part here."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}But before that, will you{BREAK}hear my story?"
+SAY "{VOICE=07}But before that, there's just{BREAK}one last thing to say..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Me and my Incarnus friends are seeking{BREAK}a scout that can save that child."
+SAY "{VOICE=07}I seek a master worthy of{BREAK}entrusting my child to."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}As in earlier, if you meet that Incarnus{BREAK}I want you to reach out to them."
+SAY "{VOICE=07}If you ever meet another Incarnus,{BREAK}I ask you take good care of them."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}I am sure that you can guide that{BREAK}child onto the right path."
+SAY "{VOICE=07}I am sure that you can guide them{BREAK}onto the right path."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}And now I will return to the world{BREAK}of my friend."
+SAY "{VOICE=07}Now I shall return to my world.{BREAK}The world with my friend in."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1241,7 +1241,7 @@ STORE 0x18 0x0 0x41000000 0x2 0x3f800000
 WAIT 0x10 0x2 0x42480000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}So everyone left..."
+SAY "{VOICE=08}Huh, looks like everyone left..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41a00000
@@ -1250,7 +1250,7 @@ DATA 0x00000005
 WAIT 0x10 0x2 0x41100000
 STORE 0x18 0x0 0x40e00000 0x2 0x3f800000
 SETNAME "Tiko"
-SAY "{VOICE=08}Okay, {NAME}.{BREAK}Shall we return to town too?"
+SAY "{VOICE=08}Well then, {NAME}.{BREAK}Shall we return to town?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -1299,7 +1299,7 @@ DATA 0x00000009
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "King Teeny Sanguini"
-SAY "{VOICE=03}Yes, you shall. It would be best{BREAK}to tell the townsfolk that Pipisle is saved."
+SAY "{VOICE=03}Yes, you should. It would be best{BREAK}to tell the townsfolk that Pipisle is saved."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "King Teeny Sanguini"
@@ -1307,7 +1307,7 @@ SAY "{VOICE=03}While you do so, I will continue{BREAK}making preparations."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "King Teeny Sanguini"
-SAY "{VOICE=03}And so, {NAME}!{BREAK}We shall meet again!"
+SAY "{VOICE=03}Thank you, {NAME}!{BREAK}Please come back soon!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

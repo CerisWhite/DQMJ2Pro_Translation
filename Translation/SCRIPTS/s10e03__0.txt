@@ -5390,7 +5390,7 @@ CMP_EQ 0x18 0x0 0x42de0000 0x2 0x41000000
 JMP_IFNOT 0xc L_15180
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Now, {NAME}. We set out{BREAK}for the holy land where Babarood awaits."
+SAY "{VOICE=07}Now, {NAME}. We set out{BREAK}for the holy land where Baboorood awaits."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}But the evil presence grows{BREAK}stronger up ahead."

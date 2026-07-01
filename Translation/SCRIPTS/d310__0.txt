@@ -313,7 +313,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
 SETNAME "Leokid"
-SAY "{VOICE=07}Damn. Why...{BREAK}Is my strength not enough?"
+SAY "{VOICE=07}Damn. Why...{BREAK}Is my strength just not enough...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -514,11 +514,11 @@ SYS_B1 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}It appears the time has come{BREAK}to teach that brat... What real strength is."
+SAY "{VOICE=07}It appears the time has come{BREAK}to teach that brat what real strength is."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Unleash as much as you desire!{BREAK}Your... Monster Scout strength that is!"
+SAY "{VOICE=07}Unleash your Monster Scout strength!{BREAK}Show him who's boss!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -565,7 +565,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Leokid"
-SAY "{VOICE=07}You don't have to go overboard. A{BREAK}runt like you's not who I want for a foe."
+SAY "{VOICE=07}Don't be stupid now.{BREAK}A runt like you couldn't ever defeat him."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
