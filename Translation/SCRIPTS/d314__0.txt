@@ -343,7 +343,7 @@ SAY "{VOICE=07}It's okay if you're not strong enough.{BREAK}A foe that strong is
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Just… If we showed you courage, then,{BREAK}no longer lost, you'd rise up."
+SAY "{VOICE=07}Just... If we showed you courage, then,{BREAK}no longer lost, you'd rise up."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

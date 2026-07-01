@@ -208,7 +208,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42f00000
 SYS_17 0x8 
 SYS_42 0x8 
 SETNAME "ELder"
-SAY "{VOICE=03}Yes. That's right.{BREAK}And so the next elder will be…"
+SAY "{VOICE=03}Yes. That's right.{BREAK}And so the next elder will be..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -296,7 +296,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Umm, elder. It's about that…"
+SAY "{VOICE=08}Umm, elder. It's about that..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x3f800000
@@ -400,7 +400,7 @@ STORE 0x18 0x1 0x0 0x2 0x42740000
 STORE 0x18 0x1 0x3f800000 0x2 0x42200000
 SYS_17 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}I… Want to check out more worlds{BREAK}together with {NAME}!"
+SAY "{VOICE=08}I... Want to check out more worlds{BREAK}together with {NAME}!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

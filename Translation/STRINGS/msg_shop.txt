@@ -17,7 +17,7 @@ Synthesise
 Monster level is too low, so synthesis cannot take place.
 More {226} is required for synthesis.
 
-Left:
+R: 
 OK
 
 Select {30b}{00} skills for the new monster to inherit.

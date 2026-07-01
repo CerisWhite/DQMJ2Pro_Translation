@@ -5369,7 +5369,7 @@ SYS_42 0x8
 SAY "{VOICE=08}Something's off with everyone{BREAK}in town, squeak."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Unnnnh… It seems I too have lost my{BREAK}power, and have gotten tired, squeak."
+SAY "{VOICE=08}Unnnnh... It seems I too have lost my{BREAK}power, and have gotten tired, squeak."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

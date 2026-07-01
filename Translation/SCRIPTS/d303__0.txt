@@ -430,7 +430,7 @@ DATA 0x00000001
 WAIT 0x10 0x2 0x41c80000
 STORE 0x18 0x0 0x0 0x2 0x3f800000
 SETNAME "Tiko"
-SAY "{VOICE=08}It is a mysterious place. A world of{BREAK}dreams, a world of memories…"
+SAY "{VOICE=08}It is a mysterious place. A world of{BREAK}dreams, a world of memories..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"

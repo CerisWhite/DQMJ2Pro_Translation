@@ -4477,7 +4477,7 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40e00000
 JMP_IFNOT 0xc L_11f64
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Before I went to the land of monsters,{BREAK}I traveled with one with the same eyes as you."
+SAY "{VOICE=07}Before I went to the land of monsters,{BREAK}I traveled with one who shared your look."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}And it is clear to me. That{BREAK}you are a monster scout."
@@ -4559,7 +4559,7 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40c00000
 JMP_IFNOT 0xc L_12480
 SYS_42 0x8 
 SETNAME "Incarnus"
-SAY "{VOICE=07}Huff… Puff…"
+SAY "{VOICE=07}Huff... Puff..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

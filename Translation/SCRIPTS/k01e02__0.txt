@@ -7683,7 +7683,7 @@ SYS_44 0x8
 SAY "{VOICE=07}If this island isnae the most fearsome in the world, ma name's not Rory Bellows!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}「But ye've come this far, laddie, so ye cannae start haiverin' noo.{WAIT}{CLEAR}Go find that god beastie and wake him up!"
+SAY "{VOICE=07}But ye've come this far, laddie, so ye cannae start haiverin' noo.{WAIT}{CLEAR}Go find that god beastie and wake him up!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 

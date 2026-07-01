@@ -6241,7 +6241,7 @@ SYS_A5 0x8
 SAY "{VOICE=08}With Favorite Formations, you can register up to 9 unique parties."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Once registered, you can swap to that party immediately, overwriting the current one."
+SAY "{VOICE=08}Once registered, you can swap your party to any of your saved ones!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}We hope you'll make use of this new system."
