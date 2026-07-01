@@ -63,6 +63,30 @@ python Pro_Tools/arm9tool.py decompress Pro_ROM/arm9.bin Pro_Tools/Pro_ARM9.bin
 python Pro_Tools/performpatch.py --rom Pro_ROM
 ```
 
+<details>
+<summary>Adding new synthesis recipes</summary>
+
+```bat
+python Pro_Tools/synthesis_parser.py --in Pro_ROM/data/CombinationKindTbl.bin --out Kind.csv
+```
+```bat
+python Pro_Tools/synthesis_parser.py --in Pro_ROM/data/Combination4GTbl.bin --out 4g.csv --type 4g
+```
+```bat
+python -c "from pathlib import Path; open('Kind.csv','a',encoding='utf-8',newline='').write(''.join(Path('Database/new_synths_kind.csv').read_text(encoding='utf-8').splitlines(True)))"
+```
+```bat
+python -c "from pathlib import Path; open('4g.csv','a',encoding='utf-8',newline='').write(''.join(Path('Database/new_synths_4g.csv').read_text(encoding='utf-8').splitlines(True)))"
+```
+```bat
+python Pro_Tools/synthesis_parser.py --in Kind.csv --out Pro_ROM/data/CombinationKindTbl.bin
+```
+```bat
+python Pro_Tools/synthesis_parser.py --in 4g.csv --out Pro_ROM/data/Combination4GTbl.bin --type 4g
+```
+
+</details>
+
 ```bat
 ndstool -c Patched.nds -7 Pro_ROM\arm7.bin -9 Pro_ROM\arm9.bin -d Pro_ROM\data -y Pro_ROM\overlay -t Pro_ROM\banner.bin -h Pro_ROM\header.bin -y7 Pro_ROM\y7.bin -y9 Pro_ROM\y9.bin
 ```
