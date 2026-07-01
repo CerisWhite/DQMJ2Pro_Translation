@@ -4,21 +4,29 @@ This fork of Ceris White's Joker 2 Professional repository includes a post-game 
 
 [Patching Program](https://github.com/saneezore07/DQMJ2Pro_Translation/releases) <br>
 <img src="./Database/GUI_Patcher/gui.png" width="300"> <br>
-Experimental program with friendly user interface for patching your legally obtained rom. Select your rom, check which patch options you want, then run the program.
+[Patching Program](https://github.com/saneezore07/DQMJ2Pro_Translation/releases) with friendly user interface for patching your legally obtained rom. Select your rom, check which patch options you want, then run the program.
 
 Database of Monster [Synthesis](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/synthesis_database.csv) Recipes.<br>
 Databse of Monster [Stats and Traits](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/monster_database.csv).<br>
 Databse of Monster [Resistances](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/monster_resistance_database.csv).
 
+<details>
+<summary>Manually Patching the Translation</summary>
+
 [Manual Guide](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/step-by-step.md) to patch your legally obtained rom. [Linux](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/linux_guide.md).<br>
 Note: The windows guide tells the patcher to independently source `ndstool.exe`. Since `ndstool` is a [GPL3](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/ndstool_license_COPYING.gpl3)+[MIT](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/ndstool_license_COPYING.mit) project, a compiled windows binary has been provided in this repository, dated to March 2026. <br>
 Before patching: [New synthesis recipes](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/adding_new_synths.md) has been added to the game for monsters that exist in the game files, but were either wi-fi exclusive monsters or otherwise not obtainable in gameplay.
 
-Eugene Pool (the old man on the airship) missing is an anti-piracy measure (among others) by the developers.<br>
-This can be circumvented by [pre-applying an anti-piracy (AP) patch](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/ap_patching.md) before apply the translation patch.<br>
-This happens on hardware (DS, 3DS), but not emulation (desume, melonDS)
+Eugene Pool \(the old man on the airship\) missing is an anti-piracy measure \(among others\) by the developers.<br>
+This can be circumvented by [pre-applying an anti-piracy \(AP\) patch](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/ap_patching.md) before applying the translation patch.<br>
+This happens on hardware \(DS, 3DS\), but not emulation \(desume, melonDS\).
+
+</details>
 
 ---
+
+<details>
+<summary>Ceris White's Technical Tools</summary>
 
 You will need the J2P ROM, BLZ, ndstool (<https://github.com/devkitpro/ndstool>), and python. A compiled build of BLZ is provided for Windows as blz_win.exe; The scripts expect it to be named blz.exe when used.
 You will have to find a compiled ndstool or build it yourself.
@@ -37,3 +45,5 @@ Extract the strings and scripts, edit them, rebuild them to OUTPUT, copy the con
 Newly added:
 - apply_patches.py: Provides an interface for applying patches to the ROM directory, including the above and some other optional patches.
 - performpatch.py: Automatically applies the necessary patches + swaps the gender icons for polarity icons, then builds the translated files for you. For people who only want to play the translated game.
+
+</details>
