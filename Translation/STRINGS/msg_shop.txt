@@ -75,7 +75,7 @@ Item Vending Machine
 Item Shop
 Item Shop
 Sold Out
-Can't carry any more
+You can't carry any more.
 Missing {226}
 
 
