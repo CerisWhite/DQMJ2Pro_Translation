@@ -11,7 +11,22 @@ from pathlib import Path
 
 def run(cmd, cwd=None):
     print("> " + " ".join(map(str, cmd)), flush=True)
-    p = subprocess.run(cmd, cwd=cwd)
+
+    creationflags = 0
+    startupinfo = None
+
+    if sys.platform.startswith("win"):
+        creationflags = getattr(subprocess, "CREATE_NO_WINDOW", 0)
+        startupinfo = subprocess.STARTUPINFO()
+        startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+
+    p = subprocess.run(
+        [str(x) for x in cmd],
+        cwd=cwd,
+        creationflags=creationflags,
+        startupinfo=startupinfo,
+    )
+
     if p.returncode != 0:
         raise SystemExit(p.returncode)
 
