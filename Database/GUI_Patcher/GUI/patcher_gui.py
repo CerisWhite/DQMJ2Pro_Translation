@@ -24,6 +24,7 @@ def app_root():
     return Path(__file__).resolve().parents[3]
 
 ROOT = app_root()
+PATCHER_VERSION = "0.3.5"
 
 
 class QueueWriter:
@@ -41,13 +42,13 @@ class QueueWriter:
 class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
     def __init__(self):
         super().__init__()
-        self.title("DQMJ2P Translation Patcher")
+        self.title(f"DQMJ2P Translation Patcher v{PATCHER_VERSION}")
         self.geometry("760x620")
 
         self.log_queue = queue.Queue()
 
         self.rom_var = tk.StringVar()
-        self.out_var = tk.StringVar(value=str(Path.home() / "Patched_DQMJ2P.nds"))
+        self.out_var = tk.StringVar(value=str(Path.home() / f"DQMJ2P_Eng_Patched_v{PATCHER_VERSION}.nds"))
 
         self.new_synths_var = tk.BooleanVar(value=True)
         self.xp_mult_var = tk.BooleanVar(value=False)
@@ -160,7 +161,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         path = self.clean_dropped_path(event.data)
         if path:
             self.rom_var.set(path)
-            self.out_var.set(str(Path(path).with_name("Patched_DQMJ2P.nds")))
+            self.out_var.set(str(Path(path).with_name(f"DQMJ2P_Eng_Patched_v{PATCHER_VERSION}.nds")))
 
     def browse_rom(self):
         path = filedialog.askopenfilename(
@@ -169,7 +170,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         )
         if path:
             self.rom_var.set(path)
-            self.out_var.set(str(Path(path).with_name("Patched_DQMJ2P.nds")))
+            self.out_var.set(str(Path(path).with_name(f"DQMJ2P_Eng_Patched_v{PATCHER_VERSION}.nds")))
 
     def browse_output(self):
         path = filedialog.asksaveasfilename(

@@ -65,9 +65,10 @@ def find_ndstool(root, repo):
     if bundled.exists():
         return bundled
 
-    db_tool = repo / "Database" / "ndstool.exe"
-    if db_tool.exists():
-        return db_tool
+    if sys.platform.startswith("win"):
+        db_tool = repo / "Database" / "ndstool.exe"
+        if db_tool.exists():
+            return db_tool
 
     found = shutil.which("ndstool")
     if found:
