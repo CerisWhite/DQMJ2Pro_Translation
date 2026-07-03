@@ -24,7 +24,7 @@ def app_root():
     return Path(__file__).resolve().parents[3]
 
 ROOT = app_root()
-PATCHER_VERSION = "0.3.5"
+PATCHER_VERSION = "0.4"
 
 
 class QueueWriter:

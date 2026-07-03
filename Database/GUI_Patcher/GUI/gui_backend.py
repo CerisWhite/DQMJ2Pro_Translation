@@ -54,6 +54,32 @@ def run_py_script(script_path, argv):
         sys.argv = old_argv
 
 
+def inject_splash_assets(root, data_dir):
+    splash_dir = root / "splash"
+    if not splash_dir.is_dir():
+        print(f"WARNING: splash asset folder missing: {splash_dir}")
+        return
+
+    files = [
+        "warning.chr",
+        "warning.pal",
+        "warning_lo.scrn",
+        "warning_up.scrn",
+    ]
+
+    print("Injecting custom splash graphics...")
+
+    for name in files:
+        src = splash_dir / name
+        dst = Path(data_dir) / name
+
+        if not src.is_file():
+            raise SystemExit(f"Missing splash asset: {src}")
+
+        shutil.copy2(src, dst)
+        print(f"  {name} -> {dst}")
+
+
 def find_ndstool(root, repo):
     if sys.platform.startswith("win"):
         bundled = root / "bundled" / "tools" / "windows" / "ndstool.exe"
@@ -220,6 +246,8 @@ def main(argv=None):
         "-y9", str(pro_rom / "y9.bin"),
         "-o", str(pro_rom / "logo.bin"),
     ])
+
+    inject_splash_assets(root, pro_rom / "data_dir")
 
     print("Decompressing ARM9 for text tools...")
     run_py_script(repo / "Pro_Tools" / "arm9tool.py", [

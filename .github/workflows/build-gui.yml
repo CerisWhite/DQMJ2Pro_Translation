@@ -50,6 +50,7 @@ jobs:
             --hidden-import csv `
             --hidden-import struct `
             --add-data "Database/GUI_Patcher/GUI/bundled;bundled" `
+            --add-data "Database/GUI_Patcher/GUI/splash;splash" `
             Database/GUI_Patcher/GUI/patcher_gui.py
 
       - name: Upload Windows exe
@@ -97,6 +98,7 @@ jobs:
             --hidden-import csv \
             --hidden-import struct \
             --add-data "Database/GUI_Patcher/GUI/bundled:bundled" \
+            --add-data "Database/GUI_Patcher/GUI/splash:splash" \
             Database/GUI_Patcher/GUI/patcher_gui.py
 
       - name: Make AppImage
@@ -183,6 +185,7 @@ jobs:
             --name DQMJ2Patcher \
             --hidden-import tkinterdnd2 \
             --add-data "Database/GUI_Patcher/GUI/bundled:bundled" \
+            --add-data "Database/GUI_Patcher/GUI/splash:splash" \
             Database/GUI_Patcher/GUI/patcher_gui.py
 
       - name: Zip macOS app
