@@ -202,7 +202,7 @@ Zero Shock
 
 Envenomated
 None
-Place your new monster.
+Place new monster:
 
 OK
 Cancel

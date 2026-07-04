@@ -346,7 +346,7 @@ SAY "{VOICE=07}There was a lone monster who escaped,{BREAK}and flew off to your 
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}...and their name was{BREAK}Beastly Baboorood."
+SAY "{VOICE=07}...and their name was{BREAK}Baboorood."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41a00000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -390,7 +390,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Beastly Baboorood...{BREAK}That's the name of the uninvited guest...?"
+SAY "{VOICE=08}Baboorood...{BREAK}That's the name of the uninvited guest...?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

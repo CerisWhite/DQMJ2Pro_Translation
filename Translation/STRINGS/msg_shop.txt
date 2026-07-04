@@ -11,7 +11,7 @@ Continue
 Select Skills
 Points
 OK
-Place your new monster.
+Place new monster:
 Inherited Skills:
 Synthesise
 Monster level is too low, so synthesis cannot take place.
