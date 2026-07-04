@@ -490,14 +490,14 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
-SAY "{VOICE=03}Ho-ho-ho. Well done. I am the King{BREAK}of Pipisle, King Teeny Sanguini."
+SAY "{VOICE=03}Ho-ho-ho. Well done. I am the King{BREAK}of Pipisle, King Sanguini."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}Now, now, I'm sorry for surprising you.{BREAK}But as you can see, I am safe and sound."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}I was hiding over there by the worldly{BREAK}door that Baboorood came through."
 SYS_44 0x8 
 SYS_43 0x8 
@@ -544,7 +544,7 @@ STORE 0x18 0x1 0x0 0x2 0x42ba0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}Ho-ho-ho. I see, I see.{BREAK}Thank you dear Tiko."
 SYS_44 0x8 
 SYS_43 0x8 
@@ -589,15 +589,15 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x428c0000
 SYS_42 0x8 
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}Now then, you have all done{BREAK}such a splendid job."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}Especially you, {NAME}. I was quite{BREAK}amazed at the work you did."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}I was thinking about an award,{BREAK}but you are a monster scout, right?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -606,7 +606,7 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x422c0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41a00000
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}And so you can use the power{BREAK}known only to our tribe..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -627,11 +627,11 @@ STORE 0x18 0x1 0x0 0x2 0x42300000
 STORE 0x18 0x1 0x3f800000 0x2 0x41200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41a00000
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}I will open the door to the Endless{BREAK}Battle and the Ultimate Scout Arena!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}I'll tell you more when you are ready.{BREAK}Come back here again later."
 SYS_44 0x8 
 SYS_43 0x8 
@@ -686,11 +686,11 @@ STORE 0x18 0x1 0x0 0x2 0x42ba0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}No, no, you are a fine warrior.{BREAK}You shall be rewarded."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}I will open the portal so that{BREAK}you can return to your world."
 SYS_44 0x8 
 SYS_43 0x8 
@@ -916,7 +916,7 @@ STORE 0x18 0x1 0x0 0x2 0x42ba0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}Leokid. You sacrificed yourself to{BREAK}save your allies. You displayed courage."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -943,7 +943,7 @@ STORE 0x18 0x1 0x0 0x2 0x42de0000
 SYS_13 0x8 
 STORE 0x18 0x1 0x0 0x2 0x42de0000
 SYS_14 0x8 
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}When you face danger next,{BREAK}I am sure our power will find you."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -954,7 +954,7 @@ STORE 0x18 0x1 0x0 0x2 0x42e00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x42480000
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}Well then, farewell!"
 SYS_44 0x8 
 SYS_43 0x8 
@@ -1298,15 +1298,15 @@ SPAWN 0x10 L_676c
 DATA 0x00000009
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}Yes, you should. It would be best{BREAK}to tell the townsfolk that Pipisle is saved."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}While you do so, I will continue{BREAK}making preparations."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}Thank you, {NAME}!{BREAK}Please come back soon!"
 SYS_44 0x8 
 SYS_43 0x8 

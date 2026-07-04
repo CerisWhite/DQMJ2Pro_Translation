@@ -3330,7 +3330,7 @@ JMP_ABS 0xc L_d0a8
 L_d018:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x40000000
 JMP_IFNOT 0xc L_d0a8
-SAY "{VOICE=03}Ohh, it's you! We meet again!{BREAK}Well? Wan to go a round with me?{VOICE=09}"
+SAY "{VOICE=03}Ohh, it's you! We meet again!{BREAK}Well? fancy a battle?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d0a8
@@ -3347,10 +3347,10 @@ L_d128:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_d230
 L_d14c:
-SAY "{VOICE=03}Really! You will!"
+SAY "{VOICE=03}Really! That's great!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}It's been such a long time.{BREAK}Just go a bit easy on me."
+SAY "{VOICE=03}It's been a long time, so{BREAK}try to go easy on me..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000

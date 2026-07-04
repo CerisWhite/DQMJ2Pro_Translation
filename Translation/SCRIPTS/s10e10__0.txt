@@ -3647,7 +3647,7 @@ SYS_44 0x8
 SAY "{VOICE=08}But when Baboorood wounded the{BREAK}holy land, it began to lose life."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}It must devour a lot of life{BREAK}to grow into a tall, tall tree."
+SAY "{VOICE=08}It takes a lot of life{BREAK}to grow into a tall, tall tree."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}I beg you, traveler! Destroy Baboorood{BREAK}who wounded the holy land."
@@ -3677,13 +3677,13 @@ SYS_44 0x8
 SAY "{VOICE=08}but by your hand he's gone,{BREAK}and it has life once again."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}It must devour a lot of life{BREAK}to grow into a tall, tall tree."
+SAY "{VOICE=08}It takes a lot of life{BREAK}to grow into a tall, tall tree."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Yes. According to legend, it{BREAK}has the power to hatch eggs."
+SAY "{VOICE=08}Yes. According to legend, this tree{BREAK}has the power to hatch eggs."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}If you come across a monster{BREAK}egg, try offering it up to it."
+SAY "{VOICE=08}If you ever come across a monster{BREAK}egg, make sure to offer it up."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3716,10 +3716,10 @@ SYS_44 0x8
 SAY "{VOICE=08}It must devour a lot of life{BREAK}to grow into a tall, tall tree."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Yes. According to legend, it{BREAK}has the power to hatch eggs."
+SAY "{VOICE=08}Yes. According to legend, this tree{BREAK}has the power to hatch eggs."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}If you come across a monster{BREAK}egg, try offering it up to it."
+SAY "{VOICE=08}If you ever come across a monster{BREAK}egg, make sure to offer it up."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3743,16 +3743,16 @@ SYS_42 0x8
 CMP_EQ 0x18 0x0 0x42bc0000 0x2 0x0
 JMP_IFNOT 0xc L_e810
 SYS_01 0x18 835e837d835382cd96a2947a92750000
-SAY "{VOICE=08}It must devour a lot of life{BREAK}to grow into a tall, tall tree."
+SAY "{VOICE=08}It takes a lot of life{BREAK}to grow into a tall, tall tree."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Yes. According to legend, it{BREAK}has the power to hatch eggs."
+SAY "{VOICE=08}Yes. According to legend, this tree{BREAK}has the power to hatch eggs."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}If you come across a monster{BREAK}egg, try to offer it up to it."
+SAY "{VOICE=08}If you ever come across a monster{BREAK}egg, make sure to offer it up."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}However only 1 egg per day.{BREAK}That's the limit for this tree."
+SAY "{VOICE=08}However, offer only 1 egg per day.{BREAK}That's the limit for this tree."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_e970
@@ -3915,7 +3915,7 @@ STORE 0x18 0x0 0x42c60000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42c60000 0x2 0x0
 JMP_IFNOT 0xc L_f198
 SYS_42 0x8 
-SAY "{COLOR=2}The mysterious tree is full{BREAK}of life."
+SAY "{COLOR=2}The mysterious tree is full of life."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -3926,10 +3926,10 @@ L_f1a0:
 JMP_ABS 0xc L_f1ac
 L_f1ac:
 SYS_42 0x8 
-SAY "{COLOR=2}The mysterious tree is full of life,{BREAK}and you could offer the egg you have."
+SAY "{COLOR=2}The mysterious tree is full of life.{BREAK}You could offer the egg you have."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Your game will auto-save.{BREAK}Do you want to offer an egg?{VOICE=09}"
+SAY "{COLOR=2}Do you want to offer an egg?{BREAK}Your game will auto-save.{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 

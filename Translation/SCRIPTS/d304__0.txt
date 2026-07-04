@@ -205,7 +205,7 @@ WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Now, now, Kukuri.{BREAK}Let's not get ahead of ourselves..."
+SAY "{VOICE=03}Now, now, Kukri.{BREAK}Let's not get ahead of ourselves..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41a80000
@@ -256,19 +256,19 @@ SAY "{VOICE=03}That monster threatened our peace,{BREAK}so we call them 'the uni
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}Soon after he landed, he tore{BREAK}out of here, and went to the center island."
+SAY "{VOICE=03}Soon after he landed, he tore out of {BREAK}here, and went to the islands center."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}Our king lives at the heart of that island.{BREAK}The holy land, known as 'Blanc Palace'."
+SAY "{VOICE=03}Our king lives there, It's our{BREAK}holy land, known as 'Blanc Palace'."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}Most-likely our power has been lost..."
+SAY "{VOICE=03}...it's likely our power will soon fade out..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}No doubt caused by the uninvited guest{BREAK}wrecking havoc in the holy land..."
+SAY "{VOICE=03}No doubt caused by that creature{BREAK}wrecking havoc in our holy land..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -288,11 +288,11 @@ STORE 0x18 0x1 0x0 0x0 0x40400000
 STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Kukuri"
+SETNAME "Kukri"
 SAY "{VOICE=08}If more devastation occurs, we'll{BREAK}lose our power to connect worlds."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Kukuri"
+SETNAME "Kukri"
 SAY "{VOICE=08}And finally, the folks on this island{BREAK}will ALL disappear!"
 SYS_44 0x8 
 SYS_43 0x8 
@@ -342,7 +342,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40e00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}And so, you have been scouted{BREAK}as one of those warriors!"
+SAY "{VOICE=03}Thus, you have been scouted to{BREAK}serve as one of those warriors!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41600000
@@ -360,7 +360,7 @@ STORE 0x18 0x1 0x0 0x2 0x42200000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}By the way, our scouters are these{BREAK}two here, Tiko and Kukuri."
+SAY "{VOICE=03}By the way, our scouters are these{BREAK}two here, Tiko and Kukri."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
@@ -368,7 +368,7 @@ SAY "{VOICE=03}They are having a little match{BREAK}between themselves..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Elder"
-SAY "{VOICE=03}If the one to defeat the uninvited{BREAK}guest is the warrior they chose,"
+SAY "{VOICE=03}If the one to defeat the uninvited{BREAK}guest is the warrior they scouted,"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41600000
@@ -386,7 +386,7 @@ STORE 0x18 0x1 0x0 0x0 0x41600000
 STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SETNAME "ELder"
-SAY "{VOICE=03}Then I vowed that the victor would become{BREAK}the next elder!"
+SAY "{VOICE=03}Then I vowed that the victor would{BREAK}become the next elder!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -416,7 +416,7 @@ SYS_14 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Now, Kukuri. Please introduce me to{BREAK}the warrior you've brought."
+SAY "{VOICE=03}Now, Kukri. Please introduce me to{BREAK}the warrior you've brought here."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -428,7 +428,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
-SETNAME "Kukuri"
+SETNAME "Kukri"
 SAY "{VOICE=08}Tee-hee. That's fine.{BREAK}But don't get too depressed, Tiko."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -457,7 +457,7 @@ WAIT 0x10 0x2 0x41880000
 STORE 0x18 0x1 0x0 0x0 0x40400000
 STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
-SETNAME "Kukuri"
+SETNAME "Kukri"
 SAY "{VOICE=08}Okay, you may enter!{BREAK}Strongest swordsman in the land, Leokid!"
 SYS_44 0x8 
 SYS_43 0x8 
@@ -590,7 +590,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Oh my, he does look strong!{BREAK}Well done, Kukuri!"
+SAY "{VOICE=03}Oh my, he does look strong!{BREAK}Well done, Kukri!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -667,7 +667,7 @@ SAY "{VOICE=07}A-ha-ha! What're you sayin'!?{BREAK}You're tryin' to pull one ove
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leokid"
-SAY "{VOICE=07}I came here to test my blade as I{BREAK}was told some strong foes were here."
+SAY "{VOICE=07}I came here to test my blade as I{BREAK}was told some strong foes were here..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41500000
@@ -689,7 +689,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40e00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Leokid"
-SAY "{VOICE=07}Hey! We done with the pleasantries?{BREAK}Now hurry up an' take me to that guy."
+SAY "{VOICE=07}So are we done with the pleasantries?{BREAK}Now hurry up an' take me to that guy!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -735,7 +735,7 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Kukuri"
+SETNAME "Kukri"
 SAY "{VOICE=08}Ahh he's amazing!{BREAK}Please wait up, Leokid!"
 SYS_44 0x8 
 SYS_43 0x8 
@@ -788,7 +788,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Kukuri's done a mighty fine job.{BREAK}They might even take this match..."
+SAY "{VOICE=03}Kukri's done a mighty fine job.{BREAK}They might even take this match..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -806,7 +806,7 @@ SAY "{VOICE=08}Let's go, {NAME}! Our destination is{BREAK}the holy land, and the
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}I'll tell you how when we leave{BREAK}town! I'm not gonna lose to Kukuri!"
+SAY "{VOICE=08}I'll tell you how when we leave{BREAK}town! I'm not gonna lose to Kukri!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

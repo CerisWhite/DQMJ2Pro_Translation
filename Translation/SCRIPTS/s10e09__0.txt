@@ -3334,7 +3334,7 @@ JMP_ABS 0xc L_d0a8
 L_d018:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x40000000
 JMP_IFNOT 0xc L_d0a8
-SAY "{VOICE=03}Oh, it's you! We meet again!{BREAK}Well? Want to go a round with me?{VOICE=09}"
+SAY "{VOICE=03}Ohh, it's you! We meet again!{BREAK}Well? fancy a battle?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d0a8
@@ -3351,10 +3351,10 @@ L_d128:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_d230
 L_d14c:
-SAY "{VOICE=03}Really! You will!"
+SAY "{VOICE=03}Really! That's great!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}It's been such a long time.{BREAK}Jus go a bit easy on me."
+SAY "{VOICE=03}It's been a long time, so{BREAK}try to go easy on me..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000
@@ -4725,7 +4725,7 @@ CMP_EQ 0x18 0x0 0x42ea0000 0x2 0x0
 JMP_IFNOT 0xc L_12650
 SYS_42 0x8 
 SETNAME "Sanguini"
-SAY "{VOICE=07}First tell your story to{BREAK}King Teeny Sanguini."
+SAY "{VOICE=07}First tell your story to{BREAK}King Sanguini."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4750,7 +4750,7 @@ CMP_EQ 0x18 0x0 0x42ea0000 0x2 0x0
 JMP_IFNOT 0xc L_1279c
 SYS_42 0x8 
 SETNAME "Pink Sanguini"
-SAY "{VOICE=08}First tell your story{BREAK}to King Teeny Sanguini already."
+SAY "{VOICE=08}First tell your story{BREAK}to King Sanguini already."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4763,7 +4763,7 @@ STORE 0x18 0x1 0x0 0x2 0x429e0000
 STORE 0x18 0x1 0x3f800000 0x2 0x40000000
 SYS_28 0x8 
 SYS_42 0x8 
-SETNAME "Ping Sanguini"
+SETNAME "Pink Sanguini"
 SAY "{VOICE=08}This is the Ultimate Scout Arena{BREAK}Information desk."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
@@ -4971,16 +4971,16 @@ L_136ec:
 CMP_EQ 0x18 0x0 0x42e60000 0x0 0x42da0000
 JMP_IFNOT 0xc L_1388c
 SYS_42 0x8 
-SAY "{VOICE=07}Yaaay! We're back in our{BREAK}castle, Blanc Palace!"
+SAY "{VOICE=07}Yaaay! We're back in our castle,{BREAK}Blanc Palace!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I hid in another world together{BREAK}with King Teeny Sanguini!"
+SAY "{VOICE=07}I managed to hide away with{BREAK}King Sanguini during that ruckus."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}He was really no use,{BREAK}just wobbling and shaking all over."
+SAY "{VOICE=07}He was completely useless,{BREAK}just wobbling and shaking all over."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}But he's got a REAL scary{BREAK}face when he's mad!"
+SAY "{VOICE=07}But watch out, he's got a REAL{BREAK}scary face when he's mad!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5008,7 +5008,7 @@ SYS_7A 0x8
 STORE 0x18 0x0 0x42ec0000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42ec0000 0x2 0x0
 JMP_IFNOT 0xc L_13e10
-SAY "{VOICE=08}Okay, close your eyes.{BREAK}Here I go..."
+SAY "{VOICE=08}Okay, close your eyes...{BREAK}Here I go..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5049,7 +5049,7 @@ SYS_3E 0x8
 SYS_03 0x8 
 WAIT 0x10 0x2 0x41700000
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} was beset by fluffy fur, and forgot{BREAK}about the world of battle for a brief time."
+SAY "{COLOR=2}{NAME} was beset by fluffy fur, and{BREAK}briefly forgot about their troubles."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5064,7 +5064,7 @@ JMP_REL L_13e18
 L_13e18:
 JMP_ABS 0xc L_13e24
 L_13e24:
-SAY "{VOICE=08}Oh, really? Well, I won't push it.{BREAK}I'll do it, if you change your mind!"
+SAY "{VOICE=08}Oh, really? Well, I won't push ya.{BREAK}Come back if you change your mind!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5077,10 +5077,10 @@ L_13eac:
 JMP_ABS 0xc L_13eb8
 L_13eb8:
 SYS_42 0x8 
-SAY "{VOICE=08}Yeeeees! {NAME}!{BREAK}You look like you're quite tired,"
+SAY "{VOICE=08}Yeeeees! {NAME}!{BREAK}You look like you're quite tired..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}but, well? Want a fluff-fluff?{VOICE=09}"
+SAY "{VOICE=08}What do ya say? Want a fluff-fluff?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_139f4
@@ -5188,7 +5188,7 @@ STORE 0x18 0x1 0x3f800000 0x2 0x40000000
 STORE 0x18 0x1 0x40000000 0x2 0x41700000
 SYS_02 0x8 
 SYS_42 0x8 
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}You should tell everyone in{BREAK}Pipit town you saved the island too."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
@@ -5435,7 +5435,7 @@ SYS_03 0x8
 CMP_EQ 0x18 0x0 0x43000000 0x2 0x0
 JMP_IFNOT 0xc L_159b4
 SYS_42 0x8 
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}Ohh, thanks for coming, {NAME}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
@@ -5468,7 +5468,7 @@ L_159bc:
 JMP_ABS 0xc L_159c8
 L_159c8:
 SYS_42 0x8 
-SETNAME "King Teeny Sanguini"
+SETNAME "King Sanguini"
 SAY "{VOICE=03}Ohh, {NAME}, thanks for coming.{BREAK}Well? How does it look?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 

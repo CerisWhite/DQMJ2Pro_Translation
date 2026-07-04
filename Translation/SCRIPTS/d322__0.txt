@@ -145,7 +145,7 @@ WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x42b80000
 SYS_33 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}{NAME} recieved{BREAK}Seed of Hope ×10!"
+SAY "{COLOR=2}{NAME} obtains Seed of Hope x 10!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -183,7 +183,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42700000
 SYS_42 0x8 
 SETNAME "Elder"
-SAY "{VOICE=03}Now then, Tiko, Kukuri. I know{BREAK}you haven't forgotten the contest..."
+SAY "{VOICE=03}Now then, Tiko, Kukri. I know{BREAK}you haven't forgotten the contest..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -430,7 +430,7 @@ STORE 0x18 0x1 0x0 0x0 0x40000000
 STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Kukuri"
+SETNAME "Kukri"
 SAY "{VOICE=08}What do you mean by that...?{BREAK}You want to leave here...?"
 SYS_44 0x8 
 SYS_43 0x8 
@@ -505,7 +505,7 @@ WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_3290
 DATA 0x00000004
 SYS_42 0x8 
-SETNAME "Kukuri"
+SETNAME "Kukri"
 SAY "{VOICE=08}Oh, elder! Does that mean that{BREAK}I am the next elder?"
 SYS_44 0x8 
 SYS_43 0x8 

@@ -3328,7 +3328,7 @@ JMP_ABS 0xc L_d0a8
 L_d018:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x40000000
 JMP_IFNOT 0xc L_d0a8
-SAY "{VOICE=03}Ohh, it's you! We meet again!{BREAK}Well? Want to go a round with me?{VOICE=09}"
+SAY "{VOICE=03}Ohh, it's you! We meet again!{BREAK}Well? fancy a battle?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_d0a8
@@ -3345,10 +3345,10 @@ L_d128:
 CMP_EQ 0x18 0x0 0x42b00000 0x2 0x3f800000
 JMP_IFNOT 0xc L_d230
 L_d14c:
-SAY "{VOICE=03}Really! You will!"
+SAY "{VOICE=03}Really! That's great!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}It's been such a long time.{BREAK}Just go a bit easy on me."
+SAY "{VOICE=03}It's been a long time, so{BREAK}try to go easy on me..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 STORE 0x18 0x1 0x0 0x2 0x41d80000
@@ -4898,7 +4898,7 @@ SYS_42 0x8
 SAY "{VOICE=07}I heard! You saved our holy land{BREAK}Blanc Palace from the clutches of evil!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Thanks to you, yep, look at that!{BREAK}My power's come back too!"
+SAY "{VOICE=07}It's all thanks to you!{BREAK}Three cheers to {NAME}!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5050,7 +5050,7 @@ SYS_42 0x8
 SAY "{VOICE=03}I am the oldest of the Pipit tribe,{BREAK}second only to the elder, of course."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I am at peace knowing that{BREAK}my long life is may soon come to an end..."
+SAY "{VOICE=03}I am at peace knowing that{BREAK}my long life may soon come to an end..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=03}...but I wish to save those{BREAK}young Pipit at least."
@@ -5076,10 +5076,10 @@ SYS_42 0x8
 SAY "{VOICE=03}I am the oldest of the Pipit tribe,{BREAK}second only to the elder, of course."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}I am at peace knowing that{BREAK}my long life is may soon come to an end..."
+SAY "{VOICE=03}I am at peace knowing that{BREAK}my long life may soon come to an end..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}But I won't die until I know who wins,{BREAK}Tiko or Kukuri!"
+SAY "{VOICE=03}But I won't die until I know who wins,{BREAK}Tiko or Kukri!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5310,7 +5310,7 @@ CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x40c00000
 JMP_IFNOT 0xc L_150f0
 L_14fb0:
 SYS_42 0x8 
-SAY "{VOICE=08}Yeah, Kukuri may be a bit harsh or{BREAK}direct, but at least they do a good job."
+SAY "{VOICE=08}Yeah, Kukri may be a bit harsh or{BREAK}direct, but at least they do a good job."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Tiko works hard, tries his best,{BREAK}and uses his great luck as a weapon."
@@ -5394,10 +5394,10 @@ L_154a4:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e00000
 JMP_IFNOT 0xc L_155a0
 SYS_42 0x8 
-SAY "{VOICE=08}In the heat of battle, Kukuri ran away,{BREAK}or so I've heard, squeak."
+SAY "{VOICE=08}In the heat of battle, Kukri ran away,{BREAK}or so I've heard, squeak."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Kukuri is gonna get raked over{BREAK}the coals for that by the elder..."
+SAY "{VOICE=08}Kukri is gonna get raked over{BREAK}the coals for that by the elder..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5406,7 +5406,7 @@ L_155a0:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e80000
 JMP_IFNOT 0xc L_15690
 SYS_42 0x8 
-SAY "{VOICE=08}I'm really glad that Kukuri{BREAK}won't be the next elder, squeak."
+SAY "{VOICE=08}I'm really glad that Kukri{BREAK}won't be the next elder, squeak."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}If that had happened, then{BREAK}I'd be his servant until death."
@@ -5449,7 +5449,7 @@ SYS_44 0x8
 SAY "{VOICE=07}Leokid has already left town.{BREAK}Do your best to catch up to him."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}By the way, regarding that 'white{BREAK}beast', do you know much about it?{VOICE=09}"
+SAY "{VOICE=07}By the way, regarding that 'white{BREAK}beast', do you know much about them?{VOICE=09}"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_7A 0x8 
@@ -5459,7 +5459,7 @@ JMP_IFNOT 0xc L_15ac0
 SAY "{VOICE=07}That beast glanced at me{BREAK}and then slipped past earlier..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}If you're worried about it,{BREAK}you'd better chase after them."
+SAY "{VOICE=07}If you think you know something,{BREAK}don't hesitate, go follow them!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5654,7 +5654,7 @@ SYS_44 0x8
 SAY "{VOICE=07}What? You've actually met an{BREAK}adult Leonyx?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}Then why didn't Kukuri bring{BREAK}us back a Leonyx instead!?"
+SAY "{VOICE=07}Then why didn't Kukri bring{BREAK}us back a Leonyx instead!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -5729,7 +5729,7 @@ L_16c80:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e80000
 JMP_IFNOT 0xc L_16de0
 SYS_42 0x8 
-SAY "{VOICE=07}I'm glad King of Blanc Palace{BREAK}King Teeny Sanguini is safe now."
+SAY "{VOICE=07}I'm glad King of Blanc Palace{BREAK}King Sanguini is safe now."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}He's pretty aloof for a king, but{BREAK}even so he radiates with holy power."

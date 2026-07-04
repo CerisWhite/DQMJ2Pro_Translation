@@ -422,7 +422,7 @@ SYS_02 0x8
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}This is the place where we live. The town{BREAK}on the center island, known as Pipisle."
+SAY "{VOICE=08}So, this is our home, a town on{BREAK}the center island known as Pipisle."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_28b4
@@ -434,11 +434,11 @@ SAY "{VOICE=08}It's a mysterious place. A world of{BREAK}dreams, a world of memo
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}It has become the passage for{BREAK}travelers going to those worlds."
+SAY "{VOICE=08}We've become a passage for travelers{BREAK}going to different worlds."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}And so, aimless travelers sometimes{BREAK}get lost here in our town."
+SAY "{VOICE=08}Unfortuately, aimless travelers often{BREAK}end up getting lost in our town."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_2988
@@ -496,11 +496,11 @@ STORE 0x18 0x1 0x0 0x2 0x44044000
 SYS_33 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}...but now we are losing{BREAK}that power..."
+SAY "{VOICE=08}...but now we are losing that power..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}You saw how our town was in shambles?{BREAK}Pipisle is facing an unprecedented crisis."
+SAY "{VOICE=08}You can our town is in shambles.{BREAK}Pipisle is facing an unprecedented crisis."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40800000
@@ -530,11 +530,11 @@ STORE 0x18 0x1 0x0 0x2 0x42240000
 STORE 0x18 0x1 0x3f800000 0x2 0x40e00000
 SYS_17 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}And so, it is your job, {NAME},{BREAK}to save us from this crisis!"
+SAY "{VOICE=08}And so, it's your job {NAME},{BREAK}to save us from this crisis!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}I do not know why you were chosen,{BREAK}but you can ask the elder for details."
+SAY "{VOICE=08}As for your task, you can speak to{BREAK}the elder for details on that."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x42480000

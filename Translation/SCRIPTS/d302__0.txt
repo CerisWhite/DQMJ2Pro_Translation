@@ -646,14 +646,14 @@ STORE 0x18 0x1 0x0 0x0 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}What should I do? I don't have time{BREAK}to find another warrior."
+SAY "{VOICE=08}What should I do? I don't have time{BREAK}to find another warrior..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_3e3c
 DATA 0x00000003
 WAIT 0x10 0x2 0x420c0000
 SETNAME "Tiko"
-SAY "{VOICE=08}Hey! It'll be fine, Tiko!{BREAK}I'm sure they have what it takes!"
+SAY "{VOICE=08}Hey! It'll be fine, Tiko!{BREAK}I'm sure they have what it takes...!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41a00000
@@ -726,7 +726,7 @@ SYS_18 0x8
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8  
 SETNAME "Tiko"
-SAY "{VOICE=08}Hey, you, what's your name?{BREAK}I see. So you're {NAME}."
+SAY "{VOICE=08}Hey, you, what's your name...?{BREAK}I see, you're {NAME}."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x3f800000
@@ -737,11 +737,11 @@ STORE 0x18 0x1 0x0 0x0 0x3f800000
 STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}I beg of you, {NAME}!{BREAK}Please save the foresaken Pipit tribe!"
+SAY "{VOICE=08}I beg of you, {NAME}!{BREAK}Please save our foresaken Pipit tribe!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}Something awful has happened on our{BREAK}island - on the other side of this door!"
+SAY "{VOICE=08}Something awful has happened to our{BREAK}island, on the other side of this portal!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -793,7 +793,7 @@ SYS_17 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}For now, come to the town where we live!{BREAK}Okay, let's go!"
+SAY "{VOICE=08}For now, hurry and come to our town!{BREAK}Come on, let's go!!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

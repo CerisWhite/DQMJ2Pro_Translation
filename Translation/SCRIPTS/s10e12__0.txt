@@ -4233,7 +4233,7 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40000000
 JMP_IFNOT 0xc L_10cdc
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Leokid's pretty good,{BREAK}But I'm not gonna lose to Kukuri!"
+SAY "{VOICE=08}Leokid's pretty good,{BREAK}But I'm not gonna lose to Kukri!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Okay, let's go, {NAME}!{BREAK}To the uninvited guest in the holy land!"
@@ -4265,7 +4265,7 @@ CMP_EQ 0x18 0x0 0x42a60000 0x2 0x40c00000
 JMP_IFNOT 0xc L_10fa8
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Kukuri's an idiot to ignore such an{BREAK}important, divine beast as the Incarnus."
+SAY "{VOICE=08}Kukri's an idiot to ignore such an{BREAK}important, divine beast as the Incarnus."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}Anyway, before we go and{BREAK}defeat that horrible uninvited guest,"
@@ -4345,7 +4345,7 @@ SETNAME "Tiko"
 SAY "{VOICE=08}Oh! Welcome back, {NAME}!{BREAK}We've all been waiting for you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Since you beat Baboorood, I've{BREAK}won the match against Kukuri!"
+SAY "{VOICE=08}Since you beat Baboorood, I've{BREAK}won the match against Kukri!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}When I scouted you on the surface,{BREAK}I didn't know what to think..."
@@ -4496,7 +4496,7 @@ JMP_IFNOT 0xc L_12220
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41e00000
 JMP_IFNOT 0xc L_120f4
 SYS_42 0x8 
-SETNAME "Kukuri"
+SETNAME "Kukri"
 SAY "{VOICE=08}I can't believe you actually{BREAK}defeated that stupid monkey..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
@@ -4512,7 +4512,7 @@ L_120f4:
 CMP_EQ 0x18 0x0 0x42a60000 0x2 0x41e80000
 JMP_IFNOT 0xc L_12214
 SYS_42 0x8 
-SETNAME "Kukuri"
+SETNAME "Kukri"
 SAY "{VOICE=08}What!? If Tiko won't be the next{BREAK}next elder, then it's gotta be me, right!?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
@@ -4579,10 +4579,10 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x41200000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}There's a book, "Priest Potionpedia".{BREAK}{NAME} picked it up and read it."
+SAY "{COLOR=2}It's a book called 'Priest Potionpedia'.{BREAK}{NAME} starts to read..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}But it is too difficult, and{BREAK}{NAME} couldn't read it."
+SAY "{COLOR=2}But {NAME} cannot read the ancient script in which it is written."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4595,16 +4595,16 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x41300000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}There's a book, "Cradletree".{BREAK}{NAME} picked it up and read it."
+SAY "{COLOR=2}It's a book called 'Cradletree'.{BREAK}{NAME} starts to read..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}There is a tall tree in the world{BREAK}that gently feeds on everything."
+SAY "{COLOR=2}'A great tree once stood in this{BREAK}world, gently embracing all things.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}People created a country close{BREAK}to it, and lived peacefully."
+SAY "{COLOR=2}'People built their lives beside it,{BREAK}living in peace and plenty.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}And cradled inside the tree{BREAK}it is said much life was born."
+SAY "{COLOR=2}'Within its cradle-like warmth, it's{BREAK}said countless lives were born.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -4617,15 +4617,15 @@ SYS_49 0x8
 STORE 0x18 0x1 0x0 0x2 0x41400000
 SYS_AD 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}There's book, "Elder's Fusion Diary"{BREAK}{NAME} picked it up and read it."
+SAY "{COLOR=2}It's a book called 'Elders Fusion{BREAK}Diary'. {NAME} starts to read..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}It's been troubling recently{BREAK}I've forgotten lots of things."
+SAY "{COLOR=2}'It's been troubling times recently,{BREAK}I've forgotten lots of things.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 CMP_LT 0x18 0x0 0x42a60000 0x2 0x41e00000
 JMP_IFNOT 0xc L_12968
-SAY "{COLOR=2}Just what happens when you synthesise{BREAK}a Buffalogre and a Mandrake Marshal?"
+SAY "{COLOR=2}'Just what happens when you synthesise{BREAK}a Buffalogre and a Mandrake Marshal?'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_12ab8
@@ -4634,13 +4634,13 @@ JMP_REL L_12970
 L_12970:
 JMP_ABS 0xc L_1297c
 L_1297c:
-SAY "{COLOR=2}Just what happens when you synthesise{BREAK}a Buffalogre and a Mandrake Marshal?"
+SAY "{COLOR=2}'Just what happens when you synthesise{BREAK}a Buffalogre and a Mandrake Marshal?'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}Wait, or did I forget the result{BREAK}of a Hyperanemon and a Kaurigon!"
+SAY "{COLOR=2}'Wait, or did I forget the result{BREAK}of a Hyperanemon and a Kapurigon!'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{COLOR=2}I feel like something incredible{BREAK}would result. I really am getting old."
+SAY "{COLOR=2}'I feel like something incredible{BREAK}would result. I really am getting old.'"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_12ab8

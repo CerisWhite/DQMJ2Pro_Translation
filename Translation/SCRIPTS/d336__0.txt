@@ -60,7 +60,7 @@ STORE 0x18 0x0 0x0 0x2 0x3f800000
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
 SETNAME "Tiko"
-SAY "{VOICE=08}Tee-hee-hee. Surprised?"
+SAY "{VOICE=08}Tee-hee-hee. Surprised?{BREAK}It's beautiful, right?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
