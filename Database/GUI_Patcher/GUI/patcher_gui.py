@@ -8,6 +8,7 @@ import webbrowser
 import threading
 from pathlib import Path
 import tkinter as tk
+import tkinter.font as tkfont
 from tkinter import filedialog, messagebox, ttk
 
 try:
@@ -27,7 +28,7 @@ def app_root():
     return Path(__file__).resolve().parents[3]
 
 ROOT = app_root()
-PATCHER_VERSION = "0.5.1"
+PATCHER_VERSION = "0.5.2"
 
 def open_url(url):
     if sys.platform.startswith("linux"):
@@ -71,28 +72,73 @@ def configure_linux_appimage_scaling(root):
     if not (sys.platform.startswith("linux") and getattr(sys, "frozen", False)):
         return
 
+    def detect_font():
+        # KDE: "Noto Sans,10,-1,5,50,0,0,0,0,0"
+        for cmd in (
+            ["kreadconfig6", "--file", "kdeglobals", "--group", "General", "--key", "font"],
+            ["kreadconfig5", "--file", "kdeglobals", "--group", "General", "--key", "font"],
+        ):
+            try:
+                out = subprocess.check_output(cmd, text=True, stderr=subprocess.DEVNULL).strip()
+                if out:
+                    parts = out.split(",")
+                    if len(parts) >= 2:
+                        return parts[0], int(float(parts[1]))
+            except Exception:
+                pass
+
+        # GTK/GNOME: "'Noto Sans 10'"
+        try:
+            out = subprocess.check_output(
+                ["gsettings", "get", "org.gnome.desktop.interface", "font-name"],
+                text=True,
+                stderr=subprocess.DEVNULL,
+            ).strip().strip("'")
+            if out:
+                name, size = out.rsplit(" ", 1)
+                return name, int(float(size))
+        except Exception:
+            pass
+
+        return None, 10
+
     try:
-        out = subprocess.check_output(
-            ["xrdb", "-query"],
-            text=True,
-            stderr=subprocess.DEVNULL,
-        )
-        dpi = None
-        for line in out.splitlines():
-            if line.startswith("Xft.dpi:"):
-                dpi = float(line.split(":", 1)[1].strip())
-                break
+        # Avoid AppImage/KDE DPI blowups. Then set actual font sizes manually.
+        root.tk.call("tk", "scaling", 1.0)
 
-        if dpi is None:
-            return
+        family, size = detect_font()
+        size = max(8, min(size, 12))
 
-        # Tk scaling is pixels per point. 96 DPI = 1.333...
-        scale = dpi / 72.0
+        for name in (
+            "TkDefaultFont",
+            "TkTextFont",
+            "TkMenuFont",
+            "TkCaptionFont",
+            "TkSmallCaptionFont",
+            "TkIconFont",
+            "TkTooltipFont",
+        ):
+            try:
+                f = tkfont.nametofont(name)
+                if family:
+                    f.configure(family=family)
+                f.configure(size=size)
+            except Exception:
+                pass
 
-        # Respect normal system DPI, but prevent KDE/AppImage blowups.
-        scale = max(1.0, min(scale, 1.4))
+        try:
+            heading = tkfont.nametofont("TkHeadingFont")
+            if family:
+                heading.configure(family=family)
+            heading.configure(size=size, weight="bold")
+        except Exception:
+            pass
 
-        root.tk.call("tk", "scaling", scale)
+        try:
+            fixed = tkfont.nametofont("TkFixedFont")
+            fixed.configure(size=size)
+        except Exception:
+            pass
     except Exception:
         pass
 
@@ -125,13 +171,13 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.new_synths_var = tk.BooleanVar(value=True)
         self.xp_mult_var = tk.BooleanVar(value=False)
         self.xp_mult_value = tk.StringVar(value="2.0")
-        self.xvariant_var = tk.BooleanVar(value=False)
-        self.gender_icons_var = tk.BooleanVar(value=False)
-        self.scout_offense_var = tk.BooleanVar(value=False)
-        self.scout_penalty_var = tk.BooleanVar(value=False)
+        self.xvariant_var = tk.BooleanVar(value=True)
+        self.gender_icons_var = tk.BooleanVar(value=True)
+        self.scout_offense_var = tk.BooleanVar(value=True)
+        self.scout_penalty_var = tk.BooleanVar(value=True)
         self.synth_level_var = tk.BooleanVar(value=False)
         self.synth_level_value = tk.StringVar(value="10")
-        self.synth_polarity_var = tk.BooleanVar(value=False)
+        self.synth_polarity_var = tk.BooleanVar(value=True)
 
         self.show_log_var = tk.BooleanVar(value=False)
 
