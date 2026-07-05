@@ -2,6 +2,7 @@
 import contextlib
 import queue
 import sys
+import webbrowser
 import threading
 from pathlib import Path
 import tkinter as tk
@@ -24,7 +25,7 @@ def app_root():
     return Path(__file__).resolve().parents[3]
 
 ROOT = app_root()
-PATCHER_VERSION = "0.4"
+PATCHER_VERSION = "0.5"
 
 
 class QueueWriter:
@@ -51,6 +52,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.out_var = tk.StringVar(value=str(Path.home() / f"DQMJ2P_Eng_Patched_v{PATCHER_VERSION}.nds"))
 
         self.new_synths_var = tk.BooleanVar(value=True)
+        self.anti_piracy_var = tk.BooleanVar(value=True)
         self.xp_mult_var = tk.BooleanVar(value=False)
         self.xp_mult_value = tk.StringVar(value="2.0")
         self.xvariant_var = tk.BooleanVar(value=False)
@@ -100,6 +102,30 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
 
         ttk.Checkbutton(opts, text="Add new synthesis recipes", variable=self.new_synths_var).pack(anchor="w", padx=10, pady=3)
 
+        ap_frame = ttk.Frame(opts)
+        ap_frame.pack(anchor="w", pady=(4, 0))
+
+        ttk.Checkbutton(
+            ap_frame,
+            text="Apply Anti-Piracy patch to play on official hardware.",
+            variable=self.anti_piracy_var,
+        ).pack(side="left")
+
+        r4_link = ttk.Label(
+            ap_frame,
+            text="> Read this if you are playing on R4 <",
+            cursor="hand2",
+            foreground="blue",
+            font=("", 9, "bold"),
+        )
+        r4_link.pack(side="left", padx=(6, 0))
+        r4_link.bind(
+            "<Button-1>",
+            lambda _e: webbrowser.open(
+                "https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/playing_on_r4.md"
+            ),
+        )
+
 
         xp_row = ttk.Frame(opts)
         xp_row.pack(anchor="w", padx=10, pady=3)
@@ -131,16 +157,31 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             command=self.toggle_log,
         ).grid(row=6, column=0, sticky="w", padx=10, pady=6)
 
+        release_link = ttk.Label(
+            frm,
+            text="Check for the Latest Release",
+            cursor="hand2",
+            foreground="blue",
+            font=("", 9, "bold"),
+        )
+        release_link.grid(row=7, column=0, columnspan=3, sticky="w", padx=10, pady=(0, 6))
+        release_link.bind(
+            "<Button-1>",
+            lambda _e: webbrowser.open(
+                "https://github.com/saneezore07/DQMJ2Pro_Translation/releases"
+            ),
+        )
+
         self.log_frame = ttk.Frame(frm)
         self.log_text = tk.Text(self.log_frame, height=14, wrap="word")
         self.log_text.pack(fill="both", expand=True)
 
         frm.columnconfigure(1, weight=1)
-        frm.rowconfigure(7, weight=1)
+        frm.rowconfigure(8, weight=1)
 
     def toggle_log(self):
         if self.show_log_var.get():
-            self.log_frame.grid(row=7, column=0, columnspan=3, sticky="nsew", padx=10, pady=6)
+            self.log_frame.grid(row=8, column=0, columnspan=3, sticky="nsew", padx=10, pady=6)
         else:
             self.log_frame.grid_forget()
 
@@ -199,8 +240,9 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             messagebox.showerror("Missing output", "Choose an output .nds path.")
             return
 
-        args = ["--rom", rom, "--output", out, "--anti-piracy"]
-
+        args = ["--rom", rom, "--output", out]
+        if self.anti_piracy_var.get():
+            args.append("--anti-piracy")
         if self.new_synths_var.get():
             args.append("--new-synths")
         if self.xp_mult_var.get():
