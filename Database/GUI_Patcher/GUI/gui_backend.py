@@ -157,6 +157,34 @@ def apply_antipiracy_patch(input_rom, work_dir):
     return dst
 
 
+
+def apply_overlay4_antipiracy_patch(ov4_path, overlay_decompress, overlay_compress):
+    ov4_path = Path(ov4_path)
+    if not ov4_path.is_file():
+        raise SystemExit(f"overlay_0004.bin not found: {ov4_path}")
+
+    print("Applying anti-piracy patch to overlay_0004...")
+
+    dec = overlay_decompress(ov4_path)
+
+    if len(dec) < 0x1F8:
+        raise SystemExit("overlay_0004.bin is smaller than expected after decompression")
+
+    ptr_154 = dec[0x154:0x158]
+    ptr_1f4 = dec[0x1F4:0x1F8]
+
+    old_150 = dec[0x150:0x154]
+    old_1f0 = dec[0x1F0:0x1F4]
+
+    dec[0x150:0x154] = ptr_154
+    dec[0x1F0:0x1F4] = ptr_1f4
+
+    print(f"  overlay_0004 +0x150: {old_150.hex(' ')} -> {ptr_154.hex(' ')}")
+    print(f"  overlay_0004 +0x1F0: {old_1f0.hex(' ')} -> {ptr_1f4.hex(' ')}")
+
+    ov4_path.write_bytes(overlay_compress(bytes(dec)))
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description="DQMJ2P GUI patch backend")
     ap.add_argument("--rom", required=True)
@@ -232,7 +260,7 @@ def main(argv=None):
     print(f"Work dir: {work}")
     print()
 
-    rom_for_extract = apply_antipiracy_patch(rom, work) if args.anti_piracy else rom
+    rom_for_extract = rom
 
     run([
         str(ndstool), "-x", str(rom_for_extract),
@@ -353,6 +381,16 @@ def main(argv=None):
             "--out", pro_rom / "data_dir" / "Combination4GTbl.bin",
             "--type", "4g",
         ])
+
+    if args.anti_piracy:
+        ov4 = pro_rom / "overlay_dir" / "overlay_0004.bin"
+        y9 = pro_rom / "y9.bin"
+        if not ov4.is_file() or not y9.is_file():
+            raise SystemExit("overlay_0004.bin or y9.bin not found")
+        orig = ov4.stat().st_size
+        apply_overlay4_antipiracy_patch(ov4, overlay_decompress, overlay_compress)
+        if ov4.stat().st_size != orig:
+            update_y9(y9, 4, ov4.stat().st_size)
 
     print("Rebuilding ROM...")
     run([
