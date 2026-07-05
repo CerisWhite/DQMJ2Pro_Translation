@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import contextlib
+import os
 import queue
 import sys
 import subprocess
@@ -26,39 +27,56 @@ def app_root():
     return Path(__file__).resolve().parents[3]
 
 ROOT = app_root()
-
-def open_url(url):
-    try:
-        if sys.platform.startswith("linux"):
-            subprocess.Popen(["xdg-open", url])
-            return
-        webbrowser.open(url)
-    except Exception:
-        try:
-            webbrowser.open(url)
-        except Exception:
-            pass
-
 PATCHER_VERSION = "0.5"
 
+def open_url(url):
+    if sys.platform.startswith("linux"):
+        env = dict(os.environ)
 
-class QueueWriter:
-    def __init__(self, q):
-        self.q = q
+        # AppImage/PyInstaller can poison launched desktop apps with bundled libs.
+        for key in (
+            "LD_LIBRARY_PATH",
+            "PYTHONHOME",
+            "PYTHONPATH",
+            "APPDIR",
+            "APPIMAGE",
+            "ARGV0",
+        ):
+            env.pop(key, None)
 
-    def write(self, text):
-        if text:
-            self.q.put(text)
+        for cmd in (
+            ["xdg-open", url],
+            ["gio", "open", url],
+        ):
+            try:
+                subprocess.Popen(
+                    cmd,
+                    env=env,
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL,
+                    start_new_session=True,
+                )
+                return
+            except Exception:
+                pass
 
-    def flush(self):
+    try:
+        webbrowser.open(url)
+    except Exception:
         pass
 
 
 class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
     def __init__(self):
         super().__init__()
+        try:
+            # Prevent oversized fonts/widgets on some Linux desktops/AppImage setups.
+            self.tk.call("tk", "scaling", 1.0)
+        except Exception:
+            pass
         self.title(f"DQMJ2P Translation Patcher v{PATCHER_VERSION}")
         self.geometry("760x620")
+        self.minsize(720, 560)
 
         self.log_queue = queue.Queue()
 
