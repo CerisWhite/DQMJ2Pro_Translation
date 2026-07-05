@@ -107,7 +107,7 @@ def configure_linux_appimage_scaling(root):
         root.tk.call("tk", "scaling", 1.0)
 
         family, size = detect_font()
-        size = max(8, min(size, 12))
+        size = max(8, min(size + 4, 16))
 
         for name in (
             "TkDefaultFont",
