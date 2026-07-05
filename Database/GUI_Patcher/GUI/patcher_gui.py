@@ -2,6 +2,7 @@
 import contextlib
 import queue
 import sys
+import subprocess
 import webbrowser
 import threading
 from pathlib import Path
@@ -25,6 +26,19 @@ def app_root():
     return Path(__file__).resolve().parents[3]
 
 ROOT = app_root()
+
+def open_url(url):
+    try:
+        if sys.platform.startswith("linux"):
+            subprocess.Popen(["xdg-open", url])
+            return
+        webbrowser.open(url)
+    except Exception:
+        try:
+            webbrowser.open(url)
+        except Exception:
+            pass
+
 PATCHER_VERSION = "0.5"
 
 
@@ -121,7 +135,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         r4_link.pack(side="left", padx=(6, 0))
         r4_link.bind(
             "<Button-1>",
-            lambda _e: webbrowser.open(
+            lambda _e: open_url(
                 "https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/playing_on_r4.md"
             ),
         )
@@ -167,7 +181,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         release_link.grid(row=7, column=0, columnspan=3, sticky="w", padx=10, pady=(0, 6))
         release_link.bind(
             "<Button-1>",
-            lambda _e: webbrowser.open(
+            lambda _e: open_url(
                 "https://github.com/saneezore07/DQMJ2Pro_Translation/releases"
             ),
         )
