@@ -66,12 +66,26 @@ def open_url(url):
         pass
 
 
+
+class QueueWriter:
+    def __init__(self, q):
+        self.q = q
+
+    def write(self, text):
+        if text:
+            self.q.put(text)
+
+    def flush(self):
+        pass
+
+
 class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
     def __init__(self):
         super().__init__()
         try:
-            # Prevent oversized fonts/widgets on some Linux desktops/AppImage setups.
-            self.tk.call("tk", "scaling", 1.0)
+            # Prevent oversized fonts/widgets on some Linux AppImage setups only.
+            if sys.platform.startswith("linux") and getattr(sys, "frozen", False):
+                self.tk.call("tk", "scaling", 1.2)
         except Exception:
             pass
         self.title(f"DQMJ2P Translation Patcher v{PATCHER_VERSION}")
@@ -84,7 +98,6 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.out_var = tk.StringVar(value=str(Path.home() / f"DQMJ2P_Eng_Patched_v{PATCHER_VERSION}.nds"))
 
         self.new_synths_var = tk.BooleanVar(value=True)
-        self.anti_piracy_var = tk.BooleanVar(value=True)
         self.xp_mult_var = tk.BooleanVar(value=False)
         self.xp_mult_value = tk.StringVar(value="2.0")
         self.xvariant_var = tk.BooleanVar(value=False)
@@ -133,31 +146,6 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         opts.grid(row=3, column=0, columnspan=3, sticky="ew", **pad)
 
         ttk.Checkbutton(opts, text="Add new synthesis recipes", variable=self.new_synths_var).pack(anchor="w", padx=10, pady=3)
-
-        ap_frame = ttk.Frame(opts)
-        ap_frame.pack(anchor="w", pady=(4, 0))
-
-        ttk.Checkbutton(
-            ap_frame,
-            text="Apply Anti-Piracy patch to play on official hardware.",
-            variable=self.anti_piracy_var,
-        ).pack(side="left")
-
-        r4_link = ttk.Label(
-            ap_frame,
-            text="> Read this if you are playing on R4 <",
-            cursor="hand2",
-            foreground="blue",
-            font=("", 9, "bold"),
-        )
-        r4_link.pack(side="left", padx=(6, 0))
-        r4_link.bind(
-            "<Button-1>",
-            lambda _e: open_url(
-                "https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/playing_on_r4.md"
-            ),
-        )
-
 
         xp_row = ttk.Frame(opts)
         xp_row.pack(anchor="w", padx=10, pady=3)
@@ -272,9 +260,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             messagebox.showerror("Missing output", "Choose an output .nds path.")
             return
 
-        args = ["--rom", rom, "--output", out]
-        if self.anti_piracy_var.get():
-            args.append("--anti-piracy")
+        args = ["--rom", rom, "--output", out, "--anti-piracy"]
         if self.new_synths_var.get():
             args.append("--new-synths")
         if self.xp_mult_var.get():
