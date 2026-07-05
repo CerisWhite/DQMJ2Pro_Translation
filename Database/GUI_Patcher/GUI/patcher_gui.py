@@ -67,6 +67,36 @@ def open_url(url):
 
 
 
+def configure_linux_appimage_scaling(root):
+    if not (sys.platform.startswith("linux") and getattr(sys, "frozen", False)):
+        return
+
+    try:
+        out = subprocess.check_output(
+            ["xrdb", "-query"],
+            text=True,
+            stderr=subprocess.DEVNULL,
+        )
+        dpi = None
+        for line in out.splitlines():
+            if line.startswith("Xft.dpi:"):
+                dpi = float(line.split(":", 1)[1].strip())
+                break
+
+        if dpi is None:
+            return
+
+        # Tk scaling is pixels per point. 96 DPI = 1.333...
+        scale = dpi / 72.0
+
+        # Respect normal system DPI, but prevent KDE/AppImage blowups.
+        scale = max(1.0, min(scale, 1.4))
+
+        root.tk.call("tk", "scaling", scale)
+    except Exception:
+        pass
+
+
 class QueueWriter:
     def __init__(self, q):
         self.q = q
@@ -82,12 +112,7 @@ class QueueWriter:
 class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
     def __init__(self):
         super().__init__()
-        try:
-            # Prevent oversized fonts/widgets on some Linux AppImage setups only.
-            if sys.platform.startswith("linux") and getattr(sys, "frozen", False):
-                self.tk.call("tk", "scaling", 1.2)
-        except Exception:
-            pass
+        configure_linux_appimage_scaling(self)
         self.title(f"DQMJ2P Translation Patcher v{PATCHER_VERSION}")
         self.geometry("760x620")
         self.minsize(720, 560)
