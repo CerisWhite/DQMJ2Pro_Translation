@@ -1,8 +1,13 @@
 name: Build GUI Patcher
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
   push:
+    tags:
+      - "gui-v*"
     paths:
       - "Database/GUI_Patcher/GUI/**"
       - "Pro_Tools/**"
@@ -17,6 +22,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Read patcher version
+        id: version
+        shell: bash
+        run: |
+          VERSION=$(python - <<'PY'
+import re
+from pathlib import Path
+s = Path("Database/GUI_Patcher/GUI/patcher_gui.py").read_text()
+print("v" + re.search(r'PATCHER_VERSION = "([^"]+)"', s).group(1))
+PY
+          )
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -26,6 +44,7 @@ jobs:
         run: python -m pip install pyinstaller tkinterdnd2
 
       - name: Prepare bundled tools
+        shell: pwsh
         run: |
           Copy-Item Pro_Tools/blz_win.exe Pro_Tools/blz.exe
           New-Item -ItemType Directory -Force Database/GUI_Patcher/GUI/bundled/tools/windows
@@ -33,10 +52,7 @@ jobs:
           Copy-Item Database/windows_dlls/*.dll Database/GUI_Patcher/GUI/bundled/tools/windows/ -ErrorAction SilentlyContinue
 
       - name: Prepare bundle
-        run: |
-          gcc Pro_Tools/blz_linux.c -O2 -o Pro_Tools/blz.exe
-          chmod +x Pro_Tools/blz.exe
-          python Database/GUI_Patcher/GUI/make_bundle.py
+        run: python Database/GUI_Patcher/GUI/make_bundle.py
 
       - name: Build Windows exe
         run: |
@@ -53,17 +69,36 @@ jobs:
             --add-data "Database/GUI_Patcher/GUI/splash;splash" `
             Database/GUI_Patcher/GUI/patcher_gui.py
 
-      - name: Upload Windows exe
+      - name: Rename Windows release asset
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force release-assets
+          Copy-Item dist/DQMJ2Patcher.exe "release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-windows.exe"
+
+      - name: Upload Windows artifact
         uses: actions/upload-artifact@v4
         with:
-          name: DQMJ2Patcher-windows-x86_64
-          path: dist/DQMJ2Patcher.exe
+          name: DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-windows.exe
+          path: release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-windows.exe
 
   linux:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
+
+      - name: Read patcher version
+        id: version
+        shell: bash
+        run: |
+          VERSION=$(python - <<'PY'
+import re
+from pathlib import Path
+s = Path("Database/GUI_Patcher/GUI/patcher_gui.py").read_text()
+print("v" + re.search(r'PATCHER_VERSION = "([^"]+)"', s).group(1))
+PY
+          )
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Install system deps
         run: |
@@ -135,20 +170,32 @@ jobs:
             https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage
           chmod +x appimagetool-x86_64.AppImage
 
-          ARCH=x86_64 ./appimagetool-x86_64.AppImage AppDir DQMJ2Patcher-x86_64.AppImage
+          ARCH=x86_64 ./appimagetool-x86_64.AppImage AppDir DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-linux.AppImage
 
       - name: Upload Linux AppImage
         uses: actions/upload-artifact@v4
         with:
-          name: DQMJ2Patcher-linux-x86_64-AppImage
-          path: DQMJ2Patcher-x86_64.AppImage
-
+          name: DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-linux.AppImage
+          path: DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-linux.AppImage
 
   macos:
     runs-on: macos-latest
 
     steps:
       - uses: actions/checkout@v4
+
+      - name: Read patcher version
+        id: version
+        shell: bash
+        run: |
+          VERSION=$(python - <<'PY'
+import re
+from pathlib import Path
+s = Path("Database/GUI_Patcher/GUI/patcher_gui.py").read_text()
+print("v" + re.search(r'PATCHER_VERSION = "([^"]+)"', s).group(1))
+PY
+          )
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -184,17 +231,43 @@ jobs:
             --windowed \
             --name DQMJ2Patcher \
             --hidden-import tkinterdnd2 \
+            --hidden-import json \
+            --hidden-import csv \
+            --hidden-import struct \
             --add-data "Database/GUI_Patcher/GUI/bundled:bundled" \
             --add-data "Database/GUI_Patcher/GUI/splash:splash" \
             Database/GUI_Patcher/GUI/patcher_gui.py
 
       - name: Zip macOS app
         run: |
-          cd dist
-          ditto -c -k --sequesterRsrc --keepParent DQMJ2Patcher.app DQMJ2Patcher-macOS.zip
+          mkdir -p release-assets
+          ditto -c -k --sequesterRsrc --keepParent dist/DQMJ2Patcher.app release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-macos.zip
 
       - name: Upload macOS app
         uses: actions/upload-artifact@v4
         with:
-          name: DQMJ2Patcher-macOS
-          path: dist/DQMJ2Patcher-macOS.zip
+          name: DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-macos.zip
+          path: release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-macos.zip
+
+  publish-release:
+    name: Publish GitHub Release assets
+    needs: [windows, linux, macos]
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/gui-v')
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download built assets
+        uses: actions/download-artifact@v4
+        with:
+          path: release-assets
+          merge-multiple: true
+
+      - name: Publish assets to release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "DQMJ2P Patcher ${TAG#gui-}" --notes ""
+          gh release upload "$TAG" release-assets/* --clobber
