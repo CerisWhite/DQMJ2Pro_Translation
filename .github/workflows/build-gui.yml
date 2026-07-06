@@ -26,13 +26,7 @@ jobs:
         id: version
         shell: bash
         run: |
-          VERSION=$(python - <<'PY'
-import re
-from pathlib import Path
-s = Path("Database/GUI_Patcher/GUI/patcher_gui.py").read_text()
-print("v" + re.search(r'PATCHER_VERSION = "([^"]+)"', s).group(1))
-PY
-          )
+          VERSION=$(python -c 'import re; from pathlib import Path; s=Path("Database/GUI_Patcher/GUI/patcher_gui.py").read_text(); print("v"+re.search(r"PATCHER_VERSION = \"([^\"]+)\"", s).group(1))')
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Set up Python
@@ -91,13 +85,7 @@ PY
         id: version
         shell: bash
         run: |
-          VERSION=$(python - <<'PY'
-import re
-from pathlib import Path
-s = Path("Database/GUI_Patcher/GUI/patcher_gui.py").read_text()
-print("v" + re.search(r'PATCHER_VERSION = "([^"]+)"', s).group(1))
-PY
-          )
+          VERSION=$(python -c 'import re; from pathlib import Path; s=Path("Database/GUI_Patcher/GUI/patcher_gui.py").read_text(); print("v"+re.search(r"PATCHER_VERSION = \"([^\"]+)\"", s).group(1))')
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Install system deps
@@ -188,13 +176,7 @@ PY
         id: version
         shell: bash
         run: |
-          VERSION=$(python - <<'PY'
-import re
-from pathlib import Path
-s = Path("Database/GUI_Patcher/GUI/patcher_gui.py").read_text()
-print("v" + re.search(r'PATCHER_VERSION = "([^"]+)"', s).group(1))
-PY
-          )
+          VERSION=$(python -c 'import re; from pathlib import Path; s=Path("Database/GUI_Patcher/GUI/patcher_gui.py").read_text(); print("v"+re.search(r"PATCHER_VERSION = \"([^\"]+)\"", s).group(1))')
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Set up Python
