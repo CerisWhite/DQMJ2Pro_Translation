@@ -253,7 +253,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             text="Check for the Latest Release",
             cursor="hand2",
             foreground="blue",
-            font=("", 9, "bold"),
+            font=(tkfont.nametofont("TkDefaultFont").cget("family"), tkfont.nametofont("TkDefaultFont").cget("size"), "bold"),
         )
         release_link.grid(row=7, column=0, columnspan=3, sticky="w", padx=10, pady=(0, 6))
         release_link.bind(
