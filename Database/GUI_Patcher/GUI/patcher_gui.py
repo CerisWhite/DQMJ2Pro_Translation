@@ -282,7 +282,6 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             ("Generate spoiler file", self.randomizer_spoiler_var),
             ("Allow Flee/Scout for randomised battles", self.randomizer_allow_flee_var),
             ("Exclude 0-XP battle entries", self.randomizer_remove_zero_xp_var),
-            ("Randomise battle XP rewards", self.randomizer_xp_var),
             ("Stronger randomised monsters (150% stats)", self.randomizer_stronger_var),
             ("No flee challenge", self.randomizer_no_flee_var),
         ):

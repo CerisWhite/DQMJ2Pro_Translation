@@ -102,19 +102,36 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, config: ProRando
     shuffled = pool[:]
     random.shuffle(shuffled)
 
+    spoiler_lines = []
     out_entries = [bytes(e) for e in entries]
-    for dst_i, new_entry in zip(valid_indices, shuffled):
+    changed = 0
+
+    for dst_i, old_entry, new_entry in zip(valid_indices, [bytes(entries[i]) for i in valid_indices], shuffled):
+        old_id = struct.unpack("<H", old_entry[0:2])[0]
+        new_id = struct.unpack("<H", new_entry[0:2])[0]
+        old_xp = int.from_bytes(old_entry[40:43], "little")
+        new_xp = int.from_bytes(new_entry[40:43], "little")
+
+        if old_entry != new_entry:
+            changed += 1
+
+        spoiler_lines.append(
+            f"Entry {dst_i:04d}: monster {old_id} -> {new_id}, XP {old_xp} -> {new_xp}\n"
+        )
         out_entries[dst_i] = new_entry
 
     path.write_bytes(header + b"".join(out_entries))
 
     log(f"Randomized battle monster table: {len(valid_indices)} entries from {num_entries} total")
+    log(f"Changed battle monster entries: {changed}")
 
     if config.generate_spoiler:
         output_dir.mkdir(parents=True, exist_ok=True)
         spoiler = output_dir / f"randomizer_spoiler_{config.seed}.txt"
         spoiler.write_text(f"Randomization Seed: {config.seed}\n", encoding="utf-8")
         _write_spoiler(spoiler, f"BtlEnmyPrm2 entries randomized: {len(valid_indices)} / {num_entries}\n")
+        _write_spoiler(spoiler, f"BtlEnmyPrm2 entries changed: {changed}\n\n")
+        _write_spoiler(spoiler, "".join(spoiler_lines))
         log(f"Spoiler file: {spoiler}")
 
 
