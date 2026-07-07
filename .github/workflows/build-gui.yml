@@ -59,8 +59,10 @@ jobs:
             --hidden-import json `
             --hidden-import csv `
             --hidden-import struct `
+            --hidden-import randomizer.pro_randomizer `
             --add-data "Database/GUI_Patcher/GUI/bundled;bundled" `
             --add-data "Database/GUI_Patcher/GUI/splash;splash" `
+            --add-data "Database/GUI_Patcher/GUI/randomizer;randomizer" `
             Database/GUI_Patcher/GUI/patcher_gui.py
 
       - name: Rename Windows release asset
@@ -120,8 +122,10 @@ jobs:
             --hidden-import json \
             --hidden-import csv \
             --hidden-import struct \
+            --hidden-import randomizer.pro_randomizer \
             --add-data "Database/GUI_Patcher/GUI/bundled:bundled" \
             --add-data "Database/GUI_Patcher/GUI/splash:splash" \
+            --add-data "Database/GUI_Patcher/GUI/randomizer:randomizer" \
             Database/GUI_Patcher/GUI/patcher_gui.py
 
       - name: Make AppImage
@@ -216,8 +220,10 @@ jobs:
             --hidden-import json \
             --hidden-import csv \
             --hidden-import struct \
+            --hidden-import randomizer.pro_randomizer \
             --add-data "Database/GUI_Patcher/GUI/bundled:bundled" \
             --add-data "Database/GUI_Patcher/GUI/splash:splash" \
+            --add-data "Database/GUI_Patcher/GUI/randomizer:randomizer" \
             Database/GUI_Patcher/GUI/patcher_gui.py
 
       - name: Zip macOS app
