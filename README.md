@@ -16,12 +16,14 @@ Database of Monster [Resistances](https://github.com/saneezore07/DQMJ2Pro_Transl
 - Anti-Piracy patching has been implemented in the patch, allowing users to play on original hardware.
 - Optional QOL and gameplay changes have be provided.
 - Game databases have been provided for synthesis, traits, skills and resistances.
+- Game randomiser, with rank/family/size filtering, XP randomisation, and challenge options.
 
 ### Credits
 **Technical Development:**
 - Ceris White: Creation of the python toolkit used for ROM modification and English text injection.
 - Saneezore: Creation of the Patcher graphic user interface.
-- Mow: Implementation of the overlay 4 anti-piracy patch.<br>
+- Mow: Implementation of the overlay 4 anti-piracy patch.
+- WireOn: Whose work on their [DQMJ2 randomiser](https://github.com/Wire0n-misc/dqmj2-randomizer) was adapted for this project.<br>
 
 **Translation and Localisation:**
 - Ceris White, Ilario, Reflex: Importing of existing English text and translation of game menus.
