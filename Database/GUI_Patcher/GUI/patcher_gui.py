@@ -179,6 +179,16 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.synth_level_value = tk.StringVar(value="10")
         self.synth_polarity_var = tk.BooleanVar(value=False)
 
+        self.randomizer_enabled_var = tk.BooleanVar(value=False)
+        self.randomizer_monsters_var = tk.BooleanVar(value=True)
+        self.randomizer_seed_value = tk.StringVar(value="0")
+        self.randomizer_spoiler_var = tk.BooleanVar(value=True)
+        self.randomizer_allow_flee_var = tk.BooleanVar(value=True)
+        self.randomizer_remove_zero_xp_var = tk.BooleanVar(value=True)
+        self.randomizer_xp_var = tk.BooleanVar(value=False)
+        self.randomizer_stronger_var = tk.BooleanVar(value=False)
+        self.randomizer_no_flee_var = tk.BooleanVar(value=False)
+
         self.show_log_var = tk.BooleanVar(value=False)
 
         self.build_ui()
@@ -213,8 +223,16 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         ttk.Entry(frm, textvariable=self.out_var).grid(row=2, column=1, sticky="ew", **pad)
         ttk.Button(frm, text="Browse", command=self.browse_output).grid(row=2, column=2, **pad)
 
-        opts = ttk.LabelFrame(frm, text="Patch options")
-        opts.grid(row=3, column=0, columnspan=3, sticky="ew", **pad)
+        tabs = ttk.Notebook(frm)
+        tabs.grid(row=3, column=0, columnspan=3, sticky="nsew", **pad)
+
+        patch_tab = ttk.Frame(tabs)
+        rand_tab = ttk.Frame(tabs)
+        tabs.add(patch_tab, text="Patch Options")
+        tabs.add(rand_tab, text="Randomizer")
+
+        opts = ttk.LabelFrame(patch_tab, text="Patch options")
+        opts.pack(fill="both", expand=True, padx=8, pady=8)
 
         ttk.Checkbutton(opts, text="Add new synthesis recipes", variable=self.new_synths_var).pack(anchor="w", padx=10, pady=3)
 
@@ -234,6 +252,45 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         ttk.Entry(level_row, textvariable=self.synth_level_value, width=5).pack(side="left", padx=6)
 
         ttk.Checkbutton(opts, text="Remove Synthesis Polarity Requirement", variable=self.synth_polarity_var).pack(anchor="w", padx=10, pady=3)
+
+        rand = ttk.LabelFrame(rand_tab, text="Randomiser")
+        rand.pack(fill="both", expand=True, padx=8, pady=8)
+
+        ttk.Checkbutton(
+            rand,
+            text="Enable randomiser",
+            variable=self.randomizer_enabled_var,
+            command=self.toggle_randomizer_controls,
+        ).pack(anchor="w", padx=10, pady=3)
+
+        self.randomizer_widgets = []
+
+        w = ttk.Checkbutton(rand, text="Randomise battle monsters", variable=self.randomizer_monsters_var)
+        w.pack(anchor="w", padx=24, pady=3)
+        self.randomizer_widgets.append(w)
+
+        seed_row = ttk.Frame(rand)
+        seed_row.pack(anchor="w", padx=10, pady=3)
+        ttk.Label(seed_row, text="Seed:").pack(side="left")
+        seed_entry = ttk.Entry(seed_row, textvariable=self.randomizer_seed_value, width=12)
+        seed_entry.pack(side="left", padx=6)
+        seed_note = ttk.Label(seed_row, text="0 = random seed")
+        seed_note.pack(side="left")
+        self.randomizer_widgets.extend([seed_entry, seed_note])
+
+        for text, var in (
+            ("Generate spoiler file", self.randomizer_spoiler_var),
+            ("Allow Flee/Scout for randomised battles", self.randomizer_allow_flee_var),
+            ("Exclude 0-XP battle entries", self.randomizer_remove_zero_xp_var),
+            ("Randomise battle XP rewards", self.randomizer_xp_var),
+            ("Stronger randomised monsters (150% stats)", self.randomizer_stronger_var),
+            ("No flee challenge", self.randomizer_no_flee_var),
+        ):
+            w = ttk.Checkbutton(rand, text=text, variable=var)
+            w.pack(anchor="w", padx=24, pady=3)
+            self.randomizer_widgets.append(w)
+
+        self.toggle_randomizer_controls()
 
         self.run_btn = ttk.Button(frm, text="Patch ROM", command=self.start_patch)
         self.run_btn.grid(row=4, column=0, columnspan=3, pady=10)
@@ -269,6 +326,14 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
 
         frm.columnconfigure(1, weight=1)
         frm.rowconfigure(8, weight=1)
+
+    def toggle_randomizer_controls(self):
+        state = "normal" if self.randomizer_enabled_var.get() else "disabled"
+        for widget in getattr(self, "randomizer_widgets", []):
+            try:
+                widget.configure(state=state)
+            except Exception:
+                pass
 
     def toggle_log(self):
         if self.show_log_var.get():
@@ -348,6 +413,30 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             args.extend(["--synthesis-level", self.synth_level_value.get()])
         if self.synth_polarity_var.get():
             args.append("--synthesis-polarity")
+
+        if self.randomizer_enabled_var.get() and self.randomizer_monsters_var.get():
+            seed = self.randomizer_seed_value.get().strip() or "0"
+            try:
+                int(seed)
+            except ValueError:
+                messagebox.showerror("Invalid seed", "Randomizer seed must be a whole number.")
+                return
+
+            args.append("--randomizer-monsters")
+            args.extend(["--randomizer-seed", seed])
+
+            if self.randomizer_spoiler_var.get():
+                args.append("--randomizer-spoiler")
+            if self.randomizer_allow_flee_var.get():
+                args.append("--randomizer-allow-flee")
+            if self.randomizer_remove_zero_xp_var.get():
+                args.append("--randomizer-remove-zero-xp")
+            if self.randomizer_xp_var.get():
+                args.append("--randomizer-xp")
+            if self.randomizer_stronger_var.get():
+                args.append("--randomizer-stronger")
+            if self.randomizer_no_flee_var.get():
+                args.append("--randomizer-no-flee")
 
         self.log_text.delete("1.0", "end")
         self.append_log("> gui_backend " + " ".join(args) + "\n\n")
