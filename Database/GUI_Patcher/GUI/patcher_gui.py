@@ -188,6 +188,9 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.randomizer_xp_var = tk.BooleanVar(value=False)
         self.randomizer_stronger_var = tk.BooleanVar(value=False)
         self.randomizer_no_flee_var = tk.BooleanVar(value=False)
+        self.randomizer_level_up_mode = tk.StringVar(value="none")
+        self.randomizer_level_up_variance = tk.StringVar(value="140")
+        self.randomizer_skill_points_mode = tk.StringVar(value="none")
 
         self.show_log_var = tk.BooleanVar(value=False)
 
@@ -287,6 +290,40 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         ):
             w = ttk.Checkbutton(rand, text=text, variable=var)
             w.pack(anchor="w", padx=24, pady=3)
+            self.randomizer_widgets.append(w)
+
+        level_frame = ttk.LabelFrame(rand, text="Level Up XP")
+        level_frame.pack(fill="x", padx=24, pady=(10, 3))
+        self.randomizer_widgets.append(level_frame)
+
+        for text, value in (
+            ("Do not randomise level XP", "none"),
+            ("Swap XP curves", "swap"),
+            ("Randomise XP curves", "random"),
+        ):
+            w = ttk.Radiobutton(level_frame, text=text, variable=self.randomizer_level_up_mode, value=value)
+            w.pack(anchor="w", padx=8, pady=2)
+            self.randomizer_widgets.append(w)
+
+        variance_row = ttk.Frame(level_frame)
+        variance_row.pack(anchor="w", padx=8, pady=3)
+        variance_label = ttk.Label(variance_row, text="XP variance %:")
+        variance_label.pack(side="left")
+        variance_entry = ttk.Entry(variance_row, textvariable=self.randomizer_level_up_variance, width=6)
+        variance_entry.pack(side="left", padx=6)
+        self.randomizer_widgets.extend([variance_row, variance_label, variance_entry])
+
+        skill_frame = ttk.LabelFrame(rand, text="Skill Points")
+        skill_frame.pack(fill="x", padx=24, pady=(10, 3))
+        self.randomizer_widgets.append(skill_frame)
+
+        for text, value in (
+            ("Do not randomise skill points", "none"),
+            ("Swap skill point levels", "swap"),
+            ("Randomise skill points", "random"),
+        ):
+            w = ttk.Radiobutton(skill_frame, text=text, variable=self.randomizer_skill_points_mode, value=value)
+            w.pack(anchor="w", padx=8, pady=2)
             self.randomizer_widgets.append(w)
 
         self.toggle_randomizer_controls()
@@ -413,7 +450,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         if self.synth_polarity_var.get():
             args.append("--synthesis-polarity")
 
-        if self.randomizer_enabled_var.get() and self.randomizer_monsters_var.get():
+        if self.randomizer_enabled_var.get():
             seed = self.randomizer_seed_value.get().strip() or "0"
             try:
                 int(seed)
@@ -421,8 +458,10 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
                 messagebox.showerror("Invalid seed", "Randomizer seed must be a whole number.")
                 return
 
-            args.append("--randomizer-monsters")
             args.extend(["--randomizer-seed", seed])
+
+            if self.randomizer_monsters_var.get():
+                args.append("--randomizer-monsters")
 
             if self.randomizer_spoiler_var.get():
                 args.append("--randomizer-spoiler")
@@ -436,6 +475,26 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
                 args.append("--randomizer-stronger")
             if self.randomizer_no_flee_var.get():
                 args.append("--randomizer-no-flee")
+
+            level_up_mode = self.randomizer_level_up_mode.get()
+            skill_points_mode = self.randomizer_skill_points_mode.get()
+
+            if level_up_mode != "none":
+                variance = self.randomizer_level_up_variance.get().strip() or "140"
+                try:
+                    variance_i = int(variance)
+                except ValueError:
+                    messagebox.showerror("Invalid variance", "Level Up XP variance must be a whole number.")
+                    return
+                if variance_i < 100 or variance_i > 300:
+                    messagebox.showerror("Invalid variance", "Level Up XP variance must be between 100 and 300.")
+                    return
+
+                args.extend(["--randomizer-level-up", level_up_mode])
+                args.extend(["--randomizer-level-up-variance", str(variance_i)])
+
+            if skill_points_mode != "none":
+                args.extend(["--randomizer-skill-points", skill_points_mode])
 
         self.log_text.delete("1.0", "end")
         self.append_log("> gui_backend " + " ".join(args) + "\n\n")
