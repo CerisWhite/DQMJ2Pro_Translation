@@ -287,8 +287,6 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, conf
         spoiler = output_dir / f"randomizer_spoiler_{config.seed}.txt"
 
         header = [
-            f"Randomization Seed: {config.seed}",
-            "",
             "--- Battle Monster Randomisation ---",
             f"BtlEnmyPrm2 entries randomized: {len(valid_indices)} / {num_entries}",
             f"Replacement candidate pool: {len(candidate_indices)} entries",
@@ -351,8 +349,6 @@ def randomize_battle_xp_only(data_dir: Path, output_dir: Path, config: ProRandom
         output_dir.mkdir(parents=True, exist_ok=True)
         spoiler = output_dir / f"randomizer_spoiler_{config.seed}.txt"
         text = "\n".join([
-            f"Randomization Seed: {config.seed}",
-            "",
             "--- Battle XP Randomisation ---",
             f"BtlEnmyPrm2 XP entries randomized: {changed} / {num_entries}",
             "",

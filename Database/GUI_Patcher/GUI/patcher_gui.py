@@ -244,7 +244,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         patch_tab = ttk.Frame(tabs)
         rand_tab = ttk.Frame(tabs)
         tabs.add(patch_tab, text="Patch Options")
-        tabs.add(rand_tab, text="Randomizer")
+        tabs.add(rand_tab, text="Randomiser")
 
         opts = ttk.LabelFrame(patch_tab, text="Patch options")
         opts.pack(fill="both", expand=True, padx=8, pady=8)
@@ -408,6 +408,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         frm.rowconfigure(8, weight=1)
 
     def toggle_randomizer_controls(self):
+        self.update_randomised_output_name()
         state = "normal" if self.randomizer_enabled_var.get() else "disabled"
         for widget in getattr(self, "randomizer_widgets", []):
             try:
@@ -439,6 +440,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         if path:
             self.rom_var.set(path)
             self.out_var.set(str(Path(path).with_name(f"DQMJ2P_Eng_Patched_v{PATCHER_VERSION}.nds")))
+            self.update_randomised_output_name()
 
     def browse_rom(self):
         path = filedialog.askopenfilename(
@@ -448,6 +450,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         if path:
             self.rom_var.set(path)
             self.out_var.set(str(Path(path).with_name(f"DQMJ2P_Eng_Patched_v{PATCHER_VERSION}.nds")))
+            self.update_randomised_output_name()
 
     def browse_output(self):
         path = filedialog.asksaveasfilename(
@@ -462,6 +465,23 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.log_text.insert("end", text)
         self.log_text.see("end")
 
+
+
+    def update_randomised_output_name(self):
+        out = self.out_var.get().strip()
+        if not out:
+            return
+
+        out_path = Path(out)
+        plain = f"DQMJ2P_Eng_Patched_v{PATCHER_VERSION}.nds"
+        rand = f"DQMJ2P_Eng_Patched_Randomised_v{PATCHER_VERSION}.nds"
+
+        if self.randomizer_enabled_var.get():
+            if out_path.name == plain:
+                self.out_var.set(str(out_path.with_name(rand)))
+        else:
+            if out_path.name == rand:
+                self.out_var.set(str(out_path.with_name(plain)))
 
     def start_patch(self):
         rom = self.rom_var.get().strip()
