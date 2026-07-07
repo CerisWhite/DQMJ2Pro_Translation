@@ -286,6 +286,12 @@ def run_pro_randomizer(pro_rom: Path, output_dir: Path, repo: Path, config: ProR
     log("Running DQMJ2P randomizer...")
     log(f"Seed: {seed}")
 
+    if config.generate_spoiler:
+        Path(output_dir).mkdir(parents=True, exist_ok=True)
+        spoiler = Path(output_dir) / f"randomizer_spoiler_{seed}.txt"
+        if not spoiler.exists():
+            _write_spoiler(spoiler, f"Randomization Seed: {seed}\n")
+
     did_anything = False
 
     if config.randomize_monsters:
