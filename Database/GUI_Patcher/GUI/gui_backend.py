@@ -189,6 +189,43 @@ def _csv_set(value):
     return {x.strip() for x in str(value).split(",") if x.strip()}
 
 
+
+def append_randomizer_settings_summary(path, args, seed):
+    lines = [
+        "",
+        "--- Patcher Settings ---",
+        "Patch options:",
+        "- Anti-piracy: on",
+        f"- New synthesis recipes: {'on' if args.new_synths else 'off'}",
+        f"- X/XY monster suffixes: {'on' if args.xvariant_suffix else 'off'}",
+        f"- Gender icons: {'on' if args.gender_icons else 'off'}",
+        f"- XP multiplier: {'on' if bool(args.xp_mult) else 'off'}",
+        f"- Scout offense boost: {'on' if args.scout_offense else 'off'}",
+        f"- Scout penalty changes: {'on' if args.scout_penalty else 'off'}",
+        f"- Synthesis level changes: {'on' if args.synthesis_level else 'off'}",
+        f"- Synthesis polarity changes: {'on' if args.synthesis_polarity else 'off'}",
+        "",
+        "Randomiser settings:",
+        f"- Seed: {seed}",
+        f"- Battle monsters: {'on' if args.randomizer_monsters else 'off'}",
+        f"- Battle XP rewards: {'on' if args.randomizer_xp else 'off'}",
+        f"- Spoiler log: {'on' if args.randomizer_spoiler else 'off'}",
+        f"- Allow Flee/Scout: {'on' if args.randomizer_allow_flee else 'off'}",
+        f"- Stronger monsters: {'on' if args.randomizer_stronger else 'off'}",
+        f"- No flee: {'on' if args.randomizer_no_flee else 'off'}",
+        f"- Level Up XP mode: {args.randomizer_level_up}",
+        f"- Level Up XP variance: {args.randomizer_level_up_variance}",
+        f"- Skill Points mode: {args.randomizer_skill_points}",
+        f"- Excluded ranks: {args.randomizer_rank_excludes or 'none'}",
+        f"- Excluded families: {args.randomizer_family_excludes or 'none'}",
+        f"- Excluded sizes: {args.randomizer_size_excludes or 'none'}",
+        "- 0-XP battle entries: always skipped",
+        "",
+    ]
+
+    with open(path, "a", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description="DQMJ2P GUI patch backend")
     ap.add_argument("--rom", required=True)
@@ -414,28 +451,37 @@ def main(argv=None):
         sys.path.insert(0, str(root))
         from randomizer.pro_randomizer import ProRandomizerConfig, run_pro_randomizer
 
+        randomizer_config = ProRandomizerConfig(
+            seed=args.randomizer_seed,
+            generate_spoiler=args.randomizer_spoiler,
+            randomize_monsters=args.randomizer_monsters,
+            allow_flee_scout=args.randomizer_allow_flee,
+            remove_zero_xp=True,
+            randomize_xp=args.randomizer_xp,
+            stronger_monsters=args.randomizer_stronger,
+            no_flee=args.randomizer_no_flee,
+            level_up_mode=args.randomizer_level_up,
+            level_up_variance=args.randomizer_level_up_variance,
+            skill_points_mode=args.randomizer_skill_points,
+            rank_excludes=_csv_set(args.randomizer_rank_excludes),
+            family_excludes=_csv_set(args.randomizer_family_excludes),
+            size_excludes=_csv_set(args.randomizer_size_excludes),
+        )
+
         run_pro_randomizer(
             pro_rom,
             output.parent,
             repo,
-            ProRandomizerConfig(
-                seed=args.randomizer_seed,
-                generate_spoiler=args.randomizer_spoiler,
-                randomize_monsters=args.randomizer_monsters,
-                allow_flee_scout=args.randomizer_allow_flee,
-                remove_zero_xp=True,
-                randomize_xp=args.randomizer_xp,
-                stronger_monsters=args.randomizer_stronger,
-                no_flee=args.randomizer_no_flee,
-                level_up_mode=args.randomizer_level_up,
-                level_up_variance=args.randomizer_level_up_variance,
-                skill_points_mode=args.randomizer_skill_points,
-                rank_excludes=_csv_set(args.randomizer_rank_excludes),
-                family_excludes=_csv_set(args.randomizer_family_excludes),
-                size_excludes=_csv_set(args.randomizer_size_excludes),
-            ),
+            randomizer_config,
             log=print,
         )
+
+        if args.randomizer_spoiler:
+            append_randomizer_settings_summary(
+                output.parent / f"randomizer_spoiler_{randomizer_config.seed}.txt",
+                args,
+                randomizer_config.seed,
+            )
 
     if args.anti_piracy:
         ov4 = pro_rom / "overlay_dir" / "overlay_0004.bin"
