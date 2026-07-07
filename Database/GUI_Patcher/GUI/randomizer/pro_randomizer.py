@@ -20,6 +20,7 @@ class ProRandomizerConfig:
     level_up_mode: str = "none"  # none, swap, random
     level_up_variance: int = 110
     skill_points_mode: str = "none"  # none, swap, random
+    settings_summary: str = ""
 
 
 def _load_monster_names(repo: Path) -> dict[int, str]:
@@ -474,7 +475,11 @@ def run_pro_randomizer(pro_rom: Path, output_dir: Path, repo: Path, config: ProR
         Path(output_dir).mkdir(parents=True, exist_ok=True)
         spoiler = Path(output_dir) / f"randomizer_spoiler_{seed}.txt"
         if not spoiler.exists():
-            _write_spoiler(spoiler, f"Randomization Seed: {seed}\n")
+            initial = f"Randomization Seed: {seed}\n"
+            if config.settings_summary:
+                initial += "\n" + config.settings_summary.strip() + "\n"
+            _write_spoiler(spoiler, initial)
+
 
     did_anything = False
 

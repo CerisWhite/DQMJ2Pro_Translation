@@ -190,7 +190,7 @@ def _csv_set(value):
 
 
 
-def append_randomizer_settings_summary(path, args, seed):
+def build_randomizer_settings_summary(args):
     lines = [
         "",
         "--- Patcher Settings ---",
@@ -206,7 +206,6 @@ def append_randomizer_settings_summary(path, args, seed):
         f"- Synthesis polarity changes: {'on' if args.synthesis_polarity else 'off'}",
         "",
         "Randomiser settings:",
-        f"- Seed: {seed}",
         f"- Battle monsters: {'on' if args.randomizer_monsters else 'off'}",
         f"- Battle XP rewards: {'on' if args.randomizer_xp else 'off'}",
         f"- Spoiler log: {'on' if args.randomizer_spoiler else 'off'}",
@@ -223,8 +222,7 @@ def append_randomizer_settings_summary(path, args, seed):
         "",
     ]
 
-    with open(path, "a", encoding="utf-8") as f:
-        f.write("\n".join(lines))
+    return "\n".join(lines)
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description="DQMJ2P GUI patch backend")
@@ -466,6 +464,7 @@ def main(argv=None):
             rank_excludes=_csv_set(args.randomizer_rank_excludes),
             family_excludes=_csv_set(args.randomizer_family_excludes),
             size_excludes=_csv_set(args.randomizer_size_excludes),
+            settings_summary=build_randomizer_settings_summary(args),
         )
 
         run_pro_randomizer(
@@ -476,12 +475,6 @@ def main(argv=None):
             log=print,
         )
 
-        if args.randomizer_spoiler:
-            append_randomizer_settings_summary(
-                output.parent / f"randomizer_spoiler_{randomizer_config.seed}.txt",
-                args,
-                randomizer_config.seed,
-            )
 
     if args.anti_piracy:
         ov4 = pro_rom / "overlay_dir" / "overlay_0004.bin"
