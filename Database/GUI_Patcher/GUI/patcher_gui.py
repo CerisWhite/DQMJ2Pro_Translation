@@ -184,7 +184,6 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.randomizer_seed_value = tk.StringVar(value="0")
         self.randomizer_spoiler_var = tk.BooleanVar(value=True)
         self.randomizer_allow_flee_var = tk.BooleanVar(value=True)
-        self.randomizer_remove_zero_xp_var = tk.BooleanVar(value=True)
         self.randomizer_xp_var = tk.BooleanVar(value=False)
         self.randomizer_stronger_var = tk.BooleanVar(value=False)
         self.randomizer_no_flee_var = tk.BooleanVar(value=False)
@@ -297,8 +296,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         for text, var in (
             ("Generate spoiler file", self.randomizer_spoiler_var),
             ("Allow Flee/Scout for randomised battles", self.randomizer_allow_flee_var),
-            ("Exclude 0-XP battle entries", self.randomizer_remove_zero_xp_var),
-            ("Randomise XP rewards independently", self.randomizer_xp_var),
+            ("Randomise battle XP rewards", self.randomizer_xp_var),
             ("Stronger randomised monsters (150% stats)", self.randomizer_stronger_var),
             ("No flee challenge", self.randomizer_no_flee_var),
         ):
@@ -534,8 +532,6 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
                 args.append("--randomizer-spoiler")
             if self.randomizer_allow_flee_var.get():
                 args.append("--randomizer-allow-flee")
-            if self.randomizer_remove_zero_xp_var.get():
-                args.append("--randomizer-remove-zero-xp")
             if self.randomizer_xp_var.get():
                 args.append("--randomizer-xp")
             if self.randomizer_stronger_var.get():
