@@ -20,6 +20,7 @@ class ProRandomizerConfig:
     level_up_mode: str = "none"  # none, swap, random
     level_up_variance: int = 110
     skill_points_mode: str = "none"  # none, swap, random
+    randomize_generic_synthesis: bool = False
     settings_summary: str = ""
 
 
@@ -419,6 +420,86 @@ def randomize_level_up(data_dir: Path, output_dir: Path, config: ProRandomizerCo
         _write_spoiler(spoiler, "".join(spoiler_lines))
 
 
+
+def randomize_generic_synthesis(data_dir: Path, output_dir: Path, repo: Path, config: ProRandomizerConfig, log=print) -> None:
+    names = _load_monster_names(repo)
+
+    not_rank_path = data_dir / "CombinationNotRankTbl.bin"
+    kind_type_path = data_dir / "CombinationKindTypeTbl.bin"
+
+    if not not_rank_path.is_file():
+        raise FileNotFoundError(not_rank_path)
+    if not kind_type_path.is_file():
+        raise FileNotFoundError(kind_type_path)
+
+    spoiler_lines = ["--- Generic Synthesis Randomisation ---"]
+
+    raw = bytearray(kind_type_path.read_bytes())
+    if len(raw) % 6:
+        raise ValueError(f"CombinationKindTypeTbl.bin unexpected size: {len(raw)}")
+
+    records = []
+    result_types = []
+
+    for off in range(0, len(raw), 6):
+        a = int.from_bytes(raw[off:off + 2], "little")
+        b = int.from_bytes(raw[off + 2:off + 4], "little")
+        t = int.from_bytes(raw[off + 4:off + 6], "little")
+
+        if a == 0xFFFF and b == 0xFFFF and t == 0xFFFF:
+            break
+
+        records.append((off, a, b, t))
+        result_types.append(t)
+
+    shuffled_types = result_types[:]
+    random.shuffle(shuffled_types)
+
+    spoiler_lines.append("")
+    spoiler_lines.append("CombinationKindTypeTbl result family/type overrides:")
+    for (off, a, b, old_t), new_t in zip(records, shuffled_types):
+        raw[off + 4:off + 6] = int(new_t).to_bytes(2, "little")
+        spoiler_lines.append(
+            f"{names.get(a, f'Monster {a}')} ({a}) + "
+            f"{names.get(b, f'Monster {b}')} ({b}): type {old_t} -> {new_t}"
+        )
+
+    kind_type_path.write_bytes(raw)
+
+    raw = bytearray(not_rank_path.read_bytes())
+    if len(raw) % 2:
+        raise ValueError(f"CombinationNotRankTbl.bin unexpected size: {len(raw)}")
+
+    vals = []
+    for off in range(0, len(raw), 2):
+        v = int.from_bytes(raw[off:off + 2], "little")
+        if v == 0xFFFF:
+            break
+        vals.append(v)
+
+    shuffled_vals = vals[:]
+    random.shuffle(shuffled_vals)
+
+    spoiler_lines.append("")
+    spoiler_lines.append("CombinationNotRankTbl not-rank monster list shuffle:")
+    for i, (old_v, new_v) in enumerate(zip(vals, shuffled_vals)):
+        raw[i * 2:i * 2 + 2] = int(new_v).to_bytes(2, "little")
+        spoiler_lines.append(
+            f"{i + 1:03d}: {names.get(old_v, f'Monster {old_v}')} ({old_v}) -> "
+            f"{names.get(new_v, f'Monster {new_v}')} ({new_v})"
+        )
+
+    not_rank_path.write_bytes(raw)
+
+    log(f"Randomized generic synthesis tables: {len(records)} type overrides, {len(vals)} not-rank entries")
+
+    if config.generate_spoiler:
+        output_dir.mkdir(parents=True, exist_ok=True)
+        spoiler = output_dir / f"randomizer_spoiler_{config.seed}.txt"
+        _append_spoiler(spoiler, "\n".join(spoiler_lines) + "\n")
+        log(f"Spoiler file: {spoiler}")
+
+
 def randomize_skill_points(data_dir: Path, output_dir: Path, config: ProRandomizerConfig, log=print):
     if config.skill_points_mode == "none":
         return
@@ -492,6 +573,10 @@ def run_pro_randomizer(pro_rom: Path, output_dir: Path, repo: Path, config: ProR
 
     if config.level_up_mode != "none":
         randomize_level_up(data_dir, Path(output_dir), config, log=log)
+        did_anything = True
+
+    if config.randomize_generic_synthesis:
+        randomize_generic_synthesis(data_dir, Path(output_dir), Path(repo), config, log=log)
         did_anything = True
 
     if config.skill_points_mode != "none":

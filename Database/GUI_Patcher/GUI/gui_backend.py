@@ -215,6 +215,7 @@ def build_randomizer_settings_summary(args):
         f"- Level Up XP mode: {args.randomizer_level_up}",
         f"- Level Up XP variance: {args.randomizer_level_up_variance}",
         f"- Skill Points mode: {args.randomizer_skill_points}",
+        f"- Generic synthesis tables: {'on' if args.randomizer_generic_synthesis else 'off'}",
         f"- Excluded ranks: {args.randomizer_rank_excludes or 'none'}",
         f"- Excluded families: {args.randomizer_family_excludes or 'none'}",
         f"- Excluded sizes: {args.randomizer_size_excludes or 'none'}",
@@ -253,6 +254,7 @@ def main(argv=None):
     ap.add_argument("--randomizer-level-up", choices=["none", "swap", "random"], default="none")
     ap.add_argument("--randomizer-level-up-variance", type=int, default=110)
     ap.add_argument("--randomizer-skill-points", choices=["none", "swap", "random"], default="none")
+    ap.add_argument("--randomizer-generic-synthesis", action="store_true")
     ap.add_argument("--randomizer-rank-excludes", default="")
     ap.add_argument("--randomizer-family-excludes", default="")
     ap.add_argument("--randomizer-size-excludes", default="")
@@ -445,6 +447,7 @@ def main(argv=None):
         or args.randomizer_xp
         or args.randomizer_level_up != "none"
         or args.randomizer_skill_points != "none"
+        or args.randomizer_generic_synthesis
     ):
         sys.path.insert(0, str(root))
         from randomizer.pro_randomizer import ProRandomizerConfig, run_pro_randomizer
@@ -461,6 +464,7 @@ def main(argv=None):
             level_up_mode=args.randomizer_level_up,
             level_up_variance=args.randomizer_level_up_variance,
             skill_points_mode=args.randomizer_skill_points,
+            randomize_generic_synthesis=args.randomizer_generic_synthesis,
             rank_excludes=_csv_set(args.randomizer_rank_excludes),
             family_excludes=_csv_set(args.randomizer_family_excludes),
             size_excludes=_csv_set(args.randomizer_size_excludes),

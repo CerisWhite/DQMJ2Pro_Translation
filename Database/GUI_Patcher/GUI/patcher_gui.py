@@ -190,6 +190,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.randomizer_level_up_mode = tk.StringVar(value="none")
         self.randomizer_level_up_variance = tk.StringVar(value="140")
         self.randomizer_skill_points_mode = tk.StringVar(value="none")
+        self.randomizer_generic_synthesis_var = tk.BooleanVar(value=False)
 
         self.randomizer_rank_vars = {
             rank: tk.BooleanVar(value=True)
@@ -337,6 +338,10 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             w = ttk.Radiobutton(skill_frame, text=text, variable=self.randomizer_skill_points_mode, value=value)
             w.pack(anchor="w", padx=8, pady=2)
             self.randomizer_widgets.append(w)
+
+        w = ttk.Checkbutton(rand, text="Randomise generic synthesis tables", variable=self.randomizer_generic_synthesis_var)
+        w.pack(anchor="w", padx=24, pady=3)
+        self.randomizer_widgets.append(w)
 
         filters_frame = ttk.LabelFrame(rand, text="Battle monster replacement filters")
         filters_frame.pack(fill="x", padx=24, pady=(10, 3))
@@ -588,6 +593,9 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
 
             if skill_points_mode != "none":
                 args.extend(["--randomizer-skill-points", skill_points_mode])
+
+            if self.randomizer_generic_synthesis_var.get():
+                args.append("--randomizer-generic-synthesis")
 
         self.log_text.delete("1.0", "end")
         self.append_log("> gui_backend " + " ".join(args) + "\n\n")
