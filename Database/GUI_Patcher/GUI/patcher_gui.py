@@ -179,6 +179,32 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.synth_level_value = tk.StringVar(value="10")
         self.synth_polarity_var = tk.BooleanVar(value=False)
 
+        self.randomizer_enabled_var = tk.BooleanVar(value=False)
+        self.randomizer_monsters_var = tk.BooleanVar(value=True)
+        self.randomizer_seed_value = tk.StringVar(value="0")
+        self.randomizer_spoiler_var = tk.BooleanVar(value=True)
+        self.randomizer_allow_flee_var = tk.BooleanVar(value=True)
+        self.randomizer_remove_zero_xp_var = tk.BooleanVar(value=True)
+        self.randomizer_xp_var = tk.BooleanVar(value=False)
+        self.randomizer_stronger_var = tk.BooleanVar(value=False)
+        self.randomizer_no_flee_var = tk.BooleanVar(value=False)
+        self.randomizer_level_up_mode = tk.StringVar(value="none")
+        self.randomizer_level_up_variance = tk.StringVar(value="140")
+        self.randomizer_skill_points_mode = tk.StringVar(value="none")
+
+        self.randomizer_rank_vars = {
+            rank: tk.BooleanVar(value=True)
+            for rank in ("F", "E", "D", "C", "B", "A", "S", "SS")
+        }
+        self.randomizer_family_vars = {
+            family: tk.BooleanVar(value=True)
+            for family in ("Slime", "Dragon", "Nature", "Beast", "Material", "Demon", "Zombie", "???")
+        }
+        self.randomizer_size_vars = {
+            size: tk.BooleanVar(value=True)
+            for size in ("1", "2", "3")
+        }
+
         self.show_log_var = tk.BooleanVar(value=False)
 
         self.build_ui()
@@ -213,8 +239,16 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         ttk.Entry(frm, textvariable=self.out_var).grid(row=2, column=1, sticky="ew", **pad)
         ttk.Button(frm, text="Browse", command=self.browse_output).grid(row=2, column=2, **pad)
 
-        opts = ttk.LabelFrame(frm, text="Patch options")
-        opts.grid(row=3, column=0, columnspan=3, sticky="ew", **pad)
+        tabs = ttk.Notebook(frm)
+        tabs.grid(row=3, column=0, columnspan=3, sticky="nsew", **pad)
+
+        patch_tab = ttk.Frame(tabs)
+        rand_tab = ttk.Frame(tabs)
+        tabs.add(patch_tab, text="Patch Options")
+        tabs.add(rand_tab, text="Randomizer")
+
+        opts = ttk.LabelFrame(patch_tab, text="Patch options")
+        opts.pack(fill="both", expand=True, padx=8, pady=8)
 
         ttk.Checkbutton(opts, text="Add new synthesis recipes", variable=self.new_synths_var).pack(anchor="w", padx=10, pady=3)
 
@@ -234,6 +268,111 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         ttk.Entry(level_row, textvariable=self.synth_level_value, width=5).pack(side="left", padx=6)
 
         ttk.Checkbutton(opts, text="Remove Synthesis Polarity Requirement", variable=self.synth_polarity_var).pack(anchor="w", padx=10, pady=3)
+
+        rand = ttk.LabelFrame(rand_tab, text="Randomiser")
+        rand.pack(fill="both", expand=True, padx=8, pady=8)
+
+        ttk.Checkbutton(
+            rand,
+            text="Enable randomiser",
+            variable=self.randomizer_enabled_var,
+            command=self.toggle_randomizer_controls,
+        ).pack(anchor="w", padx=10, pady=3)
+
+        self.randomizer_widgets = []
+
+        w = ttk.Checkbutton(rand, text="Randomise battle monsters", variable=self.randomizer_monsters_var)
+        w.pack(anchor="w", padx=24, pady=3)
+        self.randomizer_widgets.append(w)
+
+        seed_row = ttk.Frame(rand)
+        seed_row.pack(anchor="w", padx=10, pady=3)
+        ttk.Label(seed_row, text="Seed:").pack(side="left")
+        seed_entry = ttk.Entry(seed_row, textvariable=self.randomizer_seed_value, width=12)
+        seed_entry.pack(side="left", padx=6)
+        seed_note = ttk.Label(seed_row, text="0 = random seed")
+        seed_note.pack(side="left")
+        self.randomizer_widgets.extend([seed_entry, seed_note])
+
+        for text, var in (
+            ("Generate spoiler file", self.randomizer_spoiler_var),
+            ("Allow Flee/Scout for randomised battles", self.randomizer_allow_flee_var),
+            ("Exclude 0-XP battle entries", self.randomizer_remove_zero_xp_var),
+            ("Randomise XP rewards independently", self.randomizer_xp_var),
+            ("Stronger randomised monsters (150% stats)", self.randomizer_stronger_var),
+            ("No flee challenge", self.randomizer_no_flee_var),
+        ):
+            w = ttk.Checkbutton(rand, text=text, variable=var)
+            w.pack(anchor="w", padx=24, pady=3)
+            self.randomizer_widgets.append(w)
+
+        level_frame = ttk.LabelFrame(rand, text="Level Up XP")
+        level_frame.pack(fill="x", padx=24, pady=(10, 3))
+        self.randomizer_widgets.append(level_frame)
+
+        for text, value in (
+            ("Do not randomise level XP", "none"),
+            ("Swap XP curves", "swap"),
+            ("Randomise XP curves", "random"),
+        ):
+            w = ttk.Radiobutton(level_frame, text=text, variable=self.randomizer_level_up_mode, value=value)
+            w.pack(anchor="w", padx=8, pady=2)
+            self.randomizer_widgets.append(w)
+
+        variance_row = ttk.Frame(level_frame)
+        variance_row.pack(anchor="w", padx=8, pady=3)
+        variance_label = ttk.Label(variance_row, text="XP variance %:")
+        variance_label.pack(side="left")
+        variance_entry = ttk.Entry(variance_row, textvariable=self.randomizer_level_up_variance, width=6)
+        variance_entry.pack(side="left", padx=6)
+        self.randomizer_widgets.extend([variance_row, variance_label, variance_entry])
+
+        skill_frame = ttk.LabelFrame(rand, text="Skill Points")
+        skill_frame.pack(fill="x", padx=24, pady=(10, 3))
+        self.randomizer_widgets.append(skill_frame)
+
+        for text, value in (
+            ("Do not randomise skill points", "none"),
+            ("Swap skill point levels", "swap"),
+            ("Randomise skill points", "random"),
+        ):
+            w = ttk.Radiobutton(skill_frame, text=text, variable=self.randomizer_skill_points_mode, value=value)
+            w.pack(anchor="w", padx=8, pady=2)
+            self.randomizer_widgets.append(w)
+
+        filters_frame = ttk.LabelFrame(rand, text="Battle monster replacement filters")
+        filters_frame.pack(fill="x", padx=24, pady=(10, 3))
+        self.randomizer_widgets.append(filters_frame)
+
+        ttk.Label(filters_frame, text="Allowed ranks:").pack(anchor="w", padx=8, pady=(4, 0))
+        rank_row = ttk.Frame(filters_frame)
+        rank_row.pack(anchor="w", padx=8, pady=2)
+        self.randomizer_widgets.append(rank_row)
+        for rank, var in self.randomizer_rank_vars.items():
+            w = ttk.Checkbutton(rank_row, text=rank, variable=var)
+            w.pack(side="left", padx=2)
+            self.randomizer_widgets.append(w)
+
+        ttk.Label(filters_frame, text="Allowed families:").pack(anchor="w", padx=8, pady=(4, 0))
+        family_row = ttk.Frame(filters_frame)
+        family_row.pack(anchor="w", padx=8, pady=2)
+        self.randomizer_widgets.append(family_row)
+        for family, var in self.randomizer_family_vars.items():
+            w = ttk.Checkbutton(family_row, text=family, variable=var)
+            w.pack(side="left", padx=2)
+            self.randomizer_widgets.append(w)
+
+        ttk.Label(filters_frame, text="Allowed sizes:").pack(anchor="w", padx=8, pady=(4, 0))
+        size_row = ttk.Frame(filters_frame)
+        size_row.pack(anchor="w", padx=8, pady=(2, 6))
+        self.randomizer_widgets.append(size_row)
+        for size, var in self.randomizer_size_vars.items():
+            label = f"{size}-slot"
+            w = ttk.Checkbutton(size_row, text=label, variable=var)
+            w.pack(side="left", padx=2)
+            self.randomizer_widgets.append(w)
+
+        self.toggle_randomizer_controls()
 
         self.run_btn = ttk.Button(frm, text="Patch ROM", command=self.start_patch)
         self.run_btn.grid(row=4, column=0, columnspan=3, pady=10)
@@ -269,6 +408,14 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
 
         frm.columnconfigure(1, weight=1)
         frm.rowconfigure(8, weight=1)
+
+    def toggle_randomizer_controls(self):
+        state = "normal" if self.randomizer_enabled_var.get() else "disabled"
+        for widget in getattr(self, "randomizer_widgets", []):
+            try:
+                widget.configure(state=state)
+            except Exception:
+                pass
 
     def toggle_log(self):
         if self.show_log_var.get():
@@ -348,6 +495,73 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             args.extend(["--synthesis-level", self.synth_level_value.get()])
         if self.synth_polarity_var.get():
             args.append("--synthesis-polarity")
+
+        if self.randomizer_enabled_var.get():
+            seed = self.randomizer_seed_value.get().strip() or "0"
+            try:
+                int(seed)
+            except ValueError:
+                messagebox.showerror("Invalid seed", "Randomizer seed must be a whole number.")
+                return
+
+            args.extend(["--randomizer-seed", seed])
+
+            if self.randomizer_monsters_var.get():
+                args.append("--randomizer-monsters")
+
+                rank_excludes = [rank for rank, var in self.randomizer_rank_vars.items() if not var.get()]
+                family_excludes = [family for family, var in self.randomizer_family_vars.items() if not var.get()]
+                size_excludes = [size for size, var in self.randomizer_size_vars.items() if not var.get()]
+
+                if len(rank_excludes) == len(self.randomizer_rank_vars):
+                    messagebox.showerror("Invalid filters", "At least one monster rank must be allowed.")
+                    return
+                if len(family_excludes) == len(self.randomizer_family_vars):
+                    messagebox.showerror("Invalid filters", "At least one monster family must be allowed.")
+                    return
+                if len(size_excludes) == len(self.randomizer_size_vars):
+                    messagebox.showerror("Invalid filters", "At least one monster size must be allowed.")
+                    return
+
+                if rank_excludes:
+                    args.extend(["--randomizer-rank-excludes", ",".join(rank_excludes)])
+                if family_excludes:
+                    args.extend(["--randomizer-family-excludes", ",".join(family_excludes)])
+                if size_excludes:
+                    args.extend(["--randomizer-size-excludes", ",".join(size_excludes)])
+
+            if self.randomizer_spoiler_var.get():
+                args.append("--randomizer-spoiler")
+            if self.randomizer_allow_flee_var.get():
+                args.append("--randomizer-allow-flee")
+            if self.randomizer_remove_zero_xp_var.get():
+                args.append("--randomizer-remove-zero-xp")
+            if self.randomizer_xp_var.get():
+                args.append("--randomizer-xp")
+            if self.randomizer_stronger_var.get():
+                args.append("--randomizer-stronger")
+            if self.randomizer_no_flee_var.get():
+                args.append("--randomizer-no-flee")
+
+            level_up_mode = self.randomizer_level_up_mode.get()
+            skill_points_mode = self.randomizer_skill_points_mode.get()
+
+            if level_up_mode != "none":
+                variance = self.randomizer_level_up_variance.get().strip() or "140"
+                try:
+                    variance_i = int(variance)
+                except ValueError:
+                    messagebox.showerror("Invalid variance", "Level Up XP variance must be a whole number.")
+                    return
+                if variance_i < 100 or variance_i > 300:
+                    messagebox.showerror("Invalid variance", "Level Up XP variance must be between 100 and 300.")
+                    return
+
+                args.extend(["--randomizer-level-up", level_up_mode])
+                args.extend(["--randomizer-level-up-variance", str(variance_i)])
+
+            if skill_points_mode != "none":
+                args.extend(["--randomizer-skill-points", skill_points_mode])
 
         self.log_text.delete("1.0", "end")
         self.append_log("> gui_backend " + " ".join(args) + "\n\n")

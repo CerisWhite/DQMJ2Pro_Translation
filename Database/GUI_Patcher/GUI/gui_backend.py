@@ -185,11 +185,16 @@ def apply_overlay4_antipiracy_patch(ov4_path, overlay_decompress, overlay_compre
     ov4_path.write_bytes(overlay_compress(bytes(dec)))
 
 
+def _csv_set(value):
+    return {x.strip() for x in str(value).split(",") if x.strip()}
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description="DQMJ2P GUI patch backend")
     ap.add_argument("--rom", required=True)
     ap.add_argument("--output", required=True)
     ap.add_argument("--work", default="GUI_WORK")
+    ap.add_argument("--keep-work", action="store_true", help="Do not delete GUI_WORK after patching")
     ap.add_argument("--repo", default="AUTO")
 
     ap.add_argument("--new-synths", action="store_true")
@@ -201,6 +206,21 @@ def main(argv=None):
     ap.add_argument("--scout-penalty", action="store_true")
     ap.add_argument("--synthesis-level", type=int, default=None)
     ap.add_argument("--synthesis-polarity", action="store_true")
+
+    ap.add_argument("--randomizer-monsters", action="store_true")
+    ap.add_argument("--randomizer-seed", type=int, default=0)
+    ap.add_argument("--randomizer-spoiler", action="store_true")
+    ap.add_argument("--randomizer-allow-flee", action="store_true")
+    ap.add_argument("--randomizer-remove-zero-xp", action="store_true")
+    ap.add_argument("--randomizer-xp", action="store_true")
+    ap.add_argument("--randomizer-stronger", action="store_true")
+    ap.add_argument("--randomizer-no-flee", action="store_true")
+    ap.add_argument("--randomizer-level-up", choices=["none", "swap", "random"], default="none")
+    ap.add_argument("--randomizer-level-up-variance", type=int, default=110)
+    ap.add_argument("--randomizer-skill-points", choices=["none", "swap", "random"], default="none")
+    ap.add_argument("--randomizer-rank-excludes", default="")
+    ap.add_argument("--randomizer-family-excludes", default="")
+    ap.add_argument("--randomizer-size-excludes", default="")
 
     args = ap.parse_args(argv)
 
@@ -217,6 +237,9 @@ def main(argv=None):
     pro_rom = work / "Pro_ROM"
 
     def _cleanup_work():
+        if args.keep_work:
+            print(f"Keeping work dir: {work}")
+            return
         try:
             if work.exists():
                 shutil.rmtree(work)
@@ -381,6 +404,38 @@ def main(argv=None):
             "--out", pro_rom / "data_dir" / "Combination4GTbl.bin",
             "--type", "4g",
         ])
+
+    if (
+        args.randomizer_monsters
+        or args.randomizer_xp
+        or args.randomizer_level_up != "none"
+        or args.randomizer_skill_points != "none"
+    ):
+        sys.path.insert(0, str(root))
+        from randomizer.pro_randomizer import ProRandomizerConfig, run_pro_randomizer
+
+        run_pro_randomizer(
+            pro_rom,
+            output.parent,
+            repo,
+            ProRandomizerConfig(
+                seed=args.randomizer_seed,
+                generate_spoiler=args.randomizer_spoiler,
+                randomize_monsters=args.randomizer_monsters,
+                allow_flee_scout=args.randomizer_allow_flee,
+                remove_zero_xp=args.randomizer_remove_zero_xp,
+                randomize_xp=args.randomizer_xp,
+                stronger_monsters=args.randomizer_stronger,
+                no_flee=args.randomizer_no_flee,
+                level_up_mode=args.randomizer_level_up,
+                level_up_variance=args.randomizer_level_up_variance,
+                skill_points_mode=args.randomizer_skill_points,
+                rank_excludes=_csv_set(args.randomizer_rank_excludes),
+                family_excludes=_csv_set(args.randomizer_family_excludes),
+                size_excludes=_csv_set(args.randomizer_size_excludes),
+            ),
+            log=print,
+        )
 
     if args.anti_piracy:
         ov4 = pro_rom / "overlay_dir" / "overlay_0004.bin"
