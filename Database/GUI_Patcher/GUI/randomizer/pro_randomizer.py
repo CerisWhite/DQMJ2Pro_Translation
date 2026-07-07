@@ -131,6 +131,17 @@ def _monster_allowed_by_filters(monster_id: int, catalog: dict[int, dict[str, st
     return True
 
 
+
+def _weighted_choice(weighted_values):
+    total = sum(weight for weight, _value in weighted_values)
+    roll = random.uniform(0, total)
+    upto = 0
+    for weight, value in weighted_values:
+        upto += weight
+        if roll <= upto:
+            return value
+    return weighted_values[-1][1]
+
 def _get_xp(entry: bytearray | bytes) -> int:
     return int.from_bytes(entry[40:43], "little")
 

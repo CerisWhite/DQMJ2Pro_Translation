@@ -462,6 +462,59 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.log_text.insert("end", text)
         self.log_text.see("end")
 
+
+    def _write_settings_txt(self, output_rom, args):
+        settings_path = Path(output_rom).with_suffix(".txt")
+
+        def enabled(flag):
+            return "on" if flag in args else "off"
+
+        def value_after(flag, default=""):
+            if flag in args:
+                i = args.index(flag)
+                if i + 1 < len(args):
+                    return args[i + 1]
+            return default
+
+        lines = [
+            f"DQMJ2P English Patcher v{PATCHER_VERSION}",
+            "",
+            "Patch options:",
+            "- Anti-piracy: on",
+            f"- New synthesis recipes: {enabled('--new-synths')}",
+            f"- X/XY monster suffixes: {enabled('--xvariant-suffix')}",
+            f"- Gender icons: {enabled('--gender-icons')}",
+            f"- XP multiplier: {enabled('--xp-mult')}",
+            f"- Scout offense boost: {enabled('--scout-offense')}",
+            f"- Scout penalty changes: {enabled('--scout-penalty')}",
+            f"- Synthesis level changes: {enabled('--synthesis-level')}",
+            f"- Synthesis polarity changes: {enabled('--synthesis-polarity')}",
+            "",
+            "Randomiser settings:",
+            f"- Randomiser: {'on' if '--randomizer-seed' in args else 'off'}",
+        ]
+
+        if "--randomizer-seed" in args:
+            lines.extend([
+                f"- Seed: {value_after('--randomizer-seed', '0')} (0 = random seed)",
+                f"- Battle monsters: {enabled('--randomizer-monsters')}",
+                f"- Battle XP rewards: {enabled('--randomizer-xp')}",
+                f"- Spoiler log: {enabled('--randomizer-spoiler')}",
+                f"- Allow Flee/Scout: {enabled('--randomizer-allow-flee')}",
+                f"- Stronger monsters: {enabled('--randomizer-stronger')}",
+                f"- No flee: {enabled('--randomizer-no-flee')}",
+                f"- Level Up XP mode: {value_after('--randomizer-level-up', 'none')}",
+                f"- Level Up XP variance: {value_after('--randomizer-level-up-variance', '140')}",
+                f"- Skill Points mode: {value_after('--randomizer-skill-points', 'none')}",
+                f"- Excluded ranks: {value_after('--randomizer-rank-excludes', 'none') or 'none'}",
+                f"- Excluded families: {value_after('--randomizer-family-excludes', 'none') or 'none'}",
+                f"- Excluded sizes: {value_after('--randomizer-size-excludes', 'none') or 'none'}",
+                "- 0-XP battle entries: always skipped",
+            ])
+
+        settings_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
     def start_patch(self):
         rom = self.rom_var.get().strip()
         out = self.out_var.get().strip()
@@ -475,6 +528,15 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         if not out:
             messagebox.showerror("Missing output", "Choose an output .nds path.")
             return
+
+        if self.randomizer_enabled_var.get():
+            out_path = Path(out)
+            default_plain = f"DQMJ2P_Eng_Patched_v{PATCHER_VERSION}.nds"
+            default_rand = f"DQMJ2P_Eng_Patched_Randomised_v{PATCHER_VERSION}.nds"
+            if out_path.name == default_plain:
+                out_path = out_path.with_name(default_rand)
+                out = str(out_path)
+                self.out_var.set(out)
 
         args = ["--rom", rom, "--output", out, "--anti-piracy"]
         if self.new_synths_var.get():
@@ -561,6 +623,8 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
 
         self.log_text.delete("1.0", "end")
         self.append_log("> gui_backend " + " ".join(args) + "\n\n")
+
+        self._write_settings_txt(out, args)
 
         self.run_btn.config(state="disabled")
         self.progress.start(10)
