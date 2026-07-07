@@ -52,6 +52,16 @@ def _write_spoiler(path: Path, text: str):
 
 
 
+
+def _append_spoiler(path: Path, text: str) -> None:
+    if path.exists():
+        with path.open("a", encoding="utf-8") as f:
+            if path.stat().st_size:
+                f.write("\n")
+            f.write(text)
+    else:
+        _write_spoiler(path, text)
+
 def _norm_name(name: str) -> str:
     return (
         name.strip()
@@ -120,23 +130,48 @@ def _monster_allowed_by_filters(monster_id: int, catalog: dict[int, dict[str, st
 
     return True
 
-def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, config: ProRandomizerConfig, log=print):
-    path = data_dir / "BtlEnmyPrm2.bin"
-    if not path.is_file():
-        raise FileNotFoundError(path)
 
-    data = path.read_bytes()
+def _get_xp(entry: bytearray | bytes) -> int:
+    return int.from_bytes(entry[40:43], "little")
+
+
+def _set_xp(entry: bytearray, xp: int) -> None:
+    xp = max(0, min(int(xp), 0xFFFFFF))
+    entry[40:43] = xp.to_bytes(3, "little")
+
+
+def _randomized_xp(original_xp: int) -> int:
+    """Randomize XP independently of monster replacement."""
+    if original_xp <= 0:
+        return 0
+
+    # Conservative Wire0n-style proportional spread.
+    # Keeps low-XP enemies low-ish and high-XP enemies high-ish.
+    factor = random.uniform(0.5, 2.0)
+    return max(1, min(int(original_xp * factor), 0xFFFFFF))
+
+
+def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, config: ProRandomizerConfig, log=print) -> None:
+    battle_path = data_dir / "BtlEnmyPrm2.bin"
+    if not battle_path.is_file():
+        raise FileNotFoundError(f"Missing battle monster table: {battle_path}")
+
+    raw = bytearray(battle_path.read_bytes())
     header_size = 8
     entry_size = 100
 
-    header = data[:header_size]
-    body = data[header_size:]
+    if len(raw) < header_size:
+        raise ValueError(f"Invalid BtlEnmyPrm2.bin: too small ({len(raw)} bytes)")
 
-    if len(body) % entry_size:
-        raise ValueError(f"BtlEnmyPrm2.bin unexpected size: body remainder {len(body) % entry_size}")
+    body_size = len(raw) - header_size
+    if body_size % entry_size != 0:
+        raise ValueError(f"Invalid BtlEnmyPrm2.bin size: body {body_size} not divisible by {entry_size}")
 
-    num_entries = len(body) // entry_size
-    entries = [bytearray(body[i * entry_size:(i + 1) * entry_size]) for i in range(num_entries)]
+    num_entries = body_size // entry_size
+    entries = [
+        bytearray(raw[header_size + i * entry_size:header_size + (i + 1) * entry_size])
+        for i in range(num_entries)
+    ]
 
     monster_names = _load_monster_names(repo)
     monster_catalog = _load_monster_catalog(repo)
@@ -144,20 +179,22 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, conf
     valid_indices = []
     for i, entry in enumerate(entries):
         monster_id = struct.unpack("<H", entry[0:2])[0]
-        xp = int.from_bytes(entry[40:43], "little")
+        xp = _get_xp(entry)
+
         if monster_id <= 0:
             continue
         if config.remove_zero_xp and xp <= 0:
             continue
+
         valid_indices.append(i)
 
     if not valid_indices:
-        raise ValueError("No valid battle monster entries after filtering")
+        raise ValueError("No valid battle monster entries found")
 
     candidate_indices = []
     for i, entry in enumerate(entries):
         monster_id = struct.unpack("<H", entry[0:2])[0]
-        xp = int.from_bytes(entry[40:43], "little")
+        xp = _get_xp(entry)
 
         if monster_id <= 0:
             continue
@@ -169,107 +206,150 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, conf
     if not candidate_indices:
         raise ValueError("No valid battle monster candidates after rank/family/size filtering")
 
-    pool = [bytes(entries[i]) for i in candidate_indices]
+    filtered = len(candidate_indices) != len(valid_indices)
+    replacement_pool = [bytes(entries[i]) for i in candidate_indices]
 
-    if config.stronger_monsters:
-        boosted = []
-        for e in pool:
-            b = bytearray(e)
-            stats = []
-            for off in (48, 50, 52, 54, 56, 58):
-                stats.append(min(int(struct.unpack("<H", b[off:off+2])[0] * 1.5), 9999))
-            b[48:60] = struct.pack("<6H", *stats)
-            boosted.append(bytes(b))
-        pool = boosted
-
-    if config.allow_flee_scout:
-        pool = [e[:98] + bytes([0x00]) + e[99:] for e in pool]
-    elif config.no_flee:
-        pool = [e[:98] + bytes([0x02]) + e[99:] for e in pool]
-
-    if config.randomize_xp:
-        buckets = [
-            (0, 100, 54),
-            (100, 1000, 30),
-            (1000, 10000, 10),
-            (10000, 100000, 5),
-            (100000, 333333, 1),
-        ]
-        weighted = []
-        for lo, hi, weight in buckets:
-            weighted.extend([(lo, hi)] * weight)
-
-        new_pool = []
-        for e in pool:
-            b = bytearray(e)
-            lo, hi = random.choice(weighted)
-            xp = random.randint(lo, hi)
-            b[40:43] = xp.to_bytes(3, "little")
-            new_pool.append(bytes(b))
-        pool = new_pool
-
-    if len(pool) == len(valid_indices):
-        shuffled = pool[:]
-        random.shuffle(shuffled)
+    if filtered:
+        replacements = [bytearray(random.choice(replacement_pool)) for _ in valid_indices]
     else:
-        shuffled = [random.choice(pool) for _ in valid_indices]
+        replacements = [bytearray(x) for x in replacement_pool]
+        random.shuffle(replacements)
 
     spoiler_lines = []
-    spoiler_by_old_name = []
-    out_entries = [bytes(e) for e in entries]
     changed = 0
 
-    for dst_i, old_entry, new_entry in zip(valid_indices, [bytes(entries[i]) for i in valid_indices], shuffled):
+    for target_i, replacement in zip(valid_indices, replacements):
+        old_entry = entries[target_i]
         old_id = struct.unpack("<H", old_entry[0:2])[0]
-        new_id = struct.unpack("<H", new_entry[0:2])[0]
-        old_xp = int.from_bytes(old_entry[40:43], "little")
-        new_xp = int.from_bytes(new_entry[40:43], "little")
+        new_id = struct.unpack("<H", replacement[0:2])[0]
+        old_xp = _get_xp(old_entry)
+        replacement_xp = _get_xp(replacement)
 
-        if old_entry != new_entry:
+        new_entry = bytearray(replacement)
+
+        # Monster replacement and XP randomisation are separate toggles.
+        if config.randomize_xp:
+            new_xp = _randomized_xp(old_xp)
+        else:
+            new_xp = old_xp
+        _set_xp(new_entry, new_xp)
+
+        if config.stronger_monsters:
+            for off in (48, 50, 52, 54, 56, 58):
+                stat = struct.unpack("<H", new_entry[off:off + 2])[0]
+                stat = min(int(stat * 1.5), 9999)
+                new_entry[off:off + 2] = struct.pack("<H", stat)
+
+        if config.allow_flee_scout:
+            new_entry[98] = 0x00
+        if config.no_flee:
+            new_entry[98] = 0x02
+
+        if new_entry != old_entry:
             changed += 1
 
-        line = f"Entry {dst_i:04d}: {_monster_label(monster_names, old_id)} -> {_monster_label(monster_names, new_id)}, XP {old_xp} -> {new_xp}\n"
-        spoiler_lines.append(line)
-        spoiler_by_old_name.append((_monster_label(monster_names, old_id).lower(), line))
-        out_entries[dst_i] = new_entry
+        entries[target_i] = new_entry
 
-    path.write_bytes(header + b"".join(out_entries))
+        old_name = monster_names.get(old_id, f"Monster {old_id}")
+        new_name = monster_names.get(new_id, f"Monster {new_id}")
+        spoiler_lines.append(
+            f"Entry {target_i + 1:04d}: {old_name} ({old_id}) -> {new_name} ({new_id}), "
+            f"XP {old_xp} -> {new_xp}"
+        )
+
+    out = bytearray(raw[:header_size])
+    for entry in entries:
+        out.extend(entry)
+    battle_path.write_bytes(out)
 
     log(f"Randomized battle monster table: {len(valid_indices)} entries from {num_entries} total")
-    if len(candidate_indices) != len(valid_indices):
+    if filtered:
         log(f"Filtered replacement candidate pool: {len(candidate_indices)} entries")
+    if config.randomize_xp:
+        log("Randomized battle monster XP")
+    else:
+        log("Preserved original battle-entry XP")
     log(f"Changed battle monster entries: {changed}")
 
     if config.generate_spoiler:
         output_dir.mkdir(parents=True, exist_ok=True)
         spoiler = output_dir / f"randomizer_spoiler_{config.seed}.txt"
-        spoiler.write_text(f"Randomization Seed: {config.seed}\n", encoding="utf-8")
-        _write_spoiler(spoiler, f"BtlEnmyPrm2 entries randomized: {len(valid_indices)} / {num_entries}\n")
-        _write_spoiler(spoiler, f"Replacement candidate pool: {len(candidate_indices)} entries\n")
+
+        header = [
+            f"Randomization Seed: {config.seed}",
+            "",
+            "--- Battle Monster Randomisation ---",
+            f"BtlEnmyPrm2 entries randomized: {len(valid_indices)} / {num_entries}",
+            f"Replacement candidate pool: {len(candidate_indices)} entries",
+            f"XP randomisation: {'on' if config.randomize_xp else 'off; original battle-entry XP preserved'}",
+        ]
+
         if config.rank_excludes:
-            _write_spoiler(spoiler, f"Excluded ranks: {', '.join(sorted(config.rank_excludes))}\n")
+            header.append(f"Excluded ranks: {', '.join(sorted(config.rank_excludes))}")
         if config.family_excludes:
-            _write_spoiler(spoiler, f"Excluded families: {', '.join(sorted(config.family_excludes))}\n")
+            header.append(f"Excluded families: {', '.join(sorted(config.family_excludes))}")
         if config.size_excludes:
-            _write_spoiler(spoiler, f"Excluded sizes: {', '.join(sorted(str(x) for x in config.size_excludes))}\n")
-        _write_spoiler(spoiler, f"BtlEnmyPrm2 entries changed: {changed}\n\n")
-        _write_spoiler(spoiler, "--- By battle entry order ---\n")
-        _write_spoiler(spoiler, "".join(spoiler_lines))
-        _write_spoiler(spoiler, "\n--- By original monster name ---\n")
-        _write_spoiler(spoiler, "".join(line for _key, line in sorted(spoiler_by_old_name)))
+            header.append(f"Excluded sizes: {', '.join(sorted(config.size_excludes))}")
+
+        by_entry = ["", "--- By battle entry order ---", *spoiler_lines]
+        by_name = ["", "--- By original monster name ---", *sorted(spoiler_lines, key=lambda x: x.split(": ", 1)[1].lower())]
+
+        _append_spoiler(spoiler, "\n".join(header + by_entry + by_name) + "\n")
         log(f"Spoiler file: {spoiler}")
 
+def randomize_battle_xp_only(data_dir: Path, output_dir: Path, config: ProRandomizerConfig, log=print) -> None:
+    battle_path = data_dir / "BtlEnmyPrm2.bin"
+    if not battle_path.is_file():
+        raise FileNotFoundError(f"Missing battle monster table: {battle_path}")
 
+    raw = bytearray(battle_path.read_bytes())
+    header_size = 8
+    entry_size = 100
+    body_size = len(raw) - header_size
 
-def _weighted_choice(data):
-    total = sum(weight for weight, _value in data)
-    pick = random.uniform(0, total)
-    cur = 0
-    for weight, value in data:
-        if cur <= pick < cur + weight:
-            return value
-        cur += weight
-    return data[0][1]
+    if body_size % entry_size != 0:
+        raise ValueError(f"Invalid BtlEnmyPrm2.bin size: body {body_size} not divisible by {entry_size}")
+
+    num_entries = body_size // entry_size
+    changed = 0
+    spoiler_lines = []
+
+    for i in range(num_entries):
+        off = header_size + i * entry_size
+        entry = bytearray(raw[off:off + entry_size])
+        monster_id = struct.unpack("<H", entry[0:2])[0]
+        old_xp = _get_xp(entry)
+
+        if monster_id <= 0:
+            continue
+        if config.remove_zero_xp and old_xp <= 0:
+            continue
+
+        new_xp = _randomized_xp(old_xp)
+        if new_xp != old_xp:
+            changed += 1
+
+        _set_xp(entry, new_xp)
+        raw[off:off + entry_size] = entry
+        spoiler_lines.append(f"Entry {i + 1:04d}: Monster {monster_id}, XP {old_xp} -> {new_xp}")
+
+    battle_path.write_bytes(raw)
+    log(f"Randomized battle monster XP: {changed} entries from {num_entries} total")
+
+    if config.generate_spoiler:
+        output_dir.mkdir(parents=True, exist_ok=True)
+        spoiler = output_dir / f"randomizer_spoiler_{config.seed}.txt"
+        text = "\n".join([
+            f"Randomization Seed: {config.seed}",
+            "",
+            "--- Battle XP Randomisation ---",
+            f"BtlEnmyPrm2 XP entries randomized: {changed} / {num_entries}",
+            "",
+            *spoiler_lines,
+        ]) + "\n"
+        _append_spoiler(spoiler, text)
+        log(f"Spoiler file: {spoiler}")
+
 
 
 def randomize_level_up(data_dir: Path, output_dir: Path, config: ProRandomizerConfig, log=print):
@@ -393,6 +473,9 @@ def run_pro_randomizer(pro_rom: Path, output_dir: Path, repo: Path, config: ProR
 
     if config.randomize_monsters:
         randomize_battle_monsters(data_dir, Path(output_dir), Path(repo), config, log=log)
+        did_anything = True
+    elif config.randomize_xp:
+        randomize_battle_xp_only(data_dir, Path(output_dir), config, log=log)
         did_anything = True
 
     if config.level_up_mode != "none":

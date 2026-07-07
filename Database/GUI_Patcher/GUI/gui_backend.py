@@ -407,6 +407,7 @@ def main(argv=None):
 
     if (
         args.randomizer_monsters
+        or args.randomizer_xp
         or args.randomizer_level_up != "none"
         or args.randomizer_skill_points != "none"
     ):
