@@ -173,11 +173,11 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.xp_mult_value = tk.StringVar(value="2.0")
         self.xvariant_var = tk.BooleanVar(value=True)
         self.gender_icons_var = tk.BooleanVar(value=True)
-        self.scout_offense_var = tk.BooleanVar(value=True)
-        self.scout_penalty_var = tk.BooleanVar(value=True)
+        self.scout_offense_var = tk.BooleanVar(value=False)
+        self.scout_penalty_var = tk.BooleanVar(value=False)
         self.synth_level_var = tk.BooleanVar(value=False)
         self.synth_level_value = tk.StringVar(value="10")
-        self.synth_polarity_var = tk.BooleanVar(value=True)
+        self.synth_polarity_var = tk.BooleanVar(value=False)
 
         self.show_log_var = tk.BooleanVar(value=False)
 

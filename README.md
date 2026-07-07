@@ -2,7 +2,7 @@ This fork of Ceris White's Joker 2 Professional repository includes a post-game 
 
 <img src="./Database/credits.png" width="700">
 
-[Patching Program](https://github.com/saneezore07/DQMJ2Pro_Translation/releases) with friendly user interface for patching your legally obtained rom. Select your rom, check which patch options you want, then run the program.<br>
+[Patcher Program](https://github.com/saneezore07/DQMJ2Pro_Translation/releases) with friendly user interface for patching your legally obtained rom. Select your rom, check which patch options you want, then run the program.<br>
 <img src="./Database/GUI_Patcher/gui.png" width="300">
 
 Database of Monster [Synthesis](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/synthesis_database.csv) Recipes.<br>
@@ -13,9 +13,26 @@ Database of Monster [Resistances](https://github.com/saneezore07/DQMJ2Pro_Transl
 - In-game menus, story dialogue, and post-game dialogue have been translated/localised from its original Japanese to English.
 - New synthesis recipes have been added to the game for monsters that exist in the game files, but were either wi-fi exclusive monsters or otherwise not obtainable in gameplay.
 - A user interface program has been created for a seemless patching process.
-- Anti-Piracy patching has been implemented in the patch, allow users to play on original hardware.
+- Anti-Piracy patching has been implemented in the patch, allowing users to play on original hardware.
 - Optional QOL and gameplay changes have be provided.
 - Game databases have been provided for synthesis, traits, skills and resistances.
+
+### Credits
+**Technical Development:**
+- Ceris White: Creation of the python toolkit used for ROM modification and English text injection.
+- Saneezore: Creation of the Patcher graphic user interface.
+- Mow: Implementation of the overlay 4 anti-piracy patch.
+<br>**Translation and Localisation:**
+- Ceris White, Ilario, Reflex: Importing of existing English text and translation of game menus.
+- Gerb: Post-game translation and localisation.
+- GemSlimee: Proofreading and editing.
+<br>**New Synthesis Recipes:**
+- Darko, Hoodiniebobeenie, Anthcny: Creation of new recipes and game balancing.
+<br>**Playtesting:**
+- Darko, GemSlimee, Hoodinibobeenie, Mad Raigo, Matthew McConville, Nurfed, Chris, diortememirp
+<br>**The [Dragon Quest Translations](https://discord.gg/aX6Ac8cC84) discord server:**
+- For hosting collaboration efforts.
+
 
 <details>
 <summary>Manually Patching the Translation</summary>
