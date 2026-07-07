@@ -52,43 +52,58 @@ def _write_spoiler(path: Path, text: str):
 
 
 
-def _load_valid_monster_meta() -> dict[int, dict[str, str]]:
-    path = Path(__file__).resolve().parent / "valid_monsters.txt"
-    meta = {}
-
-    if not path.is_file():
-        return meta
-
-    for raw in path.read_text(encoding="utf-8", errors="replace").splitlines():
-        raw = raw.strip()
-        if not raw or raw.startswith("#"):
-            continue
-
-        parts = [p.strip() for p in raw.split(",")]
-        if len(parts) < 12:
-            continue
-
-        try:
-            entry_index = int(parts[0])
-        except ValueError:
-            continue
-
-        meta[entry_index] = {
-            "monster_id": parts[1],
-            "name": parts[2],
-            "rank": parts[9].upper(),
-            "family": parts[10].lower(),
-            "size": parts[11],
-        }
-
-    return meta
+def _norm_name(name: str) -> str:
+    return (
+        name.strip()
+        .lower()
+        .replace("’", "'")
+        .replace(" ", "")
+        .replace("-", "")
+    )
 
 
-def _entry_allowed_by_filters(entry_index: int, meta: dict[int, dict[str, str]], config: ProRandomizerConfig) -> bool:
+def _load_monster_catalog(repo: Path) -> dict[int, dict[str, str]]:
+    """Load J2P catalog metadata keyed by monster ID."""
+    import csv
+
+    db_path = Path(__file__).resolve().parent / "monster_database.csv"
+    names_path = repo / "Translation" / "STRINGS" / "msg_monstername.txt"
+
+    if not db_path.is_file() or not names_path.is_file():
+        return {}
+
+    name_to_id = {}
+    for monster_id, line in enumerate(names_path.read_text(encoding="utf-8", errors="replace").splitlines()):
+        name = line.strip()
+        if name:
+            name_to_id[_norm_name(name)] = monster_id
+
+    catalog = {}
+    with db_path.open("r", encoding="utf-8-sig", errors="replace", newline="") as f:
+        for row in csv.DictReader(f):
+            name = (row.get("Monster (Eng)") or "").strip()
+            monster_id = name_to_id.get(_norm_name(name))
+            if not monster_id:
+                continue
+
+            family = (row.get("Family") or "").strip()
+            if family in ("？？？系", "???系"):
+                family = "???"
+
+            catalog[monster_id] = {
+                "rank": (row.get("Rank") or "").strip().upper(),
+                "family": family.lower(),
+                "size": (row.get("Sz.") or "").strip(),
+            }
+
+    return catalog
+
+
+def _monster_allowed_by_filters(monster_id: int, catalog: dict[int, dict[str, str]], config: ProRandomizerConfig) -> bool:
     if not config.rank_excludes and not config.family_excludes and not config.size_excludes:
         return True
 
-    info = meta.get(entry_index)
+    info = catalog.get(monster_id)
     if not info:
         return False
 
@@ -104,7 +119,6 @@ def _entry_allowed_by_filters(entry_index: int, meta: dict[int, dict[str, str]],
         return False
 
     return True
-
 
 def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, config: ProRandomizerConfig, log=print):
     path = data_dir / "BtlEnmyPrm2.bin"
@@ -125,7 +139,7 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, conf
     entries = [bytearray(body[i * entry_size:(i + 1) * entry_size]) for i in range(num_entries)]
 
     monster_names = _load_monster_names(repo)
-    monster_meta = _load_valid_monster_meta()
+    monster_catalog = _load_monster_catalog(repo)
 
     valid_indices = []
     for i, entry in enumerate(entries):
@@ -140,10 +154,11 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, conf
     if not valid_indices:
         raise ValueError("No valid battle monster entries after filtering")
 
-    candidate_indices = [
-        i for i in valid_indices
-        if _entry_allowed_by_filters(i, monster_meta, config)
-    ]
+    candidate_indices = []
+    for i in valid_indices:
+        monster_id = struct.unpack("<H", entries[i][0:2])[0]
+        if _monster_allowed_by_filters(monster_id, monster_catalog, config):
+            candidate_indices.append(i)
 
     if not candidate_indices:
         raise ValueError("No valid battle monster candidates after rank/family/size filtering")

@@ -192,6 +192,19 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.randomizer_level_up_variance = tk.StringVar(value="140")
         self.randomizer_skill_points_mode = tk.StringVar(value="none")
 
+        self.randomizer_rank_vars = {
+            rank: tk.BooleanVar(value=True)
+            for rank in ("F", "E", "D", "C", "B", "A", "S", "SS")
+        }
+        self.randomizer_family_vars = {
+            family: tk.BooleanVar(value=True)
+            for family in ("Slime", "Dragon", "Nature", "Beast", "Material", "Demon", "Zombie", "???")
+        }
+        self.randomizer_size_vars = {
+            size: tk.BooleanVar(value=True)
+            for size in ("1", "2", "3")
+        }
+
         self.show_log_var = tk.BooleanVar(value=False)
 
         self.build_ui()
@@ -324,6 +337,38 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         ):
             w = ttk.Radiobutton(skill_frame, text=text, variable=self.randomizer_skill_points_mode, value=value)
             w.pack(anchor="w", padx=8, pady=2)
+            self.randomizer_widgets.append(w)
+
+        filters_frame = ttk.LabelFrame(rand, text="Battle monster replacement filters")
+        filters_frame.pack(fill="x", padx=24, pady=(10, 3))
+        self.randomizer_widgets.append(filters_frame)
+
+        ttk.Label(filters_frame, text="Allowed ranks:").pack(anchor="w", padx=8, pady=(4, 0))
+        rank_row = ttk.Frame(filters_frame)
+        rank_row.pack(anchor="w", padx=8, pady=2)
+        self.randomizer_widgets.append(rank_row)
+        for rank, var in self.randomizer_rank_vars.items():
+            w = ttk.Checkbutton(rank_row, text=rank, variable=var)
+            w.pack(side="left", padx=2)
+            self.randomizer_widgets.append(w)
+
+        ttk.Label(filters_frame, text="Allowed families:").pack(anchor="w", padx=8, pady=(4, 0))
+        family_row = ttk.Frame(filters_frame)
+        family_row.pack(anchor="w", padx=8, pady=2)
+        self.randomizer_widgets.append(family_row)
+        for family, var in self.randomizer_family_vars.items():
+            w = ttk.Checkbutton(family_row, text=family, variable=var)
+            w.pack(side="left", padx=2)
+            self.randomizer_widgets.append(w)
+
+        ttk.Label(filters_frame, text="Allowed sizes:").pack(anchor="w", padx=8, pady=(4, 0))
+        size_row = ttk.Frame(filters_frame)
+        size_row.pack(anchor="w", padx=8, pady=(2, 6))
+        self.randomizer_widgets.append(size_row)
+        for size, var in self.randomizer_size_vars.items():
+            label = f"{size}-slot"
+            w = ttk.Checkbutton(size_row, text=label, variable=var)
+            w.pack(side="left", padx=2)
             self.randomizer_widgets.append(w)
 
         self.toggle_randomizer_controls()
@@ -462,6 +507,27 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
 
             if self.randomizer_monsters_var.get():
                 args.append("--randomizer-monsters")
+
+                rank_excludes = [rank for rank, var in self.randomizer_rank_vars.items() if not var.get()]
+                family_excludes = [family for family, var in self.randomizer_family_vars.items() if not var.get()]
+                size_excludes = [size for size, var in self.randomizer_size_vars.items() if not var.get()]
+
+                if len(rank_excludes) == len(self.randomizer_rank_vars):
+                    messagebox.showerror("Invalid filters", "At least one monster rank must be allowed.")
+                    return
+                if len(family_excludes) == len(self.randomizer_family_vars):
+                    messagebox.showerror("Invalid filters", "At least one monster family must be allowed.")
+                    return
+                if len(size_excludes) == len(self.randomizer_size_vars):
+                    messagebox.showerror("Invalid filters", "At least one monster size must be allowed.")
+                    return
+
+                if rank_excludes:
+                    args.extend(["--randomizer-rank-excludes", ",".join(rank_excludes)])
+                if family_excludes:
+                    args.extend(["--randomizer-family-excludes", ",".join(family_excludes)])
+                if size_excludes:
+                    args.extend(["--randomizer-size-excludes", ",".join(size_excludes)])
 
             if self.randomizer_spoiler_var.get():
                 args.append("--randomizer-spoiler")
