@@ -155,8 +155,14 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, conf
         raise ValueError("No valid battle monster entries after filtering")
 
     candidate_indices = []
-    for i in valid_indices:
-        monster_id = struct.unpack("<H", entries[i][0:2])[0]
+    for i, entry in enumerate(entries):
+        monster_id = struct.unpack("<H", entry[0:2])[0]
+        xp = int.from_bytes(entry[40:43], "little")
+
+        if monster_id <= 0:
+            continue
+        if config.remove_zero_xp and xp <= 0:
+            continue
         if _monster_allowed_by_filters(monster_id, monster_catalog, config):
             candidate_indices.append(i)
 
