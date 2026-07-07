@@ -190,6 +190,7 @@ def main(argv=None):
     ap.add_argument("--rom", required=True)
     ap.add_argument("--output", required=True)
     ap.add_argument("--work", default="GUI_WORK")
+    ap.add_argument("--keep-work", action="store_true", help="Do not delete GUI_WORK after patching")
     ap.add_argument("--repo", default="AUTO")
 
     ap.add_argument("--new-synths", action="store_true")
@@ -217,6 +218,9 @@ def main(argv=None):
     pro_rom = work / "Pro_ROM"
 
     def _cleanup_work():
+        if args.keep_work:
+            print(f"Keeping work dir: {work}")
+            return
         try:
             if work.exists():
                 shutil.rmtree(work)
