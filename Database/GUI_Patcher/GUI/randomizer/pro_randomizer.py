@@ -20,6 +20,7 @@ class ProRandomizerConfig:
     level_up_mode: str = "none"  # none, swap, random
     level_up_variance: int = 110
     skill_points_mode: str = "none"  # none, swap, random
+    randomize_generic_synthesis: bool = False
     settings_summary: str = ""
 
 
@@ -419,6 +420,128 @@ def randomize_level_up(data_dir: Path, output_dir: Path, config: ProRandomizerCo
         _write_spoiler(spoiler, "".join(spoiler_lines))
 
 
+
+
+
+
+def randomize_generic_synthesis(data_dir: Path, output_dir: Path, repo: Path, config: ProRandomizerConfig, log=print) -> None:
+    from apply_patches import overlay_decompress, overlay_compress, update_y9
+
+    pro_rom = data_dir.parent
+    ov0_path = pro_rom / "overlay_dir" / "overlay_0000.bin"
+    y9_path = pro_rom / "y9.bin"
+
+    if not ov0_path.is_file():
+        raise FileNotFoundError(ov0_path)
+    if not y9_path.is_file():
+        raise FileNotFoundError(y9_path)
+
+    # overlay_0000:
+    # 0x0222E000 = 42 generic synthesis family rules:
+    #   u16 parent_family_a, u16 parent_family_b, u16 result_family
+    # then FF FF FF FF FF FF terminator.
+    overlay0_ram = 0x021D7240
+    table_ram = 0x0222E000
+    table_off = table_ram - overlay0_ram
+    record_size = 6
+    record_count = 42
+
+    family_names = {
+        1: "Slime",
+        2: "Dragon",
+        3: "Nature",
+        4: "Beast",
+        5: "Material",
+        6: "Demon",
+        7: "Zombie",
+    }
+
+    original_size = ov0_path.stat().st_size
+    dec = bytearray(overlay_decompress(ov0_path))
+
+    # In-place generic synthesis result shift.
+    # Experimental: gives much wilder generic synthesis results without touching
+    # EnmyKindTbl monster rank/class metadata. Known quirk: some SS display text
+    # may appear as X depending on shifted result IDs.
+    def patch_arm(addr: int, expected_hex: str, new_hex: str) -> None:
+        off = addr - overlay0_ram
+        expected = bytes.fromhex(expected_hex)
+        old = bytes(dec[off:off + len(expected)])
+        if old != expected:
+            raise ValueError(f"overlay_0000 patch mismatch at 0x{addr:08X}: {old.hex()} != {expected.hex()}")
+        dec[off:off + len(expected)] = bytes.fromhex(new_hex)
+
+    shift = random.randint(40, 96)
+
+    # 0x02228FB0:
+    #   mov r0, sl
+    # -> add r0, sl, #shift
+    add_r0_sl_imm = (0xE28A0000 | shift).to_bytes(4, "little")
+    patch_arm(0x02228FB0, "0a 00 a0 e1", add_r0_sl_imm.hex())
+
+    if table_off < 0 or table_off + record_count * record_size + record_size > len(dec):
+        raise ValueError("Generic synthesis table offset is outside overlay_0000.bin")
+
+    terminator = dec[table_off + record_count * record_size:table_off + (record_count + 1) * record_size]
+    if terminator != b"\xff\xff\xff\xff\xff\xff":
+        raise ValueError(
+            "Generic synthesis table terminator mismatch; overlay_0000 layout is not as expected"
+        )
+
+    records = []
+    results = []
+
+    for i in range(record_count):
+        off = table_off + i * record_size
+        a = int.from_bytes(dec[off:off + 2], "little")
+        b = int.from_bytes(dec[off + 2:off + 4], "little")
+        r = int.from_bytes(dec[off + 4:off + 6], "little")
+
+        if not (1 <= a <= 7 and 1 <= b <= 7 and 1 <= r <= 7):
+            raise ValueError(f"Generic synthesis table record {i} has unexpected values: {a}, {b}, {r}")
+
+        records.append((off, a, b, r))
+        results.append(r)
+
+    shuffled = results[:]
+    random.shuffle(shuffled)
+
+    spoiler_lines = ["--- Generic Synthesis Randomisation ---", ""]
+    spoiler_lines.append("--- Generic Synthesis Result Shift ---")
+    spoiler_lines.append(f"Common selector return shift: +{shift}")
+    spoiler_lines.append("Known quirk: some SS display text may appear as X.")
+    spoiler_lines.append("")
+    spoiler_lines.append("Generic family-pair result table:")
+
+    for (off, a, b, old_r), new_r in zip(records, shuffled):
+        dec[off + 4:off + 6] = int(new_r).to_bytes(2, "little")
+        spoiler_lines.append(
+            f"{family_names[a]} + {family_names[b]}: "
+            f"{family_names[old_r]} -> {family_names[new_r]}"
+        )
+
+    # Randomise generic synthesis result order by shuffling monster family/rank metadata.
+    # Monster params are in ARM9 at raw ROM offset 0x6994C6C in Namofure's randomizer notes,
+    # but in our extracted build they are accessed through the game monster-param table.
+    # This is not safe to patch blindly here yet.
+    #
+    # Leave this function limited to the real family table until we identify the extracted
+    # monster param file / exact rebuilt offset.
+
+    ov0_path.write_bytes(overlay_compress(bytes(dec)))
+
+    if ov0_path.stat().st_size != original_size:
+        update_y9(y9_path, 0, ov0_path.stat().st_size)
+
+    log(f"Randomized generic synthesis family table: {record_count} rules")
+
+    if config.generate_spoiler:
+        output_dir.mkdir(parents=True, exist_ok=True)
+        spoiler = output_dir / f"randomizer_spoiler_{config.seed}.txt"
+        _append_spoiler(spoiler, "\n".join(spoiler_lines) + "\n")
+        log(f"Spoiler file: {spoiler}")
+
+
 def randomize_skill_points(data_dir: Path, output_dir: Path, config: ProRandomizerConfig, log=print):
     if config.skill_points_mode == "none":
         return
@@ -492,6 +615,10 @@ def run_pro_randomizer(pro_rom: Path, output_dir: Path, repo: Path, config: ProR
 
     if config.level_up_mode != "none":
         randomize_level_up(data_dir, Path(output_dir), config, log=log)
+        did_anything = True
+
+    if config.randomize_generic_synthesis:
+        randomize_generic_synthesis(data_dir, Path(output_dir), Path(repo), config, log=log)
         did_anything = True
 
     if config.skill_points_mode != "none":
