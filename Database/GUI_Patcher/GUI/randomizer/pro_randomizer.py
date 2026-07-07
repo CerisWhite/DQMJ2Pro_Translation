@@ -421,77 +421,119 @@ def randomize_level_up(data_dir: Path, output_dir: Path, config: ProRandomizerCo
 
 
 
+
+
+
 def randomize_generic_synthesis(data_dir: Path, output_dir: Path, repo: Path, config: ProRandomizerConfig, log=print) -> None:
-    names = _load_monster_names(repo)
+    from apply_patches import overlay_decompress, overlay_compress, update_y9
 
-    not_rank_path = data_dir / "CombinationNotRankTbl.bin"
-    kind_type_path = data_dir / "CombinationKindTypeTbl.bin"
+    pro_rom = data_dir.parent
+    ov0_path = pro_rom / "overlay_dir" / "overlay_0000.bin"
+    y9_path = pro_rom / "y9.bin"
 
-    if not not_rank_path.is_file():
-        raise FileNotFoundError(not_rank_path)
-    if not kind_type_path.is_file():
-        raise FileNotFoundError(kind_type_path)
+    if not ov0_path.is_file():
+        raise FileNotFoundError(ov0_path)
+    if not y9_path.is_file():
+        raise FileNotFoundError(y9_path)
 
-    spoiler_lines = ["--- Generic Synthesis Randomisation ---"]
+    # overlay_0000:
+    # 0x0222E000 = 42 generic synthesis family rules:
+    #   u16 parent_family_a, u16 parent_family_b, u16 result_family
+    # then FF FF FF FF FF FF terminator.
+    overlay0_ram = 0x021D7240
+    table_ram = 0x0222E000
+    table_off = table_ram - overlay0_ram
+    record_size = 6
+    record_count = 42
 
-    raw = bytearray(kind_type_path.read_bytes())
-    if len(raw) % 6:
-        raise ValueError(f"CombinationKindTypeTbl.bin unexpected size: {len(raw)}")
+    family_names = {
+        1: "Slime",
+        2: "Dragon",
+        3: "Nature",
+        4: "Beast",
+        5: "Material",
+        6: "Demon",
+        7: "Zombie",
+    }
+
+    original_size = ov0_path.stat().st_size
+    dec = bytearray(overlay_decompress(ov0_path))
+
+    # In-place generic synthesis result shift.
+    # Experimental: gives much wilder generic synthesis results without touching
+    # EnmyKindTbl monster rank/class metadata. Known quirk: some SS display text
+    # may appear as X depending on shifted result IDs.
+    def patch_arm(addr: int, expected_hex: str, new_hex: str) -> None:
+        off = addr - overlay0_ram
+        expected = bytes.fromhex(expected_hex)
+        old = bytes(dec[off:off + len(expected)])
+        if old != expected:
+            raise ValueError(f"overlay_0000 patch mismatch at 0x{addr:08X}: {old.hex()} != {expected.hex()}")
+        dec[off:off + len(expected)] = bytes.fromhex(new_hex)
+
+    shift = random.randint(40, 96)
+
+    # 0x02228FB0:
+    #   mov r0, sl
+    # -> add r0, sl, #shift
+    add_r0_sl_imm = (0xE28A0000 | shift).to_bytes(4, "little")
+    patch_arm(0x02228FB0, "0a 00 a0 e1", add_r0_sl_imm.hex())
+
+    if table_off < 0 or table_off + record_count * record_size + record_size > len(dec):
+        raise ValueError("Generic synthesis table offset is outside overlay_0000.bin")
+
+    terminator = dec[table_off + record_count * record_size:table_off + (record_count + 1) * record_size]
+    if terminator != b"\xff\xff\xff\xff\xff\xff":
+        raise ValueError(
+            "Generic synthesis table terminator mismatch; overlay_0000 layout is not as expected"
+        )
 
     records = []
-    result_types = []
+    results = []
 
-    for off in range(0, len(raw), 6):
-        a = int.from_bytes(raw[off:off + 2], "little")
-        b = int.from_bytes(raw[off + 2:off + 4], "little")
-        t = int.from_bytes(raw[off + 4:off + 6], "little")
+    for i in range(record_count):
+        off = table_off + i * record_size
+        a = int.from_bytes(dec[off:off + 2], "little")
+        b = int.from_bytes(dec[off + 2:off + 4], "little")
+        r = int.from_bytes(dec[off + 4:off + 6], "little")
 
-        if a == 0xFFFF and b == 0xFFFF and t == 0xFFFF:
-            break
+        if not (1 <= a <= 7 and 1 <= b <= 7 and 1 <= r <= 7):
+            raise ValueError(f"Generic synthesis table record {i} has unexpected values: {a}, {b}, {r}")
 
-        records.append((off, a, b, t))
-        result_types.append(t)
+        records.append((off, a, b, r))
+        results.append(r)
 
-    shuffled_types = result_types[:]
-    random.shuffle(shuffled_types)
+    shuffled = results[:]
+    random.shuffle(shuffled)
 
+    spoiler_lines = ["--- Generic Synthesis Randomisation ---", ""]
+    spoiler_lines.append("--- Generic Synthesis Result Shift ---")
+    spoiler_lines.append(f"Common selector return shift: +{shift}")
+    spoiler_lines.append("Known quirk: some SS display text may appear as X.")
     spoiler_lines.append("")
-    spoiler_lines.append("CombinationKindTypeTbl result family/type overrides:")
-    for (off, a, b, old_t), new_t in zip(records, shuffled_types):
-        raw[off + 4:off + 6] = int(new_t).to_bytes(2, "little")
+    spoiler_lines.append("Generic family-pair result table:")
+
+    for (off, a, b, old_r), new_r in zip(records, shuffled):
+        dec[off + 4:off + 6] = int(new_r).to_bytes(2, "little")
         spoiler_lines.append(
-            f"{names.get(a, f'Monster {a}')} ({a}) + "
-            f"{names.get(b, f'Monster {b}')} ({b}): type {old_t} -> {new_t}"
+            f"{family_names[a]} + {family_names[b]}: "
+            f"{family_names[old_r]} -> {family_names[new_r]}"
         )
 
-    kind_type_path.write_bytes(raw)
+    # Randomise generic synthesis result order by shuffling monster family/rank metadata.
+    # Monster params are in ARM9 at raw ROM offset 0x6994C6C in Namofure's randomizer notes,
+    # but in our extracted build they are accessed through the game monster-param table.
+    # This is not safe to patch blindly here yet.
+    #
+    # Leave this function limited to the real family table until we identify the extracted
+    # monster param file / exact rebuilt offset.
 
-    raw = bytearray(not_rank_path.read_bytes())
-    if len(raw) % 2:
-        raise ValueError(f"CombinationNotRankTbl.bin unexpected size: {len(raw)}")
+    ov0_path.write_bytes(overlay_compress(bytes(dec)))
 
-    vals = []
-    for off in range(0, len(raw), 2):
-        v = int.from_bytes(raw[off:off + 2], "little")
-        if v == 0xFFFF:
-            break
-        vals.append(v)
+    if ov0_path.stat().st_size != original_size:
+        update_y9(y9_path, 0, ov0_path.stat().st_size)
 
-    shuffled_vals = vals[:]
-    random.shuffle(shuffled_vals)
-
-    spoiler_lines.append("")
-    spoiler_lines.append("CombinationNotRankTbl not-rank monster list shuffle:")
-    for i, (old_v, new_v) in enumerate(zip(vals, shuffled_vals)):
-        raw[i * 2:i * 2 + 2] = int(new_v).to_bytes(2, "little")
-        spoiler_lines.append(
-            f"{i + 1:03d}: {names.get(old_v, f'Monster {old_v}')} ({old_v}) -> "
-            f"{names.get(new_v, f'Monster {new_v}')} ({new_v})"
-        )
-
-    not_rank_path.write_bytes(raw)
-
-    log(f"Randomized generic synthesis tables: {len(records)} type overrides, {len(vals)} not-rank entries")
+    log(f"Randomized generic synthesis family table: {record_count} rules")
 
     if config.generate_spoiler:
         output_dir.mkdir(parents=True, exist_ok=True)

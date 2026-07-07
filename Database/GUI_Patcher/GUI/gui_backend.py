@@ -215,7 +215,7 @@ def build_randomizer_settings_summary(args):
         f"- Level Up XP mode: {args.randomizer_level_up}",
         f"- Level Up XP variance: {args.randomizer_level_up_variance}",
         f"- Skill Points mode: {args.randomizer_skill_points}",
-        f"- Generic synthesis tables: {'on' if args.randomizer_generic_synthesis else 'off'}",
+        f"- Generic synthesis: {'on' if args.randomizer_generic_synthesis else 'off'}",
         f"- Excluded ranks: {args.randomizer_rank_excludes or 'none'}",
         f"- Excluded families: {args.randomizer_family_excludes or 'none'}",
         f"- Excluded sizes: {args.randomizer_size_excludes or 'none'}",

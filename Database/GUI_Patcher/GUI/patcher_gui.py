@@ -339,7 +339,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             w.pack(anchor="w", padx=8, pady=2)
             self.randomizer_widgets.append(w)
 
-        w = ttk.Checkbutton(rand, text="Randomise generic synthesis tables", variable=self.randomizer_generic_synthesis_var)
+        w = ttk.Checkbutton(rand, text="Randomise generic synthesis", variable=self.randomizer_generic_synthesis_var)
         w.pack(anchor="w", padx=24, pady=3)
         self.randomizer_widgets.append(w)
 
