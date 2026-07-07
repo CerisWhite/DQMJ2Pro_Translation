@@ -28,7 +28,7 @@ def app_root():
     return Path(__file__).resolve().parents[3]
 
 ROOT = app_root()
-PATCHER_VERSION = "0.6"
+PATCHER_VERSION = "0.6.1"
 
 def open_url(url):
     if sys.platform.startswith("linux"):
@@ -296,6 +296,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
 
         for text, var in (
             ("Generate spoiler file", self.randomizer_spoiler_var),
+            ("Randomise synthesis recipes", self.randomizer_generic_synthesis_var),
             ("Allow Flee/Scout for randomised battles", self.randomizer_allow_flee_var),
             ("Randomise battle XP rewards", self.randomizer_xp_var),
             ("Stronger randomised monsters (150% stats)", self.randomizer_stronger_var),
@@ -339,7 +340,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             w.pack(anchor="w", padx=8, pady=2)
             self.randomizer_widgets.append(w)
 
-        w = ttk.Checkbutton(rand, text="Randomise generic synthesis", variable=self.randomizer_generic_synthesis_var)
+        w = ttk.Checkbutton(rand, text="Randomise synthesis recipes", variable=self.randomizer_generic_synthesis_var)
         w.pack(anchor="w", padx=24, pady=3)
         self.randomizer_widgets.append(w)
 
