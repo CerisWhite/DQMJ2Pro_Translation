@@ -22,14 +22,18 @@ Database of Monster [Resistances](https://github.com/saneezore07/DQMJ2Pro_Transl
 - Ceris White: Creation of the python toolkit used for ROM modification and English text injection.
 - Saneezore: Creation of the Patcher graphic user interface.
 - Mow: Implementation of the overlay 4 anti-piracy patch.<br>
+
 **Translation and Localisation:**
 - Ceris White, Ilario, Reflex: Importing of existing English text and translation of game menus.
 - Gerb: Post-game translation and localisation.
 - GemSlimee: Proofreading and editing.<br>
+
 **New Synthesis Recipes:**
 - Darko, Hoodiniebobeenie, Anthcny: Creation of new recipes and game balancing.<br>
+
 **Playtesting:**
 - Darko, GemSlimee, Hoodinibobeenie, Mad Raigo, Matthew McConville, Nurfed, Chris, diortememirp<br>
+
 **The [Dragon Quest Translations](https://discord.gg/aX6Ac8cC84) discord server:**
 - For hosting collaboration efforts.
 
