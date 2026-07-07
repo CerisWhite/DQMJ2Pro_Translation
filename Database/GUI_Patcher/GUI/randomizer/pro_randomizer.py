@@ -19,9 +19,28 @@ class ProRandomizerConfig:
     size_excludes: set[str] = field(default_factory=set)
 
 
-def _monster_name_by_id(data_dir: Path, monster_id: int) -> str:
-    # Placeholder until we map JP Pro monster IDs to translated names.
-    return f"monster_id_{monster_id}"
+def _load_monster_names(repo: Path) -> dict[int, str]:
+    names = {}
+    path = repo / "Translation" / "STRINGS" / "msg_monstername.txt"
+
+    if not path.is_file():
+        return names
+
+    # msg_monstername.txt line number matches monster ID.
+    # Line 0 is blank/none, line 1 is Slime.
+    for monster_id, line in enumerate(path.read_text(encoding="utf-8", errors="replace").splitlines()):
+        name = line.strip()
+        if name:
+            names[monster_id] = name
+
+    return names
+
+
+def _monster_label(names: dict[int, str], monster_id: int) -> str:
+    name = names.get(monster_id)
+    if name:
+        return f"{name} ({monster_id})"
+    return f"monster {monster_id}"
 
 
 def _write_spoiler(path: Path, text: str):
@@ -29,7 +48,7 @@ def _write_spoiler(path: Path, text: str):
         f.write(text)
 
 
-def randomize_battle_monsters(data_dir: Path, output_dir: Path, config: ProRandomizerConfig, log=print):
+def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, config: ProRandomizerConfig, log=print):
     path = data_dir / "BtlEnmyPrm2.bin"
     if not path.is_file():
         raise FileNotFoundError(path)
@@ -46,6 +65,8 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, config: ProRando
 
     num_entries = len(body) // entry_size
     entries = [bytearray(body[i * entry_size:(i + 1) * entry_size]) for i in range(num_entries)]
+
+    monster_names = _load_monster_names(repo)
 
     valid_indices = []
     for i, entry in enumerate(entries):
@@ -103,6 +124,7 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, config: ProRando
     random.shuffle(shuffled)
 
     spoiler_lines = []
+    spoiler_by_old_name = []
     out_entries = [bytes(e) for e in entries]
     changed = 0
 
@@ -115,9 +137,9 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, config: ProRando
         if old_entry != new_entry:
             changed += 1
 
-        spoiler_lines.append(
-            f"Entry {dst_i:04d}: monster {old_id} -> {new_id}, XP {old_xp} -> {new_xp}\n"
-        )
+        line = f"Entry {dst_i:04d}: {_monster_label(monster_names, old_id)} -> {_monster_label(monster_names, new_id)}, XP {old_xp} -> {new_xp}\n"
+        spoiler_lines.append(line)
+        spoiler_by_old_name.append((_monster_label(monster_names, old_id).lower(), line))
         out_entries[dst_i] = new_entry
 
     path.write_bytes(header + b"".join(out_entries))
@@ -131,11 +153,14 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, config: ProRando
         spoiler.write_text(f"Randomization Seed: {config.seed}\n", encoding="utf-8")
         _write_spoiler(spoiler, f"BtlEnmyPrm2 entries randomized: {len(valid_indices)} / {num_entries}\n")
         _write_spoiler(spoiler, f"BtlEnmyPrm2 entries changed: {changed}\n\n")
+        _write_spoiler(spoiler, "--- By battle entry order ---\n")
         _write_spoiler(spoiler, "".join(spoiler_lines))
+        _write_spoiler(spoiler, "\n--- By original monster name ---\n")
+        _write_spoiler(spoiler, "".join(line for _key, line in sorted(spoiler_by_old_name)))
         log(f"Spoiler file: {spoiler}")
 
 
-def run_pro_randomizer(pro_rom: Path, output_dir: Path, config: ProRandomizerConfig, log=print):
+def run_pro_randomizer(pro_rom: Path, output_dir: Path, repo: Path, config: ProRandomizerConfig, log=print):
     pro_rom = Path(pro_rom)
     data_dir = pro_rom / "data_dir"
 
@@ -147,6 +172,6 @@ def run_pro_randomizer(pro_rom: Path, output_dir: Path, config: ProRandomizerCon
     log(f"Seed: {seed}")
 
     if config.randomize_monsters:
-        randomize_battle_monsters(data_dir, Path(output_dir), config, log=log)
+        randomize_battle_monsters(data_dir, Path(output_dir), Path(repo), config, log=log)
     else:
         log("Randomizer enabled, but no randomizer modules selected")
