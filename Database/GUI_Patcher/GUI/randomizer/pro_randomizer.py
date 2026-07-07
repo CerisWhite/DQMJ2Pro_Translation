@@ -17,6 +17,9 @@ class ProRandomizerConfig:
     rank_excludes: set[str] = field(default_factory=set)
     family_excludes: set[str] = field(default_factory=set)
     size_excludes: set[str] = field(default_factory=set)
+    level_up_mode: str = "none"  # none, swap, random
+    level_up_variance: int = 110
+    skill_points_mode: str = "none"  # none, swap, random
 
 
 def _load_monster_names(repo: Path) -> dict[int, str]:
@@ -160,6 +163,118 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, conf
         log(f"Spoiler file: {spoiler}")
 
 
+
+def _weighted_choice(data):
+    total = sum(weight for weight, _value in data)
+    pick = random.uniform(0, total)
+    cur = 0
+    for weight, value in data:
+        if cur <= pick < cur + weight:
+            return value
+        cur += weight
+    return data[0][1]
+
+
+def randomize_level_up(data_dir: Path, output_dir: Path, config: ProRandomizerConfig, log=print):
+    if config.level_up_mode == "none":
+        return
+
+    path = data_dir / "LevelUpTbl.bin"
+    if not path.is_file():
+        raise FileNotFoundError(path)
+
+    data = path.read_bytes()
+    header = data[:400]
+    body = data[400:]
+
+    if len(body) % 400:
+        raise ValueError(f"LevelUpTbl.bin unexpected size: body remainder {len(body) % 400}")
+
+    curves = [bytearray(body[i * 400:(i + 1) * 400]) for i in range(len(body) // 400)]
+
+    spoiler_lines = []
+    if config.level_up_mode == "swap":
+        before = list(range(len(curves)))
+        shuffled = curves[:]
+        random.shuffle(shuffled)
+        curves = shuffled
+        spoiler_lines.append("Level Up XP curve mode: swap\n")
+        spoiler_lines.append(f"Curves shuffled: {before}\n")
+
+    elif config.level_up_mode == "random":
+        variance_factor = max(100, min(config.level_up_variance, 300)) / 100.0
+        spoiler_lines.append(f"Level Up XP curve mode: random, variance {config.level_up_variance}%\n")
+
+        for ci, curve in enumerate(curves):
+            amounts = [int.from_bytes(curve[j * 4:(j + 1) * 4], "little") for j in range(100)]
+            diffs = [0] + [amounts[j + 1] - amounts[j] for j in range(99)]
+
+            new_amounts = []
+            total = 0
+            for level, diff in enumerate(diffs):
+                if level == 0:
+                    total = amounts[0]
+                else:
+                    factor = random.uniform(2 - variance_factor, variance_factor)
+                    total = max(total, int(total + diff * factor))
+                new_amounts.append(total)
+
+            curves[ci] = bytearray().join(int(x).to_bytes(4, "little") for x in new_amounts)
+
+    else:
+        raise ValueError(f"Unknown level up randomiser mode: {config.level_up_mode}")
+
+    path.write_bytes(header + b"".join(bytes(c) for c in curves))
+    log(f"Randomized LevelUpTbl.bin: mode={config.level_up_mode}")
+
+    if config.generate_spoiler:
+        output_dir.mkdir(parents=True, exist_ok=True)
+        spoiler = output_dir / f"randomizer_spoiler_{config.seed}.txt"
+        _write_spoiler(spoiler, "\n--- Level Up XP Randomisation ---\n")
+        _write_spoiler(spoiler, "".join(spoiler_lines))
+
+
+def randomize_skill_points(data_dir: Path, output_dir: Path, config: ProRandomizerConfig, log=print):
+    if config.skill_points_mode == "none":
+        return
+
+    path = data_dir / "SkillPointTbl.bin"
+    if not path.is_file():
+        raise FileNotFoundError(path)
+
+    data = bytearray(path.read_bytes())
+    if len(data) != 100:
+        raise ValueError(f"SkillPointTbl.bin unexpected size: {len(data)}")
+
+    values = [data[i] for i in range(100)]
+
+    if config.skill_points_mode == "swap":
+        random.shuffle(values)
+    elif config.skill_points_mode == "random":
+        weights = [
+            (50.0, 1),
+            (25.0, 5),
+            (12.5, 8),
+            (6.25, 11),
+            (3.125, 15),
+            (3.125, 20),
+        ]
+        values = [_weighted_choice(weights) for _ in range(100)]
+    else:
+        raise ValueError(f"Unknown skill point randomiser mode: {config.skill_points_mode}")
+
+    path.write_bytes(bytes(values))
+    log(f"Randomized SkillPointTbl.bin: mode={config.skill_points_mode}")
+
+    if config.generate_spoiler:
+        output_dir.mkdir(parents=True, exist_ok=True)
+        spoiler = output_dir / f"randomizer_spoiler_{config.seed}.txt"
+        _write_spoiler(spoiler, "\n--- Skill Point Randomisation ---\n")
+        _write_spoiler(spoiler, f"Mode: {config.skill_points_mode}\n")
+        for i, points in enumerate(values, start=1):
+            _write_spoiler(spoiler, f"Level {i}: {points} skill points\n")
+
+
 def run_pro_randomizer(pro_rom: Path, output_dir: Path, repo: Path, config: ProRandomizerConfig, log=print):
     pro_rom = Path(pro_rom)
     data_dir = pro_rom / "data_dir"
@@ -171,7 +286,19 @@ def run_pro_randomizer(pro_rom: Path, output_dir: Path, repo: Path, config: ProR
     log("Running DQMJ2P randomizer...")
     log(f"Seed: {seed}")
 
+    did_anything = False
+
     if config.randomize_monsters:
         randomize_battle_monsters(data_dir, Path(output_dir), Path(repo), config, log=log)
-    else:
-        log("Randomizer enabled, but no randomizer modules selected")
+        did_anything = True
+
+    if config.level_up_mode != "none":
+        randomize_level_up(data_dir, Path(output_dir), config, log=log)
+        did_anything = True
+
+    if config.skill_points_mode != "none":
+        randomize_skill_points(data_dir, Path(output_dir), config, log=log)
+        did_anything = True
+
+    if not did_anything:
+        log("Randomiser enabled, but no randomiser modules selected")

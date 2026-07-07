@@ -211,6 +211,9 @@ def main(argv=None):
     ap.add_argument("--randomizer-xp", action="store_true")
     ap.add_argument("--randomizer-stronger", action="store_true")
     ap.add_argument("--randomizer-no-flee", action="store_true")
+    ap.add_argument("--randomizer-level-up", choices=["none", "swap", "random"], default="none")
+    ap.add_argument("--randomizer-level-up-variance", type=int, default=110)
+    ap.add_argument("--randomizer-skill-points", choices=["none", "swap", "random"], default="none")
 
     args = ap.parse_args(argv)
 
@@ -395,13 +398,18 @@ def main(argv=None):
             "--type", "4g",
         ])
 
-    if args.randomizer_monsters:
+    if (
+        args.randomizer_monsters
+        or args.randomizer_level_up != "none"
+        or args.randomizer_skill_points != "none"
+    ):
         sys.path.insert(0, str(root))
         from randomizer.pro_randomizer import ProRandomizerConfig, run_pro_randomizer
 
         run_pro_randomizer(
             pro_rom,
             output.parent,
+            repo,
             ProRandomizerConfig(
                 seed=args.randomizer_seed,
                 generate_spoiler=args.randomizer_spoiler,
@@ -411,6 +419,9 @@ def main(argv=None):
                 randomize_xp=args.randomizer_xp,
                 stronger_monsters=args.randomizer_stronger,
                 no_flee=args.randomizer_no_flee,
+                level_up_mode=args.randomizer_level_up,
+                level_up_variance=args.randomizer_level_up_variance,
+                skill_points_mode=args.randomizer_skill_points,
             ),
             log=print,
         )
