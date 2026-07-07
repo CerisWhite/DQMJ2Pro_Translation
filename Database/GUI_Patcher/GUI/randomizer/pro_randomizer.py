@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from pathlib import Path
 import random
+import struct
 
 
 @dataclass
@@ -18,29 +19,117 @@ class ProRandomizerConfig:
     size_excludes: set[str] = field(default_factory=set)
 
 
-def run_pro_randomizer(extracted_rom_dir: Path, config: ProRandomizerConfig, log=print):
-    """
-    Prototype hook.
+def _monster_name_by_id(data_dir: Path, monster_id: int) -> str:
+    # Placeholder until we map JP Pro monster IDs to translated names.
+    return f"monster_id_{monster_id}"
 
-    Wire0n's EU DQMJ2 randomizer patches BtlEnmyPrm2.bin, LevelUpTbl.bin,
-    SkillPointTbl.bin, and ItemTbl.bin by matching known EU table bytes inside
-    the raw ROM. For DQMJ2P we should patch the extracted filesystem files
-    directly after ndstool extraction and before rebuild.
-    """
-    extracted_rom_dir = Path(extracted_rom_dir)
 
-    data_dir = extracted_rom_dir / "data_dir"
-    if not data_dir.is_dir():
-        raise FileNotFoundError(f"data_dir not found: {data_dir}")
+def _write_spoiler(path: Path, text: str):
+    with path.open("a", encoding="utf-8") as f:
+        f.write(text)
+
+
+def randomize_battle_monsters(data_dir: Path, output_dir: Path, config: ProRandomizerConfig, log=print):
+    path = data_dir / "BtlEnmyPrm2.bin"
+    if not path.is_file():
+        raise FileNotFoundError(path)
+
+    data = path.read_bytes()
+    header_size = 8
+    entry_size = 100
+
+    header = data[:header_size]
+    body = data[header_size:]
+
+    if len(body) % entry_size:
+        raise ValueError(f"BtlEnmyPrm2.bin unexpected size: body remainder {len(body) % entry_size}")
+
+    num_entries = len(body) // entry_size
+    entries = [bytearray(body[i * entry_size:(i + 1) * entry_size]) for i in range(num_entries)]
+
+    valid_indices = []
+    for i, entry in enumerate(entries):
+        monster_id = struct.unpack("<H", entry[0:2])[0]
+        xp = int.from_bytes(entry[40:43], "little")
+        if monster_id <= 0:
+            continue
+        if config.remove_zero_xp and xp <= 0:
+            continue
+        valid_indices.append(i)
+
+    if not valid_indices:
+        raise ValueError("No valid battle monster entries after filtering")
+
+    pool = [bytes(entries[i]) for i in valid_indices]
+
+    if config.stronger_monsters:
+        boosted = []
+        for e in pool:
+            b = bytearray(e)
+            stats = []
+            for off in (48, 50, 52, 54, 56, 58):
+                stats.append(min(int(struct.unpack("<H", b[off:off+2])[0] * 1.5), 9999))
+            b[48:60] = struct.pack("<6H", *stats)
+            boosted.append(bytes(b))
+        pool = boosted
+
+    if config.allow_flee_scout:
+        pool = [e[:98] + bytes([0x00]) + e[99:] for e in pool]
+    elif config.no_flee:
+        pool = [e[:98] + bytes([0x02]) + e[99:] for e in pool]
+
+    if config.randomize_xp:
+        buckets = [
+            (0, 100, 54),
+            (100, 1000, 30),
+            (1000, 10000, 10),
+            (10000, 100000, 5),
+            (100000, 333333, 1),
+        ]
+        weighted = []
+        for lo, hi, weight in buckets:
+            weighted.extend([(lo, hi)] * weight)
+
+        new_pool = []
+        for e in pool:
+            b = bytearray(e)
+            lo, hi = random.choice(weighted)
+            xp = random.randint(lo, hi)
+            b[40:43] = xp.to_bytes(3, "little")
+            new_pool.append(bytes(b))
+        pool = new_pool
+
+    shuffled = pool[:]
+    random.shuffle(shuffled)
+
+    out_entries = [bytes(e) for e in entries]
+    for dst_i, new_entry in zip(valid_indices, shuffled):
+        out_entries[dst_i] = new_entry
+
+    path.write_bytes(header + b"".join(out_entries))
+
+    log(f"Randomized battle monster table: {len(valid_indices)} entries from {num_entries} total")
+
+    if config.generate_spoiler:
+        output_dir.mkdir(parents=True, exist_ok=True)
+        spoiler = output_dir / f"randomizer_spoiler_{config.seed}.txt"
+        spoiler.write_text(f"Randomization Seed: {config.seed}\n", encoding="utf-8")
+        _write_spoiler(spoiler, f"BtlEnmyPrm2 entries randomized: {len(valid_indices)} / {num_entries}\n")
+        log(f"Spoiler file: {spoiler}")
+
+
+def run_pro_randomizer(pro_rom: Path, output_dir: Path, config: ProRandomizerConfig, log=print):
+    pro_rom = Path(pro_rom)
+    data_dir = pro_rom / "data_dir"
 
     seed = config.seed or random.randint(1, 999999)
+    config.seed = seed
     random.seed(seed)
 
-    log(f"Randomizer prototype enabled")
+    log("Running DQMJ2P randomizer...")
     log(f"Seed: {seed}")
-    log("TODO: locate DQMJ2P table files and port randomization safely")
 
-    return {
-        "seed": seed,
-        "spoiler_text": f"Randomization Seed: {seed}\n",
-    }
+    if config.randomize_monsters:
+        randomize_battle_monsters(data_dir, Path(output_dir), config, log=log)
+    else:
+        log("Randomizer enabled, but no randomizer modules selected")

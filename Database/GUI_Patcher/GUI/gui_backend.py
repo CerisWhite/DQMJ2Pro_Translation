@@ -203,6 +203,15 @@ def main(argv=None):
     ap.add_argument("--synthesis-level", type=int, default=None)
     ap.add_argument("--synthesis-polarity", action="store_true")
 
+    ap.add_argument("--randomizer-monsters", action="store_true")
+    ap.add_argument("--randomizer-seed", type=int, default=0)
+    ap.add_argument("--randomizer-spoiler", action="store_true")
+    ap.add_argument("--randomizer-allow-flee", action="store_true")
+    ap.add_argument("--randomizer-remove-zero-xp", action="store_true")
+    ap.add_argument("--randomizer-xp", action="store_true")
+    ap.add_argument("--randomizer-stronger", action="store_true")
+    ap.add_argument("--randomizer-no-flee", action="store_true")
+
     args = ap.parse_args(argv)
 
     root = app_root()
@@ -385,6 +394,26 @@ def main(argv=None):
             "--out", pro_rom / "data_dir" / "Combination4GTbl.bin",
             "--type", "4g",
         ])
+
+    if args.randomizer_monsters:
+        sys.path.insert(0, str(root))
+        from randomizer.pro_randomizer import ProRandomizerConfig, run_pro_randomizer
+
+        run_pro_randomizer(
+            pro_rom,
+            output.parent,
+            ProRandomizerConfig(
+                seed=args.randomizer_seed,
+                generate_spoiler=args.randomizer_spoiler,
+                randomize_monsters=args.randomizer_monsters,
+                allow_flee_scout=args.randomizer_allow_flee,
+                remove_zero_xp=args.randomizer_remove_zero_xp,
+                randomize_xp=args.randomizer_xp,
+                stronger_monsters=args.randomizer_stronger,
+                no_flee=args.randomizer_no_flee,
+            ),
+            log=print,
+        )
 
     if args.anti_piracy:
         ov4 = pro_rom / "overlay_dir" / "overlay_0004.bin"
