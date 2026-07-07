@@ -185,6 +185,10 @@ def apply_overlay4_antipiracy_patch(ov4_path, overlay_decompress, overlay_compre
     ov4_path.write_bytes(overlay_compress(bytes(dec)))
 
 
+def _csv_set(value):
+    return {x.strip() for x in str(value).split(",") if x.strip()}
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description="DQMJ2P GUI patch backend")
     ap.add_argument("--rom", required=True)
@@ -214,6 +218,9 @@ def main(argv=None):
     ap.add_argument("--randomizer-level-up", choices=["none", "swap", "random"], default="none")
     ap.add_argument("--randomizer-level-up-variance", type=int, default=110)
     ap.add_argument("--randomizer-skill-points", choices=["none", "swap", "random"], default="none")
+    ap.add_argument("--randomizer-rank-excludes", default="")
+    ap.add_argument("--randomizer-family-excludes", default="")
+    ap.add_argument("--randomizer-size-excludes", default="")
 
     args = ap.parse_args(argv)
 
@@ -422,6 +429,9 @@ def main(argv=None):
                 level_up_mode=args.randomizer_level_up,
                 level_up_variance=args.randomizer_level_up_variance,
                 skill_points_mode=args.randomizer_skill_points,
+                rank_excludes=_csv_set(args.randomizer_rank_excludes),
+                family_excludes=_csv_set(args.randomizer_family_excludes),
+                size_excludes=_csv_set(args.randomizer_size_excludes),
             ),
             log=print,
         )

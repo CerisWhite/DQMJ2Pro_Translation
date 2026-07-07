@@ -51,6 +51,61 @@ def _write_spoiler(path: Path, text: str):
         f.write(text)
 
 
+
+def _load_valid_monster_meta() -> dict[int, dict[str, str]]:
+    path = Path(__file__).resolve().parent / "valid_monsters.txt"
+    meta = {}
+
+    if not path.is_file():
+        return meta
+
+    for raw in path.read_text(encoding="utf-8", errors="replace").splitlines():
+        raw = raw.strip()
+        if not raw or raw.startswith("#"):
+            continue
+
+        parts = [p.strip() for p in raw.split(",")]
+        if len(parts) < 12:
+            continue
+
+        try:
+            entry_index = int(parts[0])
+        except ValueError:
+            continue
+
+        meta[entry_index] = {
+            "monster_id": parts[1],
+            "name": parts[2],
+            "rank": parts[9].upper(),
+            "family": parts[10].lower(),
+            "size": parts[11],
+        }
+
+    return meta
+
+
+def _entry_allowed_by_filters(entry_index: int, meta: dict[int, dict[str, str]], config: ProRandomizerConfig) -> bool:
+    if not config.rank_excludes and not config.family_excludes and not config.size_excludes:
+        return True
+
+    info = meta.get(entry_index)
+    if not info:
+        return False
+
+    rank_excludes = {x.upper() for x in config.rank_excludes}
+    family_excludes = {x.lower() for x in config.family_excludes}
+    size_excludes = {str(x) for x in config.size_excludes}
+
+    if info["rank"] in rank_excludes:
+        return False
+    if info["family"] in family_excludes:
+        return False
+    if info["size"] in size_excludes:
+        return False
+
+    return True
+
+
 def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, config: ProRandomizerConfig, log=print):
     path = data_dir / "BtlEnmyPrm2.bin"
     if not path.is_file():
@@ -70,6 +125,7 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, conf
     entries = [bytearray(body[i * entry_size:(i + 1) * entry_size]) for i in range(num_entries)]
 
     monster_names = _load_monster_names(repo)
+    monster_meta = _load_valid_monster_meta()
 
     valid_indices = []
     for i, entry in enumerate(entries):
@@ -84,7 +140,15 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, conf
     if not valid_indices:
         raise ValueError("No valid battle monster entries after filtering")
 
-    pool = [bytes(entries[i]) for i in valid_indices]
+    candidate_indices = [
+        i for i in valid_indices
+        if _entry_allowed_by_filters(i, monster_meta, config)
+    ]
+
+    if not candidate_indices:
+        raise ValueError("No valid battle monster candidates after rank/family/size filtering")
+
+    pool = [bytes(entries[i]) for i in candidate_indices]
 
     if config.stronger_monsters:
         boosted = []
@@ -123,8 +187,11 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, conf
             new_pool.append(bytes(b))
         pool = new_pool
 
-    shuffled = pool[:]
-    random.shuffle(shuffled)
+    if len(pool) == len(valid_indices):
+        shuffled = pool[:]
+        random.shuffle(shuffled)
+    else:
+        shuffled = [random.choice(pool) for _ in valid_indices]
 
     spoiler_lines = []
     spoiler_by_old_name = []
@@ -148,6 +215,8 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, conf
     path.write_bytes(header + b"".join(out_entries))
 
     log(f"Randomized battle monster table: {len(valid_indices)} entries from {num_entries} total")
+    if len(candidate_indices) != len(valid_indices):
+        log(f"Filtered replacement candidate pool: {len(candidate_indices)} entries")
     log(f"Changed battle monster entries: {changed}")
 
     if config.generate_spoiler:
@@ -155,6 +224,13 @@ def randomize_battle_monsters(data_dir: Path, output_dir: Path, repo: Path, conf
         spoiler = output_dir / f"randomizer_spoiler_{config.seed}.txt"
         spoiler.write_text(f"Randomization Seed: {config.seed}\n", encoding="utf-8")
         _write_spoiler(spoiler, f"BtlEnmyPrm2 entries randomized: {len(valid_indices)} / {num_entries}\n")
+        _write_spoiler(spoiler, f"Replacement candidate pool: {len(candidate_indices)} entries\n")
+        if config.rank_excludes:
+            _write_spoiler(spoiler, f"Excluded ranks: {', '.join(sorted(config.rank_excludes))}\n")
+        if config.family_excludes:
+            _write_spoiler(spoiler, f"Excluded families: {', '.join(sorted(config.family_excludes))}\n")
+        if config.size_excludes:
+            _write_spoiler(spoiler, f"Excluded sizes: {', '.join(sorted(str(x) for x in config.size_excludes))}\n")
         _write_spoiler(spoiler, f"BtlEnmyPrm2 entries changed: {changed}\n\n")
         _write_spoiler(spoiler, "--- By battle entry order ---\n")
         _write_spoiler(spoiler, "".join(spoiler_lines))
