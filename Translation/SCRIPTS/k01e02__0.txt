@@ -8383,12 +8383,12 @@ CMP_EQ 0x18 0x0 0x42f40000 0x2 0x41400000
 JMP_IFNOT 0xc L_21658
 SYS_42 0x8 
 SETNAME "The Countess"
-SAY "{VOICE=08}SQUEAK! SQUEAK!"
+SAY "{VOICE=08}Squeeeak! SQUAAAAK!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The Countess appears to be happy."
+SAY "{COLOR=2}The Countess appears to be agitated."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -8403,7 +8403,7 @@ STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
 SYS_42 0x8 
-SAY "{COLOR=2}The Countess appears to be agitated."
+SAY "{COLOR=2}The Countess appears to be highly agitated."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SYS_43 0x8 
@@ -9295,7 +9295,7 @@ SYS_44 0x8
 SAY "{VOICE=03}Flaming offenses and defenses alike will serve you well."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}You're best suited to a Blazeghost!"
+SAY "{VOICE=03}You're best suited to a Firespirit!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_25388

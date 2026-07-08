@@ -500,7 +500,7 @@ SAY "{VOICE=08}...but now we are losing that power..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Tiko"
-SAY "{VOICE=08}You can our town is in shambles.{BREAK}Pipisle is facing an unprecedented crisis."
+SAY "{VOICE=08}You can see our town is in shambles.{BREAK}Pipisle is facing an unprecedented crisis."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40800000

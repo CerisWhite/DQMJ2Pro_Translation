@@ -5627,10 +5627,10 @@ JMP_IFNOT 0xc L_167f8
 SAY "{VOICE=03}You are calculating!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}Flaming offenses and defenses alike."
+SAY "{VOICE=03}Flaming offenses and defenses alike will serve you well."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}You're best suited to a Blazeghost!"
+SAY "{VOICE=03}You're best suited to a Firespirit!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_167f8
