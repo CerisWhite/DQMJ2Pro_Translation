@@ -272,111 +272,122 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         rand = ttk.LabelFrame(rand_tab, text="Randomiser")
         rand.pack(fill="both", expand=True, padx=8, pady=8)
 
-        ttk.Checkbutton(
+        master_cb = ttk.Checkbutton(
             rand,
             text="Enable randomiser",
             variable=self.randomizer_enabled_var,
             command=self.toggle_randomizer_controls,
-        ).pack(anchor="w", padx=10, pady=3)
+        )
+        master_cb.pack(anchor="w", padx=8, pady=(8, 4))
 
         self.randomizer_widgets = []
 
-        w = ttk.Checkbutton(rand, text="Randomise battle monsters", variable=self.randomizer_monsters_var)
-        w.pack(anchor="w", padx=24, pady=3)
-        self.randomizer_widgets.append(w)
+        rand_tabs = ttk.Notebook(rand)
+        rand_tabs.pack(fill="both", expand=True, padx=8, pady=4)
+        self.randomizer_widgets.append(rand_tabs)
 
-        seed_row = ttk.Frame(rand)
-        seed_row.pack(anchor="w", padx=10, pady=3)
-        ttk.Label(seed_row, text="Seed:").pack(side="left")
-        seed_entry = ttk.Entry(seed_row, textvariable=self.randomizer_seed_value, width=12)
-        seed_entry.pack(side="left", padx=6)
-        seed_note = ttk.Label(seed_row, text="0 = random seed")
-        seed_note.pack(side="left")
-        self.randomizer_widgets.extend([seed_entry, seed_note])
+        monsters_tab = ttk.Frame(rand_tabs)
+        level_tab = ttk.Frame(rand_tabs)
+        skill_tab = ttk.Frame(rand_tabs)
+        filters_tab = ttk.Frame(rand_tabs)
 
-        for text, var in (
+        rand_tabs.add(monsters_tab, text="Monsters")
+        rand_tabs.add(level_tab, text="Level Up XP")
+        rand_tabs.add(skill_tab, text="Skill Points")
+        rand_tabs.add(filters_tab, text="Battle monster replacement filters")
+
+        monsters = ttk.LabelFrame(monsters_tab, text="Monsters")
+        monsters.pack(fill="x", expand=False, padx=8, pady=8)
+
+        randomizer_checks = [
+            ("Randomise battle monsters", self.randomizer_monsters_var),
             ("Generate spoiler file", self.randomizer_spoiler_var),
             ("Randomise synthesis recipes", self.randomizer_generic_synthesis_var),
             ("Allow Flee/Scout for randomised battles", self.randomizer_allow_flee_var),
             ("Randomise battle XP rewards", self.randomizer_xp_var),
             ("Stronger randomised monsters (150% stats)", self.randomizer_stronger_var),
             ("No flee challenge", self.randomizer_no_flee_var),
-        ):
-            w = ttk.Checkbutton(rand, text=text, variable=var)
-            w.pack(anchor="w", padx=24, pady=3)
-            self.randomizer_widgets.append(w)
+        ]
 
-        level_frame = ttk.LabelFrame(rand, text="Level Up XP")
-        level_frame.pack(fill="x", padx=24, pady=(10, 3))
-        self.randomizer_widgets.append(level_frame)
+        for label, var in randomizer_checks:
+            cb = ttk.Checkbutton(monsters, text=label, variable=var)
+            cb.pack(anchor="w", padx=8, pady=2)
+            self.randomizer_widgets.append(cb)
 
-        for text, value in (
+        seed_row = ttk.Frame(monsters)
+        seed_row.pack(anchor="w", padx=8, pady=4)
+        self.randomizer_widgets.append(seed_row)
+
+        ttk.Label(seed_row, text="Seed:").pack(side="left")
+        seed_entry = ttk.Entry(seed_row, textvariable=self.randomizer_seed_value, width=12)
+        seed_entry.pack(side="left", padx=(6, 6))
+        self.randomizer_widgets.append(seed_entry)
+        ttk.Label(seed_row, text="0 = random seed").pack(side="left")
+
+        level = ttk.LabelFrame(level_tab, text="Level Up XP")
+        level.pack(fill="x", padx=8, pady=8)
+
+        for text, value in [
             ("Do not randomise level XP", "none"),
             ("Swap XP curves", "swap"),
             ("Randomise XP curves", "random"),
-        ):
-            w = ttk.Radiobutton(level_frame, text=text, variable=self.randomizer_level_up_mode, value=value)
-            w.pack(anchor="w", padx=8, pady=2)
-            self.randomizer_widgets.append(w)
+        ]:
+            rb = ttk.Radiobutton(level, text=text, variable=self.randomizer_level_up_mode, value=value)
+            rb.pack(anchor="w", padx=8, pady=2)
+            self.randomizer_widgets.append(rb)
 
-        variance_row = ttk.Frame(level_frame)
-        variance_row.pack(anchor="w", padx=8, pady=3)
-        variance_label = ttk.Label(variance_row, text="XP variance %:")
-        variance_label.pack(side="left")
-        variance_entry = ttk.Entry(variance_row, textvariable=self.randomizer_level_up_variance, width=6)
-        variance_entry.pack(side="left", padx=6)
-        self.randomizer_widgets.extend([variance_row, variance_label, variance_entry])
+        variance_row = ttk.Frame(level)
+        variance_row.pack(anchor="w", padx=8, pady=4)
+        self.randomizer_widgets.append(variance_row)
 
-        skill_frame = ttk.LabelFrame(rand, text="Skill Points")
-        skill_frame.pack(fill="x", padx=24, pady=(10, 3))
-        self.randomizer_widgets.append(skill_frame)
+        ttk.Label(variance_row, text="XP variance %:").pack(side="left")
+        variance_entry = ttk.Entry(variance_row, textvariable=self.randomizer_level_up_variance, width=8)
+        variance_entry.pack(side="left", padx=(6, 0))
+        self.randomizer_widgets.append(variance_entry)
 
-        for text, value in (
+        skill = ttk.LabelFrame(skill_tab, text="Skill Points")
+        skill.pack(fill="x", padx=8, pady=8)
+
+        for text, value in [
             ("Do not randomise skill points", "none"),
             ("Swap skill point levels", "swap"),
             ("Randomise skill points", "random"),
-        ):
-            w = ttk.Radiobutton(skill_frame, text=text, variable=self.randomizer_skill_points_mode, value=value)
-            w.pack(anchor="w", padx=8, pady=2)
-            self.randomizer_widgets.append(w)
+        ]:
+            rb = ttk.Radiobutton(skill, text=text, variable=self.randomizer_skill_points_mode, value=value)
+            rb.pack(anchor="w", padx=8, pady=2)
+            self.randomizer_widgets.append(rb)
 
-        w.pack(anchor="w", padx=24, pady=3)
-        self.randomizer_widgets.append(w)
+        filters = ttk.LabelFrame(filters_tab, text="Battle monster replacement filters")
+        filters.pack(fill="x", padx=8, pady=8)
 
-        filters_frame = ttk.LabelFrame(rand, text="Battle monster replacement filters")
-        filters_frame.pack(fill="x", padx=24, pady=(10, 3))
-        self.randomizer_widgets.append(filters_frame)
-
-        ttk.Label(filters_frame, text="Allowed ranks:").pack(anchor="w", padx=8, pady=(4, 0))
-        rank_row = ttk.Frame(filters_frame)
-        rank_row.pack(anchor="w", padx=8, pady=2)
+        ttk.Label(filters, text="Allowed ranks:").pack(anchor="w", padx=8, pady=(8, 2))
+        rank_row = ttk.Frame(filters)
+        rank_row.pack(anchor="w", padx=18, pady=2)
         self.randomizer_widgets.append(rank_row)
-        for rank, var in self.randomizer_rank_vars.items():
-            w = ttk.Checkbutton(rank_row, text=rank, variable=var)
-            w.pack(side="left", padx=2)
-            self.randomizer_widgets.append(w)
+        for rank in ("F", "E", "D", "C", "B", "A", "S", "SS"):
+            cb = ttk.Checkbutton(rank_row, text=rank, variable=self.randomizer_rank_vars[rank])
+            cb.pack(side="left")
+            self.randomizer_widgets.append(cb)
 
-        ttk.Label(filters_frame, text="Allowed families:").pack(anchor="w", padx=8, pady=(4, 0))
-        family_row = ttk.Frame(filters_frame)
-        family_row.pack(anchor="w", padx=8, pady=2)
+        ttk.Label(filters, text="Allowed families:").pack(anchor="w", padx=8, pady=(8, 2))
+        family_row = ttk.Frame(filters)
+        family_row.pack(anchor="w", padx=18, pady=2)
         self.randomizer_widgets.append(family_row)
-        for family, var in self.randomizer_family_vars.items():
-            w = ttk.Checkbutton(family_row, text=family, variable=var)
-            w.pack(side="left", padx=2)
-            self.randomizer_widgets.append(w)
+        for family in ("Slime", "Dragon", "Nature", "Beast", "Material", "Demon", "Zombie", "???"):
+            cb = ttk.Checkbutton(family_row, text=family, variable=self.randomizer_family_vars[family])
+            cb.pack(side="left")
+            self.randomizer_widgets.append(cb)
 
-        ttk.Label(filters_frame, text="Allowed sizes:").pack(anchor="w", padx=8, pady=(4, 0))
-        size_row = ttk.Frame(filters_frame)
-        size_row.pack(anchor="w", padx=8, pady=(2, 6))
+        ttk.Label(filters, text="Allowed sizes:").pack(anchor="w", padx=8, pady=(8, 2))
+        size_row = ttk.Frame(filters)
+        size_row.pack(anchor="w", padx=18, pady=2)
         self.randomizer_widgets.append(size_row)
-        for size, var in self.randomizer_size_vars.items():
-            label = f"{size}-slot"
-            w = ttk.Checkbutton(size_row, text=label, variable=var)
-            w.pack(side="left", padx=2)
-            self.randomizer_widgets.append(w)
+        for size, label in [("1", "1-slot"), ("2", "2-slot"), ("3", "3-slot")]:
+            cb = ttk.Checkbutton(size_row, text=label, variable=self.randomizer_size_vars[size])
+            cb.pack(side="left")
+            self.randomizer_widgets.append(cb)
 
         self.toggle_randomizer_controls()
-        self.fit_window_to_content()
 
         self.run_btn = ttk.Button(frm, text="Patch ROM", command=self.start_patch)
         self.run_btn.grid(row=4, column=0, columnspan=3, pady=10)
@@ -447,26 +458,6 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             self.rom_var.set(path)
             self.out_var.set(str(Path(path).with_name(f"DQMJ2P_Eng_Patched_v{PATCHER_VERSION}.nds")))
             self.update_randomised_output_name()
-
-    def fit_window_to_content(self):
-        """Open large enough that bottom controls are visible."""
-        self.update_idletasks()
-
-        req_w = max(self.winfo_reqwidth() + 24, 780)
-        req_h = max(self.winfo_reqheight() + 24, 760)
-
-        screen_w = self.winfo_screenwidth()
-        screen_h = self.winfo_screenheight()
-
-        # Keep it on-screen, but leave enough height for Patch ROM/status/log/link.
-        w = min(req_w, max(780, screen_w - 80))
-        h = min(req_h, max(720, screen_h - 80))
-
-        self.minsize(780, 720)
-
-        x = max(0, (screen_w - w) // 2)
-        y = max(0, (screen_h - h) // 2)
-        self.geometry(f"{w}x{h}+{x}+{y}")
 
 
     def browse_rom(self):
