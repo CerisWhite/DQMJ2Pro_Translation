@@ -269,7 +269,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
 
         ttk.Checkbutton(opts, text="Remove Synthesis Polarity Requirement", variable=self.synth_polarity_var).pack(anchor="w", padx=10, pady=3)
 
-        rand = ttk.LabelFrame(rand_tab, text="Randomiser")
+        rand = ttk.Frame(rand_tab)
         rand.pack(fill="both", expand=True, padx=8, pady=8)
 
         master_cb = ttk.Checkbutton(
@@ -296,7 +296,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         rand_tabs.add(skill_tab, text="Skill Points")
         rand_tabs.add(filters_tab, text="Battle monster replacement filters")
 
-        monsters = ttk.LabelFrame(monsters_tab, text="Monsters")
+        monsters = ttk.Frame(monsters_tab)
         monsters.pack(fill="x", expand=False, padx=8, pady=8)
 
         randomizer_checks = [
@@ -304,9 +304,8 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             ("Generate spoiler file", self.randomizer_spoiler_var),
             ("Randomise synthesis recipes", self.randomizer_generic_synthesis_var),
             ("Allow Flee/Scout for randomised battles", self.randomizer_allow_flee_var),
-            ("Randomise battle XP rewards", self.randomizer_xp_var),
-            ("Stronger randomised monsters (150% stats)", self.randomizer_stronger_var),
             ("No flee challenge", self.randomizer_no_flee_var),
+            ("Stronger randomised monsters (150% stats)", self.randomizer_stronger_var),
         ]
 
         for label, var in randomizer_checks:
@@ -324,8 +323,12 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.randomizer_widgets.append(seed_entry)
         ttk.Label(seed_row, text="0 = random seed").pack(side="left")
 
-        level = ttk.LabelFrame(level_tab, text="Level Up XP")
+        level = ttk.Frame(level_tab)
         level.pack(fill="x", padx=8, pady=8)
+
+        battle_xp_cb = ttk.Checkbutton(level, text="Randomise battle XP rewards", variable=self.randomizer_xp_var)
+        battle_xp_cb.pack(anchor="w", padx=8, pady=(2, 8))
+        self.randomizer_widgets.append(battle_xp_cb)
 
         for text, value in [
             ("Do not randomise level XP", "none"),
@@ -345,7 +348,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         variance_entry.pack(side="left", padx=(6, 0))
         self.randomizer_widgets.append(variance_entry)
 
-        skill = ttk.LabelFrame(skill_tab, text="Skill Points")
+        skill = ttk.Frame(skill_tab)
         skill.pack(fill="x", padx=8, pady=8)
 
         for text, value in [
@@ -357,8 +360,14 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             rb.pack(anchor="w", padx=8, pady=2)
             self.randomizer_widgets.append(rb)
 
-        filters = ttk.LabelFrame(filters_tab, text="Battle monster replacement filters")
+        filters = ttk.Frame(filters_tab)
         filters.pack(fill="x", padx=8, pady=8)
+
+        for label, var in [
+        ]:
+            cb = ttk.Checkbutton(filters, text=label, variable=var)
+            cb.pack(anchor="w", padx=8, pady=2)
+            self.randomizer_widgets.append(cb)
 
         ttk.Label(filters, text="Allowed ranks:").pack(anchor="w", padx=8, pady=(8, 2))
         rank_row = ttk.Frame(filters)
