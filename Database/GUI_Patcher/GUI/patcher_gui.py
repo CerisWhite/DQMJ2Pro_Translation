@@ -28,7 +28,7 @@ def app_root():
     return Path(__file__).resolve().parents[3]
 
 ROOT = app_root()
-PATCHER_VERSION = "0.6.2"
+PATCHER_VERSION = "0.6.3"
 
 def open_url(url):
     if sys.platform.startswith("linux"):
@@ -376,6 +376,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             self.randomizer_widgets.append(w)
 
         self.toggle_randomizer_controls()
+        self.fit_window_to_content()
 
         self.run_btn = ttk.Button(frm, text="Patch ROM", command=self.start_patch)
         self.run_btn.grid(row=4, column=0, columnspan=3, pady=10)
@@ -446,6 +447,27 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             self.rom_var.set(path)
             self.out_var.set(str(Path(path).with_name(f"DQMJ2P_Eng_Patched_v{PATCHER_VERSION}.nds")))
             self.update_randomised_output_name()
+
+    def fit_window_to_content(self):
+        """Open large enough that bottom controls are visible."""
+        self.update_idletasks()
+
+        req_w = max(self.winfo_reqwidth() + 24, 780)
+        req_h = max(self.winfo_reqheight() + 24, 760)
+
+        screen_w = self.winfo_screenwidth()
+        screen_h = self.winfo_screenheight()
+
+        # Keep it on-screen, but leave enough height for Patch ROM/status/log/link.
+        w = min(req_w, max(780, screen_w - 80))
+        h = min(req_h, max(720, screen_h - 80))
+
+        self.minsize(780, 720)
+
+        x = max(0, (screen_w - w) // 2)
+        y = max(0, (screen_h - h) // 2)
+        self.geometry(f"{w}x{h}+{x}+{y}")
+
 
     def browse_rom(self):
         path = filedialog.askopenfilename(
