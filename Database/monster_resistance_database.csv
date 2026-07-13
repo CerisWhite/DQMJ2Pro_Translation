@@ -10,7 +10,7 @@ F,8,Slime,1,Slime,,,,,^50%,-25%,,,,,,Immune,,,,,,^50%,,-25%,,,,,-25%,^50%,,Immun
 F,9,Komodo,1,Dragon,,,,,,,^50%,,,-25%,,Immune,-25%,,,,,,-25%,,^50%,Immune,,Immune,,,,
 F,10,Swarmtroop,1,Nature,,^50%,Immune,,,,-25%,-25%,,,,,,,-25%,^50%,,,,-25%,^50%,,Immune,,Immune,,,
 F,11,Platypunk,1,Beast,^50%,,,-25%,,,-25%,,,,,,Immune,,^50%,,-25%,-25%,,^50%,,,,,,Immune,Immune,
-F,12,Bag o' Laughs,1,Material,,,-25%,,,,,,,^50%,Immune,,,-25%,Immune,,^50%,^50%,-25%,,Immune,,,,,-25%,,
+F,12,Bag O' Laughs,1,Material,,,-25%,,,,,,,^50%,Immune,,,-25%,Immune,,^50%,^50%,-25%,,Immune,,,,,-25%,,
 F,13,Dracky,1,Demon,,,,^50%,-25%,,,,,,,,,^50%,Immune,-25%,,,,^50%,-25%,,,,,Immune,,
 F,14,Ghost,1,Zombie,-25%,,,,,^50%,,,,,Immune,-25%,^50%,Immune,,Immune,,,^50%,-25%,-25%,,,,,,,
 F,15,Bad Egg,1,Slime,,,^50%,,^50%,-25%,,,,,,Immune,,,,,,^50%,,,^50%,,,,-25%,^50%,,Immune
@@ -189,7 +189,7 @@ C,187,Erazor Blade,1,Demon,,,,Immune,,,,,,,,,,^50%,Immune,-25%,,,,^50%,-25%,,,Im
 C,188,Cerberwretch,1,Zombie,^50%,,,,,^50%,,^50%,,,,-25%,^50%,Immune,,Immune,,,^50%,,-25%,,,,,,,^50%
 C,189,Cyber Slime,1,Slime,,,,,^50%,-25%,,,,,,Immune,,Immune,,,,^50%,Immune,-25%,,,,Immune,-25%,^50%,,Immune
 C,190,Liquid Metal Slime,1,Slime,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,,Immune,Immune,^50%,,,,Immune,Immune,Immune,,^25%,Immune,Immune
-C,191,Drag-Goof,1,Dragon,,,,Immune,,,^50%,,,-25%,,^50%,-25%,-25%,,,,,-25%,,^50%,Immune,Immune,Immune,,,,
+C,191,Drag-goof,1,Dragon,,,,Immune,,,^50%,,,-25%,,^50%,-25%,-25%,,,,,-25%,,^50%,Immune,Immune,Immune,,,,
 C,192,Yabby,1,Nature,,^50%,,,,,-25%,,,,-25%,,,Immune,-25%,^50%,,,Immune,-25%,^50%,,Immune,,Immune,,,
 C,193,Lleviathan ,3,Nature,,^50%,,,,,-25%,,,,Immune,,Immune,Immune,Immune,Immune,Immune,,,-25%,^50%,,Immune,,Immune,,,
 C,194,Notso Macho,1,Beast,^50%,,,-25%,,,,,,Immune,,,Immune,-25%,^50%,,-25%,-25%,,^50%,,,Immune,,,,Immune,
@@ -212,7 +212,7 @@ B,210,Cockateer,1,Beast,^50%,,Immune,-25%,,,,,,,,,Immune,,^50%,,-25%,-25%,,^50%,
 B,211,Stainless Scrapper,1,Material,,,-25%,,Immune,,,,,^50%,Immune,,,-25%,,,^50%,^50%,-25%,,Immune,,,,,,,
 B,212,Fallen Priest,1,Demon,,,,^50%,-25%,,,,,,,,,^50%,Immune,-25%,,,,^50%,-25%,,,,,Immune,,Immune
 B,213,Grim Rider,1,Zombie,-25%,,,,-25%,^50%,,,,,,-25%,^50%,^50%,^50%,^50%,Immune,,^50%,,-25%,,,,,,,
-B,214,SoulSpawn,1,Zombie,-25%,,,,-25%,^50%,Immune,,,,Immune,,^50%,Immune,,Immune,,,^50%,,-25%,,,,,,,
+B,214,Soulspawn,1,Zombie,-25%,,,,-25%,^50%,Immune,,,,Immune,,^50%,Immune,,Immune,,,^50%,,-25%,,,,,,,
 B,215,Rotten Egg,1,Slime,,,,,Immune,Immune,,,,,,Immune,,,,,,^50%,,-25%,,,,,Immune,^25%,,Immune
 B,216,Ethereal Serpent,2,Dragon,,,-25%,-25%,,,^50%,Immune,,-25%,^50%,^50%,-25%,^50%,^50%,^50%,^50%,,-25%,,^50%,Immune,,Immune,,,,
 B,217,Giant Moth,1,Nature,-25%,^50%,,,,,-25%,,,,,Immune,,,-25%,^50%,,,,-25%,^50%,,Immune,,Immune,,,
@@ -220,7 +220,7 @@ B,218,Pink Sanguini,1,Beast,^50%,,,-25%,,,,,,,Immune,,Immune,Immune,Immune,Immun
 B,219,Mimic,1,Material,,,-25%,,,,,,,^50%,Immune,,,-25%,,,^50%,^50%,-25%,,Immune,,,,,,,Immune
 B,220,Juggular,1,Demon,,,,^50%,-25%,,,,,,,,,^50%,Immune,-25%,,,,^50%,-25%,,Immune,,,Immune,,
 B,221,Archdemon,1,Demon,,Immune,,^50%,-25%,,,,,,Immune,,,^50%,Immune,-25%,,,,^50%,-25%,,,,,Immune,,
-B,222,Cross bones,1,Zombie,-25%,,,,,^50%,,,,,,-25%,^50%,Immune,,Immune,,Immune,^50%,,-25%,,,,,,Immune,
+B,222,Cross Bones,1,Zombie,-25%,,,,,^50%,,,,,,-25%,^50%,Immune,,Immune,,Immune,^50%,,-25%,,,,,,Immune,
 B,223,Dark Slime Knight,1,Slime,,,,,^25%,Immune,,,,,,Immune,,,,,,^50%,,-25%,,,,Immune,-25%,^50%,,Immune
 B,224,Meglaodon,1,Dragon,,,,,,,^50%,,,-25%,,^50%,-25%,,,,,,-25%,,^50%,Immune,,Immune,,Immune,,Immune
 B,225,Frou-Frou,1,Dragon,,,,,,,^50%,Immune,,-25%,Immune,Immune,-25%,,,,,,-25%,,^50%,Immune,,Immune,,,,
@@ -251,7 +251,7 @@ B,249,High Djinks,1,Demon,,,Immune,^50%,-25%,,,,,Immune,,,,^50%,Immune,-25%,,,,^
 B,250,Wight Knight,1,Zombie,-25%,,,,,^50%,,,,,,-25%,^50%,Immune,Immune,Immune,,,^50%,,-25%,,,Immune,,,,
 B,251,Leokid,1,？？？系,^50%,-25%,^50%,,-25%,,,,,,Immune,,^50%,^50%,,^50%,^50%,-25%,^50%,,-25%,,,^50%,^50%,-25%,-25%,
 A,252,Tortaceratops,1,Dragon,,Immune,,,,,^50%,,,-25%,,^50%,-25%,,,,,,-25%,,^50%,Immune,,Immune,,,Immune,
-A,253,Blizzy Body,1,Nature,,^50%,Immune,,,,-25%,,Immune,,,,,,-25%,^50%,,,,-25%,^50%,,Immune,,Immune,,,
+A,253,Blizzybody,1,Nature,,^50%,Immune,,,,-25%,,Immune,,,,,,-25%,^50%,,,,-25%,^50%,,Immune,,Immune,,,
 A,254,Gigantes,2,Beast,^50%,,,-25%,,,,,,,Immune,,Immune,^50%,Immune,^50%,-25%,-25%,-25%,^50%,,,Immune,Immune,,,Immune,
 A,255,Killing Machine,1,Material,,-25%,-25%,,,,,,,^50%,Immune,,Immune,-25%,,,^50%,^50%,-25%,,Immune,,,,,,,
 A,256,Demon-At-Arms,1,Demon,,,,^50%,-25%,Immune,,,,,Immune,,,^50%,Immune,-25%,,-25%,,^50%,-25%,,,,,Immune,,
@@ -369,7 +369,7 @@ SS,367,Dragonlord,2,Dragon,,,,,,,^50%,Immune,Immune,-25%,Immune,^50%,-25%,Immune
 SS,368,Leopold,1,Nature,,^50%,,,-25%,Absorb,-25%,,,,Immune,,-25%,-25%,-25%,^50%,-25%,Immune,,-25%,^50%,,,,,,,
 SS,369,Psaro,2,Material,,-25%,-25%,,,,,,,^50%,Immune,,Immune,^50%,Immune,Immune,Immune,^50%,-25%,,,Immune,,,,,,
 SS,370,Robbin's Old Lady,2,Beast,^50%,,Immune,-25%,,Immune,,,Immune,Immune,Immune,,,^50%,Immune,^50%,-25%,-25%,,^50%,,,,,,,,
-SS,371,Prince o' Thieves,1,Demon,,,,^50%,-25%,,,,,,Immune,,,^50%,Immune,-25%,,,,^50%,-25%,,,Immune,,,Immune,
+SS,371,Prince O' Thieves,1,Demon,,,,^50%,-25%,,,,,,Immune,,,^50%,Immune,-25%,,,,^50%,-25%,,,Immune,,,Immune,
 SS,372,Nimzo,2,？？？系,,-25%,^50%,,,Absorb,,,,,Immune,,Immune,Immune,Immune,Immune,Immune,-25%,^50%,,,,,,^50%,-25%,,
 SS,373,Xiphos,3,Dragon,,,,,,Immune,^50%,,,-25%,Immune,^50%,^50%,Immune,Immune,Immune,Immune,,-25%,,^50%,,,Immune,,,,
 SS,374,Diamond Slime,1,Slime,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,Immune,,Immune,Immune,,Immune,Immune,^50%,,,,Immune,Immune,Immune,,^25%,Immune,Immune
@@ -418,5 +418,5 @@ SS,416,Wulfspade Ace,1,？？？系,,-25%,^50%,,,,,Immune,,,Immune,,Immune,,,Imm
 SS,417,Hawkhart Ace,1,？？？系,Immune,^50%,Immune,Immune,Immune,^50%,Immune,,Immune,,Immune,,-25%,-25%,-25%,-25%,-25%,-25%,^50%,,,,,,,-25%,,
 SS,418,Cluboon Ace,1,？？？系,,-25%,^50%,,,,,,Immune,,Immune,,Immune,,,,Immune,-25%,^50%,,,,,,^50%,-25%,Immune,
 SS,419,Diamagon Ace,1,？？？系,,-25%,^50%,,,,,,Immune,,Immune,,Immune,Immune,,,,-25%,^50%,,,,,Immune,^50%,-25%,,
-SS,420,Ace of Spades,1,？？？系,,-25%,^50%,,-25%,Absorb,,Immune,,,Immune,,,,,,,-25%,^50%,,,,,,^50%,-25%,,
+SS,420,Ace Of Spades,1,？？？系,,-25%,^50%,,-25%,Absorb,,Immune,,,Immune,,,,,,,-25%,^50%,,,,,,^50%,-25%,,
 SS,421,Wildcard,1,？？？系,,-25%,^50%,,Absorb,-25%,,Immune,,,-25%,,,,,,Reflect,-25%,^50%,,,,,,^50%,-25%,,Immune
