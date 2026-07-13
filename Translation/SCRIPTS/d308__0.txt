@@ -180,8 +180,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x428c0000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "Incarnus"
-SAY "{VOICE=07}Unnnh... Unnnnh....{BREAK}Where am I...?"
+SETNAME "神獣"
+SAY "{VOICE=07}「う…うう……。{BREAK} ここは……?"
 WAIT 0x10 0x2 0x41a00000
 STORE 0x18 0x1 0x0 0x2 0x41800000
 STORE 0x18 0x1 0x3f800000 0x2 0x42480000
@@ -217,8 +217,8 @@ STORE 0x18 0x1 0x0 0x0 0x40c00000
 STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "Elder"
-SAY "{VOICE=03}Oh! Great Incarnus!{BREAK}Have you awoken!?"
+SETNAME "長老"
+SAY "{VOICE=03}「おおっ!　神獣さま!{BREAK} めざめられましたか!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -268,12 +268,12 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42f00000
 SYS_42 0x8 
-SETNAME "Incarnus"
-SAY "{VOICE=07}I see...{BREAK}I chased after that scoundrel..."
+SETNAME "神獣"
+SAY "{VOICE=07}「そうか……。{BREAK} 我は　ヤツのあとを　おって……。{PAGE}"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Incarnus"
-SAY "{VOICE=07}...and it is you who saved me.{BREAK}I owe you many thanks."
+SETNAME "神獣"
+SAY "{VOICE=07}「我を　すくってくれたのは　汝たちだな。{BREAK} れいを言おう。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -295,8 +295,8 @@ STORE 0x18 0x1 0x0 0x2 0x41a80000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Elder"
-SAY "{VOICE=03}Incarnus, please answer me this,{BREAK}What are you doing in this realm?"
+SETNAME "長老"
+SAY "{VOICE=03}「いえ　それよりも　神獣さま。{BREAK} いったい　なぜ　あのような場所に?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -329,24 +329,24 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43c80000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Incarnus"
-SAY "{VOICE=07}It's my duty to travel to lands{BREAK}overrun by monsters and seal them away."
+SETNAME "神獣"
+SAY "{VOICE=07}「……我には　マモノのあふれる地へ　おもむき{BREAK} その世界を　ふういんするという　使命があった。{PAGE}"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Incarnus"
-SAY "{VOICE=07}To do my duty, I fought fiercly{BREAK}against many hordes of monsters."
+SETNAME "神獣"
+SAY "{VOICE=07}「その使命を果たすべく　我は　あまたのマモノを{BREAK} 相手どり　そこで　戦いつづけたのだ。{PAGE}"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Incarnus"
-SAY "{VOICE=07}But when I had thought that I had{BREAK}finally completed my task..."
+SETNAME "神獣"
+SAY "{VOICE=07}「しかし　ようやく　その使命を{BREAK} まっとうできると思った　そのとき……。{PAGE}"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Incarnus"
-SAY "{VOICE=07}There was a lone monster who escaped,{BREAK}and flew off to your world..."
+SETNAME "神獣"
+SAY "{VOICE=07}「ただひとり　ふういんから　のがれ{BREAK} そとの世界へ　飛びだした者がいたのだ。{PAGE}"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Incarnus"
-SAY "{VOICE=07}...and their name was{BREAK}Baboorood."
+SETNAME "神獣"
+SAY "{VOICE=07}「その者の名は　邪獣ヒヒュルデ。{PAGE}"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41a00000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -365,8 +365,8 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x41a80000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Incarnus"
-SAY "{VOICE=07}Yes. They came here, to this land,{BREAK}and wreaked havoc, as you have seen."
+SETNAME "神獣"
+SAY "{VOICE=07}「そう。この地に　まいおり{BREAK} 汝らの聖地を　けがしている者だ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41a00000
@@ -389,8 +389,8 @@ STORE 0x18 0x1 0x0 0x2 0x42200000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Tiko"
-SAY "{VOICE=08}Baboorood...{BREAK}That's the name of the uninvited guest...?"
+SETNAME "ティコ"
+SAY "{VOICE=08}「邪獣ヒヒュルデ……。{BREAK} それが　まねかれざる客の名前……。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -407,12 +407,12 @@ STORE 0x18 0x1 0x0 0x2 0x41f80000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Incarnus"
-SAY "{VOICE=07}...I chased after Baboorood,{BREAK}and found my way here, But..."
+SETNAME "神獣"
+SAY "{VOICE=07}「我は　ヒヒュルデのあとを　おって{BREAK} この地に　やってきた。しかし……{PAGE}"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Incarnus"
-SAY "{VOICE=07}I cannot pass their barrier.{BREAK}It is far beyond my power."
+SETNAME "神獣"
+SAY "{VOICE=07}「ヤツのつくった結界を　とっぱできず{BREAK} チカラつきてしまったようだ。{PAGE}"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40800000
@@ -429,8 +429,8 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x42480000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41f00000
-SETNAME "Incarnus"
-SAY "{VOICE=07}You there... your eyes...{BREAK}I've seen them before..."
+SETNAME "神獣"
+SAY "{VOICE=07}「……汝は　いい目をしているな。{PAGE}"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40c00000
@@ -449,12 +449,12 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x424c0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Incarnus"
-SAY "{VOICE=07}Long ago, I once knew{BREAK}someone who had eyes just like yours."
+SETNAME "神獣"
+SAY "{VOICE=07}「我は　汝と　おなじ目をした者を知っている。{PAGE}"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Incarnus"
-SAY "{VOICE=07}Are you also a monster scout?{BREAK}I will need your strength if so."
+SETNAME "神獣"
+SAY "{VOICE=07}「汝も　また　モンスターマスターなのであろう?{BREAK} どうか　我に　チカラをかしてくれぬか。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -482,8 +482,8 @@ STORE 0x18 0x1 0x0 0x2 0x0
 SYS_8C 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "Tikko"
-SAY "{VOICE=08}O-Of course, {NAME}! It'll be heartening{BREAK}to have the Incarnus with us!"
+SETNAME "ティコ"
+SAY "{VOICE=08}「も　もちろんよね!　{NAME}!{BREAK} 神獣さまが　いっしょなら　心強いわ!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -510,12 +510,12 @@ STORE 0x18 0x1 0x0 0x2 0x42480000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "Incarnus"
-SAY "{VOICE=07}Thanks to the power of your Soma,{BREAK}I can now break that barrier."
+SETNAME "神獣"
+SAY "{VOICE=07}「うむ。ソーマのチカラをえた　いまの我なら{BREAK} ヤツの結界を　やぶることも　できるはずだ。{PAGE}"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Incarnus"
-SAY "{VOICE=07}I will follow after you, so please,{BREAK}worry not and go right on ahead."
+SETNAME "神獣"
+SAY "{VOICE=07}「我は　汝のうしろを　ついていくから{BREAK} 気にせず　さきに行ってくれ。"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -538,16 +538,16 @@ DATA 0x00000002
 WAIT 0x10 0x2 0x42200000
 STORE 0x18 0x0 0x40000000 0x2 0x3f800000
 SYS_42 0x8 
-SETNAME "Tiko"
-SAY "{VOICE=08}Hey! This is the first time I've{BREAK}heard the term 'monster scout'."
+SETNAME "ティコ"
+SAY "{VOICE=08}「ねえ!　モンスターマスターって{BREAK} はじめて　きく　ことばだけど……{PAGE}"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Tiko"
-SAY "{VOICE=08}But it's just amazing that the Incarnus{BREAK}can rely on you, no!?"
+SETNAME "ティコ"
+SAY "{VOICE=08}「あの神獣さまに　たよりにされるなんて{BREAK} {NAME}って　すごいんじゃない!?{PAGE}"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "Tiko"
-SAY "{VOICE=08}I knew I wasn't crazy!{BREAK}Okay, let's get to that barrier!"
+SETNAME "ティコ"
+SAY "{VOICE=08}「アタシの　目に　くるいはなかったんだわ!{BREAK} さあ　結界のある場所に　行きましょう!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
