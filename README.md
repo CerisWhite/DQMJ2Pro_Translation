@@ -1,4 +1,4 @@
-This fork of Ceris White's Joker 2 Professional repository includes a post-game translation by Gerb.
+[This](This) fork of Ceris White's Joker 2 Professional repository includes a post-game translation by Gerb.
 
 <img src="./Database/credits.png" width="700">
 
@@ -20,8 +20,8 @@ Database of Monster [Resistances](https://github.com/saneezore07/DQMJ2Pro_Transl
 - Game randomiser, with rank/family/size filtering, XP randomisation, and challenge options.
 
 ### Known Issues
-- Viewing battle move information with `Y` in battle is currently broken. It currently shows a blank information screen, or crashes the game.
 - With `Randomise synthesis recipes`, ??? family results are not able to be synthesised, and will sometimes crash the game when viewed.
+- Not so much an issue, as opposed to a change, but viewing battle move information with `Y` in battle will display a shortened description as a technical workaround.
 
 ### Credits
 **Technical Development:**
