@@ -6,7 +6,7 @@ This fork of Ceris White's Joker 2 Professional repository includes a post-game 
 <img src="./Database/GUI_Patcher/gui.png" width="300">
 
 Database of Monster [Synthesis](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/synthesis_database.csv) Recipes.<br>
-Database of [new synthesis recipes](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/0048df4ee6118dee9fc8b607ffea09b10d7614b9/Database/synthesis_database.csv#L295).<br>
+Database of [new synthesis recipes](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/197d7b66a751dda1b87c52e3715e6815f96e5450/Database/synthesis_database.csv#L295).<br>
 Database of Monster [Stats and Traits](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/monster_database.csv).<br>
 Database of Monster [Resistances](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/monster_resistance_database.csv).
 
