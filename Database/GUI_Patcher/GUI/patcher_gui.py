@@ -28,7 +28,7 @@ def app_root():
     return Path(__file__).resolve().parents[3]
 
 ROOT = app_root()
-PATCHER_VERSION = "0.7.0"
+PATCHER_VERSION = "0.7.1"
 
 def open_url(url):
     if sys.platform.startswith("linux"):
@@ -65,6 +65,83 @@ def open_url(url):
         webbrowser.open(url)
     except Exception:
         pass
+
+
+
+class ToolTip:
+    def __init__(self, widget, text, wraplength=360):
+        self.widget = widget
+        self.text = text
+        self.wraplength = wraplength
+        self.tip = None
+        widget.bind("<Enter>", self.show)
+        widget.bind("<Leave>", self.hide)
+
+    def show(self, _event=None):
+        if self.tip or not self.text:
+            return
+
+        x = self.widget.winfo_rootx() + 18
+        y = self.widget.winfo_rooty() + self.widget.winfo_height() + 6
+
+        self.tip = tk.Toplevel(self.widget)
+        self.tip.wm_overrideredirect(True)
+        self.tip.wm_geometry(f"+{x}+{y}")
+
+        label = tk.Label(
+            self.tip,
+            text=self.text,
+            justify="left",
+            background="#ffffe0",
+            relief="solid",
+            borderwidth=1,
+            padx=6,
+            pady=4,
+            wraplength=self.wraplength,
+        )
+        label.pack()
+
+    def hide(self, _event=None):
+        if self.tip:
+            self.tip.destroy()
+            self.tip = None
+
+
+def add_tooltip(widget, text):
+    ToolTip(widget, text)
+    return widget
+
+
+def add_info_icon(parent, text):
+    icon = ttk.Label(
+        parent,
+        text="ⓘ",
+        cursor="question_arrow",
+        foreground="blue",
+    )
+    add_tooltip(icon, text)
+    return icon
+
+
+def add_check_with_info(parent, label, variable, info):
+    row = ttk.Frame(parent)
+    row.pack(anchor="w", padx=10, pady=3)
+
+    ttk.Checkbutton(row, text=label, variable=variable).pack(side="left")
+    add_info_icon(row, info).pack(side="left", padx=(5, 0))
+
+    return row
+
+
+def add_value_option_with_info(parent, label, variable, value_var, width, info):
+    row = ttk.Frame(parent)
+    row.pack(anchor="w", padx=10, pady=3)
+
+    ttk.Checkbutton(row, text=label, variable=variable).pack(side="left")
+    ttk.Entry(row, textvariable=value_var, width=width).pack(side="left", padx=(6, 5))
+    add_info_icon(row, info).pack(side="left")
+
+    return row
 
 
 
@@ -247,27 +324,65 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         tabs.add(patch_tab, text="Patch Options")
         tabs.add(rand_tab, text="Randomiser")
 
-        opts = ttk.LabelFrame(patch_tab, text="Patch options")
-        opts.pack(fill="both", expand=True, padx=8, pady=8)
+        recommended = ttk.LabelFrame(patch_tab, text="Recommended Defaults")
+        recommended.pack(fill="x", expand=False, padx=8, pady=(8, 4))
 
-        ttk.Checkbutton(opts, text="Add new synthesis recipes", variable=self.new_synths_var).pack(anchor="w", padx=10, pady=3)
+        add_check_with_info(
+            recommended,
+            "Add New Synthesis Recipes",
+            self.new_synths_var,
+            "Vanilla Joker 2 Pro makes some monsters wi-fi exclusive or otherwise unobtainable. This checkbox adds new synthesis recipes for those monsters.",
+        )
+        add_check_with_info(
+            recommended,
+            "Apply X/XY Variant Suffix Fix",
+            self.xvariant_var,
+            "Vanilla Joker 2 Pro has X/XY monster variants in front of their name. This checkbox moves it to the end.",
+        )
+        add_check_with_info(
+            recommended,
+            "Replace Gender Icons with Polarity",
+            self.gender_icons_var,
+            "Vanilla Joker 2 Pro uses gender instead of +/- monster polarity for synthesis. This checkbox reverts it to +/-.",
+        )
 
-        xp_row = ttk.Frame(opts)
-        xp_row.pack(anchor="w", padx=10, pady=3)
-        ttk.Checkbutton(xp_row, text="Set XP Multiplier:", variable=self.xp_mult_var).pack(side="left")
-        ttk.Entry(xp_row, textvariable=self.xp_mult_value, width=8).pack(side="left", padx=6)
+        qol = ttk.LabelFrame(patch_tab, text="Additional Quality of Life")
+        qol.pack(fill="x", expand=False, padx=8, pady=(4, 8))
 
-        ttk.Checkbutton(opts, text="Apply X/XY Variant Suffix Fix", variable=self.xvariant_var).pack(anchor="w", padx=10, pady=3)
-        ttk.Checkbutton(opts, text="Replace Gender Icons with Polarity", variable=self.gender_icons_var).pack(anchor="w", padx=10, pady=3)
-        ttk.Checkbutton(opts, text='Make "Took offense" NOT Disable Scouting', variable=self.scout_offense_var).pack(anchor="w", padx=10, pady=3)
-        ttk.Checkbutton(opts, text="Remove Multiple Species Owned Check From Scouting", variable=self.scout_penalty_var).pack(anchor="w", padx=10, pady=3)
-
-        level_row = ttk.Frame(opts)
-        level_row.pack(anchor="w", padx=10, pady=3)
-        ttk.Checkbutton(level_row, text="Set Minimum Synthesis Level:", variable=self.synth_level_var).pack(side="left")
-        ttk.Entry(level_row, textvariable=self.synth_level_value, width=5).pack(side="left", padx=6)
-
-        ttk.Checkbutton(opts, text="Remove Synthesis Polarity Requirement", variable=self.synth_polarity_var).pack(anchor="w", padx=10, pady=3)
+        add_check_with_info(
+            qol,
+            'Make "Took offense" NOT Disable Scouting',
+            self.scout_offense_var,
+            "Vanilla Joker 2 Pro disallows scouting after offending a monster. This checkbox removes that restriction.",
+        )
+        add_check_with_info(
+            qol,
+            "Remove Multiple Species Owned Check from Scouting",
+            self.scout_penalty_var,
+            "Vanilla Joker 2 Pro reduces scouting odds if you already own one of that monster. This checkbox removes that.",
+        )
+        add_check_with_info(
+            qol,
+            "Remove Synthesis Polarity Requirement",
+            self.synth_polarity_var,
+            "Vanilla Joker 2 Pro requires monsters be of opposite polarity/gender to be synthesised. This checkbox removes that restriction.",
+        )
+        add_value_option_with_info(
+            qol,
+            "Set XP Multiplier:",
+            self.xp_mult_var,
+            self.xp_mult_value,
+            8,
+            "Multiply battle XP rewards for defeating monsters for faster leveling.",
+        )
+        add_value_option_with_info(
+            qol,
+            "Set Minimum Synthesis Level:",
+            self.synth_level_var,
+            self.synth_level_value,
+            5,
+            "Vanilla Joker 2 Pro requires monsters be at least level 10 to be synthesised. This field allows you to set the required level.",
+        )
 
         rand = ttk.Frame(rand_tab)
         rand.pack(fill="both", expand=True, padx=8, pady=8)
@@ -411,18 +526,37 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             command=self.toggle_log,
         ).grid(row=6, column=0, sticky="w", padx=10, pady=6)
 
+        link_row = ttk.Frame(frm)
+        link_row.grid(row=7, column=0, columnspan=3, sticky="ew", padx=10, pady=(0, 6))
+        link_row.columnconfigure(1, weight=1)
+
         release_link = ttk.Label(
-            frm,
+            link_row,
             text="Check for the Latest Release",
             cursor="hand2",
             foreground="blue",
             font=(tkfont.nametofont("TkDefaultFont").cget("family"), tkfont.nametofont("TkDefaultFont").cget("size"), "bold"),
         )
-        release_link.grid(row=7, column=0, columnspan=3, sticky="w", padx=10, pady=(0, 6))
+        release_link.grid(row=0, column=0, sticky="w")
         release_link.bind(
             "<Button-1>",
             lambda _e: open_url(
                 "https://github.com/saneezore07/DQMJ2Pro_Translation/releases"
+            ),
+        )
+
+        info_link = ttk.Label(
+            link_row,
+            text="View information page",
+            cursor="hand2",
+            foreground="blue",
+            font=(tkfont.nametofont("TkDefaultFont").cget("family"), tkfont.nametofont("TkDefaultFont").cget("size"), "bold"),
+        )
+        info_link.grid(row=0, column=2, sticky="e")
+        info_link.bind(
+            "<Button-1>",
+            lambda _e: open_url(
+                "https://github.com/saneezore07/DQMJ2Pro_Translation"
             ),
         )
 
