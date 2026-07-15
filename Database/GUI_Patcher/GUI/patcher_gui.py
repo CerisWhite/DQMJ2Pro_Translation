@@ -530,6 +530,12 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         link_row.grid(row=7, column=0, columnspan=3, sticky="ew", padx=10, pady=(0, 6))
         link_row.columnconfigure(1, weight=1)
 
+        link_font = (
+            tkfont.nametofont("TkDefaultFont").cget("family"),
+            tkfont.nametofont("TkDefaultFont").cget("size"),
+            "bold",
+        )
+
         release_link = ttk.Label(
             link_row,
             text="Check for the Latest Release",
@@ -547,7 +553,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
 
         info_link = ttk.Label(
             link_row,
-            text="View information page",
+            text="View Information Page",
             cursor="hand2",
             foreground="blue",
             font=(tkfont.nametofont("TkDefaultFont").cget("family"), tkfont.nametofont("TkDefaultFont").cget("size"), "bold"),
