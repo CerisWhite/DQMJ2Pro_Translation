@@ -123,7 +123,7 @@ D,121,Orc,1,Beast,700,360,700,600,580,600,Health Professional,Starting Ping,Craf
 D,122,Chariot Chappie,1,Material,630,380,720,780,640,520,Crafty Abiliterator,Random Accelerate,Whack Attack,Crafty Whacker
 D,123,Gold Golem,1,Material,760,300,700,840,320,400,Increase Tension,Crafty Decelerater,Crafty Magic Drainer,Crafty Gobstopper
 D,124,Silvapithecus,1,Demon,700,440,520,700,600,760,Crafty Fizzler,Sizzmeister,Crafty Sizzer,Magic Counter
-D,125,Behemoth Slime,1,Slime,800,420,660,680,160,400,Increase Tension,Desperado,Crafty Dance Banner,Restless 
+D,125,Behemoth Slime,1,Slime,800,420,660,680,160,400,Increase Tension,Desperado,Crafty Dance Banner,Restless
 D,126,Red Dragon,2,Dragon,1200,240,960,680,380,680,1-2 Mega Moves,Crafty Sleeper,Crafty Ice Breather,Starting Nether Fog
 D,127,Crabid,1,Nature,680,260,640,980,680,440,Close Scraper,Crafty Magic Drainer,Starting Buff,Lucky
 D,128,Scorpion,1,Nature,660,300,700,1000,520,480,Critical Massacre,Paralysis Attack,Crafty Poisoner,Light Metal Body
@@ -344,7 +344,7 @@ S,342,Time Sage,1,Material,600,660,410,420,540,1000,1-3 Moves,Starting Accelerat
 S,343,Titanis,2,Demon,1300,800,540,440,430,1200,2 Mega Moves,Scare Stare,Intimidating,Pressure
 S,344,Darkonium Slime,2,Slime,60,720,620,1500,1500,1285,2 Mega Moves,Metal Body,Hit Squad (3),Last Word
 S,345,Bilhaw,2,Dragon,1200,600,600,1000,1200,1200,1-2 Mega Moves,Early Bird,Hopeful Hitter,Yellow-Belly
-S,346,Boresby Purrvis,1,Nature,530,300,800,610,800,540,2 Moves,Intimidating,Hopeful Hitter,Yellow-Belly
+S,346,Goresby Purrvis,1,Nature,530,300,800,610,800,540,2 Moves,Intimidating,Hopeful Hitter,Yellow-Belly
 S,347,Baalzack,2,Beast,1300,500,1000,700,140,620,1-3 Mega Moves,Hit Squad (2),Standard Killer,Yellow-Belly
 S,348,Dracolord,1,Dragon,860,600,720,700,760,920,Scare Stare,Crafty Fizzler,Starting Brake Wind,Starting Break Bind
 S,349,King Sanguini,2,Beast,1100,800,500,700,1000,1300,2 Mega Moves,Hit Squad (2),Starting Malhaze,Random Malhaze
@@ -399,7 +399,7 @@ SS,397,Rhapthorne,1,？？？系,820,600,520,980,1000,1000,Artful Dodger,Disrupt
 SS,398,Dark Robot Slime,3,Slime,1500,400,650,900,1000,1000,2-3 Giga Moves,Hit Squad (2),Hopeful Hitter,Spell Splurger
 SS,399,Dimensional Dragon,2,Dragon,1300,500,850,600,800,800,2-3 Mega Moves,Counterslammer,Enemy Tension Rise,Yellow-Belly
 SS,400,Aquarion,3,Beast,2600,240,600,600,520,400,2 Giga Moves,Increase Tension,Critical Massacre,Magic Barrier
-SS,401,Estark,3,Material,2350,450,820,730,460,540,2 Giga Moves,Hit Squad (2),Disruptive Wave,Restless 
+SS,401,Estark,3,Material,2350,450,820,730,460,540,2 Giga Moves,Hit Squad (2),Disruptive Wave,Restless
 SS,402,Rhapthorne II,3,？？？系,2200,800,600,800,400,1200,1-3 Giga Moves,Hit Squad (2),Crafty Zammer,Crafty Magic Drainer
 SS,403,Great Godbird,3,Nature,2200,600,600,700,1200,600,2 Giga Moves,Hit Squad (2),Crafty Ice Breather,Random Brake Wind
 SS,404,Malevolynx,3,？？？系,2300,300,900,720,780,600,2 Giga Moves,Sleep Attack,Crafty Sizzer,Random Malhaze
