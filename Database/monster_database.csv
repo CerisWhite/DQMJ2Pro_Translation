@@ -278,7 +278,7 @@ A,276,Mohawker,1,Beast,900,240,800,700,500,640,Critical Massacre,Health Professi
 A,277,Boe,1,Material,800,500,600,800,700,600,Starting Accelerate,Steady Recovery,Crafty Donker,1-2 Moves
 A,278,Gracos,1,Demon,840,440,580,820,600,760,Crackmeister,Crafty Ice Breather,Protective Fog,1-2 Moves
 A,279,Tortured Soul,1,Zombie,860,520,400,720,750,900,Crafty Paralyser,Sizzmeister,Random Break Bind,Crafty Sizzer
-A,280,Graeat Dragon,1,Dragon,820,240,900,800,600,480,Frizzmeister,Crafty Fire Breather,Random Brake Wind,Close Scraper
+A,280,Great Dragon,1,Dragon,820,240,900,800,600,480,Frizzmeister,Crafty Fire Breather,Random Brake Wind,Close Scraper
 A,281,Thornella,2,Nature,1400,200,900,820,620,720,1-2 Mega Moves,Hit Squad (2),Health Professional,Imaginative
 A,282,Slon,1,Beast,900,360,860,460,500,400,Hit Squad (2),Critical Massacre,Confused Frenzy,Critical Guard
 A,283,Living Statue,1,Material,860,320,740,940,400,600,Critical Massacre,Crafty Sapper,Random Buff,1-2 Moves
@@ -333,7 +333,7 @@ S,331,Ladja,1,Zombie,800,600,580,540,400,1000,1-2 Moves,Crafty Frizzer,Magic Cou
 S,332,Tri Winder,2,Dragon,1480,400,740,400,400,700,1-3 Mega Moves,Hit Squad (3),Crafty Cracker,Crafty Inactivist
 S,333,Elder Pipit,1,Nature,600,1000,500,800,1200,1200,Random Accelerate,Crafty Banger,Donkmeister,Random Ping
 S,334,Night Clubber,1,Beast,1000,260,1000,1000,320,320,Last Word,Giant Killer,Yellow-Belly,Persistent
-S,335,Shild Ogre,1,Material,800,480,880,1200,620,520,Starting Buff,Crafty Ice Breather,Light Metal Body,Critical Guard
+S,335,Shield Ogre,1,Material,800,480,880,1200,620,520,Starting Buff,Crafty Ice Breather,Light Metal Body,Critical Guard
 S,336,Blackmar,1,Demon,600,540,630,610,250,800,2 Moves,Sizzmeister,Crafty Fire Breather,Yellow-Belly
 S,337,Wight King,1,Zombie,800,1000,200,940,960,1000,Poison Body,Magic Regenerator,Magic Drain Attack,Random Ping
 S,338,Slider Girl,2,Slime,1000,500,750,500,2000,700,1-3 Mega Moves,Starting Oomph,Starting Tension,Ally Tension Rise
