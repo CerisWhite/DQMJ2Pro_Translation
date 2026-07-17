@@ -1,3 +1,5 @@
+## [V1.0.0 Release Announcement](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/v1.0_announcement_post.md)
+
 This fork of Ceris White's Joker 2 Professional repository includes a post-game translation by Gerb.
 
 <img src="./Database/credits.png" width="700">
