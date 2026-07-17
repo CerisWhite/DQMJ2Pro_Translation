@@ -4300,7 +4300,7 @@ SETNAME "Tiko"
 SAY "{VOICE=08}The barrier has been broken{BREAK}thanks to the Incarnus."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=08}Let's hurry towards Blanc Palace,{BREAK}the holy land where Baborood is."
+SAY "{VOICE=08}Let's hurry towards Blanc Palace,{BREAK}the holy land where Baboorood is."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}We're gonna lose the trail{BREAK}of that Leoynx who went ahead!"
