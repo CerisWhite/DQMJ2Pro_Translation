@@ -22,6 +22,8 @@ Database of Monster [Resistances](https://github.com/saneezore07/DQMJ2Pro_Transl
 - Game randomiser, with rank/family/size filtering, XP randomisation, and challenge options.
 
 ### Known Issues
+- The randomiser is naturally going to introduce game instability.
+- 	For example, what was previously fighting three slimes for a total of three enemy slots may become three of a 3-slot monster for a total of nine enemy monster slots. This will probably crash the game. For a more stable randomiser run, consider filtering out 3-slot monsters when you configure your randomiser.
 - With `Randomise synthesis recipes`, ??? family results are not able to be synthesised, and will sometimes crash the game when viewed.
 
 ### Credits
