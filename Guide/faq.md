@@ -3,6 +3,9 @@
 Q: Do saves carry over between versions?<br>
 A: Yes.<br>
 <br>
+Q: Can I update by patching my old patched ROM?<br>
+A: No, patch with a clean vanilla ROM each time.<br>
+<br>
 Q: I was told I need to install python, right?<br>
 A: No, the patcher program does not require anything installed.<br>
 <br>
