@@ -40,7 +40,7 @@ Database of Monster [Resistances](https://github.com/saneezore07/DQMJ2Pro_Transl
 - Darko, Hoodiniebobeenie, Anthcny: Creation of new recipes and game balancing.<br>
 
 **Playtesting:**
-- Ilario, Reflex, Gerb, Darko, GemSlimee, Hoodinibobeenie, Mad Raigo, Matthew McConville, Nurfed, Chris, diortememirp, Nightaura, Sloppydeck, Anti-Tank Guided Missle, Ghostface, Blark<br>
+- Ilario, Reflex, Gerb, Darko, GemSlimee, Hoodinibobeenie, Mad Raigo, Matthew McConville, Nurfed, Chris, diortememirp, Nightaura, Sloppydeck, Anti-Tank Guided Missile, Ghostface, Blark<br>
 
 **The [Dragon Quest Translations](https://discord.gg/aX6Ac8cC84) discord server:**
 - For hosting collaboration efforts.
