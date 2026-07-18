@@ -1,10 +1,10 @@
-## [V1.0.0 Release Announcement](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/v1.0_announcement_post.md)
+## [V1.0.0 Release Announcement](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/v1.0_announcement_post.md) & [F.A.Q](Guide/faq.md)
 
 This fork of Ceris White's Joker 2 Professional repository includes a post-game translation by Gerb.
 
 <img src="./Database/credits.png" width="700">
 
-[Patcher Program](https://github.com/saneezore07/DQMJ2Pro_Translation/releases) with friendly user interface for patching your legally obtained rom. Select your rom, check which patch options you want, then run the program.<br>
+[Patcher Program](https://github.com/saneezore07/dqmj2pro_translation/releases) with friendly user interface for patching your legally obtained rom. Select your rom, check which patch options you want, then run the program.<br>
 <img src="./Database/GUI_Patcher/gui.png" width="300">
 
 Database of Monster [Synthesis](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/synthesis_database.csv) Recipes.<br>
