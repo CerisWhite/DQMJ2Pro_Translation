@@ -28,7 +28,7 @@ def app_root():
     return Path(__file__).resolve().parents[3]
 
 ROOT = app_root()
-PATCHER_VERSION = "1.0.0"
+PATCHER_VERSION = "1.0.1"
 
 def open_url(url):
     if sys.platform.startswith("linux"):
@@ -387,13 +387,30 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         rand = ttk.Frame(rand_tab)
         rand.pack(fill="both", expand=True, padx=8, pady=8)
 
+        enable_randomiser_info = (
+            "The randomiser is naturally going to introduce game instability.\n"
+            "E.g. Fighting three slimes for a total of three enemy slots may become three of a 3-slot monster, "
+            "for a total of nine enemy monster slots. This will probably crash the game. For a more stable "
+            "randomiser run, consider filtering out 3-slot monsters when you configure. Or simply flee if it is "
+            "an optional battle."
+        )
+
+        synth_randomiser_info = (
+            "??? family results are sometimes not able to be synthesised, and will sometimes crash the game when viewed. "
+            "If you see synthesis results with no name displayed, avoid selecting or viewing that option to avoid crashing."
+        )
+
+        master_row = ttk.Frame(rand)
+        master_row.pack(anchor="w", padx=8, pady=(8, 4))
+
         master_cb = ttk.Checkbutton(
-            rand,
-            text="Enable randomiser",
+            master_row,
+            text="Enable Randomiser",
             variable=self.randomizer_enabled_var,
             command=self.toggle_randomizer_controls,
         )
-        master_cb.pack(anchor="w", padx=8, pady=(8, 4))
+        master_cb.pack(side="left")
+        add_info_icon(master_row, enable_randomiser_info).pack(side="left", padx=(5, 0))
 
         self.randomizer_widgets = []
 
@@ -415,18 +432,22 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         monsters.pack(fill="x", expand=False, padx=8, pady=8)
 
         randomizer_checks = [
-            ("Randomise battle monsters", self.randomizer_monsters_var),
-            ("Generate spoiler file", self.randomizer_spoiler_var),
-            ("Randomise synthesis recipes", self.randomizer_generic_synthesis_var),
-            ("Allow Flee/Scout for randomised battles", self.randomizer_allow_flee_var),
-            ("No flee challenge", self.randomizer_no_flee_var),
-            ("Stronger randomised monsters (150% stats)", self.randomizer_stronger_var),
+            ("Randomise battle monsters", self.randomizer_monsters_var, None),
+            ("Generate spoiler file", self.randomizer_spoiler_var, None),
+            ("Randomise synthesis recipes", self.randomizer_generic_synthesis_var, synth_randomiser_info),
+            ("Allow Flee/Scout for randomised battles", self.randomizer_allow_flee_var, None),
+            ("No flee challenge", self.randomizer_no_flee_var, None),
+            ("Stronger randomised monsters (150% stats)", self.randomizer_stronger_var, None),
         ]
 
-        for label, var in randomizer_checks:
-            cb = ttk.Checkbutton(monsters, text=label, variable=var)
-            cb.pack(anchor="w", padx=8, pady=2)
-            self.randomizer_widgets.append(cb)
+        for label, var, info in randomizer_checks:
+            if info:
+                row = add_check_with_info(monsters, label, var, info)
+                self.randomizer_widgets.append(row)
+            else:
+                cb = ttk.Checkbutton(monsters, text=label, variable=var)
+                cb.pack(anchor="w", padx=8, pady=2)
+                self.randomizer_widgets.append(cb)
 
         seed_row = ttk.Frame(monsters)
         seed_row.pack(anchor="w", padx=8, pady=4)

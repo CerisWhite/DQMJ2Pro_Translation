@@ -5271,7 +5271,7 @@ L_14cfc:
 CMP_EQ 0x18 0x0 0x42ca0000 0x2 0x41e80000
 JMP_IFNOT 0xc L_14de8
 SYS_42 0x8 
-SAY "{VOICE=08}Oh, my! It's you, {NAME}!{BREAK}Thank you so much that time!"
+SAY "{VOICE=08}Oh, my! It's you, {NAME}!{BREAK}Thanks for helping us out!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}We would have disappeared{BREAK}if Baboorood was there any longer!"
