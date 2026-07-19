@@ -25,6 +25,7 @@ Database of Monster [Resistances](https://github.com/saneezore07/DQMJ2Pro_Transl
 - The randomiser is naturally going to introduce game instability.
 - For example, what was previously fighting three slimes for a total of three enemy slots may become three of a 3-slot monster for a total of nine enemy monster slots. This will probably crash the game. For a more stable randomiser run, consider filtering out 3-slot monsters when you configure your randomiser. Or simply flee if it is an optional battle.
 - With `Randomise synthesis recipes`, ??? family results are sometimes not able to be synthesised, and will sometimes crash the game when viewed. If you see synthesis results with no name displayed, avoid selecting or viewing that option to avoid crashing.
+- When naming a scouted monster, if the monsters original name is longer than 13 characters (e.g. Liquid Metal King Slime = 23 characters), the bottom screen's keyboard will get a visual bug when you attempt to revert the nickname to the default. Since this is just a visual bug, you are able to continue naming your mon without issue.
 
 ### Credits
 **Technical Development:**
