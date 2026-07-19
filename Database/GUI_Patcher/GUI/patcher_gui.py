@@ -441,14 +441,13 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         ]
 
         for label, var, info in randomizer_checks:
+            row = ttk.Frame(monsters)
+            row.pack(anchor="w", padx=8, pady=2)
+            cb = ttk.Checkbutton(row, text=label, variable=var)
+            cb.pack(side="left")
             if info:
-                row = add_check_with_info(monsters, label, var, info)
-                self.randomizer_widgets.append(row)
-            else:
-                cb = ttk.Checkbutton(monsters, text=label, variable=var)
-                cb.pack(anchor="w", padx=8, pady=2)
-                self.randomizer_widgets.append(cb)
-
+                add_info_icon(row, info).pack(side="left", padx=(5, 0))
+            self.randomizer_widgets.append(cb)
         seed_row = ttk.Frame(monsters)
         seed_row.pack(anchor="w", padx=8, pady=4)
         self.randomizer_widgets.append(seed_row)
