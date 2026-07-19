@@ -5604,7 +5604,7 @@ SYS_44 0x8
 SAY "{VOICE=03}Powerful attacks that leave no breathing room..."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=03}A Little Demon is perfect for you!"
+SAY "{VOICE=03}A Pickayune is perfect for you!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 JMP_ABS 0xc L_167f8
