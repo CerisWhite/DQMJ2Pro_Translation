@@ -18,6 +18,9 @@ A: Patching your own legally obtained ROM is the only approved way to play.<br>
 Q: Can I play on [INSERT CONSOLE]?<br>
 A: The patched ROM is compatible across all official hardware and emulators.<br>
 <br>
+Q: The game isn't booting on my R4, what gives?<br>
+Q: [Read this](Guide/playing_on_r4.md)<br>
+<br>
 Q: Can I enable cheats?<br>
 A: Cheats for vanilla Joker 2 Pro work with the patch. If you are using a cheat database like `deadskullsjr`, you need to duplicate the Joker 2 Pro entry and match the game ID with the patched version's. `R4 Cheat Code Editor` (R4CCE) or `R4Everyone` is able to do this.<br>
 <br>
