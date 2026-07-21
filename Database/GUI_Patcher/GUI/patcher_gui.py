@@ -28,7 +28,7 @@ def app_root():
     return Path(__file__).resolve().parents[3]
 
 ROOT = app_root()
-PATCHER_VERSION = "1.0.2"
+PATCHER_VERSION = "1.0.3"
 
 def open_url(url):
     if sys.platform.startswith("linux"):
@@ -86,6 +86,13 @@ class ToolTip:
 
         self.tip = tk.Toplevel(self.widget)
         self.tip.wm_overrideredirect(True)
+        if sys.platform == "darwin":
+            try:
+                self.tip.wm_attributes("-topmost", True)
+                self.tip.lift()
+                self.tip.transient(self.widget.winfo_toplevel())
+            except tk.TclError:
+                pass
         self.tip.wm_geometry(f"+{x}+{y}")
 
         label = tk.Label(

@@ -7,6 +7,7 @@ import shutil
 import subprocess
 import sys
 from pathlib import Path
+import tempfile
 
 
 def run(cmd, cwd=None):
@@ -229,7 +230,7 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description="DQMJ2P GUI patch backend")
     ap.add_argument("--rom", required=True)
     ap.add_argument("--output", required=True)
-    ap.add_argument("--work", default="GUI_WORK")
+    ap.add_argument("--work", default=None)
     ap.add_argument("--keep-work", action="store_true", help="Do not delete GUI_WORK after patching")
     ap.add_argument("--repo", default="AUTO")
 
@@ -270,7 +271,12 @@ def main(argv=None):
 
     rom = Path(args.rom).resolve()
     output = Path(args.output).resolve()
-    work = Path(args.work).resolve()
+    if args.work is None and sys.platform == "darwin":
+        work = Path(tempfile.mkdtemp(prefix="DQMJ2P_GUI_WORK_"))
+    elif args.work is None:
+        work = Path("GUI_WORK").resolve()
+    else:
+        work = Path(args.work).expanduser().resolve()
     pro_rom = work / "Pro_ROM"
 
     def _cleanup_work():
