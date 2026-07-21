@@ -1045,7 +1045,7 @@ SAY "{VOICE=07}I am sure that you can guide them{BREAK}onto the right path."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SETNAME "Incarnus"
-SAY "{VOICE=07}Now I shall return to my world.{BREAK}The world with my friend in."
+SAY "{VOICE=07}Now I shall return to my world.{BREAK}The world where my friend lies."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
