@@ -226,7 +226,7 @@ RANK
 F-D
 C-A
 S/X
-{321}{30b}{00} has equipped {328}!
+Equipped {328}!
 This can be used {322} more times!{315}Use now?
 {321}{30f}'s team's HP restored!
 No one on {30f}'s team can use healing magic.
