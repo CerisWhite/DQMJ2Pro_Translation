@@ -15,7 +15,7 @@ Database of Monster [Resistances](https://github.com/saneezore07/DQMJ2Pro_Transl
 ### Features
 - In-game menus, story dialogue, and post-game dialogue have been translated/localised from its original Japanese to English.
 - New synthesis recipes have been added to the game for monsters that exist in the game files, but were either wi-fi exclusive monsters or otherwise not obtainable in gameplay.
-- A user interface program has been created for a seemless patching process.
+- A user interface program has been created for a seamless patching process.
 - Anti-Piracy patching has been implemented in the patch, allowing users to play on original hardware.
 - Optional QOL and gameplay changes have be provided.
 - Game databases have been provided for synthesis, traits, skills and resistances.
