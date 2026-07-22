@@ -95,6 +95,10 @@ class ToolTip:
                 pass
         self.tip.wm_geometry(f"+{x}+{y}")
 
+        label_kwargs = {}
+        if sys.platform == "darwin":
+            label_kwargs["foreground"] = "black"
+
         label = tk.Label(
             self.tip,
             text=self.text,
@@ -105,6 +109,7 @@ class ToolTip:
             padx=6,
             pady=4,
             wraplength=self.wraplength,
+            **label_kwargs,
         )
         label.pack()
 
