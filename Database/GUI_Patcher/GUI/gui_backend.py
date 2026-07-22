@@ -292,7 +292,9 @@ def main(argv=None):
 
     atexit.register(_cleanup_work)
 
-    sys.path.insert(0, str(repo / "Pro_Tools"))
+    tools_repo = repo
+
+    sys.path.insert(0, str(tools_repo / "Pro_Tools"))
 
     import msgtool
     import storytool
@@ -321,6 +323,40 @@ def main(argv=None):
         shutil.rmtree(work)
     pro_rom.mkdir(parents=True)
 
+    if sys.platform == "darwin":
+        tools_repo = work / "writable_repo"
+        shutil.copytree(repo / "Pro_Tools", tools_repo / "Pro_Tools")
+        for name in ("Translation", "Database"):
+            src = repo / name
+            dst = tools_repo / name
+            if src.exists():
+                shutil.copytree(src, dst)
+
+        sys.path.insert(0, str(tools_repo / "Pro_Tools"))
+
+        # Reload tool modules from the writable macOS copy so module-level
+        # temp paths like Pro_ARM9.bin point inside the work dir.
+        for mod_name in ("msgtool", "storytool", "apply_patches"):
+            sys.modules.pop(mod_name, None)
+
+        import msgtool
+        import storytool
+        from apply_patches import (
+            arm9_decompress, arm9_compress,
+            overlay_decompress, overlay_compress,
+            update_y9,
+            apply_grow_msg_pool,
+            apply_grow_actionhelp,
+            apply_xp_mult,
+            apply_xvariant_suffix,
+            apply_gender_icons,
+            apply_scout_offense,
+            apply_scout_penalty,
+            apply_synthesis_level,
+            apply_synthesis_polarity,
+            find_rom,
+        )
+
     print(f"Input ROM: {rom}")
     print(f"Output ROM: {output}")
     print(f"Work dir: {work}")
@@ -344,10 +380,10 @@ def main(argv=None):
     inject_splash_assets(root, pro_rom / "data_dir")
 
     print("Decompressing ARM9 for text tools...")
-    run_py_script(repo / "Pro_Tools" / "arm9tool.py", [
+    run_py_script(tools_repo / "Pro_Tools" / "arm9tool.py", [
         "decompress",
         pro_rom / "arm9.bin",
-        repo / "Pro_Tools" / "Pro_ARM9.bin",
+        tools_repo / "Pro_Tools" / "Pro_ARM9.bin",
     ])
 
     print("Repacking strings...")
@@ -420,12 +456,12 @@ def main(argv=None):
         kind_csv = work / "Kind.csv"
         fourg_csv = work / "4g.csv"
 
-        run_py_script(repo / "Pro_Tools" / "synthesis_parser.py", [
+        run_py_script(tools_repo / "Pro_Tools" / "synthesis_parser.py", [
             "--in", pro_rom / "data_dir" / "CombinationKindTbl.bin",
             "--out", kind_csv,
         ])
 
-        run_py_script(repo / "Pro_Tools" / "synthesis_parser.py", [
+        run_py_script(tools_repo / "Pro_Tools" / "synthesis_parser.py", [
             "--in", pro_rom / "data_dir" / "Combination4GTbl.bin",
             "--out", fourg_csv,
             "--type", "4g",
@@ -437,12 +473,12 @@ def main(argv=None):
         with open(fourg_csv, "a", encoding="utf-8", newline="") as out:
             out.write((repo / "Database" / "new_synths_4g.csv").read_text(encoding="utf-8"))
 
-        run_py_script(repo / "Pro_Tools" / "synthesis_parser.py", [
+        run_py_script(tools_repo / "Pro_Tools" / "synthesis_parser.py", [
             "--in", kind_csv,
             "--out", pro_rom / "data_dir" / "CombinationKindTbl.bin",
         ])
 
-        run_py_script(repo / "Pro_Tools" / "synthesis_parser.py", [
+        run_py_script(tools_repo / "Pro_Tools" / "synthesis_parser.py", [
             "--in", fourg_csv,
             "--out", pro_rom / "data_dir" / "Combination4GTbl.bin",
             "--type", "4g",
