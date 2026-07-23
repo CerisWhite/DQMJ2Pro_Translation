@@ -44,20 +44,39 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
+          import re
 
-          files = [
-              Path("Database/GUI_Patcher/GUI/randomizer/pro_randomizer.py"),
-              Path("Pro_Tools/msgtool.py"),
-              Path("Pro_Tools/save_converter.py"),
-              Path("Pro_Tools/storytool.py"),
-              Path("Pro_Tools/synthesis_parser.py"),
-              Path("Pro_Tools/performpatch.py"),
+          roots = [
+              Path("Database/GUI_Patcher/GUI"),
+              Path("Pro_Tools"),
           ]
 
-          for p in files:
-              s = p.read_text(encoding="utf-8")
+          modern_annotation_re = re.compile(
+              r'\b(?:list|dict|tuple|set|type)\s*\[|'
+              r'(?:str|bytes|int|float|bool|Path|list|dict|tuple|set|type)\s*\|\s*(?:None|str|bytes|int|float|bool|Path|list|dict|tuple|set|type)'
+          )
+
+          def has_module_docstring(lines, index):
+              if index >= len(lines):
+                  return False
+              stripped = lines[index].lstrip()
+              return stripped.startswith('"""') or stripped.startswith("'''")
+
+          def skip_module_docstring(lines, index):
+              quote = lines[index].lstrip()[:3]
+              index += 1
+              while index < len(lines):
+                  if quote in lines[index]:
+                      return index + 1
+                  index += 1
+              return index
+
+          def insert_future_annotations(path):
+              s = path.read_text(encoding="utf-8")
               if "from __future__ import annotations" in s:
-                  continue
+                  return
+              if not modern_annotation_re.search(s):
+                  return
 
               lines = s.splitlines()
               insert_at = 0
@@ -65,19 +84,22 @@ jobs:
               if lines and lines[0].startswith("#!"):
                   insert_at = 1
 
-              if insert_at < len(lines) and (
-                  lines[insert_at].startswith('"""') or lines[insert_at].startswith("'''")
+              while insert_at < len(lines) and (
+                  lines[insert_at].strip() == "" or
+                  lines[insert_at].lstrip().startswith("#")
               ):
-                  quote = lines[insert_at][:3]
                   insert_at += 1
-                  while insert_at < len(lines) and quote not in lines[insert_at]:
-                      insert_at += 1
-                  if insert_at < len(lines):
-                      insert_at += 1
+
+              if has_module_docstring(lines, insert_at):
+                  insert_at = skip_module_docstring(lines, insert_at)
 
               lines.insert(insert_at, "from __future__ import annotations")
-              p.write_text("\n".join(lines) + "\n", encoding="utf-8")
-              print("patched for legacy build:", p)
+              path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+              print("patched for legacy build:", path)
+
+          for root in roots:
+              for path in root.rglob("*.py"):
+                  insert_future_annotations(path)
           PY
 
       - name: Prepare bundled tools
