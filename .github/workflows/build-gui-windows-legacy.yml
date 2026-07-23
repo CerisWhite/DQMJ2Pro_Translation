@@ -108,7 +108,7 @@ jobs:
           msystem: MINGW64
           update: true
 
-      - name: Build legacy ndstool v2.1.2
+      - name: Build legacy ndstool v2.2.0
         shell: msys2 {0}
         run: |
           set -e
@@ -116,7 +116,7 @@ jobs:
           rm -rf /tmp/ndstool-legacy
           git clone https://github.com/devkitPro/ndstool.git /tmp/ndstool-legacy
           cd /tmp/ndstool-legacy
-          git checkout fa6b6d0
+          git checkout v2.2.0
           ./autogen.sh
           CFLAGS="-O2" CXXFLAGS="-O2" LDFLAGS="-static -static-libgcc -static-libstdc++" ./configure --host=x86_64-w64-mingw32 --build=x86_64-pc-msys
           make -j2
