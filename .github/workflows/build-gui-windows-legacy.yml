@@ -118,10 +118,16 @@ jobs:
           cd /tmp/ndstool-legacy
           git checkout fa6b6d0
           ./autogen.sh
-          ./configure --host=x86_64-w64-mingw32 --build=x86_64-pc-msys
+          CFLAGS="-O2" CXXFLAGS="-O2" LDFLAGS="-static -static-libgcc -static-libstdc++" ./configure --host=x86_64-w64-mingw32 --build=x86_64-pc-msys
           make -j2
           mkdir -p "$GITHUB_WORKSPACE/Database/GUI_Patcher/GUI/bundled/tools/windows"
           cp ndstool.exe "$GITHUB_WORKSPACE/Database/GUI_Patcher/GUI/bundled/tools/windows/ndstool.exe"
+
+          # Fallback DLLs in case any MinGW runtime linkage remains.
+          cp /mingw64/bin/libgcc_s_seh-1.dll "$GITHUB_WORKSPACE/Database/GUI_Patcher/GUI/bundled/tools/windows/" 2>/dev/null || true
+          cp /mingw64/bin/libstdc++-6.dll "$GITHUB_WORKSPACE/Database/GUI_Patcher/GUI/bundled/tools/windows/" 2>/dev/null || true
+          cp /mingw64/bin/libwinpthread-1.dll "$GITHUB_WORKSPACE/Database/GUI_Patcher/GUI/bundled/tools/windows/" 2>/dev/null || true
+          cp /mingw64/bin/zlib1.dll "$GITHUB_WORKSPACE/Database/GUI_Patcher/GUI/bundled/tools/windows/" 2>/dev/null || true
 
       - name: Prepare bundled tools
         shell: pwsh
