@@ -37,7 +37,48 @@ jobs:
       - name: Install legacy PyInstaller
         run: |
           python -m pip install --upgrade "pip<25"
-          python -m pip install pyinstaller==4.10 tkinterdnd2
+          python -m pip install pyinstaller==4.10 tkinterdnd2 pillow
+
+      - name: Patch Python 3.8 annotations in build workspace only
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          files = [
+              Path("Database/GUI_Patcher/GUI/randomizer/pro_randomizer.py"),
+              Path("Pro_Tools/msgtool.py"),
+              Path("Pro_Tools/save_converter.py"),
+              Path("Pro_Tools/storytool.py"),
+              Path("Pro_Tools/synthesis_parser.py"),
+              Path("Pro_Tools/performpatch.py"),
+          ]
+
+          for p in files:
+              s = p.read_text(encoding="utf-8")
+              if "from __future__ import annotations" in s:
+                  continue
+
+              lines = s.splitlines()
+              insert_at = 0
+
+              if lines and lines[0].startswith("#!"):
+                  insert_at = 1
+
+              if insert_at < len(lines) and (
+                  lines[insert_at].startswith('"""') or lines[insert_at].startswith("'''")
+              ):
+                  quote = lines[insert_at][:3]
+                  insert_at += 1
+                  while insert_at < len(lines) and quote not in lines[insert_at]:
+                      insert_at += 1
+                  if insert_at < len(lines):
+                      insert_at += 1
+
+              lines.insert(insert_at, "from __future__ import annotations")
+              p.write_text("\n".join(lines) + "\n", encoding="utf-8")
+              print("patched for legacy build:", p)
+          PY
 
       - name: Prepare bundled tools
         shell: pwsh
