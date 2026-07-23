@@ -102,12 +102,32 @@ jobs:
                   insert_future_annotations(path)
           PY
 
+      - name: Set up MSYS2 for legacy ndstool
+        uses: msys2/setup-msys2@v2
+        with:
+          msystem: MINGW64
+          update: true
+
+      - name: Build legacy ndstool v2.1.2
+        shell: msys2 {0}
+        run: |
+          set -e
+          pacman -S --noconfirm --needed git make mingw-w64-x86_64-gcc automake autoconf libtool pkg-config
+          rm -rf /tmp/ndstool-legacy
+          git clone https://github.com/devkitPro/ndstool.git /tmp/ndstool-legacy
+          cd /tmp/ndstool-legacy
+          git checkout fa6b6d0
+          ./autogen.sh
+          ./configure --host=x86_64-w64-mingw32 --build=x86_64-pc-msys
+          make -j2
+          mkdir -p "$GITHUB_WORKSPACE/Database/GUI_Patcher/GUI/bundled/tools/windows"
+          cp ndstool.exe "$GITHUB_WORKSPACE/Database/GUI_Patcher/GUI/bundled/tools/windows/ndstool.exe"
+
       - name: Prepare bundled tools
         shell: pwsh
         run: |
           Copy-Item Pro_Tools/blz_win.exe Pro_Tools/blz.exe
           New-Item -ItemType Directory -Force Database/GUI_Patcher/GUI/bundled/tools/windows
-          Copy-Item Database/ndstool.exe Database/GUI_Patcher/GUI/bundled/tools/windows/ndstool.exe
           Copy-Item Database/windows_dlls/*.dll Database/GUI_Patcher/GUI/bundled/tools/windows/ -ErrorAction SilentlyContinue
 
       - name: Prepare bundle
