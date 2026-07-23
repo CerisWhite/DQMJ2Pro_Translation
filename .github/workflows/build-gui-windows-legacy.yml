@@ -1,0 +1,46 @@
+name: Build GUI Windows Legacy
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "Release tag to upload to, e.g. gui-v1.0.3"
+        required: true
+        default: "gui-v1.0.3"
+
+permissions:
+  contents: write
+
+jobs:
+  windows-legacy:
+    name: Windows 7/8/8.1 Legacy exe
+    runs-on: windows-2019
+
+    steps:
+      - name: Checkout selected tag/ref
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.release_tag }}
+
+      - name: Set up Python 3.8 for legacy Windows
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.8"
+
+      - name: Install legacy build dependencies
+        shell: pwsh
+        run: |
+          python -m pip install --upgrade "pip<25"
+          python -m pip install pyinstaller==4.10 pillow
+
+      - name: Build Windows Legacy GUI exe
+        shell: pwsh
+        run: |
+          cd Database/GUI_Patcher/GUI
+          pyinstaller --clean --onefile --windowed --name DQMJ2Patcher-Windows-Legacy patcher_gui.py
+
+      - name: Upload Windows Legacy exe to release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.inputs.release_tag }}
+          files: Database/GUI_Patcher/GUI/dist/DQMJ2Patcher-Windows-Legacy.exe
