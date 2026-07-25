@@ -76,7 +76,7 @@ Favorite Teams let you save{315}monster groups you like.{315}Saved members can b
 Virtual Battle lets you freely{315}battle using your own monsters.{315}{315}Enemy and ally settings{315}can be changed freely,{315}letting you study patterns{315}or test your monsters.
 When you enter a cleared area,{315}the weather may have changed,{315}altering the area too.{315}{315}Weather may change each time{315}you enter the world map.
 Monsters are split into 8 families:{315}Slime, Dragon, Nature, Beast,{315}Material, Demon, Undead and ???.{315}{315}Each family has a trigger that may{315}raise its tension in battle.
-For example, Slimes may tense up{315}when weakened by Sap or similar skills.{315}Undead may tense up when someone{315}falls in battle.{315}{315}Try to discover each family trigger{315}for yourself.
+For example, Slimes may fire up{315}when weakened by Sap or similar skills.{315}Undead may fire up when someone{315}falls in battle.{315}{315}Try to discover each family trigger{315}for yourself.
 Synthesis is a miracle art that{315}combines 2 monsters into a new one.{315}{315}The 2 used monsters are parents,{315}and the new monster is their child.{315}Children can surpass their parents,{315}so synthesise often.
 To synthesise, you need {231} and {232}{315}monsters to be the child's parents.{315}They can be parents above level 10.{315}{315}Monsters grow stronger as their rank{315}rises from F to A.{315}Synthesise higher-rank monsters.
 A synthesised monster can usually{315}inherit up to 3 parent skills.{315}{315}It also inherits half the parents'{315}skill points.{315}Assigned or not, all skill points{315}are halved and passed on.
@@ -84,19 +84,19 @@ A monster's growth limit is level 50.{315}Repeated synthesis and high-level pare
 Evolve synthesis creates Strong{315}or Strongest monsters.{315}Fuse a rank F, E or D monster{315}at level 20+ with the same species{315}to make a Strong monster.{315}Fuse a rank C, B or A monster{315}at level 50+ with the same species{315}to make a Strongest monster.
 Uses monster skills to restore{315}all allies' HP to full.{315}If MP runs out midway,{315}healing stops there.
 Fully restores your monsters' HP and MP.{315}You can use it up to 3 times while out.{315}Return to the airship to recharge it.
-Scout Q level 1 asks you to bring{315}a monster with Heckling Hector!{315}{315}Boppin' badger and Armoured wartoise{315}have this trait!
-Scout Q level 2 asks you to bring{315}2 Dragon family monsters!{315}{315}Set 2 Dragons in your party{315}and talk to me!{315}Komodo, Dragonthorn and{315}Drag racer are Dragons!
-Scout Q level 3 asks you to bring{315}any monster with a Guest mark!{315}{315}Bring one from Tag Mode{315}or downloads to clear it!{315}{315}Any monster works!
-Scout Q level 4 asks you to bring{315}Insta-Buff and Rando-Buff!{315}{315}One monster may have both,{315}or two monsters one each!{315}Army ant and Axecutioner{315}have these traits!
-Scout Q level 5 asks you to bring{315}Spell Critical Booster!{315}{315}Swingin' Hipster and Damned Ram{315}have this trait!
-Scout Q level 6 asks you to bring{315}any Strong monster!{315}{315}Raise an F-D monster above 20{315}and synthesise it with the same monster{315}to create a Strong monster!{315}The other parent only needs level 10!
-Scout Q level 7 asks you to bring{315}a Lucky monster!{315}{315}I think one with that trait{315}was on the coast!
-Scout Q level 8 asks you to bring{315}Sleep Suppressor+!{315}{315}Give a monster Sleep Suppressor{315}or Nightmare, then spend enough{315}skill points to learn{315}Sleep Suppressor+!
-Scout Q level 9 asks you to bring{315}Static Discharge!{315}{315}Corrupt carter and Killing machine{315}have this trait!
-Scout Q level 10 asks you to bring{315}a rank ☆6+ party!{315}{315}Set a ☆6+ party and talk to me!{315}Check party rank in the{315}main menu with X!
-Scout Q level 11 asks you to bring{315}a Big bully monster!{315}{315}Baalzack and Strong jargon{315}have this trait!
-Scout Q level 12 asks you to bring{315}a Metal medley monster!{315}{315}Strong headhunter and{315}Strongest mecha-mynah{315}have this trait!
-Scout Q level 13 asks you to bring{315}a rank ☆7+ party!{315}{315}Set a ☆7+ party and talk to me!{315}Check party rank in the{315}main menu with X!
+Scout Proficiency Test level 1 asks you{315}to bring the Heckling Hector trait!{315}{315}Boppin' badger and Armoured Wartoise{315}have this trait.
+Scout Proficiency Test level 2 asks you{315}to bring 2 Dragon family monsters!{315}{315}Set 2 Dragons in your party{315}and talk to Marsha.{315}Komodo, Dragonthorn and{315}Drag Racer are Dragon-family monsters.
+Scout Proficiency Test level 3 asks you{315}to bring any monster with a Guest mark!{315}{315}Bring one from Tag Mode{315}or downloads to clear it.{315}{315}Any monster will do.
+Scout Proficiency Test level 4 asks you{315}to bring the Sudden Buff and{315}Random Buff traits!{315}{315}One monster may have both,{315}or two monsters one each.{315}Army Ant and Axecutioner{315}have these traits!
+Scout Proficiency Test level 5 asks you{315}to bring the Spell Satisfaction trait!{315}{315}Swingin' Hipster and Damned Ram{315}have this trait.
+Scout Proficiency Test level 6 asks you{315}to bring any X-variant monster!{315}{315}Raise an F-D monster above 20{315}and synthesise it with the same monster{315}to create a Strong monster!{315}The other parent only needs level 10.
+Scout Proficiency Test level 7 asks you{315}to bring the Lucky trait!{315}{315}A monster with that trait{315}might be in Unshore.
+Scout Proficiency Test level 8 asks you{315}to bring the Sleep Guard ↑ ability!{315}{315}Give a monster Sleep Guard{315}or Nightmare, then spend enough{315}skill points to learn{315}Sleep Guard ↑.
+Scout Proficiency Test level 9 asks you{315}to bring the Static trait!{315}{315}Corrupt carter and Killing machine{315}have this trait.
+Scout Proficiency Test level 10 asks you{315}to bring a rank ☆6+ party!{315}{315}Set a ☆6+ party and talk to Marsha.{315}Check party rank in the{315}main menu with X.
+Scout Proficiency Test level 11 asks you{315}to bring the Standard Killer trait!{315}{315}Baalzack and Jargon X{315}have this trait.
+Scout Proficiency Test level 12 asks you{315}to bring the Metal Killer trait!{315}{315}Headhunter X and{315}Mecha-Mynah XY{315}have this trait.
+Scout Proficiency Test level 13 asks you{315}to bring a rank ☆7+ party!{315}{315}Set a ☆7+ party and talk to Marsha.{315}Check party rank in the{315}main menu with X.
 
 
 
