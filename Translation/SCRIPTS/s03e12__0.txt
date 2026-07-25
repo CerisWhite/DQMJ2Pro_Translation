@@ -4254,7 +4254,7 @@ SYS_44 0x8
 SAY "{VOICE=07}I thought when her test was over... She'd finally look my way."
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
-SAY "{VOICE=07}I've got the mightiest pickaxe among my kin!"
+SAY "{VOICE=07}I've got the most righteous pickaxe here,{BREAK}topsider!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}You've just gotta bring me along, man!{VOICE=09}"
@@ -4421,7 +4421,7 @@ STORE 0x18 0x1 0x0 0x2 0x43520000
 SYS_A5 0x8 
 SYS_42 0x8 
 SETNAME "Marsha"
-SAY "{VOICE=08}Bring a monster with the 'Grumble' trait!"
+SAY "{VOICE=08}Bring a monster with the 'Heckling Hector' trait!"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=08}If you've already got one, just bring it along."
@@ -4712,7 +4712,7 @@ JMP_IFNOT 0xc L_129e0
 STORE 0x18 0x1 0x0 0x2 0x42080000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_DC 0x8 
-SAY " {VOICE=08}Bring a monster with the 'Grumble' trait!"
+SAY " {VOICE=08}Bring a monster with the 'Heckling Hector' trait!"
 JMP_ABS 0xc L_13668
 L_129e0:
 CMP_EQ 0x18 0x0 0x42d60000 0x2 0x3f800000
