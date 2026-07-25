@@ -48,7 +48,7 @@ Hopeful Hitter
 Close Scraper
 Perilous Parrier
 Gamble Counter
-Grumble
+Heckling Hector
 Talent Scout
 Fast Learner
 Gold Getter
@@ -61,7 +61,7 @@ Full Critical Guard
 Spell Splurger
 Attallergic
 Toss & Turn
-Static Discharge
+Static
 Berserker
 Stalwart Spirit
 Metal Killer
