@@ -137,11 +137,11 @@ Acts 2-3 times in a row.{315}Remaining actions are not cancelled{315}even if ord
 Acts 0-4 times in a row.{315}Remaining actions are not cancelled{315}even if orders are given.
 Damage taken from enemy attacks{315}are halved, but MP consumption{315}is doubled.
 Damage taken from enemy attacks{315}are quartered, but MP consumption{315}is quadrupled.
-At the start of battle,{315}monster may cast Oomph on itself.
-At the start of battle,{315}monster may cast Kabuff on itself.
-At the start of battle,{315}monster may cast Acceleratle on itself.
-At the start of battle,{315}monster may raise its own tension.
-At the start of battle,{315}monster may cast Black Mist.
+At the start of battle,{315}may cast Oomph on itself.
+At the start of battle,{315}may cast Kabuff on itself.
+At the start of battle,{315}may cast Acceleratle on itself.
+At the start of battle,{315}may raise its own tension.
+At the start of battle,{315}may cast Black Mist.
 Increases maximum HP by 5.
 Increases maximum HP by 10.
 Increases maximum HP by 15.
@@ -202,9 +202,9 @@ Increases wisdom by 21.
 Increases wisdom by 24.
 Increases wisdom by 27.
 Increases wisdom by 30.
-At the start of battle,{315}monster may cast Ping on itself.
-At the start of battle,{315}monster may cast Bounce.
-At the start of battle,{315}monster may cast Kasap.
+At the start of battle,{315}may cast Ping on itself.
+At the start of battle,{315}may cast Bounce.
+At the start of battle,{315}may cast Kasap.
 Monster may cast Ping on itself{315}during battle.
 Monster may cast Bounce{315}during battle.
 Monster may cast Kasap{315}during battle.
@@ -250,8 +250,8 @@ Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts 0-
 Damages dealt by attacks{315}and skills are increased.{315}Additionally, acts 1-2 times{315}in a row, and remaining actions are{315}not cancelled even if orders are given.
 The critical hit rate of spells{315}is doubled.
 When near death, the critical hit{315}rate of spells increase.
-At the start of battle,{315}monster may cast Break Seal.
-At the start of battle,{315}monster may cast Underworld Fog.
+At the start of battle,{315}may cast Break Seal.
+At the start of battle,{315}may cast Underworld Fog.
 Becomes an all-target attacker,{315}and damages dealt by skills are increased.{315}Additionally, acts 2-3 times{315}in a row, and remaining actions are{315}not cancelled even if orders are given.
 Becomes an all-target attacker,{315}and damages dealt by skills are increased.{315}Additionally, acts twice{315}in a row, and remaining actions are{315}not cancelled even if orders are given.
 Becomes an all-target attacker,{315}and damages dealt by skills are increased.{315}Additionally, acts 1-3 times{315}in a row, and remaining actions are{315}not cancelled even if orders are given.
