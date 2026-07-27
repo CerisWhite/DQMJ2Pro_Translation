@@ -23,6 +23,8 @@ Q: [Read this](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/G
 <br>
 Q: Can I enable cheats?<br>
 A: Cheats for vanilla Joker 2 Pro work with the patch. If you are using a cheat database like `deadskullsjr`, you need to duplicate the Joker 2 Pro entry and match the game ID with the patched version's. `R4 Cheat Code Editor` (R4CCE) or `R4Everyone` is able to do this.<br>
+LagHag has this to say:<br>
+Cheats work via R4CCE. You can import the cheat db, find the entry for Joker 2 Professional, then click the ... next ot the ID. Select your patched ROM and load it, then use the saved cheat database as usual.<br>
 <br>
 Q: Can I use this to make a translation in my own language?<br>
 A: Yes! This project is Free and Open Source, so you can modify and distribute the source code. But please remember to correctly attribute and credit this project so people know where to get started.<br>
