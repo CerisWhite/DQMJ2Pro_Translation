@@ -28,7 +28,7 @@ def app_root():
     return Path(__file__).resolve().parents[3]
 
 ROOT = app_root()
-PATCHER_VERSION = "1.0.4"
+PATCHER_VERSION = "1.0.5"
 
 def open_url(url):
     if sys.platform.startswith("linux"):
@@ -267,6 +267,7 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
         self.synth_level_var = tk.BooleanVar(value=False)
         self.synth_level_value = tk.StringVar(value="10")
         self.synth_polarity_var = tk.BooleanVar(value=False)
+        self.rank_x_to_ss_var = tk.BooleanVar(value=False)
 
         self.randomizer_enabled_var = tk.BooleanVar(value=False)
         self.randomizer_monsters_var = tk.BooleanVar(value=True)
@@ -378,6 +379,12 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             "Remove Synthesis Polarity Requirement",
             self.synth_polarity_var,
             "Vanilla Joker 2 Pro requires monsters be of opposite polarity/gender to be synthesised. This checkbox removes that restriction.",
+        )
+        add_check_with_info(
+            qol,
+            "Change rank X to rank SS",
+            self.rank_x_to_ss_var,
+            "Rank X was changed to rank SS in modern Dragon Quest Monsters releases, this checkbox implements that change",
         )
         add_value_option_with_info(
             qol,
@@ -722,6 +729,8 @@ class App((TkinterDnD.Tk if TKDND_AVAILABLE else tk.Tk)):
             args.extend(["--synthesis-level", self.synth_level_value.get()])
         if self.synth_polarity_var.get():
             args.append("--synthesis-polarity")
+        if self.rank_x_to_ss_var.get():
+            args.append("--rank-x-to-ss")
 
         if self.randomizer_enabled_var.get():
             seed = self.randomizer_seed_value.get().strip() or "0"
