@@ -205,6 +205,7 @@ def build_randomizer_settings_summary(args):
         f"- Scout penalty changes: {'on' if args.scout_penalty else 'off'}",
         f"- Synthesis level changes: {'on' if args.synthesis_level else 'off'}",
         f"- Synthesis polarity changes: {'on' if args.synthesis_polarity else 'off'}",
+        f"- Rank X to SS text: {'on' if args.rank_x_to_ss else 'off'}",
         "",
         "Randomiser settings:",
         f"- Battle monsters: {'on' if args.randomizer_monsters else 'off'}",
@@ -226,6 +227,41 @@ def build_randomizer_settings_summary(args):
 
     return "\n".join(lines)
 
+
+def prepare_rank_x_to_ss_translation(repo: Path, work: Path) -> Path:
+    """Create a temporary Translation tree with rank X UI text changed to SS."""
+    src = repo / "Translation"
+    dst = work / "Translation_rank_x_to_ss"
+
+    if dst.exists():
+        shutil.rmtree(dst)
+    shutil.copytree(src, dst)
+
+    menu = dst / "STRINGS" / "msg_menu.txt"
+    lines = menu.read_text(encoding="utf-8").splitlines()
+
+    changed = False
+
+    # Known rank label block:
+    # F E D C B A S X ?? Any RANK F-D C-A S/X
+    for i in range(0, max(0, len(lines) - 13)):
+        if lines[i:i + 8] == ["F", "E", "D", "C", "B", "A", "S", "X"]:
+            lines[i + 7] = "SS"
+            changed = True
+
+            for j in range(i + 8, min(len(lines), i + 16)):
+                if lines[j] == "S/X":
+                    lines[j] = "S/SS"
+                    changed = True
+            break
+
+    if not changed:
+        raise SystemExit("Could not find rank X text block in Translation/STRINGS/msg_menu.txt")
+
+    menu.write_text("\\n".join(lines) + "\\n", encoding="utf-8")
+    return dst
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description="DQMJ2P GUI patch backend")
     ap.add_argument("--rom", required=True)
@@ -243,6 +279,7 @@ def main(argv=None):
     ap.add_argument("--scout-penalty", action="store_true")
     ap.add_argument("--synthesis-level", type=int, default=None)
     ap.add_argument("--synthesis-polarity", action="store_true")
+    ap.add_argument("--rank-x-to-ss", action="store_true")
 
     ap.add_argument("--randomizer-monsters", action="store_true")
     ap.add_argument("--randomizer-seed", type=int, default=0)
@@ -386,11 +423,16 @@ def main(argv=None):
         tools_repo / "Pro_Tools" / "Pro_ARM9.bin",
     ])
 
+    translation_root = repo / "Translation"
+    if args.rank_x_to_ss:
+        print("Changing rank X text to SS...")
+        translation_root = prepare_rank_x_to_ss_translation(repo, work)
+
     print("Repacking strings...")
-    msgtool.cmd_repack(str(repo / "Translation" / "STRINGS"), str(pro_rom / "data_dir"))
+    msgtool.cmd_repack(str(translation_root / "STRINGS"), str(pro_rom / "data_dir"))
 
     print("Assembling scripts...")
-    storytool.cmd_asm(str(repo / "Translation" / "SCRIPTS"), str(pro_rom / "data_dir"))
+    storytool.cmd_asm(str(translation_root / "SCRIPTS"), str(pro_rom / "data_dir"))
 
     files = find_rom(pro_rom)
 
