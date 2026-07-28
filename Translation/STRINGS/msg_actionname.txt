@@ -1,15 +1,15 @@
-Attack
-Defend
-Psyche Up
+Attack!
+Defend!
+Psyche Up!
 High Tension
 Super High Tension
 Flee
 Do nothing
 
-Giga Slash
-Furious Slash
+Gigacross Break
+Beastmaster Blast
 Flawless Slash
-Universal Slash
+Cosmic Slash
 Aurora Breath
 Cataclysm
 Kazapstrophe
@@ -39,9 +39,9 @@ Zammle
 Kazam
 Kazammle
 Scapegoat Seal
-Smelly Slash
+Guardian Slash
 Showstopper
-Giga Drain Magic
+Giga Magic Drain
 Whack
 Thwack
 Kamikazee
@@ -189,18 +189,18 @@ Counter Martial
 Counter Magic
 Counter Breath
 Counter Dance
-Thordain
-Break Seal
+Giga Magic Burst
+Seal Stopper
 Tension Passer
 Anchor Knuckle
-Partner Waltz
-Fissure Strike
-Ocean Slash
-Quake Strike
-Shining Bow
+Doom Waltz
+Skysplitter
+Seasplitter
+Earthsplitter
+Shining Shot
 Take this!
 Wicked Waltz
-Peep Slash
+Damore Slash
 Still confused!
 Still confused!
 Cowering in fear!
@@ -225,11 +225,11 @@ Showstopper
 Tacticlamp
 Blade Blunter
 Unnatural Order
-Tactics-Sealing Breath
-Slash-Sealing Breath
-Martial-Sealing Breath
+Tacticstopper Breath
+Slashstopper Breath
+Martialstopper Breath
 Sword Dance
-Underworld Fog
+Netherfog
 Sizz
 Sizzle
 Kasizz
