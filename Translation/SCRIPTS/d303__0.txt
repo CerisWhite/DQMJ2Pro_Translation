@@ -421,24 +421,24 @@ STORE 0x18 0x1 0x40000000 0x2 0x41a00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「ここが　アタシたちの　すんでいる場所。{BREAK} ピピッ島とよばれる　島の中にある町なの。"
+SETNAME "Tiko"
+SAY "{VOICE=08}So, this is our home, a town on{BREAK}the center island known as Pipisle."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_28b4
 DATA 0x00000001
 WAIT 0x10 0x2 0x41c80000
 STORE 0x18 0x0 0x0 0x2 0x3f800000
-SETNAME "ティコ"
-SAY "{VOICE=08}「この島は　ふしぎなところでね。{BREAK} ゆめの世界とか　キオクの世界とか……"
+SETNAME "Tiko"
+SAY "{VOICE=08}It's a mysterious place. A world of{BREAK}dreams, a world of memories..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "ティコ"
-SAY "{VOICE=08}「そういう世界へ行く　旅人の{BREAK} 通りみちに　なってるみたいなの。"
+SETNAME "Tiko"
+SAY "{VOICE=08}We've become a passage for travelers{BREAK}going to different worlds."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "ティコ"
-SAY "{VOICE=08}「そのせいか　ボンヤリ　旅している人が{BREAK} たまに　この町へ　まよいこんできちゃうのよ。"
+SETNAME "Tiko"
+SAY "{VOICE=08}Unfortuately, aimless travelers often{BREAK}end up getting lost in our town."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_2988
@@ -467,12 +467,12 @@ STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_4E 0x8 
 STORE 0x18 0x0 0x40000000 0x2 0x3f800000
 WAIT 0x10 0x2 0x41200000
-SETNAME "ティコ"
-SAY "{VOICE=08}「でも　だいじょうぶ。アタシたちには{BREAK} 世界と世界をつなぐ　チカラがあってね……"
+SETNAME "Tiko"
+SAY "{VOICE=08}But it works out. We have the power to{BREAK}connect worlds to each other."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "ティコ"
-SAY "{VOICE=08}「そのチカラを使って　まよいこんできた人を{BREAK} みちびくのが　ピピット族の　やくめなの。"
+SETNAME "Tiko"
+SAY "{VOICE=08}It's the duty of our tribe to use that{BREAK}power to guide the lost."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_2c54
@@ -495,12 +495,12 @@ SYS_14 0x8
 STORE 0x18 0x1 0x0 0x2 0x44044000
 SYS_33 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "ティコ"
-SAY "{VOICE=08}「……でも　アタシたちの　そのチカラが{BREAK} いまは　失われつつあるわ。"
+SETNAME "Tiko"
+SAY "{VOICE=08}...but now we are losing that power..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "ティコ"
-SAY "{VOICE=08}「町が　こわされてるのを　みたでしょ?{BREAK} ピピッ島は　空前の大ピンチを　むかえてるの。"
+SETNAME "Tiko"
+SAY "{VOICE=08}You can see our town is in shambles.{BREAK}Pipisle is facing an unprecedented crisis."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x40800000
@@ -529,12 +529,12 @@ SYS_16 0x8
 STORE 0x18 0x1 0x0 0x2 0x42240000
 STORE 0x18 0x1 0x3f800000 0x2 0x40e00000
 SYS_17 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「……で!　そのピンチを　すくうのが{BREAK} {NAME}ってワケよ!"
+SETNAME "Tiko"
+SAY "{VOICE=08}And so, it's your job {NAME},{BREAK}to save us from this crisis!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "ティコ"
-SAY "{VOICE=08}「どうして　あなたが　選ばれたか……。{BREAK} くわしい話は　長老さまに　きいてちょうだい。"
+SETNAME "Tiko"
+SAY "{VOICE=08}As for your task, you can speak to{BREAK}the elder for details on that."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x42480000
@@ -548,12 +548,12 @@ STORE 0x18 0x1 0x0 0x2 0x424c0000
 STORE 0x18 0x1 0x3f800000 0x2 0x43160000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "ティコ"
-SAY "{VOICE=08}「長老さまは　むこうにみえる{BREAK} めだった　トビラの中にいるわ。"
+SETNAME "Tiko"
+SAY "{VOICE=08}The elder is through that door that stands{BREAK}over yonder."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "ティコ"
-SAY "{VOICE=08}「アタシは　さきに行って　まってるわよ。{BREAK} それじゃあ　よろしくね!"
+SETNAME "Tiko"
+SAY "{VOICE=08}I'll head there now and wait for you.{BREAK}Well then, it's nice to have met you!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

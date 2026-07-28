@@ -5175,7 +5175,7 @@ STORE 0x18 0x0 0x42d20000 0x1 0x0
 CMP_EQ 0x18 0x0 0x42d20000 0x2 0x0
 JMP_IFNOT 0xc L_14524
 SYS_42 0x8 
-SAY "{VOICE=07}Who'd have thought the True Monster Scout Challenge was hosted by MOLES6?"
+SAY "{VOICE=07}Who'd have thought the True Monster Scout Challenge was hosted by MOLES?"
 STORE 0x18 0x1 0x0 0x2 0x3f800000
 SYS_44 0x8 
 SAY "{VOICE=07}I mean, it's such a completely wacky idea. Who in the world came up with it?"

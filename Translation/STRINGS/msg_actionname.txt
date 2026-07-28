@@ -7,12 +7,12 @@ Flee
 Do nothing
 
 Gigacross Break
-Beast King Strike
+Beastmaster Blast
 Flawless Slash
-All-Creation Slash
+Cosmic Slash
 Aurora Breath
 Cataclysm
-Kazapple
+Kazapstrophe
 Dimensional Rift
 Frizz
 Frizzle
@@ -38,10 +38,10 @@ Zam
 Zammle
 Kazam
 Kazammle
-Kamikaze Seal
-Titan Slash
-Zero Impact
-Giga Drain Magic
+Scapegoat Seal
+Guardian Slash
+Showstopper
+Giga Magic Drain
 Whack
 Thwack
 Kamikazee
@@ -184,30 +184,30 @@ Amor Seco Rain
 Critical Miss
 Reheal
 Mercurial Thrust
-Predict Slash
-Predict Martial
-Predict Spell
-Predict Breath
-Predict Dance
-Party Magic Burst
-Break Seal
-Tension Passer
+Counter Slash
+Counter Martial
+Counter Magic
+Counter Breath
+Counter Dance
+Giga Magic Burst
+Sealstopper
+Pass Tension
 Anchor Knuckle
-Waltz of Doom
-Earth Slash
-Wave Slash
-Air Slash
+Doom Waltz
+Skysplitter
+Seasplitter
+Earthsplitter
 Shining Shot
 Take this!
 Wicked Waltz
-Charming Slash
+Damore Slash
 Still confused!
 Still confused!
 Cowering in fear!
 Assessing the situation.
 Staring blankly.
 Has no idea what to do!
-Concentrate
+Focus Pocus
 GLOBLITERATE ALL INTRUDERS!
 The rockbomb's acting a bit oddly!
 Kadonk!
@@ -225,11 +225,11 @@ Showstopper
 Tacticlamp
 Blade Blunter
 Unnatural Order
-Tactics-Sealing Breath
-Slash-Sealing Breath
-Martial-Sealing Breath
+Tacticstopper Breath
+Slashstopper Breath
+Martialstopper Breath
 Sword Dance
-Underworld Fog
+Netherfog
 Sizz
 Sizzle
 Kasizz

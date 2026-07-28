@@ -59,20 +59,20 @@ WAIT 0x10 0x2 0x42a00000
 STORE 0x18 0x0 0x0 0x2 0x3f800000
 WAIT 0x10 0x2 0x41f00000
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「ふふふ。おどろいた?"
+SETNAME "Tiko"
+SAY "{VOICE=08}Tee-hee-hee. Surprised?{BREAK}It's beautiful, right?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "ティコ"
-SAY "{VOICE=08}「ピピッ島は　みての通り　空にうかぶ島が{BREAK} いくつも　あつまってできた　場所よ。"
+SETNAME "Tiko"
+SAY "{VOICE=08}Pipisle is an island that floats in{BREAK}the sky - a place where many gather."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "ティコ"
-SAY "{VOICE=08}「まねかれざる客のいる聖地は　その中心にあって{BREAK} まわりの　うき島は　その通り道になってるの。"
+SETNAME "Tiko"
+SAY "{VOICE=08}The path to the uninvited guest runs{BREAK}across the surrounding floating islands."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "ティコ"
-SAY "{VOICE=08}「だから　うき島を　わたりあるきながら{BREAK} 上をめざせば　かならず　聖地にたどりつくわ。"
+SETNAME "Tiko"
+SAY "{VOICE=08}And so as we cross them, we climb higher{BREAK}and higher, until we reach the holy land."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41400000
@@ -108,16 +108,16 @@ STORE 0x18 0x1 0x0 0x0 0x40400000
 STORE 0x18 0x1 0x3f800000 0x2 0x3f800000
 SYS_4E 0x8 
 WAIT 0x10 0x2 0x41a00000
-SETNAME "ティコ"
-SAY "{VOICE=08}「まず　この　つうろを道なりに　すすんでみて。{BREAK} 上の島に行くためのツタが　あるからね。"
+SETNAME "Tiko"
+SAY "{VOICE=08}First, we keep moving this way.{BREAK}Then we can climb higher using the ivy."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "ティコ"
-SAY "{VOICE=08}「さあ　行きましょう　{NAME}!{BREAK} アタシは　あなたのあとに　ついていくわ。"
+SETNAME "Tiko"
+SAY "{VOICE=08}Okay, let's go, {NAME}!{BREAK}I'll follow after you."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "ティコ"
-SAY "{VOICE=08}「仲間が　キズついたときは　町にもどるのよ。{BREAK} そうすれば　すぐに回復できるからね。"
+SETNAME "Tiko"
+SAY "{VOICE=08}Return to town when your team are hurt.{BREAK}When you do, we will heal them."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

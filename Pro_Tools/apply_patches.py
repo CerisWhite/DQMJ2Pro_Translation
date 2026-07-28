@@ -32,7 +32,20 @@ def _blz_run(args_extra: list, data: bytes) -> bytes:
     with tempfile.NamedTemporaryFile(suffix='.bin', delete=False) as tf:
         tf.write(data); tmp = tf.name
     try:
-        r = subprocess.run([BLZ] + args_extra + [tmp], capture_output=True)
+        creationflags = 0
+        startupinfo = None
+
+        if sys.platform.startswith("win"):
+            creationflags = getattr(subprocess, "CREATE_NO_WINDOW", 0)
+            startupinfo = subprocess.STARTUPINFO()
+            startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+
+        r = subprocess.run(
+            [BLZ] + args_extra + [tmp],
+            capture_output=True,
+            creationflags=creationflags,
+            startupinfo=startupinfo,
+        )
         if r.returncode not in (0, 1):
             sys.exit(f'blz {args_extra} failed:\n{r.stderr.decode()}')
         return Path(tmp).read_bytes()
@@ -98,17 +111,10 @@ def apply_grow_msg_pool(dec: bytearray, pool_size: int):
 
 
 def apply_grow_actionhelp(dec: bytearray):
-    bl_new = _bl_encode(0x02202b68, 0x0205d9e8)
-    for off, new in [
-        (0x2B908, 0xE59F202C), (0x2B90C, 0xE59F3024),
-        (0x2B910, 0xE28D100C), (0x2B914, 0xE3A00001),
-        (0x2B918, 0xE3A0C002), (0x2B91C, 0xE58DC000),
-        (0x2B920, 0xE1A00000), (0x2B924, 0xE1A00000),
-        (0x2B928, bl_new),     (0x2B93C, 0x020DB220),
-    ]:
-        cur = struct.unpack_from('<I', dec, off)[0]
-        struct.pack_into('<I', dec, off, new)
-        print(f'  grow_actionhelp: dec+0x{off:x}: 0x{cur:08x} → 0x{new:08x}')
+    # No binary patch needed if msg_actionhelp fits the original 0x3000 buffer.
+    # Direct-calling 0x0205d9e8 corrupts battle monster/action state.
+    print("  grow_actionhelp: using original 0x3000 actionhelp buffer")
+
 
 
 def apply_xp_mult(dec: bytearray, mult: float):

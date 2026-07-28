@@ -183,7 +183,7 @@ Sea Dog
 Damned Ram
 Bewarewolf
 Mortoad
-Tigertaur
+Trigertaur
 Half Hog
 Tantamount
 Squign
@@ -212,7 +212,7 @@ Boe
 King Kelp
 Mimic
 Diemon
-Uberkilling Machine
+Überkilling Machine
 Gold Golem
 Living Statue
 Trap Box
@@ -346,8 +346,8 @@ Wildcard
 
 Darck
 Magarugi
-Baboon Beast
-Evil Beast
+Baboorood
+Baboodread
 Zoma's Devil
 Gadis
 Stormsgate Citadel
@@ -367,7 +367,7 @@ Swarmtroop
 Wormonger
 Killerpillar
 Missing Lynx
-Rottney
+Scruffy
 Hyper Heyedra
 Bad Egg
 Heyedra
@@ -479,8 +479,8 @@ Nemeslime
 Estark
 Dimensional Dragon
 Stella
-Baboon Beast
-Evil Beast
+Baboorood
+Baboodread
 Don Mole
 Canzar
 Harmour

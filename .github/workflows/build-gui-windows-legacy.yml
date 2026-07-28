@@ -1,0 +1,169 @@
+name: Build GUI Windows Legacy
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "Release tag to upload to, e.g. gui-v1.0.3"
+        required: true
+        default: "gui-v1.0.3"
+
+jobs:
+  windows-legacy:
+    name: Windows 7/8/8.1 Legacy exe
+    runs-on: windows-2022
+
+    steps:
+      - name: Checkout selected tag/ref
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.release_tag }}
+
+      - name: Read patcher version
+        id: version
+        shell: bash
+        run: |
+          VERSION=$(python -c 'import re; from pathlib import Path; s=Path("Database/GUI_Patcher/GUI/patcher_gui.py").read_text(); print("v"+re.search(r"PATCHER_VERSION = \"([^\"]+)\"", s).group(1))')
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Python 3.8 for legacy Windows
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.8"
+
+      - name: Install legacy PyInstaller
+        run: |
+          python -m pip install --upgrade "pip<25"
+          python -m pip install pyinstaller==4.10 tkinterdnd2 pillow
+
+      - name: Patch Python 3.8 annotations in build workspace only
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          roots = [
+              Path("Database/GUI_Patcher/GUI"),
+              Path("Pro_Tools"),
+          ]
+
+          modern_annotation_re = re.compile(
+              r'\b(?:list|dict|tuple|set|type)\s*\[|'
+              r'(?:str|bytes|int|float|bool|Path|list|dict|tuple|set|type)\s*\|\s*(?:None|str|bytes|int|float|bool|Path|list|dict|tuple|set|type)'
+          )
+
+          def has_module_docstring(lines, index):
+              if index >= len(lines):
+                  return False
+              stripped = lines[index].lstrip()
+              return stripped.startswith('"""') or stripped.startswith("'''")
+
+          def skip_module_docstring(lines, index):
+              quote = lines[index].lstrip()[:3]
+              index += 1
+              while index < len(lines):
+                  if quote in lines[index]:
+                      return index + 1
+                  index += 1
+              return index
+
+          def insert_future_annotations(path):
+              s = path.read_text(encoding="utf-8")
+              if "from __future__ import annotations" in s:
+                  return
+              if not modern_annotation_re.search(s):
+                  return
+
+              lines = s.splitlines()
+              insert_at = 0
+
+              if lines and lines[0].startswith("#!"):
+                  insert_at = 1
+
+              while insert_at < len(lines) and (
+                  lines[insert_at].strip() == "" or
+                  lines[insert_at].lstrip().startswith("#")
+              ):
+                  insert_at += 1
+
+              if has_module_docstring(lines, insert_at):
+                  insert_at = skip_module_docstring(lines, insert_at)
+
+              lines.insert(insert_at, "from __future__ import annotations")
+              path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+              print("patched for legacy build:", path)
+
+          for root in roots:
+              for path in root.rglob("*.py"):
+                  insert_future_annotations(path)
+          PY
+
+      - name: Set up MSYS2 for legacy ndstool
+        uses: msys2/setup-msys2@v2
+        with:
+          msystem: MINGW64
+          update: true
+
+      - name: Build legacy ndstool v2.2.0
+        shell: msys2 {0}
+        run: |
+          set -e
+          pacman -S --noconfirm --needed git make mingw-w64-x86_64-gcc automake autoconf libtool pkg-config
+          rm -rf /tmp/ndstool-legacy
+          git clone https://github.com/devkitPro/ndstool.git /tmp/ndstool-legacy
+          cd /tmp/ndstool-legacy
+          git checkout v2.2.0
+          ./autogen.sh
+          CFLAGS="-O2" CXXFLAGS="-O2" LDFLAGS="-static -static-libgcc -static-libstdc++" ./configure --host=x86_64-w64-mingw32 --build=x86_64-pc-msys
+          make -j2
+          mkdir -p "$GITHUB_WORKSPACE/Database/GUI_Patcher/GUI/bundled/tools/windows"
+          cp ndstool.exe "$GITHUB_WORKSPACE/Database/GUI_Patcher/GUI/bundled/tools/windows/ndstool.exe"
+
+          # Fallback DLLs in case any MinGW runtime linkage remains.
+          cp /mingw64/bin/libgcc_s_seh-1.dll "$GITHUB_WORKSPACE/Database/GUI_Patcher/GUI/bundled/tools/windows/" 2>/dev/null || true
+          cp /mingw64/bin/libstdc++-6.dll "$GITHUB_WORKSPACE/Database/GUI_Patcher/GUI/bundled/tools/windows/" 2>/dev/null || true
+          cp /mingw64/bin/libwinpthread-1.dll "$GITHUB_WORKSPACE/Database/GUI_Patcher/GUI/bundled/tools/windows/" 2>/dev/null || true
+          cp /mingw64/bin/zlib1.dll "$GITHUB_WORKSPACE/Database/GUI_Patcher/GUI/bundled/tools/windows/" 2>/dev/null || true
+
+      - name: Prepare bundled tools
+        shell: pwsh
+        run: |
+          Copy-Item Pro_Tools/blz_win.exe Pro_Tools/blz.exe
+          New-Item -ItemType Directory -Force Database/GUI_Patcher/GUI/bundled/tools/windows
+          Copy-Item Database/windows_dlls/*.dll Database/GUI_Patcher/GUI/bundled/tools/windows/ -ErrorAction SilentlyContinue
+
+      - name: Prepare bundle
+        run: python Database/GUI_Patcher/GUI/make_bundle.py
+
+      - name: Build Windows Legacy exe
+        run: |
+          python -m PyInstaller `
+            --noconfirm `
+            --onefile `
+            --windowed `
+            --name DQMJ2Patcher-Windows-Legacy `
+            --hidden-import tkinterdnd2 `
+            --hidden-import json `
+            --hidden-import csv `
+            --hidden-import struct `
+            --hidden-import randomizer.pro_randomizer `
+            --add-data "Database/GUI_Patcher/GUI/bundled;bundled" `
+            --add-data "Database/GUI_Patcher/GUI/splash;splash" `
+            --add-data "Database/GUI_Patcher/GUI/randomizer;randomizer" `
+            Database/GUI_Patcher/GUI/patcher_gui.py
+
+      - name: Rename Windows Legacy release asset
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force release-assets
+          Copy-Item dist/DQMJ2Patcher-Windows-Legacy.exe "release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-windows-legacy.exe"
+
+      - name: Upload Windows Legacy exe to release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.inputs.release_tag }}
+          files: release-assets/DQMJ2PPatcher-${{ steps.version.outputs.version }}-x86_64-windows-legacy.exe

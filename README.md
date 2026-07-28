@@ -1,3 +1,72 @@
+## [V1.0.0 Release Announcement](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/v1.0_announcement_post.md) & [F.A.Q](Guide/faq.md)
+
+This fork of Ceris White's Joker 2 Professional repository includes a post-game translation by Gerb.
+
+<img src="./Database/credits.png" width="700">
+
+[Patcher Program](https://github.com/saneezore07/dqmj2pro_translation/releases) with friendly user interface for patching your legally obtained rom. Select your rom, check which patch options you want, then run the program.<br>
+<img src="./Database/GUI_Patcher/gui.png" width="300">
+
+Database of Monster [Synthesis](https://saneezore07.github.io/DQMJ2Pro_Translation/Database/synthesis_database.html) Recipes.<br>
+(New custom Synthesis Recipes are at the bottom of the list)<br>
+Database of Monster [Stats and Traits](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/monster_database.csv).<br>
+Database of Monster [Resistances](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/monster_resistance_database.csv).
+
+### Features
+- In-game menus, story dialogue, and post-game dialogue have been translated/localised from its original Japanese to English.
+- New synthesis recipes have been added to the game for monsters that exist in the game files, but were either wi-fi exclusive monsters or otherwise not obtainable in gameplay.
+- A user interface program has been created for a seamless patching process.
+- Anti-Piracy patching has been implemented in the patch, allowing users to play on original hardware.
+- Optional QOL and gameplay changes have be provided.
+- Game databases have been provided for synthesis, traits, skills and resistances.
+- Game randomiser, with rank/family/size filtering, XP randomisation, and challenge options.
+
+### Known Issues
+- Some in-game graphics with Japanese text remain. Unlike plain text, which is trivial to replace with English, graphics are a far more a complex asset which we do not have a solution to currently.
+- The randomiser is naturally going to introduce game instability.
+- For example, what was previously fighting three slimes for a total of three enemy slots may become three of a 3-slot monster for a total of nine enemy monster slots. This will probably crash the game. For a more stable randomiser run, consider filtering out 3-slot monsters when you configure your randomiser. Or simply flee if it is an optional battle.
+- With `Randomise synthesis recipes`, ??? family results are sometimes not able to be synthesised, and will sometimes crash the game when viewed. If you see synthesis results with no name displayed, avoid selecting or viewing that option to avoid crashing.
+- When naming a scouted monster, if the monsters original name is longer than 13 characters (e.g. Liquid Metal King Slime = 23 characters), the bottom screen's keyboard will get a visual bug when you attempt to revert the nickname to the default. Since this is just a visual bug, you are able to continue naming your mon without issue.
+- Stock R4 firmware may or may not play well with the patch, depending on your particular card. [Read this](Guide/playing_on_r4.md) for how to update your R4 to be compatible.
+
+### Credits
+**Technical Development:**
+- Ceris White: Creation of the python toolkit used for ROM modification and English text injection.
+- Saneezore: Creation of the Patcher graphic user interface.
+- Mow: Implementation of the overlay 4 anti-piracy patch.
+- WireOn: Whose work on their [DQMJ2 randomiser](https://github.com/Wire0n-misc/dqmj2-randomizer) was adapted for this project.<br>
+
+**Translation and Localisation:**
+- Ceris White, Ilario, Reflex: Importing of existing English text and translation of game menus.
+- Gerb: Post-game translation and localisation.
+- GemSlimee: Proofreading and editing.<br>
+
+**New Synthesis Recipes:**
+- Darko, Hoodiniebobeenie, Anthcny: Creation of new recipes and game balancing.<br>
+
+**Playtesting:**
+- Ilario, Reflex, Gerb, Darko, GemSlimee, Hoodinibobeenie, Mad Raigo, Matthew McConville, Nurfed, Chris, diortememirp, Nightaura, Sloppydeck, Anti-Tank Guided Missile, Ghostface, Blark<br>
+
+**The [Dragon Quest Translations](https://discord.gg/aX6Ac8cC84) discord server:**
+- For hosting collaboration efforts.
+
+
+<details>
+<summary>Manually Patching the Translation</summary>
+
+[Manual Guide](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/step-by-step.md) to patch your legally obtained rom. [Linux](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/linux_guide.md).<br>
+Note: The windows guide tells the patcher to independently source `ndstool.exe`. Since `ndstool` is a [GPL3](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/ndstool_license_COPYING.gpl3)+[MIT](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Database/ndstool_license_COPYING.mit) project, a compiled windows binary has been provided in this repository, dated to March 2026. <br>
+Before patching: [New synthesis recipes](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/adding_new_synths.md) has been added to the game for monsters that exist in the game files, but were either wi-fi exclusive monsters or otherwise not obtainable in gameplay.
+
+Eugene Pool \(the old man on the airship\) missing is an anti-piracy measure \(among others\) by the developers.<br>
+This can be circumvented by [pre-applying an anti-piracy \(AP\) patch](https://github.com/saneezore07/DQMJ2Pro_Translation/blob/master/Guide/ap_patching.md) before applying the translation patch.<br>
+This happens on hardware \(DS, 3DS\), but not emulation \(desume, melonDS\).
+
+</details>
+
+<details>
+<summary>Ceris White's Technical Tools</summary>
+
 You will need the J2P ROM, BLZ, ndstool (<https://github.com/devkitpro/ndstool>), and python. A compiled build of BLZ is provided for Windows as blz_win.exe; The scripts expect it to be named blz.exe when used.
 You will have to find a compiled ndstool or build it yourself.
 The ndstool command I usually use comes out to this (inside of a `Pro_ROM` folder):
@@ -15,3 +84,5 @@ Extract the strings and scripts, edit them, rebuild them to OUTPUT, copy the con
 Newly added:
 - apply_patches.py: Provides an interface for applying patches to the ROM directory, including the above and some other optional patches.
 - performpatch.py: Automatically applies the necessary patches + swaps the gender icons for polarity icons, then builds the translated files for you. For people who only want to play the translated game.
+
+</details>

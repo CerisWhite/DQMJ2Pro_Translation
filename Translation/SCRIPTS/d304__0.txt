@@ -193,19 +193,19 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SAY "{VOICE=08}「ちょっ!　ティコが　つれてきたのって{BREAK} この　おチビさんのこと!?"
+SAY "{VOICE=08}Gah! Is that the pipsqueak you{BREAK}were on about, Tiko!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_3fa8
 DATA 0x00000005
-SAY "{VOICE=08}「うっそ　マジ?　人間じゃん!{BREAK} キャハハ!　この勝負　ククリの勝ちね!"
+SAY "{VOICE=08}Wait, SERIOUSLY? They're human!{BREAK}Kya-ha-ha! I've won this match!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「これこれ　ククリ。{BREAK} 勝手に　話を　すすめるでない。"
+SETNAME "Elder"
+SAY "{VOICE=03}Now, now, Kukri.{BREAK}Let's not get ahead of ourselves..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41a80000
@@ -215,12 +215,12 @@ STORE 0x18 0x1 0x0 0x2 0x41a80000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x42700000
-SETNAME "長老"
-SAY "{VOICE=03}「{NAME}どのですな。{BREAK} 話は　ティコから　ききました。"
+SETNAME "Elder"
+SAY "{VOICE=03}You are {NAME}, no?{BREAK}I heard your story from Tiko."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "長老"
-SAY "{VOICE=03}「このたびは　われら　ピピット族のために{BREAK} たちあがってくれたこと　かんしゃしますぞ。"
+SETNAME "Elder"
+SAY "{VOICE=03}I am grateful that you have risen{BREAK}to our, the Pipit tribe's, aid."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x2 0x41b00000
@@ -229,8 +229,8 @@ SYS_16 0x8
 STORE 0x18 0x1 0x0 0x2 0x41b00000
 STORE 0x18 0x1 0x3f800000 0x2 0x42700000
 SYS_17 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「それでは　このピピッ島で　なにがおきたか……{BREAK} なぜ　あなたが　よばれたか　説明しましょう。"
+SETNAME "Elder"
+SAY "{VOICE=03}I guess you're wondering what happened{BREAK}here? Why you were chosen? I'll explain."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41500000
@@ -247,28 +247,28 @@ STORE 0x18 0x1 0x0 0x2 0x41f80000
 STORE 0x18 0x1 0x3f800000 0x2 0x446d8000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "長老"
-SAY "{VOICE=03}「いまから　すこし前　この島に　とつじょ{BREAK} 巨大なサルのバケモノが　あらわれました。"
+SETNAME "Elder"
+SAY "{VOICE=03}A little while ago, a giant monkey{BREAK}monster suddenly appeared on our island."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "長老"
-SAY "{VOICE=03}「島をおびやかす　そのバケモノを　われわれは{BREAK} まねかれざる客……　と　よんでいます。"
+SETNAME "Elder"
+SAY "{VOICE=03}That monster threatened our peace,{BREAK}so we call them 'the uninvited guest'."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "長老"
-SAY "{VOICE=03}「まねかれざる客は　この地におりたつと　すぐに{BREAK} 巨体をゆらして　島の中心に　むかいました。"
+SETNAME "Elder"
+SAY "{VOICE=03}Soon after he landed, he tore out of {BREAK}here, and went to the islands center."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "長老"
-SAY "{VOICE=03}「この島の中心には　われらの王がすまう{BREAK} 聖地　ブランパレスが　ございます。"
+SETNAME "Elder"
+SAY "{VOICE=03}Our king lives there, It's our{BREAK}holy land, known as 'Blanc Palace'."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "長老"
-SAY "{VOICE=03}「われらのチカラが　失われつつあるのは{BREAK} おそらく……"
+SETNAME "Elder"
+SAY "{VOICE=03}...it's likely our power will soon fade out..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "長老"
-SAY "{VOICE=03}「まねかれざる客が　聖地に　わざわいを{BREAK} もたらしているからに　ちがいないでしょう。"
+SETNAME "Elder"
+SAY "{VOICE=03}No doubt caused by that creature{BREAK}wrecking havoc in our holy land..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -288,12 +288,12 @@ STORE 0x18 0x1 0x0 0x0 0x40400000
 STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "ククリ"
-SAY "{VOICE=08}「このまま　聖地が　けがされれば　ピピット族の{BREAK} 世界をつなぐ　チカラは　なくなって……"
+SETNAME "Kukri"
+SAY "{VOICE=08}If more devastation occurs, we'll{BREAK}lose our power to connect worlds."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "ククリ"
-SAY "{VOICE=08}「最後の最後には　この島に　いる人たち{BREAK} み～んな　きえちゃうのよ!"
+SETNAME "Kukri"
+SAY "{VOICE=08}And finally, the folks on this island{BREAK}will ALL disappear!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -316,12 +316,12 @@ STORE 0x18 0x1 0x0 0x0 0x41600000
 STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「そこで　われわれは　世界と世界をつなぐ{BREAK} このチカラが　失われてしまう前に……"
+SETNAME "Elder"
+SAY "{VOICE=03}And so, before we lose the power{BREAK}to connect worlds to each other,"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "長老"
-SAY "{VOICE=03}「あらゆる世界から　手をかしてくれる戦士を{BREAK} スカウトしてくる作戦を　たてたのです!"
+SETNAME "Elder"
+SAY "{VOICE=03}...our strategy was to scout warriors from{BREAK}other worlds who would lend us aid!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41500000
@@ -341,8 +341,8 @@ STORE 0x18 0x1 0x0 0x2 0x42b60000
 STORE 0x18 0x1 0x3f800000 0x2 0x40e00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "長老"
-SAY "{VOICE=03}「そう!　あなたは　その戦士のひとりとして{BREAK} スカウトされたというワケなのですじゃ!"
+SETNAME "Elder"
+SAY "{VOICE=03}Thus, you have been scouted to{BREAK}serve as one of those warriors!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41600000
@@ -359,16 +359,16 @@ SYS_13 0x8
 STORE 0x18 0x1 0x0 0x2 0x42200000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "長老"
-SAY "{VOICE=03}「……ちなみに　スカウトマンに　選ばれたのは{BREAK} ここにいる　ティコと　ククリ。"
+SETNAME "Elder"
+SAY "{VOICE=03}By the way, our scouters are these{BREAK}two here, Tiko and Kukri."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "長老"
-SAY "{VOICE=03}「ふたりには　ちょっとした勝負を{BREAK} やってもらっていましてな……。"
+SETNAME "Elder"
+SAY "{VOICE=03}They are having a little match{BREAK}between themselves..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "長老"
-SAY "{VOICE=03}「自分のつれてきた戦士が　みごと{BREAK} まねかれざる客を　たおしたら……"
+SETNAME "Elder"
+SAY "{VOICE=03}If the one to defeat the uninvited{BREAK}guest is the warrior they scouted,"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41600000
@@ -385,8 +385,8 @@ WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41600000
 STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「その者に　つぎの長老を　まかせようと{BREAK} やくそくしておるのですじゃ!"
+SETNAME "ELder"
+SAY "{VOICE=03}Then I vowed that the victor would{BREAK}become the next elder!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -415,8 +415,8 @@ STORE 0x18 0x1 0x0 0x2 0x42480000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「さあ　ククリ。お前も　つれてきた戦士を{BREAK} ワシらに　しょうかいしなさい。"
+SETNAME "Elder"
+SAY "{VOICE=03}Now, Kukri. Please introduce me to{BREAK}the warrior you've brought here."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -428,8 +428,8 @@ STORE 0x18 0x1 0x3f800000 0x2 0x42200000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x42200000
 SYS_42 0x8 
-SETNAME "ククリ"
-SAY "{VOICE=08}「ウフフ。それは　いいけど……。{BREAK} ティコ　ヘコんで　ブルーにならないでね。"
+SETNAME "Kukri"
+SAY "{VOICE=08}Tee-hee. That's fine.{BREAK}But don't get too depressed, Tiko."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 SPAWN 0x10 L_3ccc
@@ -457,8 +457,8 @@ WAIT 0x10 0x2 0x41880000
 STORE 0x18 0x1 0x0 0x0 0x40400000
 STORE 0x18 0x1 0x3f800000 0x2 0x43410000
 SYS_18 0x8 
-SETNAME "ククリ"
-SAY "{VOICE=08}「さあ　入っていらして!{BREAK} 地上最強の剣士　レオソードさまっ!"
+SETNAME "Kukri"
+SAY "{VOICE=08}Okay, you may enter!{BREAK}Strongest swordsman in the land, Leokid!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -589,8 +589,8 @@ STORE 0x18 0x1 0x0 0x0 0x41600000
 STORE 0x18 0x1 0x3f800000 0x2 0x434a0000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「おお……　これは　強そうじゃ……!{BREAK} でかしたぞ!　ククリー!"
+SETNAME "Elder"
+SAY "{VOICE=03}Oh my, he does look strong!{BREAK}Well done, Kukri!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -614,8 +614,8 @@ STORE 0x18 0x1 0x0 0x2 0x427c0000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「ふうん。お前が　もうひとりの戦士か。{BREAK} なにか　オレに言いたそうだな?"
+SETNAME "Leokid"
+SAY "{VOICE=07}Hmph. So you're the other one?{BREAK}You got somethin' to say to me?"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -658,16 +658,16 @@ STORE 0x18 0x1 0x0 0x0 0x40e00000
 STORE 0x18 0x1 0x3f800000 0x2 0x437a0000
 SYS_18 0x8 
 SYS_42 0x8 
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「……なに?　オレに　にたヤツを知っている?{BREAK} しかも　もっと　大人のオレをだと!?"
+SETNAME "Leokid"
+SAY "{VOICE=07}What? You know someone who looks like{BREAK}me, but they're an ADULT me!?"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「あーっはっは!　なに言ってやがる!{BREAK} オレは　ヨタ話をききに　きたんじゃねえぞ!"
+SETNAME "Leokid"
+SAY "{VOICE=07}A-ha-ha! What're you sayin'!?{BREAK}You're tryin' to pull one over on me!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「オレは　つええヤツがいるっていうから{BREAK} ウデ試しに　きてやったんだ。"
+SETNAME "Leokid"
+SAY "{VOICE=07}I came here to test my blade as I{BREAK}was told some strong foes were here..."
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
 STORE 0x18 0x1 0x0 0x0 0x41500000
@@ -688,8 +688,8 @@ STORE 0x18 0x1 0x0 0x2 0x428e0000
 STORE 0x18 0x1 0x3f800000 0x2 0x40e00000
 SYS_17 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "少年レオソード"
-SAY "{VOICE=07}「おいっ!　あいさつなんか　もう　いいだろ?{BREAK} はやく　そいつんとこまで　つれてってくれよ。"
+SETNAME "Leokid"
+SAY "{VOICE=07}So are we done with the pleasantries?{BREAK}Now hurry up an' take me to that guy!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -735,8 +735,8 @@ STORE 0x18 0x1 0x0 0x2 0x41a00000
 SYS_14 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "ククリ"
-SAY "{VOICE=08}「あっ!　レオソードさま{BREAK} おまちになって～っ!"
+SETNAME "Kukri"
+SAY "{VOICE=08}Ahh he's amazing!{BREAK}Please wait up, Leokid!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -787,8 +787,8 @@ STORE 0x18 0x1 0x40000000 0x2 0x41f00000
 SYS_02 0x8 
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
-SETNAME "長老"
-SAY "{VOICE=03}「ククリのヤツ　やるのう。{BREAK} こりゃ　マジに　勝負あったかもしれんな。"
+SETNAME "Elder"
+SAY "{VOICE=03}Kukri's done a mighty fine job.{BREAK}They might even take this match..."
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
@@ -797,16 +797,16 @@ STORE 0x18 0x1 0x3f800000 0x2 0x43470000
 SYS_18 0x8 
 WAIT 0x10 0x2 0x41200000
 SYS_42 0x8 
-SETNAME "ティコ"
-SAY "{VOICE=08}「なによ!　長老さままで　バカにして!{BREAK} {NAME}だって　やってくれるわよ!"
+SETNAME "Tiko"
+SAY "{VOICE=08}WHAT! Don't be silly, elder!{BREAK}I'm sure {NAME} will win!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "ティコ"
-SAY "{VOICE=08}「行きましょう　{NAME}!{BREAK} めざすは　まねかれざる客のいる　聖地よ!"
+SETNAME "Tiko"
+SAY "{VOICE=08}Let's go, {NAME}! Our destination is{BREAK}the holy land, and the uninvited guest!"
 SYS_44 0x8 
 WAIT 0x10 0x2 0x41200000
-SETNAME "ティコ"
-SAY "{VOICE=08}「聖地への行き方は　町を出てから　おしえるわ!{BREAK} ククリたちなんかに　負けるものですか!"
+SETNAME "Tiko"
+SAY "{VOICE=08}I'll tell you how when we leave{BREAK}town! I'm not gonna lose to Kukri!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000

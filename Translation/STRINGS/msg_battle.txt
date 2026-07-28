@@ -1,28 +1,28 @@
 
 
-{321}{30f}'s team flees!
-{321}{30f}'s team is wiped out!
+{30f} managed to escape!
+You were defeated...
 
-But the enemy blocks the team's path!
-The enemy is taken by surprise!
-The enemy launches a surprise attack!
+But you were surrounded!
+You surprised the enemy!
+Preemptive strike!
 This looks like a good time to scout!
 {321}{328}
 And the result is...
 {321}{30f}'s team wins!
 {321}{30f}'s team loses!
 It's a draw!
-The opponent forfeits the battle!
-{321}{30f} forfeits the battle!
+The opponent forfeits!
+{321}{30f}'s team forfeits!
 Both teams forfeit, so it's a draw!
-But substitute support arrives!
+The Standby Team is here to help!
 The missing lynx wanders off.
-Can't cast spells!
-A giant monster is nearby...
+But they can't cast spells!
+A gigantic monster is nearby.
 The enemy flees!
-{322} gold coins drop to the ground...
+{30f} dropped {322}G!
 A gigantic monster attacks!
-The gigantic monster wanders off.
+The gigantic monster wandered off.
 The enemy is flustered!
 Everybody gets psyched up!
 The enemy is annihilated!
@@ -30,39 +30,39 @@ The gigantic monster attacks!
 Everybody cowers in fear!
 Everybody is confused!
 {321}{30f}'s team prays...
-An enemy joins {30f}'s team!
-The gigantic monster wanders off.
+An enemy joined {30f}'s team!
+But the gigantic monster wanders off.
 {321}{30b}{00} has disappeared.
 The gigantic monster closes in!
 Insufficient MP!
-Banned from dancing!
-Mouth is shut tight!
+But the dance is sealed!
+But their mouth is shut!
 Abiliterated!
 Blade is blunted!
 Steals {328}!
-Steals {322} gold coins!
+Steals {322}G!
 But nothing happens!
 Attack
 Defence
 Agility
 Wisdom
-Fired up!
-Fired up!
-Fired up!
-Fired up!
-Fired up!
-Fired up!
-Fired up!
-Fired up!
+The {322} bubbles furiously!
+The {322} roars fiercely!
+The {322} gets aggravated!
+The {322} flails angrily!
+The {322} starts slamming around!
+The {322} screams in anger!
+The {322} seems perturbed...
+The {322} bulks up!
 Do nothing
 Fight
-Orders
+Order
 Tactics
 Scout
 Items
 Flee
 
-You've got a full complement of monsters, so you can't scout any more.
+You can't scout because the monster pen is full!
 Switch
 Forfeit
 Turns Remaining: {322}
@@ -77,12 +77,12 @@ A talented scouting!
 Scouting successful!
 Failed to scout!
 
-Weighing things up.
-Took offense!
+The monster is sizing things up.
+The monster took offense!
 
 
 Obtained {322} skill points!
-Level has reached the{315}maximum.
+{322} has reached max level!
 Obtained {328}!
 Forfeit the current battle.
 Return to the current battle.
@@ -100,7 +100,7 @@ This monster is special,{315}so it cannot be scouted!
 
 
 
-Unable to respond.
+Message not supported
 
 Attack restored!
 Defence restored!
@@ -108,18 +108,18 @@ Agility restored!
 Wisdom restored!
 The Insulatle has worn off!
 The poison has worn off!
-Not offended!
-Calming down a bit!
+The monster is not offended!
+The monster has calmed down a bit!
 The paralysis has worn off!
-The sleep has worn off!
-The confusion has worn off!
-Tongue Lashing has worn off!
-The dancing effects have worn off!
-No longer shocked!
-No longer shocked!
-Fizzle wears off!
-Ban Dance has worn off!
-Gobstop wears off!
+The monster woke up!
+The monster is no longer confused!
+The Tongue Lashing has worn off!
+The dance effect has worn off!
+The monster is no longer afraid!
+The monster is no longer afraid!
+The monster can cast spells again!
+The monster can dance again!
+The Gobstop effect has worn off!
 Accuracy restored!
 Accuracy restored!
 Accuracy restored!
@@ -146,6 +146,6 @@ Blade Blunter has worn off!
 Aha has worn off!
 Selflessness has worn off!
 Tacticlamp has worn off!
-Resurrected!
-The Lingering Malhaze has worn off!
+Resurrected!!
+Lingering Mahlhaze has worn off!
 Unnatural Order has worn off!
