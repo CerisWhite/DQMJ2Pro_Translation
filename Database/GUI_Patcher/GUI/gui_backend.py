@@ -81,6 +81,56 @@ def inject_splash_assets(root, data_dir):
         print(f"  {name} -> {dst}")
 
 
+
+TILE_SIZE_4BPP = 32
+
+
+def ncgr_tile_data_offset(data: bytes) -> int:
+    block = data.find(b"RGCN")
+    if block < 0:
+        raise RuntimeError("RGCN block not found")
+    if data[block + 16:block + 20] != b"RAHC":
+        raise RuntimeError("unexpected NCGR block magic")
+    return block + 16 + 32
+
+
+def copy_ncgr_tiles(path: Path, src_tile: int, dst_tile: int, n_tiles: int, label: str) -> None:
+    data = bytearray(path.read_bytes())
+    tile_off = ncgr_tile_data_offset(data)
+
+    src = tile_off + src_tile * TILE_SIZE_4BPP
+    dst = tile_off + dst_tile * TILE_SIZE_4BPP
+    n_bytes = n_tiles * TILE_SIZE_4BPP
+
+    data[dst:dst + n_bytes] = data[src:src + n_bytes]
+    path.write_bytes(bytes(data))
+
+    print(
+        f"  {label}: patched tiles {dst_tile}-{dst_tile + n_tiles - 1} "
+        f"<- tiles {src_tile}-{src_tile + n_tiles - 1} in {path}"
+    )
+
+
+def apply_baked_graphic_text_fixes(data_dir: Path) -> None:
+    """Copy already-present English baked glyph tiles over Japanese baked glyph tiles."""
+    print("Applying baked graphic text fixes...")
+
+    copy_ncgr_tiles(
+        data_dir / "d2_ObjBattleData.bin",
+        src_tile=136,
+        dst_tile=128,
+        n_tiles=8,
+        label="battle MISS popup",
+    )
+
+    copy_ncgr_tiles(
+        data_dir / "d2_ObjNaviMapData.bin",
+        src_tile=17,
+        dst_tile=4,
+        n_tiles=3,
+        label="navi-map Menu button",
+    )
+
 def find_ndstool(root, repo):
     if sys.platform.startswith("win"):
         bundled = root / "bundled" / "tools" / "windows" / "ndstool.exe"
@@ -378,6 +428,7 @@ def main(argv=None):
     ])
 
     inject_splash_assets(root, pro_rom / "data_dir")
+    apply_baked_graphic_text_fixes(pro_rom / "data_dir")
 
     print("Decompressing ARM9 for text tools...")
     run_py_script(tools_repo / "Pro_Tools" / "arm9tool.py", [
