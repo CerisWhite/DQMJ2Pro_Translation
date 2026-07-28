@@ -125,7 +125,7 @@ Immediate Oomph
 Immediate Buff
 Immediate Accelerate
 Immediate Tension
-Immediate Black Fog
+Immediate Black Mist
 Maximum HP +5
 Maximum HP +10
 Maximum HP +15
@@ -245,7 +245,7 @@ Random Oomph
 Random Buff
 Random Accelerate
 Random Tension
-Random Black Fog
+Random Black Mist
 Random Netherfog
 Random Break Seal
 Donkmeister
