@@ -125,7 +125,7 @@ Immediate Oomph
 Immediate Buff
 Immediate Accelerate
 Immediate Tension
-Immediate Black Fog
+Immediate Black Mist
 Maximum HP +5
 Maximum HP +10
 Maximum HP +15
@@ -234,7 +234,7 @@ Magical Sabotage Guard
 1-2 Actions
 Spell Satisfaction
 Suicidal Satisfaction
-Immediate Underworld Fog
+Immediate Netherfog
 Immediate Break Seal
 2-3 Actions
 2 Actions
@@ -245,8 +245,8 @@ Random Oomph
 Random Buff
 Random Accelerate
 Random Tension
-Random Black Fog
-Random Underworld Fog
+Random Black Mist
+Random Netherfog
 Random Break Seal
 Donkmeister
 
