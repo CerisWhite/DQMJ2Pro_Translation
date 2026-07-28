@@ -335,7 +335,7 @@ SYS_1E 0x8
 WAIT 0x10 0x2 0x41a00000
 SYS_42 0x8 
 SETNAME "Jamirus"
-SAY "{VOICE=07}So you've come in search of that giant bird..."
+SAY "{VOICE=07}Well, best of luck to you... Har har har!"
 SYS_44 0x8 
 SYS_43 0x8 
 WAIT 0x10 0x2 0x41200000
